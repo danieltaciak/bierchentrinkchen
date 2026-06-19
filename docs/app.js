@@ -17,20 +17,31 @@ let DATA = null;
 let PHONE_BY_ID = {};
 
 // Stats live on a separate, frequently-updated branch (scoreboard-data) so the
-// page on main stays static. Served via raw.githubusercontent with CORS; a
-// cache-buster keeps it near-live despite the CDN's max-age. Falls back to a
-// local copy for offline/local development.
-const DATA_URLS = [
-  "https://raw.githubusercontent.com/danieltaciak/bierchentrinkchen/scoreboard-data/stats.json",
-  "data/stats.json",
+// page on main stays static. We read them newest-first:
+//   1. GitHub contents API -- freshest (~60s edge cache), CORS-enabled, but
+//      rate-limited to 60 req/h per IP when unauthenticated;
+//   2. raw.githubusercontent -- unlimited, but its CDN caches each path for up
+//      to 5 min and ignores query strings, so it can lag a few minutes;
+//   3. a local copy for offline/local development.
+const DATA_SOURCES = [
+  {
+    url: "https://api.github.com/repos/danieltaciak/bierchentrinkchen/contents/stats.json?ref=scoreboard-data",
+    headers: { Accept: "application/vnd.github.raw" },
+  },
+  { url: "https://raw.githubusercontent.com/danieltaciak/bierchentrinkchen/scoreboard-data/stats.json" },
+  { url: "data/stats.json" },
 ];
 
 async function fetchStats() {
   let lastErr = null;
-  for (const url of DATA_URLS) {
+  for (const src of DATA_SOURCES) {
     try {
-      const res = await fetch(url + "?ts=" + Date.now(), { cache: "no-store" });
-      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+      const sep = src.url.includes("?") ? "&" : "?";
+      const res = await fetch(src.url + sep + "ts=" + Date.now(), {
+        cache: "no-store",
+        headers: src.headers || {},
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${src.url}`);
       return await res.json();
     } catch (e) {
       lastErr = e;
