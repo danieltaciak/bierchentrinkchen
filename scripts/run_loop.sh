@@ -57,13 +57,13 @@ PYEOF
 
 # Read current_count from the stats file currently published on the data branch.
 read_published_count() {
-  git show "${TRACKING_REF}:${DATA_PATH}" 2>/dev/null | "$PY" - <<'PYEOF' 2>/dev/null || true
+  git show "${TRACKING_REF}:${DATA_PATH}" 2>/dev/null | "$PY" -c '
 import json, sys
 try:
     print(int(json.load(sys.stdin).get("current_count")))
 except Exception:
     pass
-PYEOF
+' 2>/dev/null || true
 }
 
 # Publish $STATS_FILE to the data branch as $DATA_PATH using git plumbing,
