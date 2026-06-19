@@ -5,7 +5,13 @@
 # Runs forever. Once per interval it:
 #   1. pulls new WhatsApp messages into the local wacli store (`wacli sync --once`)
 #   2. regenerates docs/data/stats.json from the merged history
-#   3. commits & pushes, but only when the generated stats actually changed
+#   3. publishes that file to the data branch -- but only when the count rose
+#
+# The page itself lives on `main` (static) and reads the stats file dynamically
+# from the data branch via raw.githubusercontent. Data is therefore kept out of
+# `main`'s history and never triggers a Pages rebuild. Publishing is done with
+# git plumbing (hash-object / mktree / commit-tree), so the daemon never has to
+# check the branch out and never touches the working tree it runs in.
 #
 # Nothing here schedules itself: just start it (optionally under nohup, tmux, a
 # launchd/systemd unit, ...) and leave it running.
@@ -14,8 +20,10 @@
 #   SCOREBOARD_MIN_INTERVAL  fastest poll, used while counting is active (default 20)
 #   SCOREBOARD_MAX_INTERVAL  slowest poll, used when the group is quiet  (default 300)
 #   SCOREBOARD_INTERVAL      legacy fixed interval; if set, pins min=max  (optional)
-#   SCOREBOARD_BRANCH        branch to commit/push to          (default current)
-#   SCOREBOARD_NO_PUSH       set to 1 to commit but never push (default unset)
+#   SCOREBOARD_DATA_BRANCH   branch the stats file is published to (default scoreboard-data)
+#   SCOREBOARD_DATA_PATH     path of the stats file on that branch  (default stats.json)
+#   SCOREBOARD_REMOTE        git remote to push to                  (default origin)
+#   SCOREBOARD_NO_PUSH       set to 1 to build commits but never push (default unset)
 #   SCOREBOARD_SYNC_ARGS     extra args for `wacli sync`       (default empty)
 # Plus every variable understood by scripts/generate_stats.py.
 #
@@ -30,7 +38,10 @@ cd "$REPO_ROOT"
 
 STATS_FILE="docs/data/stats.json"
 PY="${PYTHON:-python3}"
-BRANCH="${SCOREBOARD_BRANCH:-$(git rev-parse --abbrev-ref HEAD)}"
+REMOTE="${SCOREBOARD_REMOTE:-origin}"
+DATA_BRANCH="${SCOREBOARD_DATA_BRANCH:-scoreboard-data}"
+DATA_PATH="${SCOREBOARD_DATA_PATH:-stats.json}"
+TRACKING_REF="refs/remotes/${REMOTE}/${DATA_BRANCH}"
 
 if [ -n "${SCOREBOARD_INTERVAL:-}" ]; then
   MIN_INTERVAL="$SCOREBOARD_INTERVAL"
@@ -58,15 +69,36 @@ except Exception:
 PYEOF
 }
 
-# Read current_count from the last committed version of the stats file.
-read_committed_count() {
-  git show "HEAD:${STATS_FILE}" 2>/dev/null | "$PY" - <<'PYEOF' 2>/dev/null || true
+# Read current_count from the stats file currently published on the data branch.
+read_published_count() {
+  git show "${TRACKING_REF}:${DATA_PATH}" 2>/dev/null | "$PY" - <<'PYEOF' 2>/dev/null || true
 import json, sys
 try:
     print(int(json.load(sys.stdin).get("current_count")))
 except Exception:
     pass
 PYEOF
+}
+
+# Publish $STATS_FILE to the data branch as $DATA_PATH using git plumbing,
+# without checking the branch out. Echoes the new commit sha on success.
+publish_stats() {
+  local count="$1" blob tree parent commit
+  blob=$(git hash-object -w "$STATS_FILE") || return 1
+  tree=$(printf '100644 blob %s\t%s\n' "$blob" "$DATA_PATH" | git mktree) || return 1
+  parent=$(git rev-parse -q --verify "$TRACKING_REF" || true)
+  if [ -n "$parent" ]; then
+    commit=$(git commit-tree "$tree" -p "$parent" \
+      -m "data: update scoreboard (count ${count})" \
+      -m "Automated stats refresh." \
+      -m "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>") || return 1
+  else
+    commit=$(git commit-tree "$tree" \
+      -m "data: update scoreboard (count ${count})" \
+      -m "Automated stats refresh." \
+      -m "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>") || return 1
+  fi
+  printf '%s\n' "$commit"
 }
 
 running=1
@@ -76,7 +108,7 @@ if ! command -v wacli >/dev/null 2>&1; then
   log "FATAL: wacli not found on PATH"; exit 1
 fi
 
-log "scoreboard daemon starting (interval ${MIN_INTERVAL}-${MAX_INTERVAL}s adaptive, branch=${BRANCH})"
+log "scoreboard daemon starting (interval ${MIN_INTERVAL}-${MAX_INTERVAL}s adaptive, publishing ${DATA_PATH} -> ${REMOTE}/${DATA_BRANCH})"
 
 while [ "$running" -eq 1 ]; do
   cycle_start=$(date +%s)
@@ -87,42 +119,42 @@ while [ "$running" -eq 1 ]; do
     log "warning: wacli sync failed (see /tmp/scoreboard_sync.log); using existing data"
   fi
 
+  # keep the local tracking ref current so the count comparison and commit
+  # parent reflect what is actually published (best-effort, never fatal).
+  git fetch -q "$REMOTE" "$DATA_BRANCH" 2>/dev/null \
+    && git update-ref "$TRACKING_REF" FETCH_HEAD 2>/dev/null || true
+
   # 2. regenerate stats
   if ! "$PY" scripts/generate_stats.py >/tmp/scoreboard_gen.log 2>&1; then
     log "error: generate_stats.py failed:"; sed 's/^/    /' /tmp/scoreboard_gen.log
   else
-    # 3. commit & push only when the published count actually increased.
+    # 3. publish to the data branch only when the count actually increased.
     #    This guards against regressions (e.g. a missing _chat.txt export that
     #    would drop the count and everyone's points) ever reaching the site,
     #    and against re-publishing an unchanged count on every cycle.
-    if ! git diff --quiet -- "$STATS_FILE"; then
-      new_count="$(read_count "$STATS_FILE")"
-      prev_count="$(read_committed_count)"
-      : "${prev_count:=-1}"
+    new_count="$(read_count "$STATS_FILE")"
+    prev_count="$(read_published_count)"
+    : "${prev_count:=-1}"
 
-      if [ -z "$new_count" ]; then
-        log "warning: could not read new count; discarding regenerated stats"
-        git checkout -q -- "$STATS_FILE"
-      elif [ "$new_count" -gt "$prev_count" ]; then
+    if [ -z "$new_count" ]; then
+      log "warning: could not read new count; skipping publish"
+    elif [ "$new_count" -gt "$prev_count" ]; then
+      commit="$(publish_stats "$new_count")"
+      if [ -z "$commit" ]; then
+        log "error: failed to build data commit; will retry next cycle"
+      elif [ "${SCOREBOARD_NO_PUSH:-0}" = "1" ]; then
         advanced=1
-        git add "$STATS_FILE"
-        git commit -q -m "data: update scoreboard (count ${new_count})" \
-          -m "Automated stats refresh." \
-          --trailer "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
-        log "committed update (count ${prev_count} -> ${new_count})"
-        if [ "${SCOREBOARD_NO_PUSH:-0}" != "1" ]; then
-          if git push -q origin "HEAD:${BRANCH}"; then
-            log "pushed to origin/${BRANCH}"
-          else
-            log "warning: git push failed; will retry next cycle"
-          fi
-        fi
+        git update-ref "$TRACKING_REF" "$commit"
+        log "built data commit ${commit:0:12} (count ${prev_count} -> ${new_count}); push skipped"
+      elif git push -q "$REMOTE" "${commit}:refs/heads/${DATA_BRANCH}"; then
+        advanced=1
+        git update-ref "$TRACKING_REF" "$commit"
+        log "published count ${prev_count} -> ${new_count} to ${REMOTE}/${DATA_BRANCH}"
       else
-        log "count did not increase (${prev_count} -> ${new_count}); not pushing"
-        git checkout -q -- "$STATS_FILE"
+        log "warning: git push failed; will retry next cycle"
       fi
     else
-      log "no change in ${STATS_FILE}"
+      log "count did not increase (${prev_count} -> ${new_count}); not publishing"
     fi
   fi
 

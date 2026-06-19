@@ -16,10 +16,32 @@ const SVGNS = "http://www.w3.org/2000/svg";
 let DATA = null;
 let PHONE_BY_ID = {};
 
+// Stats live on a separate, frequently-updated branch (scoreboard-data) so the
+// page on main stays static. Served via raw.githubusercontent with CORS; a
+// cache-buster keeps it near-live despite the CDN's max-age. Falls back to a
+// local copy for offline/local development.
+const DATA_URLS = [
+  "https://raw.githubusercontent.com/danieltaciak/bierchentrinkchen/scoreboard-data/stats.json",
+  "data/stats.json",
+];
+
+async function fetchStats() {
+  let lastErr = null;
+  for (const url of DATA_URLS) {
+    try {
+      const res = await fetch(url + "?ts=" + Date.now(), { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+      return await res.json();
+    } catch (e) {
+      lastErr = e;
+    }
+  }
+  throw lastErr || new Error("no data source reachable");
+}
+
 async function load() {
   try {
-    const res = await fetch("data/stats.json?ts=" + Date.now());
-    DATA = await res.json();
+    DATA = await fetchStats();
   } catch (e) {
     document.getElementById("bigCount").textContent = "ERR";
     console.error(e);
