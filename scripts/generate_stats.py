@@ -136,6 +136,33 @@ def norm_name(name: str) -> str:
 _TITLES = {"dr", "prof", "mr", "mrs", "ms", "herr", "frau", "sir"}
 
 
+# Common country calling codes, used only to split a leading code off a phone
+# number for the anonymised "+49 176 •••• 10" hint. Matched longest-first.
+_COUNTRY_CODES = {
+    "1", "7",
+    "20", "27", "30", "31", "32", "33", "34", "36", "39", "40", "41", "43",
+    "44", "45", "46", "47", "48", "49", "51", "52", "53", "54", "55", "56",
+    "57", "58", "60", "61", "62", "63", "64", "65", "66", "81", "82", "84",
+    "86", "90", "91", "92", "93", "94", "95", "98",
+    "212", "213", "216", "218", "220", "221", "234", "254", "351", "352",
+    "353", "354", "355", "356", "357", "358", "359", "370", "371", "372",
+    "373", "374", "375", "376", "377", "378", "380", "381", "382", "383",
+    "385", "386", "387", "389", "420", "421", "423", "852", "853", "855",
+    "856", "880", "886", "962", "963", "964", "965", "966", "968", "970",
+    "971", "972", "973", "974", "975", "976", "977", "992", "993", "994",
+    "995", "996", "998",
+}
+
+
+def split_country_code(digits: str) -> tuple[str, str]:
+    """Split a leading country calling code off a digit string (longest match).
+    Falls back to a two-digit code when none is recognised."""
+    for n in (3, 2, 1):
+        if digits[:n] in _COUNTRY_CODES:
+            return digits[:n], digits[n:]
+    return digits[:2], digits[2:]
+
+
 def shorten_name(name: str) -> str | None:
     """Reduce any name to a low-identifiability label: first name + last-name
     initial, honorifics stripped (e.g. "Felix Wild" -> "Felix W.",
@@ -567,43 +594,30 @@ def main() -> int:
 
     busiest_day = max(per_day.items(), key=lambda x: x[1], default=(None, 0))
 
-    # Collision-aware display names: shortening "First L." can map two different
-    # people onto the same label, so append "#N" to disambiguate. Numbering is
-    # ordered by the stable player key (not points) so a person keeps the same
-    # suffix across runs even as scores change.
-    all_keys: set[str] = set(points)
-    all_keys |= set(assists_given) | set(assists_received)
-    all_keys |= set(last24) | set(night) | set(early) | set(longest_streak)
-    all_keys.update(e["phone"] for e in events)
-    all_keys.update(e["scorer"] for e in events)
-    if cur_streak_phone:
-        all_keys.add(cur_streak_phone)
-    if biggest_msg["phone"]:
-        all_keys.add(biggest_msg["phone"])
+    name_of = display_for
 
-    base_name = {k: display_for(k) for k in all_keys}
-    by_base: dict[str, list[str]] = defaultdict(list)
-    for k, nm in base_name.items():
-        by_base[nm].append(k)
-
-    final_name: dict[str, str] = {}
-    for nm, keys in by_base.items():
-        if len(keys) == 1:
-            final_name[keys[0]] = nm
-            continue
-        for i, k in enumerate(sorted(keys), 1):
-            final_name[k] = f"{nm} #{i}"
-
-    def name_of(key: str) -> str:
-        cached = final_name.get(key)
-        if cached is not None:
-            return cached
-        return display_for(key)
+    def anon_phone(key: str) -> str | None:
+        """Render a non-identifying phone hint: country code + mobile prefix,
+        the middle masked, last two digits shown (e.g. "+49 176 •••• 10").
+        Returns None for export-only players with no known phone number.
+        """
+        if not key.startswith("p:"):
+            return None
+        digits = "".join(ch for ch in key[2:] if ch.isdigit())
+        if len(digits) < 6:
+            return None
+        cc, rest = split_country_code(digits)
+        last2 = rest[-2:]
+        if len(rest) >= 5:
+            prefix = rest[:3]
+            return f"+{cc} {prefix} \u2022\u2022\u2022\u2022 {last2}"
+        return f"+{cc} \u2022\u2022\u2022\u2022 {last2}"
 
     def player_obj(ph: str) -> dict:
         return {
             "id": pid(ph),
             "name": name_of(ph),
+            "anon_phone": anon_phone(ph),
             "points": points[ph],
             "pct": round(100 * points[ph] / current, 2) if current else 0,
             "last24h": last24[ph],

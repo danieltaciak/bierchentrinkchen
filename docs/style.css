@@ -188,6 +188,14 @@ section { margin: 26px 0; }
 .leaderboard li.top3 .lrank { color: var(--bronze); }
 .leaderboard .lname { font-size: 1.2rem; overflow-wrap: anywhere; }
 .leaderboard .lname small { color: var(--muted); font-size: 0.9rem; }
+.phone-hint {
+  display: block;
+  font-family: var(--read);
+  font-size: 0.78rem;
+  color: #6b75a8;
+  letter-spacing: 0.04em;
+  margin-top: 2px;
+}
 .leaderboard .lval { font-size: 0.7rem; color: var(--gold); text-shadow: 2px 2px 0 #000; white-space: nowrap; }
 .leaderboard .lunit { font-family: var(--read); font-size: 0.85rem; color: var(--muted); }
 .leaderboard .lbar {

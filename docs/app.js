@@ -14,6 +14,7 @@ const BOARD_UNITS = {
 const SVGNS = "http://www.w3.org/2000/svg";
 
 let DATA = null;
+let PHONE_BY_ID = {};
 
 async function load() {
   try {
@@ -24,7 +25,16 @@ async function load() {
     console.error(e);
     return;
   }
+  PHONE_BY_ID = {};
+  for (const p of DATA.players || []) {
+    if (p.anon_phone) PHONE_BY_ID[p.id] = p.anon_phone;
+  }
   render();
+}
+
+// small grey anonymised-phone line shown below a name
+function phoneLine(phone) {
+  return phone ? `<span class="phone-hint">${esc(phone)}</span>` : "";
 }
 
 function render() {
@@ -179,6 +189,7 @@ function renderParty() {
           <div class="lvl">RANG ${idx + 1}</div>
           ${avatarSVG(p.id)}
           <div class="pname">${esc(p.name)}</div>
+          ${phoneLine(p.anon_phone)}
           <div class="ppoints">${fmt(p.points)}</div>
           <div class="plabel">Bierle · ${p.pct.toString().replace(".", ",")} %</div>
         </div>`;
@@ -212,6 +223,7 @@ function boardRows(board) {
   if (board === "all") {
     return DATA.players.slice(0, 25).map((p) => ({
       name: p.name, value: p.points, sub: p.pct.toString().replace(".", ",") + " %",
+      phone: p.anon_phone,
     }));
   }
   if (board === "last24h") {
@@ -219,10 +231,10 @@ function boardRows(board) {
       .filter((p) => p.last24h > 0)
       .sort((a, b) => b.last24h - a.last24h)
       .slice(0, 25)
-      .map((p) => ({ name: p.name, value: p.last24h, sub: "" }));
+      .map((p) => ({ name: p.name, value: p.last24h, sub: "", phone: p.anon_phone }));
   }
   return (DATA.leaderboards?.[board] || []).map((e) => ({
-    name: e.name, value: e.value, sub: "",
+    name: e.name, value: e.value, sub: "", phone: PHONE_BY_ID[e.id],
   }));
 }
 
@@ -238,7 +250,7 @@ function renderBoard(board) {
       return `
         <li class="${rankCls}">
           <span class="lrank">${String(i + 1).padStart(2, "0")}</span>
-          <span class="lname">${esc(r.name)}${sub}</span>
+          <span class="lname">${esc(r.name)}${sub}${phoneLine(r.phone)}</span>
           <span class="lval">${fmt(r.value)} <span class="lunit">${unit}</span></span>
           <span class="lbar" style="width:${w}%"></span>
         </li>`;
@@ -263,6 +275,7 @@ function renderRecords() {
     r.longest_streak && {
       title: "Längste Serie",
       name: r.longest_streak.name,
+      phone: PHONE_BY_ID[r.longest_streak.id],
       value: `${r.longest_streak.value} Bierle am Stück (bis ${fmt(r.longest_streak.end_n)})`,
     },
     r.busiest_day && {
@@ -273,16 +286,19 @@ function renderRecords() {
     r.night_owl && {
       title: "Nachteule",
       name: r.night_owl.name,
+      phone: PHONE_BY_ID[r.night_owl.id],
       value: `${r.night_owl.value} Bierle zwischen 0 und 5 Uhr`,
     },
     r.early_bird && {
       title: "Frühaufstehende",
       name: r.early_bird.name,
+      phone: PHONE_BY_ID[r.early_bird.id],
       value: `${r.early_bird.value} Bierle am frühen Morgen`,
     },
     r.top_assist && {
       title: "Meiste Vorlagen",
       name: r.top_assist.name,
+      phone: PHONE_BY_ID[r.top_assist.id],
       value: `${r.top_assist.value} Punkte an andere verteilt`,
     },
   ].filter(Boolean);
@@ -293,6 +309,7 @@ function renderRecords() {
       <div class="record-card">
         <div class="rc-title">${c.title}</div>
         <div class="rc-name">${esc(c.name)}</div>
+        ${phoneLine(c.phone)}
         <div class="rc-value">${esc(c.value)}</div>
       </div>`
     )
