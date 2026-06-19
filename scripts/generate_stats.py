@@ -515,7 +515,19 @@ def main() -> int:
         else:
             targets = [sender_key] * k
 
-        for n, target in zip(accepted, targets):
+        # Fill numbers skipped *within this message*: if the same message jumps
+        # from e.g. 1670 to 1673, assume 1671 and 1672 were counted too and
+        # credit them to the same counter as the number that follows the gap.
+        scored: list[tuple[int, str]] = []
+        for idx, (n, target) in enumerate(zip(accepted, targets)):
+            if idx > 0:
+                prev_n = accepted[idx - 1]
+                if n - prev_n - 1 <= MAX_GAP:
+                    for missing in range(prev_n + 1, n):
+                        scored.append((missing, target))
+            scored.append((n, target))
+
+        for n, target in scored:
             events.append({
                 "n": n,
                 "phone": target,
