@@ -17,19 +17,13 @@
 # launchd/systemd unit, ...) and leave it running.
 #
 # Configuration (environment):
-#   SCOREBOARD_MIN_INTERVAL  fastest poll, used while counting is active (default 20)
-#   SCOREBOARD_MAX_INTERVAL  slowest poll, used when the group is quiet  (default 300)
-#   SCOREBOARD_INTERVAL      legacy fixed interval; if set, pins min=max  (optional)
+#   SCOREBOARD_INTERVAL      seconds between cycles (default 30)
 #   SCOREBOARD_DATA_BRANCH   branch the stats file is published to (default scoreboard-data)
 #   SCOREBOARD_DATA_PATH     path of the stats file on that branch  (default stats.json)
 #   SCOREBOARD_REMOTE        git remote to push to                  (default origin)
 #   SCOREBOARD_NO_PUSH       set to 1 to build commits but never push (default unset)
 #   SCOREBOARD_SYNC_ARGS     extra args for `wacli sync`       (default empty)
 # Plus every variable understood by scripts/generate_stats.py.
-#
-# Polling is adaptive: after a cycle that raised the count it drops back to
-# MIN_INTERVAL (stay responsive while people are counting); after each quiet
-# cycle it backs off geometrically toward MAX_INTERVAL.
 
 set -uo pipefail
 
@@ -43,16 +37,8 @@ DATA_BRANCH="${SCOREBOARD_DATA_BRANCH:-scoreboard-data}"
 DATA_PATH="${SCOREBOARD_DATA_PATH:-stats.json}"
 TRACKING_REF="refs/remotes/${REMOTE}/${DATA_BRANCH}"
 
-if [ -n "${SCOREBOARD_INTERVAL:-}" ]; then
-  MIN_INTERVAL="$SCOREBOARD_INTERVAL"
-  MAX_INTERVAL="$SCOREBOARD_INTERVAL"
-else
-  MIN_INTERVAL="${SCOREBOARD_MIN_INTERVAL:-20}"
-  MAX_INTERVAL="${SCOREBOARD_MAX_INTERVAL:-300}"
-fi
-[ "$MIN_INTERVAL" -lt 1 ] && MIN_INTERVAL=1
-[ "$MAX_INTERVAL" -lt "$MIN_INTERVAL" ] && MAX_INTERVAL="$MIN_INTERVAL"
-interval="$MIN_INTERVAL"
+INTERVAL="${SCOREBOARD_INTERVAL:-30}"
+[ "$INTERVAL" -lt 1 ] && INTERVAL=1
 
 log() { printf '%s %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$*"; }
 
@@ -108,11 +94,10 @@ if ! command -v wacli >/dev/null 2>&1; then
   log "FATAL: wacli not found on PATH"; exit 1
 fi
 
-log "scoreboard daemon starting (interval ${MIN_INTERVAL}-${MAX_INTERVAL}s adaptive, publishing ${DATA_PATH} -> ${REMOTE}/${DATA_BRANCH})"
+log "scoreboard daemon starting (interval ${INTERVAL}s, publishing ${DATA_PATH} -> ${REMOTE}/${DATA_BRANCH})"
 
 while [ "$running" -eq 1 ]; do
   cycle_start=$(date +%s)
-  advanced=0
 
   # 1. fetch new messages (best-effort; never fatal)
   if ! wacli sync --once ${SCOREBOARD_SYNC_ARGS:-} >/tmp/scoreboard_sync.log 2>&1; then
@@ -143,11 +128,9 @@ while [ "$running" -eq 1 ]; do
       if [ -z "$commit" ]; then
         log "error: failed to build data commit; will retry next cycle"
       elif [ "${SCOREBOARD_NO_PUSH:-0}" = "1" ]; then
-        advanced=1
         git update-ref "$TRACKING_REF" "$commit"
         log "built data commit ${commit:0:12} (count ${prev_count} -> ${new_count}); push skipped"
       elif git push -q "$REMOTE" "${commit}:refs/heads/${DATA_BRANCH}"; then
-        advanced=1
         git update-ref "$TRACKING_REF" "$commit"
         log "published count ${prev_count} -> ${new_count} to ${REMOTE}/${DATA_BRANCH}"
       else
@@ -160,18 +143,9 @@ while [ "$running" -eq 1 ]; do
 
   [ "$running" -eq 1 ] || break
 
-  # adaptive interval: snap to MIN after progress, back off geometrically
-  # (x2, capped at MAX) through quiet cycles.
-  if [ "$advanced" -eq 1 ]; then
-    interval="$MIN_INTERVAL"
-  else
-    interval=$(( interval * 2 ))
-    [ "$interval" -gt "$MAX_INTERVAL" ] && interval="$MAX_INTERVAL"
-  fi
-
   # sleep the remainder of the interval, but stay responsive to signals
   elapsed=$(( $(date +%s) - cycle_start ))
-  remaining=$(( interval - elapsed ))
+  remaining=$(( INTERVAL - elapsed ))
   [ "$remaining" -lt 1 ] && remaining=1
   for _ in $(seq "$remaining"); do
     [ "$running" -eq 1 ] || break

@@ -27,11 +27,9 @@
         <string>__WACLI_BIN_DIR__:/usr/bin:/bin:/usr/sbin:/sbin</string>
         <key>HOME</key>
         <string>__HOME__</string>
-        <!-- adaptiv pollen (schnell waehrend gezaehlt wird, sonst langsamer); Stats werden auf den Daten-Branch publiziert -->
-        <key>SCOREBOARD_MIN_INTERVAL</key>
-        <string>20</string>
-        <key>SCOREBOARD_MAX_INTERVAL</key>
-        <string>300</string>
+        <!-- alle 30s pollen; Stats werden auf den Daten-Branch publiziert -->
+        <key>SCOREBOARD_INTERVAL</key>
+        <string>30</string>
         <key>SCOREBOARD_DATA_BRANCH</key>
         <string>scoreboard-data</string>
     </dict>

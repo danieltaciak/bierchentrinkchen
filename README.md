@@ -93,18 +93,14 @@ Konfiguration über Umgebungsvariablen:
 
 | Variable                  | Default           | Zweck                                              |
 | ------------------------- | ----------------- | -------------------------------------------------- |
-| `SCOREBOARD_MIN_INTERVAL` | `20`              | schnellster Poll-Abstand (während aktiv gezählt wird) |
-| `SCOREBOARD_MAX_INTERVAL` | `300`             | langsamster Poll-Abstand (wenn die Gruppe ruhig ist)  |
-| `SCOREBOARD_INTERVAL`     | —                 | fester Abstand; falls gesetzt, deaktiviert die Adaptivität |
+| `SCOREBOARD_INTERVAL`     | `30`              | Abstand zwischen den Zyklen (Sekunden)             |
 | `SCOREBOARD_DATA_BRANCH`  | `scoreboard-data` | Branch, auf den die Statistik publiziert wird      |
 | `SCOREBOARD_DATA_PATH`    | `stats.json`      | Dateipfad der Statistik auf dem Daten-Branch       |
 | `SCOREBOARD_REMOTE`       | `origin`          | git-Remote für den Push                            |
 | `SCOREBOARD_NO_PUSH`      | —                 | `1` = Daten-Commit bauen, aber nicht pushen        |
 | `SCOREBOARD_SYNC_ARGS`    | —                 | zusätzliche Argumente für `wacli sync`             |
 
-Das Polling ist adaptiv: Nach einem Zyklus, der den Zählerstand erhöht hat, wird
-wieder auf `MIN_INTERVAL` gesprungen (reaktionsschnell, solange gezählt wird);
-nach jedem ruhigen Zyklus verdoppelt sich der Abstand bis maximal `MAX_INTERVAL`.
+Der Daemon pollt in festem Abstand (`SCOREBOARD_INTERVAL`, Standard 30s).
 Publiziert wird ausschließlich, wenn der Zählerstand tatsächlich gestiegen ist —
 und zwar per git-Plumbing direkt auf den Daten-Branch, ohne diesen auszuchecken
 und ohne den `main`-Arbeitsbaum anzufassen.
@@ -139,8 +135,8 @@ Voraussetzungen für den Dauerbetrieb ohne Nachfragen:
   osxkeychain` und einmal manuell pushen, oder `gh auth login`). Sonst bleibt der
   Daemon beim Push hängen.
 
-Der Agent setzt `SCOREBOARD_DATA_BRANCH=scoreboard-data` sowie
-`SCOREBOARD_MIN_INTERVAL=20` und `SCOREBOARD_MAX_INTERVAL=300`; anpassen in
+Der Agent setzt `SCOREBOARD_DATA_BRANCH=scoreboard-data` und
+`SCOREBOARD_INTERVAL=30`; anpassen in
 `deploy/com.bierchentrinkchen.scoreboard.plist` und neu installieren.
 
 Auf Linux entspricht das einem analogen systemd-User-Service (`Restart=always`),
