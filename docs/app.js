@@ -71,7 +71,7 @@ function renderQuickStats() {
   const tl = DATA.timeline || [];
   const today = tl.length ? tl[tl.length - 1].count : 0;
   const stats = [
-    { v: fmt(DATA.num_players), l: "Mitzähler" },
+    { v: fmt(DATA.num_players), l: "Mittrinkende" },
     { v: fmt(today), l: "heute" },
     { v: fmt(DATA.records?.busiest_day?.value || 0), l: "Tagesrekord" },
     { v: fmt(DATA.records?.longest_streak?.value || 0), l: "längste Serie" },
@@ -276,7 +276,7 @@ function renderRecords() {
       value: `${r.night_owl.value} Bierle zwischen 0 und 5 Uhr`,
     },
     r.early_bird && {
-      title: "Frühaufsteher",
+      title: "Frühaufstehende",
       name: r.early_bird.name,
       value: `${r.early_bird.value} Bierle am frühen Morgen`,
     },
