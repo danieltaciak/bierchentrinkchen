@@ -11,21 +11,37 @@
 # launchd/systemd unit, ...) and leave it running.
 #
 # Configuration (environment):
-#   SCOREBOARD_INTERVAL   seconds between cycles            (default 60)
-#   SCOREBOARD_BRANCH     branch to commit/push to          (default current)
-#   SCOREBOARD_NO_PUSH    set to 1 to commit but never push (default unset)
-#   SCOREBOARD_SYNC_ARGS  extra args for `wacli sync`       (default empty)
+#   SCOREBOARD_MIN_INTERVAL  fastest poll, used while counting is active (default 20)
+#   SCOREBOARD_MAX_INTERVAL  slowest poll, used when the group is quiet  (default 300)
+#   SCOREBOARD_INTERVAL      legacy fixed interval; if set, pins min=max  (optional)
+#   SCOREBOARD_BRANCH        branch to commit/push to          (default current)
+#   SCOREBOARD_NO_PUSH       set to 1 to commit but never push (default unset)
+#   SCOREBOARD_SYNC_ARGS     extra args for `wacli sync`       (default empty)
 # Plus every variable understood by scripts/generate_stats.py.
+#
+# Polling is adaptive: after a cycle that raised the count it drops back to
+# MIN_INTERVAL (stay responsive while people are counting); after each quiet
+# cycle it backs off geometrically toward MAX_INTERVAL.
 
 set -uo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO_ROOT"
 
-INTERVAL="${SCOREBOARD_INTERVAL:-60}"
 STATS_FILE="docs/data/stats.json"
 PY="${PYTHON:-python3}"
 BRANCH="${SCOREBOARD_BRANCH:-$(git rev-parse --abbrev-ref HEAD)}"
+
+if [ -n "${SCOREBOARD_INTERVAL:-}" ]; then
+  MIN_INTERVAL="$SCOREBOARD_INTERVAL"
+  MAX_INTERVAL="$SCOREBOARD_INTERVAL"
+else
+  MIN_INTERVAL="${SCOREBOARD_MIN_INTERVAL:-20}"
+  MAX_INTERVAL="${SCOREBOARD_MAX_INTERVAL:-300}"
+fi
+[ "$MIN_INTERVAL" -lt 1 ] && MIN_INTERVAL=1
+[ "$MAX_INTERVAL" -lt "$MIN_INTERVAL" ] && MAX_INTERVAL="$MIN_INTERVAL"
+interval="$MIN_INTERVAL"
 
 log() { printf '%s %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$*"; }
 
@@ -60,10 +76,11 @@ if ! command -v wacli >/dev/null 2>&1; then
   log "FATAL: wacli not found on PATH"; exit 1
 fi
 
-log "scoreboard daemon starting (interval=${INTERVAL}s, branch=${BRANCH})"
+log "scoreboard daemon starting (interval ${MIN_INTERVAL}-${MAX_INTERVAL}s adaptive, branch=${BRANCH})"
 
 while [ "$running" -eq 1 ]; do
   cycle_start=$(date +%s)
+  advanced=0
 
   # 1. fetch new messages (best-effort; never fatal)
   if ! wacli sync --once ${SCOREBOARD_SYNC_ARGS:-} >/tmp/scoreboard_sync.log 2>&1; then
@@ -76,7 +93,8 @@ while [ "$running" -eq 1 ]; do
   else
     # 3. commit & push only when the published count actually increased.
     #    This guards against regressions (e.g. a missing _chat.txt export that
-    #    would drop the count and everyone's points) ever reaching the site.
+    #    would drop the count and everyone's points) ever reaching the site,
+    #    and against re-publishing an unchanged count on every cycle.
     if ! git diff --quiet -- "$STATS_FILE"; then
       new_count="$(read_count "$STATS_FILE")"
       prev_count="$(read_committed_count)"
@@ -86,6 +104,7 @@ while [ "$running" -eq 1 ]; do
         log "warning: could not read new count; discarding regenerated stats"
         git checkout -q -- "$STATS_FILE"
       elif [ "$new_count" -gt "$prev_count" ]; then
+        advanced=1
         git add "$STATS_FILE"
         git commit -q -m "data: update scoreboard (count ${new_count})" \
           -m "Automated stats refresh." \
@@ -109,9 +128,18 @@ while [ "$running" -eq 1 ]; do
 
   [ "$running" -eq 1 ] || break
 
+  # adaptive interval: snap to MIN after progress, back off geometrically
+  # (x2, capped at MAX) through quiet cycles.
+  if [ "$advanced" -eq 1 ]; then
+    interval="$MIN_INTERVAL"
+  else
+    interval=$(( interval * 2 ))
+    [ "$interval" -gt "$MAX_INTERVAL" ] && interval="$MAX_INTERVAL"
+  fi
+
   # sleep the remainder of the interval, but stay responsive to signals
   elapsed=$(( $(date +%s) - cycle_start ))
-  remaining=$(( INTERVAL - elapsed ))
+  remaining=$(( interval - elapsed ))
   [ "$remaining" -lt 1 ] && remaining=1
   for _ in $(seq "$remaining"); do
     [ "$running" -eq 1 ] || break

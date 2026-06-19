@@ -27,9 +27,11 @@
         <string>__WACLI_BIN_DIR__:/usr/bin:/bin:/usr/sbin:/sbin</string>
         <key>HOME</key>
         <string>__HOME__</string>
-        <!-- einmal pro Minute synchronisieren und nach main pushen -->
-        <key>SCOREBOARD_INTERVAL</key>
-        <string>60</string>
+        <!-- adaptiv pollen (schnell waehrend gezaehlt wird, sonst langsamer) und nach main pushen -->
+        <key>SCOREBOARD_MIN_INTERVAL</key>
+        <string>20</string>
+        <key>SCOREBOARD_MAX_INTERVAL</key>
+        <string>300</string>
         <key>SCOREBOARD_BRANCH</key>
         <string>main</string>
     </dict>

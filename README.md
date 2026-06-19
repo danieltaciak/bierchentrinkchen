@@ -84,12 +84,19 @@ nohup scripts/run_loop.sh > ~/scoreboard.log 2>&1 &
 
 Konfiguration über Umgebungsvariablen:
 
-| Variable                | Default        | Zweck                                  |
-| ----------------------- | -------------- | -------------------------------------- |
-| `SCOREBOARD_INTERVAL`   | `60`           | Sekunden zwischen den Zyklen           |
-| `SCOREBOARD_BRANCH`     | aktueller      | Branch für Commit/Push                 |
-| `SCOREBOARD_NO_PUSH`    | —              | `1` = committen, aber nicht pushen     |
-| `SCOREBOARD_SYNC_ARGS`  | —              | zusätzliche Argumente für `wacli sync` |
+| Variable                  | Default   | Zweck                                              |
+| ------------------------- | --------- | -------------------------------------------------- |
+| `SCOREBOARD_MIN_INTERVAL` | `20`      | schnellster Poll-Abstand (während aktiv gezählt wird) |
+| `SCOREBOARD_MAX_INTERVAL` | `300`     | langsamster Poll-Abstand (wenn die Gruppe ruhig ist)  |
+| `SCOREBOARD_INTERVAL`     | —         | fester Abstand; falls gesetzt, deaktiviert die Adaptivität |
+| `SCOREBOARD_BRANCH`       | aktueller | Branch für Commit/Push                             |
+| `SCOREBOARD_NO_PUSH`      | —         | `1` = committen, aber nicht pushen                 |
+| `SCOREBOARD_SYNC_ARGS`    | —         | zusätzliche Argumente für `wacli sync`             |
+
+Das Polling ist adaptiv: Nach einem Zyklus, der den Zählerstand erhöht hat, wird
+wieder auf `MIN_INTERVAL` gesprungen (reaktionsschnell, solange gezählt wird);
+nach jedem ruhigen Zyklus verdoppelt sich der Abstand bis maximal `MAX_INTERVAL`.
+Gepusht wird ausschließlich, wenn der Zählerstand tatsächlich gestiegen ist.
 
 Der Daemon ist fehlertolerant: schlägt ein Sync oder Push fehl, wird im nächsten
 Zyklus erneut versucht. Mit `Ctrl+C` (SIGINT/SIGTERM) beendet er sich sauber nach
@@ -122,8 +129,9 @@ Voraussetzungen für den Dauerbetrieb ohne Nachfragen:
   osxkeychain` und einmal manuell pushen, oder `gh auth login`). Sonst bleibt der
   Daemon beim Push hängen.
 
-Der Agent setzt `SCOREBOARD_BRANCH=main` und `SCOREBOARD_INTERVAL=60`; anpassen
-in `deploy/com.bierchentrinkchen.scoreboard.plist` und neu installieren.
+Der Agent setzt `SCOREBOARD_BRANCH=main` sowie `SCOREBOARD_MIN_INTERVAL=20` und
+`SCOREBOARD_MAX_INTERVAL=300`; anpassen in
+`deploy/com.bierchentrinkchen.scoreboard.plist` und neu installieren.
 
 Auf Linux entspricht das einem analogen systemd-User-Service (`Restart=always`),
 der `scripts/run_loop.sh` startet — die Vorlage lässt sich 1:1 übertragen.
