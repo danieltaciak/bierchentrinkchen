@@ -136,10 +136,11 @@ def norm_name(name: str) -> str:
 _TITLES = {"dr", "prof", "mr", "mrs", "ms", "herr", "frau", "sir"}
 
 
-def og_label(name: str) -> str | None:
-    """Reduce a private address-book name to a low-identifiability public label:
-    first name + last-name initial, marked with an [og] prefix
-    (e.g. "Felix Wild" -> "[og] Felix W.").
+def shorten_name(name: str) -> str | None:
+    """Reduce any name to a low-identifiability label: first name + last-name
+    initial, honorifics stripped (e.g. "Felix Wild" -> "Felix W.",
+    "Dr. Prof. Jakob Bauer" -> "Jakob B."). Single-token names are kept as-is.
+    Returns None if nothing usable remains.
     """
     parts = [p for p in re.split(r"\s+", (name or "").strip()) if p]
     parts = [p for p in parts if p.lower().strip(".") not in _TITLES]
@@ -148,8 +149,17 @@ def og_label(name: str) -> str | None:
         return None
     first = parts[0]
     if len(parts) == 1:
-        return f"[og] {first}"
-    return f"[og] {first} {parts[-1][0].upper()}."
+        return first
+    return f"{first} {parts[-1][0].upper()}."
+
+
+def og_label(name: str) -> str | None:
+    """Reduce a private address-book name to a public label, marked with an
+    [og] prefix to flag it came from the operator's contacts
+    (e.g. "Felix Wild" -> "[og] Felix W.").
+    """
+    short = shorten_name(name)
+    return f"[og] {short}" if short else None
 
 
 def norm_text(text: str) -> str:
@@ -337,8 +347,8 @@ def main() -> int:
 
     def display_for(key: str) -> str:
         # Naming policy, highest priority first:
-        #   1. self-set WhatsApp name (push/business) -- safe to publish as-is
-        #   2. manual override
+        #   1. self-set WhatsApp name (push/business), reduced to "First L."
+        #   2. manual override (published verbatim)
         #   3. private address-book contact -> reduced "[og] First L." label
         #   4. otherwise anonymous
         if key.startswith("p:"):
@@ -349,7 +359,7 @@ def main() -> int:
             if resolver:
                 self_set = resolver.self_set_name(phone)
                 if self_set:
-                    return self_set
+                    return shorten_name(self_set) or self_set
             override = name_overrides.get(phone)
             if override:
                 return override
@@ -361,7 +371,7 @@ def main() -> int:
             # address book (handled above); here it is a genuine group name.
             name = phone_to_export_name.get(phone)
             if name and any(c.isalnum() for c in name):
-                return name
+                return shorten_name(name) or name
             return anon
 
         # Export-only player with no matched phone. If the group-presented name
@@ -374,7 +384,7 @@ def main() -> int:
         display = votes.most_common(1)[0][0] if votes else nm.title()
         if nm in ab_name_set:
             return og_label(display) or f"Anonymous \u2022\u2022{pid(key)[:4]}"
-        return display
+        return shorten_name(display) or display
 
     # ----- build the unified timeline ---------------------------------------
     # The export is authoritative for everything up to its final message; wacli
@@ -557,7 +567,38 @@ def main() -> int:
 
     busiest_day = max(per_day.items(), key=lambda x: x[1], default=(None, 0))
 
-    name_of = display_for
+    # Collision-aware display names: shortening "First L." can map two different
+    # people onto the same label, so append "#N" to disambiguate. Numbering is
+    # ordered by the stable player key (not points) so a person keeps the same
+    # suffix across runs even as scores change.
+    all_keys: set[str] = set(points)
+    all_keys |= set(assists_given) | set(assists_received)
+    all_keys |= set(last24) | set(night) | set(early) | set(longest_streak)
+    all_keys.update(e["phone"] for e in events)
+    all_keys.update(e["scorer"] for e in events)
+    if cur_streak_phone:
+        all_keys.add(cur_streak_phone)
+    if biggest_msg["phone"]:
+        all_keys.add(biggest_msg["phone"])
+
+    base_name = {k: display_for(k) for k in all_keys}
+    by_base: dict[str, list[str]] = defaultdict(list)
+    for k, nm in base_name.items():
+        by_base[nm].append(k)
+
+    final_name: dict[str, str] = {}
+    for nm, keys in by_base.items():
+        if len(keys) == 1:
+            final_name[keys[0]] = nm
+            continue
+        for i, k in enumerate(sorted(keys), 1):
+            final_name[k] = f"{nm} #{i}"
+
+    def name_of(key: str) -> str:
+        cached = final_name.get(key)
+        if cached is not None:
+            return cached
+        return display_for(key)
 
     def player_obj(ph: str) -> dict:
         return {
