@@ -93,8 +93,40 @@ Konfiguration über Umgebungsvariablen:
 
 Der Daemon ist fehlertolerant: schlägt ein Sync oder Push fehl, wird im nächsten
 Zyklus erneut versucht. Mit `Ctrl+C` (SIGINT/SIGTERM) beendet er sich sauber nach
-dem laufenden Zyklus. Das eigentliche Scheduling (launchd/systemd/tmux) bleibt dir
-überlassen.
+dem laufenden Zyklus.
+
+### Automatischer Start beim Login (macOS / launchd)
+
+Damit der Daemon den Rechnerstart überlebt und automatisch läuft, gibt es einen
+fertigen launchd-Agenten. **Wichtig:** am besten aus dem Worktree starten, der
+auf `main` ausgecheckt ist, damit Pushes direkt auf `main` (= GitHub-Pages-Quelle)
+landen.
+
+```bash
+# einmalig installieren (füllt Pfade automatisch, startet sofort)
+deploy/install-launchd.sh
+
+# Status / Logs
+launchctl print gui/$(id -u)/com.bierchentrinkchen.scoreboard
+tail -f ~/Library/Logs/bierchentrinkchen-scoreboard.log
+
+# wieder entfernen
+deploy/install-launchd.sh uninstall
+```
+
+Voraussetzungen für den Dauerbetrieb ohne Nachfragen:
+
+- `wacli auth` wurde einmal ausgeführt (Session liegt in `~/.wacli/`).
+- `git push` funktioniert **ohne interaktive Passworteingabe** — also via
+  SSH-Remote oder einem Credential-Helper (`git config --global credential.helper
+  osxkeychain` und einmal manuell pushen, oder `gh auth login`). Sonst bleibt der
+  Daemon beim Push hängen.
+
+Der Agent setzt `SCOREBOARD_BRANCH=main` und `SCOREBOARD_INTERVAL=60`; anpassen
+in `deploy/com.bierchentrinkchen.scoreboard.plist` und neu installieren.
+
+Auf Linux entspricht das einem analogen systemd-User-Service (`Restart=always`),
+der `scripts/run_loop.sh` startet — die Vorlage lässt sich 1:1 übertragen.
 
 ## GitHub Pages aktivieren
 
@@ -110,6 +142,7 @@ Daemons (der `docs/data/stats.json` aktualisiert) aktualisiert die Seite.
 | `scripts/generate_stats.py` | Datenpipeline: DB/Export → `stats.json`          |
 | `scripts/chat_export.py`    | Parser für `_chat.txt`                           |
 | `scripts/run_loop.sh`       | Sync-/Generier-/Push-Daemon                      |
+| `deploy/install-launchd.sh` | Installiert den Daemon als launchd-Agent (macOS) |
 | `docs/index.html`           | Frontend-Markup                                  |
 | `docs/style.css`            | Retro-Pixel-Theme                                |
 | `docs/app.js`               | Rendering aus `stats.json`                       |

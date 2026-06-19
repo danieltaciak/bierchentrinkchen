@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  launchd-Vorlage fuer den Scoreboard-Daemon (macOS).
+
+  Vor dem Laden die Platzhalter __REPO_DIR__, __WACLI_BIN_DIR__ und __HOME__
+  ersetzen (oder das Skript deploy/install-launchd.sh nutzen, das macht es
+  automatisch). Danach nach ~/Library/LaunchAgents/ kopieren und laden.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.bierchentrinkchen.scoreboard</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>__REPO_DIR__/scripts/run_loop.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>__REPO_DIR__</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <!-- wacli + git muessen im PATH liegen -->
+        <key>PATH</key>
+        <string>__WACLI_BIN_DIR__:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>__HOME__</string>
+        <!-- einmal pro Minute synchronisieren und nach main pushen -->
+        <key>SCOREBOARD_INTERVAL</key>
+        <string>60</string>
+        <key>SCOREBOARD_BRANCH</key>
+        <string>main</string>
+    </dict>
+
+    <!-- beim Login automatisch starten und am Leben halten -->
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+
+    <!-- nicht in einer Endlosschleife neu starten, falls etwas crasht -->
+    <key>ThrottleInterval</key>
+    <integer>30</integer>
+
+    <key>StandardOutPath</key>
+    <string>__HOME__/Library/Logs/bierchentrinkchen-scoreboard.log</string>
+    <key>StandardErrorPath</key>
+    <string>__HOME__/Library/Logs/bierchentrinkchen-scoreboard.log</string>
+</dict>
+</plist>
