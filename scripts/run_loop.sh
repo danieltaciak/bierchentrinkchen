@@ -29,6 +29,30 @@ BRANCH="${SCOREBOARD_BRANCH:-$(git rev-parse --abbrev-ref HEAD)}"
 
 log() { printf '%s %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$*"; }
 
+# Read current_count from a stats.json file; prints an integer or "" on failure.
+read_count() {
+  "$PY" - "$1" <<'PYEOF' 2>/dev/null || true
+import json, sys
+try:
+    with open(sys.argv[1], encoding="utf-8") as fh:
+        v = json.load(fh).get("current_count")
+    print(int(v))
+except Exception:
+    pass
+PYEOF
+}
+
+# Read current_count from the last committed version of the stats file.
+read_committed_count() {
+  git show "HEAD:${STATS_FILE}" 2>/dev/null | "$PY" - <<'PYEOF' 2>/dev/null || true
+import json, sys
+try:
+    print(int(json.load(sys.stdin).get("current_count")))
+except Exception:
+    pass
+PYEOF
+}
+
 running=1
 trap 'running=0; log "shutting down after current cycle"' INT TERM
 
@@ -50,20 +74,33 @@ while [ "$running" -eq 1 ]; do
   if ! "$PY" scripts/generate_stats.py >/tmp/scoreboard_gen.log 2>&1; then
     log "error: generate_stats.py failed:"; sed 's/^/    /' /tmp/scoreboard_gen.log
   else
-    # 3. commit & push only when the published file changed
+    # 3. commit & push only when the published count actually increased.
+    #    This guards against regressions (e.g. a missing _chat.txt export that
+    #    would drop the count and everyone's points) ever reaching the site.
     if ! git diff --quiet -- "$STATS_FILE"; then
-      count=$("$PY" -c "import json,sys; print(json.load(open('$STATS_FILE'))['current_count'])" 2>/dev/null || echo '?')
-      git add "$STATS_FILE"
-      git commit -q -m "data: update scoreboard (count ${count})" \
-        -m "Automated stats refresh." \
-        --trailer "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
-      log "committed update (count=${count})"
-      if [ "${SCOREBOARD_NO_PUSH:-0}" != "1" ]; then
-        if git push -q origin "HEAD:${BRANCH}"; then
-          log "pushed to origin/${BRANCH}"
-        else
-          log "warning: git push failed; will retry next cycle"
+      new_count="$(read_count "$STATS_FILE")"
+      prev_count="$(read_committed_count)"
+      : "${prev_count:=-1}"
+
+      if [ -z "$new_count" ]; then
+        log "warning: could not read new count; discarding regenerated stats"
+        git checkout -q -- "$STATS_FILE"
+      elif [ "$new_count" -gt "$prev_count" ]; then
+        git add "$STATS_FILE"
+        git commit -q -m "data: update scoreboard (count ${new_count})" \
+          -m "Automated stats refresh." \
+          --trailer "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+        log "committed update (count ${prev_count} -> ${new_count})"
+        if [ "${SCOREBOARD_NO_PUSH:-0}" != "1" ]; then
+          if git push -q origin "HEAD:${BRANCH}"; then
+            log "pushed to origin/${BRANCH}"
+          else
+            log "warning: git push failed; will retry next cycle"
+          fi
         fi
+      else
+        log "count did not increase (${prev_count} -> ${new_count}); not pushing"
+        git checkout -q -- "$STATS_FILE"
       fi
     else
       log "no change in ${STATS_FILE}"
