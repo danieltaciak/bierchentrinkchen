@@ -470,7 +470,8 @@ def main() -> int:
     #   * anything else (junk / corrections)     -> ignored
     current = 0
     seeded = False
-    events: list[dict] = []  # one per scored number
+    events: list[dict] = []  # one per scored number (the official sequence)
+    event_by_n: dict[int, dict] = {}  # number -> its event, for recap reattribution
     biggest_msg = {"count": 0, "phone": None, "text": "", "ts": 0}
 
     for i, msg in enumerate(unified):
@@ -481,6 +482,7 @@ def main() -> int:
         if not nums and msg["media_type"] == "image" and not msg["clean"] and seeded:
             nums = [current + 1]
 
+        start_current = current
         accepted: list[int] = []
         for n in nums:
             if not seeded:
@@ -528,12 +530,48 @@ def main() -> int:
             scored.append((n, target))
 
         for n, target in scored:
-            events.append({
+            ev = {
                 "n": n,
                 "phone": target,
                 "scorer": sender_key,
                 "ts": ts,
-            })
+            }
+            events.append(ev)
+            event_by_n[n] = ev
+
+        # Recap: when this message re-lists numbers that were already counted as
+        # part of a contiguous run that also advances the count (e.g. someone
+        # writes "4588 4589 4590 4591" to catch up and extend), the already
+        # counted numbers belong to *this* writer -- the last person to list
+        # them -- not whoever counted them first. Reattribute their points here.
+        if accepted:
+            if not mention_keys:
+                recap_target = sender_key
+            elif len(mention_keys) == 1:
+                recap_target = mention_keys[0]
+            else:
+                recap_target = sender_key
+            accepted_set = set(accepted)
+            msg_nums = sorted({n for n in nums if n >= 1})
+            run: list[int] = []
+            runs: list[list[int]] = []
+            for x in msg_nums:
+                if run and x == run[-1] + 1:
+                    run.append(x)
+                else:
+                    if run:
+                        runs.append(run)
+                    run = [x]
+            if run:
+                runs.append(run)
+            for r in runs:
+                if not accepted_set.intersection(r):
+                    continue
+                for n in r:
+                    if n <= start_current and n in event_by_n:
+                        ev = event_by_n[n]
+                        ev["phone"] = recap_target
+                        ev["scorer"] = sender_key
 
         if k > biggest_msg["count"]:
             biggest_msg = {"count": k, "phone": sender_key,
