@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>1 Million leckere Bierle — Scoreboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="scanlines" aria-hidden="true"></div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <svg class="mug" viewBox="0 0 16 16" aria-hidden="true">
+      <g shape-rendering="crispEdges">
+        <rect x="3" y="2"  width="8" height="1" fill="#fff"/>
+        <rect x="2" y="3"  width="2" height="1" fill="#fff"/>
+        <rect x="5" y="3"  width="2" height="1" fill="#fff"/>
+        <rect x="8" y="3"  width="3" height="1" fill="#fff"/>
+        <rect x="3" y="4"  width="8" height="1" fill="#f8d24a"/>
+        <rect x="11" y="4" width="3" height="1" fill="#cdd3ff"/>
+        <rect x="3" y="5"  width="8" height="6" fill="#e8a020"/>
+        <rect x="11" y="5" width="1" height="1" fill="#cdd3ff"/>
+        <rect x="13" y="5" width="1" height="4" fill="#cdd3ff"/>
+        <rect x="11" y="9" width="1" height="1" fill="#cdd3ff"/>
+        <rect x="3" y="6"  width="2" height="3" fill="#f6c24a"/>
+        <rect x="3" y="11" width="8" height="2" fill="#c8861a"/>
+        <rect x="3" y="13" width="8" height="1" fill="#fff"/>
+      </g>
+    </svg>
+    <h1>1 Million leckere Bierle</h1>
+    <p class="subtitle">Ein Feldzug von 1 bis 1.000.000 &mdash; gef&uuml;hrt Bierle um Bierle.</p>
+
+    <div class="window counter-window">
+      <div class="big-count" id="bigCount">----</div>
+      <div class="count-target">/ <span id="target">1.000.000</span></div>
+      <div class="hpbar"><div class="hpbar-fill" id="progressFill"></div></div>
+      <div class="hpbar-meta">
+        <span id="progressPct">--</span>
+        <span id="etaText"></span>
+      </div>
+    </div>
+
+    <div class="quickstats" id="quickStats"></div>
+  </div>
+</header>
+
+<main>
+  <section class="window panel chart-main">
+    <h2>Bierle im Zeitverlauf</h2>
+    <div class="linechart" id="cumulativeChart"></div>
+  </section>
+
+  <section class="party-section">
+    <h2>Die Tafelrunde</h2>
+    <div class="party" id="party"></div>
+  </section>
+
+  <section class="window panel">
+    <div class="board-head">
+      <h2>Rangliste</h2>
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-board="all">Gesamt</button>
+        <button class="tab" data-board="last24h">24 Stunden</button>
+        <button class="tab" data-board="longest_streak">Serie</button>
+        <button class="tab" data-board="assists">Vorlagen</button>
+        <button class="tab" data-board="night_owls">Nachteulen</button>
+      </div>
+    </div>
+    <ol class="leaderboard" id="leaderboard"></ol>
+  </section>
+
+  <section class="records-section">
+    <h2>Auszeichnungen</h2>
+    <div class="records-grid" id="records"></div>
+  </section>
+
+  <div class="two-col">
+    <section class="window panel">
+      <h2>Bierle pro Tag</h2>
+      <div class="bars" id="dailyBars"></div>
+    </section>
+    <section class="window panel">
+      <h2>Aktivit&auml;t nach Uhrzeit</h2>
+      <div class="hours" id="hourBars"></div>
+    </section>
+  </div>
+
+  <section class="window panel">
+    <h2>Letzte Z&auml;hlungen</h2>
+    <ul class="recent" id="recent"></ul>
+  </section>
+</main>
+
+<footer>
+  <p>Zuletzt aktualisiert: <span id="updated">--</span></p>
+  <p class="disclaimer">Punkte werden aus dem WhatsApp-Verlauf rekonstruiert; nicht synchronisierte Nachrichten k&ouml;nnen fehlen. Es werden keine Telefonnummern ver&ouml;ffentlicht.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

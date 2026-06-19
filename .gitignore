@@ -1,0 +1,14 @@
+# WhatsApp chat export — keep raw chat data out of git
+_chat.txt
+*_chat.txt
+
+# wacli local store / secrets (never publish phone numbers or salt)
+.wacli/
+scoreboard_salt
+player_names.json
+
+# OS / editor cruft
+.DS_Store
+*.swp
+__pycache__/
+*.pyc
