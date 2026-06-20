@@ -72,6 +72,7 @@ NUMBER_RE = re.compile(r"\d[\d.,]*")
 SMALL_GAP = 3        # bridge tiny gaps (a single un-synced message) silently
 MAX_GAP = 80         # larger gaps must be confirmed by a continuing chain
 SOON_WINDOW = 50     # how many later messages count as "soon" for confirmation
+DRIFT_QUORUM = 7     # consecutive +1 relative steps before we follow a drift
 
 
 def load_salt() -> str:
@@ -468,11 +469,43 @@ def main() -> int:
     #   * within a larger gap AND the chain is
     #     seen continuing past it                -> accept (bridges patchy history)
     #   * anything else (junk / corrections)     -> ignored
+    #
+    # Drift tolerance: humans sometimes typo a digit and nobody notices, so the
+    # group keeps counting +1 from a *wrong* absolute value (e.g. after 4653 the
+    # next messages read 4564, 4565, 4566 ...). Every such number is <= current
+    # and would normally be discarded as a repeat, freezing the count forever.
+    # Instead we watch for a relative chain: messages that each step +1 from the
+    # previous one regardless of absolute value. Once DRIFT_QUORUM such steps line
+    # up we accept the group has genuinely drifted, advance the group total by one
+    # per step and credit each step's sender (they really did count). We never
+    # bridge the numeric gap between the old value and the drifted one -- nobody
+    # gets a personal windfall for numbers no one actually wrote.
     current = 0
     seeded = False
     events: list[dict] = []  # one per scored number (the official sequence)
     event_by_n: dict[int, dict] = {}  # number -> its event, for recap reattribution
     biggest_msg = {"count": 0, "phone": None, "text": "", "ts": 0}
+
+    rel_prev = 0            # last number seen in the relative (drift) chain
+    drift_run: list[dict] = []  # buffered drift steps not yet trusted
+    drift_locked = False   # True once a drift chain passed quorum -> follow it live
+
+    # Every beer that moves the group total counts towards that day's tally --
+    # including numbers bridged across a gap/jump that advance `current` but are
+    # credited to nobody. Keyed by local day -> how much the total rose.
+    per_day_total = Counter()
+
+    def _drift_target(entry: dict) -> str:
+        mk = entry["mention"]
+        return mk[0] if len(mk) == 1 else entry["sender"]
+
+    def _commit_drift(entry: dict) -> None:
+        nonlocal current
+        current += 1
+        ev = {"n": current, "phone": _drift_target(entry),
+              "scorer": entry["sender"], "ts": entry["ts"], "drift": True}
+        events.append(ev)
+        event_by_n[current] = ev
 
     for i, msg in enumerate(unified):
         ts = msg["ts"]
@@ -489,20 +522,55 @@ def main() -> int:
                 if sustained(n, i):
                     current = n
                     seeded = True
+                    rel_prev = current
                     accepted.append(current)
                 continue
             if n == current + 1:
                 current += 1
                 accepted.append(current)
+                rel_prev = current
+                drift_run = []
+                drift_locked = False
             elif n <= current:
-                continue  # repeat / correction
+                # Not on the official chain. Could be a harmless repeat/typo, or
+                # the start/continuation of a drift the group hasn't noticed.
+                # Only numbers near the frontier can be drift -- a number far
+                # below current is a recap of long-counted values, not a drift.
+                if current - n > MAX_GAP:
+                    continue
+                entry = {"n": n, "sender": sender_key,
+                         "mention": msg["mention_keys"], "ts": ts}
+                if n == rel_prev + 1:
+                    rel_prev = n
+                    if drift_locked:
+                        _commit_drift(entry)        # already trusted -> follow live
+                    else:
+                        drift_run.append(entry)
+                        if len(drift_run) >= DRIFT_QUORUM:
+                            for e in drift_run:
+                                _commit_drift(e)
+                            drift_run = []
+                            drift_locked = True
+                else:
+                    drift_run = [entry]             # chain broke -> new anchor
+                    rel_prev = n
+                    drift_locked = False
             elif n <= current + SMALL_GAP:
                 current = n
                 accepted.append(current)
+                rel_prev = current
+                drift_run = []
+                drift_locked = False
             elif n <= current + MAX_GAP and sustained(n, i):
                 current = n
                 accepted.append(current)
+                rel_prev = current
+                drift_run = []
+                drift_locked = False
             # else: junk outlier -> ignore
+        if current > start_current:
+            day_key = datetime.fromtimestamp(ts, zone).strftime("%Y-%m-%d")
+            per_day_total[day_key] += current - start_current
         if not accepted:
             continue
 
@@ -635,11 +703,12 @@ def main() -> int:
             break
 
     # ----- time-based records ------------------------------------------------
-    per_day = Counter()
+    # per_day counts every beer that advanced the group total (gaps included);
+    # per_hour stays attributed-event based for the hour histogram.
+    per_day = per_day_total
     per_hour = Counter()
     for e in events:
         local = datetime.fromtimestamp(e["ts"], zone)
-        per_day[local.strftime("%Y-%m-%d")] += 1
         per_hour[local.hour] += 1
 
     busiest_day = max(per_day.items(), key=lambda x: x[1], default=(None, 0))
