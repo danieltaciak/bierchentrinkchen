@@ -89,7 +89,11 @@ function render() {
 /* ---------------- counter ---------------- */
 function renderCounter() {
   document.getElementById("target").textContent = fmt(DATA.target);
-  animateNumber(document.getElementById("bigCount"), DATA.current_count);
+  const bc = document.getElementById("bigCount");
+  animateNumber(bc, DATA.current_count);
+  if (DATA.current_count % 100 === 69) {
+    setTimeout(() => spawnNice(bc), 1180);
+  }
 
   const pct = DATA.progress_pct;
   const visual = Math.max(0.5, Math.sqrt(pct / 100) * 100);
@@ -108,6 +112,14 @@ function renderCounter() {
         "ZIEL IN ~" + fmt(Math.round(years)) + " J.";
     }
   }
+}
+
+function spawnNice(host) {
+  const el = document.createElement("span");
+  el.className = "nice-pop";
+  el.textContent = "nice!";
+  host.appendChild(el);
+  setTimeout(() => el.remove(), 1700);
 }
 
 function renderQuickStats() {

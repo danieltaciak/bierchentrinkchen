@@ -90,6 +90,26 @@ h2 {
   line-height: 1;
   text-shadow: 4px 4px 0 #000;
   letter-spacing: 2px;
+  position: relative;
+}
+.nice-pop {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+  font-size: clamp(0.9rem, 3.5vw, 1.4rem);
+  color: #7CFC00;
+  text-shadow: 2px 2px 0 #000;
+  letter-spacing: 1px;
+  pointer-events: none;
+  white-space: nowrap;
+  animation: niceFloat 1.6s ease-out forwards;
+}
+@keyframes niceFloat {
+  0%   { opacity: 0; transform: translate(-50%, 6px) scale(0.7); }
+  18%  { opacity: 1; transform: translate(-50%, -10px) scale(1.1); }
+  35%  { transform: translate(-50%, -22px) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -64px) scale(1); }
 }
 .count-target {
   font-size: 1.4rem; color: var(--muted); margin-top: 10px;
