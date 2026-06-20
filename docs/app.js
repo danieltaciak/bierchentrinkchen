@@ -112,6 +112,54 @@ function renderCounter() {
         "ZIEL IN ~" + fmt(Math.round(years)) + " J.";
     }
   }
+
+  renderSpeed();
+}
+
+const FIRE_SVG =
+  '<svg class="fire" viewBox="0 0 8 9" shape-rendering="crispEdges" aria-hidden="true">' +
+  '<rect x="3" y="0" width="2" height="1" fill="#ff6a00"/>' +
+  '<rect x="2" y="1" width="3" height="1" fill="#ff6a00"/>' +
+  '<rect x="2" y="2" width="4" height="1" fill="#ff6a00"/>' +
+  '<rect x="1" y="3" width="2" height="1" fill="#ff6a00"/><rect x="3" y="3" width="2" height="1" fill="#ffd21a"/><rect x="5" y="3" width="1" height="1" fill="#ff6a00"/>' +
+  '<rect x="1" y="4" width="2" height="1" fill="#ff6a00"/><rect x="3" y="4" width="2" height="1" fill="#ffd21a"/><rect x="5" y="4" width="2" height="1" fill="#ff6a00"/>' +
+  '<rect x="0" y="5" width="2" height="1" fill="#ff6a00"/><rect x="2" y="5" width="4" height="1" fill="#ffd21a"/><rect x="6" y="5" width="2" height="1" fill="#ff6a00"/>' +
+  '<rect x="0" y="6" width="2" height="1" fill="#ff6a00"/><rect x="2" y="6" width="4" height="1" fill="#ffd21a"/><rect x="6" y="6" width="2" height="1" fill="#ff6a00"/>' +
+  '<rect x="1" y="7" width="1" height="1" fill="#ff6a00"/><rect x="2" y="7" width="4" height="1" fill="#ffd21a"/><rect x="6" y="7" width="1" height="1" fill="#ff6a00"/>' +
+  '<rect x="2" y="8" width="4" height="1" fill="#ff6a00"/></svg>';
+
+function currentBph() {
+  const ev = (DATA.recent || []).filter((e) => e && e.ts && Number.isFinite(e.n));
+  if (ev.length < 2) return null;
+  const sorted = ev.slice().sort((a, b) => a.ts - b.ts);
+  const newest = sorted[sorted.length - 1];
+  const nowSec = Date.now() / 1000;
+  const endTs = Math.max(newest.ts, nowSec);
+  const startBoundary = endTs - 3600;
+  const win = sorted.filter((e) => e.ts >= startBoundary);
+  if (win.length < 2) return 0;
+  const first = win[0];
+  const beers = newest.n - first.n;
+  const span = endTs - first.ts;
+  if (span <= 0) return 0;
+  return (beers / span) * 3600;
+}
+
+function renderSpeed() {
+  const host = document.getElementById("countSpeed");
+  if (!host) return;
+  const bph = currentBph();
+  if (bph === null) {
+    host.innerHTML = "";
+    return;
+  }
+  const rounded = Math.round(bph);
+  const hot = rounded > 60;
+  host.classList.toggle("hot", hot);
+  host.innerHTML =
+    '<span class="speed-num">' + fmt(rounded) + "</span>" +
+    '<span class="speed-unit">bph</span>' +
+    (hot ? FIRE_SVG : "");
 }
 
 function spawnNice(host) {

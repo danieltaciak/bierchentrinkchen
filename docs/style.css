@@ -116,6 +116,29 @@ h2 {
 }
 .count-target span { color: var(--ink); }
 
+.count-speed {
+  display: flex; align-items: center; justify-content: center;
+  gap: 7px; margin-top: 8px; min-height: 1.2em;
+  font-size: 0.6rem; letter-spacing: 1px;
+  color: var(--amber);
+}
+.count-speed .speed-num { color: var(--silver); }
+.count-speed .speed-unit { color: var(--muted); }
+.count-speed.hot .speed-num { color: var(--gold); }
+.count-speed .fire {
+  width: 0.95em; height: 1.07em;
+  display: inline-block;
+  image-rendering: pixelated;
+  filter: drop-shadow(1px 1px 0 #000);
+  transform-origin: 50% 100%;
+  animation: fireFlicker 0.42s steps(2) infinite;
+}
+@keyframes fireFlicker {
+  0%   { transform: translateY(0) scaleY(1); }
+  50%  { transform: translateY(-1px) scaleY(1.1); }
+  100% { transform: translateY(0) scaleY(0.95); }
+}
+
 .hpbar {
   height: 18px; margin: 18px 0 8px;
   background: #060920;
