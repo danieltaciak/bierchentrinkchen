@@ -9,6 +9,10 @@ _oldhistory.txt
 .wacli/
 scoreboard_salt
 player_names.json
+# local admin reports that contain real phone numbers — never commit
+never_posters.csv
+*_posters.csv
+inactive_report.json
 
 # OS / editor cruft
 .DS_Store
