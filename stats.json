@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-23T19:46:38.449486+00:00",
+  "generated_at": "2026-06-23T19:50:37.434601+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 6930,
-  "progress_pct": 0.693,
+  "current_count": 6931,
+  "progress_pct": 0.6931,
   "num_players": 699,
-  "total_messages": 10842,
+  "total_messages": 10843,
   "first_count_ts": 1780934970.0,
-  "last_count_ts": 1782243966.0,
+  "last_count_ts": 1782244205.0,
   "players": [
     {
       "id": "bbd3041bdb62",
@@ -59,6 +59,22 @@
       "rank": 3
     },
     {
+      "id": "2f27e1a94dea",
+      "name": "Pasi",
+      "anon_phone": "+49 176 •••• 42",
+      "points": 65,
+      "pct": 0.94,
+      "last24h": 4,
+      "longest_streak": 5,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 3,
+      "early_counts": 3,
+      "last_ts": 1782244205.0,
+      "first_ts": 1780938723.0,
+      "rank": 4
+    },
+    {
       "id": "5f3589b7ffb7",
       "name": "Domi",
       "anon_phone": "+49 178 •••• 58",
@@ -72,7 +88,7 @@
       "early_counts": 0,
       "last_ts": 1782009045.0,
       "first_ts": 1781264283.0,
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "8a6ad087f1ea",
@@ -88,22 +104,6 @@
       "early_counts": 0,
       "last_ts": 1781822881.0,
       "first_ts": 1781455206.0,
-      "rank": 5
-    },
-    {
-      "id": "2f27e1a94dea",
-      "name": "Pasi",
-      "anon_phone": "+49 176 •••• 42",
-      "points": 64,
-      "pct": 0.92,
-      "last24h": 3,
-      "longest_streak": 5,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 3,
-      "early_counts": 3,
-      "last_ts": 1782239360.0,
-      "first_ts": 1780938723.0,
       "rank": 6
     },
     {
@@ -112,7 +112,7 @@
       "anon_phone": "+49 151 •••• 40",
       "points": 63,
       "pct": 0.91,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 1,
@@ -447,7 +447,7 @@
       "name": "Manu",
       "anon_phone": "+49 155 •••• 65",
       "points": 35,
-      "pct": 0.51,
+      "pct": 0.5,
       "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
@@ -2304,7 +2304,7 @@
       "anon_phone": "+49 163 •••• 57",
       "points": 11,
       "pct": 0.16,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -11200,9 +11200,9 @@
       "bbd3041bdb62",
       "62b0ee30f625",
       "9bf6383c58eb",
+      "2f27e1a94dea",
       "5f3589b7ffb7",
       "8a6ad087f1ea",
-      "2f27e1a94dea",
       "4198299b819b",
       "6df0605a73b7",
       "edac7cc4ec03",
@@ -11234,10 +11234,10 @@
       "e0ccca3f241a",
       "a5f77afeecc6",
       "a39caed0b9fc",
+      "2f27e1a94dea",
       "c4fe31e13b5a",
       "c98c380b351f",
       "6443a337d399",
-      "2f27e1a94dea",
       "13e70145a905"
     ],
     "longest_streak": [
@@ -11457,8 +11457,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "56c4b0e01223",
-      "name": "Júlio",
+      "id": "2f27e1a94dea",
+      "name": "Pasi",
       "value": 1
     },
     "biggest_message": {
@@ -11565,8 +11565,8 @@
     },
     {
       "date": "2026-06-23",
-      "count": 233,
-      "total": 6930
+      "count": 234,
+      "total": 6931
     }
   ],
   "hour_histogram": [
@@ -11591,11 +11591,17 @@
     437,
     667,
     715,
-    726,
+    727,
     469,
     339
   ],
   "recent": [
+    {
+      "n": 6931,
+      "id": "2f27e1a94dea",
+      "name": "Pasi",
+      "ts": 1782244205.0
+    },
     {
       "n": 6930,
       "id": "56c4b0e01223",
@@ -11709,12 +11715,6 @@
       "id": "dd185fef1dba",
       "name": "Andreas H.",
       "ts": 1782241260.0
-    },
-    {
-      "n": 6910,
-      "id": "384e4344b5d8",
-      "name": "Jost",
-      "ts": 1782241079.0
     }
   ]
 }
