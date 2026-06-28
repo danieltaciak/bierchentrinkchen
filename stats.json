@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-28T21:53:03.633645+00:00",
+  "generated_at": "2026-06-28T21:53:40.757512+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 10099,
-  "progress_pct": 1.0099,
+  "current_count": 10100,
+  "progress_pct": 1.01,
   "num_players": 861,
-  "total_messages": 15525,
+  "total_messages": 15526,
   "first_count_ts": 1780934970.0,
-  "last_count_ts": 1782683550.0,
+  "last_count_ts": 1782683588.0,
   "players": [
     {
       "id": "2f27e1a94dea",
@@ -287,7 +287,7 @@
       "name": "Ido",
       "anon_phone": "+49 178 •••• 63",
       "points": 51,
-      "pct": 0.51,
+      "pct": 0.5,
       "last24h": 7,
       "longest_streak": 4,
       "assists_given": 0,
@@ -352,7 +352,7 @@
       "anon_phone": "+49 160 •••• 72",
       "points": 46,
       "pct": 0.46,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -667,6 +667,22 @@
       "rank": 41
     },
     {
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "anon_phone": "+49 170 •••• 40",
+      "points": 36,
+      "pct": 0.36,
+      "last24h": 9,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1782683588.0,
+      "first_ts": 1781897167.0,
+      "rank": 42
+    },
+    {
       "id": "ae11aa7cbe14",
       "name": "Sami",
       "anon_phone": "+49 172 •••• 05",
@@ -680,7 +696,7 @@
       "early_counts": 0,
       "last_ts": 1782665877.0,
       "first_ts": 1781341322.0,
-      "rank": 42
+      "rank": 43
     },
     {
       "id": "f9e61f31f347",
@@ -696,22 +712,6 @@
       "early_counts": 0,
       "last_ts": 1782235871.0,
       "first_ts": 1781106067.0,
-      "rank": 43
-    },
-    {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "anon_phone": "+49 170 •••• 40",
-      "points": 35,
-      "pct": 0.35,
-      "last24h": 8,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1782670980.0,
-      "first_ts": 1781897167.0,
       "rank": 44
     },
     {
@@ -14049,8 +14049,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "60bb21af1517",
-      "name": "David",
+      "id": "a5f77afeecc6",
+      "name": "Nico",
       "value": 1
     },
     "biggest_message": {
@@ -14182,8 +14182,8 @@
     },
     {
       "date": "2026-06-28",
-      "count": 471,
-      "total": 10099
+      "count": 472,
+      "total": 10100
     }
   ],
   "hour_histogram": [
@@ -14210,9 +14210,15 @@
     987,
     1028,
     714,
-    538
+    539
   ],
   "recent": [
+    {
+      "n": 10100,
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "ts": 1782683588.0
+    },
     {
       "n": 10099,
       "id": "60bb21af1517",
@@ -14326,12 +14332,6 @@
       "id": "78e3076859f2",
       "name": "Nico",
       "ts": 1782677999.0
-    },
-    {
-      "n": 10077,
-      "id": "78a6d1300450",
-      "name": "Connor",
-      "ts": 1782677828.0
     }
   ]
 }
