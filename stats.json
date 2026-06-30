@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-30T17:46:13.820854+00:00",
+  "generated_at": "2026-06-30T17:58:05.219821+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 10722,
-  "progress_pct": 1.0722,
+  "current_count": 10723,
+  "progress_pct": 1.0723,
   "num_players": 898,
-  "total_messages": 16429,
+  "total_messages": 16431,
   "first_count_ts": 1780934970.0,
-  "last_count_ts": 1782841524.0,
+  "last_count_ts": 1782842252.0,
   "players": [
     {
       "id": "2f27e1a94dea",
@@ -384,7 +384,7 @@
       "anon_phone": "+49 157 •••• 59",
       "points": 48,
       "pct": 0.45,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -443,12 +443,28 @@
       "rank": 27
     },
     {
+      "id": "60bb21af1517",
+      "name": "David",
+      "anon_phone": "+49 176 •••• 92",
+      "points": 43,
+      "pct": 0.4,
+      "last24h": 4,
+      "longest_streak": 1,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1782842252.0,
+      "first_ts": 1781123928.0,
+      "rank": 28
+    },
+    {
       "id": "1b54cda19789",
       "name": "Manu",
       "anon_phone": "+49 155 •••• 65",
       "points": 43,
       "pct": 0.4,
-      "last24h": 5,
+      "last24h": 4,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -456,22 +472,6 @@
       "early_counts": 0,
       "last_ts": 1782772286.0,
       "first_ts": 1781099703.0,
-      "rank": 28
-    },
-    {
-      "id": "60bb21af1517",
-      "name": "David",
-      "anon_phone": "+49 176 •••• 92",
-      "points": 42,
-      "pct": 0.39,
-      "last24h": 3,
-      "longest_streak": 1,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1782765086.0,
-      "first_ts": 1781123928.0,
       "rank": 29
     },
     {
@@ -976,7 +976,7 @@
       "anon_phone": "+49 157 •••• 67",
       "points": 31,
       "pct": 0.29,
-      "last24h": 9,
+      "last24h": 7,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -4160,7 +4160,7 @@
       "anon_phone": "+49 151 •••• 03",
       "points": 9,
       "pct": 0.08,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -12848,7 +12848,7 @@
       "anon_phone": "+49 157 •••• 44",
       "points": 1,
       "pct": 0.01,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -14410,17 +14410,17 @@
     "last_24h": [
       "68ec6bec9a73",
       "a5f77afeecc6",
-      "ff8a86710b38",
       "826e0a1f3337",
       "9bf6383c58eb",
+      "ff8a86710b38",
       "9941ce960633",
       "d250ce427a30",
-      "1b54cda19789",
       "553637e3d2b4",
       "7b73a41f5146",
       "0c322a010ec4",
       "1a6129668ba3",
       "43405761f2bb",
+      "60bb21af1517",
       "a24cf7e576bb",
       "bbd3041bdb62"
     ],
@@ -14641,8 +14641,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "55caa27d8fcd",
-      "name": "david",
+      "id": "60bb21af1517",
+      "name": "David",
       "value": 1
     },
     "biggest_message": {
@@ -14784,8 +14784,8 @@
     },
     {
       "date": "2026-06-30",
-      "count": 142,
-      "total": 10722
+      "count": 143,
+      "total": 10723
     }
   ],
   "hour_histogram": [
@@ -14808,13 +14808,19 @@
     452,
     588,
     641,
-    955,
+    956,
     1043,
     1067,
     792,
     578
   ],
   "recent": [
+    {
+      "n": 10723,
+      "id": "60bb21af1517",
+      "name": "David",
+      "ts": 1782842252.0
+    },
     {
       "n": 10722,
       "id": "55caa27d8fcd",
@@ -14928,12 +14934,6 @@
       "id": "43b434c1fef5",
       "name": "Max",
       "ts": 1782836493.0
-    },
-    {
-      "n": 10700,
-      "id": "6059289590c1",
-      "name": "Max B.",
-      "ts": 1782836153.0
     }
   ]
 }
