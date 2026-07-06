@@ -9,6 +9,8 @@ _oldhistory.txt
 .wacli/
 scoreboard_salt
 player_names.json
+# scoreboard hide-list (contains names/phones of hidden players) — never commit
+scoreboard_blacklist.json
 # local admin reports that contain real phone numbers — never commit
 never_posters.csv
 *_posters.csv

@@ -65,6 +65,14 @@ NAME_OVERRIDES_FILE = Path(
     os.environ.get("SCOREBOARD_NAME_OVERRIDES", WACLI_STORE / "player_names.json")
 )
 
+# Players listed here are hidden from every player-facing part of the published
+# stats (leaderboards, records, recent feed). Their beers still advance the group
+# total -- we only hide the identity, never change the count. Local only, never
+# committed. See load_blacklist() for the (forgiving) file format.
+BLACKLIST_FILE = Path(
+    os.environ.get("SCOREBOARD_BLACKLIST", WACLI_STORE / "scoreboard_blacklist.json")
+)
+
 LID_MENTION_RE = re.compile(r"@(\d{6,})")
 NUMBER_RE = re.compile(r"\d[\d.,]*")
 
@@ -115,6 +123,49 @@ def load_name_overrides() -> dict[str, str]:
         if digits and name:
             out[digits] = name
     return out
+
+
+def load_blacklist() -> tuple[set[str], set[str]]:
+    """Local-only hide-list -> (phone_digits, normalised_names).
+
+    A player is hidden if their phone (matched on digits) or their scoreboard
+    display name (matched case-insensitively) is listed. Their counts still
+    advance the group total; only the identity is suppressed.
+
+    The file is forgiving to hand-edit: either a JSON array of strings, or one
+    entry per line with ``#`` starting a comment. Each entry is either a phone
+    number in any format (matched on its digits) or a display name exactly as it
+    appears on the scoreboard (e.g. "Pasi", "Simon S.").
+    """
+    if not BLACKLIST_FILE.exists():
+        return set(), set()
+    try:
+        raw = BLACKLIST_FILE.read_text(encoding="utf-8")
+    except OSError:
+        return set(), set()
+    entries: list[str] = []
+    try:
+        data = json.loads(raw)
+        if isinstance(data, list):
+            entries = [str(x) for x in data]
+        elif isinstance(data, dict):
+            entries = [str(x) for x in data]
+        else:
+            entries = [str(data)]
+    except ValueError:
+        entries = [ln.split("#", 1)[0] for ln in raw.splitlines()]
+    phones: set[str] = set()
+    names: set[str] = set()
+    for entry in entries:
+        entry = entry.strip()
+        if not entry:
+            continue
+        digits = re.sub(r"\D", "", entry)
+        if len(digits) >= 6 and re.fullmatch(r"[+()\-.\s\d]+", entry):
+            phones.add(digits)
+        else:
+            names.add(norm_name(entry))
+    return phones, names
 
 
 def tz():
@@ -287,6 +338,7 @@ def main() -> int:
 
     salt = load_salt()
     name_overrides = load_name_overrides()
+    blacklist_phones, blacklist_names = load_blacklist()
 
     def pid(phone: str) -> str:
         return hashlib.sha1(f"{salt}:{phone}".encode()).hexdigest()[:12]
@@ -856,6 +908,25 @@ def main() -> int:
 
     name_of = display_for
 
+    _blacklist_cache: dict[str, bool] = {}
+
+    def is_blacklisted(key: str) -> bool:
+        """True if this player is on the local hide-list (by phone or shown name)."""
+        if not (blacklist_phones or blacklist_names) or not key:
+            return False
+        cached = _blacklist_cache.get(key)
+        if cached is not None:
+            return cached
+        hit = False
+        if key.startswith("p:"):
+            digits = re.sub(r"\D", "", key[2:])
+            if digits and digits in blacklist_phones:
+                hit = True
+        if not hit and blacklist_names and norm_name(name_of(key)) in blacklist_names:
+            hit = True
+        _blacklist_cache[key] = hit
+        return hit
+
     def anon_phone(key: str) -> str | None:
         """Render a non-identifying phone hint: country code + mobile prefix,
         the middle masked, last two digits shown (e.g. "+49 176 •••• 10").
@@ -890,7 +961,7 @@ def main() -> int:
             "first_ts": first_ts.get(ph, 0),
         }
 
-    players = [player_obj(ph) for ph in points]
+    players = [player_obj(ph) for ph in points if not is_blacklisted(ph)]
     players.sort(key=lambda p: (-p["points"], p["name"].lower()))
     for i, p in enumerate(players, 1):
         p["rank"] = i
@@ -898,18 +969,25 @@ def main() -> int:
     by_id = {p["id"]: p for p in players}
 
     def top(counter: Counter, n=10):
-        return [
-            {"id": pid(ph), "name": name_of(ph), "value": v}
-            for ph, v in counter.most_common(n) if v > 0
-        ]
+        out = []
+        for ph, v in counter.most_common():
+            if v <= 0:
+                break
+            if is_blacklisted(ph):
+                continue
+            out.append({"id": pid(ph), "name": name_of(ph), "value": v})
+            if len(out) >= n:
+                break
+        return out
 
     def record(counter: Counter):
-        if not counter:
-            return None
-        ph, v = counter.most_common(1)[0]
-        if v <= 0:
-            return None
-        return {"id": pid(ph), "name": name_of(ph), "value": v}
+        for ph, v in counter.most_common():
+            if v <= 0:
+                return None
+            if is_blacklisted(ph):
+                continue
+            return {"id": pid(ph), "name": name_of(ph), "value": v}
+        return None
 
     timeline = []
     if per_day:
@@ -925,8 +1003,16 @@ def main() -> int:
 
     recent = [
         {"n": e["n"], "id": pid(e["phone"]), "name": name_of(e["phone"]), "ts": e["ts"]}
-        for e in events[-20:]
-    ][::-1]
+        for e in events if not is_blacklisted(e["phone"])
+    ][-20:][::-1]
+
+    # The record streak carries its ending number, but only when the actual
+    # record holder is the (non-hidden) player we are showing.
+    longest_streak_rec = record(longest_streak)
+    if (longest_streak_rec and overall_streak["phone"]
+            and not is_blacklisted(overall_streak["phone"])
+            and longest_streak_rec["id"] == pid(overall_streak["phone"])):
+        longest_streak_rec = {**longest_streak_rec, "end_n": overall_streak["end_n"]}
 
     stats = {
         "generated_at": now.isoformat(),
@@ -949,19 +1035,16 @@ def main() -> int:
             "early_birds": top(early, 10),
         },
         "records": {
-            "longest_streak": (
-                {**(record(longest_streak) or {}), "end_n": overall_streak["end_n"]}
-                if record(longest_streak) else None
-            ),
+            "longest_streak": longest_streak_rec,
             "current_streak": (
                 {"id": pid(cur_streak_phone), "name": name_of(cur_streak_phone),
                  "value": cur_streak_len}
-                if cur_streak_phone else None
+                if cur_streak_phone and not is_blacklisted(cur_streak_phone) else None
             ),
             "biggest_message": (
                 {"id": pid(biggest_msg["phone"]), "name": name_of(biggest_msg["phone"]),
                  "value": biggest_msg["count"], "text": biggest_msg["text"]}
-                if biggest_msg["phone"] else None
+                if biggest_msg["phone"] and not is_blacklisted(biggest_msg["phone"]) else None
             ),
             "busiest_day": {"date": busiest_day[0], "value": busiest_day[1]} if busiest_day[0] else None,
             "night_owl": record(night),
@@ -978,9 +1061,11 @@ def main() -> int:
     if sconn:
         sconn.close()
 
+    hidden = sum(1 for ph in points if is_blacklisted(ph))
     print(
         f"wrote {OUTPUT} | count={current} players={len(players)} "
         f"events={len(events)} messages={total_messages}"
+        + (f" hidden={hidden}" if hidden else "")
     )
     return 0
 
