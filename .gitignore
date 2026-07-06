@@ -22,3 +22,8 @@ __pycache__/
 
 # stats are published on the scoreboard-data branch, not main
 /docs/data/stats.json
+
+# correction-bot local files — contain real phone numbers / LIDs, never commit
+/docs/data/correction.json
+correction_state.json
+pending_corrections.txt

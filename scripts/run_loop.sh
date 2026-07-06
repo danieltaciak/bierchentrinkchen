@@ -17,7 +17,7 @@
 # launchd/systemd unit, ...) and leave it running.
 #
 # Configuration (environment):
-#   SCOREBOARD_INTERVAL      seconds between cycles (default 30)
+#   SCOREBOARD_INTERVAL      seconds between cycles (default 15)
 #   SCOREBOARD_DATA_BRANCH   branch the stats file is published to (default scoreboard-data)
 #   SCOREBOARD_DATA_PATH     path of the stats file on that branch  (default stats.json)
 #   SCOREBOARD_REMOTE        git remote to push to                  (default origin)
@@ -37,7 +37,7 @@ DATA_BRANCH="${SCOREBOARD_DATA_BRANCH:-scoreboard-data}"
 DATA_PATH="${SCOREBOARD_DATA_PATH:-stats.json}"
 TRACKING_REF="refs/remotes/${REMOTE}/${DATA_BRANCH}"
 
-INTERVAL="${SCOREBOARD_INTERVAL:-30}"
+INTERVAL="${SCOREBOARD_INTERVAL:-15}"
 [ "$INTERVAL" -lt 1 ] && INTERVAL=1
 
 log() { printf '%s %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$*"; }
@@ -138,6 +138,14 @@ while [ "$running" -eq 1 ]; do
       fi
     else
       log "count did not increase (${prev_count} -> ${new_count}); not publishing"
+    fi
+
+    # 4. active correction: if generate_stats flagged a consensus-breaking
+    #    message, notify the group (tags the offender). Best-effort, never fatal;
+    #    the bot self-gates via cooldown/dedupe and a SCOREBOARD_BOT_DISABLE kill
+    #    switch, so it is safe to invoke every cycle.
+    if ! "$PY" scripts/correction_bot.py >/tmp/scoreboard_bot.log 2>&1; then
+      log "warning: correction_bot.py failed (see /tmp/scoreboard_bot.log)"
     fi
   fi
 

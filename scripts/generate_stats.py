@@ -74,6 +74,19 @@ MAX_GAP = 80         # larger gaps must be confirmed by a continuing chain
 SOON_WINDOW = 50     # how many later messages count as "soon" for confirmation
 DRIFT_QUORUM = 7     # consecutive +1 relative steps before we follow a drift
 
+# Consensus-resync + correction tuning.
+# The engine's `current` is authoritative, but if the live group races ahead of
+# it (or the reconstruction froze behind a wall of "junk" jumps) a well-supported,
+# persistent group consensus is snapped in as the new frontier -- and, before that
+# happens, the correction bot warns the group and tags whoever broke the chain.
+CONSENSUS_WINDOW_MIN = 90    # minutes of recent history that define "live" counting
+CONSENSUS_MIN_MSGS = 8       # need at least this many recent leading numbers
+CONSENSUS_BAND = 500         # ignore recent numbers this far from the recent median
+RESYNC_GAP = MAX_GAP         # must trail the consensus by more than this to snap
+RESYNC_MIN_SUPPORT = 3       # distinct senders that must back the frontier
+MAX_RESYNC_JUMP = 5000       # cap a single snap (anti-prank; catches up over cycles)
+CORRECTION_WINDOW_SEC = 1800 # only warn about deviations newer than this
+
 
 def load_salt() -> str:
     if SALT_FILE.exists():
@@ -650,6 +663,134 @@ def main() -> int:
 
     now = datetime.now(timezone.utc)
     cutoff_24h = (now - timedelta(hours=24)).timestamp()
+
+    # ----- consensus resync + correction feedback ---------------------------
+    # `current` is authoritative, but the group can race ahead of the
+    # reconstruction (e.g. a burst of messy messages the confirm-window rejects,
+    # leaving every genuine count looking like a huge junk jump). When a robust,
+    # well-supported group consensus sits far above `current` we treat the group
+    # as right and snap up to it; the bridged numbers advance the day/group total
+    # only -- nobody earns personal points for a stretch they didn't visibly
+    # count. Before we ever snap, the correction bot warns whoever broke the
+    # chain and tells the group the real count.
+    now_ts = now.timestamp()
+
+    def leading_number(msg: dict):
+        """The count a message is trying to assert -- its first plausible number."""
+        for n in msg["numbers"]:
+            if 10 <= n <= TARGET:
+                return n
+        return None
+
+    def live_consensus():
+        """Robust estimate of where the group currently thinks the count is.
+
+        Returns (frontier, support, band) or None. `frontier` is the highest value
+        a quorum of *distinct* recent senders agree on; `support` is how many back
+        it; `band` is the cleaned cluster of recent (number, key, ts) tuples.
+        """
+        window_start = now_ts - CONSENSUS_WINDOW_MIN * 60
+        recent = []
+        for msg in unified:
+            if msg["ts"] < window_start:
+                continue
+            n = leading_number(msg)
+            if n is not None:
+                recent.append((n, msg["key"], msg["ts"]))
+        if len(recent) < CONSENSUS_MIN_MSGS:
+            return None
+        values = sorted(n for n, _, _ in recent)
+        med = values[len(values) // 2]
+        # Keep the cluster around the recent median; drops chatter spikes and
+        # deep recaps that would otherwise poison the frontier estimate.
+        band = [(n, k, t) for n, k, t in recent if abs(n - med) <= CONSENSUS_BAND]
+        if len({k for _, k, _ in band}) < RESYNC_MIN_SUPPORT:
+            return None
+        # Robust frontier: the highest value a quorum of *distinct* senders backs
+        # (at least RESYNC_MIN_SUPPORT of them posted a number within MAX_GAP below
+        # it). This ignores a lone prankster sitting above the real edge.
+        frontier = None
+        support = 0
+        for cand in sorted({n for n, _, _ in band}, reverse=True):
+            backers = {k for n, k, _ in band if cand - MAX_GAP <= n <= cand}
+            if len(backers) >= RESYNC_MIN_SUPPORT:
+                frontier = cand
+                support = len(backers)
+                break
+        if frontier is None:
+            return None
+        return frontier, support, band
+
+    correction_signal = None
+    consensus = live_consensus()
+    if consensus is not None:
+        frontier, support, band = consensus
+
+        # 1) RESYNC (safety net): the quorum frontier is well clear of our
+        #    authoritative count -> the group has moved on and we were behind.
+        #    Adopt their frontier; the bridged numbers advance the day/group total
+        #    only -- nobody earns personal points for a stretch they didn't count.
+        #    The quorum requirement already blocks lone pranksters; MAX_RESYNC_JUMP
+        #    caps a single leap so a mass prank can only nudge us (we catch up over
+        #    cycles if the group legitimately sprinted).
+        if frontier > current + RESYNC_GAP:
+            step = min(frontier - current, MAX_RESYNC_JUMP)
+            day_key = datetime.fromtimestamp(now_ts, zone).strftime("%Y-%m-%d")
+            per_day_total[day_key] += step
+            print(
+                f"consensus resync: {current} -> {current + step} "
+                f"(frontier={frontier}, support={support}, +{step})",
+                file=sys.stderr,
+            )
+            current += step
+            rel_prev = current
+
+        # 2) CORRECTION (active feedback): the newest count message is an
+        #    uncorroborated outlier -- more than MAX_GAP off the quorum frontier
+        #    and backed by nobody. That is a fresh human error; warn the group and
+        #    tag whoever wrote it. (Deviations the quorum shares became the frontier
+        #    above and are treated as the truth, not an error.)
+        window_start = now_ts - CORRECTION_WINDOW_SEC
+        latest_outlier = None
+        for msg in reversed(unified):
+            if msg["ts"] < window_start:
+                break
+            n = leading_number(msg)
+            if n is None:
+                continue
+            if abs(n - frontier) <= MAX_GAP:
+                break  # newest real count is on-chain -> nothing to correct
+            backers = {k for bn, k, _ in band if abs(bn - n) <= MAX_GAP}
+            if len(backers) >= RESYNC_MIN_SUPPORT:
+                break  # this value is corroborated -> not an individual error
+            latest_outlier = (msg["key"], n, msg["ts"])
+            break
+        if latest_outlier is not None:
+            okey, wrong_value, when = latest_outlier
+            ophone = okey[2:] if okey.startswith("p:") else None
+            olid = resolver.lid_by_phone.get(ophone) if (resolver and ophone) else None
+            correction_signal = {
+                "correct_count": current,
+                "expected_next": current + 1,
+                "wrong_value": wrong_value,
+                "offender_key": okey,
+                "offender_phone": ophone,
+                "offender_lid": olid,
+                "offender_name": display_for(okey),
+                "ts": when,
+                "generated_at": now.isoformat(),
+                "dedupe_key": f"{current}:{okey}:{wrong_value}",
+            }
+
+    # Persist / clear the correction signal for the bot (never published; local
+    # only, holds a phone number). Absence of the file means "nothing to send".
+    correction_path = OUTPUT.parent / "correction.json"
+    if correction_signal is not None:
+        correction_path.write_text(
+            json.dumps(correction_signal, ensure_ascii=False, indent=2)
+        )
+    elif correction_path.exists():
+        correction_path.unlink()
 
     # ----- per-player aggregation -------------------------------------------
     points = Counter()
