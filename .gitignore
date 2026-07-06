@@ -11,6 +11,10 @@ scoreboard_salt
 player_names.json
 # scoreboard hide-list (contains names/phones of hidden players) — never commit
 scoreboard_blacklist.json
+# monotonic count high-water mark — local runtime state, never commit
+scoreboard_count.json
+# per-player high-water stats — local runtime state (raw phones), never commit
+scoreboard_players.json
 # local admin reports that contain real phone numbers — never commit
 never_posters.csv
 *_posters.csv

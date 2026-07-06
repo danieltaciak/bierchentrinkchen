@@ -73,6 +73,24 @@ BLACKLIST_FILE = Path(
     os.environ.get("SCOREBOARD_BLACKLIST", WACLI_STORE / "scoreboard_blacklist.json")
 )
 
+# Monotonic high-water mark of the count. The real group total only ever climbs;
+# the message-by-message reconstruction, on the other hand, can freeze at wildly
+# different low points from run to run. Persisting the highest count we have ever
+# justified lets us refuse to publish a lower one. Local only, never committed.
+COUNT_STATE_FILE = Path(
+    os.environ.get("SCOREBOARD_COUNT_STATE", WACLI_STORE / "scoreboard_count.json")
+)
+
+# Per-player high-water marks. Reconstruction depth varies from run to run (messy
+# data can freeze it early), which would otherwise make the leaderboard lose
+# already-earned points whenever a run reconstructs less far. We remember the best
+# cumulative figures we have ever seen per player so the board never regresses.
+# Rolling stats (last 24h) are always recomputed fresh. Local only, never
+# committed (keyed by raw phone -- same sensitivity as the wacli store).
+PLAYER_STATE_FILE = Path(
+    os.environ.get("SCOREBOARD_PLAYER_STATE", WACLI_STORE / "scoreboard_players.json")
+)
+
 LID_MENTION_RE = re.compile(r"@(\d{6,})")
 NUMBER_RE = re.compile(r"\d[\d.,]*")
 
@@ -83,16 +101,16 @@ SOON_WINDOW = 50     # how many later messages count as "soon" for confirmation
 DRIFT_QUORUM = 7     # consecutive +1 relative steps before we follow a drift
 
 # Consensus-resync + correction tuning.
-# The engine's `current` is authoritative, but if the live group races ahead of
-# it (or the reconstruction froze behind a wall of "junk" jumps) a well-supported,
-# persistent group consensus is snapped in as the new frontier -- and, before that
-# happens, the correction bot warns the group and tags whoever broke the chain.
+# The message-by-message reconstruction can freeze at a low count when the live
+# group races ahead of it. A monotonic floor (see COUNT_STATE_FILE) stops the
+# published count from ever dropping, and a well-supported group consensus is
+# snapped in as the new frontier -- and, before that happens, the correction bot
+# warns the group and tags whoever broke the chain.
 CONSENSUS_WINDOW_MIN = 90    # minutes of recent history that define "live" counting
 CONSENSUS_MIN_MSGS = 8       # need at least this many recent leading numbers
 CONSENSUS_BAND = 500         # ignore recent numbers this far from the recent median
-RESYNC_GAP = MAX_GAP         # must trail the consensus by more than this to snap
 RESYNC_MIN_SUPPORT = 3       # distinct senders that must back the frontier
-MAX_RESYNC_JUMP = 5000       # cap a single snap (anti-prank; catches up over cycles)
+MAX_RESYNC_JUMP = 5000       # cap one snap above where we already were (anti-prank)
 CORRECTION_WINDOW_SEC = 1800 # only warn about deviations newer than this
 
 
@@ -166,6 +184,54 @@ def load_blacklist() -> tuple[set[str], set[str]]:
         else:
             names.add(norm_name(entry))
     return phones, names
+
+
+def load_count_floor() -> int:
+    """Highest count we have ever justified -- a monotonic floor the published
+    count may never drop below. Read from the local state file, but also from the
+    last stats.json we wrote, so a missing state file can never silently lower us
+    beneath what the site already shows."""
+    floor = 0
+    try:
+        floor = int(json.loads(COUNT_STATE_FILE.read_text()).get("count", 0))
+    except (OSError, ValueError, TypeError):
+        pass
+    try:
+        prev = int(json.loads(OUTPUT.read_text()).get("current_count", 0))
+        floor = max(floor, prev)
+    except (OSError, ValueError, TypeError):
+        pass
+    return max(floor, 0)
+
+
+def save_count_floor(n: int) -> None:
+    try:
+        COUNT_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        COUNT_STATE_FILE.write_text(json.dumps(
+            {"count": int(n), "updated_at": datetime.now().isoformat()}))
+    except OSError:
+        pass
+
+
+def load_player_state() -> dict:
+    """High-water per-player cumulative stats from previous runs."""
+    try:
+        data = json.loads(PLAYER_STATE_FILE.read_text())
+    except (OSError, ValueError):
+        return {"players": {}, "records": {}}
+    if not isinstance(data, dict):
+        return {"players": {}, "records": {}}
+    data.setdefault("players", {})
+    data.setdefault("records", {})
+    return data
+
+
+def save_player_state(state: dict) -> None:
+    try:
+        PLAYER_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        PLAYER_STATE_FILE.write_text(json.dumps(state, ensure_ascii=False))
+    except OSError:
+        pass
 
 
 def tz():
@@ -339,6 +405,7 @@ def main() -> int:
     salt = load_salt()
     name_overrides = load_name_overrides()
     blacklist_phones, blacklist_names = load_blacklist()
+    count_floor = load_count_floor()
 
     def pid(phone: str) -> str:
         return hashlib.sha1(f"{salt}:{phone}".encode()).hexdigest()[:12]
@@ -773,35 +840,88 @@ def main() -> int:
             return None
         return frontier, support, band
 
+    def consensus_daily_levels(cap: int) -> dict[str, int]:
+        """Robust "count the group had reached by the end of each local day",
+        derived from all messages -- independent of the fragile reconstruction.
+
+        For each day we take a high percentile of that day's leading numbers (so a
+        few low recaps or high spikes don't move it), force the series to be
+        monotonic non-decreasing and clamp it to `cap`. Used to spread a big
+        resync bridge realistically across the calendar instead of dumping the
+        whole gap on today.
+        """
+        by_day: dict[str, list[int]] = defaultdict(list)
+        for msg in unified:
+            n = leading_number(msg)
+            if n is None or n > cap + CONSENSUS_BAND:
+                continue
+            day = datetime.fromtimestamp(msg["ts"], zone).strftime("%Y-%m-%d")
+            by_day[day].append(n)
+        levels: dict[str, int] = {}
+        running = 0
+        for day in sorted(by_day):
+            vals = sorted(by_day[day])
+            idx = max(0, int(len(vals) * 0.9) - 1)   # ~90th percentile
+            lvl = min(vals[idx], cap)
+            lvl = max(lvl, running)                   # never regress
+            levels[day] = lvl
+            running = lvl
+        return levels
+
     correction_signal = None
     consensus = live_consensus()
+    frontier = support = band = None
     if consensus is not None:
         frontier, support, band = consensus
 
-        # 1) RESYNC (safety net): the quorum frontier is well clear of our
-        #    authoritative count -> the group has moved on and we were behind.
-        #    Adopt their frontier; the bridged numbers advance the day/group total
-        #    only -- nobody earns personal points for a stretch they didn't count.
-        #    The quorum requirement already blocks lone pranksters; MAX_RESYNC_JUMP
-        #    caps a single leap so a mass prank can only nudge us (we catch up over
-        #    cycles if the group legitimately sprinted).
-        if frontier > current + RESYNC_GAP:
-            step = min(frontier - current, MAX_RESYNC_JUMP)
-            day_key = datetime.fromtimestamp(now_ts, zone).strftime("%Y-%m-%d")
-            per_day_total[day_key] += step
-            print(
-                f"consensus resync: {current} -> {current + step} "
-                f"(frontier={frontier}, support={support}, +{step})",
-                file=sys.stderr,
-            )
-            current += step
-            rel_prev = current
+    # ----- monotonic floor + consensus resync -------------------------------
+    # The real total only ever climbs, but the message-by-message reconstruction
+    # can freeze at very different low points from one run to the next. `base` is
+    # the count we will actually publish: never below the high-water floor, never
+    # below what we reconstructed, and -- when a distinct-sender quorum agrees the
+    # group has moved on -- snapped up to that frontier. The quorum is the guard
+    # against pranks; MAX_RESYNC_JUMP additionally bounds a single leap above where
+    # we already were, so a coordinated prank can only nudge us per cycle.
+    today_key = datetime.fromtimestamp(now_ts, zone).strftime("%Y-%m-%d")
+    base = max(current, count_floor)
+    if frontier is not None and frontier > base:
+        base = min(frontier, base + MAX_RESYNC_JUMP)
 
-        # 2) CORRECTION (active feedback): the newest count message is an
-        #    uncorroborated outlier -- more than MAX_GAP off the quorum frontier
-        #    and backed by nobody. That is a fresh human error; warn the group and
-        #    tag whoever wrote it. (Deviations the quorum shares became the frontier
-        #    above and are treated as the truth, not an error.)
+    if base > current:
+        bridged = base - current
+        if bridged > MAX_GAP:
+            # Reconstruction fell well behind. Rebuild the daily timeline from the
+            # per-day consensus so "today" is only credited what really happened
+            # today, not the entire recovered gap.
+            levels = consensus_daily_levels(base)
+            if levels:
+                levels[max(levels)] = base          # make the series total exact
+                per_day_total = Counter()
+                prev = 0
+                for day in sorted(levels):
+                    per_day_total[day] = max(0, levels[day] - prev)
+                    prev = levels[day]
+            else:
+                per_day_total[today_key] += bridged
+        else:
+            per_day_total[today_key] += bridged
+        print(
+            f"consensus resync: {current} -> {base} "
+            f"(floor={count_floor}, frontier={frontier}, +{bridged})",
+            file=sys.stderr,
+        )
+        current = base
+        rel_prev = current
+
+    count_floor = max(count_floor, current)
+    save_count_floor(count_floor)
+
+    if consensus is not None:
+        # CORRECTION (active feedback): the newest count message is an
+        # uncorroborated outlier -- more than MAX_GAP off the quorum frontier and
+        # backed by nobody. That is a fresh human error; warn the group and tag
+        # whoever wrote it. (Deviations the quorum shares became the frontier and
+        # are treated as the truth, not an error.)
         window_start = now_ts - CORRECTION_WINDOW_SEC
         latest_outlier = None
         for msg in reversed(unified):
@@ -894,6 +1014,54 @@ def main() -> int:
             cur_streak_len += 1
         else:
             break
+
+    # ----- per-player high-water merge --------------------------------------
+    # Never let a shallow reconstruction run erase points a player already earned.
+    # We take the max of each cumulative stat against what we saw before, keep the
+    # earliest first_ts / latest last_ts, and carry forward record holders. Rolling
+    # stats (last24) are intentionally left untouched -- they must be able to fall.
+    hw = load_player_state()
+    for key, rec in hw.get("players", {}).items():
+        points[key] = max(points[key], int(rec.get("points", 0)))
+        longest_streak[key] = max(longest_streak[key], int(rec.get("streak", 0)))
+        assists_given[key] = max(assists_given[key], int(rec.get("assists_given", 0)))
+        assists_received[key] = max(assists_received[key], int(rec.get("assists_received", 0)))
+        night[key] = max(night[key], int(rec.get("night", 0)))
+        early[key] = max(early[key], int(rec.get("early", 0)))
+        fts = rec.get("first_ts") or 0
+        if fts:
+            first_ts[key] = min(first_ts.get(key, fts), fts)
+        lts = rec.get("last_ts") or 0
+        if lts:
+            last_ts[key] = max(last_ts.get(key, 0), lts)
+    prev_big = hw.get("records", {}).get("biggest") or {}
+    if int(prev_big.get("count", 0)) > biggest_msg["count"]:
+        biggest_msg = {"count": int(prev_big["count"]), "phone": prev_big.get("phone"),
+                       "text": prev_big.get("text", ""), "ts": prev_big.get("ts", 0)}
+    prev_run = hw.get("records", {}).get("overall_streak") or {}
+    if int(prev_run.get("len", 0)) > overall_streak["len"]:
+        overall_streak = {"phone": prev_run.get("phone"), "len": int(prev_run["len"]),
+                          "end_n": int(prev_run.get("end_n", 0))}
+
+    new_state = {"players": {}, "records": {}}
+    for ph in points:
+        new_state["players"][ph] = {
+            "points": points[ph],
+            "streak": longest_streak[ph],
+            "assists_given": assists_given[ph],
+            "assists_received": assists_received[ph],
+            "night": night[ph],
+            "early": early[ph],
+            "first_ts": first_ts.get(ph, 0),
+            "last_ts": last_ts.get(ph, 0),
+        }
+    new_state["records"] = {
+        "biggest": {"count": biggest_msg["count"], "phone": biggest_msg["phone"],
+                    "text": biggest_msg["text"], "ts": biggest_msg.get("ts", 0)},
+        "overall_streak": {"phone": overall_streak["phone"], "len": overall_streak["len"],
+                           "end_n": overall_streak["end_n"]},
+    }
+    save_player_state(new_state)
 
     # ----- time-based records ------------------------------------------------
     # per_day counts every beer that advanced the group total (gaps included);
