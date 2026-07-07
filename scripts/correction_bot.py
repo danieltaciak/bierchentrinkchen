@@ -68,7 +68,7 @@ def fmt(n: int) -> str:
 TAUNTS = [
     "{who} kann nicht zählen.",
     "{who} hat die Zahlen neu erfunden.",
-    "{who} war wohl schon beim Bierchen. 🍺",
+    "{who} war wohl schon beim Bierchen.",
     "{who} zählt wie ein Kindergartenkind.",
     "{who} hat den Faden verloren.",
     "{who} sollte nochmal in die Grundschule.",
@@ -94,10 +94,10 @@ def compose_message(sig: dict) -> str:
     opener = TAUNTS[idx].format(who=who)
 
     return (
-        f"🚨 {opener}\n\n"
-        f"📊 Korrekter Count: {fmt(correct)}\n"
-        f"👉 Weiter geht's mit {fmt(nxt)}\n\n"
-        f"🍺 Prost und Kopf einschalten!"
+        f"{opener} 🚨\n\n"
+        f"Korrekter Count: {fmt(correct)}\n"
+        f"Weiter geht's mit {fmt(nxt)}\n\n"
+        f"Prost! 🍺"
     )
 
 
