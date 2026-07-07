@@ -61,21 +61,20 @@ def fmt(n: int) -> str:
     return f"{n:,}".replace(",", ".")
 
 
-# A little pool of cheeky German openers. One is picked deterministically from
-# the mistake itself, so the same blunder always yields the same text (good for
-# dedupe) while different blunders get some variety instead of one canned line.
-# Each line contains a single "{who}" slot for the tagged offender.
+# A little pool of dry, drunk-humor German openers. One is picked
+# deterministically from the mistake itself, so the same blunder always yields
+# the same text (good for dedupe) while different blunders get some variety
+# instead of one canned line. Each line contains a single "{who}" slot for the
+# tagged offender. The occasional misspelling is intentional (Suff-Humor).
 TAUNTS = [
     "{who} kann nicht zählen.",
-    "{who} hat die Zahlen neu erfunden.",
-    "{who} war wohl schon beim Bierchen.",
-    "{who} zählt wie ein Kindergartenkind.",
+    "{who} hat wohl schon ein paar Bierchen getrinktet.",
+    "{who} ist schon beim Verlust der Muttersprache angelangt.",
     "{who} hat den Faden verloren.",
-    "{who} sollte nochmal in die Grundschule.",
-    "{who} bricht hier alle Rekorde – im Falschzählen.",
-    "{who} hätte besser die Finger benutzt.",
-    "{who} hat gerade den Zähler massakriert.",
-    "{who} macht Mathe zum Verbrechen.",
+    "{who} zählt jetzt anscheinend in einer anderen Einheit.",
+    "{who} war kurz beim Denken, ist aber nicht angekommen.",
+    "{who} hat da irgendwas durcheinandergebracht.",
+    "{who} sollte vielleicht eine Pause vom Bier machen.",
 ]
 
 
