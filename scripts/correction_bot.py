@@ -71,17 +71,30 @@ TAUNTS = [
     "{who} hat wohl schon ein paar Bierchen getrinktet.",
     "{who} ist schon beim Verlust der Muttersprache angelangt.",
     "{who} hat den Faden verloren.",
-    "{who} zählt jetzt anscheinend in einer anderen Einheit.",
-    "{who} war kurz beim Denken, ist aber nicht angekommen.",
-    "{who} hat da irgendwas durcheinandergebracht.",
-    "{who} sollte vielleicht eine Pause vom Bier machen.",
+    "{who} hat versucht zu denken. Wenig erfolgreich.",
+]
+
+# "Prost" in a handful of common toasting languages -- rotated independently of
+# the taunt so the sign-off varies too.
+PROSTS = [
+    "Prost!",
+    "Cheers!",
+    "Salud!",
+    "Santé!",
+    "Salute!",
+    "Skål!",
+    "Na zdrowie!",
+    "Kanpai!",
+    "Proost!",
+    "Sláinte!",
 ]
 
 
 def compose_message(sig: dict) -> str:
     """A playful German correction that tags the offender, tells the group the
-    real count and where to pick it back up. The taunt is chosen deterministically
-    from the mistake so it stays stable per-blunder but varies across blunders."""
+    real count and where to pick it back up. The taunt and the toast are chosen
+    deterministically from the mistake so they stay stable per-blunder but vary
+    across blunders."""
     lid = sig.get("offender_lid")
     who = f"@{lid}" if lid else "Achtung"
     correct = sig["correct_count"]
@@ -89,14 +102,15 @@ def compose_message(sig: dict) -> str:
     wrong = sig["wrong_value"]
 
     seed = sig.get("dedupe_key") or f"{correct}:{wrong}"
-    idx = int(hashlib.sha1(seed.encode()).hexdigest(), 16) % len(TAUNTS)
-    opener = TAUNTS[idx].format(who=who)
+    h = int(hashlib.sha1(seed.encode()).hexdigest(), 16)
+    opener = TAUNTS[h % len(TAUNTS)].format(who=who)
+    prost = PROSTS[(h // len(TAUNTS)) % len(PROSTS)]
 
     return (
         f"{opener} 🚨\n\n"
         f"Korrekter Count: {fmt(correct)}\n"
         f"Weiter geht's mit {fmt(nxt)}\n\n"
-        f"Prost! 🍺"
+        f"{prost} 🍺"
     )
 
 
