@@ -114,11 +114,17 @@ def main() -> int:
         remember(sent=False)
         return 0
 
+    # This group addresses every participant by their linked-identity JID
+    # (`<lid>@lid`), not by phone. Passing a bare number makes wacli treat it as a
+    # phone (`<n>@s.whatsapp.net`), which is not a real member -- so the @token
+    # renders as dead text instead of a ping. Qualify the LID as a JID so it
+    # matches the participant and the mention actually lights up.
+    mention_jid = f"{lid}@lid" if "@" not in str(lid) else str(lid)
     cmd = [
         WACLI, "send", "text",
         "--to", GROUP_JID,
         "--message", message,
-        "--mention", str(lid),
+        "--mention", mention_jid,
     ]
     try:
         subprocess.run(cmd, check=True, capture_output=True, text=True, timeout=120)
@@ -133,7 +139,7 @@ def main() -> int:
         remember(sent=False)
         return 1
 
-    log(f"sent correction (count={sig['correct_count']}, tagged @{lid})")
+    log(f"sent correction (count={sig['correct_count']}, tagged {mention_jid})")
     remember(sent=True)
     return 0
 
