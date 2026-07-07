@@ -22,6 +22,7 @@ Sending uses ``wacli send text --to <group> --message "... @<lid> ..."
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import subprocess
@@ -60,17 +61,43 @@ def fmt(n: int) -> str:
     return f"{n:,}".replace(",", ".")
 
 
+# A little pool of cheeky German openers. One is picked deterministically from
+# the mistake itself, so the same blunder always yields the same text (good for
+# dedupe) while different blunders get some variety instead of one canned line.
+# Each line contains a single "{who}" slot for the tagged offender.
+TAUNTS = [
+    "{who} kann nicht zählen.",
+    "{who} hat die Zahlen neu erfunden.",
+    "{who} war wohl schon beim Bierchen. 🍺",
+    "{who} zählt wie ein Kindergartenkind.",
+    "{who} hat den Faden verloren.",
+    "{who} sollte nochmal in die Grundschule.",
+    "{who} bricht hier alle Rekorde – im Falschzählen.",
+    "{who} hätte besser die Finger benutzt.",
+    "{who} hat gerade den Zähler massakriert.",
+    "{who} macht Mathe zum Verbrechen.",
+]
+
+
 def compose_message(sig: dict) -> str:
-    """German correction, mentioning the offender via their @<lid> token."""
+    """A playful German correction that tags the offender, tells the group the
+    real count and where to pick it back up. The taunt is chosen deterministically
+    from the mistake so it stays stable per-blunder but varies across blunders."""
     lid = sig.get("offender_lid")
-    mention = f"@{lid}" if lid else "Achtung"
+    who = f"@{lid}" if lid else "Achtung"
     correct = sig["correct_count"]
     nxt = sig["expected_next"]
     wrong = sig["wrong_value"]
+
+    seed = sig.get("dedupe_key") or f"{correct}:{wrong}"
+    idx = int(hashlib.sha1(seed.encode()).hexdigest(), 16) % len(TAUNTS)
+    opener = TAUNTS[idx].format(who=who)
+
     return (
-        f"\u26a0\ufe0f Stopp, {mention}! "
-        f"Wir sind aktuell bei {fmt(correct)}, nicht bei {fmt(wrong)}. "
-        f"Bitte mit {fmt(nxt)} weiterz\u00e4hlen. \U0001f37a"
+        f"🚨 {opener}\n\n"
+        f"📊 Korrekter Count: {fmt(correct)}\n"
+        f"👉 Weiter geht's mit {fmt(nxt)}\n\n"
+        f"🍺 Prost und Kopf einschalten!"
     )
 
 
