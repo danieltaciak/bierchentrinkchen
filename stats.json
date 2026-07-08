@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-08T19:22:31.391821+00:00",
+  "generated_at": "2026-07-08T19:29:37.767595+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 13608,
-  "progress_pct": 1.3608,
+  "current_count": 13610,
+  "progress_pct": 1.361,
   "num_players": 855,
-  "total_messages": 17278,
+  "total_messages": 17280,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1783538446.0,
+  "last_count_ts": 1783538877.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -155,6 +155,22 @@
       "rank": 9
     },
     {
+      "id": "078ce5ea9e04",
+      "name": "Raphael",
+      "anon_phone": "+49 160 •••• 59",
+      "points": 54,
+      "pct": 0.4,
+      "last24h": 4,
+      "longest_streak": 7,
+      "assists_given": 1,
+      "assists_received": 0,
+      "night_counts": 4,
+      "early_counts": 0,
+      "last_ts": 1783538626.0,
+      "first_ts": 1780938428.0,
+      "rank": 10
+    },
+    {
       "id": "45c4cce2f31c",
       "name": "Jakob",
       "anon_phone": "+49 171 •••• 57",
@@ -168,22 +184,6 @@
       "early_counts": 0,
       "last_ts": 1783264821.0,
       "first_ts": 1781185080.0,
-      "rank": 10
-    },
-    {
-      "id": "078ce5ea9e04",
-      "name": "Raphael",
-      "anon_phone": "+49 160 •••• 59",
-      "points": 53,
-      "pct": 0.39,
-      "last24h": 3,
-      "longest_streak": 7,
-      "assists_given": 1,
-      "assists_received": 0,
-      "night_counts": 4,
-      "early_counts": 0,
-      "last_ts": 1783534945.0,
-      "first_ts": 1780938428.0,
       "rank": 11
     },
     {
@@ -270,15 +270,15 @@
       "id": "3ce6f8806201",
       "name": "Simon S.",
       "anon_phone": "+49 152 •••• 84",
-      "points": 47,
+      "points": 48,
       "pct": 0.35,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 2,
       "early_counts": 4,
-      "last_ts": 1783282042.0,
+      "last_ts": 1783538877.0,
       "first_ts": 1781289501.0,
       "rank": 17
     },
@@ -1872,7 +1872,7 @@
       "anon_phone": "+49 160 •••• 69",
       "points": 14,
       "pct": 0.1,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 1,
       "assists_received": 0,
@@ -5872,7 +5872,7 @@
       "anon_phone": "+49 152 •••• 01",
       "points": 4,
       "pct": 0.03,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -13702,8 +13702,8 @@
       "4198299b819b",
       "8a6ad087f1ea",
       "6df0605a73b7",
-      "45c4cce2f31c",
       "078ce5ea9e04",
+      "45c4cce2f31c",
       "e0ccca3f241a",
       "74c46f04e647",
       "abdd765c9df5",
@@ -13734,7 +13734,7 @@
       "1cd5d0cb91e2",
       "82a6be011a09",
       "b2d4dea5a4e1",
-      "80051c60262e"
+      "078ce5ea9e04"
     ],
     "longest_streak": [
       {
@@ -13953,9 +13953,9 @@
       "end_n": 922
     },
     "current_streak": {
-      "id": "a417b8c082bc",
-      "name": "maxi",
-      "value": 4
+      "id": "3ce6f8806201",
+      "name": "Simon S.",
+      "value": 1
     },
     "biggest_message": {
       "id": "ff9aa0ff7e4d",
@@ -14136,8 +14136,8 @@
     },
     {
       "date": "2026-07-08",
-      "count": 174,
-      "total": 13608
+      "count": 176,
+      "total": 13610
     }
   ],
   "hour_histogram": [
@@ -14162,11 +14162,23 @@
     446,
     679,
     714,
-    898,
+    900,
     711,
     523
   ],
   "recent": [
+    {
+      "n": 13610,
+      "id": "3ce6f8806201",
+      "name": "Simon S.",
+      "ts": 1783538877.0
+    },
+    {
+      "n": 13609,
+      "id": "078ce5ea9e04",
+      "name": "Raphael",
+      "ts": 1783538626.0
+    },
     {
       "n": 13608,
       "id": "a417b8c082bc",
@@ -14274,18 +14286,6 @@
       "id": "64e77b13f4e1",
       "name": "Laurin",
       "ts": 1783537609.0
-    },
-    {
-      "n": 13589,
-      "id": "1e4ae878fbd7",
-      "name": "Gräfinho",
-      "ts": 1783537492.0
-    },
-    {
-      "n": 13588,
-      "id": "7545bf72f05b",
-      "name": "FrankY🕊️",
-      "ts": 1783537420.0
     }
   ]
 }
