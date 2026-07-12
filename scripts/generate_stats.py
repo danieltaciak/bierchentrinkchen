@@ -473,14 +473,41 @@ def main() -> int:
         return shorten_name(display) or display
 
     # ----- build the unified timeline ---------------------------------------
-    # The export is authoritative for everything up to its final message; wacli
-    # supplies anything newer (and is the only source when no export is present).
-    export_last_ts = max((m.ts for m in export_msgs), default=0.0)
+    # Store-primary: wacli owns every message it captured, because each store row
+    # carries the real sender phone -- so same-named players (e.g. the several
+    # Nicos) never collapse onto one identity via name-voting. The export only
+    # supplies messages the store never captured (the early on-demand-history
+    # blackout and scattered holes), where we fall back to name-based
+    # attribution for that residual. Coverage is decided per-message, not
+    # per-minute, so individual store holes inside otherwise-covered days are
+    # still recovered from the export.
+    store_media_minutes = {int(m["ts"] // 60) for m in wacli_msgs if m["media_type"]}
+
+    def export_covered(em) -> bool:
+        nt = norm_text(em.text)
+        mn = int(em.ts // 60)
+        if nt:
+            return any((mm, nt) in wacli_by_key for mm in (mn - 1, mn, mn + 1))
+        # text-less media: covered if the store holds media in the same window
+        return any(mm in store_media_minutes for mm in (mn - 1, mn, mn + 1))
 
     unified: list[dict] = []
+    for m in wacli_msgs:
+        unified.append({
+            "ts": m["ts"],
+            "src": 0,
+            "key": f"p:{m['phone']}",
+            "mention_keys": [f"p:{p}" for p in m["mention_phones"]],
+            "media_type": m["media_type"],
+            "clean": m["clean"],
+            "raw": m["raw"],
+        })
     for em in export_msgs:
+        if export_covered(em):
+            continue  # store already holds this message with true attribution
         unified.append({
             "ts": em.ts,
+            "src": 1,
             "key": key_for_name(em.sender),
             "mention_keys": [key_for_name(n) for n in em.mentions]
             + [f"p:{resolver.phone_for_lid(l)}" for l in em.mention_lids
@@ -489,18 +516,9 @@ def main() -> int:
             "clean": em.text,
             "raw": em.text,
         })
-    for m in wacli_msgs:
-        if m["ts"] <= export_last_ts:
-            continue
-        unified.append({
-            "ts": m["ts"],
-            "key": f"p:{m['phone']}",
-            "mention_keys": [f"p:{p}" for p in m["mention_phones"]],
-            "media_type": m["media_type"],
-            "clean": m["clean"],
-            "raw": m["raw"],
-        })
-    unified.sort(key=lambda x: x["ts"])
+    # Stable within a second: store (src 0) before export (src 1) so the
+    # true-phone message always claims a number ahead of a name-keyed twin.
+    unified.sort(key=lambda x: (x["ts"], x["src"]))
     total_messages = len(unified)
 
     # ----- pre-parse every message ------------------------------------------
