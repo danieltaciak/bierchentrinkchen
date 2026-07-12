@@ -35,6 +35,12 @@ MEDIA_RE = re.compile(
     r" weggelassen"
 )
 
+# WhatsApp appends this marker to a message's *final* (edited) text. The exported
+# body is already the corrected content -- unlike the wacli store, which often
+# misses the edit event and keeps the stale original -- so we simply drop the
+# marker and keep the edited text as-is.
+EDIT_RE = re.compile(r"\u200e?<(?:Diese Nachricht wurde bearbeitet\.?|This message was edited\.?)>")
+
 # Lines that are system notices, not real messages.
 SYSTEM_MARKERS = (
     "hat die Gruppe erstellt",
@@ -94,6 +100,7 @@ def parse(path: str, tz_name: str = "Europe/Berlin") -> list[ExportMessage]:
         pending.mention_lids = MENTION_LID_RE.findall(body)
         text = MENTION_RE.sub(" ", body)
         text = MEDIA_RE.sub(" ", text)
+        text = EDIT_RE.sub(" ", text)
         text = text.replace("\u200e", "").replace("\u202f", "")
         pending.text = re.sub(r"\s+", " ", text).strip()
         if any(mark in body for mark in SYSTEM_MARKERS) and not pending.text:
