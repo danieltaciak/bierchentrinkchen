@@ -40,7 +40,37 @@ TRACKING_REF="refs/remotes/${REMOTE}/${DATA_BRANCH}"
 INTERVAL="${SCOREBOARD_INTERVAL:-15}"
 [ "$INTERVAL" -lt 1 ] && INTERVAL=1
 
+# Hard wall-clock cap (seconds) on the per-cycle `wacli sync`. An always-active
+# group (this one counts continuously) never stays "idle" long enough for
+# `--idle-exit` to fire, and `--max-reconnect` only bounds reconnect attempts,
+# not a live connection -- so an unbounded `sync --once` runs forever and wedges
+# the loop. This cap guarantees each cycle returns and reaches publish.
+SYNC_TIMEOUT="${SCOREBOARD_SYNC_TIMEOUT:-25}"
+# Tight defaults so sync also exits promptly during quiet spells; override by
+# exporting SCOREBOARD_SYNC_ARGS.
+SCOREBOARD_SYNC_ARGS="${SCOREBOARD_SYNC_ARGS:---idle-exit 8s --max-reconnect 20s}"
+
 log() { printf '%s %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$*"; }
+
+# Run `wacli sync --once` under a hard wall-clock cap. Whatever messages arrived
+# before the cap are already committed to the store, so a timeout is not fatal.
+# Returns 0 on clean exit, 124 on timeout, or wacli's exit code on failure.
+sync_bounded() {
+  wacli sync --once ${SCOREBOARD_SYNC_ARGS} >/tmp/scoreboard_sync.log 2>&1 &
+  local pid=$! waited=0
+  while kill -0 "$pid" 2>/dev/null; do
+    if [ "$waited" -ge "$SYNC_TIMEOUT" ]; then
+      kill "$pid" 2>/dev/null
+      sleep 2
+      kill -0 "$pid" 2>/dev/null && kill -9 "$pid" 2>/dev/null
+      wait "$pid" 2>/dev/null
+      return 124
+    fi
+    sleep 1
+    waited=$((waited + 1))
+  done
+  wait "$pid" 2>/dev/null
+}
 
 # Read current_count from a stats.json file; prints an integer or "" on failure.
 read_count() {
@@ -99,8 +129,12 @@ log "scoreboard daemon starting (interval ${INTERVAL}s, publishing ${DATA_PATH} 
 while [ "$running" -eq 1 ]; do
   cycle_start=$(date +%s)
 
-  # 1. fetch new messages (best-effort; never fatal)
-  if ! wacli sync --once ${SCOREBOARD_SYNC_ARGS:-} >/tmp/scoreboard_sync.log 2>&1; then
+  # 1. fetch new messages (best-effort; never fatal). Hard-capped so an active
+  #    group can never wedge the loop -- see sync_bounded / SYNC_TIMEOUT.
+  sync_bounded; rc=$?
+  if [ "$rc" -eq 124 ]; then
+    log "note: sync hit ${SYNC_TIMEOUT}s cap; proceeding with messages pulled so far"
+  elif [ "$rc" -ne 0 ]; then
     log "warning: wacli sync failed (see /tmp/scoreboard_sync.log); using existing data"
   fi
 
