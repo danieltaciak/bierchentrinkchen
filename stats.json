@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-16T23:08:37.817542+00:00",
+  "generated_at": "2026-07-16T23:25:20.815472+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 16248,
-  "progress_pct": 1.6248,
+  "current_count": 16249,
+  "progress_pct": 1.6249,
   "num_players": 1080,
-  "total_messages": 27508,
+  "total_messages": 27509,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1784243298.0,
+  "last_count_ts": 1784244304.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -475,6 +475,22 @@
       "rank": 29
     },
     {
+      "id": "0c322a010ec4",
+      "name": "Andrea",
+      "anon_phone": "+49 151 •••• 79",
+      "points": 59,
+      "pct": 0.36,
+      "last24h": 1,
+      "longest_streak": 6,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 16,
+      "early_counts": 6,
+      "last_ts": 1784244304.0,
+      "first_ts": 1782522040.0,
+      "rank": 30
+    },
+    {
       "id": "4460bcf9c79c",
       "name": "Lance",
       "anon_phone": "+49 152 •••• 66",
@@ -488,7 +504,7 @@
       "early_counts": 0,
       "last_ts": 1784225173.0,
       "first_ts": 1781198140.0,
-      "rank": 30
+      "rank": 31
     },
     {
       "id": "2e95be7bb9ea",
@@ -504,22 +520,6 @@
       "early_counts": 0,
       "last_ts": 1784056725.0,
       "first_ts": 1781200389.0,
-      "rank": 31
-    },
-    {
-      "id": "0c322a010ec4",
-      "name": "Andrea",
-      "anon_phone": "+49 151 •••• 79",
-      "points": 58,
-      "pct": 0.36,
-      "last24h": 0,
-      "longest_streak": 6,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 15,
-      "early_counts": 6,
-      "last_ts": 1784147275.0,
-      "first_ts": 1782522040.0,
       "rank": 32
     },
     {
@@ -2432,7 +2432,7 @@
       "anon_phone": "+49 171 •••• 18",
       "points": 20,
       "pct": 0.12,
-      "last24h": 8,
+      "last24h": 7,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -5744,7 +5744,7 @@
       "anon_phone": "+49 152 •••• 56",
       "points": 8,
       "pct": 0.05,
-      "last24h": 8,
+      "last24h": 5,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -17322,9 +17322,8 @@
     "last_24h": [
       "82a6be011a09",
       "c93ed700000f",
-      "728a9cae2154",
-      "f44908e4ceca",
       "80947a53b5f3",
+      "728a9cae2154",
       "9bf6383c58eb",
       "abdd765c9df5",
       "b09e2085998b",
@@ -17332,6 +17331,7 @@
       "7a2e949e25b3",
       "e5d73e3d573d",
       "115bd3930d45",
+      "f44908e4ceca",
       "553637e3d2b4",
       "af005e9bda68",
       "5eb334258084"
@@ -17472,6 +17472,11 @@
         "value": 16
       },
       {
+        "id": "0c322a010ec4",
+        "name": "Andrea",
+        "value": 16
+      },
+      {
         "id": "bbd3041bdb62",
         "name": "Flex",
         "value": 15
@@ -17479,11 +17484,6 @@
       {
         "id": "c93ed700000f",
         "name": "linus",
-        "value": 15
-      },
-      {
-        "id": "0c322a010ec4",
-        "name": "Andrea",
         "value": 15
       },
       {
@@ -17553,8 +17553,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "78e3076859f2",
-      "name": "Nico",
+      "id": "0c322a010ec4",
+      "name": "Andrea",
       "value": 1
     },
     "biggest_message": {
@@ -17781,13 +17781,13 @@
     },
     {
       "date": "2026-07-17",
-      "count": 7,
-      "total": 16248
+      "count": 8,
+      "total": 16249
     }
   ],
   "hour_histogram": [
     432,
-    266,
+    267,
     149,
     82,
     42,
@@ -17812,6 +17812,12 @@
     864
   ],
   "recent": [
+    {
+      "n": 16249,
+      "id": "0c322a010ec4",
+      "name": "Andrea",
+      "ts": 1784244304.0
+    },
     {
       "n": 16248,
       "id": "78e3076859f2",
@@ -17925,12 +17931,6 @@
       "id": "2d61d5612db8",
       "name": "Wolfgang E.",
       "ts": 1784235259.0
-    },
-    {
-      "n": 16229,
-      "id": "c93ed700000f",
-      "name": "linus",
-      "ts": 1784235104.0
     }
   ]
 }
