@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-16T15:38:32.286246+00:00",
+  "generated_at": "2026-07-16T15:48:21.058964+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 16082,
-  "progress_pct": 1.6082,
+  "current_count": 16083,
+  "progress_pct": 1.6083,
   "num_players": 1073,
-  "total_messages": 27320,
+  "total_messages": 27322,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1784216281.0,
+  "last_count_ts": 1784216867.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -208,7 +208,7 @@
       "anon_phone": "+49 178 •••• 54",
       "points": 86,
       "pct": 0.53,
-      "last24h": 14,
+      "last24h": 12,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -1579,6 +1579,22 @@
       "rank": 98
     },
     {
+      "id": "adf50432d328",
+      "name": "Kiste",
+      "anon_phone": "+49 170 •••• 93",
+      "points": 29,
+      "pct": 0.18,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1784216867.0,
+      "first_ts": 1781894093.0,
+      "rank": 99
+    },
+    {
       "id": "d19116a74c05",
       "name": "Basti",
       "anon_phone": "+49 151 •••• 67",
@@ -1592,7 +1608,7 @@
       "early_counts": 0,
       "last_ts": 1783183731.0,
       "first_ts": 1781903261.0,
-      "rank": 99
+      "rank": 100
     },
     {
       "id": "e08653358b9b",
@@ -1608,7 +1624,7 @@
       "early_counts": 0,
       "last_ts": 1783950681.0,
       "first_ts": 1781886526.0,
-      "rank": 100
+      "rank": 101
     },
     {
       "id": "236b75edd620",
@@ -1624,7 +1640,7 @@
       "early_counts": 0,
       "last_ts": 1784053220.0,
       "first_ts": 1781222722.0,
-      "rank": 101
+      "rank": 102
     },
     {
       "id": "d64db822d6be",
@@ -1640,22 +1656,6 @@
       "early_counts": 0,
       "last_ts": 1783795728.0,
       "first_ts": 1782397193.0,
-      "rank": 102
-    },
-    {
-      "id": "adf50432d328",
-      "name": "Kiste",
-      "anon_phone": "+49 170 •••• 93",
-      "points": 28,
-      "pct": 0.17,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1784060218.0,
-      "first_ts": 1781894093.0,
       "rank": 103
     },
     {
@@ -17441,9 +17441,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "abdd765c9df5",
-      "name": "Ernesto",
-      "value": 2
+      "id": "adf50432d328",
+      "name": "Kiste",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -17664,8 +17664,8 @@
     },
     {
       "date": "2026-07-16",
-      "count": 99,
-      "total": 16082
+      "count": 100,
+      "total": 16083
     }
   ],
   "hour_histogram": [
@@ -17686,7 +17686,7 @@
     366,
     387,
     562,
-    759,
+    760,
     947,
     1341,
     1524,
@@ -17695,6 +17695,12 @@
     854
   ],
   "recent": [
+    {
+      "n": 16083,
+      "id": "adf50432d328",
+      "name": "Kiste",
+      "ts": 1784216867.0
+    },
     {
       "n": 16082,
       "id": "abdd765c9df5",
@@ -17808,12 +17814,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1784212379.0
-    },
-    {
-      "n": 16056,
-      "id": "8b064693812e",
-      "name": "Andre",
-      "ts": 1784211851.0
     }
   ]
 }
