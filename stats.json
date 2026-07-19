@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-19T18:30:54.786799+00:00",
+  "generated_at": "2026-07-19T18:40:13.297867+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 17460,
-  "progress_pct": 1.746,
+  "current_count": 17461,
+  "progress_pct": 1.7461,
   "num_players": 1100,
-  "total_messages": 28830,
+  "total_messages": 28831,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1784485845.0,
+  "last_count_ts": 1784486404.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -496,7 +496,7 @@
       "anon_phone": "+49 163 •••• 57",
       "points": 64,
       "pct": 0.37,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
@@ -671,7 +671,7 @@
       "name": "Felix T.",
       "anon_phone": "+49 175 •••• 96",
       "points": 55,
-      "pct": 0.32,
+      "pct": 0.31,
       "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
@@ -971,6 +971,22 @@
       "rank": 60
     },
     {
+      "id": "776f4d602138",
+      "name": "Korbi",
+      "anon_phone": "+49 176 •••• 48",
+      "points": 42,
+      "pct": 0.24,
+      "last24h": 2,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1784486404.0,
+      "first_ts": 1781456625.0,
+      "rank": 61
+    },
+    {
       "id": "1b54cda19789",
       "name": "Manu",
       "anon_phone": "+49 155 •••• 65",
@@ -984,22 +1000,6 @@
       "early_counts": 0,
       "last_ts": 1784399104.0,
       "first_ts": 1781292862.0,
-      "rank": 61
-    },
-    {
-      "id": "776f4d602138",
-      "name": "Korbi",
-      "anon_phone": "+49 176 •••• 48",
-      "points": 41,
-      "pct": 0.23,
-      "last24h": 1,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1784483270.0,
-      "first_ts": 1781456625.0,
       "rank": 62
     },
     {
@@ -1824,7 +1824,7 @@
       "anon_phone": "+49 151 •••• 17",
       "points": 27,
       "pct": 0.15,
-      "last24h": 5,
+      "last24h": 2,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
@@ -5744,7 +5744,7 @@
       "anon_phone": "+49 176 •••• 29",
       "points": 9,
       "pct": 0.05,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -11168,7 +11168,7 @@
       "anon_phone": "+1 617 •••• 33",
       "points": 3,
       "pct": 0.02,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -11328,7 +11328,7 @@
       "anon_phone": "+49 176 •••• 59",
       "points": 3,
       "pct": 0.02,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -17647,14 +17647,14 @@
       "7a2e949e25b3",
       "2f9108443e86",
       "553637e3d2b4",
-      "03772471f186",
       "df6424fbdeef",
       "d87796b1f27f",
       "af9c9d314a31",
       "d250ce427a30",
       "5b269b5d8047",
       "4657fdad849e",
-      "cdac8116e93e"
+      "cdac8116e93e",
+      "edb260c141f2"
     ],
     "longest_streak": [
       {
@@ -17873,8 +17873,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "4657fdad849e",
-      "name": "Simon",
+      "id": "776f4d602138",
+      "name": "Korbi",
       "value": 1
     },
     "biggest_message": {
@@ -18111,8 +18111,8 @@
     },
     {
       "date": "2026-07-19",
-      "count": 191,
-      "total": 17460
+      "count": 192,
+      "total": 17461
     }
   ],
   "hour_histogram": [
@@ -18136,12 +18136,18 @@
     832,
     1039,
     1466,
-    1676,
+    1677,
     1638,
     1350,
     922
   ],
   "recent": [
+    {
+      "n": 17461,
+      "id": "776f4d602138",
+      "name": "Korbi",
+      "ts": 1784486404.0
+    },
     {
       "n": 17460,
       "id": "4657fdad849e",
@@ -18255,12 +18261,6 @@
       "id": "ad33319a5825",
       "name": "Leonard",
       "ts": 1784483654.0
-    },
-    {
-      "n": 17436,
-      "id": "776f4d602138",
-      "name": "Korbi",
-      "ts": 1784483270.0
     }
   ]
 }
