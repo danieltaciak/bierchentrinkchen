@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-23T18:36:27.958345+00:00",
+  "generated_at": "2026-07-23T18:43:52.054822+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 18104,
-  "progress_pct": 1.8104,
+  "current_count": 18105,
+  "progress_pct": 1.8105,
   "num_players": 1111,
-  "total_messages": 29520,
+  "total_messages": 29523,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1784831772.0,
+  "last_count_ts": 1784832199.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -448,7 +448,7 @@
       "anon_phone": "+49 176 •••• 87",
       "points": 73,
       "pct": 0.4,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 2,
@@ -1360,7 +1360,7 @@
       "anon_phone": "+49 176 •••• 91",
       "points": 33,
       "pct": 0.18,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -1675,6 +1675,22 @@
       "rank": 104
     },
     {
+      "id": "38fff1e2639c",
+      "name": "Ben",
+      "anon_phone": "+49 151 •••• 09",
+      "points": 29,
+      "pct": 0.16,
+      "last24h": 2,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1784832199.0,
+      "first_ts": 1781206843.0,
+      "rank": 105
+    },
+    {
       "id": "8765134dcaf1",
       "name": "Felix",
       "anon_phone": "+49 162 •••• 50",
@@ -1688,7 +1704,7 @@
       "early_counts": 2,
       "last_ts": 1784054908.0,
       "first_ts": 1781977160.0,
-      "rank": 105
+      "rank": 106
     },
     {
       "id": "5e0359616cc8",
@@ -1704,7 +1720,7 @@
       "early_counts": 0,
       "last_ts": 1782770172.0,
       "first_ts": 1781289269.0,
-      "rank": 106
+      "rank": 107
     },
     {
       "id": "d16d3de3bca9",
@@ -1720,7 +1736,7 @@
       "early_counts": 0,
       "last_ts": 1782985823.0,
       "first_ts": 1780963761.0,
-      "rank": 107
+      "rank": 108
     },
     {
       "id": "b2d4dea5a4e1",
@@ -1736,7 +1752,7 @@
       "early_counts": 0,
       "last_ts": 1784311825.0,
       "first_ts": 1781196144.0,
-      "rank": 108
+      "rank": 109
     },
     {
       "id": "d19116a74c05",
@@ -1752,22 +1768,6 @@
       "early_counts": 0,
       "last_ts": 1783183731.0,
       "first_ts": 1781903261.0,
-      "rank": 109
-    },
-    {
-      "id": "38fff1e2639c",
-      "name": "Ben",
-      "anon_phone": "+49 151 •••• 09",
-      "points": 28,
-      "pct": 0.15,
-      "last24h": 1,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1784823535.0,
-      "first_ts": 1781206843.0,
       "rank": 110
     },
     {
@@ -5680,7 +5680,7 @@
       "anon_phone": "+49 157 •••• 22",
       "points": 10,
       "pct": 0.06,
-      "last24h": 9,
+      "last24h": 8,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -17820,8 +17820,8 @@
       "dd185fef1dba",
       "a39caed0b9fc",
       "115bd3930d45",
-      "ba2a31220add",
       "74c46f04e647",
+      "ba2a31220add",
       "d87796b1f27f",
       "7792feb8a66e",
       "9bf6383c58eb",
@@ -18049,8 +18049,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "bd85480ea186",
-      "name": "Bene",
+      "id": "38fff1e2639c",
+      "name": "Ben",
       "value": 1
     },
     "biggest_message": {
@@ -18307,8 +18307,8 @@
     },
     {
       "date": "2026-07-23",
-      "count": 165,
-      "total": 18104
+      "count": 166,
+      "total": 18105
     }
   ],
   "hour_histogram": [
@@ -18332,12 +18332,18 @@
     873,
     1091,
     1543,
-    1765,
+    1766,
     1713,
     1393,
     944
   ],
   "recent": [
+    {
+      "n": 18105,
+      "id": "38fff1e2639c",
+      "name": "Ben",
+      "ts": 1784832199.0
+    },
     {
       "n": 18104,
       "id": "bd85480ea186",
@@ -18451,12 +18457,6 @@
       "id": "b42df7ea4370",
       "name": "Chris",
       "ts": 1784829725.0
-    },
-    {
-      "n": 18079,
-      "id": "a6b107b87771",
-      "name": "Linus",
-      "ts": 1784829485.0
     }
   ]
 }
