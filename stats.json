@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-26T16:58:07.377006+00:00",
+  "generated_at": "2026-07-26T17:15:11.332231+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 18990,
-  "progress_pct": 1.899,
+  "current_count": 18991,
+  "progress_pct": 1.8991,
   "num_players": 1122,
-  "total_messages": 31037,
+  "total_messages": 31038,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785085071.0,
+  "last_count_ts": 1785086098.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -1755,6 +1755,22 @@
       "rank": 109
     },
     {
+      "id": "03772471f186",
+      "name": "Miri",
+      "anon_phone": "+49 151 •••• 17",
+      "points": 29,
+      "pct": 0.15,
+      "last24h": 1,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1785086098.0,
+      "first_ts": 1783536939.0,
+      "rank": 110
+    },
+    {
       "id": "b2d4dea5a4e1",
       "name": "ML",
       "anon_phone": "+49 151 •••• 56",
@@ -1768,7 +1784,7 @@
       "early_counts": 0,
       "last_ts": 1784311825.0,
       "first_ts": 1781196144.0,
-      "rank": 110
+      "rank": 111
     },
     {
       "id": "5eb334258084",
@@ -1784,7 +1800,7 @@
       "early_counts": 1,
       "last_ts": 1784920678.0,
       "first_ts": 1783366927.0,
-      "rank": 111
+      "rank": 112
     },
     {
       "id": "d19116a74c05",
@@ -1800,7 +1816,7 @@
       "early_counts": 0,
       "last_ts": 1783183731.0,
       "first_ts": 1781903261.0,
-      "rank": 112
+      "rank": 113
     },
     {
       "id": "1956a7890356",
@@ -1816,7 +1832,7 @@
       "early_counts": 0,
       "last_ts": 1784841617.0,
       "first_ts": 1781301628.0,
-      "rank": 113
+      "rank": 114
     },
     {
       "id": "d64db822d6be",
@@ -1832,7 +1848,7 @@
       "early_counts": 0,
       "last_ts": 1783795728.0,
       "first_ts": 1782397193.0,
-      "rank": 114
+      "rank": 115
     },
     {
       "id": "8b2f66e6f7ec",
@@ -1848,7 +1864,7 @@
       "early_counts": 3,
       "last_ts": 1782582740.0,
       "first_ts": 1781775059.0,
-      "rank": 115
+      "rank": 116
     },
     {
       "id": "858a46884967",
@@ -1864,22 +1880,6 @@
       "early_counts": 0,
       "last_ts": 1783110054.0,
       "first_ts": 1781031546.0,
-      "rank": 116
-    },
-    {
-      "id": "03772471f186",
-      "name": "Miri",
-      "anon_phone": "+49 151 •••• 17",
-      "points": 28,
-      "pct": 0.15,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1784921089.0,
-      "first_ts": 1783536939.0,
       "rank": 117
     },
     {
@@ -18005,7 +18005,8 @@
       "aa117ab97133",
       "4198299b819b",
       "ddbb3a52a83e",
-      "547556283acb"
+      "547556283acb",
+      "03772471f186"
     ],
     "longest_streak": [
       {
@@ -18224,8 +18225,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "547556283acb",
-      "name": "Willi",
+      "id": "03772471f186",
+      "name": "Miri",
       "value": 1
     },
     "biggest_message": {
@@ -18497,8 +18498,8 @@
     },
     {
       "date": "2026-07-26",
-      "count": 17,
-      "total": 18990
+      "count": 18,
+      "total": 18991
     }
   ],
   "hour_histogram": [
@@ -18521,13 +18522,19 @@
     672,
     897,
     1135,
-    1568,
+    1569,
     1794,
     1788,
     1444,
     965
   ],
   "recent": [
+    {
+      "n": 18991,
+      "id": "03772471f186",
+      "name": "Miri",
+      "ts": 1785086098.0
+    },
     {
       "n": 18990,
       "id": "547556283acb",
@@ -18641,12 +18648,6 @@
       "id": "7402368b5c04",
       "name": "Elias",
       "ts": 1784925468.0
-    },
-    {
-      "n": 18967,
-      "id": "7402368b5c04",
-      "name": "Elias",
-      "ts": 1784925458.0
     }
   ],
   "speed_samples": [
@@ -18705,6 +18706,10 @@
     [
       1785085071,
       18990
+    ],
+    [
+      1785086098,
+      18991
     ]
   ]
 }
