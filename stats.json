@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-26T17:15:11.332231+00:00",
+  "generated_at": "2026-07-26T17:25:30.977304+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 18991,
-  "progress_pct": 1.8991,
+  "current_count": 18992,
+  "progress_pct": 1.8992,
   "num_players": 1122,
-  "total_messages": 31038,
+  "total_messages": 31039,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785086098.0,
+  "last_count_ts": 1785086717.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -159,7 +159,7 @@
       "name": "Domi",
       "anon_phone": "+49 178 •••• 58",
       "points": 113,
-      "pct": 0.6,
+      "pct": 0.59,
       "last24h": 0,
       "longest_streak": 6,
       "assists_given": 0,
@@ -1659,6 +1659,22 @@
       "rank": 103
     },
     {
+      "id": "03772471f186",
+      "name": "Miri",
+      "anon_phone": "+49 151 •••• 17",
+      "points": 30,
+      "pct": 0.16,
+      "last24h": 2,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1785086717.0,
+      "first_ts": 1783536939.0,
+      "rank": 104
+    },
+    {
       "id": "97897748b637",
       "name": "Raphi",
       "anon_phone": "+49 151 •••• 11",
@@ -1672,7 +1688,7 @@
       "early_counts": 0,
       "last_ts": 1784913429.0,
       "first_ts": 1782295163.0,
-      "rank": 104
+      "rank": 105
     },
     {
       "id": "9c0968e6fd9c",
@@ -1688,7 +1704,7 @@
       "early_counts": 0,
       "last_ts": 1784206565.0,
       "first_ts": 1781375506.0,
-      "rank": 105
+      "rank": 106
     },
     {
       "id": "38fff1e2639c",
@@ -1704,7 +1720,7 @@
       "early_counts": 0,
       "last_ts": 1784832199.0,
       "first_ts": 1781206843.0,
-      "rank": 106
+      "rank": 107
     },
     {
       "id": "8765134dcaf1",
@@ -1720,7 +1736,7 @@
       "early_counts": 2,
       "last_ts": 1784054908.0,
       "first_ts": 1781977160.0,
-      "rank": 107
+      "rank": 108
     },
     {
       "id": "5e0359616cc8",
@@ -1736,7 +1752,7 @@
       "early_counts": 0,
       "last_ts": 1782770172.0,
       "first_ts": 1781289269.0,
-      "rank": 108
+      "rank": 109
     },
     {
       "id": "d16d3de3bca9",
@@ -1752,22 +1768,6 @@
       "early_counts": 0,
       "last_ts": 1782985823.0,
       "first_ts": 1780963761.0,
-      "rank": 109
-    },
-    {
-      "id": "03772471f186",
-      "name": "Miri",
-      "anon_phone": "+49 151 •••• 17",
-      "points": 29,
-      "pct": 0.15,
-      "last24h": 1,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1785086098.0,
-      "first_ts": 1783536939.0,
       "rank": 110
     },
     {
@@ -17992,6 +17992,7 @@
       "df6424fbdeef"
     ],
     "last_24h": [
+      "03772471f186",
       "4b9334bd0a26",
       "6b9e5cf641da",
       "2e95be7bb9ea",
@@ -18005,8 +18006,7 @@
       "aa117ab97133",
       "4198299b819b",
       "ddbb3a52a83e",
-      "547556283acb",
-      "03772471f186"
+      "547556283acb"
     ],
     "longest_streak": [
       {
@@ -18227,7 +18227,7 @@
     "current_streak": {
       "id": "03772471f186",
       "name": "Miri",
-      "value": 1
+      "value": 2
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -18498,8 +18498,8 @@
     },
     {
       "date": "2026-07-26",
-      "count": 18,
-      "total": 18991
+      "count": 19,
+      "total": 18992
     }
   ],
   "hour_histogram": [
@@ -18522,13 +18522,19 @@
     672,
     897,
     1135,
-    1569,
+    1570,
     1794,
     1788,
     1444,
     965
   ],
   "recent": [
+    {
+      "n": 18992,
+      "id": "03772471f186",
+      "name": "Miri",
+      "ts": 1785086717.0
+    },
     {
       "n": 18991,
       "id": "03772471f186",
@@ -18642,12 +18648,6 @@
       "id": "ba4a60487251",
       "name": "Tom",
       "ts": 1784925852.0
-    },
-    {
-      "n": 18968,
-      "id": "7402368b5c04",
-      "name": "Elias",
-      "ts": 1784925468.0
     }
   ],
   "speed_samples": [
@@ -18710,6 +18710,10 @@
     [
       1785086098,
       18991
+    ],
+    [
+      1785086717,
+      18992
     ]
   ]
 }
