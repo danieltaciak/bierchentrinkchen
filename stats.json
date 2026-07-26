@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-26T18:47:09.561021+00:00",
+  "generated_at": "2026-07-26T19:10:02.256865+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19016,
-  "progress_pct": 1.9016,
+  "current_count": 19017,
+  "progress_pct": 1.9017,
   "num_players": 1122,
-  "total_messages": 31069,
+  "total_messages": 31070,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785091617.0,
+  "last_count_ts": 1785092989.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -31,7 +31,7 @@
       "name": "Jakob",
       "anon_phone": "+49 152 •••• 43",
       "points": 174,
-      "pct": 0.92,
+      "pct": 0.91,
       "last24h": 0,
       "longest_streak": 6,
       "assists_given": 2,
@@ -126,15 +126,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 120,
-      "pct": 0.63,
-      "last24h": 0,
+      "points": 121,
+      "pct": 0.64,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 23,
       "early_counts": 0,
-      "last_ts": 1784924884.0,
+      "last_ts": 1785092989.0,
       "first_ts": 1781212818.0,
       "rank": 8
     },
@@ -18225,8 +18225,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "e08653358b9b",
-      "name": "F.M.",
+      "id": "c93ed700000f",
+      "name": "linus",
       "value": 1
     },
     "biggest_message": {
@@ -18498,8 +18498,8 @@
     },
     {
       "date": "2026-07-26",
-      "count": 43,
-      "total": 19016
+      "count": 44,
+      "total": 19017
     }
   ],
   "hour_histogram": [
@@ -18524,11 +18524,17 @@
     1136,
     1575,
     1802,
-    1788,
+    1789,
     1444,
     965
   ],
   "recent": [
+    {
+      "n": 19017,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1785092989.0
+    },
     {
       "n": 19016,
       "id": "e08653358b9b",
@@ -18642,23 +18648,9 @@
       "id": "4198299b819b",
       "name": "Moser",
       "ts": 1785083855.0
-    },
-    {
-      "n": 18986,
-      "id": "aa117ab97133",
-      "name": "Elias R.",
-      "ts": 1785083836.0
     }
   ],
   "speed_samples": [
-    [
-      1785084904,
-      18999
-    ],
-    [
-      1785085071,
-      19000
-    ],
     [
       1785086098,
       19001
@@ -18718,6 +18710,10 @@
     [
       1785091617,
       19016
+    ],
+    [
+      1785092989,
+      19017
     ]
   ]
 }
