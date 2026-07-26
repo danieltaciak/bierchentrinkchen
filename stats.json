@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-26T21:05:41.766921+00:00",
+  "generated_at": "2026-07-26T21:10:48.989285+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19048,
-  "progress_pct": 1.9048,
+  "current_count": 19049,
+  "progress_pct": 1.9049,
   "num_players": 1122,
-  "total_messages": 31106,
+  "total_messages": 31107,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785099923.0,
+  "last_count_ts": 1785100231.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -126,15 +126,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 121,
+      "points": 122,
       "pct": 0.64,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 23,
       "early_counts": 0,
-      "last_ts": 1785092989.0,
+      "last_ts": 1785100231.0,
       "first_ts": 1781212818.0,
       "rank": 8
     },
@@ -18002,11 +18002,11 @@
       "ddbb3a52a83e",
       "a39caed0b9fc",
       "9e8b357d136a",
+      "c93ed700000f",
       "97897748b637",
       "cfdba79b3c19",
       "efeced9c0950",
-      "c29fd3dcf5e2",
-      "6b9e5cf641da"
+      "c29fd3dcf5e2"
     ],
     "longest_streak": [
       {
@@ -18225,8 +18225,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "82a6be011a09",
-      "name": "Boohb",
+      "id": "c93ed700000f",
+      "name": "linus",
       "value": 1
     },
     "biggest_message": {
@@ -18498,8 +18498,8 @@
     },
     {
       "date": "2026-07-26",
-      "count": 75,
-      "total": 19048
+      "count": 76,
+      "total": 19049
     }
   ],
   "hour_histogram": [
@@ -18526,9 +18526,15 @@
     1802,
     1802,
     1458,
-    967
+    968
   ],
   "recent": [
+    {
+      "n": 19049,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1785100231.0
+    },
     {
       "n": 19048,
       "id": "82a6be011a09",
@@ -18642,19 +18648,9 @@
       "id": "82a6be011a09",
       "name": "Boohb",
       "ts": 1785095652.0
-    },
-    {
-      "n": 19028,
-      "id": "43140b6a3d00",
-      "name": "Amelie",
-      "ts": 1785095489.0
     }
   ],
   "speed_samples": [
-    [
-      1785092989,
-      19017
-    ],
     [
       1785093271,
       19018
@@ -18770,6 +18766,10 @@
     [
       1785099923,
       19048
+    ],
+    [
+      1785100231,
+      19049
     ]
   ]
 }
