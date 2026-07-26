@@ -129,20 +129,36 @@ const FIRE_SVG =
   '<rect x="2" y="8" width="4" height="1" fill="#ff6a00"/></svg>';
 
 function currentBph() {
-  const ev = (DATA.recent || []).filter((e) => e && e.ts && Number.isFinite(e.n));
-  if (ev.length < 2) return null;
-  const sorted = ev.slice().sort((a, b) => a.ts - b.ts);
-  const newest = sorted[sorted.length - 1];
+  // Beers counted in the trailing 60 minutes -- a true rolling-hour count, not
+  // an extrapolation. `speed_samples` is a compact [ts, n] history covering the
+  // last couple of hours; we measure how far the count moved from the hour
+  // boundary to the newest sample. Decays to 0 once the newest beer is older
+  // than the window (the group has gone quiet).
+  const raw = DATA.speed_samples;
+  if (!Array.isArray(raw) || raw.length === 0) return null;
+  const s = raw
+    .filter((x) => Array.isArray(x) && x.length === 2 &&
+      Number.isFinite(x[0]) && Number.isFinite(x[1]))
+    .sort((a, b) => a[0] - b[0]);
+  if (s.length === 0) return null;
+
   const nowSec = Date.now() / 1000;
-  const endTs = Math.max(newest.ts, nowSec);
-  const startBoundary = endTs - 3600;
-  const win = sorted.filter((e) => e.ts >= startBoundary);
-  if (win.length < 2) return 0;
-  const first = win[0];
-  const beers = newest.n - first.n;
-  const span = endTs - first.ts;
-  if (span <= 0) return 0;
-  return (beers / span) * 3600;
+  const boundary = nowSec - 3600;
+  const newest = s[s.length - 1];
+  if (newest[0] <= boundary) return 0;      // no beer within the last hour
+
+  // Count as of the hour boundary = n of the last sample at or before it. When
+  // the history only starts inside the hour (fresh burst), fall back to the
+  // earliest sample so we never over-count.
+  let anchorN = null;
+  for (const [ts, n] of s) {
+    if (ts <= boundary) anchorN = n;
+    else break;
+  }
+  if (anchorN === null) anchorN = s[0][1];
+
+  const beers = newest[1] - anchorN;
+  return beers > 0 ? beers : 0;
 }
 
 function renderSpeed() {
@@ -470,3 +486,9 @@ function esc(s) {
 }
 
 load();
+
+// Keep the rolling-hour speed gauge honest while the page sits open: re-render
+// it every 30 s so it decays as the trailing hour moves, even without new data.
+setInterval(() => {
+  if (DATA) renderSpeed();
+}, 30000);

@@ -1032,6 +1032,21 @@ def main() -> int:
         for e in events if not is_blacklisted(e["phone"])
     ][-20:][::-1]
 
+    # Compact throughput samples for the client's "beers per hour" gauge. The
+    # gauge must reflect only the trailing 60 minutes, so it needs every count in
+    # that window (a busy hour can exceed 100) plus enough history before it to
+    # anchor the hour boundary -- the 20-entry `recent` feed is far too short and
+    # sparse for that. We emit [ts, n] pairs (no identity -- n is the public
+    # count) for the last SPEED_WINDOW_SEC, letting the client count exactly how
+    # far the total moved in the last hour and decay to zero when idle.
+    SPEED_WINDOW_SEC = 7200  # two hours: covers the rolling hour + an anchor
+    speed_end = events[-1]["ts"] if events else now.timestamp()
+    speed_cut = speed_end - SPEED_WINDOW_SEC
+    speed_samples = sorted(
+        ([int(e["ts"]), int(e["n"])] for e in events if e["ts"] >= speed_cut),
+        key=lambda s: (s[0], s[1]),
+    )
+
     # The record streak carries its ending number, but only when the actual
     # record holder is the (non-hidden) player we are showing.
     longest_streak_rec = record(longest_streak)
@@ -1080,6 +1095,7 @@ def main() -> int:
         "timeline": timeline,
         "hour_histogram": [per_hour.get(h, 0) for h in range(24)],
         "recent": recent,
+        "speed_samples": speed_samples,
     }
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
