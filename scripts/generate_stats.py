@@ -73,6 +73,20 @@ BLACKLIST_FILE = Path(
     os.environ.get("SCOREBOARD_BLACKLIST", WACLI_STORE / "scoreboard_blacklist.json")
 )
 
+# Manual count corrections. The reconstruction is deliberately monotonic and
+# cannot tell a genuine run from one the group faked/overshot, so once the chain
+# climbs it never comes back down on its own. This file lets us pin a ceiling at
+# a point in time: an entry {"at": <ts>, "count": <n>} means "at that moment the
+# true count was at most <n>". Every counting message timestamped at or before an
+# entry's `at` is clamped so the running total can't exceed that entry's `count`
+# (the ceiling of the nearest applicable entry wins). Messages *after* the entry
+# are unaffected, so real counting simply resumes from the corrected value -- the
+# count is re-baselined, not frozen. Local only, never committed. Accepts a single
+# object or a JSON array of them; `at` may be a unix timestamp or ISO-8601 string.
+COUNT_CAPS_FILE = Path(
+    os.environ.get("SCOREBOARD_COUNT_CAPS", WACLI_STORE / "scoreboard_reset.json")
+)
+
 LID_MENTION_RE = re.compile(r"@(\d{6,})")
 NUMBER_RE = re.compile(r"\d[\d.,]*")
 
@@ -116,6 +130,42 @@ def load_name_overrides() -> dict[str, str]:
         if digits and name:
             out[digits] = name
     return out
+
+
+def load_count_caps() -> list[tuple[float, int]]:
+    """Manual count ceilings -> sorted list of (at_ts, max_count). Local only.
+
+    See COUNT_CAPS_FILE. Each entry pins the maximum group total for every
+    counting message timestamped at or before ``at``. Returns [] when unset or
+    unparseable so normal (uncapped) reconstruction runs.
+    """
+    if not COUNT_CAPS_FILE.exists():
+        return []
+    try:
+        data = json.loads(COUNT_CAPS_FILE.read_text())
+    except (OSError, ValueError):
+        return []
+    items = data if isinstance(data, list) else [data]
+    caps: list[tuple[float, int]] = []
+    for it in items:
+        if not isinstance(it, dict):
+            continue
+        at = it.get("at")
+        count = it.get("count")
+        ts: float | None = None
+        if isinstance(at, bool):
+            ts = None
+        elif isinstance(at, (int, float)):
+            ts = float(at)
+        elif isinstance(at, str):
+            try:
+                ts = datetime.fromisoformat(at).timestamp()
+            except ValueError:
+                ts = None
+        if ts is not None and isinstance(count, int) and not isinstance(count, bool):
+            caps.append((ts, count))
+    caps.sort()
+    return caps
 
 
 def load_blacklist() -> tuple[set[str], set[str]]:
@@ -579,6 +629,21 @@ def main() -> int:
     event_by_n: dict[int, dict] = {}  # number -> its event, for recap reattribution
     biggest_msg = {"count": 0, "phone": None, "text": "", "ts": 0}
 
+    # Manual count ceilings (see load_count_caps). For a message at time `ts`,
+    # every cap whose `at` is at or after `ts` applies; the smallest such count is
+    # the hard ceiling `current` may not exceed while processing that message.
+    # This lets us undo an overshoot the group later disowned without freezing
+    # future counting -- messages past the cap's `at` are simply uncapped.
+    count_caps = load_count_caps()
+    active_ceiling: int | None = None
+
+    def _ceiling_for(ts: float) -> int | None:
+        c: int | None = None
+        for at, cnt in count_caps:
+            if at >= ts and (c is None or cnt < c):
+                c = cnt
+        return c
+
     rel_prev = 0            # last number seen in the relative (drift) chain
     drift_run: list[dict] = []  # buffered drift steps not yet trusted
     drift_locked = False   # True once a drift chain passed quorum -> follow it live
@@ -594,6 +659,8 @@ def main() -> int:
 
     def _commit_drift(entry: dict) -> None:
         nonlocal current
+        if active_ceiling is not None and current + 1 > active_ceiling:
+            return
         current += 1
         ev = {"n": current, "phone": _drift_target(entry),
               "scorer": entry["sender"], "ts": entry["ts"], "drift": True}
@@ -609,8 +676,13 @@ def main() -> int:
             nums = [current + 1]
 
         start_current = current
+        active_ceiling = _ceiling_for(ts)
         accepted: list[int] = []
         for n in nums:
+            # A manual count cap clamps the running total for this message; any
+            # acceptance that would push `current` past it is treated as junk.
+            if active_ceiling is not None and n > active_ceiling:
+                continue
             if not seeded:
                 if sustained(n, i):
                     current = n
