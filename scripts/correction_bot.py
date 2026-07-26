@@ -98,7 +98,6 @@ def compose_message(sig: dict) -> str:
     lid = sig.get("offender_lid")
     who = f"@{lid}" if lid else "Achtung"
     correct = sig["correct_count"]
-    nxt = sig["expected_next"]
     wrong = sig["wrong_value"]
 
     seed = sig.get("dedupe_key") or f"{correct}:{wrong}"
@@ -109,7 +108,7 @@ def compose_message(sig: dict) -> str:
     return (
         f"{opener} 🚨\n\n"
         f"Korrekter Count: {fmt(correct)}\n"
-        f"Weiter geht's mit {fmt(nxt)}\n\n"
+        f"du hast geschrieben {fmt(wrong)}\n\n"
         f"{prost} 🍺"
     )
 

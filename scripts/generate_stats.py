@@ -99,7 +99,7 @@ DRIFT_QUORUM = 7     # consecutive +1 relative steps before we follow a drift
 # Correction-feedback tuning. Reconstruction is authoritative; when the newest
 # counting message is an uncorroborated outlier we tell the group the real
 # count and tag whoever wrote it.
-CORRECTION_WINDOW_SEC = 1800  # only warn about deviations newer than this
+CORRECTION_WINDOW_SEC = 120   # only warn about deviations newer than this (2 min)
 CORRECTION_MIN_SUPPORT = 3    # distinct senders that make a value 'the group', not an error
 
 
