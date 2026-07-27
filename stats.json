@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-27T13:55:39.669086+00:00",
+  "generated_at": "2026-07-27T14:12:40.890047+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19066,
-  "progress_pct": 1.9066,
+  "current_count": 19067,
+  "progress_pct": 1.9067,
   "num_players": 1123,
-  "total_messages": 31128,
+  "total_messages": 31129,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785160524.0,
+  "last_count_ts": 1785161550.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -526,15 +526,15 @@
       "id": "4460bcf9c79c",
       "name": "Lance",
       "anon_phone": "+49 152 •••• 66",
-      "points": 67,
-      "pct": 0.35,
-      "last24h": 2,
+      "points": 68,
+      "pct": 0.36,
+      "last24h": 3,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 11,
       "early_counts": 0,
-      "last_ts": 1785160524.0,
+      "last_ts": 1785161550.0,
       "first_ts": 1781198140.0,
       "rank": 33
     },
@@ -18017,12 +18017,12 @@
       "97897748b637",
       "cee931f2a642",
       "c29fd3dcf5e2",
+      "4460bcf9c79c",
       "4b9334bd0a26",
       "ddbb3a52a83e",
       "60bb21af1517",
       "a39caed0b9fc",
-      "9e8b357d136a",
-      "c93ed700000f"
+      "9e8b357d136a"
     ],
     "longest_streak": [
       {
@@ -18243,7 +18243,7 @@
     "current_streak": {
       "id": "4460bcf9c79c",
       "name": "Lance",
-      "value": 2
+      "value": 3
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -18519,8 +18519,8 @@
     },
     {
       "date": "2026-07-27",
-      "count": 13,
-      "total": 19066
+      "count": 14,
+      "total": 19067
     }
   ],
   "hour_histogram": [
@@ -18540,7 +18540,7 @@
     329,
     418,
     432,
-    672,
+    673,
     897,
     1136,
     1575,
@@ -18550,6 +18550,12 @@
     971
   ],
   "recent": [
+    {
+      "n": 19067,
+      "id": "4460bcf9c79c",
+      "name": "Lance",
+      "ts": 1785161550.0
+    },
     {
       "n": 19066,
       "id": "4460bcf9c79c",
@@ -18663,12 +18669,6 @@
       "id": "c29fd3dcf5e2",
       "name": "Cesco",
       "ts": 1785098061.0
-    },
-    {
-      "n": 19042,
-      "id": "97897748b637",
-      "name": "Raphi",
-      "ts": 1785097877.0
     }
   ],
   "speed_samples": [
@@ -18695,6 +18695,10 @@
     [
       1785160524,
       19066
+    ],
+    [
+      1785161550,
+      19067
     ]
   ]
 }
