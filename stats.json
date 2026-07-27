@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-27T19:54:57.599495+00:00",
+  "generated_at": "2026-07-27T20:01:20.243914+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19170,
-  "progress_pct": 1.917,
+  "current_count": 19171,
+  "progress_pct": 1.9171,
   "num_players": 1126,
-  "total_messages": 31228,
+  "total_messages": 31231,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785182086.0,
+  "last_count_ts": 1785182454.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -110,15 +110,15 @@
       "id": "115bd3930d45",
       "name": "Fabi",
       "anon_phone": "+49 175 •••• 16",
-      "points": 122,
+      "points": 123,
       "pct": 0.64,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 33,
       "early_counts": 2,
-      "last_ts": 1784848481.0,
+      "last_ts": 1785182454.0,
       "first_ts": 1781896196.0,
       "rank": 7
     },
@@ -18289,8 +18289,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "dc330d40fb11",
-      "name": "Aaron D.",
+      "id": "115bd3930d45",
+      "name": "Fabi",
       "value": 1
     },
     "biggest_message": {
@@ -18567,8 +18567,8 @@
     },
     {
       "date": "2026-07-27",
-      "count": 117,
-      "total": 19170
+      "count": 118,
+      "total": 19171
     }
   ],
   "hour_histogram": [
@@ -18594,10 +18594,16 @@
     1592,
     1823,
     1826,
-    1458,
+    1459,
     971
   ],
   "recent": [
+    {
+      "n": 19171,
+      "id": "115bd3930d45",
+      "name": "Fabi",
+      "ts": 1785182454.0
+    },
     {
       "n": 19170,
       "id": "dc330d40fb11",
@@ -18711,23 +18717,9 @@
       "id": "88dc236346c4",
       "name": "Isa",
       "ts": 1785179265.0
-    },
-    {
-      "n": 19141,
-      "id": "e17d4d301a67",
-      "name": "Laura O.",
-      "ts": 1785179022.0
     }
   ],
   "speed_samples": [
-    [
-      1785175152,
-      19111
-    ],
-    [
-      1785175205,
-      19112
-    ],
     [
       1785175377,
       19113
@@ -18903,6 +18895,10 @@
     [
       1785182086,
       19170
+    ],
+    [
+      1785182454,
+      19171
     ]
   ]
 }
