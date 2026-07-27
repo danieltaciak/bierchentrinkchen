@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-27T20:14:14.912414+00:00",
+  "generated_at": "2026-07-27T20:31:57.815296+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19174,
-  "progress_pct": 1.9174,
+  "current_count": 19175,
+  "progress_pct": 1.9175,
   "num_players": 1126,
-  "total_messages": 31233,
+  "total_messages": 31234,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785183247.0,
+  "last_count_ts": 1785184305.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -48,7 +48,7 @@
       "anon_phone": "+49 170 •••• 82",
       "points": 166,
       "pct": 0.87,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 9,
       "assists_given": 0,
       "assists_received": 2,
@@ -96,7 +96,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 143,
       "pct": 0.75,
-      "last24h": 5,
+      "last24h": 4,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -619,6 +619,22 @@
       "rank": 38
     },
     {
+      "id": "681d886b771b",
+      "name": "Lukas",
+      "anon_phone": "+49 151 •••• 74",
+      "points": 59,
+      "pct": 0.31,
+      "last24h": 6,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1785184305.0,
+      "first_ts": 1781090993.0,
+      "rank": 39
+    },
+    {
       "id": "177bd8355eeb",
       "name": "Matze",
       "anon_phone": "+49 174 •••• 16",
@@ -632,22 +648,6 @@
       "early_counts": 0,
       "last_ts": 1784580068.0,
       "first_ts": 1781866017.0,
-      "rank": 39
-    },
-    {
-      "id": "681d886b771b",
-      "name": "Lukas",
-      "anon_phone": "+49 151 •••• 74",
-      "points": 58,
-      "pct": 0.3,
-      "last24h": 5,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1785180318.0,
-      "first_ts": 1781090993.0,
       "rank": 40
     },
     {
@@ -1344,7 +1344,7 @@
       "anon_phone": "+49 151 •••• 11",
       "points": 34,
       "pct": 0.18,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 1,
       "assists_received": 0,
@@ -3936,7 +3936,7 @@
       "anon_phone": "+49 157 •••• 20",
       "points": 15,
       "pct": 0.08,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -18056,21 +18056,21 @@
       "df6424fbdeef"
     ],
     "last_24h": [
-      "a5f77afeecc6",
-      "4460bcf9c79c",
       "681d886b771b",
+      "4460bcf9c79c",
       "8a6ad087f1ea",
       "547556283acb",
       "1956a7890356",
       "1a6129668ba3",
+      "a5f77afeecc6",
       "e0ccca3f241a",
-      "97897748b637",
       "c29fd3dcf5e2",
       "efeced9c0950",
       "5e0359616cc8",
       "b36be960134f",
       "bbd3041bdb62",
-      "8b20d475db4b"
+      "8b20d475db4b",
+      "152f35775402"
     ],
     "longest_streak": [
       {
@@ -18289,8 +18289,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "bbd3041bdb62",
-      "name": "Flex",
+      "id": "681d886b771b",
+      "name": "Lukas",
       "value": 1
     },
     "biggest_message": {
@@ -18567,8 +18567,8 @@
     },
     {
       "date": "2026-07-27",
-      "count": 121,
-      "total": 19174
+      "count": 122,
+      "total": 19175
     }
   ],
   "hour_histogram": [
@@ -18594,10 +18594,16 @@
     1592,
     1823,
     1826,
-    1461,
+    1462,
     971
   ],
   "recent": [
+    {
+      "n": 19175,
+      "id": "681d886b771b",
+      "name": "Lukas",
+      "ts": 1785184305.0
+    },
     {
       "n": 19174,
       "id": "bbd3041bdb62",
@@ -18711,39 +18717,9 @@
       "id": "dc330d40fb11",
       "name": "Aaron D.",
       "ts": 1785179607.0
-    },
-    {
-      "n": 19144,
-      "id": "fd4804a39127",
-      "name": "Daniel",
-      "ts": 1785179592.0
     }
   ],
   "speed_samples": [
-    [
-      1785176141,
-      19117
-    ],
-    [
-      1785176249,
-      19118
-    ],
-    [
-      1785176381,
-      19119
-    ],
-    [
-      1785176396,
-      19120
-    ],
-    [
-      1785176662,
-      19122
-    ],
-    [
-      1785176998,
-      19124
-    ],
     [
       1785177301,
       19125
@@ -18891,6 +18867,10 @@
     [
       1785183247,
       19174
+    ],
+    [
+      1785184305,
+      19175
     ]
   ]
 }
