@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-27T16:31:54.923425+00:00",
+  "generated_at": "2026-07-27T16:35:56.076970+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19085,
-  "progress_pct": 1.9085,
+  "current_count": 19086,
+  "progress_pct": 1.9086,
   "num_players": 1124,
-  "total_messages": 31145,
+  "total_messages": 31146,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785169901.0,
+  "last_count_ts": 1785170139.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -715,6 +715,22 @@
       "rank": 44
     },
     {
+      "id": "681d886b771b",
+      "name": "Lukas",
+      "anon_phone": "+49 151 •••• 74",
+      "points": 55,
+      "pct": 0.29,
+      "last24h": 2,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1785170139.0,
+      "first_ts": 1781090993.0,
+      "rank": 45
+    },
+    {
       "id": "776f4d602138",
       "name": "Korbi",
       "anon_phone": "+49 176 •••• 48",
@@ -728,22 +744,6 @@
       "early_counts": 0,
       "last_ts": 1784919263.0,
       "first_ts": 1781456625.0,
-      "rank": 45
-    },
-    {
-      "id": "681d886b771b",
-      "name": "Lukas",
-      "anon_phone": "+49 151 •••• 74",
-      "points": 54,
-      "pct": 0.28,
-      "last24h": 1,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1785165270.0,
-      "first_ts": 1781090993.0,
       "rank": 46
     },
     {
@@ -18257,8 +18257,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "74c46f04e647",
-      "name": "DimA",
+      "id": "681d886b771b",
+      "name": "Lukas",
       "value": 1
     },
     "biggest_message": {
@@ -18535,8 +18535,8 @@
     },
     {
       "date": "2026-07-27",
-      "count": 32,
-      "total": 19085
+      "count": 33,
+      "total": 19086
     }
   ],
   "hour_histogram": [
@@ -18558,7 +18558,7 @@
     432,
     681,
     903,
-    1139,
+    1140,
     1575,
     1802,
     1802,
@@ -18566,6 +18566,12 @@
     971
   ],
   "recent": [
+    {
+      "n": 19086,
+      "id": "681d886b771b",
+      "name": "Lukas",
+      "ts": 1785170139.0
+    },
     {
       "n": 19085,
       "id": "74c46f04e647",
@@ -18679,12 +18685,6 @@
       "id": "4460bcf9c79c",
       "name": "Lance",
       "ts": 1785160524.0
-    },
-    {
-      "n": 19065,
-      "id": "4460bcf9c79c",
-      "name": "Lance",
-      "ts": 1785160524.0
     }
   ],
   "speed_samples": [
@@ -18747,6 +18747,10 @@
     [
       1785169901,
       19085
+    ],
+    [
+      1785170139,
+      19086
     ]
   ]
 }
