@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-28T19:01:14.649540+00:00",
+  "generated_at": "2026-07-28T19:01:50.581941+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19273,
-  "progress_pct": 1.9273,
+  "current_count": 19275,
+  "progress_pct": 1.9275,
   "num_players": 1131,
-  "total_messages": 31352,
+  "total_messages": 31353,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785265263.0,
+  "last_count_ts": 1785265299.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -1499,6 +1499,22 @@
       "rank": 93
     },
     {
+      "id": "d0612e2d2cb6",
+      "name": "Jakob",
+      "anon_phone": "+49 157 •••• 45",
+      "points": 33,
+      "pct": 0.17,
+      "last24h": 5,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 6,
+      "early_counts": 0,
+      "last_ts": 1785265299.0,
+      "first_ts": 1781279012.0,
+      "rank": 94
+    },
+    {
       "id": "0ab904a87ade",
       "name": "Moritz",
       "anon_phone": "+49 151 •••• 81",
@@ -1512,7 +1528,7 @@
       "early_counts": 6,
       "last_ts": 1783807383.0,
       "first_ts": 1781552231.0,
-      "rank": 94
+      "rank": 95
     },
     {
       "id": "fe4f1b801c18",
@@ -1528,7 +1544,7 @@
       "early_counts": 0,
       "last_ts": 1783683409.0,
       "first_ts": 1781285234.0,
-      "rank": 95
+      "rank": 96
     },
     {
       "id": "1c241224dd31",
@@ -1544,7 +1560,7 @@
       "early_counts": 0,
       "last_ts": 1785257678.0,
       "first_ts": 1781350729.0,
-      "rank": 96
+      "rank": 97
     },
     {
       "id": "7e68c8905d5b",
@@ -1560,7 +1576,7 @@
       "early_counts": 0,
       "last_ts": 1783357731.0,
       "first_ts": 1781364311.0,
-      "rank": 97
+      "rank": 98
     },
     {
       "id": "2f8dd4b32d6d",
@@ -1576,22 +1592,6 @@
       "early_counts": 0,
       "last_ts": 1783775664.0,
       "first_ts": 1781188765.0,
-      "rank": 98
-    },
-    {
-      "id": "d0612e2d2cb6",
-      "name": "Jakob",
-      "anon_phone": "+49 157 •••• 45",
-      "points": 31,
-      "pct": 0.16,
-      "last24h": 3,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 6,
-      "early_counts": 0,
-      "last_ts": 1785263794.0,
-      "first_ts": 1781279012.0,
       "rank": 99
     },
     {
@@ -18138,6 +18138,7 @@
     "last_24h": [
       "1956a7890356",
       "115bd3930d45",
+      "d0612e2d2cb6",
       "03772471f186",
       "9bf6383c58eb",
       "e0ccca3f241a",
@@ -18145,7 +18146,6 @@
       "ddbb3a52a83e",
       "88dc236346c4",
       "a5f77afeecc6",
-      "d0612e2d2cb6",
       "c93ed700000f",
       "ae11aa7cbe14",
       "f6d25abbd45b",
@@ -18369,9 +18369,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "21ab33dbbddf",
+      "id": "d0612e2d2cb6",
       "name": "Jakob",
-      "value": 3
+      "value": 2
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -18652,8 +18652,8 @@
     },
     {
       "date": "2026-07-28",
-      "count": 95,
-      "total": 19273
+      "count": 97,
+      "total": 19275
     }
   ],
   "hour_histogram": [
@@ -18678,11 +18678,23 @@
     1162,
     1610,
     1852,
-    1830,
+    1832,
     1464,
     972
   ],
   "recent": [
+    {
+      "n": 19275,
+      "id": "d0612e2d2cb6",
+      "name": "Jakob",
+      "ts": 1785265299.0
+    },
+    {
+      "n": 19274,
+      "id": "d0612e2d2cb6",
+      "name": "Jakob",
+      "ts": 1785265299.0
+    },
     {
       "n": 19273,
       "id": "21ab33dbbddf",
@@ -18790,18 +18802,6 @@
       "id": "abdd765c9df5",
       "name": "Ernesto",
       "ts": 1785262947.0
-    },
-    {
-      "n": 19251,
-      "id": "9941ce960633",
-      "name": "Max",
-      "ts": 1785262745.0
-    },
-    {
-      "n": 19250,
-      "id": "9941ce960633",
-      "name": "Max",
-      "ts": 1785262745.0
     }
   ],
   "speed_samples": [
@@ -19000,6 +19000,14 @@
     [
       1785265263,
       19273
+    ],
+    [
+      1785265299,
+      19274
+    ],
+    [
+      1785265299,
+      19275
     ]
   ]
 }
