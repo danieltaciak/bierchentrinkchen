@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-28T20:22:51.072814+00:00",
+  "generated_at": "2026-07-28T20:23:27.416140+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19298,
-  "progress_pct": 1.9298,
+  "current_count": 19299,
+  "progress_pct": 1.9299,
   "num_players": 1132,
-  "total_messages": 31381,
+  "total_messages": 31382,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785270152.0,
+  "last_count_ts": 1785270195.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -1054,15 +1054,15 @@
       "id": "8d791dd5d387",
       "name": "Pascal",
       "anon_phone": "+49 151 •••• 88",
-      "points": 41,
-      "pct": 0.21,
-      "last24h": 0,
+      "points": 42,
+      "pct": 0.22,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 0,
       "early_counts": 2,
-      "last_ts": 1785101289.0,
+      "last_ts": 1785270195.0,
       "first_ts": 1781809476.0,
       "rank": 66
     },
@@ -18385,8 +18385,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "af005e9bda68",
-      "name": "Tristan",
+      "id": "8d791dd5d387",
+      "name": "Pascal",
       "value": 1
     },
     "biggest_message": {
@@ -18668,8 +18668,8 @@
     },
     {
       "date": "2026-07-28",
-      "count": 120,
-      "total": 19298
+      "count": 121,
+      "total": 19299
     }
   ],
   "hour_histogram": [
@@ -18695,10 +18695,16 @@
     1610,
     1852,
     1851,
-    1468,
+    1469,
     972
   ],
   "recent": [
+    {
+      "n": 19299,
+      "id": "8d791dd5d387",
+      "name": "Pascal",
+      "ts": 1785270195.0
+    },
     {
       "n": 19298,
       "id": "af005e9bda68",
@@ -18812,12 +18818,6 @@
       "id": "a72dd60785ba",
       "name": "Elena",
       "ts": 1785265889.0
-    },
-    {
-      "n": 19279,
-      "id": "f6d25abbd45b",
-      "name": "Luca",
-      "ts": 1785265782.0
     }
   ],
   "speed_samples": [
@@ -18988,6 +18988,10 @@
     [
       1785270152,
       19298
+    ],
+    [
+      1785270195,
+      19299
     ]
   ]
 }
