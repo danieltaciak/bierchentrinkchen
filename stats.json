@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-29T00:57:17.963584+00:00",
+  "generated_at": "2026-07-29T01:20:48.931751+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19340,
-  "progress_pct": 1.934,
+  "current_count": 19341,
+  "progress_pct": 1.9341,
   "num_players": 1134,
-  "total_messages": 31428,
+  "total_messages": 31429,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785286621.0,
+  "last_count_ts": 1785288037.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -110,15 +110,15 @@
       "id": "115bd3930d45",
       "name": "Fabi",
       "anon_phone": "+49 175 •••• 16",
-      "points": 132,
-      "pct": 0.68,
-      "last24h": 7,
+      "points": 133,
+      "pct": 0.69,
+      "last24h": 8,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 2,
-      "night_counts": 37,
+      "night_counts": 38,
       "early_counts": 2,
-      "last_ts": 1785286621.0,
+      "last_ts": 1785288037.0,
       "first_ts": 1781896196.0,
       "rank": 7
     },
@@ -18306,13 +18306,13 @@
     ],
     "night_owls": [
       {
-        "id": "74c46f04e647",
-        "name": "DimA",
-        "value": 37
-      },
-      {
         "id": "115bd3930d45",
         "name": "Fabi",
+        "value": 38
+      },
+      {
+        "id": "74c46f04e647",
+        "name": "DimA",
         "value": 37
       },
       {
@@ -18419,7 +18419,7 @@
     "current_streak": {
       "id": "115bd3930d45",
       "name": "Fabi",
-      "value": 1
+      "value": 2
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -18432,9 +18432,9 @@
       "value": 1048
     },
     "night_owl": {
-      "id": "74c46f04e647",
-      "name": "DimA",
-      "value": 37
+      "id": "115bd3930d45",
+      "name": "Fabi",
+      "value": 38
     },
     "early_bird": {
       "id": "0c322a010ec4",
@@ -18705,15 +18705,15 @@
     },
     {
       "date": "2026-07-29",
-      "count": 16,
-      "total": 19340
+      "count": 17,
+      "total": 19341
     }
   ],
   "hour_histogram": [
     518,
     316,
     176,
-    98,
+    99,
     50,
     34,
     34,
@@ -18736,6 +18736,12 @@
     982
   ],
   "recent": [
+    {
+      "n": 19341,
+      "id": "115bd3930d45",
+      "name": "Fabi",
+      "ts": 1785288037.0
+    },
     {
       "n": 19340,
       "id": "115bd3930d45",
@@ -18849,19 +18855,9 @@
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "ts": 1785273064.0
-    },
-    {
-      "n": 19320,
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
-      "ts": 1785273064.0
     }
   ],
   "speed_samples": [
-    [
-      1785280756,
-      19335
-    ],
     [
       1785282129,
       19336
@@ -18881,6 +18877,10 @@
     [
       1785286621,
       19340
+    ],
+    [
+      1785288037,
+      19341
     ]
   ]
 }
