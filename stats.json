@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-29T19:36:54.705057+00:00",
+  "generated_at": "2026-07-29T19:37:19.546885+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19455,
-  "progress_pct": 1.9455,
+  "current_count": 19458,
+  "progress_pct": 1.9458,
   "num_players": 1140,
-  "total_messages": 31968,
+  "total_messages": 31971,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785353802.0,
+  "last_count_ts": 1785353827.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -126,15 +126,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 132,
-      "pct": 0.68,
-      "last24h": 0,
+      "points": 135,
+      "pct": 0.69,
+      "last24h": 3,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 23,
       "early_counts": 0,
-      "last_ts": 1785261047.0,
+      "last_ts": 1785353827.0,
       "first_ts": 1781212818.0,
       "rank": 8
     },
@@ -18513,9 +18513,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "db4218c80c09",
-      "name": "Florian",
-      "value": 1
+      "id": "c93ed700000f",
+      "name": "linus",
+      "value": 3
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -18801,8 +18801,8 @@
     },
     {
       "date": "2026-07-29",
-      "count": 130,
-      "total": 19455
+      "count": 133,
+      "total": 19458
     }
   ],
   "hour_histogram": [
@@ -18827,11 +18827,29 @@
     1202,
     1681,
     1969,
-    1907,
+    1910,
     1515,
     1001
   ],
   "recent": [
+    {
+      "n": 19458,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1785353827.0
+    },
+    {
+      "n": 19457,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1785353825.0
+    },
+    {
+      "n": 19456,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1785353825.0
+    },
     {
       "n": 19455,
       "id": "db4218c80c09",
@@ -18933,24 +18951,6 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1785350553.0
-    },
-    {
-      "n": 19437,
-      "id": "416d585e4acc",
-      "name": "Marlin",
-      "ts": 1785350261.0
-    },
-    {
-      "n": 19436,
-      "id": "115bd3930d45",
-      "name": "Fabi",
-      "ts": 1785349988.0
-    },
-    {
-      "n": 19435,
-      "id": "a0aa51137b2f",
-      "name": "Cs",
-      "ts": 1785349520.0
     }
   ],
   "speed_samples": [
@@ -19093,6 +19093,18 @@
     [
       1785353802,
       19455
+    ],
+    [
+      1785353825,
+      19456
+    ],
+    [
+      1785353825,
+      19457
+    ],
+    [
+      1785353827,
+      19458
     ]
   ]
 }
