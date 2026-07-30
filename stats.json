@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T16:31:33.550038+00:00",
+  "generated_at": "2026-07-30T16:44:34.100918+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19568,
-  "progress_pct": 1.9568,
+  "current_count": 19569,
+  "progress_pct": 1.9569,
   "num_players": 1141,
-  "total_messages": 32112,
+  "total_messages": 32113,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785429081.0,
+  "last_count_ts": 1785429858.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -96,7 +96,7 @@
       "anon_phone": "+49 176 •••• 13",
       "points": 157,
       "pct": 0.8,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 26,
       "assists_received": 1,
@@ -127,7 +127,7 @@
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
       "points": 136,
-      "pct": 0.7,
+      "pct": 0.69,
       "last24h": 4,
       "longest_streak": 3,
       "assists_given": 0,
@@ -302,15 +302,15 @@
       "id": "d250ce427a30",
       "name": "Jannik H.",
       "anon_phone": "+49 171 •••• 26",
-      "points": 95,
+      "points": 96,
       "pct": 0.49,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 9,
       "early_counts": 0,
-      "last_ts": 1785427536.0,
+      "last_ts": 1785429858.0,
       "first_ts": 1781456630.0,
       "rank": 19
     },
@@ -432,7 +432,7 @@
       "anon_phone": "+49 171 •••• 06",
       "points": 82,
       "pct": 0.42,
-      "last24h": 5,
+      "last24h": 4,
       "longest_streak": 3,
       "assists_given": 5,
       "assists_received": 7,
@@ -576,7 +576,7 @@
       "anon_phone": "+49 176 •••• 48",
       "points": 65,
       "pct": 0.33,
-      "last24h": 5,
+      "last24h": 4,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
@@ -5232,7 +5232,7 @@
       "anon_phone": "+49 157 •••• 14",
       "points": 11,
       "pct": 0.06,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -18298,10 +18298,10 @@
     "last_24h": [
       "115bd3930d45",
       "68ec6bec9a73",
-      "776f4d602138",
-      "b09e2085998b",
       "a417b8c082bc",
       "8b20d475db4b",
+      "b09e2085998b",
+      "776f4d602138",
       "fbb8dad038f9",
       "0d1fa29f9e5e",
       "c93ed700000f",
@@ -18309,8 +18309,8 @@
       "dfb57c03463c",
       "ddbb3a52a83e",
       "2f9108443e86",
-      "bbd3041bdb62",
-      "21ab33dbbddf"
+      "21ab33dbbddf",
+      "416d585e4acc"
     ],
     "longest_streak": [
       {
@@ -18529,9 +18529,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "f785e1ae95a9",
-      "name": "Flo",
-      "value": 2
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -18822,8 +18822,8 @@
     },
     {
       "date": "2026-07-30",
-      "count": 92,
-      "total": 19568
+      "count": 93,
+      "total": 19569
     }
   ],
   "hour_histogram": [
@@ -18845,7 +18845,7 @@
     443,
     714,
     976,
-    1215,
+    1216,
     1681,
     1969,
     1911,
@@ -18853,6 +18853,12 @@
     1008
   ],
   "recent": [
+    {
+      "n": 19569,
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
+      "ts": 1785429858.0
+    },
     {
       "n": 19568,
       "id": "f785e1ae95a9",
@@ -18966,12 +18972,6 @@
       "id": "776f4d602138",
       "name": "Korbi",
       "ts": 1785426599.0
-    },
-    {
-      "n": 19549,
-      "id": "d4fe66f6c999",
-      "name": "Jakob J.",
-      "ts": 1785426490.0
     }
   ],
   "speed_samples": [
@@ -19122,6 +19122,10 @@
     [
       1785429081,
       19568
+    ],
+    [
+      1785429858,
+      19569
     ]
   ]
 }
