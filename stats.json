@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T18:54:54.551935+00:00",
+  "generated_at": "2026-07-30T18:56:37.094093+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19601,
-  "progress_pct": 1.9601,
+  "current_count": 19602,
+  "progress_pct": 1.9602,
   "num_players": 1142,
-  "total_messages": 32158,
+  "total_messages": 32159,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785437679.0,
+  "last_count_ts": 1785437777.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -110,15 +110,15 @@
       "id": "115bd3930d45",
       "name": "Fabi",
       "anon_phone": "+49 175 •••• 16",
-      "points": 155,
-      "pct": 0.79,
-      "last24h": 12,
+      "points": 156,
+      "pct": 0.8,
+      "last24h": 13,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 41,
       "early_counts": 2,
-      "last_ts": 1785434474.0,
+      "last_ts": 1785437777.0,
       "first_ts": 1781896196.0,
       "rank": 7
     },
@@ -18545,8 +18545,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9bf6383c58eb",
-      "name": "Nico",
+      "id": "115bd3930d45",
+      "name": "Fabi",
       "value": 1
     },
     "biggest_message": {
@@ -18838,8 +18838,8 @@
     },
     {
       "date": "2026-07-30",
-      "count": 125,
-      "total": 19601
+      "count": 126,
+      "total": 19602
     }
   ],
   "hour_histogram": [
@@ -18863,12 +18863,18 @@
     976,
     1217,
     1691,
-    1987,
+    1988,
     1911,
     1523,
     1008
   ],
   "recent": [
+    {
+      "n": 19602,
+      "id": "115bd3930d45",
+      "name": "Fabi",
+      "ts": 1785437777.0
+    },
     {
       "n": 19601,
       "id": "9bf6383c58eb",
@@ -18982,12 +18988,6 @@
       "id": "553637e3d2b4",
       "name": "Linus K.",
       "ts": 1785434386.0
-    },
-    {
-      "n": 19579,
-      "id": "c93ed700000f",
-      "name": "linus",
-      "ts": 1785434213.0
     }
   ],
   "speed_samples": [
@@ -19102,6 +19102,10 @@
     [
       1785437679,
       19601
+    ],
+    [
+      1785437777,
+      19602
     ]
   ]
 }
