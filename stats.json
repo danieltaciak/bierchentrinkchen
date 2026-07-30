@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T15:29:59.304699+00:00",
+  "generated_at": "2026-07-30T15:30:47.931041+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19545,
-  "progress_pct": 1.9545,
+  "current_count": 19546,
+  "progress_pct": 1.9546,
   "num_players": 1140,
-  "total_messages": 32093,
+  "total_messages": 32094,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785425387.0,
+  "last_count_ts": 1785425435.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -475,6 +475,22 @@
       "rank": 29
     },
     {
+      "id": "4460bcf9c79c",
+      "name": "Lance",
+      "anon_phone": "+49 152 •••• 66",
+      "points": 76,
+      "pct": 0.39,
+      "last24h": 2,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 11,
+      "early_counts": 0,
+      "last_ts": 1785425435.0,
+      "first_ts": 1781198140.0,
+      "rank": 30
+    },
+    {
       "id": "a39caed0b9fc",
       "name": "Philip",
       "anon_phone": "+49 173 •••• 53",
@@ -488,22 +504,6 @@
       "early_counts": 0,
       "last_ts": 1785090502.0,
       "first_ts": 1781111984.0,
-      "rank": 30
-    },
-    {
-      "id": "4460bcf9c79c",
-      "name": "Lance",
-      "anon_phone": "+49 152 •••• 66",
-      "points": 75,
-      "pct": 0.38,
-      "last24h": 1,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 11,
-      "early_counts": 0,
-      "last_ts": 1785420087.0,
-      "first_ts": 1781198140.0,
       "rank": 31
     },
     {
@@ -720,7 +720,7 @@
       "anon_phone": "+49 176 •••• 64",
       "points": 58,
       "pct": 0.3,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 5,
@@ -18513,8 +18513,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "79058f8f0c54",
-      "name": "Vale",
+      "id": "4460bcf9c79c",
+      "name": "Lance",
       "value": 1
     },
     "biggest_message": {
@@ -18806,8 +18806,8 @@
     },
     {
       "date": "2026-07-30",
-      "count": 69,
-      "total": 19545
+      "count": 70,
+      "total": 19546
     }
   ],
   "hour_histogram": [
@@ -18828,7 +18828,7 @@
     438,
     443,
     714,
-    966,
+    967,
     1202,
     1681,
     1969,
@@ -18837,6 +18837,12 @@
     1008
   ],
   "recent": [
+    {
+      "n": 19546,
+      "id": "4460bcf9c79c",
+      "name": "Lance",
+      "ts": 1785425435.0
+    },
     {
       "n": 19545,
       "id": "79058f8f0c54",
@@ -18950,12 +18956,6 @@
       "id": "11449389ca28",
       "name": "Jonas R.",
       "ts": 1785420968.0
-    },
-    {
-      "n": 19521,
-      "id": "68ec6bec9a73",
-      "name": "Stefan L.",
-      "ts": 1785420483.0
     }
   ],
   "speed_samples": [
@@ -19070,6 +19070,10 @@
     [
       1785425387,
       19545
+    ],
+    [
+      1785425435,
+      19546
     ]
   ]
 }
