@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T11:10:17.000093+00:00",
+  "generated_at": "2026-07-30T11:21:44.010233+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19495,
-  "progress_pct": 1.9495,
+  "current_count": 19496,
+  "progress_pct": 1.9496,
   "num_players": 1140,
-  "total_messages": 32042,
+  "total_messages": 32044,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785409805.0,
+  "last_count_ts": 1785410491.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -206,15 +206,15 @@
       "id": "abdd765c9df5",
       "name": "Ernesto",
       "anon_phone": "+49 179 •••• 21",
-      "points": 107,
+      "points": 108,
       "pct": 0.55,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 2,
       "early_counts": 0,
-      "last_ts": 1785338964.0,
+      "last_ts": 1785410491.0,
       "first_ts": 1781520013.0,
       "rank": 13
     },
@@ -18292,9 +18292,9 @@
       "db4218c80c09",
       "16dc4c53c3aa",
       "926048ba30b0",
+      "abdd765c9df5",
       "b24539a93d86",
-      "dfb57c03463c",
-      "9bf6383c58eb"
+      "dfb57c03463c"
     ],
     "longest_streak": [
       {
@@ -18513,9 +18513,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "776f4d602138",
-      "name": "Korbi",
-      "value": 2
+      "id": "abdd765c9df5",
+      "name": "Ernesto",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -18806,8 +18806,8 @@
     },
     {
       "date": "2026-07-30",
-      "count": 19,
-      "total": 19495
+      "count": 20,
+      "total": 19496
     }
   ],
   "hour_histogram": [
@@ -18824,7 +18824,7 @@
     155,
     226,
     347,
-    334,
+    335,
     424,
     438,
     703,
@@ -18837,6 +18837,12 @@
     1008
   ],
   "recent": [
+    {
+      "n": 19496,
+      "id": "abdd765c9df5",
+      "name": "Ernesto",
+      "ts": 1785410491.0
+    },
     {
       "n": 19495,
       "id": "776f4d602138",
@@ -18950,12 +18956,6 @@
       "id": "688b148fdaba",
       "name": "Jana",
       "ts": 1785362443.0
-    },
-    {
-      "n": 19476,
-      "id": "82a6be011a09",
-      "name": "Boohb",
-      "ts": 1785360946.0
     }
   ],
   "speed_samples": [
@@ -18990,6 +18990,10 @@
     [
       1785409805,
       19495
+    ],
+    [
+      1785410491,
+      19496
     ]
   ]
 }
