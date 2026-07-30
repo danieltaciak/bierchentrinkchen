@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T18:03:35.507928+00:00",
+  "generated_at": "2026-07-30T18:13:41.004873+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19583,
-  "progress_pct": 1.9583,
+  "current_count": 19584,
+  "progress_pct": 1.9584,
   "num_players": 1141,
-  "total_messages": 32139,
+  "total_messages": 32140,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785434599.0,
+  "last_count_ts": 1785435204.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -283,6 +283,22 @@
       "rank": 17
     },
     {
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
+      "anon_phone": "+49 171 •••• 26",
+      "points": 97,
+      "pct": 0.5,
+      "last24h": 3,
+      "longest_streak": 6,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 9,
+      "early_counts": 0,
+      "last_ts": 1785435204.0,
+      "first_ts": 1781456630.0,
+      "rank": 18
+    },
+    {
       "id": "3ce6f8806201",
       "name": "Simon S.",
       "anon_phone": "+49 152 •••• 84",
@@ -296,22 +312,6 @@
       "early_counts": 4,
       "last_ts": 1785272592.0,
       "first_ts": 1781289501.0,
-      "rank": 18
-    },
-    {
-      "id": "d250ce427a30",
-      "name": "Jannik H.",
-      "anon_phone": "+49 171 •••• 26",
-      "points": 96,
-      "pct": 0.49,
-      "last24h": 2,
-      "longest_streak": 6,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 9,
-      "early_counts": 0,
-      "last_ts": 1785429858.0,
-      "first_ts": 1781456630.0,
       "rank": 19
     },
     {
@@ -672,7 +672,7 @@
       "anon_phone": "+49 174 •••• 16",
       "points": 61,
       "pct": 0.31,
-      "last24h": 2,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -1904,7 +1904,7 @@
       "anon_phone": "+49 175 •••• 06",
       "points": 30,
       "pct": 0.15,
-      "last24h": 2,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -6656,7 +6656,7 @@
       "anon_phone": "+49 176 •••• 12",
       "points": 9,
       "pct": 0.05,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -18286,8 +18286,8 @@
       "45c4cce2f31c",
       "1a6129668ba3",
       "62b0ee30f625",
-      "3ce6f8806201",
       "d250ce427a30",
+      "3ce6f8806201",
       "764f33f39eb0",
       "7a2e949e25b3",
       "553637e3d2b4",
@@ -18309,8 +18309,8 @@
       "0d1fa29f9e5e",
       "2f9108443e86",
       "fc2b58f399f8",
-      "b78c86671efc",
-      "177bd8355eeb"
+      "d250ce427a30",
+      "b09e2085998b"
     ],
     "longest_streak": [
       {
@@ -18529,8 +18529,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
       "value": 1
     },
     "biggest_message": {
@@ -18822,8 +18822,8 @@
     },
     {
       "date": "2026-07-30",
-      "count": 107,
-      "total": 19583
+      "count": 108,
+      "total": 19584
     }
   ],
   "hour_histogram": [
@@ -18847,12 +18847,18 @@
     976,
     1217,
     1691,
-    1972,
+    1973,
     1911,
     1523,
     1008
   ],
   "recent": [
+    {
+      "n": 19584,
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
+      "ts": 1785435204.0
+    },
     {
       "n": 19583,
       "id": "a5f77afeecc6",
@@ -18966,39 +18972,9 @@
       "id": "ddbb3a52a83e",
       "name": "Fabio",
       "ts": 1785428759.0
-    },
-    {
-      "n": 19564,
-      "id": "f1ac6a2ae6c5",
-      "name": "Fabi",
-      "ts": 1785428281.0
     }
   ],
   "speed_samples": [
-    [
-      1785427536,
-      19556
-    ],
-    [
-      1785427772,
-      19557
-    ],
-    [
-      1785427772,
-      19558
-    ],
-    [
-      1785427772,
-      19559
-    ],
-    [
-      1785427772,
-      19560
-    ],
-    [
-      1785427991,
-      19561
-    ],
     [
       1785428033,
       19562
@@ -19086,6 +19062,10 @@
     [
       1785434599,
       19583
+    ],
+    [
+      1785435204,
+      19584
     ]
   ]
 }
