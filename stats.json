@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T18:22:04.406450+00:00",
+  "generated_at": "2026-07-31T18:22:36.453921+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19901,
-  "progress_pct": 1.9901,
+  "current_count": 19904,
+  "progress_pct": 1.9904,
   "num_players": 1148,
-  "total_messages": 32501,
+  "total_messages": 32503,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785522099.0,
+  "last_count_ts": 1785522145.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -110,15 +110,15 @@
       "id": "bbd3041bdb62",
       "name": "Flex",
       "anon_phone": "+49 176 •••• 13",
-      "points": 161,
+      "points": 162,
       "pct": 0.81,
-      "last24h": 4,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 26,
       "assists_received": 1,
       "night_counts": 16,
       "early_counts": 0,
-      "last_ts": 1785516927.0,
+      "last_ts": 1785522145.0,
       "first_ts": 1780939639.0,
       "rank": 7
     },
@@ -18417,12 +18417,12 @@
       "af792aa1e032",
       "3137559fdc0a",
       "776f4d602138",
+      "bbd3041bdb62",
       "c4fe31e13b5a",
       "e60f4ff1e69a",
       "553637e3d2b4",
       "032a270163e4",
-      "8a6ad087f1ea",
-      "1956a7890356"
+      "8a6ad087f1ea"
     ],
     "longest_streak": [
       {
@@ -18641,8 +18641,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5b269b5d8047",
-      "name": "David Z.",
+      "id": "bbd3041bdb62",
+      "name": "Flex",
       "value": 1
     },
     "biggest_message": {
@@ -18939,8 +18939,8 @@
     },
     {
       "date": "2026-07-31",
-      "count": 204,
-      "total": 19901
+      "count": 207,
+      "total": 19904
     }
   ],
   "hour_histogram": [
@@ -18964,12 +18964,18 @@
     987,
     1240,
     1729,
-    2011,
+    2012,
     1937,
     1545,
     1023
   ],
   "recent": [
+    {
+      "n": 19904,
+      "id": "bbd3041bdb62",
+      "name": "Flex",
+      "ts": 1785522145.0
+    },
     {
       "n": 19901,
       "id": "5b269b5d8047",
@@ -19083,12 +19089,6 @@
       "id": "90482696a0a6",
       "name": "Eddi",
       "ts": 1785521074.0
-    },
-    {
-      "n": 19875,
-      "id": "826e0a1f3337",
-      "name": "auer",
-      "ts": 1785521034.0
     }
   ],
   "speed_samples": [
@@ -19391,6 +19391,10 @@
     [
       1785522099,
       19901
+    ],
+    [
+      1785522145,
+      19904
     ]
   ]
 }
