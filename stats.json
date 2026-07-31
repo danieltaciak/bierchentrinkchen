@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T21:43:09.907795+00:00",
+  "generated_at": "2026-07-31T21:50:25.998806+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20077,
-  "progress_pct": 2.0077,
+  "current_count": 20078,
+  "progress_pct": 2.0078,
   "num_players": 1150,
-  "total_messages": 32730,
+  "total_messages": 32732,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785534177.0,
+  "last_count_ts": 1785534614.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -96,7 +96,7 @@
       "anon_phone": "+49 175 •••• 16",
       "points": 162,
       "pct": 0.81,
-      "last24h": 5,
+      "last24h": 3,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
@@ -363,6 +363,22 @@
       "rank": 22
     },
     {
+      "id": "0d1fa29f9e5e",
+      "name": "Ö",
+      "anon_phone": "+49 176 •••• 87",
+      "points": 90,
+      "pct": 0.45,
+      "last24h": 3,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 5,
+      "early_counts": 0,
+      "last_ts": 1785534614.0,
+      "first_ts": 1781361115.0,
+      "rank": 23
+    },
+    {
       "id": "826e0a1f3337",
       "name": "auer",
       "anon_phone": "+49 160 •••• 94",
@@ -376,22 +392,6 @@
       "early_counts": 0,
       "last_ts": 1785530982.0,
       "first_ts": 1781380763.0,
-      "rank": 23
-    },
-    {
-      "id": "0d1fa29f9e5e",
-      "name": "Ö",
-      "anon_phone": "+49 176 •••• 87",
-      "points": 89,
-      "pct": 0.44,
-      "last24h": 2,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 5,
-      "early_counts": 0,
-      "last_ts": 1785527776.0,
-      "first_ts": 1781361115.0,
       "rank": 24
     },
     {
@@ -880,7 +880,7 @@
       "anon_phone": "+49 179 •••• 76",
       "points": 53,
       "pct": 0.26,
-      "last24h": 11,
+      "last24h": 10,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -5248,7 +5248,7 @@
       "anon_phone": "+49 157 •••• 28",
       "points": 12,
       "pct": 0.06,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -18435,8 +18435,8 @@
       "3ce6f8806201",
       "553637e3d2b4",
       "764f33f39eb0",
-      "826e0a1f3337",
       "0d1fa29f9e5e",
+      "826e0a1f3337",
       "3137559fdc0a"
     ],
     "last_24h": [
@@ -18452,9 +18452,9 @@
       "a5f77afeecc6",
       "8561b6020a64",
       "c4fe31e13b5a",
-      "115bd3930d45",
       "b7f001ca29a3",
-      "bbd3041bdb62"
+      "bbd3041bdb62",
+      "2f9108443e86"
     ],
     "longest_streak": [
       {
@@ -18673,8 +18673,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "82a6be011a09",
-      "name": "Boohb",
+      "id": "0d1fa29f9e5e",
+      "name": "Ö",
       "value": 1
     },
     "biggest_message": {
@@ -18971,8 +18971,8 @@
     },
     {
       "date": "2026-07-31",
-      "count": 380,
-      "total": 20077
+      "count": 381,
+      "total": 20078
     }
   ],
   "hour_histogram": [
@@ -18999,9 +18999,15 @@
     2048,
     1971,
     1594,
-    1041
+    1042
   ],
   "recent": [
+    {
+      "n": 20078,
+      "id": "0d1fa29f9e5e",
+      "name": "Ö",
+      "ts": 1785534614.0
+    },
     {
       "n": 20077,
       "id": "82a6be011a09",
@@ -19115,43 +19121,9 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "ts": 1785531444.0
-    },
-    {
-      "n": 20056,
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
-      "ts": 1785531444.0
     }
   ],
   "speed_samples": [
-    [
-      1785527093,
-      19975
-    ],
-    [
-      1785527109,
-      19976
-    ],
-    [
-      1785527115,
-      19977
-    ],
-    [
-      1785527181,
-      19979
-    ],
-    [
-      1785527305,
-      19980
-    ],
-    [
-      1785527305,
-      19981
-    ],
-    [
-      1785527385,
-      19982
-    ],
     [
       1785527433,
       19983
@@ -19451,6 +19423,10 @@
     [
       1785534177,
       20077
+    ],
+    [
+      1785534614,
+      20078
     ]
   ]
 }
