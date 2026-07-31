@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T19:59:12.371275+00:00",
+  "generated_at": "2026-07-31T20:02:11.741654+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19990,
-  "progress_pct": 1.999,
+  "current_count": 19991,
+  "progress_pct": 1.9991,
   "num_players": 1149,
-  "total_messages": 32630,
+  "total_messages": 32631,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785527940.0,
+  "last_count_ts": 1785528099.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -126,15 +126,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 139,
+      "points": 140,
       "pct": 0.7,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 23,
       "early_counts": 0,
-      "last_ts": 1785441403.0,
+      "last_ts": 1785528099.0,
       "first_ts": 1781212818.0,
       "rank": 8
     },
@@ -944,7 +944,7 @@
       "anon_phone": "+49 172 •••• 05",
       "points": 49,
       "pct": 0.25,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -18657,8 +18657,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "90482696a0a6",
-      "name": "Eddi",
+      "id": "c93ed700000f",
+      "name": "linus",
       "value": 1
     },
     "biggest_message": {
@@ -18955,8 +18955,8 @@
     },
     {
       "date": "2026-07-31",
-      "count": 293,
-      "total": 19990
+      "count": 294,
+      "total": 19991
     }
   ],
   "hour_histogram": [
@@ -18982,10 +18982,16 @@
     1729,
     2048,
     1971,
-    1545,
+    1546,
     1023
   ],
   "recent": [
+    {
+      "n": 19991,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1785528099.0
+    },
     {
       "n": 19990,
       "id": "90482696a0a6",
@@ -19099,12 +19105,6 @@
       "id": "776f4d602138",
       "name": "Korbi",
       "ts": 1785526502.0
-    },
-    {
-      "n": 19968,
-      "id": "6b9e5cf641da",
-      "name": "Alex",
-      "ts": 1785526216.0
     }
   ],
   "speed_samples": [
@@ -19471,6 +19471,10 @@
     [
       1785527940,
       19990
+    ],
+    [
+      1785528099,
+      19991
     ]
   ]
 }
