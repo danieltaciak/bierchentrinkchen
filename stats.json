@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T18:28:07.964331+00:00",
+  "generated_at": "2026-07-31T18:28:40.027363+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19912,
-  "progress_pct": 1.9912,
+  "current_count": 19913,
+  "progress_pct": 1.9913,
   "num_players": 1148,
-  "total_messages": 32513,
+  "total_messages": 32515,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785522476.0,
+  "last_count_ts": 1785522507.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -142,15 +142,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 131,
+      "points": 132,
       "pct": 0.66,
-      "last24h": 4,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 22,
       "early_counts": 3,
-      "last_ts": 1785520428.0,
+      "last_ts": 1785522507.0,
       "first_ts": 1781373213.0,
       "rank": 9
     },
@@ -18418,11 +18418,11 @@
       "af792aa1e032",
       "e60f4ff1e69a",
       "3137559fdc0a",
+      "efeced9c0950",
       "bbd3041bdb62",
       "c4fe31e13b5a",
       "553637e3d2b4",
-      "032a270163e4",
-      "8561b6020a64"
+      "032a270163e4"
     ],
     "longest_streak": [
       {
@@ -18641,8 +18641,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "8561b6020a64",
-      "name": "Daniel W.",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -18939,8 +18939,8 @@
     },
     {
       "date": "2026-07-31",
-      "count": 215,
-      "total": 19912
+      "count": 216,
+      "total": 19913
     }
   ],
   "hour_histogram": [
@@ -18964,12 +18964,18 @@
     987,
     1240,
     1729,
-    2018,
+    2019,
     1937,
     1545,
     1023
   ],
   "recent": [
+    {
+      "n": 19913,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1785522507.0
+    },
     {
       "n": 19912,
       "id": "8561b6020a64",
@@ -19083,12 +19089,6 @@
       "id": "7648269ee23a",
       "name": "Johannes G.",
       "ts": 1785521568.0
-    },
-    {
-      "n": 19884,
-      "id": "8c19ca275648",
-      "name": "Henrik H.",
-      "ts": 1785521531.0
     }
   ],
   "speed_samples": [
@@ -19407,6 +19407,10 @@
     [
       1785522476,
       19912
+    ],
+    [
+      1785522507,
+      19913
     ]
   ]
 }
