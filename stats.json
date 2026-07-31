@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T17:14:39.866911+00:00",
+  "generated_at": "2026-07-31T17:18:03.100329+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19834,
-  "progress_pct": 1.9834,
+  "current_count": 19835,
+  "progress_pct": 1.9835,
   "num_players": 1148,
-  "total_messages": 32428,
+  "total_messages": 32429,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785518061.0,
+  "last_count_ts": 1785518269.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -2027,6 +2027,22 @@
       "rank": 126
     },
     {
+      "id": "369292215057",
+      "name": "Robert",
+      "anon_phone": "+49 151 •••• 41",
+      "points": 29,
+      "pct": 0.15,
+      "last24h": 1,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1785518269.0,
+      "first_ts": 1781285365.0,
+      "rank": 127
+    },
+    {
       "id": "5eb334258084",
       "name": "Simon O.",
       "anon_phone": "+49 151 •••• 81",
@@ -2040,7 +2056,7 @@
       "early_counts": 1,
       "last_ts": 1784920678.0,
       "first_ts": 1783366927.0,
-      "rank": 127
+      "rank": 128
     },
     {
       "id": "c03ae4e7c448",
@@ -2056,7 +2072,7 @@
       "early_counts": 0,
       "last_ts": 1785516026.0,
       "first_ts": 1782230703.0,
-      "rank": 128
+      "rank": 129
     },
     {
       "id": "43140b6a3d00",
@@ -2072,7 +2088,7 @@
       "early_counts": 0,
       "last_ts": 1785095489.0,
       "first_ts": 1781371137.0,
-      "rank": 129
+      "rank": 130
     },
     {
       "id": "d19116a74c05",
@@ -2088,7 +2104,7 @@
       "early_counts": 0,
       "last_ts": 1783183731.0,
       "first_ts": 1781903261.0,
-      "rank": 130
+      "rank": 131
     },
     {
       "id": "d64db822d6be",
@@ -2104,7 +2120,7 @@
       "early_counts": 0,
       "last_ts": 1783795728.0,
       "first_ts": 1782397193.0,
-      "rank": 131
+      "rank": 132
     },
     {
       "id": "8b2f66e6f7ec",
@@ -2120,7 +2136,7 @@
       "early_counts": 3,
       "last_ts": 1782582740.0,
       "first_ts": 1781775059.0,
-      "rank": 132
+      "rank": 133
     },
     {
       "id": "858a46884967",
@@ -2136,7 +2152,7 @@
       "early_counts": 0,
       "last_ts": 1783110054.0,
       "first_ts": 1781031546.0,
-      "rank": 133
+      "rank": 134
     },
     {
       "id": "a417b8c082bc",
@@ -2152,22 +2168,6 @@
       "early_counts": 0,
       "last_ts": 1785437028.0,
       "first_ts": 1781895466.0,
-      "rank": 134
-    },
-    {
-      "id": "369292215057",
-      "name": "Robert",
-      "anon_phone": "+49 151 •••• 41",
-      "points": 28,
-      "pct": 0.14,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1785171177.0,
-      "first_ts": 1781285365.0,
       "rank": 135
     },
     {
@@ -18641,8 +18641,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "776f4d602138",
-      "name": "Korbi",
+      "id": "369292215057",
+      "name": "Robert",
       "value": 1
     },
     "biggest_message": {
@@ -18939,8 +18939,8 @@
     },
     {
       "date": "2026-07-31",
-      "count": 137,
-      "total": 19834
+      "count": 138,
+      "total": 19835
     }
   ],
   "hour_histogram": [
@@ -18963,13 +18963,19 @@
     737,
     987,
     1240,
-    1700,
+    1701,
     1991,
     1937,
     1545,
     1023
   ],
   "recent": [
+    {
+      "n": 19835,
+      "id": "369292215057",
+      "name": "Robert",
+      "ts": 1785518269.0
+    },
     {
       "n": 19834,
       "id": "776f4d602138",
@@ -19083,12 +19089,6 @@
       "id": "42049aaa6d7a",
       "name": "Marc",
       "ts": 1785515887.0
-    },
-    {
-      "n": 19814,
-      "id": "d63db1480311",
-      "name": "Max",
-      "ts": 1785515639.0
     }
   ],
   "speed_samples": [
@@ -19259,6 +19259,10 @@
     [
       1785518061,
       19834
+    ],
+    [
+      1785518269,
+      19835
     ]
   ]
 }
