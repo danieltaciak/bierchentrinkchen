@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T22:34:58.336076+00:00",
+  "generated_at": "2026-07-31T22:36:08.389318+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20100,
-  "progress_pct": 2.01,
+  "current_count": 20101,
+  "progress_pct": 2.0101,
   "num_players": 1150,
-  "total_messages": 32763,
+  "total_messages": 32765,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785537284.0,
+  "last_count_ts": 1785537356.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -478,15 +478,15 @@
       "id": "776f4d602138",
       "name": "Korbi",
       "anon_phone": "+49 176 •••• 48",
-      "points": 76,
+      "points": 77,
       "pct": 0.38,
-      "last24h": 11,
+      "last24h": 12,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 2,
-      "night_counts": 2,
+      "night_counts": 3,
       "early_counts": 0,
-      "last_ts": 1785534831.0,
+      "last_ts": 1785537356.0,
       "first_ts": 1781456625.0,
       "rank": 30
     },
@@ -18673,8 +18673,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "764f33f39eb0",
-      "name": "Maxi",
+      "id": "776f4d602138",
+      "name": "Korbi",
       "value": 1
     },
     "biggest_message": {
@@ -18976,12 +18976,12 @@
     },
     {
       "date": "2026-08-01",
-      "count": 16,
-      "total": 20100
+      "count": 17,
+      "total": 20101
     }
   ],
   "hour_histogram": [
-    559,
+    560,
     348,
     180,
     99,
@@ -19007,6 +19007,12 @@
     1048
   ],
   "recent": [
+    {
+      "n": 20101,
+      "id": "776f4d602138",
+      "name": "Korbi",
+      "ts": 1785537356.0
+    },
     {
       "n": 20100,
       "id": "764f33f39eb0",
@@ -19120,12 +19126,6 @@
       "id": "0d1fa29f9e5e",
       "name": "Ö",
       "ts": 1785534614.0
-    },
-    {
-      "n": 20077,
-      "id": "82a6be011a09",
-      "name": "Boohb",
-      "ts": 1785534177.0
     }
   ],
   "speed_samples": [
@@ -19360,6 +19360,10 @@
     [
       1785537284,
       20100
+    ],
+    [
+      1785537356,
+      20101
     ]
   ]
 }
