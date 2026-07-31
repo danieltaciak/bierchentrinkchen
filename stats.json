@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T22:36:08.389318+00:00",
+  "generated_at": "2026-07-31T22:39:42.733253+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20101,
-  "progress_pct": 2.0101,
+  "current_count": 20103,
+  "progress_pct": 2.0103,
   "num_players": 1150,
-  "total_messages": 32765,
+  "total_messages": 32770,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785537356.0,
+  "last_count_ts": 1785537570.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -64,7 +64,7 @@
       "anon_phone": "+49 170 •••• 82",
       "points": 169,
       "pct": 0.84,
-      "last24h": 3,
+      "last24h": 1,
       "longest_streak": 9,
       "assists_given": 0,
       "assists_received": 2,
@@ -478,15 +478,15 @@
       "id": "776f4d602138",
       "name": "Korbi",
       "anon_phone": "+49 176 •••• 48",
-      "points": 77,
-      "pct": 0.38,
-      "last24h": 12,
+      "points": 79,
+      "pct": 0.39,
+      "last24h": 14,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 2,
-      "night_counts": 3,
+      "night_counts": 5,
       "early_counts": 0,
-      "last_ts": 1785537356.0,
+      "last_ts": 1785537570.0,
       "first_ts": 1781456625.0,
       "rank": 30
     },
@@ -18440,8 +18440,8 @@
       "3137559fdc0a"
     ],
     "last_24h": [
-      "ddbb3a52a83e",
       "776f4d602138",
+      "ddbb3a52a83e",
       "1956a7890356",
       "efeced9c0950",
       "9bf6383c58eb",
@@ -18675,7 +18675,7 @@
     "current_streak": {
       "id": "776f4d602138",
       "name": "Korbi",
-      "value": 1
+      "value": 3
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -18976,12 +18976,12 @@
     },
     {
       "date": "2026-08-01",
-      "count": 17,
-      "total": 20101
+      "count": 19,
+      "total": 20103
     }
   ],
   "hour_histogram": [
-    560,
+    562,
     348,
     180,
     99,
@@ -19007,6 +19007,18 @@
     1048
   ],
   "recent": [
+    {
+      "n": 20103,
+      "id": "776f4d602138",
+      "name": "Korbi",
+      "ts": 1785537570.0
+    },
+    {
+      "n": 20102,
+      "id": "776f4d602138",
+      "name": "Korbi",
+      "ts": 1785537569.0
+    },
     {
       "n": 20101,
       "id": "776f4d602138",
@@ -19114,18 +19126,6 @@
       "id": "776f4d602138",
       "name": "Korbi",
       "ts": 1785534812.0
-    },
-    {
-      "n": 20079,
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "ts": 1785534790.0
-    },
-    {
-      "n": 20078,
-      "id": "0d1fa29f9e5e",
-      "name": "Ö",
-      "ts": 1785534614.0
     }
   ],
   "speed_samples": [
@@ -19364,6 +19364,14 @@
     [
       1785537356,
       20101
+    ],
+    [
+      1785537569,
+      20102
+    ],
+    [
+      1785537570,
+      20103
     ]
   ]
 }
