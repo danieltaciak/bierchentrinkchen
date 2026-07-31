@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T23:18:46.992411+00:00",
+  "generated_at": "2026-07-31T23:45:11.803400+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20113,
-  "progress_pct": 2.0113,
+  "current_count": 20115,
+  "progress_pct": 2.0115,
   "num_players": 1150,
-  "total_messages": 32782,
+  "total_messages": 32785,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785539914.0,
+  "last_count_ts": 1785541498.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -96,7 +96,7 @@
       "anon_phone": "+49 175 •••• 16",
       "points": 162,
       "pct": 0.81,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
@@ -667,6 +667,22 @@
       "rank": 41
     },
     {
+      "id": "177bd8355eeb",
+      "name": "Matze",
+      "anon_phone": "+49 174 •••• 16",
+      "points": 63,
+      "pct": 0.31,
+      "last24h": 2,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 20,
+      "early_counts": 0,
+      "last_ts": 1785541498.0,
+      "first_ts": 1781866017.0,
+      "rank": 42
+    },
+    {
       "id": "80b0db246ea6",
       "name": "Zeiler",
       "anon_phone": "+49 152 •••• 64",
@@ -680,22 +696,6 @@
       "early_counts": 2,
       "last_ts": 1784923024.0,
       "first_ts": 1781260489.0,
-      "rank": 42
-    },
-    {
-      "id": "177bd8355eeb",
-      "name": "Matze",
-      "anon_phone": "+49 174 •••• 16",
-      "points": 61,
-      "pct": 0.3,
-      "last24h": 0,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 18,
-      "early_counts": 0,
-      "last_ts": 1785348555.0,
-      "first_ts": 1781866017.0,
       "rank": 43
     },
     {
@@ -896,7 +896,7 @@
       "anon_phone": "+49 179 •••• 76",
       "points": 53,
       "pct": 0.26,
-      "last24h": 10,
+      "last24h": 8,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -7808,7 +7808,7 @@
       "anon_phone": "+49 176 •••• 35",
       "points": 7,
       "pct": 0.03,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -18442,11 +18442,11 @@
     "last_24h": [
       "776f4d602138",
       "ddbb3a52a83e",
-      "1956a7890356",
       "efeced9c0950",
       "9bf6383c58eb",
       "7a2e949e25b3",
       "ec3ae0414513",
+      "1956a7890356",
       "a5f77afeecc6",
       "8561b6020a64",
       "e60f4ff1e69a",
@@ -18673,9 +18673,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "value": 1
+      "id": "177bd8355eeb",
+      "name": "Matze",
+      "value": 2
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -18976,13 +18976,13 @@
     },
     {
       "date": "2026-08-01",
-      "count": 29,
-      "total": 20113
+      "count": 31,
+      "total": 20115
     }
   ],
   "hour_histogram": [
     567,
-    353,
+    355,
     180,
     99,
     50,
@@ -19007,6 +19007,18 @@
     1048
   ],
   "recent": [
+    {
+      "n": 20115,
+      "id": "177bd8355eeb",
+      "name": "Matze",
+      "ts": 1785541498.0
+    },
+    {
+      "n": 20114,
+      "id": "177bd8355eeb",
+      "name": "Matze",
+      "ts": 1785541489.0
+    },
     {
       "n": 20113,
       "id": "a5f77afeecc6",
@@ -19114,65 +19126,9 @@
       "id": "d4fe66f6c999",
       "name": "Jakob J.",
       "ts": 1785536357.0
-    },
-    {
-      "n": 20094,
-      "id": "2f9108443e86",
-      "name": "Philipp",
-      "ts": 1785536268.0
-    },
-    {
-      "n": 20091,
-      "id": "7db6439178b8",
-      "name": "Jan F.",
-      "ts": 1785536034.0
     }
   ],
   "speed_samples": [
-    [
-      1785532796,
-      20065
-    ],
-    [
-      1785532819,
-      20066
-    ],
-    [
-      1785532849,
-      20068
-    ],
-    [
-      1785532905,
-      20069
-    ],
-    [
-      1785533195,
-      20070
-    ],
-    [
-      1785533348,
-      20071
-    ],
-    [
-      1785533391,
-      20072
-    ],
-    [
-      1785533918,
-      20073
-    ],
-    [
-      1785533980,
-      20075
-    ],
-    [
-      1785534140,
-      20076
-    ],
-    [
-      1785534177,
-      20077
-    ],
     [
       1785534614,
       20078
@@ -19300,6 +19256,14 @@
     [
       1785539914,
       20113
+    ],
+    [
+      1785541489,
+      20114
+    ],
+    [
+      1785541498,
+      20115
     ]
   ]
 }
