@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T17:29:46.131767+00:00",
+  "generated_at": "2026-07-31T17:31:12.097592+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19841,
-  "progress_pct": 1.9841,
+  "current_count": 19842,
+  "progress_pct": 1.9842,
   "num_players": 1148,
-  "total_messages": 32437,
+  "total_messages": 32438,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785518974.0,
+  "last_count_ts": 1785519046.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -382,15 +382,15 @@
       "id": "0d1fa29f9e5e",
       "name": "Ö",
       "anon_phone": "+49 176 •••• 87",
-      "points": 87,
+      "points": 88,
       "pct": 0.44,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 5,
       "early_counts": 0,
-      "last_ts": 1785427126.0,
+      "last_ts": 1785519046.0,
       "first_ts": 1781361115.0,
       "rank": 24
     },
@@ -18641,8 +18641,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "e5d73e3d573d",
-      "name": "Leo",
+      "id": "0d1fa29f9e5e",
+      "name": "Ö",
       "value": 1
     },
     "biggest_message": {
@@ -18939,8 +18939,8 @@
     },
     {
       "date": "2026-07-31",
-      "count": 144,
-      "total": 19841
+      "count": 145,
+      "total": 19842
     }
   ],
   "hour_histogram": [
@@ -18963,13 +18963,19 @@
     737,
     987,
     1240,
-    1706,
+    1707,
     1991,
     1937,
     1545,
     1023
   ],
   "recent": [
+    {
+      "n": 19842,
+      "id": "0d1fa29f9e5e",
+      "name": "Ö",
+      "ts": 1785519046.0
+    },
     {
       "n": 19841,
       "id": "e5d73e3d573d",
@@ -19083,12 +19089,6 @@
       "id": "bbd3041bdb62",
       "name": "Flex",
       "ts": 1785516927.0
-    },
-    {
-      "n": 19820,
-      "id": "ddbb3a52a83e",
-      "name": "Fabio",
-      "ts": 1785516790.0
     }
   ],
   "speed_samples": [
@@ -19279,6 +19279,10 @@
     [
       1785518974,
       19841
+    ],
+    [
+      1785519046,
+      19842
     ]
   ]
 }
