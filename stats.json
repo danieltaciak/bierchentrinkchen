@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T19:50:59.058649+00:00",
+  "generated_at": "2026-07-31T19:52:50.379536+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 19983,
-  "progress_pct": 1.9983,
+  "current_count": 19984,
+  "progress_pct": 1.9984,
   "num_players": 1149,
-  "total_messages": 32621,
+  "total_messages": 32622,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785527433.0,
+  "last_count_ts": 1785527555.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -430,15 +430,15 @@
       "id": "cec25393509e",
       "name": "Jordan",
       "anon_phone": "+49 162 •••• 18",
-      "points": 83,
+      "points": 84,
       "pct": 0.42,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 5,
       "early_counts": 0,
-      "last_ts": 1785513599.0,
+      "last_ts": 1785527555.0,
       "first_ts": 1781100515.0,
       "rank": 27
     },
@@ -18657,8 +18657,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "3031bc23f2a7",
-      "name": "Thomas N.",
+      "id": "cec25393509e",
+      "name": "Jordan",
       "value": 1
     },
     "biggest_message": {
@@ -18955,8 +18955,8 @@
     },
     {
       "date": "2026-07-31",
-      "count": 286,
-      "total": 19983
+      "count": 287,
+      "total": 19984
     }
   ],
   "hour_histogram": [
@@ -18981,11 +18981,17 @@
     1240,
     1729,
     2048,
-    1964,
+    1965,
     1545,
     1023
   ],
   "recent": [
+    {
+      "n": 19984,
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "ts": 1785527555.0
+    },
     {
       "n": 19983,
       "id": "3031bc23f2a7",
@@ -19099,27 +19105,9 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "ts": 1785525629.0
-    },
-    {
-      "n": 19959,
-      "id": "45c4cce2f31c",
-      "name": "Jakob",
-      "ts": 1785525612.0
     }
   ],
   "speed_samples": [
-    [
-      1785520240,
-      19857
-    ],
-    [
-      1785520247,
-      19858
-    ],
-    [
-      1785520331,
-      19859
-    ],
     [
       1785520362,
       19860
@@ -19503,6 +19491,10 @@
     [
       1785527433,
       19983
+    ],
+    [
+      1785527555,
+      19984
     ]
   ]
 }
