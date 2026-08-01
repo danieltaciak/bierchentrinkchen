@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T20:56:03.674473+00:00",
+  "generated_at": "2026-08-01T20:56:50.525254+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20457,
-  "progress_pct": 2.0457,
+  "current_count": 20458,
+  "progress_pct": 2.0458,
   "num_players": 1157,
-  "total_messages": 33187,
+  "total_messages": 33188,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785617752.0,
+  "last_count_ts": 1785617794.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -46,15 +46,15 @@
       "id": "8a6ad087f1ea",
       "name": "ich H.",
       "anon_phone": "+49 176 •••• 10",
-      "points": 175,
+      "points": 176,
       "pct": 0.86,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 10,
       "assists_given": 1,
       "assists_received": 0,
       "night_counts": 34,
       "early_counts": 1,
-      "last_ts": 1785613812.0,
+      "last_ts": 1785617794.0,
       "first_ts": 1781470164.0,
       "rank": 3
     },
@@ -18785,8 +18785,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "edb260c141f2",
-      "name": "Tobias G.",
+      "id": "8a6ad087f1ea",
+      "name": "ich H.",
       "value": 1
     },
     "biggest_message": {
@@ -19088,8 +19088,8 @@
     },
     {
       "date": "2026-08-01",
-      "count": 373,
-      "total": 20457
+      "count": 374,
+      "total": 20458
     }
   ],
   "hour_histogram": [
@@ -19115,10 +19115,16 @@
     1761,
     2090,
     2002,
-    1626,
+    1627,
     1048
   ],
   "recent": [
+    {
+      "n": 20458,
+      "id": "8a6ad087f1ea",
+      "name": "ich H.",
+      "ts": 1785617794.0
+    },
     {
       "n": 20457,
       "id": "edb260c141f2",
@@ -19232,19 +19238,9 @@
       "id": "c03ae4e7c448",
       "name": "Yannik",
       "ts": 1785615779.0
-    },
-    {
-      "n": 20399,
-      "id": "9d5190129857",
-      "name": "Franzi",
-      "ts": 1785615753.0
     }
   ],
   "speed_samples": [
-    [
-      1785610562,
-      20332
-    ],
     [
       1785610618,
       20333
@@ -19504,6 +19500,10 @@
     [
       1785617752,
       20457
+    ],
+    [
+      1785617794,
+      20458
     ]
   ]
 }
