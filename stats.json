@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T09:53:40.028217+00:00",
+  "generated_at": "2026-08-01T09:56:25.547203+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20159,
-  "progress_pct": 2.0159,
+  "current_count": 20160,
+  "progress_pct": 2.016,
   "num_players": 1151,
-  "total_messages": 32821,
+  "total_messages": 32822,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785578008.0,
+  "last_count_ts": 1785578168.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -270,15 +270,15 @@
       "id": "d250ce427a30",
       "name": "Jannik H.",
       "anon_phone": "+49 171 •••• 26",
-      "points": 101,
-      "pct": 0.5,
-      "last24h": 2,
+      "points": 102,
+      "pct": 0.51,
+      "last24h": 3,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 10,
       "early_counts": 0,
-      "last_ts": 1785537594.0,
+      "last_ts": 1785578168.0,
       "first_ts": 1781456630.0,
       "rank": 17
     },
@@ -18689,9 +18689,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b78c86671efc",
-      "name": "Johannes",
-      "value": 2
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -18992,8 +18992,8 @@
     },
     {
       "date": "2026-08-01",
-      "count": 75,
-      "total": 20159
+      "count": 76,
+      "total": 20160
     }
   ],
   "hour_histogram": [
@@ -19008,7 +19008,7 @@
     99,
     103,
     161,
-    232,
+    233,
     350,
     347,
     443,
@@ -19023,6 +19023,12 @@
     1048
   ],
   "recent": [
+    {
+      "n": 20160,
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
+      "ts": 1785578168.0
+    },
     {
       "n": 20159,
       "id": "b78c86671efc",
@@ -19136,12 +19142,6 @@
       "id": "5e4e6db7ee18",
       "name": "Hansi",
       "ts": 1785564115.0
-    },
-    {
-      "n": 20140,
-      "id": "40e936b8a96d",
-      "name": "Jonas",
-      "ts": 1785556396.0
     }
   ],
   "speed_samples": [
@@ -19168,6 +19168,10 @@
     [
       1785578008,
       20159
+    ],
+    [
+      1785578168,
+      20160
     ]
   ]
 }
