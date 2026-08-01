@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T21:34:32.119475+00:00",
+  "generated_at": "2026-08-01T21:41:57.340618+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20493,
-  "progress_pct": 2.0493,
+  "current_count": 20494,
+  "progress_pct": 2.0494,
   "num_players": 1158,
-  "total_messages": 33221,
+  "total_messages": 33231,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785620061.0,
+  "last_count_ts": 1785620488.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -379,6 +379,22 @@
       "rank": 23
     },
     {
+      "id": "776f4d602138",
+      "name": "Korbi",
+      "anon_phone": "+49 176 •••• 48",
+      "points": 90,
+      "pct": 0.44,
+      "last24h": 18,
+      "longest_streak": 4,
+      "assists_given": 1,
+      "assists_received": 2,
+      "night_counts": 5,
+      "early_counts": 0,
+      "last_ts": 1785620488.0,
+      "first_ts": 1781456625.0,
+      "rank": 24
+    },
+    {
       "id": "826e0a1f3337",
       "name": "auer",
       "anon_phone": "+49 160 •••• 94",
@@ -392,7 +408,7 @@
       "early_counts": 0,
       "last_ts": 1785530982.0,
       "first_ts": 1781380763.0,
-      "rank": 24
+      "rank": 25
     },
     {
       "id": "df6424fbdeef",
@@ -408,7 +424,7 @@
       "early_counts": 0,
       "last_ts": 1785610618.0,
       "first_ts": 1781452642.0,
-      "rank": 25
+      "rank": 26
     },
     {
       "id": "cec25393509e",
@@ -424,22 +440,6 @@
       "early_counts": 0,
       "last_ts": 1785598516.0,
       "first_ts": 1781100515.0,
-      "rank": 26
-    },
-    {
-      "id": "776f4d602138",
-      "name": "Korbi",
-      "anon_phone": "+49 176 •••• 48",
-      "points": 89,
-      "pct": 0.43,
-      "last24h": 17,
-      "longest_streak": 4,
-      "assists_given": 1,
-      "assists_received": 2,
-      "night_counts": 5,
-      "early_counts": 0,
-      "last_ts": 1785619760.0,
-      "first_ts": 1781456625.0,
       "rank": 27
     },
     {
@@ -479,7 +479,7 @@
       "name": "Michi",
       "anon_phone": "+49 171 •••• 06",
       "points": 83,
-      "pct": 0.41,
+      "pct": 0.4,
       "last24h": 0,
       "longest_streak": 3,
       "assists_given": 5,
@@ -608,7 +608,7 @@
       "anon_phone": "+49 157 •••• 67",
       "points": 70,
       "pct": 0.34,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -5136,7 +5136,7 @@
       "anon_phone": "+49 177 •••• 14",
       "points": 13,
       "pct": 0.06,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -18564,8 +18564,8 @@
       "764f33f39eb0",
       "0d1fa29f9e5e",
       "62b0ee30f625",
-      "826e0a1f3337",
-      "df6424fbdeef"
+      "776f4d602138",
+      "826e0a1f3337"
     ],
     "last_24h": [
       "776f4d602138",
@@ -18801,8 +18801,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
+      "id": "776f4d602138",
+      "name": "Korbi",
       "value": 1
     },
     "biggest_message": {
@@ -19104,8 +19104,8 @@
     },
     {
       "date": "2026-08-01",
-      "count": 409,
-      "total": 20493
+      "count": 410,
+      "total": 20494
     }
   ],
   "hour_histogram": [
@@ -19132,9 +19132,15 @@
     2090,
     2002,
     1633,
-    1064
+    1065
   ],
   "recent": [
+    {
+      "n": 20494,
+      "id": "776f4d602138",
+      "name": "Korbi",
+      "ts": 1785620488.0
+    },
     {
       "n": 20493,
       "id": "efeced9c0950",
@@ -19248,27 +19254,9 @@
       "id": "8a6ad087f1ea",
       "name": "ich H.",
       "ts": 1785617794.0
-    },
-    {
-      "n": 20461,
-      "id": "8a6ad087f1ea",
-      "name": "ich H.",
-      "ts": 1785617794.0
     }
   ],
   "speed_samples": [
-    [
-      1785613081,
-      20360
-    ],
-    [
-      1785613081,
-      20361
-    ],
-    [
-      1785613101,
-      20365
-    ],
     [
       1785613357,
       20367
@@ -19524,6 +19512,10 @@
     [
       1785620061,
       20493
+    ],
+    [
+      1785620488,
+      20494
     ]
   ]
 }
