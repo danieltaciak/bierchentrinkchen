@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T18:02:01.797145+00:00",
+  "generated_at": "2026-08-01T18:04:51.540866+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20291,
-  "progress_pct": 2.0291,
+  "current_count": 20292,
+  "progress_pct": 2.0292,
   "num_players": 1155,
-  "total_messages": 32986,
+  "total_messages": 32987,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785607306.0,
+  "last_count_ts": 1785607480.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -384,7 +384,7 @@
       "anon_phone": "+49 160 •••• 94",
       "points": 89,
       "pct": 0.44,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 1,
       "assists_received": 0,
@@ -1435,6 +1435,22 @@
       "rank": 89
     },
     {
+      "id": "b7f001ca29a3",
+      "name": "leonski🍺",
+      "anon_phone": "+49 160 •••• 72",
+      "points": 36,
+      "pct": 0.18,
+      "last24h": 5,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 5,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1785607480.0,
+      "first_ts": 1780939774.0,
+      "rank": 90
+    },
+    {
       "id": "e5cb7f8f899f",
       "name": "Maggo🇩🇪",
       "anon_phone": "+49 151 •••• 38",
@@ -1448,7 +1464,7 @@
       "early_counts": 0,
       "last_ts": 1785346930.0,
       "first_ts": 1782760101.0,
-      "rank": 90
+      "rank": 91
     },
     {
       "id": "0ab904a87ade",
@@ -1464,7 +1480,7 @@
       "early_counts": 6,
       "last_ts": 1785522307.0,
       "first_ts": 1781552231.0,
-      "rank": 91
+      "rank": 92
     },
     {
       "id": "8b20d475db4b",
@@ -1480,7 +1496,7 @@
       "early_counts": 0,
       "last_ts": 1785598948.0,
       "first_ts": 1783117504.0,
-      "rank": 92
+      "rank": 93
     },
     {
       "id": "b78c86671efc",
@@ -1496,22 +1512,6 @@
       "early_counts": 0,
       "last_ts": 1785586019.0,
       "first_ts": 1781362675.0,
-      "rank": 93
-    },
-    {
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "anon_phone": "+49 160 •••• 72",
-      "points": 35,
-      "pct": 0.17,
-      "last24h": 4,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 5,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1785534790.0,
-      "first_ts": 1780939774.0,
       "rank": 94
     },
     {
@@ -2128,7 +2128,7 @@
       "anon_phone": "+49 159 •••• 43",
       "points": 28,
       "pct": 0.14,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -18530,11 +18530,11 @@
       "cec25393509e",
       "9b2127152bcd",
       "a5f77afeecc6",
+      "b7f001ca29a3",
       "236b75edd620",
       "ddbb3a52a83e",
       "764f33f39eb0",
-      "b03d910663bf",
-      "b78c86671efc"
+      "b03d910663bf"
     ],
     "longest_streak": [
       {
@@ -18753,8 +18753,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "f000816f4f0b",
-      "name": "ferenc",
+      "id": "b7f001ca29a3",
+      "name": "leonski🍺",
       "value": 1
     },
     "biggest_message": {
@@ -19056,8 +19056,8 @@
     },
     {
       "date": "2026-08-01",
-      "count": 207,
-      "total": 20291
+      "count": 208,
+      "total": 20292
     }
   ],
   "hour_histogram": [
@@ -19081,12 +19081,18 @@
     1000,
     1265,
     1761,
-    2051,
+    2052,
     1971,
     1594,
     1048
   ],
   "recent": [
+    {
+      "n": 20292,
+      "id": "b7f001ca29a3",
+      "name": "leonski🍺",
+      "ts": 1785607480.0
+    },
     {
       "n": 20291,
       "id": "f000816f4f0b",
@@ -19197,12 +19203,6 @@
     },
     {
       "n": 20266,
-      "id": "0d1fa29f9e5e",
-      "name": "Ö",
-      "ts": 1785605125.0
-    },
-    {
-      "n": 20265,
       "id": "0d1fa29f9e5e",
       "name": "Ö",
       "ts": 1785605125.0
@@ -19448,6 +19448,10 @@
     [
       1785607306,
       20291
+    ],
+    [
+      1785607480,
+      20292
     ]
   ]
 }
