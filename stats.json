@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T20:28:07.041816+00:00",
+  "generated_at": "2026-08-01T20:29:07.945554+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20429,
-  "progress_pct": 2.0429,
+  "current_count": 20430,
+  "progress_pct": 2.043,
   "num_players": 1156,
-  "total_messages": 33155,
+  "total_messages": 33156,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785616026.0,
+  "last_count_ts": 1785616133.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -782,15 +782,15 @@
       "id": "1956a7890356",
       "name": "Finn",
       "anon_phone": "+49 179 •••• 76",
-      "points": 56,
-      "pct": 0.27,
-      "last24h": 9,
+      "points": 57,
+      "pct": 0.28,
+      "last24h": 10,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 6,
       "early_counts": 0,
-      "last_ts": 1785605721.0,
+      "last_ts": 1785616133.0,
       "first_ts": 1781301628.0,
       "rank": 49
     },
@@ -18537,9 +18537,9 @@
     ],
     "last_24h": [
       "776f4d602138",
+      "1956a7890356",
       "0d1fa29f9e5e",
       "9b2127152bcd",
-      "1956a7890356",
       "7a2e949e25b3",
       "edb260c141f2",
       "8561b6020a64",
@@ -18769,8 +18769,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
+      "id": "1956a7890356",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -19072,8 +19072,8 @@
     },
     {
       "date": "2026-08-01",
-      "count": 345,
-      "total": 20429
+      "count": 346,
+      "total": 20430
     }
   ],
   "hour_histogram": [
@@ -19099,10 +19099,16 @@
     1761,
     2090,
     2002,
-    1612,
+    1613,
     1048
   ],
   "recent": [
+    {
+      "n": 20430,
+      "id": "1956a7890356",
+      "name": "Finn",
+      "ts": 1785616133.0
+    },
     {
       "n": 20429,
       "id": "21ab33dbbddf",
@@ -19216,23 +19222,9 @@
       "id": "82b8ffe2a802",
       "name": "Alex",
       "ts": 1785614368.0
-    },
-    {
-      "n": 20379,
-      "id": "f7e5b41aae51",
-      "name": "Jakob",
-      "ts": 1785614245.0
     }
   ],
   "speed_samples": [
-    [
-      1785608846,
-      20317
-    ],
-    [
-      1785608893,
-      20318
-    ],
     [
       1785609439,
       20319
@@ -19492,6 +19484,10 @@
     [
       1785616026,
       20429
+    ],
+    [
+      1785616133,
+      20430
     ]
   ]
 }
