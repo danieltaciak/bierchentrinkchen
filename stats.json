@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T19:13:02.088267+00:00",
+  "generated_at": "2026-08-01T19:13:34.093526+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20345,
-  "progress_pct": 2.0345,
+  "current_count": 20346,
+  "progress_pct": 2.0346,
   "num_players": 1155,
-  "total_messages": 33066,
+  "total_messages": 33068,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785611573.0,
+  "last_count_ts": 1785611589.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -606,15 +606,15 @@
       "id": "edb260c141f2",
       "name": "Tobias G.",
       "anon_phone": "+49 152 •••• 84",
-      "points": 66,
-      "pct": 0.32,
-      "last24h": 4,
+      "points": 67,
+      "pct": 0.33,
+      "last24h": 5,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 4,
       "early_counts": 0,
-      "last_ts": 1785609439.0,
+      "last_ts": 1785611589.0,
       "first_ts": 1781384435.0,
       "rank": 38
     },
@@ -18530,11 +18530,11 @@
       "b7f001ca29a3",
       "9065b5c221f9",
       "b03d910663bf",
+      "edb260c141f2",
       "8561b6020a64",
       "b78c86671efc",
       "1c11893d16e0",
-      "236b75edd620",
-      "2f9108443e86"
+      "236b75edd620"
     ],
     "longest_streak": [
       {
@@ -18753,8 +18753,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "032a270163e4",
-      "name": "Philomena",
+      "id": "edb260c141f2",
+      "name": "Tobias G.",
       "value": 1
     },
     "biggest_message": {
@@ -19056,8 +19056,8 @@
     },
     {
       "date": "2026-08-01",
-      "count": 261,
-      "total": 20345
+      "count": 262,
+      "total": 20346
     }
   ],
   "hour_histogram": [
@@ -19082,11 +19082,17 @@
     1265,
     1761,
     2090,
-    1979,
+    1980,
     1594,
     1048
   ],
   "recent": [
+    {
+      "n": 20346,
+      "id": "edb260c141f2",
+      "name": "Tobias G.",
+      "ts": 1785611589.0
+    },
     {
       "n": 20345,
       "id": "032a270163e4",
@@ -19200,19 +19206,9 @@
       "id": "56f5a86a8ad7",
       "name": "Lyon",
       "ts": 1785610036.0
-    },
-    {
-      "n": 20323,
-      "id": "db6d81e90b74",
-      "name": "Dominik H.",
-      "ts": 1785609932.0
     }
   ],
   "speed_samples": [
-    [
-      1785604387,
-      20250
-    ],
     [
       1785604435,
       20251
@@ -19532,6 +19528,10 @@
     [
       1785611573,
       20345
+    ],
+    [
+      1785611589,
+      20346
     ]
   ]
 }
