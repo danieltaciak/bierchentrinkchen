@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T18:54:22.007749+00:00",
+  "generated_at": "2026-08-01T18:56:16.898052+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20331,
-  "progress_pct": 2.0331,
+  "current_count": 20332,
+  "progress_pct": 2.0332,
   "num_players": 1155,
-  "total_messages": 33046,
+  "total_messages": 33047,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785610448.0,
+  "last_count_ts": 1785610562.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -592,7 +592,7 @@
       "anon_phone": "+49 152 •••• 13",
       "points": 69,
       "pct": 0.34,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -990,15 +990,15 @@
       "id": "b24539a93d86",
       "name": "Dany",
       "anon_phone": "+49 160 •••• 83",
-      "points": 47,
-      "pct": 0.23,
-      "last24h": 3,
+      "points": 48,
+      "pct": 0.24,
+      "last24h": 4,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 1,
       "early_counts": 0,
-      "last_ts": 1785602957.0,
+      "last_ts": 1785610562.0,
       "first_ts": 1781804661.0,
       "rank": 62
     },
@@ -18753,8 +18753,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9065b5c221f9",
-      "name": "Tim W.",
+      "id": "b24539a93d86",
+      "name": "Dany",
       "value": 1
     },
     "biggest_message": {
@@ -19056,8 +19056,8 @@
     },
     {
       "date": "2026-08-01",
-      "count": 247,
-      "total": 20331
+      "count": 248,
+      "total": 20332
     }
   ],
   "hour_histogram": [
@@ -19081,12 +19081,18 @@
     1000,
     1265,
     1761,
-    2087,
+    2088,
     1971,
     1594,
     1048
   ],
   "recent": [
+    {
+      "n": 20332,
+      "id": "b24539a93d86",
+      "name": "Dany",
+      "ts": 1785610562.0
+    },
     {
       "n": 20331,
       "id": "9065b5c221f9",
@@ -19200,23 +19206,9 @@
       "id": "7a9ece4d8bbb",
       "name": "Ludwig S.",
       "ts": 1785608526.0
-    },
-    {
-      "n": 20309,
-      "id": "08510cd25776",
-      "name": "Christoph H.",
-      "ts": 1785608308.0
     }
   ],
   "speed_samples": [
-    [
-      1785603280,
-      20246
-    ],
-    [
-      1785603323,
-      20248
-    ],
     [
       1785603656,
       20249
@@ -19500,6 +19492,10 @@
     [
       1785610448,
       20331
+    ],
+    [
+      1785610562,
+      20332
     ]
   ]
 }
