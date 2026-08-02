@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-02T19:35:18.275652+00:00",
+  "generated_at": "2026-08-02T19:35:32.806184+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20806,
-  "progress_pct": 2.0806,
+  "current_count": 20807,
+  "progress_pct": 2.0807,
   "num_players": 1160,
-  "total_messages": 33535,
+  "total_messages": 33536,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785699294.0,
+  "last_count_ts": 1785699321.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -46,15 +46,15 @@
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "anon_phone": "+49 152 •••• 43",
-      "points": 192,
-      "pct": 0.92,
-      "last24h": 1,
+      "points": 193,
+      "pct": 0.93,
+      "last24h": 2,
       "longest_streak": 6,
       "assists_given": 2,
       "assists_received": 0,
       "night_counts": 30,
       "early_counts": 0,
-      "last_ts": 1785616026.0,
+      "last_ts": 1785699321.0,
       "first_ts": 1781950367.0,
       "rank": 3
     },
@@ -18833,8 +18833,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "d250ce427a30",
-      "name": "Jannik H.",
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
       "value": 1
     },
     "biggest_message": {
@@ -19141,8 +19141,8 @@
     },
     {
       "date": "2026-08-02",
-      "count": 270,
-      "total": 20806
+      "count": 271,
+      "total": 20807
     }
   ],
   "hour_histogram": [
@@ -19167,11 +19167,17 @@
     1280,
     1775,
     2106,
-    2016,
+    2017,
     1633,
     1076
   ],
   "recent": [
+    {
+      "n": 20807,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1785699321.0
+    },
     {
       "n": 20806,
       "id": "d250ce427a30",
@@ -19285,12 +19291,6 @@
       "id": "91e385e620da",
       "name": "Dennis",
       "ts": 1785696538.0
-    },
-    {
-      "n": 20785,
-      "id": "edb260c141f2",
-      "name": "Tobias G.",
-      "ts": 1785696482.0
     }
   ],
   "speed_samples": [
@@ -19433,6 +19433,10 @@
     [
       1785699294,
       20806
+    ],
+    [
+      1785699321,
+      20807
     ]
   ]
 }
