@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-02T21:55:11.363894+00:00",
+  "generated_at": "2026-08-02T22:01:27.486311+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20853,
-  "progress_pct": 2.0853,
+  "current_count": 20854,
+  "progress_pct": 2.0854,
   "num_players": 1160,
-  "total_messages": 33597,
+  "total_messages": 33598,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785707699.0,
+  "last_count_ts": 1785708074.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -48,7 +48,7 @@
       "anon_phone": "+49 176 •••• 10",
       "points": 193,
       "pct": 0.93,
-      "last24h": 12,
+      "last24h": 10,
       "longest_streak": 10,
       "assists_given": 1,
       "assists_received": 0,
@@ -62,15 +62,15 @@
       "id": "82a6be011a09",
       "name": "Boohb",
       "anon_phone": "+49 170 •••• 82",
-      "points": 182,
-      "pct": 0.87,
-      "last24h": 11,
+      "points": 183,
+      "pct": 0.88,
+      "last24h": 12,
       "longest_streak": 9,
       "assists_given": 0,
       "assists_received": 2,
-      "night_counts": 11,
+      "night_counts": 12,
       "early_counts": 2,
-      "last_ts": 1785703558.0,
+      "last_ts": 1785708074.0,
       "first_ts": 1781811271.0,
       "rank": 4
     },
@@ -18604,9 +18604,9 @@
       "68ec6bec9a73",
       "c93ed700000f",
       "b78c86671efc",
-      "8a6ad087f1ea",
-      "edb260c141f2",
       "82a6be011a09",
+      "edb260c141f2",
+      "8a6ad087f1ea",
       "a5f77afeecc6",
       "efeced9c0950",
       "6ae8b7629ff6",
@@ -18833,8 +18833,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "067056ac234a",
-      "name": "Ferdi",
+      "id": "82a6be011a09",
+      "name": "Boohb",
       "value": 1
     },
     "biggest_message": {
@@ -19143,10 +19143,15 @@
       "date": "2026-08-02",
       "count": 317,
       "total": 20853
+    },
+    {
+      "date": "2026-08-03",
+      "count": 1,
+      "total": 20854
     }
   ],
   "hour_histogram": [
-    591,
+    592,
     374,
     191,
     115,
@@ -19172,6 +19177,12 @@
     1090
   ],
   "recent": [
+    {
+      "n": 20854,
+      "id": "82a6be011a09",
+      "name": "Boohb",
+      "ts": 1785708074.0
+    },
     {
       "n": 20853,
       "id": "067056ac234a",
@@ -19285,19 +19296,9 @@
       "id": "82a6be011a09",
       "name": "Boohb",
       "ts": 1785703558.0
-    },
-    {
-      "n": 20834,
-      "id": "82a6be011a09",
-      "name": "Boohb",
-      "ts": 1785703547.0
     }
   ],
   "speed_samples": [
-    [
-      1785700534,
-      20823
-    ],
     [
       1785701175,
       20824
@@ -19413,6 +19414,10 @@
     [
       1785707699,
       20853
+    ],
+    [
+      1785708074,
+      20854
     ]
   ]
 }
