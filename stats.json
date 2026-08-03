@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T17:45:00.178026+00:00",
+  "generated_at": "2026-08-03T17:45:20.180772+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 20959,
-  "progress_pct": 2.0959,
+  "current_count": 20960,
+  "progress_pct": 2.096,
   "num_players": 1160,
-  "total_messages": 33715,
+  "total_messages": 33716,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785779086.0,
+  "last_count_ts": 1785779108.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -478,15 +478,15 @@
       "id": "b09e2085998b",
       "name": "Michi",
       "anon_phone": "+49 171 •••• 06",
-      "points": 88,
+      "points": 89,
       "pct": 0.42,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 3,
       "assists_given": 5,
       "assists_received": 7,
       "night_counts": 5,
       "early_counts": 2,
-      "last_ts": 1785774689.0,
+      "last_ts": 1785779108.0,
       "first_ts": 1780945139.0,
       "rank": 30
     },
@@ -18612,9 +18612,9 @@
       "8a6ad087f1ea",
       "728a9cae2154",
       "776f4d602138",
+      "b09e2085998b",
       "d250ce427a30",
-      "cee931f2a642",
-      "c69a12d636b1"
+      "cee931f2a642"
     ],
     "longest_streak": [
       {
@@ -18833,8 +18833,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "aa0156afe213",
-      "name": "Til",
+      "id": "b09e2085998b",
+      "name": "Michi",
       "value": 1
     },
     "biggest_message": {
@@ -19146,8 +19146,8 @@
     },
     {
       "date": "2026-08-03",
-      "count": 106,
-      "total": 20959
+      "count": 107,
+      "total": 20960
     }
   ],
   "hour_histogram": [
@@ -19170,13 +19170,19 @@
     779,
     1018,
     1291,
-    1793,
+    1794,
     2106,
     2029,
     1648,
     1090
   ],
   "recent": [
+    {
+      "n": 20960,
+      "id": "b09e2085998b",
+      "name": "Michi",
+      "ts": 1785779108.0
+    },
     {
       "n": 20959,
       "id": "aa0156afe213",
@@ -19290,12 +19296,6 @@
       "id": "776f4d602138",
       "name": "Korbi",
       "ts": 1785775397.0
-    },
-    {
-      "n": 20940,
-      "id": "0d1fa29f9e5e",
-      "name": "Ö",
-      "ts": 1785775389.0
     }
   ],
   "speed_samples": [
@@ -19430,6 +19430,10 @@
     [
       1785779086,
       20959
+    ],
+    [
+      1785779108,
+      20960
     ]
   ]
 }
