@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T19:03:30.802723+00:00",
+  "generated_at": "2026-08-03T19:04:00.376268+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21002,
-  "progress_pct": 2.1002,
+  "current_count": 21003,
+  "progress_pct": 2.1003,
   "num_players": 1160,
-  "total_messages": 33792,
+  "total_messages": 33793,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785783794.0,
+  "last_count_ts": 1785783824.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -2491,6 +2491,22 @@
       "rank": 155
     },
     {
+      "id": "b39408fd7a0c",
+      "name": "Basti H.",
+      "anon_phone": "+49 151 •••• 19",
+      "points": 25,
+      "pct": 0.12,
+      "last24h": 2,
+      "longest_streak": 1,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1785783824.0,
+      "first_ts": 1781903018.0,
+      "rank": 156
+    },
+    {
       "id": "a0aa51137b2f",
       "name": "Cs",
       "anon_phone": "+49 163 •••• 49",
@@ -2504,7 +2520,7 @@
       "early_counts": 0,
       "last_ts": 1785508203.0,
       "first_ts": 1780942946.0,
-      "rank": 156
+      "rank": 157
     },
     {
       "id": "dddf65049b69",
@@ -2520,7 +2536,7 @@
       "early_counts": 0,
       "last_ts": 1785091070.0,
       "first_ts": 1781353482.0,
-      "rank": 157
+      "rank": 158
     },
     {
       "id": "89763f334df3",
@@ -2536,7 +2552,7 @@
       "early_counts": 0,
       "last_ts": 1785340410.0,
       "first_ts": 1781207302.0,
-      "rank": 158
+      "rank": 159
     },
     {
       "id": "98b8d64d4fd0",
@@ -2552,7 +2568,7 @@
       "early_counts": 1,
       "last_ts": 1784845243.0,
       "first_ts": 1781378594.0,
-      "rank": 159
+      "rank": 160
     },
     {
       "id": "56f5a86a8ad7",
@@ -2568,22 +2584,6 @@
       "early_counts": 0,
       "last_ts": 1785610036.0,
       "first_ts": 1781127926.0,
-      "rank": 160
-    },
-    {
-      "id": "b39408fd7a0c",
-      "name": "Basti H.",
-      "anon_phone": "+49 151 •••• 19",
-      "points": 24,
-      "pct": 0.11,
-      "last24h": 1,
-      "longest_streak": 1,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1785780794.0,
-      "first_ts": 1781903018.0,
       "rank": 161
     },
     {
@@ -18833,8 +18833,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "80c7852edd15",
-      "name": "Edu",
+      "id": "b39408fd7a0c",
+      "name": "Basti H.",
       "value": 1
     },
     "biggest_message": {
@@ -19146,8 +19146,8 @@
     },
     {
       "date": "2026-08-03",
-      "count": 149,
-      "total": 21002
+      "count": 150,
+      "total": 21003
     }
   ],
   "hour_histogram": [
@@ -19172,11 +19172,17 @@
     1291,
     1797,
     2127,
-    2031,
+    2032,
     1648,
     1090
   ],
   "recent": [
+    {
+      "n": 21003,
+      "id": "b39408fd7a0c",
+      "name": "Basti H.",
+      "ts": 1785783824.0
+    },
     {
       "n": 21002,
       "id": "80c7852edd15",
@@ -19290,12 +19296,6 @@
       "id": "edb260c141f2",
       "name": "Tobias G.",
       "ts": 1785781253.0
-    },
-    {
-      "n": 20973,
-      "id": "b39408fd7a0c",
-      "name": "Basti H.",
-      "ts": 1785780794.0
     }
   ],
   "speed_samples": [
@@ -19470,6 +19470,10 @@
     [
       1785783794,
       21002
+    ],
+    [
+      1785783824,
+      21003
     ]
   ]
 }
