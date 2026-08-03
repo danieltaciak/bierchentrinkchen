@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T19:40:27.606092+00:00",
+  "generated_at": "2026-08-03T19:44:26.089235+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21020,
-  "progress_pct": 2.102,
+  "current_count": 21021,
+  "progress_pct": 2.1021,
   "num_players": 1160,
-  "total_messages": 33818,
+  "total_messages": 33819,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785786011.0,
+  "last_count_ts": 1785786244.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -128,7 +128,7 @@
       "anon_phone": "+49 178 •••• 54",
       "points": 159,
       "pct": 0.76,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -395,6 +395,22 @@
       "rank": 24
     },
     {
+      "id": "edb260c141f2",
+      "name": "Tobias G.",
+      "anon_phone": "+49 152 •••• 84",
+      "points": 94,
+      "pct": 0.45,
+      "last24h": 14,
+      "longest_streak": 5,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 10,
+      "early_counts": 0,
+      "last_ts": 1785786244.0,
+      "first_ts": 1781384435.0,
+      "rank": 25
+    },
+    {
       "id": "3137559fdc0a",
       "name": "Simon",
       "anon_phone": "+49 163 •••• 57",
@@ -408,22 +424,6 @@
       "early_counts": 0,
       "last_ts": 1785688162.0,
       "first_ts": 1781904152.0,
-      "rank": 25
-    },
-    {
-      "id": "edb260c141f2",
-      "name": "Tobias G.",
-      "anon_phone": "+49 152 •••• 84",
-      "points": 93,
-      "pct": 0.44,
-      "last24h": 13,
-      "longest_streak": 5,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 10,
-      "early_counts": 0,
-      "last_ts": 1785783646.0,
-      "first_ts": 1781384435.0,
       "rank": 26
     },
     {
@@ -720,7 +720,7 @@
       "anon_phone": "+49 176 •••• 35",
       "points": 62,
       "pct": 0.29,
-      "last24h": 4,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -5232,7 +5232,7 @@
       "anon_phone": "+49 178 •••• 66",
       "points": 12,
       "pct": 0.06,
-      "last24h": 2,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -18597,7 +18597,7 @@
       "764f33f39eb0",
       "62b0ee30f625",
       "776f4d602138",
-      "3137559fdc0a"
+      "edb260c141f2"
     ],
     "last_24h": [
       "edb260c141f2",
@@ -18608,13 +18608,13 @@
       "b7f001ca29a3",
       "21ab33dbbddf",
       "728a9cae2154",
-      "e0ccca3f241a",
       "a5f77afeecc6",
       "82afa8eefe9c",
       "1ea92e8050ce",
       "776f4d602138",
       "cee931f2a642",
-      "c69a12d636b1"
+      "c69a12d636b1",
+      "af9faf0c05a6"
     ],
     "longest_streak": [
       {
@@ -18833,8 +18833,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "c13fcec21292",
-      "name": "Sabrina✨",
+      "id": "edb260c141f2",
+      "name": "Tobias G.",
       "value": 1
     },
     "biggest_message": {
@@ -19146,8 +19146,8 @@
     },
     {
       "date": "2026-08-03",
-      "count": 167,
-      "total": 21020
+      "count": 168,
+      "total": 21021
     }
   ],
   "hour_histogram": [
@@ -19172,11 +19172,17 @@
     1291,
     1797,
     2127,
-    2047,
+    2048,
     1648,
     1090
   ],
   "recent": [
+    {
+      "n": 21021,
+      "id": "edb260c141f2",
+      "name": "Tobias G.",
+      "ts": 1785786244.0
+    },
     {
       "n": 21020,
       "id": "c13fcec21292",
@@ -19290,27 +19296,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1785783529.0
-    },
-    {
-      "n": 20998,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1785783475.0
     }
   ],
   "speed_samples": [
-    [
-      1785778974,
-      20956
-    ],
-    [
-      1785779003,
-      20957
-    ],
-    [
-      1785779003,
-      20958
-    ],
     [
       1785779086,
       20959
@@ -19486,6 +19474,10 @@
     [
       1785786011,
       21020
+    ],
+    [
+      1785786244,
+      21021
     ]
   ]
 }
