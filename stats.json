@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T19:55:34.041494+00:00",
+  "generated_at": "2026-08-03T19:55:54.978098+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21023,
-  "progress_pct": 2.1023,
+  "current_count": 21026,
+  "progress_pct": 2.1026,
   "num_players": 1160,
-  "total_messages": 33822,
+  "total_messages": 33823,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785786917.0,
+  "last_count_ts": 1785786942.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -27,6 +27,22 @@
       "rank": 1
     },
     {
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "anon_phone": "+49 152 •••• 43",
+      "points": 204,
+      "pct": 0.97,
+      "last24h": 11,
+      "longest_streak": 6,
+      "assists_given": 2,
+      "assists_received": 0,
+      "night_counts": 31,
+      "early_counts": 0,
+      "last_ts": 1785786942.0,
+      "first_ts": 1781950367.0,
+      "rank": 2
+    },
+    {
       "id": "8a6ad087f1ea",
       "name": "ich H.",
       "anon_phone": "+49 176 •••• 10",
@@ -40,22 +56,6 @@
       "early_counts": 2,
       "last_ts": 1785784259.0,
       "first_ts": 1781470164.0,
-      "rank": 2
-    },
-    {
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
-      "anon_phone": "+49 152 •••• 43",
-      "points": 201,
-      "pct": 0.96,
-      "last24h": 8,
-      "longest_streak": 6,
-      "assists_given": 2,
-      "assists_received": 0,
-      "night_counts": 31,
-      "early_counts": 0,
-      "last_ts": 1785786917.0,
-      "first_ts": 1781950367.0,
       "rank": 3
     },
     {
@@ -1247,7 +1247,7 @@
       "name": "Miri",
       "anon_phone": "+49 151 •••• 17",
       "points": 41,
-      "pct": 0.2,
+      "pct": 0.19,
       "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
@@ -1263,7 +1263,7 @@
       "name": "MM",
       "anon_phone": "+49 176 •••• 07",
       "points": 41,
-      "pct": 0.2,
+      "pct": 0.19,
       "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
@@ -18574,8 +18574,8 @@
   "leaderboards": {
     "all_time": [
       "9bf6383c58eb",
-      "8a6ad087f1ea",
       "21ab33dbbddf",
+      "8a6ad087f1ea",
       "82a6be011a09",
       "a5f77afeecc6",
       "bbd3041bdb62",
@@ -18601,10 +18601,10 @@
     ],
     "last_24h": [
       "edb260c141f2",
+      "21ab33dbbddf",
       "efeced9c0950",
       "82a6be011a09",
       "4b68beda9a45",
-      "21ab33dbbddf",
       "8a6ad087f1ea",
       "b7f001ca29a3",
       "728a9cae2154",
@@ -18835,7 +18835,7 @@
     "current_streak": {
       "id": "21ab33dbbddf",
       "name": "Jakob",
-      "value": 1
+      "value": 4
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -19146,8 +19146,8 @@
     },
     {
       "date": "2026-08-03",
-      "count": 170,
-      "total": 21023
+      "count": 173,
+      "total": 21026
     }
   ],
   "hour_histogram": [
@@ -19172,11 +19172,29 @@
     1291,
     1797,
     2127,
-    2050,
+    2053,
     1648,
     1090
   ],
   "recent": [
+    {
+      "n": 21026,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1785786942.0
+    },
+    {
+      "n": 21025,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1785786942.0
+    },
+    {
+      "n": 21024,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1785786942.0
+    },
     {
       "n": 21023,
       "id": "21ab33dbbddf",
@@ -19278,24 +19296,6 @@
       "id": "8a6ad087f1ea",
       "name": "ich H.",
       "ts": 1785784191.0
-    },
-    {
-      "n": 21004,
-      "id": "3031bc23f2a7",
-      "name": "Thomas N.",
-      "ts": 1785784016.0
-    },
-    {
-      "n": 21003,
-      "id": "b39408fd7a0c",
-      "name": "Basti H.",
-      "ts": 1785783824.0
-    },
-    {
-      "n": 21002,
-      "id": "80c7852edd15",
-      "name": "Edu",
-      "ts": 1785783794.0
     }
   ],
   "speed_samples": [
@@ -19470,6 +19470,18 @@
     [
       1785786917,
       21023
+    ],
+    [
+      1785786942,
+      21024
+    ],
+    [
+      1785786942,
+      21025
+    ],
+    [
+      1785786942,
+      21026
     ]
   ]
 }
