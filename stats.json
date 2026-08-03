@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T20:47:54.747167+00:00",
+  "generated_at": "2026-08-03T20:51:58.677479+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21050,
-  "progress_pct": 2.105,
+  "current_count": 21051,
+  "progress_pct": 2.1051,
   "num_players": 1160,
-  "total_messages": 33854,
+  "total_messages": 33855,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785790063.0,
+  "last_count_ts": 1785790303.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -144,7 +144,7 @@
       "anon_phone": "+49 176 •••• 42",
       "points": 156,
       "pct": 0.74,
-      "last24h": 12,
+      "last24h": 11,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -2219,6 +2219,22 @@
       "rank": 138
     },
     {
+      "id": "e32d26f673cb",
+      "name": "Cel",
+      "anon_phone": "+49 175 •••• 14",
+      "points": 28,
+      "pct": 0.13,
+      "last24h": 2,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 14,
+      "early_counts": 0,
+      "last_ts": 1785790303.0,
+      "first_ts": 1781376503.0,
+      "rank": 139
+    },
+    {
       "id": "5e4e6db7ee18",
       "name": "Hansi",
       "anon_phone": "+49 172 •••• 54",
@@ -2232,7 +2248,7 @@
       "early_counts": 1,
       "last_ts": 1785723373.0,
       "first_ts": 1781369637.0,
-      "rank": 139
+      "rank": 140
     },
     {
       "id": "d64db822d6be",
@@ -2248,7 +2264,7 @@
       "early_counts": 0,
       "last_ts": 1783795728.0,
       "first_ts": 1782397193.0,
-      "rank": 140
+      "rank": 141
     },
     {
       "id": "8b2f66e6f7ec",
@@ -2264,7 +2280,7 @@
       "early_counts": 3,
       "last_ts": 1782582740.0,
       "first_ts": 1781775059.0,
-      "rank": 141
+      "rank": 142
     },
     {
       "id": "858a46884967",
@@ -2280,7 +2296,7 @@
       "early_counts": 0,
       "last_ts": 1783110054.0,
       "first_ts": 1781031546.0,
-      "rank": 142
+      "rank": 143
     },
     {
       "id": "4743c0a929a2",
@@ -2296,7 +2312,7 @@
       "early_counts": 2,
       "last_ts": 1785746218.0,
       "first_ts": 1782297905.0,
-      "rank": 143
+      "rank": 144
     },
     {
       "id": "032a270163e4",
@@ -2312,22 +2328,6 @@
       "early_counts": 0,
       "last_ts": 1785611573.0,
       "first_ts": 1781628517.0,
-      "rank": 144
-    },
-    {
-      "id": "e32d26f673cb",
-      "name": "Cel",
-      "anon_phone": "+49 175 •••• 14",
-      "points": 27,
-      "pct": 0.13,
-      "last24h": 1,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 14,
-      "early_counts": 0,
-      "last_ts": 1785781390.0,
-      "first_ts": 1781376503.0,
       "rank": 145
     },
     {
@@ -18601,8 +18601,8 @@
     ],
     "last_24h": [
       "edb260c141f2",
-      "efeced9c0950",
       "21ab33dbbddf",
+      "efeced9c0950",
       "4b68beda9a45",
       "8a6ad087f1ea",
       "b7f001ca29a3",
@@ -18833,8 +18833,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b6842ad0b9ab",
-      "name": "Sebi",
+      "id": "e32d26f673cb",
+      "name": "Cel",
       "value": 1
     },
     "biggest_message": {
@@ -19146,8 +19146,8 @@
     },
     {
       "date": "2026-08-03",
-      "count": 197,
-      "total": 21050
+      "count": 198,
+      "total": 21051
     }
   ],
   "hour_histogram": [
@@ -19173,10 +19173,16 @@
     1797,
     2127,
     2053,
-    1665,
+    1666,
     1090
   ],
   "recent": [
+    {
+      "n": 21051,
+      "id": "e32d26f673cb",
+      "name": "Cel",
+      "ts": 1785790303.0
+    },
     {
       "n": 21050,
       "id": "b6842ad0b9ab",
@@ -19287,12 +19293,6 @@
     },
     {
       "n": 21025,
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
-      "ts": 1785786942.0
-    },
-    {
-      "n": 21024,
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "ts": 1785786942.0
@@ -19486,6 +19486,10 @@
     [
       1785790063,
       21050
+    ],
+    [
+      1785790303,
+      21051
     ]
   ]
 }
