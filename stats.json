@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-05T17:25:16.081629+00:00",
+  "generated_at": "2026-08-05T17:25:47.165225+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21348,
-  "progress_pct": 2.1348,
+  "current_count": 21349,
+  "progress_pct": 2.1349,
   "num_players": 1167,
-  "total_messages": 34208,
+  "total_messages": 34209,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785950703.0,
+  "last_count_ts": 1785950734.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -638,15 +638,15 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "anon_phone": "+49 175 •••• 96",
-      "points": 66,
+      "points": 67,
       "pct": 0.31,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 4,
       "early_counts": 0,
-      "last_ts": 1785773978.0,
+      "last_ts": 1785950734.0,
       "first_ts": 1781465577.0,
       "rank": 40
     },
@@ -18945,8 +18945,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "82a6be011a09",
-      "name": "Boohb",
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
       "value": 1
     },
     "biggest_message": {
@@ -19268,8 +19268,8 @@
     },
     {
       "date": "2026-08-05",
-      "count": 96,
-      "total": 21348
+      "count": 97,
+      "total": 21349
     }
   ],
   "hour_histogram": [
@@ -19292,13 +19292,19 @@
     793,
     1034,
     1314,
-    1824,
+    1825,
     2145,
     2074,
     1683,
     1111
   ],
   "recent": [
+    {
+      "n": 21349,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1785950734.0
+    },
     {
       "n": 21348,
       "id": "82a6be011a09",
@@ -19412,12 +19418,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1785943304.0
-    },
-    {
-      "n": 21327,
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
-      "ts": 1785942720.0
     }
   ],
   "speed_samples": [
@@ -19492,6 +19492,10 @@
     [
       1785950703,
       21348
+    ],
+    [
+      1785950734,
+      21349
     ]
   ]
 }
