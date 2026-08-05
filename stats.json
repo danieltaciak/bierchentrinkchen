@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-05T16:32:30.829025+00:00",
+  "generated_at": "2026-08-05T16:36:24.430608+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21340,
-  "progress_pct": 2.134,
+  "current_count": 21341,
+  "progress_pct": 2.1341,
   "num_players": 1167,
-  "total_messages": 34199,
+  "total_messages": 34200,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785947534.0,
+  "last_count_ts": 1785947771.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -59,11 +59,27 @@
       "rank": 3
     },
     {
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "anon_phone": "+49 170 •••• 40",
+      "points": 192,
+      "pct": 0.9,
+      "last24h": 5,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 9,
+      "early_counts": 0,
+      "last_ts": 1785947771.0,
+      "first_ts": 1781292817.0,
+      "rank": 4
+    },
+    {
       "id": "82a6be011a09",
       "name": "Boohb",
       "anon_phone": "+49 170 •••• 82",
       "points": 191,
-      "pct": 0.9,
+      "pct": 0.89,
       "last24h": 3,
       "longest_streak": 9,
       "assists_given": 0,
@@ -72,22 +88,6 @@
       "early_counts": 2,
       "last_ts": 1785873507.0,
       "first_ts": 1781811271.0,
-      "rank": 4
-    },
-    {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "anon_phone": "+49 170 •••• 40",
-      "points": 191,
-      "pct": 0.9,
-      "last24h": 4,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 9,
-      "early_counts": 0,
-      "last_ts": 1785879740.0,
-      "first_ts": 1781292817.0,
       "rank": 5
     },
     {
@@ -4080,7 +4080,7 @@
       "anon_phone": "+49 160 •••• 34",
       "points": 16,
       "pct": 0.07,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -4352,7 +4352,7 @@
       "anon_phone": "+49 160 •••• 09",
       "points": 15,
       "pct": 0.07,
-      "last24h": 4,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -18688,8 +18688,8 @@
       "9bf6383c58eb",
       "21ab33dbbddf",
       "8a6ad087f1ea",
-      "82a6be011a09",
       "a5f77afeecc6",
+      "82a6be011a09",
       "115bd3930d45",
       "bbd3041bdb62",
       "efeced9c0950",
@@ -18716,17 +18716,17 @@
       "2e95be7bb9ea",
       "b78c86671efc",
       "efeced9c0950",
-      "8b20d475db4b",
-      "65a8763b1655",
-      "7f2958f8497b",
-      "728a9cae2154",
       "a5f77afeecc6",
+      "8b20d475db4b",
+      "728a9cae2154",
       "e8afab0e587c",
+      "7f2958f8497b",
       "6f6f6e986b56",
       "82a6be011a09",
       "115bd3930d45",
       "74c46f04e647",
-      "255c7cae2bae"
+      "255c7cae2bae",
+      "ed68d0e3bcd5"
     ],
     "longest_streak": [
       {
@@ -18945,8 +18945,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "416d585e4acc",
-      "name": "Marlin",
+      "id": "a5f77afeecc6",
+      "name": "Nico",
       "value": 1
     },
     "biggest_message": {
@@ -19268,8 +19268,8 @@
     },
     {
       "date": "2026-08-05",
-      "count": 88,
-      "total": 21340
+      "count": 89,
+      "total": 21341
     }
   ],
   "hour_histogram": [
@@ -19291,7 +19291,7 @@
     486,
     793,
     1034,
-    1312,
+    1313,
     1818,
     2145,
     2074,
@@ -19299,6 +19299,12 @@
     1111
   ],
   "recent": [
+    {
+      "n": 21341,
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "ts": 1785947771.0
+    },
     {
       "n": 21340,
       "id": "416d585e4acc",
@@ -19412,12 +19418,6 @@
       "id": "b78c86671efc",
       "name": "Johannes",
       "ts": 1785939694.0
-    },
-    {
-      "n": 21319,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1785939627.0
     }
   ],
   "speed_samples": [
@@ -19488,6 +19488,10 @@
     [
       1785947534,
       21340
+    ],
+    [
+      1785947771,
+      21341
     ]
   ]
 }
