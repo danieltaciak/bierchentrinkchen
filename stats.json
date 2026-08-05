@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-05T15:39:22.747035+00:00",
+  "generated_at": "2026-08-05T15:46:11.751532+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21334,
-  "progress_pct": 2.1334,
+  "current_count": 21335,
+  "progress_pct": 2.1335,
   "num_players": 1167,
-  "total_messages": 34192,
+  "total_messages": 34193,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1785944350.0,
+  "last_count_ts": 1785944759.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -414,15 +414,15 @@
       "id": "3137559fdc0a",
       "name": "Simon",
       "anon_phone": "+49 163 •••• 57",
-      "points": 95,
+      "points": 96,
       "pct": 0.45,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 5,
       "early_counts": 0,
-      "last_ts": 1785930630.0,
+      "last_ts": 1785944759.0,
       "first_ts": 1781904152.0,
       "rank": 26
     },
@@ -6416,7 +6416,7 @@
       "anon_phone": "+49 152 •••• 16",
       "points": 10,
       "pct": 0.05,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -18945,8 +18945,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "f6d25abbd45b",
-      "name": "Luca",
+      "id": "3137559fdc0a",
+      "name": "Simon",
       "value": 1
     },
     "biggest_message": {
@@ -19268,8 +19268,8 @@
     },
     {
       "date": "2026-08-05",
-      "count": 82,
-      "total": 21334
+      "count": 83,
+      "total": 21335
     }
   ],
   "hour_histogram": [
@@ -19290,7 +19290,7 @@
     488,
     486,
     793,
-    1031,
+    1032,
     1309,
     1818,
     2145,
@@ -19299,6 +19299,12 @@
     1111
   ],
   "recent": [
+    {
+      "n": 21335,
+      "id": "3137559fdc0a",
+      "name": "Simon",
+      "ts": 1785944759.0
+    },
     {
       "n": 21334,
       "id": "f6d25abbd45b",
@@ -19412,12 +19418,6 @@
       "id": "2e95be7bb9ea",
       "name": "Luis",
       "ts": 1785936811.0
-    },
-    {
-      "n": 21313,
-      "id": "73b18d345917",
-      "name": "Severin",
-      "ts": 1785936106.0
     }
   ],
   "speed_samples": [
@@ -19488,6 +19488,10 @@
     [
       1785944350,
       21334
+    ],
+    [
+      1785944759,
+      21335
     ]
   ]
 }
