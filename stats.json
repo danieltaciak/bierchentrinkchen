@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-06T20:56:45.326216+00:00",
+  "generated_at": "2026-08-06T20:59:00.115758+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21659,
-  "progress_pct": 2.1659,
+  "current_count": 21660,
+  "progress_pct": 2.166,
   "num_players": 1173,
-  "total_messages": 34520,
+  "total_messages": 34521,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786049791.0,
+  "last_count_ts": 1786049927.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -142,15 +142,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 164,
+      "points": 165,
       "pct": 0.76,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 23,
       "early_counts": 0,
-      "last_ts": 1786048451.0,
+      "last_ts": 1786049927.0,
       "first_ts": 1781212818.0,
       "rank": 9
     },
@@ -19041,8 +19041,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "c93ed700000f",
+      "name": "linus",
       "value": 1
     },
     "biggest_message": {
@@ -19369,8 +19369,8 @@
     },
     {
       "date": "2026-08-06",
-      "count": 224,
-      "total": 21659
+      "count": 225,
+      "total": 21660
     }
   ],
   "hour_histogram": [
@@ -19396,10 +19396,16 @@
     1849,
     2196,
     2119,
-    1719,
+    1720,
     1124
   ],
   "recent": [
+    {
+      "n": 21660,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1786049927.0
+    },
     {
       "n": 21659,
       "id": "a5f77afeecc6",
@@ -19513,19 +19519,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1786047496.0
-    },
-    {
-      "n": 21638,
-      "id": "1956a7890356",
-      "name": "Finn",
-      "ts": 1786047134.0
     }
   ],
   "speed_samples": [
-    [
-      1786042697,
-      21604
-    ],
     [
       1786042783,
       21605
@@ -19725,6 +19721,10 @@
     [
       1786049791,
       21659
+    ],
+    [
+      1786049927,
+      21660
     ]
   ]
 }
