@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-06T20:59:00.115758+00:00",
+  "generated_at": "2026-08-06T21:03:50.106221+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21660,
-  "progress_pct": 2.166,
+  "current_count": 21661,
+  "progress_pct": 2.1661,
   "num_players": 1173,
-  "total_messages": 34521,
+  "total_messages": 34522,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786049927.0,
+  "last_count_ts": 1786050216.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -112,7 +112,7 @@
       "anon_phone": "+49 176 •••• 42",
       "points": 173,
       "pct": 0.8,
-      "last24h": 5,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -427,6 +427,22 @@
       "rank": 26
     },
     {
+      "id": "df6424fbdeef",
+      "name": "Daniel",
+      "anon_phone": "+49 163 •••• 57",
+      "points": 91,
+      "pct": 0.42,
+      "last24h": 2,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 4,
+      "early_counts": 0,
+      "last_ts": 1786050216.0,
+      "first_ts": 1781452642.0,
+      "rank": 27
+    },
+    {
       "id": "cec25393509e",
       "name": "Jordan",
       "anon_phone": "+49 162 •••• 18",
@@ -440,22 +456,6 @@
       "early_counts": 0,
       "last_ts": 1786044365.0,
       "first_ts": 1781100515.0,
-      "rank": 27
-    },
-    {
-      "id": "df6424fbdeef",
-      "name": "Daniel",
-      "anon_phone": "+49 163 •••• 57",
-      "points": 90,
-      "pct": 0.42,
-      "last24h": 1,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 4,
-      "early_counts": 0,
-      "last_ts": 1786042888.0,
-      "first_ts": 1781452642.0,
       "rank": 28
     },
     {
@@ -496,7 +496,7 @@
       "anon_phone": "+49 151 •••• 79",
       "points": 87,
       "pct": 0.4,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
@@ -2128,7 +2128,7 @@
       "anon_phone": "+49 175 •••• 14",
       "points": 30,
       "pct": 0.14,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -2960,7 +2960,7 @@
       "anon_phone": "+49 176 •••• 62",
       "points": 22,
       "pct": 0.1,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -3568,7 +3568,7 @@
       "anon_phone": "+49 160 •••• 07",
       "points": 18,
       "pct": 0.08,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -18815,14 +18815,14 @@
       "ed68d0e3bcd5",
       "9bf6383c58eb",
       "728a9cae2154",
-      "efeced9c0950",
       "5edeae5f886f",
       "32529ce73333",
       "7648269ee23a",
       "3882d176c29e",
       "89763f334df3",
       "abdd765c9df5",
-      "21ab33dbbddf"
+      "21ab33dbbddf",
+      "2e95be7bb9ea"
     ],
     "longest_streak": [
       {
@@ -19041,8 +19041,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "c93ed700000f",
-      "name": "linus",
+      "id": "df6424fbdeef",
+      "name": "Daniel",
       "value": 1
     },
     "biggest_message": {
@@ -19369,8 +19369,8 @@
     },
     {
       "date": "2026-08-06",
-      "count": 225,
-      "total": 21660
+      "count": 226,
+      "total": 21661
     }
   ],
   "hour_histogram": [
@@ -19397,9 +19397,15 @@
     2196,
     2119,
     1720,
-    1124
+    1125
   ],
   "recent": [
+    {
+      "n": 21661,
+      "id": "df6424fbdeef",
+      "name": "Daniel",
+      "ts": 1786050216.0
+    },
     {
       "n": 21660,
       "id": "c93ed700000f",
@@ -19513,27 +19519,9 @@
       "id": "3882d176c29e",
       "name": "moritz",
       "ts": 1786047562.0
-    },
-    {
-      "n": 21639,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1786047496.0
     }
   ],
   "speed_samples": [
-    [
-      1786042783,
-      21605
-    ],
-    [
-      1786042839,
-      21607
-    ],
-    [
-      1786042888,
-      21608
-    ],
     [
       1786043510,
       21609
@@ -19725,6 +19713,10 @@
     [
       1786049927,
       21660
+    ],
+    [
+      1786050216,
+      21661
     ]
   ]
 }
