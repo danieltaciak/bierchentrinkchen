@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T18:15:46.243657+00:00",
+  "generated_at": "2026-08-07T18:17:47.206104+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21817,
-  "progress_pct": 2.1817,
+  "current_count": 21818,
+  "progress_pct": 2.1818,
   "num_players": 1176,
-  "total_messages": 34705,
+  "total_messages": 34706,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786126534.0,
+  "last_count_ts": 1786126648.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -126,15 +126,15 @@
       "id": "bbd3041bdb62",
       "name": "Flex",
       "anon_phone": "+49 176 •••• 13",
-      "points": 173,
-      "pct": 0.79,
-      "last24h": 3,
+      "points": 174,
+      "pct": 0.8,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 26,
       "assists_received": 1,
       "night_counts": 16,
       "early_counts": 0,
-      "last_ts": 1786116836.0,
+      "last_ts": 1786126648.0,
       "first_ts": 1780939639.0,
       "rank": 8
     },
@@ -1360,7 +1360,7 @@
       "anon_phone": "+49 176 •••• 91",
       "points": 40,
       "pct": 0.18,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -18868,9 +18868,9 @@
       "3882d176c29e",
       "c93ed700000f",
       "cec25393509e",
+      "bbd3041bdb62",
       "c13fcec21292",
-      "97897748b637",
-      "1c241224dd31"
+      "97897748b637"
     ],
     "longest_streak": [
       {
@@ -19089,8 +19089,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "7f5c521dadcb",
-      "name": "Michael Ö.",
+      "id": "bbd3041bdb62",
+      "name": "Flex",
       "value": 1
     },
     "biggest_message": {
@@ -19422,8 +19422,8 @@
     },
     {
       "date": "2026-08-07",
-      "count": 148,
-      "total": 21817
+      "count": 149,
+      "total": 21818
     }
   ],
   "hour_histogram": [
@@ -19447,12 +19447,18 @@
     1056,
     1341,
     1868,
-    2209,
+    2210,
     2119,
     1720,
     1133
   ],
   "recent": [
+    {
+      "n": 21818,
+      "id": "bbd3041bdb62",
+      "name": "Flex",
+      "ts": 1786126648.0
+    },
     {
       "n": 21817,
       "id": "7f5c521dadcb",
@@ -19566,12 +19572,6 @@
       "id": "6b9e5cf641da",
       "name": "Alex",
       "ts": 1786124785.0
-    },
-    {
-      "n": 21797,
-      "id": "cec25393509e",
-      "name": "Jordan",
-      "ts": 1786124743.0
     }
   ],
   "speed_samples": [
@@ -19758,6 +19758,10 @@
     [
       1786126534,
       21817
+    ],
+    [
+      1786126648,
+      21818
     ]
   ]
 }
