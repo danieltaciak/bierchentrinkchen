@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T20:17:45.147774+00:00",
+  "generated_at": "2026-08-07T20:20:13.111610+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21914,
-  "progress_pct": 2.1914,
+  "current_count": 21915,
+  "progress_pct": 2.1915,
   "num_players": 1177,
-  "total_messages": 34821,
+  "total_messages": 34822,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786133849.0,
+  "last_count_ts": 1786133998.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -48,7 +48,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 206,
       "pct": 0.94,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -126,15 +126,15 @@
       "id": "bbd3041bdb62",
       "name": "Flex",
       "anon_phone": "+49 176 •••• 13",
-      "points": 175,
+      "points": 176,
       "pct": 0.8,
-      "last24h": 4,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 26,
       "assists_received": 1,
       "night_counts": 16,
       "early_counts": 0,
-      "last_ts": 1786131858.0,
+      "last_ts": 1786133998.0,
       "first_ts": 1780939639.0,
       "rank": 8
     },
@@ -3824,7 +3824,7 @@
       "anon_phone": "+49 152 •••• 53",
       "points": 18,
       "pct": 0.08,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -18880,7 +18880,7 @@
       "c93ed700000f",
       "79b2373fde61",
       "97897748b637",
-      "a5f77afeecc6",
+      "bbd3041bdb62",
       "df6424fbdeef",
       "efeced9c0950",
       "1c241224dd31",
@@ -19105,8 +19105,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "f4ad9479749a",
-      "name": "Elias",
+      "id": "bbd3041bdb62",
+      "name": "Flex",
       "value": 1
     },
     "biggest_message": {
@@ -19438,8 +19438,8 @@
     },
     {
       "date": "2026-08-07",
-      "count": 245,
-      "total": 21914
+      "count": 246,
+      "total": 21915
     }
   ],
   "hour_histogram": [
@@ -19465,10 +19465,16 @@
     1868,
     2240,
     2161,
-    1728,
+    1729,
     1133
   ],
   "recent": [
+    {
+      "n": 21915,
+      "id": "bbd3041bdb62",
+      "name": "Flex",
+      "ts": 1786133998.0
+    },
     {
       "n": 21914,
       "id": "f4ad9479749a",
@@ -19582,27 +19588,9 @@
       "id": "98b8d64d4fd0",
       "name": "gigelschwamm",
       "ts": 1786132203.0
-    },
-    {
-      "n": 21890,
-      "id": "08510cd25776",
-      "name": "Christoph H.",
-      "ts": 1786132132.0
     }
   ],
   "speed_samples": [
-    [
-      1786126697,
-      21819
-    ],
-    [
-      1786126735,
-      21820
-    ],
-    [
-      1786126778,
-      21823
-    ],
     [
       1786126813,
       21824
@@ -19910,6 +19898,10 @@
     [
       1786133849,
       21914
+    ],
+    [
+      1786133998,
+      21915
     ]
   ]
 }
