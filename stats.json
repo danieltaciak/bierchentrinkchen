@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T21:01:03.499568+00:00",
+  "generated_at": "2026-08-07T21:02:48.529920+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21932,
-  "progress_pct": 2.1932,
+  "current_count": 21934,
+  "progress_pct": 2.1934,
   "num_players": 1178,
-  "total_messages": 34840,
+  "total_messages": 34841,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786136452.0,
+  "last_count_ts": 1786136554.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -558,15 +558,15 @@
       "id": "a39caed0b9fc",
       "name": "Philip",
       "anon_phone": "+49 173 •••• 53",
-      "points": 78,
+      "points": 80,
       "pct": 0.36,
-      "last24h": 2,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 0,
       "early_counts": 0,
-      "last_ts": 1786132935.0,
+      "last_ts": 1786136554.0,
       "first_ts": 1781111984.0,
       "rank": 35
     },
@@ -19121,9 +19121,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "97897748b637",
-      "name": "Raphi",
-      "value": 1
+      "id": "a39caed0b9fc",
+      "name": "Philip",
+      "value": 2
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -19454,8 +19454,8 @@
     },
     {
       "date": "2026-08-07",
-      "count": 263,
-      "total": 21932
+      "count": 265,
+      "total": 21934
     }
   ],
   "hour_histogram": [
@@ -19482,9 +19482,21 @@
     2240,
     2161,
     1745,
-    1134
+    1136
   ],
   "recent": [
+    {
+      "n": 21934,
+      "id": "a39caed0b9fc",
+      "name": "Philip",
+      "ts": 1786136554.0
+    },
+    {
+      "n": 21933,
+      "id": "a39caed0b9fc",
+      "name": "Philip",
+      "ts": 1786136554.0
+    },
     {
       "n": 21932,
       "id": "97897748b637",
@@ -19592,18 +19604,6 @@
       "id": "bbd3041bdb62",
       "name": "Flex",
       "ts": 1786133998.0
-    },
-    {
-      "n": 21914,
-      "id": "f4ad9479749a",
-      "name": "Elias",
-      "ts": 1786133849.0
-    },
-    {
-      "n": 21913,
-      "id": "115bd3930d45",
-      "name": "Fabi",
-      "ts": 1786133649.0
     }
   ],
   "speed_samples": [
@@ -19878,6 +19878,14 @@
     [
       1786136452,
       21932
+    ],
+    [
+      1786136554,
+      21933
+    ],
+    [
+      1786136554,
+      21934
     ]
   ]
 }
