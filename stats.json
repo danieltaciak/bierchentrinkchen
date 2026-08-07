@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T20:36:14.654937+00:00",
+  "generated_at": "2026-08-07T20:37:35.595365+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21925,
-  "progress_pct": 2.1925,
+  "current_count": 21926,
+  "progress_pct": 2.1926,
   "num_players": 1178,
-  "total_messages": 34832,
+  "total_messages": 34834,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786134962.0,
+  "last_count_ts": 1786135034.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -574,15 +574,15 @@
       "id": "6b9e5cf641da",
       "name": "Alex",
       "anon_phone": "+49 151 •••• 84",
-      "points": 71,
-      "pct": 0.32,
-      "last24h": 2,
+      "points": 72,
+      "pct": 0.33,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 1,
       "night_counts": 6,
       "early_counts": 1,
-      "last_ts": 1786127909.0,
+      "last_ts": 1786135034.0,
       "first_ts": 1781285775.0,
       "rank": 36
     },
@@ -672,7 +672,7 @@
       "anon_phone": "+49 179 •••• 76",
       "points": 66,
       "pct": 0.3,
-      "last24h": 2,
+      "last24h": 0,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -19121,8 +19121,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "115bd3930d45",
-      "name": "Fabi",
+      "id": "6b9e5cf641da",
+      "name": "Alex",
       "value": 1
     },
     "biggest_message": {
@@ -19454,8 +19454,8 @@
     },
     {
       "date": "2026-08-07",
-      "count": 256,
-      "total": 21925
+      "count": 257,
+      "total": 21926
     }
   ],
   "hour_histogram": [
@@ -19481,10 +19481,16 @@
     1868,
     2240,
     2161,
-    1739,
+    1740,
     1133
   ],
   "recent": [
+    {
+      "n": 21926,
+      "id": "6b9e5cf641da",
+      "name": "Alex",
+      "ts": 1786135034.0
+    },
     {
       "n": 21925,
       "id": "115bd3930d45",
@@ -19598,27 +19604,9 @@
       "id": "a84987d66bdc",
       "name": "Fincenths M.",
       "ts": 1786132839.0
-    },
-    {
-      "n": 21905,
-      "id": "36c2b4aa104a",
-      "name": "Stuze",
-      "ts": 1786132637.0
     }
   ],
   "speed_samples": [
-    [
-      1786127762,
-      21835
-    ],
-    [
-      1786127782,
-      21836
-    ],
-    [
-      1786127822,
-      21837
-    ],
     [
       1786127862,
       21838
@@ -19918,6 +19906,10 @@
     [
       1786134962,
       21925
+    ],
+    [
+      1786135034,
+      21926
     ]
   ]
 }
