@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T21:06:11.243654+00:00",
+  "generated_at": "2026-08-07T21:06:36.137362+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21939,
-  "progress_pct": 2.1939,
+  "current_count": 21940,
+  "progress_pct": 2.194,
   "num_players": 1178,
-  "total_messages": 34848,
+  "total_messages": 34850,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786136759.0,
+  "last_count_ts": 1786136779.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -206,15 +206,15 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
-      "points": 116,
+      "points": 117,
       "pct": 0.53,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 5,
       "assists_given": 5,
       "assists_received": 1,
       "night_counts": 7,
       "early_counts": 1,
-      "last_ts": 1786132519.0,
+      "last_ts": 1786136779.0,
       "first_ts": 1781196449.0,
       "rank": 13
     },
@@ -19121,8 +19121,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b24539a93d86",
-      "name": "Dany",
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
       "value": 1
     },
     "biggest_message": {
@@ -19454,8 +19454,8 @@
     },
     {
       "date": "2026-08-07",
-      "count": 270,
-      "total": 21939
+      "count": 271,
+      "total": 21940
     }
   ],
   "hour_histogram": [
@@ -19482,9 +19482,15 @@
     2240,
     2161,
     1745,
-    1141
+    1142
   ],
   "recent": [
+    {
+      "n": 21940,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1786136779.0
+    },
     {
       "n": 21939,
       "id": "b24539a93d86",
@@ -19598,12 +19604,6 @@
       "id": "8b20d475db4b",
       "name": "Felix",
       "ts": 1786134591.0
-    },
-    {
-      "n": 21920,
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
-      "ts": 1786134504.0
     }
   ],
   "speed_samples": [
@@ -19902,6 +19902,10 @@
     [
       1786136759,
       21939
+    ],
+    [
+      1786136779,
+      21940
     ]
   ]
 }
