@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T18:38:37.376762+00:00",
+  "generated_at": "2026-08-07T18:39:24.466179+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21839,
-  "progress_pct": 2.1839,
+  "current_count": 21840,
+  "progress_pct": 2.184,
   "num_players": 1177,
-  "total_messages": 34733,
+  "total_messages": 34735,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786127909.0,
+  "last_count_ts": 1786127944.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -603,6 +603,22 @@
       "rank": 37
     },
     {
+      "id": "ff8a86710b38",
+      "name": "TK",
+      "anon_phone": "+49 157 •••• 67",
+      "points": 71,
+      "pct": 0.33,
+      "last24h": 1,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1786127944.0,
+      "first_ts": 1781390565.0,
+      "rank": 38
+    },
+    {
       "id": "7613b21d1009",
       "name": "Ido",
       "anon_phone": "+49 178 •••• 63",
@@ -616,22 +632,6 @@
       "early_counts": 4,
       "last_ts": 1784899933.0,
       "first_ts": 1781373913.0,
-      "rank": 38
-    },
-    {
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "anon_phone": "+49 157 •••• 67",
-      "points": 70,
-      "pct": 0.32,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1785533918.0,
-      "first_ts": 1781390565.0,
       "rank": 39
     },
     {
@@ -19105,8 +19105,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "6b9e5cf641da",
-      "name": "Alex",
+      "id": "ff8a86710b38",
+      "name": "TK",
       "value": 1
     },
     "biggest_message": {
@@ -19438,8 +19438,8 @@
     },
     {
       "date": "2026-08-07",
-      "count": 170,
-      "total": 21839
+      "count": 171,
+      "total": 21840
     }
   ],
   "hour_histogram": [
@@ -19463,12 +19463,18 @@
     1056,
     1341,
     1868,
-    2228,
+    2229,
     2119,
     1720,
     1133
   ],
   "recent": [
+    {
+      "n": 21840,
+      "id": "ff8a86710b38",
+      "name": "TK",
+      "ts": 1786127944.0
+    },
     {
       "n": 21839,
       "id": "6b9e5cf641da",
@@ -19582,12 +19588,6 @@
       "id": "bbd3041bdb62",
       "name": "Flex",
       "ts": 1786126648.0
-    },
-    {
-      "n": 21817,
-      "id": "7f5c521dadcb",
-      "name": "Michael Ö.",
-      "ts": 1786126534.0
     }
   ],
   "speed_samples": [
@@ -19830,6 +19830,10 @@
     [
       1786127909,
       21839
+    ],
+    [
+      1786127944,
+      21840
     ]
   ]
 }
