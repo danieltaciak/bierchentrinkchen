@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T12:46:10.013092+00:00",
+  "generated_at": "2026-08-07T12:47:54.374052+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21709,
-  "progress_pct": 2.1709,
+  "current_count": 21710,
+  "progress_pct": 2.171,
   "num_players": 1176,
-  "total_messages": 34581,
+  "total_messages": 34582,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786106744.0,
+  "last_count_ts": 1786106859.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -1307,6 +1307,22 @@
       "rank": 81
     },
     {
+      "id": "97897748b637",
+      "name": "Raphi",
+      "anon_phone": "+49 151 •••• 11",
+      "points": 42,
+      "pct": 0.19,
+      "last24h": 3,
+      "longest_streak": 2,
+      "assists_given": 1,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1786106859.0,
+      "first_ts": 1782295163.0,
+      "rank": 82
+    },
+    {
       "id": "16dc4c53c3aa",
       "name": "Rainer T.",
       "anon_phone": "+49 179 •••• 78",
@@ -1320,22 +1336,6 @@
       "early_counts": 1,
       "last_ts": 1786104758.0,
       "first_ts": 1781464492.0,
-      "rank": 82
-    },
-    {
-      "id": "97897748b637",
-      "name": "Raphi",
-      "anon_phone": "+49 151 •••• 11",
-      "points": 41,
-      "pct": 0.19,
-      "last24h": 2,
-      "longest_streak": 2,
-      "assists_given": 1,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1786094556.0,
-      "first_ts": 1782295163.0,
       "rank": 83
     },
     {
@@ -18867,10 +18867,10 @@
       "b7f001ca29a3",
       "b31366a336ca",
       "2e95be7bb9ea",
+      "97897748b637",
       "115bd3930d45",
       "16dc4c53c3aa",
-      "f7e5b41aae51",
-      "e0191778d22c"
+      "f7e5b41aae51"
     ],
     "longest_streak": [
       {
@@ -19089,8 +19089,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "826e0a1f3337",
-      "name": "auer",
+      "id": "97897748b637",
+      "name": "Raphi",
       "value": 1
     },
     "biggest_message": {
@@ -19422,8 +19422,8 @@
     },
     {
       "date": "2026-08-07",
-      "count": 40,
-      "total": 21709
+      "count": 41,
+      "total": 21710
     }
   ],
   "hour_histogram": [
@@ -19441,7 +19441,7 @@
     246,
     395,
     377,
-    510,
+    511,
     492,
     800,
     1040,
@@ -19453,6 +19453,12 @@
     1133
   ],
   "recent": [
+    {
+      "n": 21710,
+      "id": "97897748b637",
+      "name": "Raphi",
+      "ts": 1786106859.0
+    },
     {
       "n": 21709,
       "id": "826e0a1f3337",
@@ -19566,12 +19572,6 @@
       "id": "622963b27c41",
       "name": "timo",
       "ts": 1786098429.0
-    },
-    {
-      "n": 21689,
-      "id": "97897748b637",
-      "name": "Raphi",
-      "ts": 1786094556.0
     }
   ],
   "speed_samples": [
@@ -19630,6 +19630,10 @@
     [
       1786106744,
       21709
+    ],
+    [
+      1786106859,
+      21710
     ]
   ]
 }
