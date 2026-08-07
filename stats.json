@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T20:09:05.865577+00:00",
+  "generated_at": "2026-08-07T20:10:11.694498+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 21911,
-  "progress_pct": 2.1911,
+  "current_count": 21912,
+  "progress_pct": 2.1912,
   "num_players": 1177,
-  "total_messages": 34818,
+  "total_messages": 34819,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786133324.0,
+  "last_count_ts": 1786133398.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -46,15 +46,15 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "anon_phone": "+49 170 •••• 40",
-      "points": 205,
+      "points": 206,
       "pct": 0.94,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 9,
       "early_counts": 0,
-      "last_ts": 1786124564.0,
+      "last_ts": 1786133398.0,
       "first_ts": 1781292817.0,
       "rank": 3
     },
@@ -18881,12 +18881,12 @@
       "79b2373fde61",
       "97897748b637",
       "1956a7890356",
+      "a5f77afeecc6",
       "df6424fbdeef",
       "efeced9c0950",
       "1c241224dd31",
       "776f4d602138",
-      "3c8bfc2012f7",
-      "cec25393509e"
+      "3c8bfc2012f7"
     ],
     "longest_streak": [
       {
@@ -19105,8 +19105,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "73b18d345917",
-      "name": "Severin",
+      "id": "a5f77afeecc6",
+      "name": "Nico",
       "value": 1
     },
     "biggest_message": {
@@ -19438,8 +19438,8 @@
     },
     {
       "date": "2026-08-07",
-      "count": 242,
-      "total": 21911
+      "count": 243,
+      "total": 21912
     }
   ],
   "hour_histogram": [
@@ -19465,10 +19465,16 @@
     1868,
     2240,
     2161,
-    1725,
+    1726,
     1133
   ],
   "recent": [
+    {
+      "n": 21912,
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "ts": 1786133398.0
+    },
     {
       "n": 21911,
       "id": "73b18d345917",
@@ -19582,23 +19588,9 @@
       "id": "bbd3041bdb62",
       "name": "Flex",
       "ts": 1786131858.0
-    },
-    {
-      "n": 21886,
-      "id": "fd3918414fb7",
-      "name": "Lukas",
-      "ts": 1786131722.0
     }
   ],
   "speed_samples": [
-    [
-      1786126131,
-      21810
-    ],
-    [
-      1786126156,
-      21811
-    ],
     [
       1786126216,
       21812
@@ -19934,6 +19926,10 @@
     [
       1786133324,
       21911
+    ],
+    [
+      1786133398,
+      21912
     ]
   ]
 }
