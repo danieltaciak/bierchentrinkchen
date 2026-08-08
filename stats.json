@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-08T22:47:47.387271+00:00",
+  "generated_at": "2026-08-08T22:49:11.780632+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22420,
-  "progress_pct": 2.242,
+  "current_count": 22421,
+  "progress_pct": 2.2421,
   "num_players": 1185,
-  "total_messages": 35390,
+  "total_messages": 35391,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786229256.0,
+  "last_count_ts": 1786229339.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -160,7 +160,7 @@
       "anon_phone": "+49 160 •••• 72",
       "points": 147,
       "pct": 0.66,
-      "last24h": 15,
+      "last24h": 14,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -494,15 +494,15 @@
       "id": "a39caed0b9fc",
       "name": "Philip",
       "anon_phone": "+49 173 •••• 53",
-      "points": 89,
+      "points": 90,
       "pct": 0.4,
-      "last24h": 4,
+      "last24h": 5,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
-      "night_counts": 0,
+      "night_counts": 1,
       "early_counts": 0,
-      "last_ts": 1786215463.0,
+      "last_ts": 1786229339.0,
       "first_ts": 1781111984.0,
       "rank": 31
     },
@@ -19233,9 +19233,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
-      "value": 2
+      "id": "a39caed0b9fc",
+      "name": "Philip",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -19576,12 +19576,12 @@
     },
     {
       "date": "2026-08-09",
-      "count": 27,
-      "total": 22420
+      "count": 28,
+      "total": 22421
     }
   ],
   "hour_histogram": [
-    667,
+    668,
     404,
     215,
     125,
@@ -19607,6 +19607,12 @@
     1184
   ],
   "recent": [
+    {
+      "n": 22421,
+      "id": "a39caed0b9fc",
+      "name": "Philip",
+      "ts": 1786229339.0
+    },
     {
       "n": 22420,
       "id": "21ab33dbbddf",
@@ -19720,12 +19726,6 @@
       "id": "74c46f04e647",
       "name": "DimA",
       "ts": 1786227999.0
-    },
-    {
-      "n": 22400,
-      "id": "2f9108443e86",
-      "name": "Philipp",
-      "ts": 1786227467.0
     }
   ],
   "speed_samples": [
@@ -19960,6 +19960,10 @@
     [
       1786229256,
       22420
+    ],
+    [
+      1786229339,
+      22421
     ]
   ]
 }
