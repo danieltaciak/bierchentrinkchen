@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-08T12:20:12.158782+00:00",
+  "generated_at": "2026-08-08T12:24:00.356469+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22064,
-  "progress_pct": 2.2064,
+  "current_count": 22065,
+  "progress_pct": 2.2065,
   "num_players": 1178,
-  "total_messages": 34977,
+  "total_messages": 34978,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786191596.0,
+  "last_count_ts": 1786191829.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -143,7 +143,7 @@
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
       "points": 171,
-      "pct": 0.78,
+      "pct": 0.77,
       "last24h": 5,
       "longest_streak": 4,
       "assists_given": 0,
@@ -2539,6 +2539,22 @@
       "rank": 158
     },
     {
+      "id": "af005e9bda68",
+      "name": "Tristan",
+      "anon_phone": "+49 159 •••• 29",
+      "points": 27,
+      "pct": 0.12,
+      "last24h": 2,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 7,
+      "early_counts": 0,
+      "last_ts": 1786191829.0,
+      "first_ts": 1784136851.0,
+      "rank": 159
+    },
+    {
       "id": "b39408fd7a0c",
       "name": "Basti H.",
       "anon_phone": "+49 151 •••• 19",
@@ -2552,7 +2568,7 @@
       "early_counts": 0,
       "last_ts": 1786038809.0,
       "first_ts": 1781903018.0,
-      "rank": 159
+      "rank": 160
     },
     {
       "id": "926048ba30b0",
@@ -2568,7 +2584,7 @@
       "early_counts": 0,
       "last_ts": 1786049667.0,
       "first_ts": 1781349533.0,
-      "rank": 160
+      "rank": 161
     },
     {
       "id": "d4a8c05c6550",
@@ -2584,7 +2600,7 @@
       "early_counts": 1,
       "last_ts": 1786138456.0,
       "first_ts": 1784062805.0,
-      "rank": 161
+      "rank": 162
     },
     {
       "id": "9b2127152bcd",
@@ -2600,22 +2616,6 @@
       "early_counts": 0,
       "last_ts": 1786186097.0,
       "first_ts": 1784325764.0,
-      "rank": 162
-    },
-    {
-      "id": "af005e9bda68",
-      "name": "Tristan",
-      "anon_phone": "+49 159 •••• 29",
-      "points": 26,
-      "pct": 0.12,
-      "last24h": 1,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 7,
-      "early_counts": 0,
-      "last_ts": 1786184672.0,
-      "first_ts": 1784136851.0,
       "rank": 163
     },
     {
@@ -19121,8 +19121,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "f844c5435bd4",
-      "name": "Georg",
+      "id": "af005e9bda68",
+      "name": "Tristan",
       "value": 1
     },
     "biggest_message": {
@@ -19459,8 +19459,8 @@
     },
     {
       "date": "2026-08-08",
-      "count": 103,
-      "total": 22064
+      "count": 104,
+      "total": 22065
     }
   ],
   "hour_histogram": [
@@ -19478,7 +19478,7 @@
     253,
     406,
     380,
-    519,
+    520,
     508,
     810,
     1056,
@@ -19490,6 +19490,12 @@
     1160
   ],
   "recent": [
+    {
+      "n": 22065,
+      "id": "af005e9bda68",
+      "name": "Tristan",
+      "ts": 1786191829.0
+    },
     {
       "n": 22064,
       "id": "f844c5435bd4",
@@ -19603,19 +19609,9 @@
       "id": "5f45182377dd",
       "name": "Helle",
       "ts": 1786184081.0
-    },
-    {
-      "n": 22045,
-      "id": "ddbb3a52a83e",
-      "name": "Fabio",
-      "ts": 1786183150.0
     }
   ],
   "speed_samples": [
-    [
-      1786184438,
-      22047
-    ],
     [
       1786184672,
       22048
@@ -19683,6 +19679,10 @@
     [
       1786191596,
       22064
+    ],
+    [
+      1786191829,
+      22065
     ]
   ]
 }
