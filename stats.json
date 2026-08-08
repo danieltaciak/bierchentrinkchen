@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-08T16:43:21.584490+00:00",
+  "generated_at": "2026-08-08T16:49:26.213631+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22180,
-  "progress_pct": 2.218,
+  "current_count": 22181,
+  "progress_pct": 2.2181,
   "num_players": 1181,
-  "total_messages": 35114,
+  "total_messages": 35115,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786207388.0,
+  "last_count_ts": 1786207753.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -251,6 +251,22 @@
       "rank": 15
     },
     {
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
+      "anon_phone": "+49 176 •••• 96",
+      "points": 109,
+      "pct": 0.49,
+      "last24h": 5,
+      "longest_streak": 5,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 28,
+      "early_counts": 0,
+      "last_ts": 1786207753.0,
+      "first_ts": 1782747846.0,
+      "rank": 16
+    },
+    {
       "id": "3ce6f8806201",
       "name": "Simon S.",
       "anon_phone": "+49 152 •••• 84",
@@ -264,22 +280,6 @@
       "early_counts": 4,
       "last_ts": 1786136178.0,
       "first_ts": 1781289501.0,
-      "rank": 16
-    },
-    {
-      "id": "553637e3d2b4",
-      "name": "Linus K.",
-      "anon_phone": "+49 176 •••• 96",
-      "points": 108,
-      "pct": 0.49,
-      "last24h": 4,
-      "longest_streak": 5,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 28,
-      "early_counts": 0,
-      "last_ts": 1786197428.0,
-      "first_ts": 1782747846.0,
       "rank": 17
     },
     {
@@ -336,7 +336,7 @@
       "anon_phone": "+49 176 •••• 48",
       "points": 107,
       "pct": 0.48,
-      "last24h": 8,
+      "last24h": 7,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 4,
@@ -448,7 +448,7 @@
       "anon_phone": "+49 163 •••• 57",
       "points": 95,
       "pct": 0.43,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -2800,7 +2800,7 @@
       "anon_phone": "+49 176 •••• 70",
       "points": 24,
       "pct": 0.11,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -18924,8 +18924,8 @@
       "45c4cce2f31c",
       "078ce5ea9e04",
       "5f3589b7ffb7",
-      "3ce6f8806201",
       "553637e3d2b4",
+      "3ce6f8806201",
       "764f33f39eb0",
       "0d1fa29f9e5e",
       "1a6129668ba3",
@@ -18940,8 +18940,8 @@
       "115bd3930d45",
       "6548cd1b6eae",
       "a39caed0b9fc",
-      "776f4d602138",
       "97897748b637",
+      "776f4d602138",
       "a84987d66bdc",
       "7a2e949e25b3",
       "5edeae5f886f",
@@ -19169,9 +19169,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "32529ce73333",
-      "name": "Felix M.",
-      "value": 2
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -19507,8 +19507,8 @@
     },
     {
       "date": "2026-08-08",
-      "count": 219,
-      "total": 22180
+      "count": 220,
+      "total": 22181
     }
   ],
   "hour_histogram": [
@@ -19530,7 +19530,7 @@
     526,
     831,
     1083,
-    1372,
+    1373,
     1868,
     2240,
     2161,
@@ -19538,6 +19538,12 @@
     1160
   ],
   "recent": [
+    {
+      "n": 22181,
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
+      "ts": 1786207753.0
+    },
     {
       "n": 22180,
       "id": "32529ce73333",
@@ -19651,23 +19657,9 @@
       "id": "c04a743348c6",
       "name": "uli",
       "ts": 1786206042.0
-    },
-    {
-      "n": 22161,
-      "id": "4b68beda9a45",
-      "name": "Felix S.",
-      "ts": 1786206015.0
     }
   ],
   "speed_samples": [
-    [
-      1786200188,
-      22111
-    ],
-    [
-      1786200295,
-      22112
-    ],
     [
       1786200691,
       22113
@@ -19919,6 +19911,10 @@
     [
       1786207388,
       22180
+    ],
+    [
+      1786207753,
+      22181
     ]
   ]
 }
