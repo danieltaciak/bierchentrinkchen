@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-08T14:15:43.151305+00:00",
+  "generated_at": "2026-08-08T14:17:37.935970+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22101,
-  "progress_pct": 2.2101,
+  "current_count": 22102,
+  "progress_pct": 2.2102,
   "num_players": 1181,
-  "total_messages": 35017,
+  "total_messages": 35018,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786198525.0,
+  "last_count_ts": 1786198645.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -1131,6 +1131,22 @@
       "rank": 70
     },
     {
+      "id": "1b54cda19789",
+      "name": "Manu",
+      "anon_phone": "+49 155 •••• 65",
+      "points": 49,
+      "pct": 0.22,
+      "last24h": 4,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 7,
+      "early_counts": 0,
+      "last_ts": 1786198645.0,
+      "first_ts": 1781292862.0,
+      "rank": 71
+    },
+    {
       "id": "97897748b637",
       "name": "Raphi",
       "anon_phone": "+49 151 •••• 11",
@@ -1144,22 +1160,6 @@
       "early_counts": 0,
       "last_ts": 1786198525.0,
       "first_ts": 1782295163.0,
-      "rank": 71
-    },
-    {
-      "id": "1b54cda19789",
-      "name": "Manu",
-      "anon_phone": "+49 155 •••• 65",
-      "points": 48,
-      "pct": 0.22,
-      "last24h": 3,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 7,
-      "early_counts": 0,
-      "last_ts": 1786196365.0,
-      "first_ts": 1781292862.0,
       "rank": 72
     },
     {
@@ -19169,8 +19169,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "97897748b637",
-      "name": "Raphi",
+      "id": "1b54cda19789",
+      "name": "Manu",
       "value": 1
     },
     "biggest_message": {
@@ -19507,8 +19507,8 @@
     },
     {
       "date": "2026-08-08",
-      "count": 140,
-      "total": 22101
+      "count": 141,
+      "total": 22102
     }
   ],
   "hour_histogram": [
@@ -19528,7 +19528,7 @@
     380,
     529,
     526,
-    815,
+    816,
     1056,
     1341,
     1868,
@@ -19538,6 +19538,12 @@
     1160
   ],
   "recent": [
+    {
+      "n": 22102,
+      "id": "1b54cda19789",
+      "name": "Manu",
+      "ts": 1786198645.0
+    },
     {
       "n": 22101,
       "id": "97897748b637",
@@ -19651,19 +19657,9 @@
       "id": "97897748b637",
       "name": "Raphi",
       "ts": 1786195209.0
-    },
-    {
-      "n": 22080,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1786195190.0
     }
   ],
   "speed_samples": [
-    [
-      1786191406,
-      22063
-    ],
     [
       1786191596,
       22064
@@ -19799,6 +19795,10 @@
     [
       1786198525,
       22101
+    ],
+    [
+      1786198645,
+      22102
     ]
   ]
 }
