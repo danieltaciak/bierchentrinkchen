@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-08T06:17:57.577916+00:00",
+  "generated_at": "2026-08-08T06:36:42.220490+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22024,
-  "progress_pct": 2.2024,
+  "current_count": 22026,
+  "progress_pct": 2.2026,
   "num_players": 1178,
-  "total_messages": 34936,
+  "total_messages": 34939,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786169860.0,
+  "last_count_ts": 1786170989.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -142,15 +142,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 169,
+      "points": 170,
       "pct": 0.77,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 23,
-      "early_counts": 1,
-      "last_ts": 1786167791.0,
+      "early_counts": 2,
+      "last_ts": 1786170984.0,
       "first_ts": 1781212818.0,
       "rank": 9
     },
@@ -495,7 +495,7 @@
       "name": "Andrea",
       "anon_phone": "+49 151 •••• 79",
       "points": 87,
-      "pct": 0.4,
+      "pct": 0.39,
       "last24h": 0,
       "longest_streak": 6,
       "assists_given": 0,
@@ -811,6 +811,22 @@
       "rank": 50
     },
     {
+      "id": "732c638fc2fc",
+      "name": "Leander",
+      "anon_phone": "+49 176 •••• 04",
+      "points": 59,
+      "pct": 0.27,
+      "last24h": 2,
+      "longest_streak": 5,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 7,
+      "early_counts": 2,
+      "last_ts": 1786170989.0,
+      "first_ts": 1781204574.0,
+      "rank": 51
+    },
+    {
       "id": "681d886b771b",
       "name": "Lukas",
       "anon_phone": "+49 151 •••• 74",
@@ -824,7 +840,7 @@
       "early_counts": 0,
       "last_ts": 1785184305.0,
       "first_ts": 1781090993.0,
-      "rank": 51
+      "rank": 52
     },
     {
       "id": "6ae8b7629ff6",
@@ -840,7 +856,7 @@
       "early_counts": 0,
       "last_ts": 1785689503.0,
       "first_ts": 1781284687.0,
-      "rank": 52
+      "rank": 53
     },
     {
       "id": "8c19ca275648",
@@ -856,22 +872,6 @@
       "early_counts": 0,
       "last_ts": 1786040309.0,
       "first_ts": 1782321593.0,
-      "rank": 53
-    },
-    {
-      "id": "732c638fc2fc",
-      "name": "Leander",
-      "anon_phone": "+49 176 •••• 04",
-      "points": 58,
-      "pct": 0.26,
-      "last24h": 1,
-      "longest_streak": 5,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 7,
-      "early_counts": 1,
-      "last_ts": 1786169860.0,
-      "first_ts": 1781204574.0,
       "rank": 54
     },
     {
@@ -19459,8 +19459,8 @@
     },
     {
       "date": "2026-08-08",
-      "count": 63,
-      "total": 22024
+      "count": 65,
+      "total": 22026
     }
   ],
   "hour_histogram": [
@@ -19472,7 +19472,7 @@
     52,
     42,
     52,
-    112,
+    114,
     110,
     176,
     246,
@@ -19490,6 +19490,18 @@
     1160
   ],
   "recent": [
+    {
+      "n": 22026,
+      "id": "732c638fc2fc",
+      "name": "Leander",
+      "ts": 1786170989.0
+    },
+    {
+      "n": 22025,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1786170984.0
+    },
     {
       "n": 22024,
       "id": "732c638fc2fc",
@@ -19597,18 +19609,6 @@
       "id": "d5e56e919069",
       "name": "Julian M.",
       "ts": 1786151341.0
-    },
-    {
-      "n": 21998,
-      "id": "74c46f04e647",
-      "name": "DimA",
-      "ts": 1786149487.0
-    },
-    {
-      "n": 21997,
-      "id": "6548cd1b6eae",
-      "name": "Christoph",
-      "ts": 1786149472.0
     }
   ],
   "speed_samples": [
@@ -19647,6 +19647,14 @@
     [
       1786169860,
       22024
+    ],
+    [
+      1786170984,
+      22025
+    ],
+    [
+      1786170989,
+      22026
     ]
   ]
 }
