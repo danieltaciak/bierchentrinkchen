@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-09T13:02:42.573464+00:00",
+  "generated_at": "2026-08-09T13:07:24.933135+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22519,
-  "progress_pct": 2.2519,
+  "current_count": 22520,
+  "progress_pct": 2.252,
   "num_players": 1185,
-  "total_messages": 35512,
+  "total_messages": 35513,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786280548.0,
+  "last_count_ts": 1786280829.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -414,15 +414,15 @@
       "id": "cec25393509e",
       "name": "Jordan",
       "anon_phone": "+49 162 •••• 18",
-      "points": 99,
+      "points": 100,
       "pct": 0.44,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 5,
       "early_counts": 1,
-      "last_ts": 1786276533.0,
+      "last_ts": 1786280829.0,
       "first_ts": 1781100515.0,
       "rank": 26
     },
@@ -19233,9 +19233,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "1f2053f7fa98",
-      "name": "Lukas",
-      "value": 2
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -19576,8 +19576,8 @@
     },
     {
       "date": "2026-08-09",
-      "count": 126,
-      "total": 22519
+      "count": 127,
+      "total": 22520
     }
   ],
   "hour_histogram": [
@@ -19596,7 +19596,7 @@
     408,
     394,
     544,
-    528,
+    529,
     831,
     1083,
     1376,
@@ -19607,6 +19607,12 @@
     1184
   ],
   "recent": [
+    {
+      "n": 22520,
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "ts": 1786280829.0
+    },
     {
       "n": 22519,
       "id": "1f2053f7fa98",
@@ -19720,12 +19726,6 @@
       "id": "cec25393509e",
       "name": "Jordan",
       "ts": 1786276533.0
-    },
-    {
-      "n": 22500,
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "ts": 1786276251.0
     }
   ],
   "speed_samples": [
@@ -19848,6 +19848,10 @@
     [
       1786280548,
       22519
+    ],
+    [
+      1786280829,
+      22520
     ]
   ]
 }
