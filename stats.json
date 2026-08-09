@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-09T23:43:04.137384+00:00",
+  "generated_at": "2026-08-09T23:57:02.618452+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22657,
-  "progress_pct": 2.2657,
+  "current_count": 22659,
+  "progress_pct": 2.2659,
   "num_players": 1185,
-  "total_messages": 35652,
+  "total_messages": 35654,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786318971.0,
+  "last_count_ts": 1786319799.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -256,7 +256,7 @@
       "anon_phone": "+49 176 •••• 48",
       "points": 114,
       "pct": 0.5,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 4,
@@ -1824,7 +1824,7 @@
       "anon_phone": "+49 159 •••• 43",
       "points": 34,
       "pct": 0.15,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -2155,6 +2155,22 @@
       "rank": 134
     },
     {
+      "id": "e1682a59e246",
+      "name": "Fabiii",
+      "anon_phone": "+49 157 •••• 76",
+      "points": 31,
+      "pct": 0.14,
+      "last24h": 2,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 19,
+      "early_counts": 6,
+      "last_ts": 1786319799.0,
+      "first_ts": 1781315120.0,
+      "rank": 135
+    },
+    {
       "id": "e0fc4724f6c2",
       "name": "Timmy",
       "anon_phone": "+49 176 •••• 35",
@@ -2168,7 +2184,7 @@
       "early_counts": 0,
       "last_ts": 1782772536.0,
       "first_ts": 1781903831.0,
-      "rank": 135
+      "rank": 136
     },
     {
       "id": "71b7ccbb82a6",
@@ -2184,7 +2200,7 @@
       "early_counts": 0,
       "last_ts": 1781817676.0,
       "first_ts": 1781110892.0,
-      "rank": 136
+      "rank": 137
     },
     {
       "id": "bf389eac8a69",
@@ -2200,7 +2216,7 @@
       "early_counts": 1,
       "last_ts": 1782582653.0,
       "first_ts": 1782245474.0,
-      "rank": 137
+      "rank": 138
     },
     {
       "id": "e32d26f673cb",
@@ -2216,7 +2232,7 @@
       "early_counts": 0,
       "last_ts": 1785963645.0,
       "first_ts": 1781376503.0,
-      "rank": 138
+      "rank": 139
     },
     {
       "id": "3c78a4db262f",
@@ -2232,22 +2248,6 @@
       "early_counts": 0,
       "last_ts": 1782405481.0,
       "first_ts": 1781772656.0,
-      "rank": 139
-    },
-    {
-      "id": "e1682a59e246",
-      "name": "Fabiii",
-      "anon_phone": "+49 157 •••• 76",
-      "points": 30,
-      "pct": 0.13,
-      "last24h": 1,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 18,
-      "early_counts": 6,
-      "last_ts": 1786250462.0,
-      "first_ts": 1781315120.0,
       "rank": 140
     },
     {
@@ -19233,9 +19233,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "8b20d475db4b",
-      "name": "Felix",
-      "value": 2
+      "id": "e1682a59e246",
+      "name": "Fabiii",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -19581,13 +19581,13 @@
     },
     {
       "date": "2026-08-10",
-      "count": 4,
-      "total": 22657
+      "count": 6,
+      "total": 22659
     }
   ],
   "hour_histogram": [
     671,
-    416,
+    417,
     221,
     134,
     62,
@@ -19612,6 +19612,12 @@
     1195
   ],
   "recent": [
+    {
+      "n": 22659,
+      "id": "e1682a59e246",
+      "name": "Fabiii",
+      "ts": 1786319799.0
+    },
     {
       "n": 22657,
       "id": "8b20d475db4b",
@@ -19725,23 +19731,9 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1786307623.0
-    },
-    {
-      "n": 22625,
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "ts": 1786307552.0
     }
   ],
   "speed_samples": [
-    [
-      1786312562,
-      22652
-    ],
-    [
-      1786312562,
-      22653
-    ],
     [
       1786317604,
       22654
@@ -19757,6 +19749,10 @@
     [
       1786318971,
       22657
+    ],
+    [
+      1786319799,
+      22659
     ]
   ]
 }
