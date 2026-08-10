@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-10T21:41:45.971683+00:00",
+  "generated_at": "2026-08-10T21:45:53.471124+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22895,
-  "progress_pct": 2.2895,
+  "current_count": 22896,
+  "progress_pct": 2.2896,
   "num_players": 1186,
-  "total_messages": 35912,
+  "total_messages": 35913,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786398083.0,
+  "last_count_ts": 1786398338.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -46,15 +46,15 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "anon_phone": "+49 170 •••• 40",
-      "points": 224,
+      "points": 225,
       "pct": 0.98,
-      "last24h": 7,
+      "last24h": 8,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 9,
       "early_counts": 0,
-      "last_ts": 1786394108.0,
+      "last_ts": 1786398338.0,
       "first_ts": 1781292817.0,
       "rank": 3
     },
@@ -1120,7 +1120,7 @@
       "anon_phone": "+49 152 •••• 95",
       "points": 50,
       "pct": 0.22,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
@@ -19021,9 +19021,9 @@
       "f9dbd149dd64",
       "7a2e949e25b3",
       "21c53f0a0b18",
+      "a5f77afeecc6",
       "e32d26f673cb",
       "3ce6f8806201",
-      "a5f77afeecc6",
       "b31366a336ca",
       "82a6be011a09",
       "cee931f2a642",
@@ -19249,7 +19249,7 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9bf6383c58eb",
+      "id": "a5f77afeecc6",
       "name": "Nico",
       "value": 1
     },
@@ -19597,8 +19597,8 @@
     },
     {
       "date": "2026-08-10",
-      "count": 242,
-      "total": 22895
+      "count": 243,
+      "total": 22896
     }
   ],
   "hour_histogram": [
@@ -19625,9 +19625,15 @@
     2325,
     2239,
     1810,
-    1205
+    1206
   ],
   "recent": [
+    {
+      "n": 22896,
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "ts": 1786398338.0
+    },
     {
       "n": 22895,
       "id": "9bf6383c58eb",
@@ -19741,23 +19747,9 @@
       "id": "169226d00fd6",
       "name": "Flo",
       "ts": 1786392545.0
-    },
-    {
-      "n": 22872,
-      "id": "81baf6634942",
-      "name": "Samu",
-      "ts": 1786392389.0
     }
   ],
   "speed_samples": [
-    [
-      1786390960,
-      22860
-    ],
-    [
-      1786391104,
-      22861
-    ],
     [
       1786391285,
       22862
@@ -19877,6 +19869,10 @@
     [
       1786398083,
       22895
+    ],
+    [
+      1786398338,
+      22896
     ]
   ]
 }
