@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-10T19:16:33.054972+00:00",
+  "generated_at": "2026-08-10T19:19:40.526151+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22847,
-  "progress_pct": 2.2847,
+  "current_count": 22848,
+  "progress_pct": 2.2848,
   "num_players": 1185,
-  "total_messages": 35856,
+  "total_messages": 35857,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786389381.0,
+  "last_count_ts": 1786389568.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -446,15 +446,15 @@
       "id": "df6424fbdeef",
       "name": "Daniel",
       "anon_phone": "+49 163 •••• 57",
-      "points": 97,
-      "pct": 0.42,
-      "last24h": 1,
+      "points": 98,
+      "pct": 0.43,
+      "last24h": 2,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 4,
       "early_counts": 0,
-      "last_ts": 1786385982.0,
+      "last_ts": 1786389568.0,
       "first_ts": 1781452642.0,
       "rank": 28
     },
@@ -14560,7 +14560,7 @@
       "anon_phone": "+49 170 •••• 68",
       "points": 2,
       "pct": 0.01,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -19233,8 +19233,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "e32d26f673cb",
-      "name": "Cel",
+      "id": "df6424fbdeef",
+      "name": "Daniel",
       "value": 1
     },
     "biggest_message": {
@@ -19581,8 +19581,8 @@
     },
     {
       "date": "2026-08-10",
-      "count": 194,
-      "total": 22847
+      "count": 195,
+      "total": 22848
     }
   ],
   "hour_histogram": [
@@ -19607,11 +19607,17 @@
     1402,
     1930,
     2325,
-    2220,
+    2221,
     1796,
     1195
   ],
   "recent": [
+    {
+      "n": 22848,
+      "id": "df6424fbdeef",
+      "name": "Daniel",
+      "ts": 1786389568.0
+    },
     {
       "n": 22847,
       "id": "e32d26f673cb",
@@ -19725,23 +19731,9 @@
       "id": "b31366a336ca",
       "name": "Andi A.",
       "ts": 1786387617.0
-    },
-    {
-      "n": 22825,
-      "id": "b31366a336ca",
-      "name": "Andi A.",
-      "ts": 1786387617.0
     }
   ],
   "speed_samples": [
-    [
-      1786382184,
-      22789
-    ],
-    [
-      1786382230,
-      22790
-    ],
     [
       1786382440,
       22791
@@ -19905,6 +19897,10 @@
     [
       1786389381,
       22847
+    ],
+    [
+      1786389568,
+      22848
     ]
   ]
 }
