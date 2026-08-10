@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-10T22:57:43.604745+00:00",
+  "generated_at": "2026-08-10T23:21:51.937615+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22912,
-  "progress_pct": 2.2912,
+  "current_count": 22913,
+  "progress_pct": 2.2913,
   "num_players": 1186,
-  "total_messages": 35932,
+  "total_messages": 35933,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786402646.0,
+  "last_count_ts": 1786404097.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -64,7 +64,7 @@
       "anon_phone": "+49 170 •••• 82",
       "points": 221,
       "pct": 0.96,
-      "last24h": 3,
+      "last24h": 1,
       "longest_streak": 9,
       "assists_given": 0,
       "assists_received": 2,
@@ -73,6 +73,22 @@
       "last_ts": 1786385739.0,
       "first_ts": 1781811271.0,
       "rank": 4
+    },
+    {
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "anon_phone": "+49 176 •••• 42",
+      "points": 202,
+      "pct": 0.88,
+      "last24h": 13,
+      "longest_streak": 4,
+      "assists_given": 1,
+      "assists_received": 0,
+      "night_counts": 30,
+      "early_counts": 3,
+      "last_ts": 1786404097.0,
+      "first_ts": 1781373213.0,
+      "rank": 5
     },
     {
       "id": "8a6ad087f1ea",
@@ -88,22 +104,6 @@
       "early_counts": 2,
       "last_ts": 1785879071.0,
       "first_ts": 1781470164.0,
-      "rank": 5
-    },
-    {
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "anon_phone": "+49 176 •••• 42",
-      "points": 201,
-      "pct": 0.88,
-      "last24h": 12,
-      "longest_streak": 4,
-      "assists_given": 1,
-      "assists_received": 0,
-      "night_counts": 29,
-      "early_counts": 3,
-      "last_ts": 1786397974.0,
-      "first_ts": 1781373213.0,
       "rank": 6
     },
     {
@@ -207,7 +207,7 @@
       "name": "Simon S.",
       "anon_phone": "+49 152 •••• 84",
       "points": 118,
-      "pct": 0.52,
+      "pct": 0.51,
       "last24h": 7,
       "longest_streak": 4,
       "assists_given": 6,
@@ -18993,8 +18993,8 @@
       "21ab33dbbddf",
       "a5f77afeecc6",
       "82a6be011a09",
-      "8a6ad087f1ea",
       "efeced9c0950",
+      "8a6ad087f1ea",
       "115bd3930d45",
       "bbd3041bdb62",
       "c93ed700000f",
@@ -19016,8 +19016,8 @@
       "3137559fdc0a"
     ],
     "last_24h": [
-      "81baf6634942",
       "efeced9c0950",
+      "81baf6634942",
       "f9dbd149dd64",
       "7a2e949e25b3",
       "21c53f0a0b18",
@@ -19165,7 +19165,7 @@
       {
         "id": "efeced9c0950",
         "name": "Finn",
-        "value": 29
+        "value": 30
       },
       {
         "id": "553637e3d2b4",
@@ -19249,8 +19249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -19602,13 +19602,13 @@
     },
     {
       "date": "2026-08-11",
-      "count": 13,
-      "total": 22912
+      "count": 14,
+      "total": 22913
     }
   ],
   "hour_histogram": [
     683,
-    417,
+    418,
     222,
     134,
     62,
@@ -19633,6 +19633,12 @@
     1209
   ],
   "recent": [
+    {
+      "n": 22913,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1786404097.0
+    },
     {
       "n": 22912,
       "id": "7a2e949e25b3",
@@ -19746,43 +19752,9 @@
       "id": "74c46f04e647",
       "name": "DimA",
       "ts": 1786397305.0
-    },
-    {
-      "n": 22891,
-      "id": "2e70915ef43b",
-      "name": "Toni",
-      "ts": 1786396875.0
     }
   ],
   "speed_samples": [
-    [
-      1786396333,
-      22884
-    ],
-    [
-      1786396443,
-      22885
-    ],
-    [
-      1786396535,
-      22886
-    ],
-    [
-      1786396561,
-      22887
-    ],
-    [
-      1786396618,
-      22889
-    ],
-    [
-      1786396633,
-      22890
-    ],
-    [
-      1786396875,
-      22891
-    ],
     [
       1786397305,
       22892
@@ -19858,6 +19830,10 @@
     [
       1786402646,
       22912
+    ],
+    [
+      1786404097,
+      22913
     ]
   ]
 }
