@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-10T19:54:14.020654+00:00",
+  "generated_at": "2026-08-10T19:54:50.971929+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22865,
-  "progress_pct": 2.2865,
+  "current_count": 22866,
+  "progress_pct": 2.2866,
   "num_players": 1186,
-  "total_messages": 35876,
+  "total_messages": 35877,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786391642.0,
+  "last_count_ts": 1786391679.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -1627,6 +1627,22 @@
       "rank": 101
     },
     {
+      "id": "43140b6a3d00",
+      "name": "Amelie",
+      "anon_phone": "+49 157 •••• 90",
+      "points": 37,
+      "pct": 0.16,
+      "last24h": 5,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 3,
+      "early_counts": 0,
+      "last_ts": 1786391679.0,
+      "first_ts": 1781371137.0,
+      "rank": 102
+    },
+    {
       "id": "3be464c7342c",
       "name": "Andi",
       "anon_phone": "+49 157 •••• 62",
@@ -1640,7 +1656,7 @@
       "early_counts": 0,
       "last_ts": 1784797616.0,
       "first_ts": 1781102767.0,
-      "rank": 102
+      "rank": 103
     },
     {
       "id": "8561b6020a64",
@@ -1656,7 +1672,7 @@
       "early_counts": 0,
       "last_ts": 1786218410.0,
       "first_ts": 1784041780.0,
-      "rank": 103
+      "rank": 104
     },
     {
       "id": "5e0359616cc8",
@@ -1672,7 +1688,7 @@
       "early_counts": 0,
       "last_ts": 1785604809.0,
       "first_ts": 1781289269.0,
-      "rank": 104
+      "rank": 105
     },
     {
       "id": "1c241224dd31",
@@ -1688,7 +1704,7 @@
       "early_counts": 0,
       "last_ts": 1786126156.0,
       "first_ts": 1781350729.0,
-      "rank": 105
+      "rank": 106
     },
     {
       "id": "5e4e6db7ee18",
@@ -1704,7 +1720,7 @@
       "early_counts": 4,
       "last_ts": 1786320751.0,
       "first_ts": 1781369637.0,
-      "rank": 106
+      "rank": 107
     },
     {
       "id": "13e70145a905",
@@ -1720,7 +1736,7 @@
       "early_counts": 0,
       "last_ts": 1783535823.0,
       "first_ts": 1782037239.0,
-      "rank": 107
+      "rank": 108
     },
     {
       "id": "f49dec15598c",
@@ -1736,22 +1752,6 @@
       "early_counts": 0,
       "last_ts": 1784747442.0,
       "first_ts": 1781106398.0,
-      "rank": 108
-    },
-    {
-      "id": "43140b6a3d00",
-      "name": "Amelie",
-      "anon_phone": "+49 157 •••• 90",
-      "points": 36,
-      "pct": 0.16,
-      "last24h": 4,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 3,
-      "early_counts": 0,
-      "last_ts": 1786378184.0,
-      "first_ts": 1781371137.0,
       "rank": 109
     },
     {
@@ -19029,8 +19029,8 @@
       "9bf6383c58eb",
       "d4a8c05c6550",
       "82a6be011a09",
-      "b7f001ca29a3",
-      "8b20d475db4b"
+      "43140b6a3d00",
+      "b7f001ca29a3"
     ],
     "longest_streak": [
       {
@@ -19249,8 +19249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
+      "id": "43140b6a3d00",
+      "name": "Amelie",
       "value": 1
     },
     "biggest_message": {
@@ -19597,8 +19597,8 @@
     },
     {
       "date": "2026-08-10",
-      "count": 212,
-      "total": 22865
+      "count": 213,
+      "total": 22866
     }
   ],
   "hour_histogram": [
@@ -19623,11 +19623,17 @@
     1402,
     1930,
     2325,
-    2237,
+    2238,
     1796,
     1195
   ],
   "recent": [
+    {
+      "n": 22866,
+      "id": "43140b6a3d00",
+      "name": "Amelie",
+      "ts": 1786391679.0
+    },
     {
       "n": 22865,
       "id": "efeced9c0950",
@@ -19741,19 +19747,9 @@
       "id": "6ae8b7629ff6",
       "name": "~J",
       "ts": 1786389316.0
-    },
-    {
-      "n": 22845,
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "ts": 1786389279.0
     }
   ],
   "speed_samples": [
-    [
-      1786384450,
-      22799
-    ],
     [
       1786385164,
       22810
@@ -19957,6 +19953,10 @@
     [
       1786391642,
       22865
+    ],
+    [
+      1786391679,
+      22866
     ]
   ]
 }
