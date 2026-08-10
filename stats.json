@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-10T18:17:30.162995+00:00",
+  "generated_at": "2026-08-10T18:20:01.688728+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22813,
-  "progress_pct": 2.2813,
+  "current_count": 22814,
+  "progress_pct": 2.2814,
   "num_players": 1185,
-  "total_messages": 35816,
+  "total_messages": 35817,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786385838.0,
+  "last_count_ts": 1786385982.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -446,15 +446,15 @@
       "id": "df6424fbdeef",
       "name": "Daniel",
       "anon_phone": "+49 163 •••• 57",
-      "points": 96,
-      "pct": 0.42,
-      "last24h": 0,
+      "points": 97,
+      "pct": 0.43,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 4,
       "early_counts": 0,
-      "last_ts": 1786219246.0,
+      "last_ts": 1786385982.0,
       "first_ts": 1781452642.0,
       "rank": 28
     },
@@ -3248,7 +3248,7 @@
       "anon_phone": "+49 151 •••• 22",
       "points": 21,
       "pct": 0.09,
-      "last24h": 2,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -19233,8 +19233,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "24c2feda6b33",
-      "name": "Hannah",
+      "id": "df6424fbdeef",
+      "name": "Daniel",
       "value": 1
     },
     "biggest_message": {
@@ -19581,8 +19581,8 @@
     },
     {
       "date": "2026-08-10",
-      "count": 160,
-      "total": 22813
+      "count": 161,
+      "total": 22814
     }
   ],
   "hour_histogram": [
@@ -19606,12 +19606,18 @@
     1101,
     1402,
     1930,
-    2306,
+    2307,
     2209,
     1796,
     1195
   ],
   "recent": [
+    {
+      "n": 22814,
+      "id": "df6424fbdeef",
+      "name": "Daniel",
+      "ts": 1786385982.0
+    },
     {
       "n": 22813,
       "id": "24c2feda6b33",
@@ -19725,19 +19731,9 @@
       "id": "2f9108443e86",
       "name": "Philipp",
       "ts": 1786380209.0
-    },
-    {
-      "n": 22782,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1786380085.0
     }
   ],
   "speed_samples": [
-    [
-      1786378645,
-      22775
-    ],
     [
       1786378805,
       22776
@@ -19841,6 +19837,10 @@
     [
       1786385838,
       22813
+    ],
+    [
+      1786385982,
+      22814
     ]
   ]
 }
