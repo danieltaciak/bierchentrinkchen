@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-10T19:24:05.757072+00:00",
+  "generated_at": "2026-08-10T19:25:22.812941+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22851,
-  "progress_pct": 2.2851,
+  "current_count": 22852,
+  "progress_pct": 2.2852,
   "num_players": 1186,
-  "total_messages": 35860,
+  "total_messages": 35861,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786389830.0,
+  "last_count_ts": 1786389905.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -398,15 +398,15 @@
       "id": "3137559fdc0a",
       "name": "Simon",
       "anon_phone": "+49 163 •••• 57",
-      "points": 104,
+      "points": 105,
       "pct": 0.46,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 6,
       "early_counts": 0,
-      "last_ts": 1786199955.0,
+      "last_ts": 1786389905.0,
       "first_ts": 1781904152.0,
       "rank": 25
     },
@@ -2672,7 +2672,7 @@
       "anon_phone": "+49 175 •••• 10",
       "points": 26,
       "pct": 0.11,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -19249,8 +19249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "169226d00fd6",
-      "name": "Flo",
+      "id": "3137559fdc0a",
+      "name": "Simon",
       "value": 1
     },
     "biggest_message": {
@@ -19597,8 +19597,8 @@
     },
     {
       "date": "2026-08-10",
-      "count": 198,
-      "total": 22851
+      "count": 199,
+      "total": 22852
     }
   ],
   "hour_histogram": [
@@ -19623,11 +19623,17 @@
     1402,
     1930,
     2325,
-    2224,
+    2225,
     1796,
     1195
   ],
   "recent": [
+    {
+      "n": 22852,
+      "id": "3137559fdc0a",
+      "name": "Simon",
+      "ts": 1786389905.0
+    },
     {
       "n": 22851,
       "id": "169226d00fd6",
@@ -19741,12 +19747,6 @@
       "id": "74c46f04e647",
       "name": "DimA",
       "ts": 1786388138.0
-    },
-    {
-      "n": 22830,
-      "id": "0fb9012b4b84",
-      "name": "Marco",
-      "ts": 1786388031.0
     }
   ],
   "speed_samples": [
@@ -19925,6 +19925,10 @@
     [
       1786389830,
       22851
+    ],
+    [
+      1786389905,
+      22852
     ]
   ]
 }
