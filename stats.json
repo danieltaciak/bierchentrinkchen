@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T19:06:03.642192+00:00",
+  "generated_at": "2026-08-11T19:07:48.932850+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 23095,
-  "progress_pct": 2.3095,
+  "current_count": 23096,
+  "progress_pct": 2.3096,
   "num_players": 1186,
-  "total_messages": 36183,
+  "total_messages": 36185,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786475133.0,
+  "last_count_ts": 1786475254.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -827,6 +827,22 @@
       "rank": 51
     },
     {
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
+      "anon_phone": "+49 151 •••• 72",
+      "points": 62,
+      "pct": 0.27,
+      "last24h": 1,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1786475254.0,
+      "first_ts": 1782321593.0,
+      "rank": 52
+    },
+    {
       "id": "b78c86671efc",
       "name": "Johannes",
       "anon_phone": "+49 175 •••• 06",
@@ -840,22 +856,6 @@
       "early_counts": 0,
       "last_ts": 1786212761.0,
       "first_ts": 1781362675.0,
-      "rank": 52
-    },
-    {
-      "id": "8c19ca275648",
-      "name": "Henrik H.",
-      "anon_phone": "+49 151 •••• 72",
-      "points": 61,
-      "pct": 0.26,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1786386082.0,
-      "first_ts": 1782321593.0,
       "rank": 53
     },
     {
@@ -19249,9 +19249,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "e60f4ff1e69a",
-      "name": "Emil",
-      "value": 2
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -19602,8 +19602,8 @@
     },
     {
       "date": "2026-08-11",
-      "count": 196,
-      "total": 23095
+      "count": 197,
+      "total": 23096
     }
   ],
   "hour_histogram": [
@@ -19628,11 +19628,17 @@
     1416,
     1949,
     2351,
-    2241,
+    2242,
     1810,
     1209
   ],
   "recent": [
+    {
+      "n": 23096,
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
+      "ts": 1786475254.0
+    },
     {
       "n": 23095,
       "id": "e60f4ff1e69a",
@@ -19746,19 +19752,9 @@
       "id": "bbd3041bdb62",
       "name": "Flex",
       "ts": 1786472165.0
-    },
-    {
-      "n": 23063,
-      "id": "f3db6b087117",
-      "name": "Zimmi🐣",
-      "ts": 1786472010.0
     }
   ],
   "speed_samples": [
-    [
-      1786468033,
-      23031
-    ],
     [
       1786468086,
       23032
@@ -19942,6 +19938,10 @@
     [
       1786475133,
       23095
+    ],
+    [
+      1786475254,
+      23096
     ]
   ]
 }
