@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T11:03:59.349148+00:00",
+  "generated_at": "2026-08-11T11:04:30.242544+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 22954,
-  "progress_pct": 2.2954,
+  "current_count": 22955,
+  "progress_pct": 2.2955,
   "num_players": 1186,
-  "total_messages": 35986,
+  "total_messages": 35987,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786446226.0,
+  "last_count_ts": 1786446257.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -1627,6 +1627,22 @@
       "rank": 101
     },
     {
+      "id": "43140b6a3d00",
+      "name": "Amelie",
+      "anon_phone": "+49 157 •••• 90",
+      "points": 38,
+      "pct": 0.17,
+      "last24h": 6,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 3,
+      "early_counts": 0,
+      "last_ts": 1786446257.0,
+      "first_ts": 1781371137.0,
+      "rank": 102
+    },
+    {
       "id": "e72eb1d3da01",
       "name": "Lorenz",
       "anon_phone": "+49 151 •••• 57",
@@ -1640,22 +1656,6 @@
       "early_counts": 0,
       "last_ts": 1783759581.0,
       "first_ts": 1781030950.0,
-      "rank": 102
-    },
-    {
-      "id": "43140b6a3d00",
-      "name": "Amelie",
-      "anon_phone": "+49 157 •••• 90",
-      "points": 37,
-      "pct": 0.16,
-      "last24h": 5,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 3,
-      "early_counts": 0,
-      "last_ts": 1786391679.0,
-      "first_ts": 1781371137.0,
       "rank": 103
     },
     {
@@ -19029,8 +19029,8 @@
       "9bf6383c58eb",
       "cee931f2a642",
       "5edeae5f886f",
-      "9c0968e6fd9c",
-      "43140b6a3d00"
+      "43140b6a3d00",
+      "9c0968e6fd9c"
     ],
     "longest_streak": [
       {
@@ -19249,8 +19249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "cee931f2a642",
-      "name": "Johann",
+      "id": "43140b6a3d00",
+      "name": "Amelie",
       "value": 1
     },
     "biggest_message": {
@@ -19602,8 +19602,8 @@
     },
     {
       "date": "2026-08-11",
-      "count": 55,
-      "total": 22954
+      "count": 56,
+      "total": 22955
     }
   ],
   "hour_histogram": [
@@ -19620,7 +19620,7 @@
     191,
     268,
     428,
-    404,
+    405,
     557,
     545,
     853,
@@ -19633,6 +19633,12 @@
     1209
   ],
   "recent": [
+    {
+      "n": 22955,
+      "id": "43140b6a3d00",
+      "name": "Amelie",
+      "ts": 1786446257.0
+    },
     {
       "n": 22954,
       "id": "cee931f2a642",
@@ -19746,12 +19752,6 @@
       "id": "e32d26f673cb",
       "name": "Cel",
       "ts": 1786439591.0
-    },
-    {
-      "n": 22935,
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
-      "ts": 1786438960.0
     }
   ],
   "speed_samples": [
@@ -19830,6 +19830,10 @@
     [
       1786446226,
       22954
+    ],
+    [
+      1786446257,
+      22955
     ]
   ]
 }
