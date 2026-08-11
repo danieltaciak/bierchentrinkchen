@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T18:13:56.740334+00:00",
+  "generated_at": "2026-08-11T18:16:17.013895+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 23063,
-  "progress_pct": 2.3063,
+  "current_count": 23064,
+  "progress_pct": 2.3064,
   "num_players": 1186,
-  "total_messages": 36147,
+  "total_messages": 36148,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786472010.0,
+  "last_count_ts": 1786472165.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -64,7 +64,7 @@
       "anon_phone": "+49 170 •••• 82",
       "points": 221,
       "pct": 0.96,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 9,
       "assists_given": 0,
       "assists_received": 2,
@@ -126,15 +126,15 @@
       "id": "bbd3041bdb62",
       "name": "Flex",
       "anon_phone": "+49 176 •••• 13",
-      "points": 179,
+      "points": 180,
       "pct": 0.78,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 26,
       "assists_received": 1,
       "night_counts": 16,
       "early_counts": 0,
-      "last_ts": 1786382230.0,
+      "last_ts": 1786472165.0,
       "first_ts": 1780939639.0,
       "rank": 8
     },
@@ -19249,8 +19249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "f3db6b087117",
-      "name": "Zimmi🐣",
+      "id": "bbd3041bdb62",
+      "name": "Flex",
       "value": 1
     },
     "biggest_message": {
@@ -19602,8 +19602,8 @@
     },
     {
       "date": "2026-08-11",
-      "count": 164,
-      "total": 23063
+      "count": 165,
+      "total": 23064
     }
   ],
   "hour_histogram": [
@@ -19627,12 +19627,18 @@
     1110,
     1416,
     1949,
-    2333,
+    2334,
     2239,
     1810,
     1209
   ],
   "recent": [
+    {
+      "n": 23064,
+      "id": "bbd3041bdb62",
+      "name": "Flex",
+      "ts": 1786472165.0
+    },
     {
       "n": 23063,
       "id": "f3db6b087117",
@@ -19746,12 +19752,6 @@
       "id": "df6424fbdeef",
       "name": "Daniel",
       "ts": 1786469135.0
-    },
-    {
-      "n": 23039,
-      "id": "81baf6634942",
-      "name": "Samu",
-      "ts": 1786468861.0
     }
   ],
   "speed_samples": [
@@ -19910,6 +19910,10 @@
     [
       1786472010,
       23063
+    ],
+    [
+      1786472165,
+      23064
     ]
   ]
 }
