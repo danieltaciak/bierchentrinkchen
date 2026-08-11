@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T19:31:40.923416+00:00",
+  "generated_at": "2026-08-11T19:31:56.523996+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 23113,
-  "progress_pct": 2.3113,
+  "current_count": 23115,
+  "progress_pct": 2.3115,
   "num_players": 1187,
-  "total_messages": 36210,
+  "total_messages": 36211,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786476680.0,
+  "last_count_ts": 1786476702.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -78,15 +78,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 209,
-      "pct": 0.9,
-      "last24h": 10,
+      "points": 210,
+      "pct": 0.91,
+      "last24h": 11,
       "longest_streak": 4,
       "assists_given": 1,
       "assists_received": 0,
       "night_counts": 30,
       "early_counts": 3,
-      "last_ts": 1786476562.0,
+      "last_ts": 1786476702.0,
       "first_ts": 1781373213.0,
       "rank": 5
     },
@@ -19265,8 +19265,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "169226d00fd6",
-      "name": "Flo",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -19618,8 +19618,8 @@
     },
     {
       "date": "2026-08-11",
-      "count": 214,
-      "total": 23113
+      "count": 216,
+      "total": 23115
     }
   ],
   "hour_histogram": [
@@ -19644,11 +19644,17 @@
     1416,
     1949,
     2351,
-    2256,
+    2257,
     1810,
     1209
   ],
   "recent": [
+    {
+      "n": 23115,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1786476702.0
+    },
     {
       "n": 23113,
       "id": "169226d00fd6",
@@ -19762,12 +19768,6 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1786474324.0
-    },
-    {
-      "n": 23091,
-      "id": "5e4e6db7ee18",
-      "name": "Hansi",
-      "ts": 1786473992.0
     }
   ],
   "speed_samples": [
@@ -19974,6 +19974,10 @@
     [
       1786476680,
       23113
+    ],
+    [
+      1786476702,
+      23115
     ]
   ]
 }
