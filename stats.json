@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T23:16:41.282337+00:00",
+  "generated_at": "2026-08-11T23:19:42.417712+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 24195,
-  "progress_pct": 2.4195,
+  "current_count": 24196,
+  "progress_pct": 2.4196,
   "num_players": 1189,
-  "total_messages": 36317,
+  "total_messages": 36321,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786490189.0,
+  "last_count_ts": 1786490362.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -811,6 +811,22 @@
       "rank": 50
     },
     {
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
+      "anon_phone": "+49 151 •••• 72",
+      "points": 63,
+      "pct": 0.26,
+      "last24h": 2,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1786490362.0,
+      "first_ts": 1782321593.0,
+      "rank": 51
+    },
+    {
       "id": "80b0db246ea6",
       "name": "Zeiler",
       "anon_phone": "+49 152 •••• 64",
@@ -824,22 +840,6 @@
       "early_counts": 2,
       "last_ts": 1784923024.0,
       "first_ts": 1781260489.0,
-      "rank": 51
-    },
-    {
-      "id": "8c19ca275648",
-      "name": "Henrik H.",
-      "anon_phone": "+49 151 •••• 72",
-      "points": 62,
-      "pct": 0.26,
-      "last24h": 1,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1786475254.0,
-      "first_ts": 1782321593.0,
       "rank": 52
     },
     {
@@ -19297,9 +19297,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b31366a336ca",
-      "name": "Andi A.",
-      "value": 6
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -19655,13 +19655,13 @@
     },
     {
       "date": "2026-08-12",
-      "count": 21,
-      "total": 24195
+      "count": 22,
+      "total": 24196
     }
   ],
   "hour_histogram": [
     694,
-    427,
+    428,
     226,
     134,
     62,
@@ -19686,6 +19686,12 @@
     1226
   ],
   "recent": [
+    {
+      "n": 24196,
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
+      "ts": 1786490362.0
+    },
     {
       "n": 24195,
       "id": "b31366a336ca",
@@ -19799,12 +19805,6 @@
       "id": "0c322a010ec4",
       "name": "Andrea",
       "ts": 1786485031.0
-    },
-    {
-      "n": 24173,
-      "id": "5293d02e6d05",
-      "name": "niklas",
-      "ts": 1786484824.0
     }
   ],
   "speed_samples": [
@@ -19939,6 +19939,10 @@
     [
       1786490189,
       24195
+    ],
+    [
+      1786490362,
+      24196
     ]
   ]
 }
