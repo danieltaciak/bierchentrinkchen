@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T17:37:31.093673+00:00",
+  "generated_at": "2026-08-11T17:38:45.947164+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 23048,
-  "progress_pct": 2.3048,
+  "current_count": 23050,
+  "progress_pct": 2.305,
   "num_players": 1186,
-  "total_messages": 36126,
+  "total_messages": 36127,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786469817.0,
+  "last_count_ts": 1786469907.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -190,15 +190,15 @@
       "id": "45c4cce2f31c",
       "name": "Jakob",
       "anon_phone": "+49 171 •••• 57",
-      "points": 124,
+      "points": 125,
       "pct": 0.54,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 7,
       "early_counts": 0,
-      "last_ts": 1786287964.0,
+      "last_ts": 1786469907.0,
       "first_ts": 1781285477.0,
       "rank": 12
     },
@@ -19249,8 +19249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5f45182377dd",
-      "name": "Helle",
+      "id": "45c4cce2f31c",
+      "name": "Jakob",
       "value": 1
     },
     "biggest_message": {
@@ -19602,8 +19602,8 @@
     },
     {
       "date": "2026-08-11",
-      "count": 149,
-      "total": 23048
+      "count": 151,
+      "total": 23050
     }
   ],
   "hour_histogram": [
@@ -19626,13 +19626,19 @@
     869,
     1110,
     1416,
-    1945,
+    1946,
     2325,
     2239,
     1810,
     1209
   ],
   "recent": [
+    {
+      "n": 23050,
+      "id": "45c4cce2f31c",
+      "name": "Jakob",
+      "ts": 1786469907.0
+    },
     {
       "n": 23048,
       "id": "5f45182377dd",
@@ -19746,12 +19752,6 @@
       "id": "db6d81e90b74",
       "name": "Dominik H.",
       "ts": 1786466918.0
-    },
-    {
-      "n": 23025,
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
-      "ts": 1786466863.0
     }
   ],
   "speed_samples": [
@@ -19886,6 +19886,10 @@
     [
       1786469817,
       23048
+    ],
+    [
+      1786469907,
+      23050
     ]
   ]
 }
