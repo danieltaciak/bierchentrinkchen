@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T21:36:44.520074+00:00",
+  "generated_at": "2026-08-11T21:38:42.020192+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 24161,
-  "progress_pct": 2.4161,
+  "current_count": 24162,
+  "progress_pct": 2.4162,
   "num_players": 1189,
-  "total_messages": 36280,
+  "total_messages": 36281,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786484191.0,
+  "last_count_ts": 1786484301.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -127,7 +127,7 @@
       "name": "Flex",
       "anon_phone": "+49 176 •••• 13",
       "points": 180,
-      "pct": 0.75,
+      "pct": 0.74,
       "last24h": 1,
       "longest_streak": 4,
       "assists_given": 26,
@@ -158,15 +158,15 @@
       "id": "74c46f04e647",
       "name": "DimA",
       "anon_phone": "+49 160 •••• 72",
-      "points": 156,
+      "points": 157,
       "pct": 0.65,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 57,
       "early_counts": 4,
-      "last_ts": 1786401535.0,
+      "last_ts": 1786484301.0,
       "first_ts": 1781838875.0,
       "rank": 10
     },
@@ -19297,8 +19297,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "2bb0cf31ee59",
-      "name": "D-man",
+      "id": "74c46f04e647",
+      "name": "DimA",
       "value": 1
     },
     "biggest_message": {
@@ -19309,7 +19309,7 @@
     },
     "busiest_day": {
       "date": "2026-08-11",
-      "value": 1262
+      "value": 1263
     },
     "night_owl": {
       "id": "74c46f04e647",
@@ -19650,8 +19650,8 @@
     },
     {
       "date": "2026-08-11",
-      "count": 1262,
-      "total": 24161
+      "count": 1263,
+      "total": 24162
     }
   ],
   "hour_histogram": [
@@ -19678,9 +19678,15 @@
     2351,
     2270,
     1832,
-    1214
+    1215
   ],
   "recent": [
+    {
+      "n": 24162,
+      "id": "74c46f04e647",
+      "name": "DimA",
+      "ts": 1786484301.0
+    },
     {
       "n": 24161,
       "id": "2bb0cf31ee59",
@@ -19794,12 +19800,6 @@
       "id": "e83c287785b3",
       "name": "alfons",
       "ts": 1786480281.0
-    },
-    {
-      "n": 24140,
-      "id": "5edeae5f886f",
-      "name": "Vinc",
-      "ts": 1786479928.0
     }
   ],
   "speed_samples": [
@@ -19954,6 +19954,10 @@
     [
       1786484191,
       24161
+    ],
+    [
+      1786484301,
+      24162
     ]
   ]
 }
