@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T17:29:10.105423+00:00",
+  "generated_at": "2026-08-11T17:30:40.311885+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 23041,
-  "progress_pct": 2.3041,
+  "current_count": 23042,
+  "progress_pct": 2.3042,
   "num_players": 1186,
-  "total_messages": 36113,
+  "total_messages": 36114,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786469338.0,
+  "last_count_ts": 1786469425.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -142,15 +142,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 171,
-      "pct": 0.74,
-      "last24h": 0,
+      "points": 172,
+      "pct": 0.75,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 23,
       "early_counts": 2,
-      "last_ts": 1786175850.0,
+      "last_ts": 1786469425.0,
       "first_ts": 1781212818.0,
       "rank": 9
     },
@@ -19249,8 +19249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "2f9108443e86",
-      "name": "Philipp",
+      "id": "c93ed700000f",
+      "name": "linus",
       "value": 1
     },
     "biggest_message": {
@@ -19602,8 +19602,8 @@
     },
     {
       "date": "2026-08-11",
-      "count": 142,
-      "total": 23041
+      "count": 143,
+      "total": 23042
     }
   ],
   "hour_histogram": [
@@ -19626,13 +19626,19 @@
     869,
     1110,
     1416,
-    1940,
+    1941,
     2325,
     2239,
     1810,
     1209
   ],
   "recent": [
+    {
+      "n": 23042,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1786469425.0
+    },
     {
       "n": 23041,
       "id": "2f9108443e86",
@@ -19746,12 +19752,6 @@
       "id": "e32d26f673cb",
       "name": "Cel",
       "ts": 1786465941.0
-    },
-    {
-      "n": 23019,
-      "id": "683f48283a06",
-      "name": "Raphael S.",
-      "ts": 1786465606.0
     }
   ],
   "speed_samples": [
@@ -19866,6 +19866,10 @@
     [
       1786469338,
       23041
+    ],
+    [
+      1786469425,
+      23042
     ]
   ]
 }
