@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-12T22:54:20.196050+00:00",
+  "generated_at": "2026-08-12T23:17:09.673945+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 24411,
-  "progress_pct": 2.4411,
+  "current_count": 24413,
+  "progress_pct": 2.4413,
   "num_players": 1191,
-  "total_messages": 36595,
+  "total_messages": 36597,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786575247.0,
+  "last_count_ts": 1786576604.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -174,15 +174,15 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
-      "points": 154,
-      "pct": 0.63,
-      "last24h": 4,
+      "points": 156,
+      "pct": 0.64,
+      "last24h": 6,
       "longest_streak": 5,
       "assists_given": 13,
-      "assists_received": 3,
-      "night_counts": 16,
+      "assists_received": 5,
+      "night_counts": 18,
       "early_counts": 2,
-      "last_ts": 1786573537.0,
+      "last_ts": 1786576604.0,
       "first_ts": 1781196449.0,
       "rank": 11
     },
@@ -1376,7 +1376,7 @@
       "anon_phone": "+49 151 •••• 24",
       "points": 44,
       "pct": 0.18,
-      "last24h": 9,
+      "last24h": 3,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
@@ -1458,7 +1458,7 @@
       "pct": 0.18,
       "last24h": 0,
       "longest_streak": 3,
-      "assists_given": 3,
+      "assists_given": 5,
       "assists_received": 4,
       "night_counts": 8,
       "early_counts": 0,
@@ -4128,7 +4128,7 @@
       "anon_phone": "+49 151 •••• 97",
       "points": 17,
       "pct": 0.07,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -19098,18 +19098,18 @@
     "last_24h": [
       "a5f77afeecc6",
       "5293d02e6d05",
-      "b31366a336ca",
       "926048ba30b0",
       "9941ce960633",
+      "7a2e949e25b3",
       "efeced9c0950",
       "4cf6b703c434",
       "81baf6634942",
       "b7f001ca29a3",
       "88cdb4b9b048",
       "dc330d40fb11",
-      "7a2e949e25b3",
       "df6424fbdeef",
       "5edeae5f886f",
+      "b31366a336ca",
       "f9dbd149dd64"
     ],
     "longest_streak": [
@@ -19206,14 +19206,14 @@
         "value": 5
       },
       {
+        "id": "82afa8eefe9c",
+        "name": "Tom S.",
+        "value": 5
+      },
+      {
         "id": "69d8d857446a",
         "name": "Jakob S.",
         "value": 4
-      },
-      {
-        "id": "776f4d602138",
-        "name": "Korbi",
-        "value": 3
       }
     ],
     "night_owls": [
@@ -19329,9 +19329,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "0d1fa29f9e5e",
-      "name": "Ö",
-      "value": 1
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "value": 2
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -19692,13 +19692,13 @@
     },
     {
       "date": "2026-08-13",
-      "count": 8,
-      "total": 24411
+      "count": 10,
+      "total": 24413
     }
   ],
   "hour_histogram": [
     702,
-    433,
+    435,
     228,
     140,
     62,
@@ -19723,6 +19723,18 @@
     1229
   ],
   "recent": [
+    {
+      "n": 24413,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1786576604.0
+    },
+    {
+      "n": 24412,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1786576604.0
+    },
     {
       "n": 24411,
       "id": "0d1fa29f9e5e",
@@ -19830,25 +19842,9 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "ts": 1786565068.0
-    },
-    {
-      "n": 24382,
-      "id": "5e4e6db7ee18",
-      "name": "Hansi",
-      "ts": 1786565004.0
-    },
-    {
-      "n": 24381,
-      "id": "e1682a59e246",
-      "name": "Fabiii",
-      "ts": 1786564987.0
     }
   ],
   "speed_samples": [
-    [
-      1786568346,
-      24400
-    ],
     [
       1786570973,
       24401
@@ -19892,6 +19888,14 @@
     [
       1786575247,
       24411
+    ],
+    [
+      1786576604,
+      24412
+    ],
+    [
+      1786576604,
+      24413
     ]
   ]
 }
