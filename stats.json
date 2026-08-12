@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-12T00:11:46.917960+00:00",
+  "generated_at": "2026-08-12T01:07:10.914795+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 24208,
-  "progress_pct": 2.4208,
+  "current_count": 24210,
+  "progress_pct": 2.421,
   "num_players": 1190,
-  "total_messages": 36332,
+  "total_messages": 36336,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786493494.0,
+  "last_count_ts": 1786496814.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -864,7 +864,7 @@
       "anon_phone": "+49 176 •••• 30",
       "points": 61,
       "pct": 0.25,
-      "last24h": 4,
+      "last24h": 2,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
@@ -1867,6 +1867,22 @@
       "rank": 116
     },
     {
+      "id": "adf50432d328",
+      "name": "Kiste",
+      "anon_phone": "+49 170 •••• 93",
+      "points": 35,
+      "pct": 0.14,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1786496814.0,
+      "first_ts": 1781894093.0,
+      "rank": 117
+    },
+    {
       "id": "416d585e4acc",
       "name": "Marlin",
       "anon_phone": "+43 660 •••• 89",
@@ -1880,7 +1896,7 @@
       "early_counts": 0,
       "last_ts": 1786280079.0,
       "first_ts": 1781184000.0,
-      "rank": 117
+      "rank": 118
     },
     {
       "id": "ff9aa0ff7e4d",
@@ -1896,7 +1912,7 @@
       "early_counts": 0,
       "last_ts": 1783185847.0,
       "first_ts": 1781109102.0,
-      "rank": 118
+      "rank": 119
     },
     {
       "id": "b42df7ea4370",
@@ -1912,7 +1928,7 @@
       "early_counts": 0,
       "last_ts": 1784915925.0,
       "first_ts": 1781287014.0,
-      "rank": 119
+      "rank": 120
     },
     {
       "id": "08510cd25776",
@@ -1928,7 +1944,7 @@
       "early_counts": 0,
       "last_ts": 1786132132.0,
       "first_ts": 1783107081.0,
-      "rank": 120
+      "rank": 121
     },
     {
       "id": "90482696a0a6",
@@ -1944,7 +1960,7 @@
       "early_counts": 0,
       "last_ts": 1786284908.0,
       "first_ts": 1781264844.0,
-      "rank": 121
+      "rank": 122
     },
     {
       "id": "98b8d64d4fd0",
@@ -1960,22 +1976,6 @@
       "early_counts": 1,
       "last_ts": 1786310935.0,
       "first_ts": 1781378594.0,
-      "rank": 122
-    },
-    {
-      "id": "adf50432d328",
-      "name": "Kiste",
-      "anon_phone": "+49 170 •••• 93",
-      "points": 34,
-      "pct": 0.14,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1784659369.0,
-      "first_ts": 1781894093.0,
       "rank": 123
     },
     {
@@ -2672,7 +2672,7 @@
       "anon_phone": "+49 172 •••• 37",
       "points": 27,
       "pct": 0.11,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -19313,8 +19313,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "f9dbd149dd64",
-      "name": "Jakob",
+      "id": "adf50432d328",
+      "name": "Kiste",
       "value": 1
     },
     "biggest_message": {
@@ -19671,15 +19671,15 @@
     },
     {
       "date": "2026-08-12",
-      "count": 34,
-      "total": 24208
+      "count": 36,
+      "total": 24210
     }
   ],
   "hour_histogram": [
     694,
     433,
     228,
-    134,
+    135,
     62,
     55,
     49,
@@ -19702,6 +19702,12 @@
     1226
   ],
   "recent": [
+    {
+      "n": 24210,
+      "id": "adf50432d328",
+      "name": "Kiste",
+      "ts": 1786496814.0
+    },
     {
       "n": 24208,
       "id": "f9dbd149dd64",
@@ -19815,47 +19821,9 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "ts": 1786487715.0
-    },
-    {
-      "n": 24184,
-      "id": "e32d26f673cb",
-      "name": "Cel",
-      "ts": 1786486874.0
     }
   ],
   "speed_samples": [
-    [
-      1786486365,
-      24182
-    ],
-    [
-      1786486727,
-      24183
-    ],
-    [
-      1786486874,
-      24184
-    ],
-    [
-      1786487715,
-      24185
-    ],
-    [
-      1786488045,
-      24186
-    ],
-    [
-      1786488045,
-      24187
-    ],
-    [
-      1786488436,
-      24188
-    ],
-    [
-      1786489261,
-      24189
-    ],
     [
       1786490189,
       24190
@@ -19911,6 +19879,10 @@
     [
       1786493494,
       24208
+    ],
+    [
+      1786496814,
+      24210
     ]
   ]
 }
