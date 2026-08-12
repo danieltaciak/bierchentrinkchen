@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-12T21:33:29.149173+00:00",
+  "generated_at": "2026-08-12T21:39:04.671419+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 24398,
-  "progress_pct": 2.4398,
+  "current_count": 24399,
+  "progress_pct": 2.4399,
   "num_players": 1191,
-  "total_messages": 36579,
+  "total_messages": 36580,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786570396.0,
+  "last_count_ts": 1786570727.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -160,7 +160,7 @@
       "anon_phone": "+49 160 •••• 72",
       "points": 161,
       "pct": 0.66,
-      "last24h": 5,
+      "last24h": 4,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -1019,6 +1019,22 @@
       "rank": 63
     },
     {
+      "id": "f9dbd149dd64",
+      "name": "Jakob",
+      "anon_phone": "+49 176 •••• 62",
+      "points": 56,
+      "pct": 0.23,
+      "last24h": 5,
+      "longest_streak": 1,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 10,
+      "early_counts": 1,
+      "last_ts": 1786570727.0,
+      "first_ts": 1781905311.0,
+      "rank": 64
+    },
+    {
       "id": "1047a3b75430",
       "name": "Max",
       "anon_phone": "+49 160 •••• 41",
@@ -1032,22 +1048,6 @@
       "early_counts": 0,
       "last_ts": 1784295249.0,
       "first_ts": 1781528017.0,
-      "rank": 64
-    },
-    {
-      "id": "f9dbd149dd64",
-      "name": "Jakob",
-      "anon_phone": "+49 176 •••• 62",
-      "points": 55,
-      "pct": 0.23,
-      "last24h": 4,
-      "longest_streak": 1,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 10,
-      "early_counts": 1,
-      "last_ts": 1786564057.0,
-      "first_ts": 1781905311.0,
       "rank": 65
     },
     {
@@ -1808,7 +1808,7 @@
       "anon_phone": "+49 159 •••• 50",
       "points": 36,
       "pct": 0.15,
-      "last24h": 9,
+      "last24h": 8,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -12016,7 +12016,7 @@
       "anon_phone": "+49 170 •••• 65",
       "points": 3,
       "pct": 0.01,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -19098,11 +19098,11 @@
     "last_24h": [
       "5293d02e6d05",
       "a5f77afeecc6",
-      "926048ba30b0",
       "b31366a336ca",
+      "926048ba30b0",
       "efeced9c0950",
       "9941ce960633",
-      "74c46f04e647",
+      "f9dbd149dd64",
       "4cf6b703c434",
       "81baf6634942",
       "b7f001ca29a3",
@@ -19110,7 +19110,7 @@
       "dc330d40fb11",
       "5edeae5f886f",
       "82afa8eefe9c",
-      "f9dbd149dd64"
+      "c93ed700000f"
     ],
     "longest_streak": [
       {
@@ -19329,9 +19329,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5edeae5f886f",
-      "name": "Vinc",
-      "value": 2
+      "id": "f9dbd149dd64",
+      "name": "Jakob",
+      "value": 1
     },
     "biggest_message": {
       "id": "aec2afa9af24",
@@ -19687,8 +19687,8 @@
     },
     {
       "date": "2026-08-12",
-      "count": 224,
-      "total": 24398
+      "count": 225,
+      "total": 24399
     }
   ],
   "hour_histogram": [
@@ -19715,9 +19715,15 @@
     2361,
     2319,
     1844,
-    1231
+    1232
   ],
   "recent": [
+    {
+      "n": 24399,
+      "id": "f9dbd149dd64",
+      "name": "Jakob",
+      "ts": 1786570727.0
+    },
     {
       "n": 24398,
       "id": "5edeae5f886f",
@@ -19831,31 +19837,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1786564740.0
-    },
-    {
-      "n": 24375,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1786564740.0
     }
   ],
   "speed_samples": [
-    [
-      1786563335,
-      24357
-    ],
-    [
-      1786563335,
-      24358
-    ],
-    [
-      1786563335,
-      24359
-    ],
-    [
-      1786563489,
-      24360
-    ],
     [
       1786563623,
       24361
@@ -19987,6 +19971,10 @@
     [
       1786570396,
       24398
+    ],
+    [
+      1786570727,
+      24399
     ]
   ]
 }
