@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-12T21:51:03.617596+00:00",
+  "generated_at": "2026-08-12T22:05:09.183001+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 24403,
-  "progress_pct": 2.4403,
+  "current_count": 24404,
+  "progress_pct": 2.4404,
   "num_players": 1191,
-  "total_messages": 36584,
+  "total_messages": 36586,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786571440.0,
+  "last_count_ts": 1786572292.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -144,7 +144,7 @@
       "anon_phone": "+49 178 •••• 54",
       "points": 177,
       "pct": 0.73,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -235,6 +235,22 @@
       "rank": 14
     },
     {
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "anon_phone": "+49 151 •••• 99",
+      "points": 118,
+      "pct": 0.48,
+      "last24h": 2,
+      "longest_streak": 2,
+      "assists_given": 1,
+      "assists_received": 1,
+      "night_counts": 16,
+      "early_counts": 4,
+      "last_ts": 1786572292.0,
+      "first_ts": 1781284254.0,
+      "rank": 15
+    },
+    {
       "id": "776f4d602138",
       "name": "Korbi",
       "anon_phone": "+49 176 •••• 48",
@@ -248,22 +264,6 @@
       "early_counts": 0,
       "last_ts": 1786401455.0,
       "first_ts": 1781456625.0,
-      "rank": 15
-    },
-    {
-      "id": "764f33f39eb0",
-      "name": "Maxi",
-      "anon_phone": "+49 151 •••• 99",
-      "points": 117,
-      "pct": 0.48,
-      "last24h": 1,
-      "longest_streak": 2,
-      "assists_given": 1,
-      "assists_received": 1,
-      "night_counts": 15,
-      "early_counts": 4,
-      "last_ts": 1786561630.0,
-      "first_ts": 1781284254.0,
       "rank": 16
     },
     {
@@ -1504,7 +1504,7 @@
       "anon_phone": "+49 151 •••• 16",
       "points": 42,
       "pct": 0.17,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -19083,8 +19083,8 @@
       "45c4cce2f31c",
       "3ce6f8806201",
       "abdd765c9df5",
-      "776f4d602138",
       "764f33f39eb0",
+      "776f4d602138",
       "078ce5ea9e04",
       "5f3589b7ffb7",
       "81baf6634942",
@@ -19107,10 +19107,10 @@
       "b7f001ca29a3",
       "88cdb4b9b048",
       "dc330d40fb11",
-      "c93ed700000f",
       "74c46f04e647",
       "5edeae5f886f",
-      "7a2e949e25b3"
+      "7a2e949e25b3",
+      "f9dbd149dd64"
     ],
     "longest_streak": [
       {
@@ -19329,8 +19329,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "115bd3930d45",
-      "name": "Fabi",
+      "id": "764f33f39eb0",
+      "name": "Maxi",
       "value": 1
     },
     "biggest_message": {
@@ -19689,10 +19689,15 @@
       "date": "2026-08-12",
       "count": 229,
       "total": 24403
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1,
+      "total": 24404
     }
   ],
   "hour_histogram": [
-    694,
+    695,
     433,
     228,
     140,
@@ -19718,6 +19723,12 @@
     1229
   ],
   "recent": [
+    {
+      "n": 24404,
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "ts": 1786572292.0
+    },
     {
       "n": 24403,
       "id": "115bd3930d45",
@@ -19831,59 +19842,9 @@
       "id": "6ae8b7629ff6",
       "name": "~J",
       "ts": 1786564556.0
-    },
-    {
-      "n": 24371,
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "ts": 1786564528.0
     }
   ],
   "speed_samples": [
-    [
-      1786564528,
-      24371
-    ],
-    [
-      1786564556,
-      24372
-    ],
-    [
-      1786564674,
-      24374
-    ],
-    [
-      1786564740,
-      24375
-    ],
-    [
-      1786564740,
-      24376
-    ],
-    [
-      1786564740,
-      24377
-    ],
-    [
-      1786564917,
-      24378
-    ],
-    [
-      1786564968,
-      24380
-    ],
-    [
-      1786564987,
-      24381
-    ],
-    [
-      1786565004,
-      24382
-    ],
-    [
-      1786565068,
-      24383
-    ],
     [
       1786565476,
       24385
@@ -19919,6 +19880,10 @@
     [
       1786571440,
       24403
+    ],
+    [
+      1786572292,
+      24404
     ]
   ]
 }
