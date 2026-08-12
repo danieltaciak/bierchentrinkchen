@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-12T20:11:36.101763+00:00",
+  "generated_at": "2026-08-12T20:28:27.951645+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 24385,
-  "progress_pct": 2.4385,
+  "current_count": 24386,
+  "progress_pct": 2.4386,
   "num_players": 1191,
-  "total_messages": 36559,
+  "total_messages": 36561,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1786565476.0,
+  "last_count_ts": 1786566495.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -30,15 +30,15 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "anon_phone": "+49 170 •••• 40",
-      "points": 246,
+      "points": 247,
       "pct": 1.01,
-      "last24h": 15,
+      "last24h": 16,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 9,
       "early_counts": 0,
-      "last_ts": 1786564968.0,
+      "last_ts": 1786566495.0,
       "first_ts": 1781292817.0,
       "rank": 2
     },
@@ -848,7 +848,7 @@
       "anon_phone": "+49 176 •••• 30",
       "points": 62,
       "pct": 0.25,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
@@ -1787,22 +1787,6 @@
       "rank": 111
     },
     {
-      "id": "5edeae5f886f",
-      "name": "Vinc",
-      "anon_phone": "+49 176 •••• 87",
-      "points": 37,
-      "pct": 0.15,
-      "last24h": 6,
-      "longest_streak": 1,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 6,
-      "early_counts": 3,
-      "last_ts": 1786565370.0,
-      "first_ts": 1785958554.0,
-      "rank": 112
-    },
-    {
       "id": "e5cb7f8f899f",
       "name": "Maggo🇩🇪",
       "anon_phone": "+49 151 •••• 38",
@@ -1816,7 +1800,7 @@
       "early_counts": 0,
       "last_ts": 1785346930.0,
       "first_ts": 1782760101.0,
-      "rank": 113
+      "rank": 112
     },
     {
       "id": "0ab904a87ade",
@@ -1832,7 +1816,7 @@
       "early_counts": 6,
       "last_ts": 1785522307.0,
       "first_ts": 1781552231.0,
-      "rank": 114
+      "rank": 113
     },
     {
       "id": "e8afab0e587c",
@@ -1848,6 +1832,22 @@
       "early_counts": 1,
       "last_ts": 1785878240.0,
       "first_ts": 1781283125.0,
+      "rank": 114
+    },
+    {
+      "id": "5edeae5f886f",
+      "name": "Vinc",
+      "anon_phone": "+49 176 •••• 87",
+      "points": 36,
+      "pct": 0.15,
+      "last24h": 4,
+      "longest_streak": 1,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 6,
+      "early_counts": 3,
+      "last_ts": 1786561671.0,
+      "first_ts": 1785958554.0,
       "rank": 115
     },
     {
@@ -19101,7 +19101,6 @@
       "926048ba30b0",
       "b31366a336ca",
       "efeced9c0950",
-      "5edeae5f886f",
       "81baf6634942",
       "dc330d40fb11",
       "9941ce960633",
@@ -19110,6 +19109,7 @@
       "b7f001ca29a3",
       "88cdb4b9b048",
       "82afa8eefe9c",
+      "5edeae5f886f",
       "f9dbd149dd64"
     ],
     "longest_streak": [
@@ -19329,8 +19329,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b71880ee8bf0",
-      "name": "Ben",
+      "id": "a5f77afeecc6",
+      "name": "Nico",
       "value": 1
     },
     "biggest_message": {
@@ -19687,8 +19687,8 @@
     },
     {
       "date": "2026-08-12",
-      "count": 211,
-      "total": 24385
+      "count": 212,
+      "total": 24386
     }
   ],
   "hour_histogram": [
@@ -19719,16 +19719,16 @@
   ],
   "recent": [
     {
+      "n": 24386,
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "ts": 1786566495.0
+    },
+    {
       "n": 24385,
       "id": "b71880ee8bf0",
       "name": "Ben",
       "ts": 1786565476.0
-    },
-    {
-      "n": 24384,
-      "id": "5edeae5f886f",
-      "name": "Vinc",
-      "ts": 1786565370.0
     },
     {
       "n": 24383,
@@ -19840,10 +19840,6 @@
     }
   ],
   "speed_samples": [
-    [
-      1786558719,
-      24318
-    ],
     [
       1786560453,
       24319
@@ -20085,12 +20081,12 @@
       24383
     ],
     [
-      1786565370,
-      24384
-    ],
-    [
       1786565476,
       24385
+    ],
+    [
+      1786566495,
+      24386
     ]
   ]
 }
