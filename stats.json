@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T17:16:42.975985+00:00",
+  "generated_at": "2026-08-21T17:18:15.230838+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26310,
-  "progress_pct": 2.631,
+  "current_count": 26311,
+  "progress_pct": 2.6311,
   "num_players": 1212,
-  "total_messages": 38572,
+  "total_messages": 38573,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787332590.0,
+  "last_count_ts": 1787332678.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -62,15 +62,15 @@
       "id": "82a6be011a09",
       "name": "Boohb",
       "anon_phone": "+49 170 •••• 82",
-      "points": 237,
+      "points": 238,
       "pct": 0.9,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 9,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 25,
       "early_counts": 2,
-      "last_ts": 1786807602.0,
+      "last_ts": 1787332678.0,
       "first_ts": 1781811271.0,
       "rank": 4
     },
@@ -19665,8 +19665,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "82a6be011a09",
+      "name": "Boohb",
       "value": 1
     },
     "biggest_message": {
@@ -20068,8 +20068,8 @@
     },
     {
       "date": "2026-08-21",
-      "count": 81,
-      "total": 26310
+      "count": 82,
+      "total": 26311
     }
   ],
   "hour_histogram": [
@@ -20092,13 +20092,19 @@
     930,
     1208,
     1543,
-    2085,
+    2086,
     2465,
     2424,
     1958,
     1318
   ],
   "recent": [
+    {
+      "n": 26311,
+      "id": "82a6be011a09",
+      "name": "Boohb",
+      "ts": 1787332678.0
+    },
     {
       "n": 26310,
       "id": "a5f77afeecc6",
@@ -20212,12 +20218,6 @@
       "id": "40e609fa336e",
       "name": "Max S.",
       "ts": 1787329672.0
-    },
-    {
-      "n": 26290,
-      "id": "7247e2bc9322",
-      "name": "Anna",
-      "ts": 1787329625.0
     }
   ],
   "speed_samples": [
@@ -20384,6 +20384,10 @@
     [
       1787332590,
       26310
+    ],
+    [
+      1787332678,
+      26311
     ]
   ]
 }
