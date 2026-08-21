@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T20:46:30.089651+00:00",
+  "generated_at": "2026-08-21T20:54:00.470260+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26423,
-  "progress_pct": 2.6423,
+  "current_count": 26424,
+  "progress_pct": 2.6424,
   "num_players": 1214,
-  "total_messages": 38725,
+  "total_messages": 38728,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787345154.0,
+  "last_count_ts": 1787345623.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -379,6 +379,22 @@
       "rank": 23
     },
     {
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "anon_phone": "+49 162 •••• 18",
+      "points": 110,
+      "pct": 0.42,
+      "last24h": 5,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 5,
+      "early_counts": 1,
+      "last_ts": 1787345623.0,
+      "first_ts": 1781100515.0,
+      "rank": 24
+    },
+    {
       "id": "3137559fdc0a",
       "name": "Simon",
       "anon_phone": "+49 163 •••• 57",
@@ -392,7 +408,7 @@
       "early_counts": 0,
       "last_ts": 1786819842.0,
       "first_ts": 1781904152.0,
-      "rank": 24
+      "rank": 25
     },
     {
       "id": "edb260c141f2",
@@ -408,22 +424,6 @@
       "early_counts": 0,
       "last_ts": 1786486153.0,
       "first_ts": 1781384435.0,
-      "rank": 25
-    },
-    {
-      "id": "cec25393509e",
-      "name": "Jordan",
-      "anon_phone": "+49 162 •••• 18",
-      "points": 109,
-      "pct": 0.41,
-      "last24h": 4,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 5,
-      "early_counts": 1,
-      "last_ts": 1787343328.0,
-      "first_ts": 1781100515.0,
       "rank": 26
     },
     {
@@ -1712,7 +1712,7 @@
       "anon_phone": "+49 174 •••• 17",
       "points": 40,
       "pct": 0.15,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -1968,7 +1968,7 @@
       "anon_phone": "+49 176 •••• 48",
       "points": 37,
       "pct": 0.14,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -11536,7 +11536,7 @@
       "anon_phone": "+49 151 •••• 76",
       "points": 4,
       "pct": 0.02,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -19460,20 +19460,20 @@
       "df6424fbdeef",
       "0d1fa29f9e5e",
       "5f3589b7ffb7",
-      "3137559fdc0a",
-      "edb260c141f2"
+      "cec25393509e",
+      "3137559fdc0a"
     ],
     "last_24h": [
       "dc330d40fb11",
       "a5f77afeecc6",
       "efeced9c0950",
       "d4a8c05c6550",
+      "cec25393509e",
       "40e609fa336e",
       "8561b6020a64",
       "547556283acb",
       "af005e9bda68",
       "97897748b637",
-      "cec25393509e",
       "74c46f04e647",
       "4460bcf9c79c",
       "1b54cda19789",
@@ -19697,8 +19697,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "f7e5b41aae51",
-      "name": "Jakob",
+      "id": "cec25393509e",
+      "name": "Jordan",
       "value": 1
     },
     "biggest_message": {
@@ -20100,8 +20100,8 @@
     },
     {
       "date": "2026-08-21",
-      "count": 194,
-      "total": 26423
+      "count": 195,
+      "total": 26424
     }
   ],
   "hour_histogram": [
@@ -20127,10 +20127,16 @@
     2099,
     2485,
     2448,
-    1985,
+    1986,
     1318
   ],
   "recent": [
+    {
+      "n": 26424,
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "ts": 1787345623.0
+    },
     {
       "n": 26423,
       "id": "f7e5b41aae51",
@@ -20244,23 +20250,9 @@
       "id": "3c8bfc2012f7",
       "name": "Lars",
       "ts": 1787343177.0
-    },
-    {
-      "n": 26399,
-      "id": "d76a49d25e2f",
-      "name": "Gartenpflege T.",
-      "ts": 1787343150.0
     }
   ],
   "speed_samples": [
-    [
-      1787338251,
-      26360
-    ],
-    [
-      1787338350,
-      26361
-    ],
     [
       1787338569,
       26362
@@ -20468,6 +20460,10 @@
     [
       1787345154,
       26423
+    ],
+    [
+      1787345623,
+      26424
     ]
   ]
 }
