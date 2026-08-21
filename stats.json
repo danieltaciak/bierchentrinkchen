@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T11:15:26.214351+00:00",
+  "generated_at": "2026-08-21T12:13:53.871883+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26249,
-  "progress_pct": 2.6249,
+  "current_count": 26250,
+  "progress_pct": 2.625,
   "num_players": 1212,
-  "total_messages": 38482,
+  "total_messages": 38485,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787310913.0,
+  "last_count_ts": 1787314411.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -667,6 +667,22 @@
       "rank": 41
     },
     {
+      "id": "dc330d40fb11",
+      "name": "Aaron D.",
+      "anon_phone": "+49 151 •••• 20",
+      "points": 78,
+      "pct": 0.3,
+      "last24h": 13,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 11,
+      "early_counts": 1,
+      "last_ts": 1787314411.0,
+      "first_ts": 1781287480.0,
+      "rank": 42
+    },
+    {
       "id": "2f9108443e86",
       "name": "Philipp",
       "anon_phone": "+49 151 •••• 08",
@@ -680,22 +696,6 @@
       "early_counts": 0,
       "last_ts": 1787174358.0,
       "first_ts": 1782605644.0,
-      "rank": 42
-    },
-    {
-      "id": "dc330d40fb11",
-      "name": "Aaron D.",
-      "anon_phone": "+49 151 •••• 20",
-      "points": 77,
-      "pct": 0.29,
-      "last24h": 12,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 11,
-      "early_counts": 1,
-      "last_ts": 1787310847.0,
-      "first_ts": 1781287480.0,
       "rank": 43
     },
     {
@@ -2416,7 +2416,7 @@
       "anon_phone": "+49 176 •••• 78",
       "points": 30,
       "pct": 0.11,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -3424,7 +3424,7 @@
       "anon_phone": "+49 151 •••• 50",
       "points": 21,
       "pct": 0.08,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -5888,7 +5888,7 @@
       "anon_phone": "+49 152 •••• 49",
       "points": 13,
       "pct": 0.05,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -12336,7 +12336,7 @@
       "anon_phone": "+49 151 •••• 04",
       "points": 3,
       "pct": 0.01,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -19440,13 +19440,13 @@
       "b7f001ca29a3",
       "abdd765c9df5",
       "c93ed700000f",
-      "5d62c27afec9",
       "a5f77afeecc6",
       "1b54cda19789",
       "8561b6020a64",
       "032a270163e4",
       "2489d5778999",
-      "95915d1bac6a"
+      "95915d1bac6a",
+      "e32d26f673cb"
     ],
     "longest_streak": [
       {
@@ -19665,8 +19665,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "cec25393509e",
-      "name": "Jordan",
+      "id": "dc330d40fb11",
+      "name": "Aaron D.",
       "value": 1
     },
     "biggest_message": {
@@ -20068,8 +20068,8 @@
     },
     {
       "date": "2026-08-21",
-      "count": 20,
-      "total": 26249
+      "count": 21,
+      "total": 26250
     }
   ],
   "hour_histogram": [
@@ -20087,7 +20087,7 @@
     312,
     475,
     480,
-    628,
+    629,
     617,
     929,
     1201,
@@ -20099,6 +20099,12 @@
     1318
   ],
   "recent": [
+    {
+      "n": 26250,
+      "id": "dc330d40fb11",
+      "name": "Aaron D.",
+      "ts": 1787314411.0
+    },
     {
       "n": 26249,
       "id": "cec25393509e",
@@ -20212,27 +20218,9 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "ts": 1787264463.0
-    },
-    {
-      "n": 26230,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1787263776.0
     }
   ],
   "speed_samples": [
-    [
-      1787304065,
-      26239
-    ],
-    [
-      1787305337,
-      26240
-    ],
-    [
-      1787306395,
-      26241
-    ],
     [
       1787307268,
       26242
@@ -20264,6 +20252,10 @@
     [
       1787310913,
       26249
+    ],
+    [
+      1787314411,
+      26250
     ]
   ]
 }
