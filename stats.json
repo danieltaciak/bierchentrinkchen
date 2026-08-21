@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T12:19:46.757947+00:00",
+  "generated_at": "2026-08-21T12:22:51.161365+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26252,
-  "progress_pct": 2.6252,
+  "current_count": 26253,
+  "progress_pct": 2.6253,
   "num_players": 1212,
-  "total_messages": 38487,
+  "total_messages": 38488,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787314774.0,
+  "last_count_ts": 1787314958.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -747,6 +747,22 @@
       "rank": 46
     },
     {
+      "id": "7613b21d1009",
+      "name": "Ido",
+      "anon_phone": "+49 178 •••• 63",
+      "points": 71,
+      "pct": 0.27,
+      "last24h": 1,
+      "longest_streak": 8,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 4,
+      "last_ts": 1787314958.0,
+      "first_ts": 1781373913.0,
+      "rank": 47
+    },
+    {
       "id": "3b1afe5c45e7",
       "name": "Markus",
       "anon_phone": "+49 172 •••• 57",
@@ -760,22 +776,6 @@
       "early_counts": 1,
       "last_ts": 1784128216.0,
       "first_ts": 1781105275.0,
-      "rank": 47
-    },
-    {
-      "id": "7613b21d1009",
-      "name": "Ido",
-      "anon_phone": "+49 178 •••• 63",
-      "points": 70,
-      "pct": 0.27,
-      "last24h": 0,
-      "longest_streak": 8,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 4,
-      "last_ts": 1784899933.0,
-      "first_ts": 1781373913.0,
       "rank": 48
     },
     {
@@ -19665,8 +19665,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "1b54cda19789",
-      "name": "Manu",
+      "id": "7613b21d1009",
+      "name": "Ido",
       "value": 1
     },
     "biggest_message": {
@@ -20068,8 +20068,8 @@
     },
     {
       "date": "2026-08-21",
-      "count": 23,
-      "total": 26252
+      "count": 24,
+      "total": 26253
     }
   ],
   "hour_histogram": [
@@ -20087,7 +20087,7 @@
     312,
     475,
     480,
-    631,
+    632,
     617,
     929,
     1201,
@@ -20099,6 +20099,12 @@
     1318
   ],
   "recent": [
+    {
+      "n": 26253,
+      "id": "7613b21d1009",
+      "name": "Ido",
+      "ts": 1787314958.0
+    },
     {
       "n": 26252,
       "id": "1b54cda19789",
@@ -20212,12 +20218,6 @@
       "id": "73b18d345917",
       "name": "Severin",
       "ts": 1787269125.0
-    },
-    {
-      "n": 26233,
-      "id": "73b18d345917",
-      "name": "Severin",
-      "ts": 1787265656.0
     }
   ],
   "speed_samples": [
@@ -20260,6 +20260,10 @@
     [
       1787314774,
       26252
+    ],
+    [
+      1787314958,
+      26253
     ]
   ]
 }
