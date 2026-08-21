@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T18:07:23.050659+00:00",
+  "generated_at": "2026-08-21T18:12:55.938378+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26342,
-  "progress_pct": 2.6342,
+  "current_count": 26343,
+  "progress_pct": 2.6343,
   "num_players": 1212,
-  "total_messages": 38615,
+  "total_messages": 38616,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787335621.0,
+  "last_count_ts": 1787335954.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -640,7 +640,7 @@
       "anon_phone": "+49 151 •••• 20",
       "points": 83,
       "pct": 0.32,
-      "last24h": 18,
+      "last24h": 17,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -1067,6 +1067,22 @@
       "rank": 66
     },
     {
+      "id": "d6c5978b929b",
+      "name": "Jonas K.",
+      "anon_phone": "+49 152 •••• 33",
+      "points": 59,
+      "pct": 0.22,
+      "last24h": 2,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 1,
+      "last_ts": 1787335954.0,
+      "first_ts": 1781347225.0,
+      "rank": 67
+    },
+    {
       "id": "d4a8c05c6550",
       "name": "Leo S.",
       "anon_phone": "+49 178 •••• 21",
@@ -1080,7 +1096,7 @@
       "early_counts": 1,
       "last_ts": 1787319203.0,
       "first_ts": 1784062805.0,
-      "rank": 67
+      "rank": 68
     },
     {
       "id": "681d886b771b",
@@ -1096,7 +1112,7 @@
       "early_counts": 0,
       "last_ts": 1785184305.0,
       "first_ts": 1781090993.0,
-      "rank": 68
+      "rank": 69
     },
     {
       "id": "03772471f186",
@@ -1112,7 +1128,7 @@
       "early_counts": 0,
       "last_ts": 1787320549.0,
       "first_ts": 1783536939.0,
-      "rank": 69
+      "rank": 70
     },
     {
       "id": "e32d26f673cb",
@@ -1128,22 +1144,6 @@
       "early_counts": 0,
       "last_ts": 1787262959.0,
       "first_ts": 1781376503.0,
-      "rank": 70
-    },
-    {
-      "id": "d6c5978b929b",
-      "name": "Jonas K.",
-      "anon_phone": "+49 152 •••• 33",
-      "points": 58,
-      "pct": 0.22,
-      "last24h": 1,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 1,
-      "last_ts": 1787260129.0,
-      "first_ts": 1781347225.0,
       "rank": 71
     },
     {
@@ -1200,7 +1200,7 @@
       "anon_phone": "+49 157 •••• 20",
       "points": 56,
       "pct": 0.21,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
@@ -2688,7 +2688,7 @@
       "anon_phone": "+49 151 •••• 20",
       "points": 29,
       "pct": 0.11,
-      "last24h": 2,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -19665,8 +19665,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "40e609fa336e",
-      "name": "Max S.",
+      "id": "d6c5978b929b",
+      "name": "Jonas K.",
       "value": 1
     },
     "biggest_message": {
@@ -20068,8 +20068,8 @@
     },
     {
       "date": "2026-08-21",
-      "count": 113,
-      "total": 26342
+      "count": 114,
+      "total": 26343
     }
   ],
   "hour_histogram": [
@@ -20093,12 +20093,18 @@
     1208,
     1543,
     2099,
-    2469,
+    2470,
     2424,
     1958,
     1318
   ],
   "recent": [
+    {
+      "n": 26343,
+      "id": "d6c5978b929b",
+      "name": "Jonas K.",
+      "ts": 1787335954.0
+    },
     {
       "n": 26342,
       "id": "40e609fa336e",
@@ -20212,19 +20218,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1787332590.0
-    },
-    {
-      "n": 26309,
-      "id": "dc330d40fb11",
-      "name": "Aaron D.",
-      "ts": 1787332250.0
     }
   ],
   "speed_samples": [
-    [
-      1787328530,
-      26280
-    ],
     [
       1787329075,
       26281
@@ -20412,6 +20408,10 @@
     [
       1787335621,
       26342
+    ],
+    [
+      1787335954,
+      26343
     ]
   ]
 }
