@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T21:43:05.999296+00:00",
+  "generated_at": "2026-08-21T21:46:51.898060+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26441,
-  "progress_pct": 2.6441,
+  "current_count": 26442,
+  "progress_pct": 2.6442,
   "num_players": 1215,
-  "total_messages": 38748,
+  "total_messages": 38749,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787348552.0,
+  "last_count_ts": 1787348778.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -459,6 +459,22 @@
       "rank": 28
     },
     {
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
+      "anon_phone": "+49 152 •••• 13",
+      "points": 99,
+      "pct": 0.37,
+      "last24h": 1,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 4,
+      "early_counts": 2,
+      "last_ts": 1787348778.0,
+      "first_ts": 1781200389.0,
+      "rank": 29
+    },
+    {
       "id": "62b0ee30f625",
       "name": "Mitch",
       "anon_phone": "+49 176 •••• 62",
@@ -472,22 +488,6 @@
       "early_counts": 4,
       "last_ts": 1783815357.0,
       "first_ts": 1780986011.0,
-      "rank": 29
-    },
-    {
-      "id": "2e95be7bb9ea",
-      "name": "Luis",
-      "anon_phone": "+49 152 •••• 13",
-      "points": 98,
-      "pct": 0.37,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 4,
-      "early_counts": 2,
-      "last_ts": 1787254812.0,
-      "first_ts": 1781200389.0,
       "rank": 30
     },
     {
@@ -19713,8 +19713,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "4198299b819b",
-      "name": "Moser",
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
       "value": 1
     },
     "biggest_message": {
@@ -20116,8 +20116,8 @@
     },
     {
       "date": "2026-08-21",
-      "count": 212,
-      "total": 26441
+      "count": 213,
+      "total": 26442
     }
   ],
   "hour_histogram": [
@@ -20144,9 +20144,15 @@
     2485,
     2448,
     1981,
-    1331
+    1332
   ],
   "recent": [
+    {
+      "n": 26442,
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
+      "ts": 1787348778.0
+    },
     {
       "n": 26441,
       "id": "4198299b819b",
@@ -20260,19 +20266,9 @@
       "id": "d76a49d25e2f",
       "name": "Gartenpflege T.",
       "ts": 1787343796.0
-    },
-    {
-      "n": 26409,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1787343718.0
     }
   ],
   "speed_samples": [
-    [
-      1787341417,
-      26383
-    ],
     [
       1787341665,
       26386
@@ -20428,6 +20424,10 @@
     [
       1787348552,
       26441
+    ],
+    [
+      1787348778,
+      26442
     ]
   ]
 }
