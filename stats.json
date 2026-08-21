@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T20:39:07.163420+00:00",
+  "generated_at": "2026-08-21T20:41:33.635096+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26417,
-  "progress_pct": 2.6417,
+  "current_count": 26418,
+  "progress_pct": 2.6418,
   "num_players": 1214,
-  "total_messages": 38720,
+  "total_messages": 38721,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787344730.0,
+  "last_count_ts": 1787344876.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -62,15 +62,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 239,
-      "pct": 0.9,
-      "last24h": 6,
+      "points": 240,
+      "pct": 0.91,
+      "last24h": 7,
       "longest_streak": 4,
       "assists_given": 1,
       "assists_received": 0,
       "night_counts": 38,
       "early_counts": 3,
-      "last_ts": 1787342667.0,
+      "last_ts": 1787344876.0,
       "first_ts": 1781373213.0,
       "rank": 4
     },
@@ -19697,8 +19697,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b124198b08c5",
-      "name": "Nadler",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -20100,8 +20100,8 @@
     },
     {
       "date": "2026-08-21",
-      "count": 188,
-      "total": 26417
+      "count": 189,
+      "total": 26418
     }
   ],
   "hour_histogram": [
@@ -20127,10 +20127,16 @@
     2099,
     2485,
     2448,
-    1980,
+    1981,
     1318
   ],
   "recent": [
+    {
+      "n": 26418,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1787344876.0
+    },
     {
       "n": 26417,
       "id": "b124198b08c5",
@@ -20244,19 +20250,9 @@
       "id": "728a9cae2154",
       "name": "М. Л.",
       "ts": 1787342762.0
-    },
-    {
-      "n": 26394,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1787342667.0
     }
   ],
   "speed_samples": [
-    [
-      1787337581,
-      26357
-    ],
     [
       1787337744,
       26358
@@ -20460,6 +20456,10 @@
     [
       1787344730,
       26417
+    ],
+    [
+      1787344876,
+      26418
     ]
   ]
 }
