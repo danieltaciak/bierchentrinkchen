@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T20:37:58.893122+00:00",
+  "generated_at": "2026-08-21T20:39:07.163420+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26414,
-  "progress_pct": 2.6414,
+  "current_count": 26417,
+  "progress_pct": 2.6417,
   "num_players": 1214,
-  "total_messages": 38719,
+  "total_messages": 38720,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787344643.0,
+  "last_count_ts": 1787344730.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -2235,6 +2235,22 @@
       "rank": 139
     },
     {
+      "id": "b124198b08c5",
+      "name": "Nadler",
+      "anon_phone": "+49 162 •••• 84",
+      "points": 33,
+      "pct": 0.12,
+      "last24h": 1,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 3,
+      "early_counts": 2,
+      "last_ts": 1787344730.0,
+      "first_ts": 1781889284.0,
+      "rank": 140
+    },
+    {
       "id": "fe4f1b801c18",
       "name": "Tobias",
       "anon_phone": "+49 170 •••• 11",
@@ -2248,7 +2264,7 @@
       "early_counts": 0,
       "last_ts": 1783683409.0,
       "first_ts": 1781285234.0,
-      "rank": 140
+      "rank": 141
     },
     {
       "id": "af005e9bda68",
@@ -2264,7 +2280,7 @@
       "early_counts": 0,
       "last_ts": 1787343394.0,
       "first_ts": 1784136851.0,
-      "rank": 141
+      "rank": 142
     },
     {
       "id": "255c7cae2bae",
@@ -2280,7 +2296,7 @@
       "early_counts": 3,
       "last_ts": 1785910939.0,
       "first_ts": 1781206194.0,
-      "rank": 142
+      "rank": 143
     },
     {
       "id": "3aaeac06e8b8",
@@ -2296,22 +2312,6 @@
       "early_counts": 0,
       "last_ts": 1786138480.0,
       "first_ts": 1781289498.0,
-      "rank": 143
-    },
-    {
-      "id": "b124198b08c5",
-      "name": "Nadler",
-      "anon_phone": "+49 162 •••• 84",
-      "points": 32,
-      "pct": 0.12,
-      "last24h": 0,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 3,
-      "early_counts": 2,
-      "last_ts": 1785279103.0,
-      "first_ts": 1781889284.0,
       "rank": 144
     },
     {
@@ -19697,8 +19697,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9c1236c12676",
-      "name": "fritze",
+      "id": "b124198b08c5",
+      "name": "Nadler",
       "value": 1
     },
     "biggest_message": {
@@ -20100,8 +20100,8 @@
     },
     {
       "date": "2026-08-21",
-      "count": 185,
-      "total": 26414
+      "count": 188,
+      "total": 26417
     }
   ],
   "hour_histogram": [
@@ -20127,10 +20127,16 @@
     2099,
     2485,
     2448,
-    1979,
+    1980,
     1318
   ],
   "recent": [
+    {
+      "n": 26417,
+      "id": "b124198b08c5",
+      "name": "Nadler",
+      "ts": 1787344730.0
+    },
     {
       "n": 26414,
       "id": "9c1236c12676",
@@ -20244,12 +20250,6 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "ts": 1787342667.0
-    },
-    {
-      "n": 26393,
-      "id": "1b54cda19789",
-      "name": "Manu",
-      "ts": 1787342457.0
     }
   ],
   "speed_samples": [
@@ -20456,6 +20456,10 @@
     [
       1787344643,
       26414
+    ],
+    [
+      1787344730,
+      26417
     ]
   ]
 }
