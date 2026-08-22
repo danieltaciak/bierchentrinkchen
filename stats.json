@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-22T21:17:13.590225+00:00",
+  "generated_at": "2026-08-22T21:21:37.188175+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26769,
-  "progress_pct": 2.6769,
+  "current_count": 26771,
+  "progress_pct": 2.6771,
   "num_players": 1218,
-  "total_messages": 39114,
+  "total_messages": 39115,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787433398.0,
+  "last_count_ts": 1787433684.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -859,6 +859,22 @@
       "rank": 53
     },
     {
+      "id": "a417b8c082bc",
+      "name": "maxi",
+      "anon_phone": "+49 151 •••• 16",
+      "points": 67,
+      "pct": 0.25,
+      "last24h": 6,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1787433684.0,
+      "first_ts": 1781895466.0,
+      "rank": 54
+    },
+    {
       "id": "4198299b819b",
       "name": "Moser",
       "anon_phone": "+49 151 •••• 40",
@@ -872,7 +888,7 @@
       "early_counts": 0,
       "last_ts": 1787413391.0,
       "first_ts": 1781294020.0,
-      "rank": 54
+      "rank": 55
     },
     {
       "id": "b24539a93d86",
@@ -888,7 +904,7 @@
       "early_counts": 0,
       "last_ts": 1787433288.0,
       "first_ts": 1781804661.0,
-      "rank": 55
+      "rank": 56
     },
     {
       "id": "8b20d475db4b",
@@ -904,7 +920,7 @@
       "early_counts": 0,
       "last_ts": 1786561691.0,
       "first_ts": 1783117504.0,
-      "rank": 56
+      "rank": 57
     },
     {
       "id": "40e609fa336e",
@@ -920,22 +936,6 @@
       "early_counts": 1,
       "last_ts": 1787375539.0,
       "first_ts": 1781290891.0,
-      "rank": 57
-    },
-    {
-      "id": "a417b8c082bc",
-      "name": "maxi",
-      "anon_phone": "+49 151 •••• 16",
-      "points": 65,
-      "pct": 0.24,
-      "last24h": 4,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1787419926.0,
-      "first_ts": 1781895466.0,
       "rank": 58
     },
     {
@@ -6832,7 +6832,7 @@
       "anon_phone": "+49 151 •••• 04",
       "points": 11,
       "pct": 0.04,
-      "last24h": 5,
+      "last24h": 4,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -19532,8 +19532,8 @@
       "b7f001ca29a3",
       "df6424fbdeef",
       "a5f77afeecc6",
+      "a417b8c082bc",
       "c4fe31e13b5a",
-      "5d62c27afec9",
       "efeced9c0950",
       "b24539a93d86",
       "a84987d66bdc",
@@ -19761,9 +19761,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
-      "value": 1
+      "id": "a417b8c082bc",
+      "name": "maxi",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20169,8 +20169,8 @@
     },
     {
       "date": "2026-08-22",
-      "count": 322,
-      "total": 26769
+      "count": 324,
+      "total": 26771
     }
   ],
   "hour_histogram": [
@@ -20197,9 +20197,21 @@
     2519,
     2475,
     2003,
-    1342
+    1344
   ],
   "recent": [
+    {
+      "n": 26771,
+      "id": "a417b8c082bc",
+      "name": "maxi",
+      "ts": 1787433684.0
+    },
+    {
+      "n": 26770,
+      "id": "a417b8c082bc",
+      "name": "maxi",
+      "ts": 1787433684.0
+    },
     {
       "n": 26769,
       "id": "7a2e949e25b3",
@@ -20307,25 +20319,9 @@
       "id": "764f33f39eb0",
       "name": "Maxi",
       "ts": 1787430334.0
-    },
-    {
-      "n": 26708,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1787430321.0
-    },
-    {
-      "n": 26707,
-      "id": "7402368b5c04",
-      "name": "Elias",
-      "ts": 1787429771.0
     }
   ],
   "speed_samples": [
-    [
-      1787426212,
-      26684
-    ],
     [
       1787427279,
       26688
@@ -20477,6 +20473,14 @@
     [
       1787433398,
       26769
+    ],
+    [
+      1787433684,
+      26770
+    ],
+    [
+      1787433684,
+      26771
     ]
   ]
 }
