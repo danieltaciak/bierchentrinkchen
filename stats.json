@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-22T21:33:15.743150+00:00",
+  "generated_at": "2026-08-22T21:33:47.746609+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26785,
-  "progress_pct": 2.6785,
+  "current_count": 26788,
+  "progress_pct": 2.6788,
   "num_players": 1218,
-  "total_messages": 39132,
+  "total_messages": 39134,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787434370.0,
+  "last_count_ts": 1787434396.0,
   "players": [
     {
       "id": "a5f77afeecc6",
       "name": "Nico",
       "anon_phone": "+49 170 •••• 40",
       "points": 296,
-      "pct": 1.11,
+      "pct": 1.1,
       "last24h": 7,
       "longest_streak": 3,
       "assists_given": 0,
@@ -31,7 +31,7 @@
       "name": "Nico",
       "anon_phone": "+49 160 •••• 36",
       "points": 296,
-      "pct": 1.11,
+      "pct": 1.1,
       "last24h": 4,
       "longest_streak": 4,
       "assists_given": 0,
@@ -64,7 +64,7 @@
       "anon_phone": "+49 176 •••• 42",
       "points": 244,
       "pct": 0.91,
-      "last24h": 5,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 1,
       "assists_received": 0,
@@ -875,6 +875,22 @@
       "rank": 54
     },
     {
+      "id": "b24539a93d86",
+      "name": "Dany",
+      "anon_phone": "+49 160 •••• 83",
+      "points": 66,
+      "pct": 0.25,
+      "last24h": 6,
+      "longest_streak": 2,
+      "assists_given": 2,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1787434396.0,
+      "first_ts": 1781804661.0,
+      "rank": 55
+    },
+    {
       "id": "4198299b819b",
       "name": "Moser",
       "anon_phone": "+49 151 •••• 40",
@@ -888,22 +904,6 @@
       "early_counts": 0,
       "last_ts": 1787413391.0,
       "first_ts": 1781294020.0,
-      "rank": 55
-    },
-    {
-      "id": "b24539a93d86",
-      "name": "Dany",
-      "anon_phone": "+49 160 •••• 83",
-      "points": 65,
-      "pct": 0.24,
-      "last24h": 5,
-      "longest_streak": 2,
-      "assists_given": 2,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1787433288.0,
-      "first_ts": 1781804661.0,
       "rank": 56
     },
     {
@@ -19534,7 +19534,6 @@
       "df6424fbdeef",
       "a5f77afeecc6",
       "c4fe31e13b5a",
-      "efeced9c0950",
       "b24539a93d86",
       "a84987d66bdc",
       "cec25393509e",
@@ -19542,7 +19541,8 @@
       "764f33f39eb0",
       "7a2e949e25b3",
       "2e95be7bb9ea",
-      "32a3ba719705"
+      "32a3ba719705",
+      "74c46f04e647"
     ],
     "longest_streak": [
       {
@@ -19761,8 +19761,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9b69513f73a1",
-      "name": "Andreas",
+      "id": "b24539a93d86",
+      "name": "Dany",
       "value": 1
     },
     "biggest_message": {
@@ -20169,8 +20169,8 @@
     },
     {
       "date": "2026-08-22",
-      "count": 338,
-      "total": 26785
+      "count": 341,
+      "total": 26788
     }
   ],
   "hour_histogram": [
@@ -20197,9 +20197,15 @@
     2519,
     2475,
     2003,
-    1356
+    1357
   ],
   "recent": [
+    {
+      "n": 26788,
+      "id": "b24539a93d86",
+      "name": "Dany",
+      "ts": 1787434396.0
+    },
     {
       "n": 26785,
       "id": "9b69513f73a1",
@@ -20313,12 +20319,6 @@
       "id": "728a9cae2154",
       "name": "М. Л.",
       "ts": 1787432456.0
-    },
-    {
-      "n": 26763,
-      "id": "cdac8116e93e",
-      "name": "Hännsn",
-      "ts": 1787432362.0
     }
   ],
   "speed_samples": [
@@ -20529,6 +20529,10 @@
     [
       1787434370,
       26785
+    ],
+    [
+      1787434396,
+      26788
     ]
   ]
 }
