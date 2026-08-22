@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-22T19:43:39.329692+00:00",
+  "generated_at": "2026-08-22T19:45:50.613909+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26697,
-  "progress_pct": 2.6697,
+  "current_count": 26698,
+  "progress_pct": 2.6698,
   "num_players": 1218,
-  "total_messages": 39045,
+  "total_messages": 39046,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787427795.0,
+  "last_count_ts": 1787427937.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -155,6 +155,22 @@
       "rank": 9
     },
     {
+      "id": "74c46f04e647",
+      "name": "DimA",
+      "anon_phone": "+49 160 •••• 72",
+      "points": 183,
+      "pct": 0.69,
+      "last24h": 3,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 70,
+      "early_counts": 5,
+      "last_ts": 1787427937.0,
+      "first_ts": 1781838875.0,
+      "rank": 10
+    },
+    {
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
@@ -168,22 +184,6 @@
       "early_counts": 2,
       "last_ts": 1787427464.0,
       "first_ts": 1781196449.0,
-      "rank": 10
-    },
-    {
-      "id": "74c46f04e647",
-      "name": "DimA",
-      "anon_phone": "+49 160 •••• 72",
-      "points": 182,
-      "pct": 0.68,
-      "last24h": 2,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 70,
-      "early_counts": 5,
-      "last_ts": 1787425390.0,
-      "first_ts": 1781838875.0,
       "rank": 11
     },
     {
@@ -19510,8 +19510,8 @@
       "115bd3930d45",
       "c93ed700000f",
       "bbd3041bdb62",
-      "7a2e949e25b3",
       "74c46f04e647",
+      "7a2e949e25b3",
       "45c4cce2f31c",
       "3ce6f8806201",
       "abdd765c9df5",
@@ -19761,8 +19761,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "82afa8eefe9c",
-      "name": "Tom S.",
+      "id": "74c46f04e647",
+      "name": "DimA",
       "value": 1
     },
     "biggest_message": {
@@ -20169,8 +20169,8 @@
     },
     {
       "date": "2026-08-22",
-      "count": 250,
-      "total": 26697
+      "count": 251,
+      "total": 26698
     }
   ],
   "hour_histogram": [
@@ -20195,11 +20195,17 @@
     1556,
     2113,
     2519,
-    2475,
+    2476,
     1981,
     1337
   ],
   "recent": [
+    {
+      "n": 26698,
+      "id": "74c46f04e647",
+      "name": "DimA",
+      "ts": 1787427937.0
+    },
     {
       "n": 26697,
       "id": "82afa8eefe9c",
@@ -20313,12 +20319,6 @@
       "id": "e32d26f673cb",
       "name": "Cel",
       "ts": 1787425835.0
-    },
-    {
-      "n": 26676,
-      "id": "4cf6b703c434",
-      "name": "Tom H.",
-      "ts": 1787425758.0
     }
   ],
   "speed_samples": [
@@ -20569,6 +20569,10 @@
     [
       1787427795,
       26697
+    ],
+    [
+      1787427937,
+      26698
     ]
   ]
 }
