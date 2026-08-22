@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-22T18:30:56.027160+00:00",
+  "generated_at": "2026-08-22T18:31:32.464422+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26646,
-  "progress_pct": 2.6646,
+  "current_count": 26649,
+  "progress_pct": 2.6649,
   "num_players": 1217,
-  "total_messages": 38963,
+  "total_messages": 38965,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787423426.0,
+  "last_count_ts": 1787423479.0,
   "players": [
     {
       "id": "9bf6383c58eb",
       "name": "Nico",
       "anon_phone": "+49 160 •••• 36",
-      "points": 295,
+      "points": 296,
       "pct": 1.11,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 44,
       "early_counts": 3,
-      "last_ts": 1787420058.0,
+      "last_ts": 1787423454.0,
       "first_ts": 1781357961.0,
       "rank": 1
     },
@@ -30,15 +30,15 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "anon_phone": "+49 170 •••• 40",
-      "points": 293,
+      "points": 294,
       "pct": 1.1,
-      "last24h": 6,
+      "last24h": 7,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 11,
       "early_counts": 0,
-      "last_ts": 1787420473.0,
+      "last_ts": 1787423479.0,
       "first_ts": 1781292817.0,
       "rank": 2
     },
@@ -6800,7 +6800,7 @@
       "anon_phone": "+49 171 •••• 23",
       "points": 11,
       "pct": 0.04,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -19516,16 +19516,16 @@
       "b7f001ca29a3",
       "cec25393509e",
       "5d62c27afec9",
+      "a5f77afeecc6",
       "af005e9bda68",
       "df6424fbdeef",
       "547556283acb",
       "c4fe31e13b5a",
-      "a5f77afeecc6",
       "efeced9c0950",
       "0426b9495024",
       "32a3ba719705",
       "a417b8c082bc",
-      "29a1c5fbe7db",
+      "9bf6383c58eb",
       "a654341f09d1"
     ],
     "longest_streak": [
@@ -19745,8 +19745,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "45c4cce2f31c",
-      "name": "Jakob",
+      "id": "a5f77afeecc6",
+      "name": "Nico",
       "value": 1
     },
     "biggest_message": {
@@ -20153,8 +20153,8 @@
     },
     {
       "date": "2026-08-22",
-      "count": 199,
-      "total": 26646
+      "count": 202,
+      "total": 26649
     }
   ],
   "hour_histogram": [
@@ -20178,12 +20178,24 @@
     1216,
     1556,
     2113,
-    2503,
+    2505,
     2448,
     1981,
     1337
   ],
   "recent": [
+    {
+      "n": 26649,
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "ts": 1787423479.0
+    },
+    {
+      "n": 26648,
+      "id": "9bf6383c58eb",
+      "name": "Nico",
+      "ts": 1787423454.0
+    },
     {
       "n": 26646,
       "id": "45c4cce2f31c",
@@ -20291,18 +20303,6 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "ts": 1787421631.0
-    },
-    {
-      "n": 26561,
-      "id": "4cf6b703c434",
-      "name": "Tom H.",
-      "ts": 1787420797.0
-    },
-    {
-      "n": 26560,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1787420473.0
     }
   ],
   "speed_samples": [
@@ -20457,6 +20457,14 @@
     [
       1787423426,
       26646
+    ],
+    [
+      1787423454,
+      26648
+    ],
+    [
+      1787423479,
+      26649
     ]
   ]
 }
