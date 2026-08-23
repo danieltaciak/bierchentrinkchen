@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-23T18:02:01.754942+00:00",
+  "generated_at": "2026-08-23T18:02:27.373866+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 26919,
-  "progress_pct": 2.6919,
+  "current_count": 26920,
+  "progress_pct": 2.692,
   "num_players": 1221,
-  "total_messages": 39292,
+  "total_messages": 39293,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787508110.0,
+  "last_count_ts": 1787508125.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -46,15 +46,15 @@
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "anon_phone": "+49 152 •••• 43",
-      "points": 255,
+      "points": 256,
       "pct": 0.95,
-      "last24h": 7,
+      "last24h": 8,
       "longest_streak": 6,
       "assists_given": 2,
       "assists_received": 0,
       "night_counts": 41,
       "early_counts": 0,
-      "last_ts": 1787508110.0,
+      "last_ts": 1787508125.0,
       "first_ts": 1781950367.0,
       "rank": 3
     },
@@ -19811,7 +19811,7 @@
     "current_streak": {
       "id": "21ab33dbbddf",
       "name": "Jakob",
-      "value": 1
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20222,8 +20222,8 @@
     },
     {
       "date": "2026-08-23",
-      "count": 127,
-      "total": 26919
+      "count": 128,
+      "total": 26920
     }
   ],
   "hour_histogram": [
@@ -20247,12 +20247,18 @@
     1236,
     1573,
     2124,
-    2522,
+    2523,
     2475,
     2003,
     1361
   ],
   "recent": [
+    {
+      "n": 26920,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1787508125.0
+    },
     {
       "n": 26919,
       "id": "21ab33dbbddf",
@@ -20366,12 +20372,6 @@
       "id": "1a6129668ba3",
       "name": "Christian W.",
       "ts": 1787503167.0
-    },
-    {
-      "n": 26900,
-      "id": "f7e5b41aae51",
-      "name": "Jakob",
-      "ts": 1787502708.0
     }
   ],
   "speed_samples": [
@@ -20498,6 +20498,10 @@
     [
       1787508110,
       26919
+    ],
+    [
+      1787508125,
+      26920
     ]
   ]
 }
