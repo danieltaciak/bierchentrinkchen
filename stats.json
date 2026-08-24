@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-24T19:38:52.108146+00:00",
+  "generated_at": "2026-08-24T19:39:18.767139+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27060,
-  "progress_pct": 2.706,
+  "current_count": 27061,
+  "progress_pct": 2.7061,
   "num_players": 1223,
-  "total_messages": 39460,
+  "total_messages": 39461,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787600319.0,
+  "last_count_ts": 1787600329.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -46,15 +46,15 @@
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "anon_phone": "+49 152 •••• 43",
-      "points": 263,
-      "pct": 0.97,
-      "last24h": 4,
+      "points": 264,
+      "pct": 0.98,
+      "last24h": 5,
       "longest_streak": 6,
       "assists_given": 2,
       "assists_received": 0,
       "night_counts": 42,
       "early_counts": 0,
-      "last_ts": 1787600319.0,
+      "last_ts": 1787600329.0,
       "first_ts": 1781950367.0,
       "rank": 3
     },
@@ -19843,7 +19843,7 @@
     "current_streak": {
       "id": "21ab33dbbddf",
       "name": "Jakob",
-      "value": 1
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20259,8 +20259,8 @@
     },
     {
       "date": "2026-08-24",
-      "count": 79,
-      "total": 27060
+      "count": 80,
+      "total": 27061
     }
   ],
   "hour_histogram": [
@@ -20285,11 +20285,17 @@
     1583,
     2138,
     2549,
-    2498,
+    2499,
     2011,
     1369
   ],
   "recent": [
+    {
+      "n": 27061,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1787600329.0
+    },
     {
       "n": 27060,
       "id": "21ab33dbbddf",
@@ -20403,12 +20409,6 @@
       "id": "ff8a86710b38",
       "name": "TK",
       "ts": 1787595081.0
-    },
-    {
-      "n": 27037,
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "ts": 1787595071.0
     }
   ],
   "speed_samples": [
@@ -20523,6 +20523,10 @@
     [
       1787600319,
       27060
+    ],
+    [
+      1787600329,
+      27061
     ]
   ]
 }
