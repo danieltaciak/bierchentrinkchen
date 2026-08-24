@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-24T17:24:18.934921+00:00",
+  "generated_at": "2026-08-24T17:26:56.928993+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27024,
-  "progress_pct": 2.7024,
+  "current_count": 27026,
+  "progress_pct": 2.7026,
   "num_players": 1222,
-  "total_messages": 39419,
+  "total_messages": 39420,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787592232.0,
+  "last_count_ts": 1787592386.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -670,15 +670,15 @@
       "id": "2f9108443e86",
       "name": "Philipp",
       "anon_phone": "+49 151 •••• 08",
-      "points": 83,
+      "points": 84,
       "pct": 0.31,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 19,
       "early_counts": 0,
-      "last_ts": 1787580247.0,
+      "last_ts": 1787592386.0,
       "first_ts": 1782605644.0,
       "rank": 42
     },
@@ -19825,8 +19825,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a417b8c082bc",
-      "name": "maxi",
+      "id": "2f9108443e86",
+      "name": "Philipp",
       "value": 1
     },
     "biggest_message": {
@@ -20243,8 +20243,8 @@
     },
     {
       "date": "2026-08-24",
-      "count": 43,
-      "total": 27024
+      "count": 45,
+      "total": 27026
     }
   ],
   "hour_histogram": [
@@ -20267,13 +20267,19 @@
     950,
     1244,
     1583,
-    2132,
+    2133,
     2538,
     2485,
     2011,
     1369
   ],
   "recent": [
+    {
+      "n": 27026,
+      "id": "2f9108443e86",
+      "name": "Philipp",
+      "ts": 1787592386.0
+    },
     {
       "n": 27024,
       "id": "a417b8c082bc",
@@ -20387,12 +20393,6 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1787586842.0
-    },
-    {
-      "n": 27003,
-      "id": "a417b8c082bc",
-      "name": "maxi",
-      "ts": 1787586216.0
     }
   ],
   "speed_samples": [
@@ -20483,6 +20483,10 @@
     [
       1787592232,
       27024
+    ],
+    [
+      1787592386,
+      27026
     ]
   ]
 }
