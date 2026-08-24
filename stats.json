@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-24T17:07:05.373924+00:00",
+  "generated_at": "2026-08-24T17:07:34.324759+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27019,
-  "progress_pct": 2.7019,
+  "current_count": 27021,
+  "progress_pct": 2.7021,
   "num_players": 1222,
-  "total_messages": 39414,
+  "total_messages": 39415,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787591205.0,
+  "last_count_ts": 1787591223.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -111,7 +111,7 @@
       "name": "Fabi",
       "anon_phone": "+49 175 •••• 16",
       "points": 204,
-      "pct": 0.76,
+      "pct": 0.75,
       "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
@@ -127,7 +127,7 @@
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
       "points": 204,
-      "pct": 0.76,
+      "pct": 0.75,
       "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
@@ -334,15 +334,15 @@
       "id": "078ce5ea9e04",
       "name": "Raphael",
       "anon_phone": "+49 160 •••• 59",
-      "points": 122,
-      "pct": 0.45,
-      "last24h": 0,
+      "points": 123,
+      "pct": 0.46,
+      "last24h": 1,
       "longest_streak": 7,
       "assists_given": 1,
       "assists_received": 1,
       "night_counts": 6,
       "early_counts": 1,
-      "last_ts": 1787423401.0,
+      "last_ts": 1787591223.0,
       "first_ts": 1780938428.0,
       "rank": 21
     },
@@ -19825,8 +19825,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "cb45d352f3b7",
-      "name": "Moritz B.",
+      "id": "078ce5ea9e04",
+      "name": "Raphael",
       "value": 1
     },
     "biggest_message": {
@@ -20243,8 +20243,8 @@
     },
     {
       "date": "2026-08-24",
-      "count": 38,
-      "total": 27019
+      "count": 40,
+      "total": 27021
     }
   ],
   "hour_histogram": [
@@ -20267,13 +20267,19 @@
     950,
     1244,
     1583,
-    2128,
+    2129,
     2538,
     2485,
     2011,
     1369
   ],
   "recent": [
+    {
+      "n": 27021,
+      "id": "078ce5ea9e04",
+      "name": "Raphael",
+      "ts": 1787591223.0
+    },
     {
       "n": 27019,
       "id": "cb45d352f3b7",
@@ -20387,12 +20393,6 @@
       "id": "a417b8c082bc",
       "name": "maxi",
       "ts": 1787584659.0
-    },
-    {
-      "n": 26999,
-      "id": "e3154dc3703a",
-      "name": "Nicky",
-      "ts": 1787584626.0
     }
   ],
   "speed_samples": [
@@ -20483,6 +20483,10 @@
     [
       1787591205,
       27019
+    ],
+    [
+      1787591223,
+      27021
     ]
   ]
 }
