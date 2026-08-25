@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-25T14:05:33.436921+00:00",
+  "generated_at": "2026-08-25T14:18:59.859462+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27128,
-  "progress_pct": 2.7128,
+  "current_count": 27129,
+  "progress_pct": 2.7129,
   "num_players": 1227,
-  "total_messages": 39543,
+  "total_messages": 39545,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787666721.0,
+  "last_count_ts": 1787667517.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -160,7 +160,7 @@
       "anon_phone": "+49 152 •••• 46",
       "points": 188,
       "pct": 0.69,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 5,
       "assists_given": 22,
       "assists_received": 7,
@@ -286,15 +286,15 @@
       "id": "776f4d602138",
       "name": "Korbi",
       "anon_phone": "+49 176 •••• 48",
-      "points": 129,
+      "points": 130,
       "pct": 0.48,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 4,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1786823655.0,
+      "last_ts": 1787667517.0,
       "first_ts": 1781456625.0,
       "rank": 18
     },
@@ -19905,8 +19905,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
+      "id": "776f4d602138",
+      "name": "Korbi",
       "value": 1
     },
     "biggest_message": {
@@ -20328,8 +20328,8 @@
     },
     {
       "date": "2026-08-25",
-      "count": 37,
-      "total": 27128
+      "count": 38,
+      "total": 27129
     }
   ],
   "hour_histogram": [
@@ -20349,7 +20349,7 @@
     493,
     653,
     656,
-    952,
+    953,
     1244,
     1583,
     2138,
@@ -20359,6 +20359,12 @@
     1374
   ],
   "recent": [
+    {
+      "n": 27129,
+      "id": "776f4d602138",
+      "name": "Korbi",
+      "ts": 1787667517.0
+    },
     {
       "n": 27128,
       "id": "efeced9c0950",
@@ -20472,12 +20478,6 @@
       "id": "e3154dc3703a",
       "name": "Nicky",
       "ts": 1787648023.0
-    },
-    {
-      "n": 27109,
-      "id": "e3154dc3703a",
-      "name": "Nicky",
-      "ts": 1787648023.0
     }
   ],
   "speed_samples": [
@@ -20500,6 +20500,10 @@
     [
       1787666721,
       27128
+    ],
+    [
+      1787667517,
+      27129
     ]
   ]
 }
