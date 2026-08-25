@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-25T17:28:20.749753+00:00",
+  "generated_at": "2026-08-25T17:29:09.443460+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27162,
-  "progress_pct": 2.7162,
+  "current_count": 27163,
+  "progress_pct": 2.7163,
   "num_players": 1228,
-  "total_messages": 39578,
+  "total_messages": 39579,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787678882.0,
+  "last_count_ts": 1787678909.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1051,6 +1051,22 @@
       "rank": 65
     },
     {
+      "id": "e32d26f673cb",
+      "name": "Cel",
+      "anon_phone": "+49 175 •••• 14",
+      "points": 61,
+      "pct": 0.22,
+      "last24h": 2,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 1,
+      "night_counts": 15,
+      "early_counts": 0,
+      "last_ts": 1787678909.0,
+      "first_ts": 1781376503.0,
+      "rank": 66
+    },
+    {
       "id": "b78c86671efc",
       "name": "Johannes",
       "anon_phone": "+49 175 •••• 06",
@@ -1064,22 +1080,6 @@
       "early_counts": 0,
       "last_ts": 1786212761.0,
       "first_ts": 1781362675.0,
-      "rank": 66
-    },
-    {
-      "id": "e32d26f673cb",
-      "name": "Cel",
-      "anon_phone": "+49 175 •••• 14",
-      "points": 60,
-      "pct": 0.22,
-      "last24h": 1,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 1,
-      "night_counts": 15,
-      "early_counts": 0,
-      "last_ts": 1787594861.0,
-      "first_ts": 1781376503.0,
       "rank": 67
     },
     {
@@ -19921,8 +19921,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "e32d26f673cb",
+      "name": "Cel",
       "value": 1
     },
     "biggest_message": {
@@ -20344,8 +20344,8 @@
     },
     {
       "date": "2026-08-25",
-      "count": 71,
-      "total": 27162
+      "count": 72,
+      "total": 27163
     }
   ],
   "hour_histogram": [
@@ -20368,13 +20368,19 @@
     957,
     1255,
     1591,
-    2148,
+    2149,
     2549,
     2504,
     2020,
     1374
   ],
   "recent": [
+    {
+      "n": 27163,
+      "id": "e32d26f673cb",
+      "name": "Cel",
+      "ts": 1787678909.0
+    },
     {
       "n": 27162,
       "id": "a5f77afeecc6",
@@ -20488,12 +20494,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1787673557.0
-    },
-    {
-      "n": 27143,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1787673557.0
     }
   ],
   "speed_samples": [
@@ -20596,6 +20596,10 @@
     [
       1787678882,
       27162
+    ],
+    [
+      1787678909,
+      27163
     ]
   ]
 }
