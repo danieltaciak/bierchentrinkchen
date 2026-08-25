@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-25T19:38:57.676333+00:00",
+  "generated_at": "2026-08-25T19:41:02.317611+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27202,
-  "progress_pct": 2.7202,
+  "current_count": 27203,
+  "progress_pct": 2.7203,
   "num_players": 1229,
-  "total_messages": 39625,
+  "total_messages": 39626,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787686719.0,
+  "last_count_ts": 1787686847.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -142,15 +142,15 @@
       "id": "bbd3041bdb62",
       "name": "Flex",
       "anon_phone": "+49 176 •••• 13",
-      "points": 197,
-      "pct": 0.72,
-      "last24h": 0,
+      "points": 198,
+      "pct": 0.73,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 30,
       "assists_received": 1,
       "night_counts": 17,
       "early_counts": 0,
-      "last_ts": 1787498292.0,
+      "last_ts": 1787686847.0,
       "first_ts": 1780939639.0,
       "rank": 9
     },
@@ -19937,8 +19937,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "544f5d661c10",
-      "name": "Lukas",
+      "id": "bbd3041bdb62",
+      "name": "Flex",
       "value": 1
     },
     "biggest_message": {
@@ -20360,8 +20360,8 @@
     },
     {
       "date": "2026-08-25",
-      "count": 111,
-      "total": 27202
+      "count": 112,
+      "total": 27203
     }
   ],
   "hour_histogram": [
@@ -20386,11 +20386,17 @@
     1591,
     2156,
     2566,
-    2514,
+    2515,
     2020,
     1374
   ],
   "recent": [
+    {
+      "n": 27203,
+      "id": "bbd3041bdb62",
+      "name": "Flex",
+      "ts": 1787686847.0
+    },
     {
       "n": 27202,
       "id": "544f5d661c10",
@@ -20504,19 +20510,9 @@
       "id": "0c322a010ec4",
       "name": "Andrea",
       "ts": 1787683184.0
-    },
-    {
-      "n": 27181,
-      "id": "79b2373fde61",
-      "name": "Niggo",
-      "ts": 1787683001.0
     }
   ],
   "speed_samples": [
-    [
-      1787679570,
-      27166
-    ],
     [
       1787679948,
       27167
@@ -20640,6 +20636,10 @@
     [
       1787686719,
       27202
+    ],
+    [
+      1787686847,
+      27203
     ]
   ]
 }
