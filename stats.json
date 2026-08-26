@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-26T21:12:53.709576+00:00",
+  "generated_at": "2026-08-26T21:23:41.530791+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27342,
-  "progress_pct": 2.7342,
+  "current_count": 27343,
+  "progress_pct": 2.7343,
   "num_players": 1231,
-  "total_messages": 39790,
+  "total_messages": 39791,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787778761.0,
+  "last_count_ts": 1787779395.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -144,7 +144,7 @@
       "anon_phone": "+49 176 •••• 13",
       "points": 199,
       "pct": 0.73,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 30,
       "assists_received": 1,
@@ -686,15 +686,15 @@
       "id": "2f9108443e86",
       "name": "Philipp",
       "anon_phone": "+49 151 •••• 08",
-      "points": 84,
+      "points": 85,
       "pct": 0.31,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 19,
       "early_counts": 0,
-      "last_ts": 1787592386.0,
+      "last_ts": 1787779395.0,
       "first_ts": 1782605644.0,
       "rank": 43
     },
@@ -19969,8 +19969,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
+      "id": "2f9108443e86",
+      "name": "Philipp",
       "value": 1
     },
     "biggest_message": {
@@ -20397,8 +20397,8 @@
     },
     {
       "date": "2026-08-26",
-      "count": 115,
-      "total": 27342
+      "count": 116,
+      "total": 27343
     }
   ],
   "hour_histogram": [
@@ -20425,9 +20425,15 @@
     2577,
     2534,
     2038,
-    1380
+    1381
   ],
   "recent": [
+    {
+      "n": 27343,
+      "id": "2f9108443e86",
+      "name": "Philipp",
+      "ts": 1787779395.0
+    },
     {
       "n": 27342,
       "id": "b7f001ca29a3",
@@ -20541,27 +20547,9 @@
       "id": "fc8d9a99e2d5",
       "name": "Matthias G.",
       "ts": 1787771365.0
-    },
-    {
-      "n": 27321,
-      "id": "fc8d9a99e2d5",
-      "name": "Matthias G.",
-      "ts": 1787771365.0
     }
   ],
   "speed_samples": [
-    [
-      1787771767,
-      27323
-    ],
-    [
-      1787771872,
-      27324
-    ],
-    [
-      1787771872,
-      27325
-    ],
     [
       1787772614,
       27327
@@ -20621,6 +20609,10 @@
     [
       1787778761,
       27342
+    ],
+    [
+      1787779395,
+      27343
     ]
   ]
 }
