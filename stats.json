@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-27T19:45:34.212823+00:00",
+  "generated_at": "2026-08-27T19:47:35.991402+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27459,
-  "progress_pct": 2.7459,
+  "current_count": 27464,
+  "progress_pct": 2.7464,
   "num_players": 1233,
-  "total_messages": 39936,
+  "total_messages": 39940,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787859890.0,
+  "last_count_ts": 1787860044.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -46,15 +46,15 @@
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "anon_phone": "+49 152 •••• 43",
-      "points": 272,
-      "pct": 0.99,
-      "last24h": 0,
+      "points": 275,
+      "pct": 1.0,
+      "last24h": 3,
       "longest_streak": 6,
       "assists_given": 2,
       "assists_received": 0,
       "night_counts": 42,
       "early_counts": 0,
-      "last_ts": 1787687715.0,
+      "last_ts": 1787860044.0,
       "first_ts": 1781950367.0,
       "rank": 3
     },
@@ -206,15 +206,15 @@
       "id": "3ce6f8806201",
       "name": "Simon S.",
       "anon_phone": "+49 152 •••• 84",
-      "points": 139,
+      "points": 141,
       "pct": 0.51,
-      "last24h": 0,
+      "last24h": 2,
       "longest_streak": 4,
       "assists_given": 6,
       "assists_received": 3,
       "night_counts": 4,
       "early_counts": 5,
-      "last_ts": 1786731332.0,
+      "last_ts": 1787860024.0,
       "first_ts": 1781289501.0,
       "rank": 13
     },
@@ -19780,9 +19780,9 @@
       "6ae8b7629ff6",
       "728a9cae2154",
       "c93ed700000f",
+      "21ab33dbbddf",
       "e3154dc3703a",
-      "2d57122bd227",
-      "9065b5c221f9"
+      "2d57122bd227"
     ],
     "longest_streak": [
       {
@@ -20001,9 +20001,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9c1236c12676",
-      "name": "fritze",
-      "value": 2
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "value": 3
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20434,8 +20434,8 @@
     },
     {
       "date": "2026-08-27",
-      "count": 113,
-      "total": 27459
+      "count": 118,
+      "total": 27464
     }
   ],
   "hour_histogram": [
@@ -20460,11 +20460,41 @@
     1618,
     2198,
     2593,
-    2549,
+    2554,
     2038,
     1384
   ],
   "recent": [
+    {
+      "n": 27464,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1787860044.0
+    },
+    {
+      "n": 27463,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1787860044.0
+    },
+    {
+      "n": 27462,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1787860031.0
+    },
+    {
+      "n": 27461,
+      "id": "3ce6f8806201",
+      "name": "Simon S.",
+      "ts": 1787860024.0
+    },
+    {
+      "n": 27460,
+      "id": "3ce6f8806201",
+      "name": "Simon S.",
+      "ts": 1787860015.0
+    },
     {
       "n": 27459,
       "id": "9c1236c12676",
@@ -20554,43 +20584,9 @@
       "id": "c93ed700000f",
       "name": "linus",
       "ts": 1787857571.0
-    },
-    {
-      "n": 27440,
-      "id": "2d61d5612db8",
-      "name": "Wolfgang E.",
-      "ts": 1787857127.0
-    },
-    {
-      "n": 27439,
-      "id": "2e95be7bb9ea",
-      "name": "Luis",
-      "ts": 1787857042.0
-    },
-    {
-      "n": 27438,
-      "id": "9c0968e6fd9c",
-      "name": "antonia",
-      "ts": 1787856874.0
-    },
-    {
-      "n": 27437,
-      "id": "1a6129668ba3",
-      "name": "Christian W.",
-      "ts": 1787856782.0
-    },
-    {
-      "n": 27435,
-      "id": "8c19ca275648",
-      "name": "Henrik H.",
-      "ts": 1787856456.0
     }
   ],
   "speed_samples": [
-    [
-      1787852765,
-      27418
-    ],
     [
       1787852947,
       27419
@@ -20718,6 +20714,26 @@
     [
       1787859890,
       27459
+    ],
+    [
+      1787860015,
+      27460
+    ],
+    [
+      1787860024,
+      27461
+    ],
+    [
+      1787860031,
+      27462
+    ],
+    [
+      1787860044,
+      27463
+    ],
+    [
+      1787860044,
+      27464
     ]
   ]
 }
