@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-27T22:41:50.850073+00:00",
+  "generated_at": "2026-08-27T22:53:37.657724+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27521,
-  "progress_pct": 2.7521,
+  "current_count": 27522,
+  "progress_pct": 2.7522,
   "num_players": 1233,
-  "total_messages": 39992,
+  "total_messages": 39993,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787870489.0,
+  "last_count_ts": 1787871196.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -94,15 +94,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 213,
-      "pct": 0.77,
-      "last24h": 8,
+      "points": 214,
+      "pct": 0.78,
+      "last24h": 9,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
-      "night_counts": 25,
+      "night_counts": 26,
       "early_counts": 2,
-      "last_ts": 1787869345.0,
+      "last_ts": 1787871196.0,
       "first_ts": 1781212818.0,
       "rank": 6
     },
@@ -19932,7 +19932,7 @@
       {
         "id": "c93ed700000f",
         "name": "linus",
-        "value": 25
+        "value": 26
       },
       {
         "id": "82a6be011a09",
@@ -20001,9 +20001,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9941ce960633",
-      "name": "Max",
-      "value": 2
+      "id": "c93ed700000f",
+      "name": "linus",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20439,12 +20439,12 @@
     },
     {
       "date": "2026-08-28",
-      "count": 6,
-      "total": 27521
+      "count": 7,
+      "total": 27522
     }
   ],
   "hour_histogram": [
-    792,
+    793,
     476,
     247,
     146,
@@ -20470,6 +20470,12 @@
     1395
   ],
   "recent": [
+    {
+      "n": 27522,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1787871196.0
+    },
     {
       "n": 27521,
       "id": "9941ce960633",
@@ -20583,23 +20589,9 @@
       "id": "7e26820c799b",
       "name": "Fabian",
       "ts": 1787863520.0
-    },
-    {
-      "n": 27500,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1787863244.0
     }
   ],
   "speed_samples": [
-    [
-      1787863520,
-      27502
-    ],
-    [
-      1787863535,
-      27503
-    ],
     [
       1787864937,
       27504
@@ -20667,6 +20659,10 @@
     [
       1787870489,
       27521
+    ],
+    [
+      1787871196,
+      27522
     ]
   ]
 }
