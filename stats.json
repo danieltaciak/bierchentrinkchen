@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-28T18:54:12.870572+00:00",
+  "generated_at": "2026-08-28T18:57:02.927585+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27680,
-  "progress_pct": 2.768,
+  "current_count": 27681,
+  "progress_pct": 2.7681,
   "num_players": 1242,
-  "total_messages": 40185,
+  "total_messages": 40186,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787943236.0,
+  "last_count_ts": 1787943395.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1280,7 +1280,7 @@
       "anon_phone": "+49 179 •••• 67",
       "points": 56,
       "pct": 0.2,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -1611,6 +1611,22 @@
       "rank": 100
     },
     {
+      "id": "236b75edd620",
+      "name": "Fabi",
+      "anon_phone": "+49 176 •••• 91",
+      "points": 43,
+      "pct": 0.16,
+      "last24h": 1,
+      "longest_streak": 1,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1787943395.0,
+      "first_ts": 1781222722.0,
+      "rank": 101
+    },
+    {
       "id": "7713abfa927e",
       "name": "Philipp",
       "anon_phone": "+49 157 •••• 59",
@@ -1624,7 +1640,7 @@
       "early_counts": 2,
       "last_ts": 1786200740.0,
       "first_ts": 1781292925.0,
-      "rank": 101
+      "rank": 102
     },
     {
       "id": "c03ae4e7c448",
@@ -1640,7 +1656,7 @@
       "early_counts": 0,
       "last_ts": 1787499645.0,
       "first_ts": 1782230703.0,
-      "rank": 102
+      "rank": 103
     },
     {
       "id": "43140b6a3d00",
@@ -1656,7 +1672,7 @@
       "early_counts": 0,
       "last_ts": 1786458982.0,
       "first_ts": 1781371137.0,
-      "rank": 103
+      "rank": 104
     },
     {
       "id": "d87796b1f27f",
@@ -1672,7 +1688,7 @@
       "early_counts": 2,
       "last_ts": 1787477392.0,
       "first_ts": 1782144951.0,
-      "rank": 104
+      "rank": 105
     },
     {
       "id": "7402368b5c04",
@@ -1688,22 +1704,6 @@
       "early_counts": 0,
       "last_ts": 1787429771.0,
       "first_ts": 1781301923.0,
-      "rank": 105
-    },
-    {
-      "id": "236b75edd620",
-      "name": "Fabi",
-      "anon_phone": "+49 176 •••• 91",
-      "points": 42,
-      "pct": 0.15,
-      "last24h": 0,
-      "longest_streak": 1,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1787415700.0,
-      "first_ts": 1781222722.0,
       "rank": 106
     },
     {
@@ -19920,13 +19920,13 @@
       "a5f77afeecc6",
       "1b54cda19789",
       "80051c60262e",
-      "9c0968e6fd9c",
       "9bf6383c58eb",
       "21ab33dbbddf",
       "df6424fbdeef",
       "03772471f186",
       "8d791dd5d387",
-      "aa0156afe213"
+      "aa0156afe213",
+      "9c0968e6fd9c"
     ],
     "longest_streak": [
       {
@@ -20145,8 +20145,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "1a6129668ba3",
-      "name": "Christian W.",
+      "id": "236b75edd620",
+      "name": "Fabi",
       "value": 1
     },
     "biggest_message": {
@@ -20583,8 +20583,8 @@
     },
     {
       "date": "2026-08-28",
-      "count": 165,
-      "total": 27680
+      "count": 166,
+      "total": 27681
     }
   ],
   "hour_histogram": [
@@ -20608,12 +20608,18 @@
     1287,
     1633,
     2225,
-    2614,
+    2615,
     2555,
     2053,
     1395
   ],
   "recent": [
+    {
+      "n": 27681,
+      "id": "236b75edd620",
+      "name": "Fabi",
+      "ts": 1787943395.0
+    },
     {
       "n": 27680,
       "id": "1a6129668ba3",
@@ -20727,12 +20733,6 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "ts": 1787940183.0
-    },
-    {
-      "n": 27653,
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
-      "ts": 1787940169.0
     }
   ],
   "speed_samples": [
@@ -20927,6 +20927,10 @@
     [
       1787943236,
       27680
+    ],
+    [
+      1787943395,
+      27681
     ]
   ]
 }
