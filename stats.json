@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-28T16:15:06.250808+00:00",
+  "generated_at": "2026-08-28T16:19:51.314106+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27610,
-  "progress_pct": 2.761,
+  "current_count": 27611,
+  "progress_pct": 2.7611,
   "num_players": 1234,
-  "total_messages": 40088,
+  "total_messages": 40091,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787933693.0,
+  "last_count_ts": 1787933964.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -2267,6 +2267,22 @@
       "rank": 141
     },
     {
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "anon_phone": "+49 151 •••• 00",
+      "points": 34,
+      "pct": 0.12,
+      "last24h": 5,
+      "longest_streak": 7,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1787933964.0,
+      "first_ts": 1786728676.0,
+      "rank": 142
+    },
+    {
       "id": "d5c7bea972aa",
       "name": "Tim",
       "anon_phone": "+49 151 •••• 12",
@@ -2280,7 +2296,7 @@
       "early_counts": 3,
       "last_ts": 1782900693.0,
       "first_ts": 1781439555.0,
-      "rank": 142
+      "rank": 143
     },
     {
       "id": "2f8dd4b32d6d",
@@ -2296,7 +2312,7 @@
       "early_counts": 0,
       "last_ts": 1785958029.0,
       "first_ts": 1781188765.0,
-      "rank": 143
+      "rank": 144
     },
     {
       "id": "e08653358b9b",
@@ -2312,7 +2328,7 @@
       "early_counts": 0,
       "last_ts": 1785091617.0,
       "first_ts": 1781886526.0,
-      "rank": 144
+      "rank": 145
     },
     {
       "id": "255c7cae2bae",
@@ -2328,7 +2344,7 @@
       "early_counts": 3,
       "last_ts": 1787601074.0,
       "first_ts": 1781206194.0,
-      "rank": 145
+      "rank": 146
     },
     {
       "id": "46ca77eac0f2",
@@ -2344,7 +2360,7 @@
       "early_counts": 0,
       "last_ts": 1783118270.0,
       "first_ts": 1781109107.0,
-      "rank": 146
+      "rank": 147
     },
     {
       "id": "b124198b08c5",
@@ -2360,22 +2376,6 @@
       "early_counts": 2,
       "last_ts": 1787349584.0,
       "first_ts": 1781889284.0,
-      "rank": 147
-    },
-    {
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "anon_phone": "+49 151 •••• 00",
-      "points": 33,
-      "pct": 0.12,
-      "last24h": 4,
-      "longest_streak": 7,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1787930404.0,
-      "first_ts": 1786728676.0,
       "rank": 148
     },
     {
@@ -19791,11 +19791,11 @@
       "0c322a010ec4",
       "a5f77afeecc6",
       "03772471f186",
+      "06ef1dbdad22",
       "1a6129668ba3",
       "9c0968e6fd9c",
       "21ab33dbbddf",
       "8d791dd5d387",
-      "06ef1dbdad22",
       "1b54cda19789",
       "728a9cae2154",
       "81baf6634942"
@@ -20017,8 +20017,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "259d3798a142",
-      "name": "Tom",
+      "id": "06ef1dbdad22",
+      "name": "Selin",
       "value": 1
     },
     "biggest_message": {
@@ -20455,8 +20455,8 @@
     },
     {
       "date": "2026-08-28",
-      "count": 95,
-      "total": 27610
+      "count": 96,
+      "total": 27611
     }
   ],
   "hour_histogram": [
@@ -20478,7 +20478,7 @@
     676,
     979,
     1287,
-    1621,
+    1622,
     2198,
     2593,
     2555,
@@ -20486,6 +20486,12 @@
     1395
   ],
   "recent": [
+    {
+      "n": 27611,
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "ts": 1787933964.0
+    },
     {
       "n": 27610,
       "id": "259d3798a142",
@@ -20599,19 +20605,9 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "ts": 1787930063.0
-    },
-    {
-      "n": 27591,
-      "id": "81baf6634942",
-      "name": "Samu",
-      "ts": 1787930004.0
     }
   ],
   "speed_samples": [
-    [
-      1787926614,
-      27580
-    ],
     [
       1787927217,
       27581
@@ -20731,6 +20727,10 @@
     [
       1787933693,
       27610
+    ],
+    [
+      1787933964,
+      27611
     ]
   ]
 }
