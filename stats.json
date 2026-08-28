@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-28T17:07:21.644698+00:00",
+  "generated_at": "2026-08-28T17:09:08.524058+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27624,
-  "progress_pct": 2.7624,
+  "current_count": 27625,
+  "progress_pct": 2.7625,
   "num_players": 1235,
-  "total_messages": 40108,
+  "total_messages": 40111,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787936829.0,
+  "last_count_ts": 1787936936.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -334,15 +334,15 @@
       "id": "cec25393509e",
       "name": "Jordan",
       "anon_phone": "+49 162 •••• 18",
-      "points": 124,
+      "points": 125,
       "pct": 0.45,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 5,
       "early_counts": 1,
-      "last_ts": 1787931015.0,
+      "last_ts": 1787936936.0,
       "first_ts": 1781100515.0,
       "rank": 21
     },
@@ -20033,8 +20033,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "f0c3051379f9",
-      "name": "raphi",
+      "id": "cec25393509e",
+      "name": "Jordan",
       "value": 1
     },
     "biggest_message": {
@@ -20471,8 +20471,8 @@
     },
     {
       "date": "2026-08-28",
-      "count": 109,
-      "total": 27624
+      "count": 110,
+      "total": 27625
     }
   ],
   "hour_histogram": [
@@ -20495,13 +20495,19 @@
     979,
     1287,
     1633,
-    2200,
+    2201,
     2593,
     2555,
     2053,
     1395
   ],
   "recent": [
+    {
+      "n": 27625,
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "ts": 1787936936.0
+    },
     {
       "n": 27624,
       "id": "f0c3051379f9",
@@ -20615,23 +20621,9 @@
       "id": "29ed47d0d01c",
       "name": "Philipp",
       "ts": 1787932730.0
-    },
-    {
-      "n": 27605,
-      "id": "80051c60262e",
-      "name": "Fabi",
-      "ts": 1787932704.0
     }
   ],
   "speed_samples": [
-    [
-      1787929654,
-      27589
-    ],
-    [
-      1787929654,
-      27590
-    ],
     [
       1787930004,
       27591
@@ -20767,6 +20759,10 @@
     [
       1787936829,
       27624
+    ],
+    [
+      1787936936,
+      27625
     ]
   ]
 }
