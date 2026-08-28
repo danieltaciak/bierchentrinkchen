@@ -1,22 +1,38 @@
 {
-  "generated_at": "2026-08-28T13:59:25.301756+00:00",
+  "generated_at": "2026-08-28T14:17:21.882724+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27579,
-  "progress_pct": 2.7579,
+  "current_count": 27580,
+  "progress_pct": 2.758,
   "num_players": 1234,
-  "total_messages": 40053,
+  "total_messages": 40054,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1787925532.0,
+  "last_count_ts": 1787926614.0,
   "players": [
+    {
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "anon_phone": "+49 170 •••• 40",
+      "points": 327,
+      "pct": 1.19,
+      "last24h": 4,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 16,
+      "early_counts": 0,
+      "last_ts": 1787926614.0,
+      "first_ts": 1781292817.0,
+      "rank": 1
+    },
     {
       "id": "9bf6383c58eb",
       "name": "Nico",
       "anon_phone": "+49 160 •••• 36",
       "points": 327,
       "pct": 1.19,
-      "last24h": 11,
+      "last24h": 10,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 2,
@@ -24,22 +40,6 @@
       "early_counts": 3,
       "last_ts": 1787872817.0,
       "first_ts": 1781357961.0,
-      "rank": 1
-    },
-    {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "anon_phone": "+49 170 •••• 40",
-      "points": 326,
-      "pct": 1.18,
-      "last24h": 3,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 16,
-      "early_counts": 0,
-      "last_ts": 1787866886.0,
-      "first_ts": 1781292817.0,
       "rank": 2
     },
     {
@@ -3696,7 +3696,7 @@
       "anon_phone": "+49 152 •••• 17",
       "points": 21,
       "pct": 0.08,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -13040,7 +13040,7 @@
       "anon_phone": "+49 160 •••• 57",
       "points": 3,
       "pct": 0.01,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -19757,8 +19757,8 @@
   ],
   "leaderboards": {
     "all_time": [
-      "9bf6383c58eb",
       "a5f77afeecc6",
+      "9bf6383c58eb",
       "21ab33dbbddf",
       "efeced9c0950",
       "82a6be011a09",
@@ -19784,21 +19784,21 @@
       "0d1fa29f9e5e"
     ],
     "last_24h": [
-      "9bf6383c58eb",
       "b7f001ca29a3",
+      "9bf6383c58eb",
       "c93ed700000f",
       "0c322a010ec4",
       "cec25393509e",
       "efeced9c0950",
       "1a6129668ba3",
+      "a5f77afeecc6",
       "9c0968e6fd9c",
-      "bcef54d4d1fe",
       "7a2e949e25b3",
       "728a9cae2154",
-      "a5f77afeecc6",
       "03772471f186",
       "21ab33dbbddf",
-      "dc330d40fb11"
+      "dc330d40fb11",
+      "683f48283a06"
     ],
     "longest_streak": [
       {
@@ -20017,8 +20017,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "8d791dd5d387",
-      "name": "Pascal",
+      "id": "a5f77afeecc6",
+      "name": "Nico",
       "value": 1
     },
     "biggest_message": {
@@ -20455,8 +20455,8 @@
     },
     {
       "date": "2026-08-28",
-      "count": 64,
-      "total": 27579
+      "count": 65,
+      "total": 27580
     }
   ],
   "hour_histogram": [
@@ -20476,7 +20476,7 @@
     506,
     664,
     676,
-    972,
+    973,
     1266,
     1618,
     2198,
@@ -20486,6 +20486,12 @@
     1395
   ],
   "recent": [
+    {
+      "n": 27580,
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "ts": 1787926614.0
+    },
     {
       "n": 27579,
       "id": "8d791dd5d387",
@@ -20599,27 +20605,9 @@
       "id": "1b54cda19789",
       "name": "Manu",
       "ts": 1787918417.0
-    },
-    {
-      "n": 27556,
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "ts": 1787918120.0
     }
   ],
   "speed_samples": [
-    [
-      1787918417,
-      27557
-    ],
-    [
-      1787918500,
-      27558
-    ],
-    [
-      1787918850,
-      27559
-    ],
     [
       1787920440,
       27561
@@ -20683,6 +20671,10 @@
     [
       1787925532,
       27579
+    ],
+    [
+      1787926614,
+      27580
     ]
   ]
 }
