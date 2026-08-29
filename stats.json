@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-29T19:55:09.645964+00:00",
+  "generated_at": "2026-08-29T19:56:28.543041+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27976,
-  "progress_pct": 2.7976,
+  "current_count": 27977,
+  "progress_pct": 2.7977,
   "num_players": 1243,
-  "total_messages": 40482,
+  "total_messages": 40483,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788033285.0,
+  "last_count_ts": 1788033372.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -448,7 +448,7 @@
       "anon_phone": "+49 171 •••• 26",
       "points": 110,
       "pct": 0.39,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
@@ -638,15 +638,15 @@
       "id": "4cf6b703c434",
       "name": "Tom H.",
       "anon_phone": "+49 151 •••• 05",
-      "points": 92,
+      "points": 93,
       "pct": 0.33,
-      "last24h": 4,
+      "last24h": 5,
       "longest_streak": 5,
       "assists_given": 3,
       "assists_received": 2,
       "night_counts": 2,
       "early_counts": 5,
-      "last_ts": 1788031769.0,
+      "last_ts": 1788033372.0,
       "first_ts": 1781375272.0,
       "rank": 40
     },
@@ -19942,7 +19942,7 @@
       "cec25393509e",
       "2d57122bd227",
       "ed68d0e3bcd5",
-      "b7f001ca29a3"
+      "4cf6b703c434"
     ],
     "longest_streak": [
       {
@@ -20161,8 +20161,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
+      "id": "4cf6b703c434",
+      "name": "Tom H.",
       "value": 1
     },
     "biggest_message": {
@@ -20604,8 +20604,8 @@
     },
     {
       "date": "2026-08-29",
-      "count": 252,
-      "total": 27976
+      "count": 253,
+      "total": 27977
     }
   ],
   "hour_histogram": [
@@ -20630,11 +20630,17 @@
     1661,
     2249,
     2641,
-    2598,
+    2599,
     2068,
     1402
   ],
   "recent": [
+    {
+      "n": 27977,
+      "id": "4cf6b703c434",
+      "name": "Tom H.",
+      "ts": 1788033372.0
+    },
     {
       "n": 27976,
       "id": "3ce6f8806201",
@@ -20748,19 +20754,9 @@
       "id": "03772471f186",
       "name": "Miri",
       "ts": 1788031486.0
-    },
-    {
-      "n": 27955,
-      "id": "b0b07cec9753",
-      "name": "Pata",
-      "ts": 1788030790.0
     }
   ],
   "speed_samples": [
-    [
-      1788026087,
-      27918
-    ],
     [
       1788026544,
       27920
@@ -20960,6 +20956,10 @@
     [
       1788033285,
       27976
+    ],
+    [
+      1788033372,
+      27977
     ]
   ]
 }
