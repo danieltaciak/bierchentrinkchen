@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-29T18:15:15.923691+00:00",
+  "generated_at": "2026-08-29T18:15:44.839440+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 27934,
-  "progress_pct": 2.7934,
+  "current_count": 27935,
+  "progress_pct": 2.7935,
   "num_players": 1243,
-  "total_messages": 40430,
+  "total_messages": 40433,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788027303.0,
+  "last_count_ts": 1788027313.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -688,7 +688,7 @@
       "anon_phone": "+49 151 •••• 72",
       "points": 87,
       "pct": 0.31,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -1083,6 +1083,22 @@
       "rank": 67
     },
     {
+      "id": "9c0968e6fd9c",
+      "name": "antonia",
+      "anon_phone": "+49 179 •••• 67",
+      "points": 62,
+      "pct": 0.22,
+      "last24h": 6,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 8,
+      "early_counts": 0,
+      "last_ts": 1788027313.0,
+      "first_ts": 1781375506.0,
+      "rank": 68
+    },
+    {
       "id": "cdac8116e93e",
       "name": "Hännsn",
       "anon_phone": "+49 176 •••• 42",
@@ -1096,7 +1112,7 @@
       "early_counts": 0,
       "last_ts": 1787930219.0,
       "first_ts": 1781451292.0,
-      "rank": 68
+      "rank": 69
     },
     {
       "id": "f9dbd149dd64",
@@ -1112,7 +1128,7 @@
       "early_counts": 2,
       "last_ts": 1787859037.0,
       "first_ts": 1781905311.0,
-      "rank": 69
+      "rank": 70
     },
     {
       "id": "cee931f2a642",
@@ -1128,7 +1144,7 @@
       "early_counts": 1,
       "last_ts": 1787853855.0,
       "first_ts": 1781777121.0,
-      "rank": 70
+      "rank": 71
     },
     {
       "id": "d4a8c05c6550",
@@ -1144,22 +1160,6 @@
       "early_counts": 1,
       "last_ts": 1787601260.0,
       "first_ts": 1784062805.0,
-      "rank": 71
-    },
-    {
-      "id": "9c0968e6fd9c",
-      "name": "antonia",
-      "anon_phone": "+49 179 •••• 67",
-      "points": 61,
-      "pct": 0.22,
-      "last24h": 5,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 8,
-      "early_counts": 0,
-      "last_ts": 1788024717.0,
-      "first_ts": 1781375506.0,
       "rank": 72
     },
     {
@@ -19936,13 +19936,13 @@
       "81baf6634942",
       "4655dbc48810",
       "9b2127152bcd",
+      "9c0968e6fd9c",
       "9bf6383c58eb",
       "cec25393509e",
       "2d57122bd227",
-      "9c0968e6fd9c",
       "ed68d0e3bcd5",
-      "8c19ca275648",
-      "c4fe31e13b5a"
+      "c4fe31e13b5a",
+      "38fd4a51d560"
     ],
     "longest_streak": [
       {
@@ -20161,8 +20161,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "e3bf5719b998",
-      "name": "WastlSepp",
+      "id": "9c0968e6fd9c",
+      "name": "antonia",
       "value": 1
     },
     "biggest_message": {
@@ -20604,8 +20604,8 @@
     },
     {
       "date": "2026-08-29",
-      "count": 210,
-      "total": 27934
+      "count": 211,
+      "total": 27935
     }
   ],
   "hour_histogram": [
@@ -20629,12 +20629,18 @@
     1304,
     1661,
     2249,
-    2632,
+    2633,
     2572,
     2068,
     1402
   ],
   "recent": [
+    {
+      "n": 27935,
+      "id": "9c0968e6fd9c",
+      "name": "antonia",
+      "ts": 1788027313.0
+    },
     {
       "n": 27934,
       "id": "e3bf5719b998",
@@ -20748,19 +20754,9 @@
       "id": "fc3479ad48da",
       "name": "Jonas",
       "ts": 1788025431.0
-    },
-    {
-      "n": 27914,
-      "id": "f495a3174136",
-      "name": "H.P.",
-      "ts": 1788024854.0
     }
   ],
   "speed_samples": [
-    [
-      1788020106,
-      27873
-    ],
     [
       1788020130,
       27874
@@ -20996,6 +20992,10 @@
     [
       1788027303,
       27934
+    ],
+    [
+      1788027313,
+      27935
     ]
   ]
 }
