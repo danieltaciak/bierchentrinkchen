@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-30T17:05:01.114533+00:00",
+  "generated_at": "2026-08-30T17:05:58.083011+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28082,
-  "progress_pct": 2.8082,
+  "current_count": 28083,
+  "progress_pct": 2.8083,
   "num_players": 1245,
-  "total_messages": 40619,
+  "total_messages": 40620,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788109488.0,
+  "last_count_ts": 1788109535.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -1534,15 +1534,15 @@
       "id": "e8a4cd87f0ab",
       "name": "Jürgen G.",
       "anon_phone": "+49 170 •••• 41",
-      "points": 46,
-      "pct": 0.16,
-      "last24h": 0,
+      "points": 47,
+      "pct": 0.17,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 0,
       "early_counts": 0,
-      "last_ts": 1787480337.0,
+      "last_ts": 1788109535.0,
       "first_ts": 1781268178.0,
       "rank": 96
     },
@@ -20193,9 +20193,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "6ae8b7629ff6",
-      "name": "Juls",
-      "value": 2
+      "id": "e8a4cd87f0ab",
+      "name": "Jürgen G.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20641,8 +20641,8 @@
     },
     {
       "date": "2026-08-30",
-      "count": 61,
-      "total": 28082
+      "count": 62,
+      "total": 28083
     }
   ],
   "hour_histogram": [
@@ -20665,13 +20665,19 @@
     1018,
     1314,
     1671,
-    2253,
+    2254,
     2641,
     2599,
     2082,
     1409
   ],
   "recent": [
+    {
+      "n": 28083,
+      "id": "e8a4cd87f0ab",
+      "name": "Jürgen G.",
+      "ts": 1788109535.0
+    },
     {
       "n": 28082,
       "id": "6ae8b7629ff6",
@@ -20785,12 +20791,6 @@
       "id": "fd4804a39127",
       "name": "Daniel",
       "ts": 1788103826.0
-    },
-    {
-      "n": 28063,
-      "id": "32a3ba719705",
-      "name": "Maxi",
-      "ts": 1788103461.0
     }
   ],
   "speed_samples": [
@@ -20885,6 +20885,10 @@
     [
       1788109488,
       28082
+    ],
+    [
+      1788109535,
+      28083
     ]
   ]
 }
