@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-31T18:49:19.428981+00:00",
+  "generated_at": "2026-08-31T18:51:58.761203+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28186,
-  "progress_pct": 2.8186,
+  "current_count": 28187,
+  "progress_pct": 2.8187,
   "num_players": 1247,
-  "total_messages": 40721,
+  "total_messages": 40723,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788202128.0,
+  "last_count_ts": 1788202286.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -734,15 +734,15 @@
       "id": "2f9108443e86",
       "name": "Philipp",
       "anon_phone": "+49 151 •••• 08",
-      "points": 86,
+      "points": 87,
       "pct": 0.31,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 19,
       "early_counts": 0,
-      "last_ts": 1788126331.0,
+      "last_ts": 1788202286.0,
       "first_ts": 1782605644.0,
       "rank": 46
     },
@@ -20002,11 +20002,11 @@
       "b7f001ca29a3",
       "731bb81020f0",
       "c13fcec21292",
+      "2f9108443e86",
       "aa0156afe213",
       "e4becb659fb4",
       "e3154dc3703a",
-      "078ce5ea9e04",
-      "9b2127152bcd"
+      "078ce5ea9e04"
     ],
     "longest_streak": [
       {
@@ -20225,8 +20225,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
+      "id": "2f9108443e86",
+      "name": "Philipp",
       "value": 1
     },
     "biggest_message": {
@@ -20678,8 +20678,8 @@
     },
     {
       "date": "2026-08-31",
-      "count": 62,
-      "total": 28186
+      "count": 63,
+      "total": 28187
     }
   ],
   "hour_histogram": [
@@ -20703,12 +20703,18 @@
     1318,
     1679,
     2269,
-    2663,
+    2664,
     2607,
     2089,
     1410
   ],
   "recent": [
+    {
+      "n": 28187,
+      "id": "2f9108443e86",
+      "name": "Philipp",
+      "ts": 1788202286.0
+    },
     {
       "n": 28186,
       "id": "3ce6f8806201",
@@ -20822,23 +20828,9 @@
       "id": "4460bcf9c79c",
       "name": "Lance",
       "ts": 1788193483.0
-    },
-    {
-      "n": 28163,
-      "id": "4460bcf9c79c",
-      "name": "Lance",
-      "ts": 1788193483.0
     }
   ],
   "speed_samples": [
-    [
-      1788195003,
-      28165
-    ],
-    [
-      1788195003,
-      28166
-    ],
     [
       1788196584,
       28167
@@ -20902,6 +20894,10 @@
     [
       1788202128,
       28186
+    ],
+    [
+      1788202286,
+      28187
     ]
   ]
 }
