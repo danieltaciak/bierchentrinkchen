@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-31T17:31:52.712824+00:00",
+  "generated_at": "2026-08-31T17:37:17.347077+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28175,
-  "progress_pct": 2.8175,
+  "current_count": 28176,
+  "progress_pct": 2.8176,
   "num_players": 1247,
-  "total_messages": 40708,
+  "total_messages": 40709,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788197478.0,
+  "last_count_ts": 1788197813.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -286,15 +286,15 @@
       "id": "b7f001ca29a3",
       "name": "leonski🍺",
       "anon_phone": "+49 160 •••• 72",
-      "points": 136,
-      "pct": 0.48,
-      "last24h": 0,
+      "points": 137,
+      "pct": 0.49,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 5,
       "night_counts": 7,
       "early_counts": 1,
-      "last_ts": 1788046538.0,
+      "last_ts": 1788197813.0,
       "first_ts": 1780939774.0,
       "rank": 18
     },
@@ -20225,9 +20225,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "2d57122bd227",
-      "name": "Johannes W.",
-      "value": 2
+      "id": "b7f001ca29a3",
+      "name": "leonski🍺",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20678,8 +20678,8 @@
     },
     {
       "date": "2026-08-31",
-      "count": 51,
-      "total": 28175
+      "count": 52,
+      "total": 28176
     }
   ],
   "hour_histogram": [
@@ -20702,13 +20702,19 @@
     1020,
     1318,
     1679,
-    2268,
+    2269,
     2654,
     2607,
     2089,
     1410
   ],
   "recent": [
+    {
+      "n": 28176,
+      "id": "b7f001ca29a3",
+      "name": "leonski🍺",
+      "ts": 1788197813.0
+    },
     {
       "n": 28175,
       "id": "2d57122bd227",
@@ -20822,12 +20828,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1788187598.0
-    },
-    {
-      "n": 28153,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1788185647.0
     }
   ],
   "speed_samples": [
@@ -20894,6 +20894,10 @@
     [
       1788197478,
       28175
+    ],
+    [
+      1788197813,
+      28176
     ]
   ]
 }
