@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-01T18:44:01.271418+00:00",
+  "generated_at": "2026-09-01T18:44:25.549638+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28299,
-  "progress_pct": 2.8299,
+  "current_count": 28300,
+  "progress_pct": 2.83,
   "num_players": 1251,
-  "total_messages": 40859,
+  "total_messages": 40861,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788288222.0,
+  "last_count_ts": 1788288247.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -555,6 +555,22 @@
       "rank": 34
     },
     {
+      "id": "4460bcf9c79c",
+      "name": "Lance",
+      "anon_phone": "+49 152 •••• 66",
+      "points": 102,
+      "pct": 0.36,
+      "last24h": 2,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 12,
+      "early_counts": 1,
+      "last_ts": 1788288247.0,
+      "first_ts": 1781198140.0,
+      "rank": 35
+    },
+    {
       "id": "a39caed0b9fc",
       "name": "Philip",
       "anon_phone": "+49 173 •••• 53",
@@ -568,22 +584,6 @@
       "early_counts": 4,
       "last_ts": 1788158114.0,
       "first_ts": 1781111984.0,
-      "rank": 35
-    },
-    {
-      "id": "4460bcf9c79c",
-      "name": "Lance",
-      "anon_phone": "+49 152 •••• 66",
-      "points": 101,
-      "pct": 0.36,
-      "last24h": 1,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 12,
-      "early_counts": 1,
-      "last_ts": 1788287342.0,
-      "first_ts": 1781198140.0,
       "rank": 36
     },
     {
@@ -20289,8 +20289,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "287843c2a359",
-      "name": "Flo",
+      "id": "4460bcf9c79c",
+      "name": "Lance",
       "value": 1
     },
     "biggest_message": {
@@ -20747,8 +20747,8 @@
     },
     {
       "date": "2026-09-01",
-      "count": 76,
-      "total": 28299
+      "count": 77,
+      "total": 28300
     }
   ],
   "hour_histogram": [
@@ -20772,12 +20772,18 @@
     1325,
     1688,
     2284,
-    2679,
+    2680,
     2628,
     2098,
     1413
   ],
   "recent": [
+    {
+      "n": 28300,
+      "id": "4460bcf9c79c",
+      "name": "Lance",
+      "ts": 1788288247.0
+    },
     {
       "n": 28299,
       "id": "287843c2a359",
@@ -20891,12 +20897,6 @@
       "id": "5363c3d3649b",
       "name": "Quentin M.",
       "ts": 1788284769.0
-    },
-    {
-      "n": 28277,
-      "id": "5363c3d3649b",
-      "name": "Quentin M.",
-      "ts": 1788284730.0
     }
   ],
   "speed_samples": [
@@ -21027,6 +21027,10 @@
     [
       1788288222,
       28299
+    ],
+    [
+      1788288247,
+      28300
     ]
   ]
 }
