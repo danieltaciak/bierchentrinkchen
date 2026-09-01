@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-01T16:53:07.983317+00:00",
+  "generated_at": "2026-09-01T17:07:57.225273+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28265,
-  "progress_pct": 2.8265,
+  "current_count": 28267,
+  "progress_pct": 2.8267,
   "num_players": 1250,
-  "total_messages": 40815,
+  "total_messages": 40819,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788281576.0,
+  "last_count_ts": 1788282449.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -494,15 +494,15 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "anon_phone": "+49 175 •••• 96",
-      "points": 108,
-      "pct": 0.38,
-      "last24h": 0,
+      "points": 109,
+      "pct": 0.39,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1788192415.0,
+      "last_ts": 1788282449.0,
       "first_ts": 1781465577.0,
       "rank": 31
     },
@@ -20273,9 +20273,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5363c3d3649b",
-      "name": "Quentin M.",
-      "value": 2
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20731,8 +20731,8 @@
     },
     {
       "date": "2026-09-01",
-      "count": 42,
-      "total": 28265
+      "count": 44,
+      "total": 28267
     }
   ],
   "hour_histogram": [
@@ -20755,13 +20755,19 @@
     1026,
     1325,
     1688,
-    2269,
+    2270,
     2664,
     2628,
     2098,
     1413
   ],
   "recent": [
+    {
+      "n": 28267,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1788282449.0
+    },
     {
       "n": 28265,
       "id": "5363c3d3649b",
@@ -20875,12 +20881,6 @@
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "ts": 1788273568.0
-    },
-    {
-      "n": 28241,
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
-      "ts": 1788273568.0
     }
   ],
   "speed_samples": [
@@ -20947,6 +20947,10 @@
     [
       1788281576,
       28265
+    ],
+    [
+      1788282449,
+      28267
     ]
   ]
 }
