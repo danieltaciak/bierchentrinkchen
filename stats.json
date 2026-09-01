@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-01T15:21:51.824819+00:00",
+  "generated_at": "2026-09-01T15:29:38.549921+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28247,
-  "progress_pct": 2.8247,
+  "current_count": 28250,
+  "progress_pct": 2.825,
   "num_players": 1250,
-  "total_messages": 40798,
+  "total_messages": 40801,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788276081.0,
+  "last_count_ts": 1788276554.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -16,7 +16,7 @@
       "anon_phone": "+49 160 •••• 36",
       "points": 340,
       "pct": 1.2,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 2,
@@ -318,15 +318,15 @@
       "id": "cec25393509e",
       "name": "Jordan",
       "anon_phone": "+49 162 •••• 18",
-      "points": 133,
+      "points": 134,
       "pct": 0.47,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 4,
       "assists_received": 2,
       "night_counts": 5,
       "early_counts": 1,
-      "last_ts": 1788077745.0,
+      "last_ts": 1788276554.0,
       "first_ts": 1781100515.0,
       "rank": 20
     },
@@ -20273,8 +20273,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "8765134dcaf1",
-      "name": "Felix",
+      "id": "cec25393509e",
+      "name": "Jordan",
       "value": 1
     },
     "biggest_message": {
@@ -20731,8 +20731,8 @@
     },
     {
       "date": "2026-09-01",
-      "count": 24,
-      "total": 28247
+      "count": 27,
+      "total": 28250
     }
   ],
   "hour_histogram": [
@@ -20753,7 +20753,7 @@
     683,
     697,
     1026,
-    1320,
+    1321,
     1679,
     2269,
     2664,
@@ -20762,6 +20762,12 @@
     1413
   ],
   "recent": [
+    {
+      "n": 28250,
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "ts": 1788276554.0
+    },
     {
       "n": 28247,
       "id": "8765134dcaf1",
@@ -20875,19 +20881,9 @@
       "id": "45159bbb08d3",
       "name": "Benny",
       "ts": 1788255769.0
-    },
-    {
-      "n": 28227,
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "ts": 1788220036.0
     }
   ],
   "speed_samples": [
-    [
-      1788269069,
-      28238
-    ],
     [
       1788272120,
       28239
@@ -20919,6 +20915,10 @@
     [
       1788276081,
       28247
+    ],
+    [
+      1788276554,
+      28250
     ]
   ]
 }
