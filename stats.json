@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-01T14:15:38.647666+00:00",
+  "generated_at": "2026-09-01T14:39:18.276724+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28239,
-  "progress_pct": 2.8239,
+  "current_count": 28240,
+  "progress_pct": 2.824,
   "num_players": 1250,
-  "total_messages": 40785,
+  "total_messages": 40786,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788272120.0,
+  "last_count_ts": 1788273533.0,
   "players": [
     {
       "id": "9bf6383c58eb",
@@ -46,15 +46,15 @@
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "anon_phone": "+49 152 •••• 43",
-      "points": 281,
+      "points": 282,
       "pct": 1.0,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 6,
       "assists_given": 2,
       "assists_received": 0,
       "night_counts": 42,
       "early_counts": 0,
-      "last_ts": 1788272120.0,
+      "last_ts": 1788273533.0,
       "first_ts": 1781950367.0,
       "rank": 3
     },
@@ -20275,7 +20275,7 @@
     "current_streak": {
       "id": "21ab33dbbddf",
       "name": "Jakob",
-      "value": 1
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20731,8 +20731,8 @@
     },
     {
       "date": "2026-09-01",
-      "count": 16,
-      "total": 28239
+      "count": 17,
+      "total": 28240
     }
   ],
   "hour_histogram": [
@@ -20752,7 +20752,7 @@
     530,
     683,
     697,
-    1021,
+    1022,
     1318,
     1679,
     2269,
@@ -20762,6 +20762,12 @@
     1413
   ],
   "recent": [
+    {
+      "n": 28240,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1788273533.0
+    },
     {
       "n": 28239,
       "id": "21ab33dbbddf",
@@ -20875,19 +20881,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1788210227.0
-    },
-    {
-      "n": 28220,
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
-      "ts": 1788209310.0
     }
   ],
   "speed_samples": [
-    [
-      1788265892,
-      28232
-    ],
     [
       1788266580,
       28233
@@ -20915,6 +20911,10 @@
     [
       1788272120,
       28239
+    ],
+    [
+      1788273533,
+      28240
     ]
   ]
 }
