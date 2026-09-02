@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-02T20:18:33.921091+00:00",
+  "generated_at": "2026-09-02T20:51:16.937108+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28401,
-  "progress_pct": 2.8401,
+  "current_count": 28402,
+  "progress_pct": 2.8402,
   "num_players": 1252,
-  "total_messages": 40978,
+  "total_messages": 40979,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788380274.0,
+  "last_count_ts": 1788382264.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -16,7 +16,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 350,
       "pct": 1.23,
-      "last24h": 7,
+      "last24h": 6,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -1707,6 +1707,22 @@
       "rank": 106
     },
     {
+      "id": "21c53f0a0b18",
+      "name": "Valentin",
+      "anon_phone": "+49 177 •••• 14",
+      "points": 43,
+      "pct": 0.15,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1788382264.0,
+      "first_ts": 1781981284.0,
+      "rank": 107
+    },
+    {
       "id": "43140b6a3d00",
       "name": "Amelie",
       "anon_phone": "+49 157 •••• 90",
@@ -1720,7 +1736,7 @@
       "early_counts": 0,
       "last_ts": 1786458982.0,
       "first_ts": 1781371137.0,
-      "rank": 107
+      "rank": 108
     },
     {
       "id": "d87796b1f27f",
@@ -1736,7 +1752,7 @@
       "early_counts": 2,
       "last_ts": 1787477392.0,
       "first_ts": 1782144951.0,
-      "rank": 108
+      "rank": 109
     },
     {
       "id": "7402368b5c04",
@@ -1752,22 +1768,6 @@
       "early_counts": 0,
       "last_ts": 1787429771.0,
       "first_ts": 1781301923.0,
-      "rank": 109
-    },
-    {
-      "id": "21c53f0a0b18",
-      "name": "Valentin",
-      "anon_phone": "+49 177 •••• 14",
-      "points": 42,
-      "pct": 0.15,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1788204290.0,
-      "first_ts": 1781981284.0,
       "rank": 110
     },
     {
@@ -12560,7 +12560,7 @@
       "anon_phone": "+49 152 •••• 95",
       "points": 4,
       "pct": 0.01,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -17360,7 +17360,7 @@
       "anon_phone": "+49 176 •••• 09",
       "points": 1,
       "pct": 0.0,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -20086,7 +20086,7 @@
       "dc97681a5809",
       "553637e3d2b4",
       "2e95be7bb9ea",
-      "ca9dfeb2b4a1"
+      "50901658ae6c"
     ],
     "longest_streak": [
       {
@@ -20305,8 +20305,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "df6424fbdeef",
-      "name": "Daniel",
+      "id": "21c53f0a0b18",
+      "name": "Valentin",
       "value": 1
     },
     "biggest_message": {
@@ -20768,8 +20768,8 @@
     },
     {
       "date": "2026-09-02",
-      "count": 74,
-      "total": 28401
+      "count": 75,
+      "total": 28402
     }
   ],
   "hour_histogram": [
@@ -20795,10 +20795,16 @@
     2287,
     2690,
     2647,
-    2110,
+    2111,
     1416
   ],
   "recent": [
+    {
+      "n": 28402,
+      "id": "21c53f0a0b18",
+      "name": "Valentin",
+      "ts": 1788382264.0
+    },
     {
       "n": 28401,
       "id": "df6424fbdeef",
@@ -20912,27 +20918,9 @@
       "id": "2f9108443e86",
       "name": "Philipp",
       "ts": 1788372597.0
-    },
-    {
-      "n": 28380,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1788372567.0
     }
   ],
   "speed_samples": [
-    [
-      1788373417,
-      28386
-    ],
-    [
-      1788374240,
-      28387
-    ],
-    [
-      1788374344,
-      28388
-    ],
     [
       1788375742,
       28389
@@ -20976,6 +20964,10 @@
     [
       1788380274,
       28401
+    ],
+    [
+      1788382264,
+      28402
     ]
   ]
 }
