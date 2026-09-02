@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-02T21:08:39.096981+00:00",
+  "generated_at": "2026-09-02T23:11:00.616486+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28406,
-  "progress_pct": 2.8406,
+  "current_count": 28408,
+  "progress_pct": 2.8408,
   "num_players": 1252,
-  "total_messages": 40985,
+  "total_messages": 40989,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788383293.0,
+  "last_count_ts": 1788390640.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -16,7 +16,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 350,
       "pct": 1.23,
-      "last24h": 5,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -46,15 +46,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 285,
-      "pct": 1.0,
-      "last24h": 3,
+      "points": 287,
+      "pct": 1.01,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 1,
       "assists_received": 0,
-      "night_counts": 38,
+      "night_counts": 40,
       "early_counts": 3,
-      "last_ts": 1788378466.0,
+      "last_ts": 1788390640.0,
       "first_ts": 1781373213.0,
       "rank": 3
     },
@@ -368,7 +368,7 @@
       "anon_phone": "+49 160 •••• 59",
       "points": 128,
       "pct": 0.45,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 7,
       "assists_given": 1,
       "assists_received": 1,
@@ -4304,7 +4304,7 @@
       "anon_phone": "+49 170 •••• 57",
       "points": 19,
       "pct": 0.07,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -20074,9 +20074,9 @@
     "last_24h": [
       "b7f001ca29a3",
       "e8a4cd87f0ab",
-      "a5f77afeecc6",
-      "c93ed700000f",
       "efeced9c0950",
+      "c93ed700000f",
+      "a5f77afeecc6",
       "9bf6383c58eb",
       "e4becb659fb4",
       "45159bbb08d3",
@@ -20221,7 +20221,7 @@
       {
         "id": "efeced9c0950",
         "name": "Finn",
-        "value": 38
+        "value": 40
       },
       {
         "id": "0c322a010ec4",
@@ -20305,9 +20305,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "81baf6634942",
-      "name": "Samu",
-      "value": 1
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20770,11 +20770,16 @@
       "date": "2026-09-02",
       "count": 79,
       "total": 28406
+    },
+    {
+      "date": "2026-09-03",
+      "count": 2,
+      "total": 28408
     }
   ],
   "hour_histogram": [
     808,
-    489,
+    491,
     251,
     152,
     74,
@@ -20799,6 +20804,18 @@
     1417
   ],
   "recent": [
+    {
+      "n": 28408,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1788390640.0
+    },
+    {
+      "n": 28407,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1788390640.0
+    },
     {
       "n": 28406,
       "id": "81baf6634942",
@@ -20906,76 +20923,16 @@
       "id": "dfb57c03463c",
       "name": "David",
       "ts": 1788373417.0
-    },
-    {
-      "n": 28385,
-      "id": "6ae8b7629ff6",
-      "name": "Juls",
-      "ts": 1788372992.0
-    },
-    {
-      "n": 28384,
-      "id": "45159bbb08d3",
-      "name": "Benny",
-      "ts": 1788372827.0
     }
   ],
   "speed_samples": [
     [
-      1788376796,
-      28390
+      1788390640,
+      28407
     ],
     [
-      1788377266,
-      28392
-    ],
-    [
-      1788377403,
-      28393
-    ],
-    [
-      1788377615,
-      28395
-    ],
-    [
-      1788377824,
-      28396
-    ],
-    [
-      1788378466,
-      28397
-    ],
-    [
-      1788378481,
-      28398
-    ],
-    [
-      1788378791,
-      28399
-    ],
-    [
-      1788379861,
-      28400
-    ],
-    [
-      1788380274,
-      28401
-    ],
-    [
-      1788382264,
-      28402
-    ],
-    [
-      1788382281,
-      28403
-    ],
-    [
-      1788382687,
-      28404
-    ],
-    [
-      1788383293,
-      28406
+      1788390640,
+      28408
     ]
   ]
 }
