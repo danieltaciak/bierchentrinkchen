@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-02T19:48:01.278258+00:00",
+  "generated_at": "2026-09-02T19:48:33.671387+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28397,
-  "progress_pct": 2.8397,
+  "current_count": 28398,
+  "progress_pct": 2.8398,
   "num_players": 1252,
-  "total_messages": 40974,
+  "total_messages": 40975,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788378466.0,
+  "last_count_ts": 1788378481.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -254,15 +254,15 @@
       "id": "81baf6634942",
       "name": "Samu",
       "anon_phone": "+49 179 •••• 09",
-      "points": 141,
+      "points": 142,
       "pct": 0.5,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 12,
       "early_counts": 0,
-      "last_ts": 1788030168.0,
+      "last_ts": 1788378481.0,
       "first_ts": 1781353223.0,
       "rank": 16
     },
@@ -20305,8 +20305,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
+      "id": "81baf6634942",
+      "name": "Samu",
       "value": 1
     },
     "biggest_message": {
@@ -20768,8 +20768,8 @@
     },
     {
       "date": "2026-09-02",
-      "count": 70,
-      "total": 28397
+      "count": 71,
+      "total": 28398
     }
   ],
   "hour_histogram": [
@@ -20794,11 +20794,17 @@
     1697,
     2287,
     2690,
-    2645,
+    2646,
     2108,
     1416
   ],
   "recent": [
+    {
+      "n": 28398,
+      "id": "81baf6634942",
+      "name": "Samu",
+      "ts": 1788378481.0
+    },
     {
       "n": 28397,
       "id": "efeced9c0950",
@@ -20912,12 +20918,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1788369578.0
-    },
-    {
-      "n": 28376,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1788368156.0
     }
   ],
   "speed_samples": [
@@ -20984,6 +20984,10 @@
     [
       1788378466,
       28397
+    ],
+    [
+      1788378481,
+      28398
     ]
   ]
 }
