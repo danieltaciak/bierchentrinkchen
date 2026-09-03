@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-03T14:12:34.778381+00:00",
+  "generated_at": "2026-09-03T14:37:25.602917+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28440,
-  "progress_pct": 2.844,
+  "current_count": 28442,
+  "progress_pct": 2.8442,
   "num_players": 1255,
-  "total_messages": 41031,
+  "total_messages": 41033,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788444731.0,
+  "last_count_ts": 1788446225.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1312,7 +1312,7 @@
       "anon_phone": "+49 176 •••• 07",
       "points": 59,
       "pct": 0.21,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -1408,7 +1408,7 @@
       "anon_phone": "+49 170 •••• 41",
       "points": 54,
       "pct": 0.19,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -1435,6 +1435,22 @@
       "rank": 89
     },
     {
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "anon_phone": "+49 151 •••• 00",
+      "points": 53,
+      "pct": 0.19,
+      "last24h": 3,
+      "longest_streak": 7,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1788446225.0,
+      "first_ts": 1786728676.0,
+      "rank": 90
+    },
+    {
       "id": "dfb57c03463c",
       "name": "David",
       "anon_phone": "+49 160 •••• 44",
@@ -1448,7 +1464,7 @@
       "early_counts": 0,
       "last_ts": 1788373417.0,
       "first_ts": 1783615054.0,
-      "rank": 90
+      "rank": 91
     },
     {
       "id": "c69a12d636b1",
@@ -1464,22 +1480,6 @@
       "early_counts": 0,
       "last_ts": 1788364486.0,
       "first_ts": 1781457379.0,
-      "rank": 91
-    },
-    {
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "anon_phone": "+49 151 •••• 00",
-      "points": 51,
-      "pct": 0.18,
-      "last24h": 1,
-      "longest_streak": 7,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1788444566.0,
-      "first_ts": 1786728676.0,
       "rank": 92
     },
     {
@@ -2368,7 +2368,7 @@
       "anon_phone": "+49 163 •••• 49",
       "points": 33,
       "pct": 0.12,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -20124,6 +20124,7 @@
       "9bf6383c58eb",
       "a5f77afeecc6",
       "21c53f0a0b18",
+      "06ef1dbdad22",
       "b7f001ca29a3",
       "553637e3d2b4",
       "c93ed700000f",
@@ -20133,8 +20134,7 @@
       "e9005c1c6ac4",
       "f7e5b41aae51",
       "ffffb6c4106a",
-      "4f6cbd429607",
-      "29a1c5fbe7db"
+      "4f6cbd429607"
     ],
     "longest_streak": [
       {
@@ -20353,9 +20353,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "value": 1
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20821,8 +20821,8 @@
     },
     {
       "date": "2026-09-03",
-      "count": 34,
-      "total": 28440
+      "count": 36,
+      "total": 28442
     }
   ],
   "hour_histogram": [
@@ -20842,7 +20842,7 @@
     539,
     694,
     703,
-    1033,
+    1035,
     1331,
     1697,
     2287,
@@ -20852,6 +20852,18 @@
     1417
   ],
   "recent": [
+    {
+      "n": 28442,
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "ts": 1788446225.0
+    },
+    {
+      "n": 28441,
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "ts": 1788446225.0
+    },
     {
       "n": 28440,
       "id": "9bf6383c58eb",
@@ -20959,25 +20971,9 @@
       "id": "f7e5b41aae51",
       "name": "Jakob",
       "ts": 1788419875.0
-    },
-    {
-      "n": 28413,
-      "id": "e9005c1c6ac4",
-      "name": "Johannes H.",
-      "ts": 1788417758.0
-    },
-    {
-      "n": 28412,
-      "id": "e1682a59e246",
-      "name": "Fabiii",
-      "ts": 1788400797.0
     }
   ],
   "speed_samples": [
-    [
-      1788437731,
-      28436
-    ],
     [
       1788442843,
       28438
@@ -20989,6 +20985,14 @@
     [
       1788444731,
       28440
+    ],
+    [
+      1788446225,
+      28441
+    ],
+    [
+      1788446225,
+      28442
     ]
   ]
 }
