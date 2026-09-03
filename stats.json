@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-03T17:01:37.533425+00:00",
+  "generated_at": "2026-09-03T17:02:26.816227+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28466,
-  "progress_pct": 2.8466,
+  "current_count": 28467,
+  "progress_pct": 2.8467,
   "num_players": 1255,
-  "total_messages": 41062,
+  "total_messages": 41063,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788454876.0,
+  "last_count_ts": 1788454927.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1326,15 +1326,15 @@
       "id": "06ef1dbdad22",
       "name": "Selin",
       "anon_phone": "+49 151 •••• 00",
-      "points": 57,
+      "points": 58,
       "pct": 0.2,
-      "last24h": 7,
+      "last24h": 8,
       "longest_streak": 7,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 0,
       "early_counts": 0,
-      "last_ts": 1788451802.0,
+      "last_ts": 1788454927.0,
       "first_ts": 1786728676.0,
       "rank": 83
     },
@@ -20353,8 +20353,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "06ef1dbdad22",
+      "name": "Selin",
       "value": 1
     },
     "biggest_message": {
@@ -20821,8 +20821,8 @@
     },
     {
       "date": "2026-09-03",
-      "count": 60,
-      "total": 28466
+      "count": 61,
+      "total": 28467
     }
   ],
   "hour_histogram": [
@@ -20845,13 +20845,19 @@
     1036,
     1338,
     1711,
-    2288,
+    2289,
     2690,
     2647,
     2113,
     1417
   ],
   "recent": [
+    {
+      "n": 28467,
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "ts": 1788454927.0
+    },
     {
       "n": 28466,
       "id": "a5f77afeecc6",
@@ -20965,12 +20971,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1788448977.0
-    },
-    {
-      "n": 28446,
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "ts": 1788448934.0
     }
   ],
   "speed_samples": [
@@ -21061,6 +21061,10 @@
     [
       1788454876,
       28466
+    ],
+    [
+      1788454927,
+      28467
     ]
   ]
 }
