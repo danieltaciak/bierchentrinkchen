@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-03T18:25:28.746849+00:00",
+  "generated_at": "2026-09-03T18:25:49.709790+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28489,
-  "progress_pct": 2.8489,
+  "current_count": 28490,
+  "progress_pct": 2.849,
   "num_players": 1256,
-  "total_messages": 41091,
+  "total_messages": 41092,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788459909.0,
+  "last_count_ts": 1788459932.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -174,15 +174,15 @@
       "id": "74c46f04e647",
       "name": "DimA",
       "anon_phone": "+49 160 •••• 72",
-      "points": 184,
+      "points": 185,
       "pct": 0.65,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 70,
       "early_counts": 5,
-      "last_ts": 1787431076.0,
+      "last_ts": 1788459932.0,
       "first_ts": 1781838875.0,
       "rank": 11
     },
@@ -20369,8 +20369,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "d875f81909b2",
-      "name": "Jakob",
+      "id": "74c46f04e647",
+      "name": "DimA",
       "value": 1
     },
     "biggest_message": {
@@ -20837,8 +20837,8 @@
     },
     {
       "date": "2026-09-03",
-      "count": 83,
-      "total": 28489
+      "count": 84,
+      "total": 28490
     }
   ],
   "hour_histogram": [
@@ -20862,12 +20862,18 @@
     1338,
     1711,
     2305,
-    2696,
+    2697,
     2647,
     2113,
     1417
   ],
   "recent": [
+    {
+      "n": 28490,
+      "id": "74c46f04e647",
+      "name": "DimA",
+      "ts": 1788459932.0
+    },
     {
       "n": 28489,
       "id": "d875f81909b2",
@@ -20981,12 +20987,6 @@
       "id": "1c11893d16e0",
       "name": "Cedric",
       "ts": 1788455625.0
-    },
-    {
-      "n": 28470,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1788455567.0
     }
   ],
   "speed_samples": [
@@ -21121,6 +21121,10 @@
     [
       1788459909,
       28489
+    ],
+    [
+      1788459932,
+      28490
     ]
   ]
 }
