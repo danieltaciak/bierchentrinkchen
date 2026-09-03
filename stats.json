@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-03T20:52:00.197684+00:00",
+  "generated_at": "2026-09-03T21:08:21.660818+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28519,
-  "progress_pct": 2.8519,
+  "current_count": 28520,
+  "progress_pct": 2.852,
   "num_players": 1256,
-  "total_messages": 41122,
+  "total_messages": 41125,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788468698.0,
+  "last_count_ts": 1788469683.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -254,7 +254,7 @@
       "id": "81baf6634942",
       "name": "Samu",
       "anon_phone": "+49 179 •••• 09",
-      "points": 143,
+      "points": 144,
       "pct": 0.5,
       "last24h": 1,
       "longest_streak": 6,
@@ -262,7 +262,7 @@
       "assists_received": 2,
       "night_counts": 12,
       "early_counts": 0,
-      "last_ts": 1788383293.0,
+      "last_ts": 1788469683.0,
       "first_ts": 1781353223.0,
       "rank": 16
     },
@@ -3520,7 +3520,7 @@
       "anon_phone": "+49 170 •••• 83",
       "points": 24,
       "pct": 0.08,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -20369,8 +20369,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "81baf6634942",
+      "name": "Samu",
       "value": 1
     },
     "biggest_message": {
@@ -20837,8 +20837,8 @@
     },
     {
       "date": "2026-09-03",
-      "count": 113,
-      "total": 28519
+      "count": 114,
+      "total": 28520
     }
   ],
   "hour_histogram": [
@@ -20865,9 +20865,15 @@
     2705,
     2656,
     2125,
-    1417
+    1418
   ],
   "recent": [
+    {
+      "n": 28520,
+      "id": "81baf6634942",
+      "name": "Samu",
+      "ts": 1788469683.0
+    },
     {
       "n": 28519,
       "id": "a5f77afeecc6",
@@ -20981,35 +20987,9 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1788462486.0
-    },
-    {
-      "n": 28500,
-      "id": "73b18d345917",
-      "name": "Severin",
-      "ts": 1788462424.0
     }
   ],
   "speed_samples": [
-    [
-      1788461587,
-      28496
-    ],
-    [
-      1788461754,
-      28497
-    ],
-    [
-      1788461815,
-      28498
-    ],
-    [
-      1788462389,
-      28499
-    ],
-    [
-      1788462424,
-      28500
-    ],
     [
       1788462486,
       28501
@@ -21085,6 +21065,10 @@
     [
       1788468698,
       28519
+    ],
+    [
+      1788469683,
+      28520
     ]
   ]
 }
