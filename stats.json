@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-03T18:05:03.098065+00:00",
+  "generated_at": "2026-09-03T18:12:04.808364+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28485,
-  "progress_pct": 2.8485,
+  "current_count": 28486,
+  "progress_pct": 2.8486,
   "num_players": 1255,
-  "total_messages": 41083,
+  "total_messages": 41084,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788458682.0,
+  "last_count_ts": 1788459104.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -48,7 +48,7 @@
       "anon_phone": "+49 176 •••• 42",
       "points": 289,
       "pct": 1.01,
-      "last24h": 6,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 1,
       "assists_received": 0,
@@ -96,7 +96,7 @@
       "anon_phone": "+49 178 •••• 54",
       "points": 221,
       "pct": 0.78,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -603,6 +603,22 @@
       "rank": 37
     },
     {
+      "id": "a84987d66bdc",
+      "name": "Fincenths M.",
+      "anon_phone": "+49 151 •••• 82",
+      "points": 95,
+      "pct": 0.33,
+      "last24h": 2,
+      "longest_streak": 5,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 8,
+      "early_counts": 1,
+      "last_ts": 1788459104.0,
+      "first_ts": 1781197357.0,
+      "rank": 38
+    },
+    {
       "id": "b09e2085998b",
       "name": "Michi",
       "anon_phone": "+49 171 •••• 06",
@@ -616,7 +632,7 @@
       "early_counts": 2,
       "last_ts": 1786813462.0,
       "first_ts": 1780945139.0,
-      "rank": 38
+      "rank": 39
     },
     {
       "id": "4cf6b703c434",
@@ -632,22 +648,6 @@
       "early_counts": 5,
       "last_ts": 1788457804.0,
       "first_ts": 1781375272.0,
-      "rank": 39
-    },
-    {
-      "id": "a84987d66bdc",
-      "name": "Fincenths M.",
-      "anon_phone": "+49 151 •••• 82",
-      "points": 94,
-      "pct": 0.33,
-      "last24h": 1,
-      "longest_streak": 5,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 8,
-      "early_counts": 1,
-      "last_ts": 1788455761.0,
-      "first_ts": 1781197357.0,
       "rank": 40
     },
     {
@@ -656,7 +656,7 @@
       "anon_phone": "+49 151 •••• 08",
       "points": 94,
       "pct": 0.33,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -768,7 +768,7 @@
       "anon_phone": "+49 176 •••• 04",
       "points": 75,
       "pct": 0.26,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -20121,9 +20121,9 @@
     ],
     "last_24h": [
       "06ef1dbdad22",
-      "efeced9c0950",
       "a5f77afeecc6",
       "9bf6383c58eb",
+      "efeced9c0950",
       "45159bbb08d3",
       "21c53f0a0b18",
       "7a2e949e25b3",
@@ -20353,8 +20353,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
+      "id": "a84987d66bdc",
+      "name": "Fincenths M.",
       "value": 1
     },
     "biggest_message": {
@@ -20821,8 +20821,8 @@
     },
     {
       "date": "2026-09-03",
-      "count": 79,
-      "total": 28485
+      "count": 80,
+      "total": 28486
     }
   ],
   "hour_histogram": [
@@ -20846,12 +20846,18 @@
     1338,
     1711,
     2305,
-    2692,
+    2693,
     2647,
     2113,
     1417
   ],
   "recent": [
+    {
+      "n": 28486,
+      "id": "a84987d66bdc",
+      "name": "Fincenths M.",
+      "ts": 1788459104.0
+    },
     {
       "n": 28485,
       "id": "efeced9c0950",
@@ -20965,23 +20971,9 @@
       "id": "06ef1dbdad22",
       "name": "Selin",
       "ts": 1788454927.0
-    },
-    {
-      "n": 28466,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1788454876.0
     }
   ],
   "speed_samples": [
-    [
-      1788451564,
-      28453
-    ],
-    [
-      1788451802,
-      28454
-    ],
     [
       1788452227,
       28455
@@ -21105,6 +21097,10 @@
     [
       1788458682,
       28485
+    ],
+    [
+      1788459104,
+      28486
     ]
   ]
 }
