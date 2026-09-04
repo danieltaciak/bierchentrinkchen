@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-04T21:44:02.445242+00:00",
+  "generated_at": "2026-09-04T21:46:44.374146+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28749,
-  "progress_pct": 2.8749,
+  "current_count": 28750,
+  "progress_pct": 2.875,
   "num_players": 1258,
-  "total_messages": 41368,
+  "total_messages": 41369,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788558230.0,
+  "last_count_ts": 1788558373.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "82a6be011a09",
       "name": "Boohb",
       "anon_phone": "+49 170 •••• 82",
-      "points": 251,
-      "pct": 0.87,
-      "last24h": 2,
+      "points": 252,
+      "pct": 0.88,
+      "last24h": 3,
       "longest_streak": 9,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 25,
       "early_counts": 2,
-      "last_ts": 1788542052.0,
+      "last_ts": 1788558373.0,
       "first_ts": 1781811271.0,
       "rank": 5
     },
@@ -20179,10 +20179,10 @@
       "f7e5b41aae51",
       "74c46f04e647",
       "c93ed700000f",
+      "82a6be011a09",
       "0426b9495024",
       "efeced9c0950",
-      "1a6129668ba3",
-      "ba2a31220add"
+      "1a6129668ba3"
     ],
     "longest_streak": [
       {
@@ -20401,8 +20401,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "97897748b637",
-      "name": "Raphi",
+      "id": "82a6be011a09",
+      "name": "Boohb",
       "value": 1
     },
     "biggest_message": {
@@ -20874,8 +20874,8 @@
     },
     {
       "date": "2026-09-04",
-      "count": 225,
-      "total": 28749
+      "count": 226,
+      "total": 28750
     }
   ],
   "hour_histogram": [
@@ -20902,9 +20902,15 @@
     2733,
     2676,
     2144,
-    1430
+    1431
   ],
   "recent": [
+    {
+      "n": 28750,
+      "id": "82a6be011a09",
+      "name": "Boohb",
+      "ts": 1788558373.0
+    },
     {
       "n": 28749,
       "id": "97897748b637",
@@ -21018,27 +21024,9 @@
       "id": "0426b9495024",
       "name": "Miche",
       "ts": 1788553447.0
-    },
-    {
-      "n": 28729,
-      "id": "6e58e98680b0",
-      "name": "Samuel",
-      "ts": 1788553390.0
     }
   ],
   "speed_samples": [
-    [
-      1788551063,
-      28705
-    ],
-    [
-      1788551151,
-      28706
-    ],
-    [
-      1788551168,
-      28707
-    ],
     [
       1788551296,
       28709
@@ -21174,6 +21162,10 @@
     [
       1788558230,
       28749
+    ],
+    [
+      1788558373,
+      28750
     ]
   ]
 }
