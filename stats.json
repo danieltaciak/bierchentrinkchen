@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-04T21:36:37.199929+00:00",
+  "generated_at": "2026-09-04T21:44:02.445242+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28748,
-  "progress_pct": 2.8748,
+  "current_count": 28749,
+  "progress_pct": 2.8749,
   "num_players": 1258,
-  "total_messages": 41366,
+  "total_messages": 41368,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788557763.0,
+  "last_count_ts": 1788558230.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -763,6 +763,22 @@
       "rank": 47
     },
     {
+      "id": "97897748b637",
+      "name": "Raphi",
+      "anon_phone": "+49 151 •••• 11",
+      "points": 78,
+      "pct": 0.27,
+      "last24h": 4,
+      "longest_streak": 2,
+      "assists_given": 1,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1788558230.0,
+      "first_ts": 1782295163.0,
+      "rank": 48
+    },
+    {
       "id": "732c638fc2fc",
       "name": "Leander",
       "anon_phone": "+49 176 •••• 04",
@@ -776,22 +792,6 @@
       "early_counts": 2,
       "last_ts": 1788530718.0,
       "first_ts": 1781204574.0,
-      "rank": 48
-    },
-    {
-      "id": "97897748b637",
-      "name": "Raphi",
-      "anon_phone": "+49 151 •••• 11",
-      "points": 77,
-      "pct": 0.27,
-      "last24h": 3,
-      "longest_streak": 2,
-      "assists_given": 1,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1788539103.0,
-      "first_ts": 1782295163.0,
       "rank": 49
     },
     {
@@ -20174,10 +20174,10 @@
       "a5f77afeecc6",
       "82afa8eefe9c",
       "1b66c2456dfd",
+      "97897748b637",
       "553637e3d2b4",
       "f7e5b41aae51",
       "74c46f04e647",
-      "97897748b637",
       "c93ed700000f",
       "0426b9495024",
       "efeced9c0950",
@@ -20401,8 +20401,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "1b66c2456dfd",
-      "name": "MM",
+      "id": "97897748b637",
+      "name": "Raphi",
       "value": 1
     },
     "biggest_message": {
@@ -20874,8 +20874,8 @@
     },
     {
       "date": "2026-09-04",
-      "count": 224,
-      "total": 28748
+      "count": 225,
+      "total": 28749
     }
   ],
   "hour_histogram": [
@@ -20902,9 +20902,15 @@
     2733,
     2676,
     2144,
-    1429
+    1430
   ],
   "recent": [
+    {
+      "n": 28749,
+      "id": "97897748b637",
+      "name": "Raphi",
+      "ts": 1788558230.0
+    },
     {
       "n": 28748,
       "id": "1b66c2456dfd",
@@ -21018,23 +21024,9 @@
       "id": "6e58e98680b0",
       "name": "Samuel",
       "ts": 1788553390.0
-    },
-    {
-      "n": 28728,
-      "id": "c93ed700000f",
-      "name": "linus",
-      "ts": 1788553205.0
     }
   ],
   "speed_samples": [
-    [
-      1788550926,
-      28703
-    ],
-    [
-      1788550926,
-      28704
-    ],
     [
       1788551063,
       28705
@@ -21178,6 +21170,10 @@
     [
       1788557763,
       28748
+    ],
+    [
+      1788558230,
+      28749
     ]
   ]
 }
