@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-04T17:42:42.202698+00:00",
+  "generated_at": "2026-09-04T17:46:28.768663+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28657,
-  "progress_pct": 2.8657,
+  "current_count": 28658,
+  "progress_pct": 2.8658,
   "num_players": 1256,
-  "total_messages": 41234,
+  "total_messages": 41235,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788543737.0,
+  "last_count_ts": 1788543971.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -160,7 +160,7 @@
       "anon_phone": "+49 152 •••• 46",
       "points": 202,
       "pct": 0.7,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 5,
       "assists_given": 24,
       "assists_received": 7,
@@ -395,6 +395,22 @@
       "rank": 24
     },
     {
+      "id": "3137559fdc0a",
+      "name": "Simon",
+      "anon_phone": "+49 163 •••• 57",
+      "points": 114,
+      "pct": 0.4,
+      "last24h": 2,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 6,
+      "early_counts": 0,
+      "last_ts": 1788543971.0,
+      "first_ts": 1781904152.0,
+      "rank": 25
+    },
+    {
       "id": "0d1fa29f9e5e",
       "name": "Ö",
       "anon_phone": "+49 176 •••• 87",
@@ -408,7 +424,7 @@
       "early_counts": 0,
       "last_ts": 1787307268.0,
       "first_ts": 1781361115.0,
-      "rank": 25
+      "rank": 26
     },
     {
       "id": "5f3589b7ffb7",
@@ -424,7 +440,7 @@
       "early_counts": 0,
       "last_ts": 1783190686.0,
       "first_ts": 1781358026.0,
-      "rank": 26
+      "rank": 27
     },
     {
       "id": "2e95be7bb9ea",
@@ -440,22 +456,6 @@
       "early_counts": 2,
       "last_ts": 1788377824.0,
       "first_ts": 1781200389.0,
-      "rank": 27
-    },
-    {
-      "id": "3137559fdc0a",
-      "name": "Simon",
-      "anon_phone": "+49 163 •••• 57",
-      "points": 113,
-      "pct": 0.39,
-      "last24h": 1,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 6,
-      "early_counts": 0,
-      "last_ts": 1788522451.0,
-      "first_ts": 1781904152.0,
       "rank": 28
     },
     {
@@ -20133,7 +20133,7 @@
       "764f33f39eb0",
       "078ce5ea9e04",
       "0c322a010ec4",
-      "0d1fa29f9e5e"
+      "3137559fdc0a"
     ],
     "last_24h": [
       "9bf6383c58eb",
@@ -20144,13 +20144,13 @@
       "09662ad39152",
       "3ae9115a1898",
       "97897748b637",
-      "7a2e949e25b3",
       "c4fe31e13b5a",
       "25e99d4d957d",
       "3c8bfc2012f7",
       "73b18d345917",
       "926048ba30b0",
-      "95f4137793c8"
+      "95f4137793c8",
+      "38fd4a51d560"
     ],
     "longest_streak": [
       {
@@ -20369,9 +20369,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "d214871ad8cf",
-      "name": "Klausi",
-      "value": 2
+      "id": "3137559fdc0a",
+      "name": "Simon",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20842,8 +20842,8 @@
     },
     {
       "date": "2026-09-04",
-      "count": 133,
-      "total": 28657
+      "count": 134,
+      "total": 28658
     }
   ],
   "hour_histogram": [
@@ -20866,13 +20866,19 @@
     1039,
     1345,
     1725,
-    2317,
+    2318,
     2705,
     2656,
     2125,
     1422
   ],
   "recent": [
+    {
+      "n": 28658,
+      "id": "3137559fdc0a",
+      "name": "Simon",
+      "ts": 1788543971.0
+    },
     {
       "n": 28657,
       "id": "d214871ad8cf",
@@ -20986,31 +20992,9 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1788540189.0
-    },
-    {
-      "n": 28635,
-      "id": "82a6be011a09",
-      "name": "Boohb",
-      "ts": 1788539417.0
     }
   ],
   "speed_samples": [
-    [
-      1788536663,
-      28622
-    ],
-    [
-      1788536673,
-      28623
-    ],
-    [
-      1788536713,
-      28624
-    ],
-    [
-      1788536723,
-      28625
-    ],
     [
       1788537081,
       28626
@@ -21122,6 +21106,10 @@
     [
       1788543737,
       28657
+    ],
+    [
+      1788543971,
+      28658
     ]
   ]
 }
