@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-04T17:25:24.742420+00:00",
+  "generated_at": "2026-09-04T17:26:47.590582+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28650,
-  "progress_pct": 2.865,
+  "current_count": 28651,
+  "progress_pct": 2.8651,
   "num_players": 1256,
-  "total_messages": 41222,
+  "total_messages": 41226,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788542706.0,
+  "last_count_ts": 1788542761.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -990,15 +990,15 @@
       "id": "1b54cda19789",
       "name": "Manu",
       "anon_phone": "+49 155 •••• 65",
-      "points": 67,
-      "pct": 0.23,
-      "last24h": 1,
+      "points": 68,
+      "pct": 0.24,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 7,
       "early_counts": 0,
-      "last_ts": 1788537081.0,
+      "last_ts": 1788542761.0,
       "first_ts": 1781292862.0,
       "rank": 62
     },
@@ -20369,8 +20369,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "1b66c2456dfd",
-      "name": "MM",
+      "id": "1b54cda19789",
+      "name": "Manu",
       "value": 1
     },
     "biggest_message": {
@@ -20842,8 +20842,8 @@
     },
     {
       "date": "2026-09-04",
-      "count": 126,
-      "total": 28650
+      "count": 127,
+      "total": 28651
     }
   ],
   "hour_histogram": [
@@ -20866,13 +20866,19 @@
     1039,
     1345,
     1725,
-    2311,
+    2312,
     2705,
     2656,
     2125,
     1422
   ],
   "recent": [
+    {
+      "n": 28651,
+      "id": "1b54cda19789",
+      "name": "Manu",
+      "ts": 1788542761.0
+    },
     {
       "n": 28650,
       "id": "1b66c2456dfd",
@@ -20986,12 +20992,6 @@
       "id": "b7f001ca29a3",
       "name": "leonski🍺",
       "ts": 1788538024.0
-    },
-    {
-      "n": 28628,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1788537711.0
     }
   ],
   "speed_samples": [
@@ -21102,6 +21102,10 @@
     [
       1788542706,
       28650
+    ],
+    [
+      1788542761,
+      28651
     ]
   ]
 }
