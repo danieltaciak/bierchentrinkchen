@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-04T00:00:20.217054+00:00",
+  "generated_at": "2026-09-04T00:07:21.576336+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28594,
-  "progress_pct": 2.8594,
+  "current_count": 28595,
+  "progress_pct": 2.8595,
   "num_players": 1256,
-  "total_messages": 41142,
+  "total_messages": 41143,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788480000.0,
+  "last_count_ts": 1788480406.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -174,15 +174,15 @@
       "id": "74c46f04e647",
       "name": "DimA",
       "anon_phone": "+49 160 •••• 72",
-      "points": 187,
-      "pct": 0.65,
-      "last24h": 3,
+      "points": 188,
+      "pct": 0.66,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
-      "night_counts": 72,
+      "night_counts": 73,
       "early_counts": 5,
-      "last_ts": 1788474181.0,
+      "last_ts": 1788480406.0,
       "first_ts": 1781838875.0,
       "rank": 11
     },
@@ -20140,11 +20140,11 @@
       "9bf6383c58eb",
       "06ef1dbdad22",
       "1c11893d16e0",
+      "74c46f04e647",
       "f7e5b41aae51",
       "7a2e949e25b3",
       "b24539a93d86",
       "efeced9c0950",
-      "74c46f04e647",
       "09662ad39152",
       "3ae9115a1898",
       "e9005c1c6ac4",
@@ -20260,7 +20260,7 @@
       {
         "id": "74c46f04e647",
         "name": "DimA",
-        "value": 72
+        "value": 73
       },
       {
         "id": "115bd3930d45",
@@ -20369,8 +20369,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "3ae9115a1898",
-      "name": "Jonas B.",
+      "id": "74c46f04e647",
+      "name": "DimA",
       "value": 1
     },
     "biggest_message": {
@@ -20386,7 +20386,7 @@
     "night_owl": {
       "id": "74c46f04e647",
       "name": "DimA",
-      "value": 72
+      "value": 73
     },
     "early_bird": {
       "id": "0c322a010ec4",
@@ -20842,14 +20842,14 @@
     },
     {
       "date": "2026-09-04",
-      "count": 70,
-      "total": 28594
+      "count": 71,
+      "total": 28595
     }
   ],
   "hour_histogram": [
     815,
     494,
-    252,
+    253,
     153,
     74,
     64,
@@ -20873,6 +20873,12 @@
     1422
   ],
   "recent": [
+    {
+      "n": 28595,
+      "id": "74c46f04e647",
+      "name": "DimA",
+      "ts": 1788480406.0
+    },
     {
       "n": 28594,
       "id": "3ae9115a1898",
@@ -20986,19 +20992,9 @@
       "id": "3ae9115a1898",
       "name": "Jonas B.",
       "ts": 1788467486.0
-    },
-    {
-      "n": 28513,
-      "id": "38fd4a51d560",
-      "name": "Luis",
-      "ts": 1788467482.0
     }
   ],
   "speed_samples": [
-    [
-      1788472866,
-      28525
-    ],
     [
       1788473379,
       28526
@@ -21026,6 +21022,10 @@
     [
       1788480000,
       28594
+    ],
+    [
+      1788480406,
+      28595
     ]
   ]
 }
