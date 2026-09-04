@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-04T23:30:25.497111+00:00",
+  "generated_at": "2026-09-04T23:52:11.856433+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28771,
-  "progress_pct": 2.8771,
+  "current_count": 28772,
+  "progress_pct": 2.8772,
   "num_players": 1258,
-  "total_messages": 41389,
+  "total_messages": 41390,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788564589.0,
+  "last_count_ts": 1788565908.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -254,15 +254,15 @@
       "id": "81baf6634942",
       "name": "Samu",
       "anon_phone": "+49 179 •••• 09",
-      "points": 144,
+      "points": 145,
       "pct": 0.5,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 2,
-      "night_counts": 12,
+      "night_counts": 13,
       "early_counts": 0,
-      "last_ts": 1788469683.0,
+      "last_ts": 1788565908.0,
       "first_ts": 1781353223.0,
       "rank": 16
     },
@@ -20401,8 +20401,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "81baf6634942",
+      "name": "Samu",
       "value": 1
     },
     "biggest_message": {
@@ -20879,13 +20879,13 @@
     },
     {
       "date": "2026-09-05",
-      "count": 20,
-      "total": 28771
+      "count": 21,
+      "total": 28772
     }
   ],
   "hour_histogram": [
     831,
-    498,
+    499,
     253,
     153,
     75,
@@ -20910,6 +20910,12 @@
     1432
   ],
   "recent": [
+    {
+      "n": 28772,
+      "id": "81baf6634942",
+      "name": "Samu",
+      "ts": 1788565908.0
+    },
     {
       "n": 28771,
       "id": "a5f77afeecc6",
@@ -21023,31 +21029,9 @@
       "id": "560a153374c5",
       "name": "Jakob B.",
       "ts": 1788560244.0
-    },
-    {
-      "n": 28752,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1788559892.0
     }
   ],
   "speed_samples": [
-    [
-      1788557415,
-      28747
-    ],
-    [
-      1788557763,
-      28748
-    ],
-    [
-      1788558230,
-      28749
-    ],
-    [
-      1788558373,
-      28750
-    ],
     [
       1788559134,
       28751
@@ -21131,6 +21115,10 @@
     [
       1788564589,
       28771
+    ],
+    [
+      1788565908,
+      28772
     ]
   ]
 }
