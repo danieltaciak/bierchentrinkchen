@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-04T19:56:18.441212+00:00",
+  "generated_at": "2026-09-04T19:58:24.198762+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28718,
-  "progress_pct": 2.8718,
+  "current_count": 28719,
+  "progress_pct": 2.8719,
   "num_players": 1256,
-  "total_messages": 41318,
+  "total_messages": 41319,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788551752.0,
+  "last_count_ts": 1788551890.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1630,15 +1630,15 @@
       "id": "5e0359616cc8",
       "name": "Franz",
       "anon_phone": "+49 152 •••• 30",
-      "points": 44,
-      "pct": 0.15,
-      "last24h": 0,
+      "points": 45,
+      "pct": 0.16,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 0,
       "early_counts": 0,
-      "last_ts": 1788118124.0,
+      "last_ts": 1788551890.0,
       "first_ts": 1781289269.0,
       "rank": 102
     },
@@ -20369,8 +20369,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "1b66c2456dfd",
-      "name": "MM",
+      "id": "5e0359616cc8",
+      "name": "Franz",
       "value": 1
     },
     "biggest_message": {
@@ -20842,8 +20842,8 @@
     },
     {
       "date": "2026-09-04",
-      "count": 194,
-      "total": 28718
+      "count": 195,
+      "total": 28719
     }
   ],
   "hour_histogram": [
@@ -20868,11 +20868,17 @@
     1725,
     2320,
     2733,
-    2675,
+    2676,
     2125,
     1422
   ],
   "recent": [
+    {
+      "n": 28719,
+      "id": "5e0359616cc8",
+      "name": "Franz",
+      "ts": 1788551890.0
+    },
     {
       "n": 28718,
       "id": "1b66c2456dfd",
@@ -20986,12 +20992,6 @@
       "id": "2e95be7bb9ea",
       "name": "Luis",
       "ts": 1788548510.0
-    },
-    {
-      "n": 28689,
-      "id": "152f35775402",
-      "name": "Daniel",
-      "ts": 1788548365.0
     }
   ],
   "speed_samples": [
@@ -21182,6 +21182,10 @@
     [
       1788551752,
       28718
+    ],
+    [
+      1788551890,
+      28719
     ]
   ]
 }
