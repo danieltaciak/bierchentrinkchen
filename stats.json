@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-05T17:54:55.009578+00:00",
+  "generated_at": "2026-09-05T18:03:31.331407+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28933,
-  "progress_pct": 2.8933,
+  "current_count": 28936,
+  "progress_pct": 2.8936,
   "num_players": 1260,
-  "total_messages": 41576,
+  "total_messages": 41579,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788630869.0,
+  "last_count_ts": 1788631386.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -94,15 +94,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 224,
-      "pct": 0.77,
-      "last24h": 2,
+      "points": 225,
+      "pct": 0.78,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 27,
       "early_counts": 2,
-      "last_ts": 1788554101.0,
+      "last_ts": 1788631386.0,
       "first_ts": 1781212818.0,
       "rank": 6
     },
@@ -1824,7 +1824,7 @@
       "anon_phone": "+49 151 •••• 20",
       "points": 41,
       "pct": 0.14,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -20433,8 +20433,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "dfaf7eecf3e0",
-      "name": "Christina K.",
+      "id": "c93ed700000f",
+      "name": "linus",
       "value": 1
     },
     "biggest_message": {
@@ -20911,8 +20911,8 @@
     },
     {
       "date": "2026-09-05",
-      "count": 182,
-      "total": 28933
+      "count": 185,
+      "total": 28936
     }
   ],
   "hour_histogram": [
@@ -20936,12 +20936,18 @@
     1362,
     1748,
     2341,
-    2733,
+    2734,
     2676,
     2144,
     1432
   ],
   "recent": [
+    {
+      "n": 28936,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1788631386.0
+    },
     {
       "n": 28933,
       "id": "dfaf7eecf3e0",
@@ -21055,19 +21061,9 @@
       "id": "a532151749cc",
       "name": "Isabel",
       "ts": 1788628069.0
-    },
-    {
-      "n": 28912,
-      "id": "a532151749cc",
-      "name": "Isabel",
-      "ts": 1788628069.0
     }
   ],
   "speed_samples": [
-    [
-      1788623745,
-      28883
-    ],
     [
       1788624710,
       28884
@@ -21243,6 +21239,10 @@
     [
       1788630869,
       28933
+    ],
+    [
+      1788631386,
+      28936
     ]
   ]
 }
