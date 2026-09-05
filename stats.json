@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-05T18:27:41.282373+00:00",
+  "generated_at": "2026-09-05T18:33:40.785860+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28944,
-  "progress_pct": 2.8944,
+  "current_count": 28945,
+  "progress_pct": 2.8945,
   "num_players": 1261,
-  "total_messages": 41594,
+  "total_messages": 41599,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788632830.0,
+  "last_count_ts": 1788633187.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -192,7 +192,7 @@
       "anon_phone": "+49 160 •••• 72",
       "points": 168,
       "pct": 0.58,
-      "last24h": 9,
+      "last24h": 8,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 5,
@@ -427,6 +427,22 @@
       "rank": 26
     },
     {
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "anon_phone": "+49 175 •••• 96",
+      "points": 114,
+      "pct": 0.39,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 8,
+      "early_counts": 0,
+      "last_ts": 1788633187.0,
+      "first_ts": 1781465577.0,
+      "rank": 27
+    },
+    {
       "id": "d250ce427a30",
       "name": "Jannik H.",
       "anon_phone": "+49 171 •••• 26",
@@ -440,7 +456,7 @@
       "early_counts": 0,
       "last_ts": 1788606625.0,
       "first_ts": 1781456630.0,
-      "rank": 27
+      "rank": 28
     },
     {
       "id": "0d1fa29f9e5e",
@@ -456,7 +472,7 @@
       "early_counts": 0,
       "last_ts": 1787307268.0,
       "first_ts": 1781361115.0,
-      "rank": 28
+      "rank": 29
     },
     {
       "id": "5f3589b7ffb7",
@@ -472,22 +488,6 @@
       "early_counts": 0,
       "last_ts": 1783190686.0,
       "first_ts": 1781358026.0,
-      "rank": 29
-    },
-    {
-      "id": "c4fe31e13b5a",
-      "name": "Felix T.",
-      "anon_phone": "+49 175 •••• 96",
-      "points": 113,
-      "pct": 0.39,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 8,
-      "early_counts": 0,
-      "last_ts": 1788546370.0,
-      "first_ts": 1781465577.0,
       "rank": 30
     },
     {
@@ -592,7 +592,7 @@
       "anon_phone": "+49 151 •••• 82",
       "points": 102,
       "pct": 0.35,
-      "last24h": 6,
+      "last24h": 5,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 2,
@@ -928,7 +928,7 @@
       "anon_phone": "+49 176 •••• 35",
       "points": 70,
       "pct": 0.24,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -20218,16 +20218,16 @@
     "last_24h": [
       "7a2e949e25b3",
       "553637e3d2b4",
-      "b7f001ca29a3",
       "a5f77afeecc6",
       "8561b6020a64",
+      "b7f001ca29a3",
       "9bf6383c58eb",
-      "a84987d66bdc",
       "ff8a86710b38",
       "82a6be011a09",
       "9b2127152bcd",
       "82afa8eefe9c",
       "4cf6b703c434",
+      "a84987d66bdc",
       "1a6129668ba3",
       "462480e81eb7",
       "622963b27c41"
@@ -20449,8 +20449,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9b2127152bcd",
-      "name": "Moritz E.",
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
       "value": 1
     },
     "biggest_message": {
@@ -20927,8 +20927,8 @@
     },
     {
       "date": "2026-09-05",
-      "count": 193,
-      "total": 28944
+      "count": 194,
+      "total": 28945
     }
   ],
   "hour_histogram": [
@@ -20952,12 +20952,18 @@
     1362,
     1748,
     2341,
-    2742,
+    2743,
     2676,
     2144,
     1432
   ],
   "recent": [
+    {
+      "n": 28945,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1788633187.0
+    },
     {
       "n": 28944,
       "id": "9b2127152bcd",
@@ -21071,23 +21077,9 @@
       "id": "326da965bffa",
       "name": "X",
       "ts": 1788629356.0
-    },
-    {
-      "n": 28921,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1788629094.0
     }
   ],
   "speed_samples": [
-    [
-      1788625911,
-      28900
-    ],
-    [
-      1788625929,
-      28901
-    ],
     [
       1788626185,
       28902
@@ -21235,6 +21227,10 @@
     [
       1788632830,
       28944
+    ],
+    [
+      1788633187,
+      28945
     ]
   ]
 }
