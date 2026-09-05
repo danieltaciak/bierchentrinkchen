@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-05T13:31:57.730646+00:00",
+  "generated_at": "2026-09-05T13:32:22.162521+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28820,
-  "progress_pct": 2.882,
+  "current_count": 28821,
+  "progress_pct": 2.8821,
   "num_players": 1258,
-  "total_messages": 41444,
+  "total_messages": 41445,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788615105.0,
+  "last_count_ts": 1788615118.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -843,6 +843,22 @@
       "rank": 52
     },
     {
+      "id": "40e609fa336e",
+      "name": "Max S.",
+      "anon_phone": "+49 151 •••• 54",
+      "points": 73,
+      "pct": 0.25,
+      "last24h": 2,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 5,
+      "early_counts": 1,
+      "last_ts": 1788615118.0,
+      "first_ts": 1781290891.0,
+      "rank": 53
+    },
+    {
       "id": "7613b21d1009",
       "name": "Ido",
       "anon_phone": "+49 178 •••• 63",
@@ -856,22 +872,6 @@
       "early_counts": 4,
       "last_ts": 1787493656.0,
       "first_ts": 1781373913.0,
-      "rank": 53
-    },
-    {
-      "id": "40e609fa336e",
-      "name": "Max S.",
-      "anon_phone": "+49 151 •••• 54",
-      "points": 72,
-      "pct": 0.25,
-      "last24h": 1,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 5,
-      "early_counts": 1,
-      "last_ts": 1788615105.0,
-      "first_ts": 1781290891.0,
       "rank": 54
     },
     {
@@ -20403,7 +20403,7 @@
     "current_streak": {
       "id": "40e609fa336e",
       "name": "Max S.",
-      "value": 1
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -20879,8 +20879,8 @@
     },
     {
       "date": "2026-09-05",
-      "count": 69,
-      "total": 28820
+      "count": 70,
+      "total": 28821
     }
   ],
   "hour_histogram": [
@@ -20899,7 +20899,7 @@
     533,
     552,
     707,
-    715,
+    716,
     1039,
     1345,
     1725,
@@ -20910,6 +20910,12 @@
     1432
   ],
   "recent": [
+    {
+      "n": 28821,
+      "id": "40e609fa336e",
+      "name": "Max S.",
+      "ts": 1788615118.0
+    },
     {
       "n": 28820,
       "id": "40e609fa336e",
@@ -21023,12 +21029,6 @@
       "id": "f495a3174136",
       "name": "H.P.",
       "ts": 1788607486.0
-    },
-    {
-      "n": 28799,
-      "id": "d250ce427a30",
-      "name": "Jannik H.",
-      "ts": 1788606625.0
     }
   ],
   "speed_samples": [
@@ -21095,6 +21095,10 @@
     [
       1788615105,
       28820
+    ],
+    [
+      1788615118,
+      28821
     ]
   ]
 }
