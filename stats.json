@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-05T22:18:37.690188+00:00",
+  "generated_at": "2026-09-05T22:19:07.272797+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29015,
-  "progress_pct": 2.9015,
+  "current_count": 29016,
+  "progress_pct": 2.9016,
   "num_players": 1262,
-  "total_messages": 41690,
+  "total_messages": 41691,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788646705.0,
+  "last_count_ts": 1788646717.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -875,6 +875,22 @@
       "rank": 54
     },
     {
+      "id": "03772471f186",
+      "name": "Miri",
+      "anon_phone": "+49 151 •••• 17",
+      "points": 72,
+      "pct": 0.25,
+      "last24h": 1,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 1,
+      "early_counts": 1,
+      "last_ts": 1788646717.0,
+      "first_ts": 1783536939.0,
+      "rank": 55
+    },
+    {
       "id": "3b1afe5c45e7",
       "name": "Markus",
       "anon_phone": "+49 172 •••• 57",
@@ -888,22 +904,6 @@
       "early_counts": 1,
       "last_ts": 1784128216.0,
       "first_ts": 1781105275.0,
-      "rank": 55
-    },
-    {
-      "id": "03772471f186",
-      "name": "Miri",
-      "anon_phone": "+49 151 •••• 17",
-      "points": 71,
-      "pct": 0.24,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 0,
-      "early_counts": 1,
-      "last_ts": 1788377266.0,
-      "first_ts": 1783536939.0,
       "rank": 56
     },
     {
@@ -20465,8 +20465,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "df6424fbdeef",
-      "name": "Daniel",
+      "id": "03772471f186",
+      "name": "Miri",
       "value": 1
     },
     "biggest_message": {
@@ -20948,12 +20948,12 @@
     },
     {
       "date": "2026-09-06",
-      "count": 4,
-      "total": 29015
+      "count": 5,
+      "total": 29016
     }
   ],
   "hour_histogram": [
-    834,
+    835,
     499,
     256,
     154,
@@ -20979,6 +20979,12 @@
     1438
   ],
   "recent": [
+    {
+      "n": 29016,
+      "id": "03772471f186",
+      "name": "Miri",
+      "ts": 1788646717.0
+    },
     {
       "n": 29015,
       "id": "df6424fbdeef",
@@ -21092,12 +21098,6 @@
       "id": "c93ed700000f",
       "name": "linus",
       "ts": 1788640060.0
-    },
-    {
-      "n": 28991,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1788639992.0
     }
   ],
   "speed_samples": [
@@ -21180,6 +21180,10 @@
     [
       1788646705,
       29015
+    ],
+    [
+      1788646717,
+      29016
     ]
   ]
 }
