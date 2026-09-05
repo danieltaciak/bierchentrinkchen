@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-05T19:06:57.589383+00:00",
+  "generated_at": "2026-09-05T19:08:02.806555+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28969,
-  "progress_pct": 2.8969,
+  "current_count": 28970,
+  "progress_pct": 2.897,
   "num_players": 1262,
-  "total_messages": 41628,
+  "total_messages": 41629,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788635187.0,
+  "last_count_ts": 1788635245.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -798,15 +798,15 @@
       "id": "82afa8eefe9c",
       "name": "Tom S.",
       "anon_phone": "+49 151 •••• 31",
-      "points": 76,
-      "pct": 0.26,
-      "last24h": 5,
+      "points": 77,
+      "pct": 0.27,
+      "last24h": 6,
       "longest_streak": 3,
       "assists_given": 8,
       "assists_received": 8,
       "night_counts": 11,
       "early_counts": 0,
-      "last_ts": 1788633524.0,
+      "last_ts": 1788635245.0,
       "first_ts": 1781382766.0,
       "rank": 50
     },
@@ -20239,8 +20239,8 @@
       "b7f001ca29a3",
       "82a6be011a09",
       "9bf6383c58eb",
-      "9b2127152bcd",
       "82afa8eefe9c",
+      "9b2127152bcd",
       "4cf6b703c434",
       "ff8a86710b38",
       "a84987d66bdc",
@@ -20465,8 +20465,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "dd5da912a67c",
-      "name": "Luis",
+      "id": "82afa8eefe9c",
+      "name": "Tom S.",
       "value": 1
     },
     "biggest_message": {
@@ -20943,8 +20943,8 @@
     },
     {
       "date": "2026-09-05",
-      "count": 218,
-      "total": 28969
+      "count": 219,
+      "total": 28970
     }
   ],
   "hour_histogram": [
@@ -20969,11 +20969,17 @@
     1748,
     2341,
     2758,
-    2682,
+    2683,
     2144,
     1432
   ],
   "recent": [
+    {
+      "n": 28970,
+      "id": "82afa8eefe9c",
+      "name": "Tom S.",
+      "ts": 1788635245.0
+    },
     {
       "n": 28969,
       "id": "dd5da912a67c",
@@ -21087,12 +21093,6 @@
       "id": "5363c3d3649b",
       "name": "Quentin M.",
       "ts": 1788633394.0
-    },
-    {
-      "n": 28947,
-      "id": "5363c3d3649b",
-      "name": "Quentin M.",
-      "ts": 1788633383.0
     }
   ],
   "speed_samples": [
@@ -21299,6 +21299,10 @@
     [
       1788635187,
       28969
+    ],
+    [
+      1788635245,
+      28970
     ]
   ]
 }
