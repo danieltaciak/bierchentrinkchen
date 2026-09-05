@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-05T18:51:26.021919+00:00",
+  "generated_at": "2026-09-05T18:52:33.555648+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28957,
-  "progress_pct": 2.8957,
+  "current_count": 28959,
+  "progress_pct": 2.8959,
   "num_players": 1261,
-  "total_messages": 41610,
+  "total_messages": 41612,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788634266.0,
+  "last_count_ts": 1788634334.0,
   "players": [
     {
       "id": "a5f77afeecc6",
       "name": "Nico",
       "anon_phone": "+49 170 •••• 40",
-      "points": 369,
-      "pct": 1.27,
-      "last24h": 8,
+      "points": 370,
+      "pct": 1.28,
+      "last24h": 9,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 20,
       "early_counts": 0,
-      "last_ts": 1788628513.0,
+      "last_ts": 1788634317.0,
       "first_ts": 1781292817.0,
       "rank": 1
     },
@@ -496,7 +496,7 @@
       "anon_phone": "+49 157 •••• 67",
       "points": 112,
       "pct": 0.39,
-      "last24h": 6,
+      "last24h": 5,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -1819,6 +1819,22 @@
       "rank": 113
     },
     {
+      "id": "2e70915ef43b",
+      "name": "Toni",
+      "anon_phone": "+49 173 •••• 00",
+      "points": 42,
+      "pct": 0.15,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 2,
+      "last_ts": 1788634334.0,
+      "first_ts": 1781362641.0,
+      "rank": 114
+    },
+    {
       "id": "cea7a80a166b",
       "name": "michl",
       "anon_phone": "+49 151 •••• 20",
@@ -1832,22 +1848,6 @@
       "early_counts": 2,
       "last_ts": 1788598944.0,
       "first_ts": 1781273370.0,
-      "rank": 114
-    },
-    {
-      "id": "2e70915ef43b",
-      "name": "Toni",
-      "anon_phone": "+49 173 •••• 00",
-      "points": 41,
-      "pct": 0.14,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 2,
-      "last_ts": 1788002540.0,
-      "first_ts": 1781362641.0,
       "rank": 115
     },
     {
@@ -20222,11 +20222,11 @@
       "8561b6020a64",
       "b7f001ca29a3",
       "9bf6383c58eb",
-      "ff8a86710b38",
       "82afa8eefe9c",
       "82a6be011a09",
       "9b2127152bcd",
       "4cf6b703c434",
+      "ff8a86710b38",
       "a84987d66bdc",
       "5363c3d3649b",
       "1a6129668ba3",
@@ -20449,8 +20449,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a39caed0b9fc",
-      "name": "Philip",
+      "id": "2e70915ef43b",
+      "name": "Toni",
       "value": 1
     },
     "biggest_message": {
@@ -20927,8 +20927,8 @@
     },
     {
       "date": "2026-09-05",
-      "count": 206,
-      "total": 28957
+      "count": 208,
+      "total": 28959
     }
   ],
   "hour_histogram": [
@@ -20952,12 +20952,24 @@
     1362,
     1748,
     2341,
-    2754,
+    2756,
     2676,
     2144,
     1432
   ],
   "recent": [
+    {
+      "n": 28959,
+      "id": "2e70915ef43b",
+      "name": "Toni",
+      "ts": 1788634334.0
+    },
+    {
+      "n": 28958,
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "ts": 1788634317.0
+    },
     {
       "n": 28957,
       "id": "a39caed0b9fc",
@@ -21065,29 +21077,9 @@
       "id": "072268cf0789",
       "name": "Juli",
       "ts": 1788631599.0
-    },
-    {
-      "n": 28938,
-      "id": "d63db1480311",
-      "name": "Max",
-      "ts": 1788631540.0
-    },
-    {
-      "n": 28937,
-      "id": "a84987d66bdc",
-      "name": "Fincenths M.",
-      "ts": 1788631463.0
     }
   ],
   "speed_samples": [
-    [
-      1788627095,
-      28907
-    ],
-    [
-      1788627105,
-      28908
-    ],
     [
       1788627150,
       28910
@@ -21259,6 +21251,14 @@
     [
       1788634266,
       28957
+    ],
+    [
+      1788634317,
+      28958
+    ],
+    [
+      1788634334,
+      28959
     ]
   ]
 }
