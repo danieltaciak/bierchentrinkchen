@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-05T19:41:14.428290+00:00",
+  "generated_at": "2026-09-05T19:42:16.502052+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28986,
-  "progress_pct": 2.8986,
+  "current_count": 28987,
+  "progress_pct": 2.8987,
   "num_players": 1262,
-  "total_messages": 41648,
+  "total_messages": 41649,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788637259.0,
+  "last_count_ts": 1788637324.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -288,7 +288,7 @@
       "anon_phone": "+49 170 •••• 39",
       "points": 145,
       "pct": 0.5,
-      "last24h": 4,
+      "last24h": 2,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -398,15 +398,15 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "anon_phone": "+49 175 •••• 96",
-      "points": 115,
+      "points": 116,
       "pct": 0.4,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1788634668.0,
+      "last_ts": 1788637324.0,
       "first_ts": 1781465577.0,
       "rank": 25
     },
@@ -20245,8 +20245,8 @@
       "ff8a86710b38",
       "a84987d66bdc",
       "5363c3d3649b",
-      "1a6129668ba3",
-      "c93ed700000f"
+      "c93ed700000f",
+      "462480e81eb7"
     ],
     "longest_streak": [
       {
@@ -20465,8 +20465,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5f45182377dd",
-      "name": "Helle",
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
       "value": 1
     },
     "biggest_message": {
@@ -20943,8 +20943,8 @@
     },
     {
       "date": "2026-09-05",
-      "count": 235,
-      "total": 28986
+      "count": 236,
+      "total": 28987
     }
   ],
   "hour_histogram": [
@@ -20969,11 +20969,17 @@
     1748,
     2341,
     2758,
-    2698,
+    2699,
     2144,
     1432
   ],
   "recent": [
+    {
+      "n": 28987,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1788637324.0
+    },
     {
       "n": 28986,
       "id": "5f45182377dd",
@@ -21087,12 +21093,6 @@
       "id": "c9eb9d0c0725",
       "name": "Jonas",
       "ts": 1788634896.0
-    },
-    {
-      "n": 28964,
-      "id": "6b9e5cf641da",
-      "name": "Alex",
-      "ts": 1788634848.0
     }
   ],
   "speed_samples": [
@@ -21299,6 +21299,10 @@
     [
       1788637259,
       28986
+    ],
+    [
+      1788637324,
+      28987
     ]
   ]
 }
