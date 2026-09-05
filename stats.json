@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-05T17:29:46.375137+00:00",
+  "generated_at": "2026-09-05T17:32:53.500310+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28923,
-  "progress_pct": 2.8923,
+  "current_count": 28925,
+  "progress_pct": 2.8925,
   "num_players": 1260,
-  "total_messages": 41565,
+  "total_messages": 41567,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788629374.0,
+  "last_count_ts": 1788629538.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1707,6 +1707,22 @@
       "rank": 106
     },
     {
+      "id": "9b2127152bcd",
+      "name": "Moritz E.",
+      "anon_phone": "+49 157 •••• 14",
+      "points": 43,
+      "pct": 0.15,
+      "last24h": 5,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1788629538.0,
+      "first_ts": 1784325764.0,
+      "rank": 107
+    },
+    {
       "id": "7713abfa927e",
       "name": "Philipp",
       "anon_phone": "+49 157 •••• 59",
@@ -1720,7 +1736,7 @@
       "early_counts": 2,
       "last_ts": 1786200740.0,
       "first_ts": 1781292925.0,
-      "rank": 107
+      "rank": 108
     },
     {
       "id": "547556283acb",
@@ -1736,7 +1752,7 @@
       "early_counts": 0,
       "last_ts": 1788606013.0,
       "first_ts": 1780943086.0,
-      "rank": 108
+      "rank": 109
     },
     {
       "id": "43140b6a3d00",
@@ -1752,7 +1768,7 @@
       "early_counts": 0,
       "last_ts": 1786458982.0,
       "first_ts": 1781371137.0,
-      "rank": 109
+      "rank": 110
     },
     {
       "id": "d87796b1f27f",
@@ -1768,7 +1784,7 @@
       "early_counts": 2,
       "last_ts": 1787477392.0,
       "first_ts": 1782144951.0,
-      "rank": 110
+      "rank": 111
     },
     {
       "id": "7402368b5c04",
@@ -1784,22 +1800,6 @@
       "early_counts": 0,
       "last_ts": 1787429771.0,
       "first_ts": 1781301923.0,
-      "rank": 111
-    },
-    {
-      "id": "9b2127152bcd",
-      "name": "Moritz E.",
-      "anon_phone": "+49 157 •••• 14",
-      "points": 42,
-      "pct": 0.15,
-      "last24h": 4,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1788625566.0,
-      "first_ts": 1784325764.0,
       "rank": 112
     },
     {
@@ -20211,10 +20211,10 @@
       "82afa8eefe9c",
       "82a6be011a09",
       "4cf6b703c434",
+      "9b2127152bcd",
       "728a9cae2154",
       "1a6129668ba3",
-      "462480e81eb7",
-      "622963b27c41"
+      "462480e81eb7"
     ],
     "longest_streak": [
       {
@@ -20433,8 +20433,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "45c4cce2f31c",
-      "name": "Jakob",
+      "id": "9b2127152bcd",
+      "name": "Moritz E.",
       "value": 1
     },
     "biggest_message": {
@@ -20911,8 +20911,8 @@
     },
     {
       "date": "2026-09-05",
-      "count": 172,
-      "total": 28923
+      "count": 174,
+      "total": 28925
     }
   ],
   "hour_histogram": [
@@ -20935,13 +20935,19 @@
     1058,
     1362,
     1748,
-    2333,
+    2334,
     2733,
     2676,
     2144,
     1432
   ],
   "recent": [
+    {
+      "n": 28925,
+      "id": "9b2127152bcd",
+      "name": "Moritz E.",
+      "ts": 1788629538.0
+    },
     {
       "n": 28923,
       "id": "45c4cce2f31c",
@@ -21055,12 +21061,6 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1788626303.0
-    },
-    {
-      "n": 28902,
-      "id": "f3db6b087117",
-      "name": "Zimmi🐣",
-      "ts": 1788626185.0
     }
   ],
   "speed_samples": [
@@ -21227,6 +21227,10 @@
     [
       1788629374,
       28923
+    ],
+    [
+      1788629538,
+      28925
     ]
   ]
 }
