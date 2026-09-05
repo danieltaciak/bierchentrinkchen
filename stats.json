@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-05T20:28:07.408922+00:00",
+  "generated_at": "2026-09-05T20:28:39.726334+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 28992,
-  "progress_pct": 2.8992,
+  "current_count": 28993,
+  "progress_pct": 2.8993,
   "num_players": 1262,
-  "total_messages": 41654,
+  "total_messages": 41655,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788640060.0,
+  "last_count_ts": 1788640096.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1342,15 +1342,15 @@
       "id": "e8a4cd87f0ab",
       "name": "Jürgen G.",
       "anon_phone": "+49 170 •••• 41",
-      "points": 56,
-      "pct": 0.19,
-      "last24h": 1,
+      "points": 57,
+      "pct": 0.2,
+      "last24h": 2,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 0,
       "early_counts": 0,
-      "last_ts": 1788617643.0,
+      "last_ts": 1788640096.0,
       "first_ts": 1781268178.0,
       "rank": 84
     },
@@ -20465,8 +20465,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "c93ed700000f",
-      "name": "linus",
+      "id": "e8a4cd87f0ab",
+      "name": "Jürgen G.",
       "value": 1
     },
     "biggest_message": {
@@ -20943,8 +20943,8 @@
     },
     {
       "date": "2026-09-05",
-      "count": 241,
-      "total": 28992
+      "count": 242,
+      "total": 28993
     }
   ],
   "hour_histogram": [
@@ -20970,10 +20970,16 @@
     2341,
     2758,
     2700,
-    2148,
+    2149,
     1432
   ],
   "recent": [
+    {
+      "n": 28993,
+      "id": "e8a4cd87f0ab",
+      "name": "Jürgen G.",
+      "ts": 1788640096.0
+    },
     {
       "n": 28992,
       "id": "c93ed700000f",
@@ -21087,12 +21093,6 @@
       "id": "55246550d039",
       "name": "Andi",
       "ts": 1788635979.0
-    },
-    {
-      "n": 28972,
-      "id": "9c0968e6fd9c",
-      "name": "antonia",
-      "ts": 1788635812.0
     }
   ],
   "speed_samples": [
@@ -21271,6 +21271,10 @@
     [
       1788640060,
       28992
+    ],
+    [
+      1788640096,
+      28993
     ]
   ]
 }
