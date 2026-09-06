@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-06T21:50:48.960526+00:00",
+  "generated_at": "2026-09-06T21:51:57.588852+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29140,
-  "progress_pct": 2.914,
+  "current_count": 29141,
+  "progress_pct": 2.9141,
   "num_players": 1264,
-  "total_messages": 41836,
+  "total_messages": 41838,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788731412.0,
+  "last_count_ts": 1788731499.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -110,15 +110,15 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
-      "points": 224,
+      "points": 225,
       "pct": 0.77,
-      "last24h": 7,
+      "last24h": 8,
       "longest_streak": 6,
       "assists_given": 24,
       "assists_received": 9,
       "night_counts": 25,
       "early_counts": 2,
-      "last_ts": 1788729041.0,
+      "last_ts": 1788731499.0,
       "first_ts": 1781196449.0,
       "rank": 7
     },
@@ -20497,8 +20497,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b7787657b9d8",
-      "name": "alessio",
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
       "value": 1
     },
     "biggest_message": {
@@ -20980,8 +20980,8 @@
     },
     {
       "date": "2026-09-06",
-      "count": 129,
-      "total": 29140
+      "count": 130,
+      "total": 29141
     }
   ],
   "hour_histogram": [
@@ -21008,9 +21008,15 @@
     2763,
     2709,
     2164,
-    1441
+    1442
   ],
   "recent": [
+    {
+      "n": 29141,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1788731499.0
+    },
     {
       "n": 29140,
       "id": "b7787657b9d8",
@@ -21124,12 +21130,6 @@
       "id": "81baf6634942",
       "name": "Samu",
       "ts": 1788721700.0
-    },
-    {
-      "n": 29118,
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
-      "ts": 1788720644.0
     }
   ],
   "speed_samples": [
@@ -21180,6 +21180,10 @@
     [
       1788731412,
       29140
+    ],
+    [
+      1788731499,
+      29141
     ]
   ]
 }
