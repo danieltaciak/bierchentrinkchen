@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-06T18:11:34.775706+00:00",
+  "generated_at": "2026-09-06T18:16:24.379409+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29113,
-  "progress_pct": 2.9113,
+  "current_count": 29114,
+  "progress_pct": 2.9114,
   "num_players": 1264,
-  "total_messages": 41800,
+  "total_messages": 41801,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788718259.0,
+  "last_count_ts": 1788718553.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -431,7 +431,7 @@
       "name": "Jannik H.",
       "anon_phone": "+49 171 •••• 26",
       "points": 115,
-      "pct": 0.4,
+      "pct": 0.39,
       "last24h": 1,
       "longest_streak": 6,
       "assists_given": 0,
@@ -447,7 +447,7 @@
       "name": "Simon",
       "anon_phone": "+49 163 •••• 57",
       "points": 115,
-      "pct": 0.4,
+      "pct": 0.39,
       "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
@@ -1070,15 +1070,15 @@
       "id": "728a9cae2154",
       "name": "М. Л.",
       "anon_phone": "+49 171 •••• 18",
-      "points": 66,
+      "points": 67,
       "pct": 0.23,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 1,
       "assists_received": 0,
       "night_counts": 6,
       "early_counts": 0,
-      "last_ts": 1788563234.0,
+      "last_ts": 1788718553.0,
       "first_ts": 1783618608.0,
       "rank": 67
     },
@@ -20497,8 +20497,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
+      "id": "728a9cae2154",
+      "name": "М. Л.",
       "value": 1
     },
     "biggest_message": {
@@ -20980,8 +20980,8 @@
     },
     {
       "date": "2026-09-06",
-      "count": 102,
-      "total": 29113
+      "count": 103,
+      "total": 29114
     }
   ],
   "hour_histogram": [
@@ -21005,12 +21005,18 @@
     1369,
     1750,
     2351,
-    2759,
+    2760,
     2700,
     2157,
     1438
   ],
   "recent": [
+    {
+      "n": 29114,
+      "id": "728a9cae2154",
+      "name": "М. Л.",
+      "ts": 1788718553.0
+    },
     {
       "n": 29113,
       "id": "efeced9c0950",
@@ -21124,19 +21130,9 @@
       "id": "1b66c2456dfd",
       "name": "MM",
       "ts": 1788707048.0
-    },
-    {
-      "n": 29093,
-      "id": "560a153374c5",
-      "name": "Jakob B.",
-      "ts": 1788706895.0
     }
   ],
   "speed_samples": [
-    [
-      1788711338,
-      29100
-    ],
     [
       1788712621,
       29101
@@ -21184,6 +21180,10 @@
     [
       1788718259,
       29113
+    ],
+    [
+      1788718553,
+      29114
     ]
   ]
 }
