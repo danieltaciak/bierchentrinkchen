@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-07T15:27:32.161362+00:00",
+  "generated_at": "2026-09-07T16:13:39.450779+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29171,
-  "progress_pct": 2.9171,
+  "current_count": 29172,
+  "progress_pct": 2.9172,
   "num_players": 1265,
-  "total_messages": 41874,
+  "total_messages": 41875,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788794825.0,
+  "last_count_ts": 1788797590.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -832,7 +832,7 @@
       "anon_phone": "+49 179 •••• 67",
       "points": 77,
       "pct": 0.26,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -1568,7 +1568,7 @@
       "anon_phone": "+49 152 •••• 30",
       "points": 47,
       "pct": 0.16,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -1611,6 +1611,22 @@
       "rank": 100
     },
     {
+      "id": "5f45182377dd",
+      "name": "Helle",
+      "anon_phone": "+49 175 •••• 10",
+      "points": 46,
+      "pct": 0.16,
+      "last24h": 2,
+      "longest_streak": 1,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 1,
+      "last_ts": 1788797590.0,
+      "first_ts": 1784649623.0,
+      "rank": 101
+    },
+    {
       "id": "521def43c8ab",
       "name": "josef",
       "anon_phone": "+49 176 •••• 88",
@@ -1624,7 +1640,7 @@
       "early_counts": 3,
       "last_ts": 1788340624.0,
       "first_ts": 1780951557.0,
-      "rank": 101
+      "rank": 102
     },
     {
       "id": "c03ae4e7c448",
@@ -1640,22 +1656,6 @@
       "early_counts": 0,
       "last_ts": 1788192833.0,
       "first_ts": 1782230703.0,
-      "rank": 102
-    },
-    {
-      "id": "5f45182377dd",
-      "name": "Helle",
-      "anon_phone": "+49 175 •••• 10",
-      "points": 45,
-      "pct": 0.15,
-      "last24h": 1,
-      "longest_streak": 1,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 1,
-      "last_ts": 1788715096.0,
-      "first_ts": 1784649623.0,
       "rank": 103
     },
     {
@@ -3040,7 +3040,7 @@
       "anon_phone": "+49 160 •••• 09",
       "points": 27,
       "pct": 0.09,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -20287,14 +20287,14 @@
       "a5f77afeecc6",
       "728a9cae2154",
       "b24539a93d86",
-      "9c0968e6fd9c",
-      "5e0359616cc8",
+      "5f45182377dd",
       "8d791dd5d387",
       "f9dbd149dd64",
       "e0ccca3f241a",
       "ffffb6c4106a",
       "e32d26f673cb",
-      "4cf6b703c434"
+      "4cf6b703c434",
+      "3ce6f8806201"
     ],
     "longest_streak": [
       {
@@ -20513,8 +20513,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
+      "id": "5f45182377dd",
+      "name": "Helle",
       "value": 1
     },
     "biggest_message": {
@@ -21001,8 +21001,8 @@
     },
     {
       "date": "2026-09-07",
-      "count": 30,
-      "total": 29171
+      "count": 31,
+      "total": 29172
     }
   ],
   "hour_histogram": [
@@ -21024,7 +21024,7 @@
     740,
     1065,
     1376,
-    1750,
+    1751,
     2351,
     2763,
     2709,
@@ -21032,6 +21032,12 @@
     1442
   ],
   "recent": [
+    {
+      "n": 29172,
+      "id": "5f45182377dd",
+      "name": "Helle",
+      "ts": 1788797590.0
+    },
     {
       "n": 29171,
       "id": "3ce6f8806201",
@@ -21145,19 +21151,9 @@
       "id": "f9dbd149dd64",
       "name": "Jakob",
       "ts": 1788737027.0
-    },
-    {
-      "n": 29149,
-      "id": "e32d26f673cb",
-      "name": "Cel",
-      "ts": 1788736991.0
     }
   ],
   "speed_samples": [
-    [
-      1788789768,
-      29164
-    ],
     [
       1788793827,
       29165
@@ -21185,6 +21181,10 @@
     [
       1788794825,
       29171
+    ],
+    [
+      1788797590,
+      29172
     ]
   ]
 }
