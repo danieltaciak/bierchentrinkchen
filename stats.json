@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-08T20:13:48.100555+00:00",
+  "generated_at": "2026-09-08T20:14:22.098852+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29310,
-  "progress_pct": 2.931,
+  "current_count": 29312,
+  "progress_pct": 2.9312,
   "num_players": 1269,
-  "total_messages": 42067,
+  "total_messages": 42070,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788898401.0,
+  "last_count_ts": 1788898429.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -94,15 +94,15 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
-      "points": 237,
+      "points": 238,
       "pct": 0.81,
-      "last24h": 4,
+      "last24h": 5,
       "longest_streak": 6,
       "assists_given": 26,
       "assists_received": 10,
       "night_counts": 26,
       "early_counts": 2,
-      "last_ts": 1788890200.0,
+      "last_ts": 1788898426.0,
       "first_ts": 1781196449.0,
       "rank": 6
     },
@@ -779,6 +779,22 @@
       "rank": 48
     },
     {
+      "id": "b24539a93d86",
+      "name": "Dany",
+      "anon_phone": "+49 160 •••• 83",
+      "points": 79,
+      "pct": 0.27,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 2,
+      "assists_received": 3,
+      "night_counts": 3,
+      "early_counts": 0,
+      "last_ts": 1788898429.0,
+      "first_ts": 1781804661.0,
+      "rank": 49
+    },
+    {
       "id": "732c638fc2fc",
       "name": "Leander",
       "anon_phone": "+49 176 •••• 04",
@@ -792,7 +808,7 @@
       "early_counts": 2,
       "last_ts": 1788873990.0,
       "first_ts": 1781204574.0,
-      "rank": 49
+      "rank": 50
     },
     {
       "id": "97897748b637",
@@ -808,7 +824,7 @@
       "early_counts": 0,
       "last_ts": 1788563642.0,
       "first_ts": 1782295163.0,
-      "rank": 50
+      "rank": 51
     },
     {
       "id": "9c0968e6fd9c",
@@ -824,22 +840,6 @@
       "early_counts": 0,
       "last_ts": 1788893575.0,
       "first_ts": 1781375506.0,
-      "rank": 51
-    },
-    {
-      "id": "b24539a93d86",
-      "name": "Dany",
-      "anon_phone": "+49 160 •••• 83",
-      "points": 78,
-      "pct": 0.27,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 2,
-      "assists_received": 2,
-      "night_counts": 3,
-      "early_counts": 0,
-      "last_ts": 1788794758.0,
-      "first_ts": 1781804661.0,
       "rank": 52
     },
     {
@@ -2002,7 +2002,7 @@
       "pct": 0.13,
       "last24h": 0,
       "longest_streak": 3,
-      "assists_given": 0,
+      "assists_given": 1,
       "assists_received": 9,
       "night_counts": 4,
       "early_counts": 0,
@@ -20345,10 +20345,10 @@
     ],
     "last_24h": [
       "b7f001ca29a3",
+      "7a2e949e25b3",
       "9bf6383c58eb",
       "078ce5ea9e04",
       "998d98563b6f",
-      "7a2e949e25b3",
       "ffffb6c4106a",
       "29a1c5fbe7db",
       "776f4d602138",
@@ -20577,8 +20577,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "ffffb6c4106a",
-      "name": "Samu",
+      "id": "b24539a93d86",
+      "name": "Dany",
       "value": 1
     },
     "biggest_message": {
@@ -21070,8 +21070,8 @@
     },
     {
       "date": "2026-09-08",
-      "count": 75,
-      "total": 29310
+      "count": 77,
+      "total": 29312
     }
   ],
   "hour_histogram": [
@@ -21097,10 +21097,22 @@
     2371,
     2789,
     2723,
-    2175,
+    2177,
     1447
   ],
   "recent": [
+    {
+      "n": 29312,
+      "id": "b24539a93d86",
+      "name": "Dany",
+      "ts": 1788898429.0
+    },
+    {
+      "n": 29311,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1788898426.0
+    },
     {
       "n": 29310,
       "id": "ffffb6c4106a",
@@ -21208,18 +21220,6 @@
       "id": "5cede8006cb3",
       "name": "GG",
       "ts": 1788892396.0
-    },
-    {
-      "n": 29288,
-      "id": "998d98563b6f",
-      "name": "TobiW",
-      "ts": 1788892354.0
-    },
-    {
-      "n": 29287,
-      "id": "5000ef097876",
-      "name": "Michi",
-      "ts": 1788892311.0
     }
   ],
   "speed_samples": [
@@ -21314,6 +21314,14 @@
     [
       1788898401,
       29310
+    ],
+    [
+      1788898426,
+      29311
+    ],
+    [
+      1788898429,
+      29312
     ]
   ]
 }
