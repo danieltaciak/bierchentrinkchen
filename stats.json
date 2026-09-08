@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-08T20:51:43.722167+00:00",
+  "generated_at": "2026-09-08T21:04:12.859624+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29317,
-  "progress_pct": 2.9317,
+  "current_count": 29319,
+  "progress_pct": 2.9319,
   "num_players": 1269,
-  "total_messages": 42078,
+  "total_messages": 42079,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788900676.0,
+  "last_count_ts": 1788901440.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -110,15 +110,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 232,
+      "points": 233,
       "pct": 0.79,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 28,
       "early_counts": 2,
-      "last_ts": 1788875380.0,
+      "last_ts": 1788901440.0,
       "first_ts": 1781212818.0,
       "rank": 7
     },
@@ -20354,11 +20354,11 @@
       "29a1c5fbe7db",
       "776f4d602138",
       "2f9108443e86",
+      "c93ed700000f",
       "3ce6f8806201",
       "9df88ede2b8e",
       "d250ce427a30",
-      "25e99d4d957d",
-      "5abe012d351f"
+      "25e99d4d957d"
     ],
     "longest_streak": [
       {
@@ -20577,8 +20577,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
+      "id": "c93ed700000f",
+      "name": "linus",
       "value": 1
     },
     "biggest_message": {
@@ -21070,8 +21070,8 @@
     },
     {
       "date": "2026-09-08",
-      "count": 82,
-      "total": 29317
+      "count": 84,
+      "total": 29319
     }
   ],
   "hour_histogram": [
@@ -21098,9 +21098,15 @@
     2789,
     2723,
     2182,
-    1447
+    1448
   ],
   "recent": [
+    {
+      "n": 29319,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1788901440.0
+    },
     {
       "n": 29317,
       "id": "7a2e949e25b3",
@@ -21214,27 +21220,9 @@
       "id": "9c0968e6fd9c",
       "name": "antonia",
       "ts": 1788893575.0
-    },
-    {
-      "n": 29295,
-      "id": "fd8954132240",
-      "name": "sophie",
-      "ts": 1788893220.0
     }
   ],
   "speed_samples": [
-    [
-      1788893575,
-      29298
-    ],
-    [
-      1788893602,
-      29299
-    ],
-    [
-      1788893904,
-      29300
-    ],
     [
       1788894574,
       29301
@@ -21298,6 +21286,10 @@
     [
       1788900676,
       29317
+    ],
+    [
+      1788901440,
+      29319
     ]
   ]
 }
