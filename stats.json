@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-08T17:44:40.581259+00:00",
+  "generated_at": "2026-09-08T17:56:08.071780+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29279,
-  "progress_pct": 2.9279,
+  "current_count": 29280,
+  "progress_pct": 2.928,
   "num_players": 1266,
-  "total_messages": 42015,
+  "total_messages": 42017,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788889455.0,
+  "last_count_ts": 1788890155.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -414,15 +414,15 @@
       "id": "d250ce427a30",
       "name": "Jannik H.",
       "anon_phone": "+49 171 •••• 26",
-      "points": 116,
+      "points": 117,
       "pct": 0.4,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 10,
       "early_counts": 0,
-      "last_ts": 1788810700.0,
+      "last_ts": 1788890155.0,
       "first_ts": 1781456630.0,
       "rank": 26
     },
@@ -20307,10 +20307,10 @@
       "ffffb6c4106a",
       "38901395de74",
       "08afa9dfd19d",
+      "d250ce427a30",
       "e32d26f673cb",
       "21c53f0a0b18",
-      "29a1c5fbe7db",
-      "2f9108443e86"
+      "29a1c5fbe7db"
     ],
     "longest_streak": [
       {
@@ -20529,8 +20529,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "38901395de74",
-      "name": "Johannes W.",
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
       "value": 1
     },
     "biggest_message": {
@@ -21022,8 +21022,8 @@
     },
     {
       "date": "2026-09-08",
-      "count": 44,
-      "total": 29279
+      "count": 45,
+      "total": 29280
     }
   ],
   "hour_histogram": [
@@ -21046,13 +21046,19 @@
     1068,
     1378,
     1762,
-    2368,
+    2369,
     2774,
     2717,
     2172,
     1447
   ],
   "recent": [
+    {
+      "n": 29280,
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
+      "ts": 1788890155.0
+    },
     {
       "n": 29279,
       "id": "38901395de74",
@@ -21166,12 +21172,6 @@
       "id": "e8a4cd87f0ab",
       "name": "Jürgen G.",
       "ts": 1788880869.0
-    },
-    {
-      "n": 29260,
-      "id": "cb1c9c0fbc0d",
-      "name": "Ole",
-      "ts": 1788878653.0
     }
   ],
   "speed_samples": [
@@ -21242,6 +21242,10 @@
     [
       1788889455,
       29279
+    ],
+    [
+      1788890155,
+      29280
     ]
   ]
 }
