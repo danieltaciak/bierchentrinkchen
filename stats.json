@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-08T18:58:45.192572+00:00",
+  "generated_at": "2026-09-08T19:10:16.087520+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29300,
-  "progress_pct": 2.93,
+  "current_count": 29301,
+  "progress_pct": 2.9301,
   "num_players": 1269,
-  "total_messages": 42045,
+  "total_messages": 42046,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788893904.0,
+  "last_count_ts": 1788894574.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -46,15 +46,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 302,
+      "points": 303,
       "pct": 1.03,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 1,
       "assists_received": 0,
       "night_counts": 44,
       "early_counts": 3,
-      "last_ts": 1788736982.0,
+      "last_ts": 1788894574.0,
       "first_ts": 1781373213.0,
       "rank": 3
     },
@@ -20577,8 +20577,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "29a1c5fbe7db",
-      "name": "Tanja🌺",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -21070,8 +21070,8 @@
     },
     {
       "date": "2026-09-08",
-      "count": 65,
-      "total": 29300
+      "count": 66,
+      "total": 29301
     }
   ],
   "hour_histogram": [
@@ -21096,11 +21096,17 @@
     1762,
     2371,
     2789,
-    2717,
+    2718,
     2172,
     1447
   ],
   "recent": [
+    {
+      "n": 29301,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1788894574.0
+    },
     {
       "n": 29300,
       "id": "29a1c5fbe7db",
@@ -21214,19 +21220,9 @@
       "id": "38901395de74",
       "name": "Johannes W.",
       "ts": 1788889455.0
-    },
-    {
-      "n": 29278,
-      "id": "9df88ede2b8e",
-      "name": "Maxi",
-      "ts": 1788888999.0
     }
   ],
   "speed_samples": [
-    [
-      1788886823,
-      29270
-    ],
     [
       1788888099,
       29271
@@ -21334,6 +21330,10 @@
     [
       1788893904,
       29300
+    ],
+    [
+      1788894574,
+      29301
     ]
   ]
 }
