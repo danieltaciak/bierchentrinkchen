@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-08T22:52:39.138798+00:00",
+  "generated_at": "2026-09-08T22:53:12.872022+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29330,
-  "progress_pct": 2.933,
+  "current_count": 29331,
+  "progress_pct": 2.9331,
   "num_players": 1269,
-  "total_messages": 42092,
+  "total_messages": 42093,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788907925.0,
+  "last_count_ts": 1788907979.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -782,15 +782,15 @@
       "id": "b24539a93d86",
       "name": "Dany",
       "anon_phone": "+49 160 •••• 83",
-      "points": 79,
+      "points": 80,
       "pct": 0.27,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 2,
       "assists_received": 3,
-      "night_counts": 3,
+      "night_counts": 4,
       "early_counts": 0,
-      "last_ts": 1788898429.0,
+      "last_ts": 1788907979.0,
       "first_ts": 1781804661.0,
       "rank": 49
     },
@@ -20577,8 +20577,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "d250ce427a30",
-      "name": "Jannik H.",
+      "id": "b24539a93d86",
+      "name": "Dany",
       "value": 1
     },
     "biggest_message": {
@@ -21075,12 +21075,12 @@
     },
     {
       "date": "2026-09-09",
-      "count": 3,
-      "total": 29330
+      "count": 4,
+      "total": 29331
     }
   ],
   "hour_histogram": [
-    848,
+    849,
     508,
     263,
     156,
@@ -21106,6 +21106,12 @@
     1456
   ],
   "recent": [
+    {
+      "n": 29331,
+      "id": "b24539a93d86",
+      "name": "Dany",
+      "ts": 1788907979.0
+    },
     {
       "n": 29330,
       "id": "d250ce427a30",
@@ -21219,12 +21225,6 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "ts": 1788898426.0
-    },
-    {
-      "n": 29310,
-      "id": "ffffb6c4106a",
-      "name": "Samu",
-      "ts": 1788898401.0
     }
   ],
   "speed_samples": [
@@ -21275,6 +21275,10 @@
     [
       1788907925,
       29330
+    ],
+    [
+      1788907979,
+      29331
     ]
   ]
 }
