@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-09T21:24:56.871374+00:00",
+  "generated_at": "2026-09-09T22:05:08.187184+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29437,
-  "progress_pct": 2.9437,
+  "current_count": 29439,
+  "progress_pct": 2.9439,
   "num_players": 1270,
-  "total_messages": 42224,
+  "total_messages": 42228,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788989066.0,
+  "last_count_ts": 1788991481.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -48,7 +48,7 @@
       "anon_phone": "+49 176 •••• 42",
       "points": 305,
       "pct": 1.04,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 1,
       "assists_received": 0,
@@ -96,7 +96,7 @@
       "anon_phone": "+49 152 •••• 46",
       "points": 247,
       "pct": 0.84,
-      "last24h": 8,
+      "last24h": 7,
       "longest_streak": 6,
       "assists_given": 26,
       "assists_received": 10,
@@ -112,7 +112,7 @@
       "anon_phone": "+49 178 •••• 54",
       "points": 234,
       "pct": 0.79,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -400,7 +400,7 @@
       "anon_phone": "+49 171 •••• 26",
       "points": 122,
       "pct": 0.41,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
@@ -571,6 +571,22 @@
       "rank": 35
     },
     {
+      "id": "4460bcf9c79c",
+      "name": "Lance",
+      "anon_phone": "+49 152 •••• 66",
+      "points": 104,
+      "pct": 0.35,
+      "last24h": 1,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 13,
+      "early_counts": 1,
+      "last_ts": 1788991481.0,
+      "first_ts": 1781198140.0,
+      "rank": 36
+    },
+    {
       "id": "a39caed0b9fc",
       "name": "Philip",
       "anon_phone": "+49 173 •••• 53",
@@ -584,7 +600,7 @@
       "early_counts": 4,
       "last_ts": 1788634266.0,
       "first_ts": 1781111984.0,
-      "rank": 36
+      "rank": 37
     },
     {
       "id": "a84987d66bdc",
@@ -600,22 +616,6 @@
       "early_counts": 1,
       "last_ts": 1788683011.0,
       "first_ts": 1781197357.0,
-      "rank": 37
-    },
-    {
-      "id": "4460bcf9c79c",
-      "name": "Lance",
-      "anon_phone": "+49 152 •••• 66",
-      "points": 103,
-      "pct": 0.35,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 12,
-      "early_counts": 1,
-      "last_ts": 1788472363.0,
-      "first_ts": 1781198140.0,
       "rank": 38
     },
     {
@@ -20360,21 +20360,21 @@
       "d250ce427a30"
     ],
     "last_24h": [
-      "7a2e949e25b3",
       "b24539a93d86",
+      "7a2e949e25b3",
       "9df88ede2b8e",
       "b7f001ca29a3",
       "9c0968e6fd9c",
       "82afa8eefe9c",
       "e8a4cd87f0ab",
       "8561b6020a64",
-      "d250ce427a30",
       "8c8f9ee31367",
       "a5f77afeecc6",
       "dafe080ee1cf",
       "ff8a86710b38",
       "29a1c5fbe7db",
-      "efeced9c0950"
+      "078ce5ea9e04",
+      "d250ce427a30"
     ],
     "longest_streak": [
       {
@@ -20593,8 +20593,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
+      "id": "4460bcf9c79c",
+      "name": "Lance",
       "value": 1
     },
     "biggest_message": {
@@ -21093,10 +21093,15 @@
       "date": "2026-09-09",
       "count": 110,
       "total": 29437
+    },
+    {
+      "date": "2026-09-10",
+      "count": 2,
+      "total": 29439
     }
   ],
   "hour_histogram": [
-    849,
+    850,
     511,
     263,
     158,
@@ -21122,6 +21127,12 @@
     1459
   ],
   "recent": [
+    {
+      "n": 29439,
+      "id": "4460bcf9c79c",
+      "name": "Lance",
+      "ts": 1788991481.0
+    },
     {
       "n": 29437,
       "id": "7a2e949e25b3",
@@ -21235,55 +21246,9 @@
       "id": "2d57122bd227",
       "name": "Johannes W.",
       "ts": 1788981220.0
-    },
-    {
-      "n": 29418,
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "ts": 1788981192.0
     }
   ],
   "speed_samples": [
-    [
-      1788981967,
-      29421
-    ],
-    [
-      1788982129,
-      29422
-    ],
-    [
-      1788982364,
-      29423
-    ],
-    [
-      1788982530,
-      29424
-    ],
-    [
-      1788982602,
-      29425
-    ],
-    [
-      1788983200,
-      29426
-    ],
-    [
-      1788983437,
-      29427
-    ],
-    [
-      1788983513,
-      29428
-    ],
-    [
-      1788983980,
-      29429
-    ],
-    [
-      1788984121,
-      29430
-    ],
     [
       1788986324,
       29431
@@ -21311,6 +21276,10 @@
     [
       1788989066,
       29437
+    ],
+    [
+      1788991481,
+      29439
     ]
   ]
 }
