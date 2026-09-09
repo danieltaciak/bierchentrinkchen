@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-09T14:32:56.992101+00:00",
+  "generated_at": "2026-09-09T14:47:35.254561+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29358,
-  "progress_pct": 2.9358,
+  "current_count": 29360,
+  "progress_pct": 2.936,
   "num_players": 1269,
-  "total_messages": 42126,
+  "total_messages": 42127,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788964365.0,
+  "last_count_ts": 1788965241.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -795,6 +795,22 @@
       "rank": 49
     },
     {
+      "id": "9c0968e6fd9c",
+      "name": "antonia",
+      "anon_phone": "+49 179 •••• 67",
+      "points": 80,
+      "pct": 0.27,
+      "last24h": 3,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 8,
+      "early_counts": 0,
+      "last_ts": 1788965241.0,
+      "first_ts": 1781375506.0,
+      "rank": 50
+    },
+    {
       "id": "732c638fc2fc",
       "name": "Leander",
       "anon_phone": "+49 176 •••• 04",
@@ -808,7 +824,7 @@
       "early_counts": 2,
       "last_ts": 1788873990.0,
       "first_ts": 1781204574.0,
-      "rank": 50
+      "rank": 51
     },
     {
       "id": "97897748b637",
@@ -824,22 +840,6 @@
       "early_counts": 0,
       "last_ts": 1788563642.0,
       "first_ts": 1782295163.0,
-      "rank": 51
-    },
-    {
-      "id": "9c0968e6fd9c",
-      "name": "antonia",
-      "anon_phone": "+49 179 •••• 67",
-      "points": 78,
-      "pct": 0.27,
-      "last24h": 1,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 8,
-      "early_counts": 0,
-      "last_ts": 1788893575.0,
-      "first_ts": 1781375506.0,
       "rank": 52
     },
     {
@@ -5584,7 +5584,7 @@
       "anon_phone": "+49 176 •••• 88",
       "points": 15,
       "pct": 0.05,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -20353,12 +20353,12 @@
       "b7f001ca29a3",
       "e8a4cd87f0ab",
       "078ce5ea9e04",
+      "9c0968e6fd9c",
       "3ce6f8806201",
       "29a1c5fbe7db",
       "25e99d4d957d",
       "5abe012d351f",
-      "fd8954132240",
-      "efeced9c0950"
+      "fd8954132240"
     ],
     "longest_streak": [
       {
@@ -20577,9 +20577,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "value": 1
+      "id": "9c0968e6fd9c",
+      "name": "antonia",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21075,8 +21075,8 @@
     },
     {
       "date": "2026-09-09",
-      "count": 31,
-      "total": 29358
+      "count": 33,
+      "total": 29360
     }
   ],
   "hour_histogram": [
@@ -21096,7 +21096,7 @@
     564,
     722,
     752,
-    1071,
+    1073,
     1378,
     1762,
     2371,
@@ -21106,6 +21106,18 @@
     1456
   ],
   "recent": [
+    {
+      "n": 29360,
+      "id": "9c0968e6fd9c",
+      "name": "antonia",
+      "ts": 1788965241.0
+    },
+    {
+      "n": 29359,
+      "id": "9c0968e6fd9c",
+      "name": "antonia",
+      "ts": 1788965241.0
+    },
     {
       "n": 29358,
       "id": "b7f001ca29a3",
@@ -21213,18 +21225,6 @@
       "id": "8561b6020a64",
       "name": "Daniel W.",
       "ts": 1788942101.0
-    },
-    {
-      "n": 29339,
-      "id": "b24539a93d86",
-      "name": "Dany",
-      "ts": 1788941510.0
-    },
-    {
-      "n": 29338,
-      "id": "b24539a93d86",
-      "name": "Dany",
-      "ts": 1788941510.0
     }
   ],
   "speed_samples": [
@@ -21255,6 +21255,14 @@
     [
       1788964365,
       29358
+    ],
+    [
+      1788965241,
+      29359
+    ],
+    [
+      1788965241,
+      29360
     ]
   ]
 }
