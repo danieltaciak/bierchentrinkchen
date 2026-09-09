@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-09T19:50:50.975649+00:00",
+  "generated_at": "2026-09-09T19:52:23.267453+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29427,
-  "progress_pct": 2.9427,
+  "current_count": 29428,
+  "progress_pct": 2.9428,
   "num_players": 1270,
-  "total_messages": 42209,
+  "total_messages": 42210,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1788983437.0,
+  "last_count_ts": 1788983513.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -126,15 +126,15 @@
       "id": "8a6ad087f1ea",
       "name": "ich H.",
       "anon_phone": "+49 176 •••• 10",
-      "points": 206,
+      "points": 207,
       "pct": 0.7,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 10,
       "assists_given": 1,
       "assists_received": 0,
       "night_counts": 42,
       "early_counts": 2,
-      "last_ts": 1788685604.0,
+      "last_ts": 1788983513.0,
       "first_ts": 1781470164.0,
       "rank": 8
     },
@@ -20593,8 +20593,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "38901395de74",
-      "name": "Johannes W.",
+      "id": "8a6ad087f1ea",
+      "name": "ich H.",
       "value": 1
     },
     "biggest_message": {
@@ -21091,8 +21091,8 @@
     },
     {
       "date": "2026-09-09",
-      "count": 100,
-      "total": 29427
+      "count": 101,
+      "total": 29428
     }
   ],
   "hour_histogram": [
@@ -21117,11 +21117,17 @@
     1777,
     2383,
     2804,
-    2734,
+    2735,
     2182,
     1456
   ],
   "recent": [
+    {
+      "n": 29428,
+      "id": "8a6ad087f1ea",
+      "name": "ich H.",
+      "ts": 1788983513.0
+    },
     {
       "n": 29427,
       "id": "38901395de74",
@@ -21235,12 +21241,6 @@
       "id": "29a1c5fbe7db",
       "name": "Tanja🌺",
       "ts": 1788979460.0
-    },
-    {
-      "n": 29406,
-      "id": "82afa8eefe9c",
-      "name": "Tom S.",
-      "ts": 1788979431.0
     }
   ],
   "speed_samples": [
@@ -21363,6 +21363,10 @@
     [
       1788983437,
       29427
+    ],
+    [
+      1788983513,
+      29428
     ]
   ]
 }
