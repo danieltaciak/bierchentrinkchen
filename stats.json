@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-10T18:33:27.844863+00:00",
+  "generated_at": "2026-09-10T18:39:24.607484+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29531,
-  "progress_pct": 2.9531,
+  "current_count": 29532,
+  "progress_pct": 2.9532,
   "num_players": 1271,
-  "total_messages": 42352,
+  "total_messages": 42353,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789065174.0,
+  "last_count_ts": 1789065542.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -46,15 +46,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 307,
+      "points": 308,
       "pct": 1.04,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 1,
       "assists_received": 0,
       "night_counts": 44,
       "early_counts": 3,
-      "last_ts": 1789059682.0,
+      "last_ts": 1789065542.0,
       "first_ts": 1781373213.0,
       "rank": 3
     },
@@ -6592,7 +6592,7 @@
       "anon_phone": "+49 170 •••• 55",
       "points": 12,
       "pct": 0.04,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -20385,8 +20385,8 @@
       "9bf6383c58eb",
       "8561b6020a64",
       "b24539a93d86",
-      "88dc236346c4",
       "efeced9c0950",
+      "88dc236346c4",
       "3ce6f8806201",
       "a5f77afeecc6",
       "ee5fb9851820",
@@ -20609,8 +20609,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5e4e6db7ee18",
-      "name": "Hansi",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -21112,8 +21112,8 @@
     },
     {
       "date": "2026-09-10",
-      "count": 94,
-      "total": 29531
+      "count": 95,
+      "total": 29532
     }
   ],
   "hour_histogram": [
@@ -21137,12 +21137,18 @@
     1389,
     1789,
     2404,
-    2821,
+    2822,
     2736,
     2187,
     1459
   ],
   "recent": [
+    {
+      "n": 29532,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1789065542.0
+    },
     {
       "n": 29531,
       "id": "5e4e6db7ee18",
@@ -21256,12 +21262,6 @@
       "id": "3ce6f8806201",
       "name": "Simon S.",
       "ts": 1789063185.0
-    },
-    {
-      "n": 29510,
-      "id": "c4fe31e13b5a",
-      "name": "Felix T.",
-      "ts": 1789063141.0
     }
   ],
   "speed_samples": [
@@ -21440,6 +21440,10 @@
     [
       1789065174,
       29531
+    ],
+    [
+      1789065542,
+      29532
     ]
   ]
 }
