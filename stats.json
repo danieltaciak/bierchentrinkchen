@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-10T18:20:15.825443+00:00",
+  "generated_at": "2026-09-10T18:24:52.645405+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29522,
-  "progress_pct": 2.9522,
+  "current_count": 29523,
+  "progress_pct": 2.9523,
   "num_players": 1271,
-  "total_messages": 42338,
+  "total_messages": 42339,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789064408.0,
+  "last_count_ts": 1789064661.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -846,15 +846,15 @@
       "id": "8561b6020a64",
       "name": "Daniel W.",
       "anon_phone": "+49 171 •••• 23",
-      "points": 75,
-      "pct": 0.25,
-      "last24h": 3,
+      "points": 76,
+      "pct": 0.26,
+      "last24h": 4,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 1,
       "early_counts": 1,
-      "last_ts": 1789031450.0,
+      "last_ts": 1789064661.0,
       "first_ts": 1784041780.0,
       "rank": 53
     },
@@ -20383,9 +20383,9 @@
       "7a2e949e25b3",
       "b7f001ca29a3",
       "9bf6383c58eb",
+      "8561b6020a64",
       "b24539a93d86",
       "88dc236346c4",
-      "8561b6020a64",
       "efeced9c0950",
       "3ce6f8806201",
       "a5f77afeecc6",
@@ -20609,8 +20609,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "fc3ec1723b99",
-      "name": "Josefa:)",
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
       "value": 1
     },
     "biggest_message": {
@@ -21112,8 +21112,8 @@
     },
     {
       "date": "2026-09-10",
-      "count": 85,
-      "total": 29522
+      "count": 86,
+      "total": 29523
     }
   ],
   "hour_histogram": [
@@ -21137,12 +21137,18 @@
     1389,
     1789,
     2404,
-    2813,
+    2814,
     2736,
     2187,
     1459
   ],
   "recent": [
+    {
+      "n": 29523,
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
+      "ts": 1789064661.0
+    },
     {
       "n": 29522,
       "id": "fc3ec1723b99",
@@ -21256,19 +21262,9 @@
       "id": "88dc236346c4",
       "name": "Isa",
       "ts": 1789061923.0
-    },
-    {
-      "n": 29501,
-      "id": "88dc236346c4",
-      "name": "Isa",
-      "ts": 1789061900.0
     }
   ],
   "speed_samples": [
-    [
-      1789057314,
-      29482
-    ],
     [
       1789057765,
       29483
@@ -21420,6 +21416,10 @@
     [
       1789064408,
       29522
+    ],
+    [
+      1789064661,
+      29523
     ]
   ]
 }
