@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-10T17:58:17.988190+00:00",
+  "generated_at": "2026-09-10T17:59:17.795318+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29509,
-  "progress_pct": 2.9509,
+  "current_count": 29510,
+  "progress_pct": 2.951,
   "num_players": 1271,
-  "total_messages": 42322,
+  "total_messages": 42323,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789063086.0,
+  "last_count_ts": 1789063141.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -382,15 +382,15 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "anon_phone": "+49 175 •••• 96",
-      "points": 124,
+      "points": 125,
       "pct": 0.42,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1788983200.0,
+      "last_ts": 1789063141.0,
       "first_ts": 1781465577.0,
       "rank": 24
     },
@@ -20609,8 +20609,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5f45182377dd",
-      "name": "Helle",
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
       "value": 1
     },
     "biggest_message": {
@@ -21112,8 +21112,8 @@
     },
     {
       "date": "2026-09-10",
-      "count": 72,
-      "total": 29509
+      "count": 73,
+      "total": 29510
     }
   ],
   "hour_histogram": [
@@ -21136,13 +21136,19 @@
     1077,
     1389,
     1789,
-    2401,
+    2402,
     2804,
     2736,
     2187,
     1459
   ],
   "recent": [
+    {
+      "n": 29510,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1789063141.0
+    },
     {
       "n": 29509,
       "id": "5f45182377dd",
@@ -21256,12 +21262,6 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "ts": 1789059501.0
-    },
-    {
-      "n": 29489,
-      "id": "4cf6b703c434",
-      "name": "Tom H.",
-      "ts": 1789059300.0
     }
   ],
   "speed_samples": [
@@ -21384,6 +21384,10 @@
     [
       1789063086,
       29509
+    ],
+    [
+      1789063141,
+      29510
     ]
   ]
 }
