@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-10T16:14:36.729228+00:00",
+  "generated_at": "2026-09-10T16:15:12.876242+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29479,
-  "progress_pct": 2.9479,
+  "current_count": 29480,
+  "progress_pct": 2.948,
   "num_players": 1270,
-  "total_messages": 42284,
+  "total_messages": 42285,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789056858.0,
+  "last_count_ts": 1789056879.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1168,7 +1168,7 @@
       "anon_phone": "+49 170 •••• 41",
       "points": 64,
       "pct": 0.22,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -3371,6 +3371,22 @@
       "rank": 210
     },
     {
+      "id": "dafe080ee1cf",
+      "name": "Lukas",
+      "anon_phone": "+49 179 •••• 71",
+      "points": 25,
+      "pct": 0.08,
+      "last24h": 4,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 3,
+      "early_counts": 0,
+      "last_ts": 1789056879.0,
+      "first_ts": 1781973116.0,
+      "rank": 211
+    },
+    {
       "id": "7edc788364aa",
       "name": "Maren V.",
       "anon_phone": "+49 152 •••• 42",
@@ -3384,7 +3400,7 @@
       "early_counts": 0,
       "last_ts": 1788023174.0,
       "first_ts": 1782760754.0,
-      "rank": 211
+      "rank": 212
     },
     {
       "id": "46cb30821e6d",
@@ -3400,7 +3416,7 @@
       "early_counts": 1,
       "last_ts": 1786727092.0,
       "first_ts": 1782561346.0,
-      "rank": 212
+      "rank": 213
     },
     {
       "id": "e31e930abeb1",
@@ -3416,7 +3432,7 @@
       "early_counts": 0,
       "last_ts": 1787181089.0,
       "first_ts": 1781457528.0,
-      "rank": 213
+      "rank": 214
     },
     {
       "id": "78a6d1300450",
@@ -3432,7 +3448,7 @@
       "early_counts": 0,
       "last_ts": 1784069376.0,
       "first_ts": 1782492838.0,
-      "rank": 214
+      "rank": 215
     },
     {
       "id": "88dc236346c4",
@@ -3448,22 +3464,6 @@
       "early_counts": 1,
       "last_ts": 1788369615.0,
       "first_ts": 1784724126.0,
-      "rank": 215
-    },
-    {
-      "id": "dafe080ee1cf",
-      "name": "Lukas",
-      "anon_phone": "+49 179 •••• 71",
-      "points": 24,
-      "pct": 0.08,
-      "last24h": 3,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 3,
-      "early_counts": 0,
-      "last_ts": 1788974108.0,
-      "first_ts": 1781973116.0,
       "rank": 216
     },
     {
@@ -20367,12 +20367,12 @@
       "29a1c5fbe7db",
       "7a2e949e25b3",
       "8561b6020a64",
+      "dafe080ee1cf",
       "9c0968e6fd9c",
       "b24539a93d86",
       "8c8f9ee31367",
       "a5f77afeecc6",
       "3ce6f8806201",
-      "dafe080ee1cf",
       "ff8a86710b38",
       "9bf6383c58eb"
     ],
@@ -20593,8 +20593,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
+      "id": "dafe080ee1cf",
+      "name": "Lukas",
       "value": 1
     },
     "biggest_message": {
@@ -21096,8 +21096,8 @@
     },
     {
       "date": "2026-09-10",
-      "count": 42,
-      "total": 29479
+      "count": 43,
+      "total": 29480
     }
   ],
   "hour_histogram": [
@@ -21119,7 +21119,7 @@
     756,
     1077,
     1389,
-    1778,
+    1779,
     2383,
     2804,
     2736,
@@ -21127,6 +21127,12 @@
     1459
   ],
   "recent": [
+    {
+      "n": 29480,
+      "id": "dafe080ee1cf",
+      "name": "Lukas",
+      "ts": 1789056879.0
+    },
     {
       "n": 29479,
       "id": "b7f001ca29a3",
@@ -21240,12 +21246,6 @@
       "id": "b24539a93d86",
       "name": "Dany",
       "ts": 1789040454.0
-    },
-    {
-      "n": 29458,
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
-      "ts": 1789040434.0
     }
   ],
   "speed_samples": [
@@ -21284,6 +21284,10 @@
     [
       1789056858,
       29479
+    ],
+    [
+      1789056879,
+      29480
     ]
   ]
 }
