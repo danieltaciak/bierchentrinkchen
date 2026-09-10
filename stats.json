@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-10T09:09:14.225537+00:00",
+  "generated_at": "2026-09-10T09:11:23.244750+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29450,
-  "progress_pct": 2.945,
+  "current_count": 29451,
+  "progress_pct": 2.9451,
   "num_players": 1270,
-  "total_messages": 42242,
+  "total_messages": 42243,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789031323.0,
+  "last_count_ts": 1789031450.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -846,15 +846,15 @@
       "id": "8561b6020a64",
       "name": "Daniel W.",
       "anon_phone": "+49 171 •••• 23",
-      "points": 74,
+      "points": 75,
       "pct": 0.25,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 1,
       "early_counts": 1,
-      "last_ts": 1788982530.0,
+      "last_ts": 1789031450.0,
       "first_ts": 1784041780.0,
       "rank": 53
     },
@@ -20593,9 +20593,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "4cf6b703c434",
-      "name": "Tom H.",
-      "value": 2
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21096,8 +21096,8 @@
     },
     {
       "date": "2026-09-10",
-      "count": 13,
-      "total": 29450
+      "count": 14,
+      "total": 29451
     }
   ],
   "hour_histogram": [
@@ -21112,7 +21112,7 @@
     144,
     166,
     244,
-    363,
+    364,
     550,
     564,
     722,
@@ -21127,6 +21127,12 @@
     1459
   ],
   "recent": [
+    {
+      "n": 29451,
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
+      "ts": 1789031450.0
+    },
     {
       "n": 29450,
       "id": "4cf6b703c434",
@@ -21240,12 +21246,6 @@
       "id": "4cf6b703c434",
       "name": "Tom H.",
       "ts": 1788983980.0
-    },
-    {
-      "n": 29428,
-      "id": "8a6ad087f1ea",
-      "name": "ich H.",
-      "ts": 1788983513.0
     }
   ],
   "speed_samples": [
@@ -21260,6 +21260,10 @@
     [
       1789031323,
       29450
+    ],
+    [
+      1789031450,
+      29451
     ]
   ]
 }
