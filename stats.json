@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-11T15:46:58.125488+00:00",
+  "generated_at": "2026-09-11T15:55:05.348847+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29681,
-  "progress_pct": 2.9681,
+  "current_count": 29682,
+  "progress_pct": 2.9682,
   "num_players": 1273,
-  "total_messages": 42545,
+  "total_messages": 42546,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789141586.0,
+  "last_count_ts": 1789142093.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1211,6 +1211,22 @@
       "rank": 75
     },
     {
+      "id": "d6c5978b929b",
+      "name": "Jonas K.",
+      "anon_phone": "+49 152 •••• 33",
+      "points": 63,
+      "pct": 0.21,
+      "last24h": 1,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 1,
+      "last_ts": 1789142093.0,
+      "first_ts": 1781347225.0,
+      "rank": 76
+    },
+    {
       "id": "80b0db246ea6",
       "name": "Zeiler",
       "anon_phone": "+49 152 •••• 64",
@@ -1224,7 +1240,7 @@
       "early_counts": 2,
       "last_ts": 1784923024.0,
       "first_ts": 1781260489.0,
-      "rank": 76
+      "rank": 77
     },
     {
       "id": "b78c86671efc",
@@ -1240,22 +1256,6 @@
       "early_counts": 0,
       "last_ts": 1788619424.0,
       "first_ts": 1781362675.0,
-      "rank": 77
-    },
-    {
-      "id": "d6c5978b929b",
-      "name": "Jonas K.",
-      "anon_phone": "+49 152 •••• 33",
-      "points": 62,
-      "pct": 0.21,
-      "last24h": 0,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 1,
-      "last_ts": 1788700776.0,
-      "first_ts": 1781347225.0,
       "rank": 78
     },
     {
@@ -20641,9 +20641,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "value": 2
+      "id": "d6c5978b929b",
+      "name": "Jonas K.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21149,8 +21149,8 @@
     },
     {
       "date": "2026-09-11",
-      "count": 69,
-      "total": 29681
+      "count": 70,
+      "total": 29682
     }
   ],
   "hour_histogram": [
@@ -21171,7 +21171,7 @@
     732,
     761,
     1094,
-    1396,
+    1397,
     1789,
     2404,
     2826,
@@ -21180,6 +21180,12 @@
     1472
   ],
   "recent": [
+    {
+      "n": 29682,
+      "id": "d6c5978b929b",
+      "name": "Jonas K.",
+      "ts": 1789142093.0
+    },
     {
       "n": 29681,
       "id": "73a69bdc1f9e",
@@ -21293,12 +21299,6 @@
       "id": "73a69bdc1f9e",
       "name": "Dominikz",
       "ts": 1789136143.0
-    },
-    {
-      "n": 29661,
-      "id": "326da965bffa",
-      "name": "X",
-      "ts": 1789135851.0
     }
   ],
   "speed_samples": [
@@ -21397,6 +21397,10 @@
     [
       1789141586,
       29681
+    ],
+    [
+      1789142093,
+      29682
     ]
   ]
 }
