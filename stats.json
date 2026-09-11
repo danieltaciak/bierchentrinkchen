@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-11T13:17:02.575071+00:00",
+  "generated_at": "2026-09-11T13:19:00.124835+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29653,
-  "progress_pct": 2.9653,
+  "current_count": 29654,
+  "progress_pct": 2.9654,
   "num_players": 1272,
-  "total_messages": 42511,
+  "total_messages": 42512,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789132598.0,
+  "last_count_ts": 1789132705.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -414,15 +414,15 @@
       "id": "ff8a86710b38",
       "name": "TK",
       "anon_phone": "+49 157 •••• 67",
-      "points": 120,
-      "pct": 0.4,
-      "last24h": 3,
+      "points": 121,
+      "pct": 0.41,
+      "last24h": 4,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 3,
       "early_counts": 0,
-      "last_ts": 1789132281.0,
+      "last_ts": 1789132705.0,
       "first_ts": 1781390565.0,
       "rank": 26
     },
@@ -20624,7 +20624,11 @@
       "value": 18,
       "end_n": 5846
     },
-    "current_streak": null,
+    "current_streak": {
+      "id": "ff8a86710b38",
+      "name": "TK",
+      "value": 1
+    },
     "biggest_message": {
       "id": "60a53d25c862",
       "name": "Lukas",
@@ -21129,8 +21133,8 @@
     },
     {
       "date": "2026-09-11",
-      "count": 41,
-      "total": 29653
+      "count": 42,
+      "total": 29654
     }
   ],
   "hour_histogram": [
@@ -21149,7 +21153,7 @@
     554,
     577,
     732,
-    759,
+    760,
     1077,
     1389,
     1789,
@@ -21160,6 +21164,12 @@
     1472
   ],
   "recent": [
+    {
+      "n": 29654,
+      "id": "ff8a86710b38",
+      "name": "TK",
+      "ts": 1789132705.0
+    },
     {
       "n": 29652,
       "id": "ff8a86710b38",
@@ -21273,12 +21283,6 @@
       "id": "0ab904a87ade",
       "name": "Moritz",
       "ts": 1789119232.0
-    },
-    {
-      "n": 29633,
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
-      "ts": 1789095199.0
     }
   ],
   "speed_samples": [
@@ -21345,6 +21349,10 @@
     [
       1789132598,
       29653
+    ],
+    [
+      1789132705,
+      29654
     ]
   ]
 }
