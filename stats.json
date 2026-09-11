@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-11T17:46:06.763724+00:00",
+  "generated_at": "2026-09-11T17:47:29.195089+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29742,
-  "progress_pct": 2.9742,
+  "current_count": 29744,
+  "progress_pct": 2.9744,
   "num_players": 1273,
-  "total_messages": 42612,
+  "total_messages": 42616,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789148753.0,
+  "last_count_ts": 1789148842.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -414,15 +414,15 @@
       "id": "d250ce427a30",
       "name": "Jannik H.",
       "anon_phone": "+49 171 •••• 26",
-      "points": 123,
-      "pct": 0.41,
-      "last24h": 1,
+      "points": 124,
+      "pct": 0.42,
+      "last24h": 2,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 12,
       "early_counts": 0,
-      "last_ts": 1789143667.0,
+      "last_ts": 1789148842.0,
       "first_ts": 1781456630.0,
       "rank": 26
     },
@@ -907,6 +907,22 @@
       "rank": 56
     },
     {
+      "id": "1b66c2456dfd",
+      "name": "MM",
+      "anon_phone": "+49 176 •••• 07",
+      "points": 73,
+      "pct": 0.25,
+      "last24h": 2,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 3,
+      "early_counts": 0,
+      "last_ts": 1789148803.0,
+      "first_ts": 1781203234.0,
+      "rank": 57
+    },
+    {
       "id": "e32d26f673cb",
       "name": "Cel",
       "anon_phone": "+49 175 •••• 14",
@@ -920,7 +936,7 @@
       "early_counts": 0,
       "last_ts": 1789083635.0,
       "first_ts": 1781376503.0,
-      "rank": 57
+      "rank": 58
     },
     {
       "id": "6548cd1b6eae",
@@ -936,7 +952,7 @@
       "early_counts": 4,
       "last_ts": 1789146998.0,
       "first_ts": 1781364692.0,
-      "rank": 58
+      "rank": 59
     },
     {
       "id": "7613b21d1009",
@@ -952,7 +968,7 @@
       "early_counts": 4,
       "last_ts": 1787493656.0,
       "first_ts": 1781373913.0,
-      "rank": 59
+      "rank": 60
     },
     {
       "id": "e0ccca3f241a",
@@ -968,22 +984,6 @@
       "early_counts": 2,
       "last_ts": 1788727389.0,
       "first_ts": 1781136164.0,
-      "rank": 60
-    },
-    {
-      "id": "1b66c2456dfd",
-      "name": "MM",
-      "anon_phone": "+49 176 •••• 07",
-      "points": 72,
-      "pct": 0.24,
-      "last24h": 1,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 3,
-      "early_counts": 0,
-      "last_ts": 1789146040.0,
-      "first_ts": 1781203234.0,
       "rank": 61
     },
     {
@@ -20641,8 +20641,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "6b9e5cf641da",
-      "name": "Alex",
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
       "value": 1
     },
     "biggest_message": {
@@ -21149,8 +21149,8 @@
     },
     {
       "date": "2026-09-11",
-      "count": 130,
-      "total": 29742
+      "count": 132,
+      "total": 29744
     }
   ],
   "hour_histogram": [
@@ -21173,13 +21173,25 @@
     1094,
     1398,
     1819,
-    2427,
+    2429,
     2826,
     2767,
     2213,
     1472
   ],
   "recent": [
+    {
+      "n": 29744,
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
+      "ts": 1789148842.0
+    },
+    {
+      "n": 29743,
+      "id": "1b66c2456dfd",
+      "name": "MM",
+      "ts": 1789148803.0
+    },
     {
       "n": 29742,
       "id": "6b9e5cf641da",
@@ -21287,25 +21299,9 @@
       "id": "6548cd1b6eae",
       "name": "Christoph",
       "ts": 1789146998.0
-    },
-    {
-      "n": 29721,
-      "id": "86b1fcbef013",
-      "name": "Simon",
-      "ts": 1789146708.0
-    },
-    {
-      "n": 29720,
-      "id": "9df88ede2b8e",
-      "name": "Maxi",
-      "ts": 1789146524.0
     }
   ],
   "speed_samples": [
-    [
-      1789141586,
-      29681
-    ],
     [
       1789142093,
       29682
@@ -21525,6 +21521,14 @@
     [
       1789148753,
       29742
+    ],
+    [
+      1789148803,
+      29743
+    ],
+    [
+      1789148842,
+      29744
     ]
   ]
 }
