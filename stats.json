@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T22:08:53.027775+00:00",
+  "generated_at": "2026-09-12T22:12:36.642824+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30080,
-  "progress_pct": 3.008,
+  "current_count": 30082,
+  "progress_pct": 3.0082,
   "num_players": 1277,
-  "total_messages": 42998,
+  "total_messages": 43000,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789250914.0,
+  "last_count_ts": 1789251144.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -62,15 +62,15 @@
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "anon_phone": "+49 152 •••• 43",
-      "points": 300,
+      "points": 302,
       "pct": 1.0,
-      "last24h": 12,
+      "last24h": 14,
       "longest_streak": 6,
       "assists_given": 2,
       "assists_received": 0,
-      "night_counts": 43,
+      "night_counts": 45,
       "early_counts": 0,
-      "last_ts": 1789243076.0,
+      "last_ts": 1789251144.0,
       "first_ts": 1781950367.0,
       "rank": 4
     },
@@ -20473,10 +20473,10 @@
     ],
     "last_24h": [
       "73a69bdc1f9e",
+      "21ab33dbbddf",
       "7a2e949e25b3",
       "06ef1dbdad22",
       "ff8a86710b38",
-      "21ab33dbbddf",
       "9bf6383c58eb",
       "a5f77afeecc6",
       "cec25393509e",
@@ -20616,7 +20616,7 @@
       {
         "id": "21ab33dbbddf",
         "name": "Jakob",
-        "value": 43
+        "value": 45
       },
       {
         "id": "8a6ad087f1ea",
@@ -20705,9 +20705,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "value": 1
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21223,12 +21223,12 @@
     },
     {
       "date": "2026-09-13",
-      "count": 1,
-      "total": 30080
+      "count": 3,
+      "total": 30082
     }
   ],
   "hour_histogram": [
-    873,
+    875,
     526,
     266,
     161,
@@ -21254,6 +21254,18 @@
     1499
   ],
   "recent": [
+    {
+      "n": 30082,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1789251144.0
+    },
+    {
+      "n": 30081,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1789251126.0
+    },
     {
       "n": 30080,
       "id": "ff8a86710b38",
@@ -21361,29 +21373,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1789247324.0
-    },
-    {
-      "n": 30062,
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "ts": 1789247306.0
-    },
-    {
-      "n": 30061,
-      "id": "ed68d0e3bcd5",
-      "name": "Christoph",
-      "ts": 1789247268.0
     }
   ],
   "speed_samples": [
-    [
-      1789243807,
-      30023
-    ],
-    [
-      1789243900,
-      30025
-    ],
     [
       1789243964,
       30026
@@ -21587,6 +21579,14 @@
     [
       1789250914,
       30080
+    ],
+    [
+      1789251126,
+      30081
+    ],
+    [
+      1789251144,
+      30082
     ]
   ]
 }
