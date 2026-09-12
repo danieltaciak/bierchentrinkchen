@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T23:06:05.653377+00:00",
+  "generated_at": "2026-09-12T23:12:06.180792+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30104,
-  "progress_pct": 3.0104,
+  "current_count": 30105,
+  "progress_pct": 3.0105,
   "num_players": 1277,
-  "total_messages": 43022,
+  "total_messages": 43023,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789254350.0,
+  "last_count_ts": 1789254707.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -638,15 +638,15 @@
       "id": "2f9108443e86",
       "name": "Philipp",
       "anon_phone": "+49 151 •••• 08",
-      "points": 103,
-      "pct": 0.34,
-      "last24h": 0,
+      "points": 104,
+      "pct": 0.35,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
-      "night_counts": 23,
+      "night_counts": 24,
       "early_counts": 0,
-      "last_ts": 1789164077.0,
+      "last_ts": 1789254707.0,
       "first_ts": 1782605644.0,
       "rank": 40
     },
@@ -6112,7 +6112,7 @@
       "anon_phone": "+49 162 •••• 70",
       "points": 13,
       "pct": 0.04,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -20705,8 +20705,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "58bf82e69af8",
-      "name": "Torbenius",
+      "id": "2f9108443e86",
+      "name": "Philipp",
       "value": 1
     },
     "biggest_message": {
@@ -21223,13 +21223,13 @@
     },
     {
       "date": "2026-09-13",
-      "count": 25,
-      "total": 30104
+      "count": 26,
+      "total": 30105
     }
   ],
   "hour_histogram": [
     894,
-    527,
+    528,
     266,
     161,
     79,
@@ -21254,6 +21254,12 @@
     1499
   ],
   "recent": [
+    {
+      "n": 30105,
+      "id": "2f9108443e86",
+      "name": "Philipp",
+      "ts": 1789254707.0
+    },
     {
       "n": 30104,
       "id": "58bf82e69af8",
@@ -21367,35 +21373,9 @@
       "id": "73a69bdc1f9e",
       "name": "Dominikz",
       "ts": 1789251571.0
-    },
-    {
-      "n": 30083,
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "ts": 1789251320.0
     }
   ],
   "speed_samples": [
-    [
-      1789247213,
-      30060
-    ],
-    [
-      1789247268,
-      30061
-    ],
-    [
-      1789247306,
-      30062
-    ],
-    [
-      1789247324,
-      30063
-    ],
-    [
-      1789247458,
-      30064
-    ],
     [
       1789247531,
       30065
@@ -21547,6 +21527,10 @@
     [
       1789254350,
       30104
+    ],
+    [
+      1789254707,
+      30105
     ]
   ]
 }
