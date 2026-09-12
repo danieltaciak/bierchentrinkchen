@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T19:48:20.817612+00:00",
+  "generated_at": "2026-09-12T19:53:30.071574+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30012,
-  "progress_pct": 3.0012,
+  "current_count": 30015,
+  "progress_pct": 3.0015,
   "num_players": 1277,
-  "total_messages": 42916,
+  "total_messages": 42919,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789242484.0,
+  "last_count_ts": 1789242795.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
-      "points": 264,
+      "points": 265,
       "pct": 0.88,
-      "last24h": 5,
+      "last24h": 6,
       "longest_streak": 6,
       "assists_given": 26,
       "assists_received": 10,
       "night_counts": 33,
       "early_counts": 3,
-      "last_ts": 1789233861.0,
+      "last_ts": 1789242771.0,
       "first_ts": 1781196449.0,
       "rank": 5
     },
@@ -318,15 +318,15 @@
       "id": "cec25393509e",
       "name": "Jordan",
       "anon_phone": "+49 162 •••• 18",
-      "points": 141,
-      "pct": 0.47,
-      "last24h": 4,
+      "points": 143,
+      "pct": 0.48,
+      "last24h": 6,
       "longest_streak": 2,
       "assists_given": 4,
       "assists_received": 2,
       "night_counts": 5,
       "early_counts": 1,
-      "last_ts": 1789237385.0,
+      "last_ts": 1789242795.0,
       "first_ts": 1781100515.0,
       "rank": 20
     },
@@ -7968,7 +7968,7 @@
       "anon_phone": "+49 178 •••• 25",
       "points": 9,
       "pct": 0.03,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -9696,7 +9696,7 @@
       "anon_phone": "+49 170 •••• 19",
       "points": 7,
       "pct": 0.02,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -20478,12 +20478,12 @@
       "a5f77afeecc6",
       "06ef1dbdad22",
       "ff8a86710b38",
-      "8c19ca275648",
       "7a2e949e25b3",
+      "cec25393509e",
+      "8c19ca275648",
       "b7f001ca29a3",
       "5363c3d3649b",
       "cc58e1c28f5a",
-      "cec25393509e",
       "5edb723b3e7f",
       "b4c5dace35d9",
       "dafe080ee1cf"
@@ -20705,9 +20705,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
-      "value": 3
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21218,8 +21218,8 @@
     },
     {
       "date": "2026-09-12",
-      "count": 174,
-      "total": 30012
+      "count": 177,
+      "total": 30015
     }
   ],
   "hour_histogram": [
@@ -21244,11 +21244,29 @@
     1834,
     2457,
     2862,
-    2812,
+    2815,
     2225,
     1476
   ],
   "recent": [
+    {
+      "n": 30015,
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "ts": 1789242795.0
+    },
+    {
+      "n": 30014,
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "ts": 1789242795.0
+    },
+    {
+      "n": 30013,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1789242771.0
+    },
     {
       "n": 30012,
       "id": "21ab33dbbddf",
@@ -21350,35 +21368,9 @@
       "id": "ed68d0e3bcd5",
       "name": "Christoph",
       "ts": 1789241433.0
-    },
-    {
-      "n": 29991,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1789241350.0
-    },
-    {
-      "n": 29990,
-      "id": "40e609fa336e",
-      "name": "Max S.",
-      "ts": 1789241022.0
-    },
-    {
-      "n": 29989,
-      "id": "df6424fbdeef",
-      "name": "Daniel",
-      "ts": 1789240804.0
     }
   ],
   "speed_samples": [
-    [
-      1789235409,
-      29947
-    ],
-    [
-      1789235591,
-      29948
-    ],
     [
       1789235605,
       29949
@@ -21574,6 +21566,18 @@
     [
       1789242484,
       30012
+    ],
+    [
+      1789242771,
+      30013
+    ],
+    [
+      1789242795,
+      30014
+    ],
+    [
+      1789242795,
+      30015
     ]
   ]
 }
