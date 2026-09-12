@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T17:47:32.303023+00:00",
+  "generated_at": "2026-09-12T17:50:21.697609+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29946,
-  "progress_pct": 2.9946,
+  "current_count": 29947,
+  "progress_pct": 2.9947,
   "num_players": 1275,
-  "total_messages": 42841,
+  "total_messages": 42842,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789235215.0,
+  "last_count_ts": 1789235409.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -414,15 +414,15 @@
       "id": "d250ce427a30",
       "name": "Jannik H.",
       "anon_phone": "+49 171 •••• 26",
-      "points": 124,
-      "pct": 0.41,
-      "last24h": 0,
+      "points": 125,
+      "pct": 0.42,
+      "last24h": 1,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 12,
       "early_counts": 0,
-      "last_ts": 1789148842.0,
+      "last_ts": 1789235409.0,
       "first_ts": 1781456630.0,
       "rank": 26
     },
@@ -6320,7 +6320,7 @@
       "anon_phone": "+49 151 •••• 22",
       "points": 13,
       "pct": 0.04,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -20673,8 +20673,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "08e15800f9fb",
-      "name": "Mo",
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
       "value": 1
     },
     "biggest_message": {
@@ -21186,8 +21186,8 @@
     },
     {
       "date": "2026-09-12",
-      "count": 108,
-      "total": 29946
+      "count": 109,
+      "total": 29947
     }
   ],
   "hour_histogram": [
@@ -21210,13 +21210,19 @@
     1102,
     1406,
     1834,
-    2452,
+    2453,
     2841,
     2787,
     2225,
     1476
   ],
   "recent": [
+    {
+      "n": 29947,
+      "id": "d250ce427a30",
+      "name": "Jannik H.",
+      "ts": 1789235409.0
+    },
     {
       "n": 29946,
       "id": "08e15800f9fb",
@@ -21330,27 +21336,9 @@
       "id": "06ef1dbdad22",
       "name": "Selin",
       "ts": 1789232724.0
-    },
-    {
-      "n": 29926,
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "ts": 1789232109.0
     }
   ],
   "speed_samples": [
-    [
-      1789228108,
-      29906
-    ],
-    [
-      1789228110,
-      29907
-    ],
-    [
-      1789228130,
-      29908
-    ],
     [
       1789228688,
       29909
@@ -21490,6 +21478,10 @@
     [
       1789235215,
       29946
+    ],
+    [
+      1789235409,
+      29947
     ]
   ]
 }
