@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T19:58:17.393125+00:00",
+  "generated_at": "2026-09-12T20:01:52.457602+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30018,
-  "progress_pct": 3.0018,
+  "current_count": 30020,
+  "progress_pct": 3.002,
   "num_players": 1277,
-  "total_messages": 42925,
+  "total_messages": 42928,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789243076.0,
+  "last_count_ts": 1789243288.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -206,15 +206,15 @@
       "id": "df6424fbdeef",
       "name": "Daniel",
       "anon_phone": "+49 163 •••• 57",
-      "points": 164,
+      "points": 165,
       "pct": 0.55,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 7,
       "early_counts": 0,
-      "last_ts": 1789240804.0,
+      "last_ts": 1789243267.0,
       "first_ts": 1781452642.0,
       "rank": 13
     },
@@ -699,6 +699,22 @@
       "rank": 43
     },
     {
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "anon_phone": "+49 151 •••• 00",
+      "points": 94,
+      "pct": 0.31,
+      "last24h": 10,
+      "longest_streak": 7,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 6,
+      "early_counts": 0,
+      "last_ts": 1789243288.0,
+      "first_ts": 1786728676.0,
+      "rank": 44
+    },
+    {
       "id": "6b9e5cf641da",
       "name": "Alex",
       "anon_phone": "+49 151 •••• 84",
@@ -712,7 +728,7 @@
       "early_counts": 2,
       "last_ts": 1789242076.0,
       "first_ts": 1781285775.0,
-      "rank": 44
+      "rank": 45
     },
     {
       "id": "6ae8b7629ff6",
@@ -728,22 +744,6 @@
       "early_counts": 0,
       "last_ts": 1789236572.0,
       "first_ts": 1781284687.0,
-      "rank": 45
-    },
-    {
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "anon_phone": "+49 151 •••• 00",
-      "points": 93,
-      "pct": 0.31,
-      "last24h": 9,
-      "longest_streak": 7,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 6,
-      "early_counts": 0,
-      "last_ts": 1789232724.0,
-      "first_ts": 1786728676.0,
       "rank": 46
     },
     {
@@ -20474,9 +20474,9 @@
     "last_24h": [
       "21ab33dbbddf",
       "73a69bdc1f9e",
+      "06ef1dbdad22",
       "9bf6383c58eb",
       "a5f77afeecc6",
-      "06ef1dbdad22",
       "ff8a86710b38",
       "7a2e949e25b3",
       "cec25393509e",
@@ -20485,8 +20485,8 @@
       "b4c5dace35d9",
       "5363c3d3649b",
       "cc58e1c28f5a",
-      "5edb723b3e7f",
-      "dafe080ee1cf"
+      "df6424fbdeef",
+      "5edb723b3e7f"
     ],
     "longest_streak": [
       {
@@ -20705,8 +20705,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
+      "id": "06ef1dbdad22",
+      "name": "Selin",
       "value": 1
     },
     "biggest_message": {
@@ -21218,8 +21218,8 @@
     },
     {
       "date": "2026-09-12",
-      "count": 180,
-      "total": 30018
+      "count": 182,
+      "total": 30020
     }
   ],
   "hour_histogram": [
@@ -21245,10 +21245,22 @@
     2457,
     2862,
     2818,
-    2225,
+    2227,
     1476
   ],
   "recent": [
+    {
+      "n": 30020,
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "ts": 1789243288.0
+    },
+    {
+      "n": 30019,
+      "id": "df6424fbdeef",
+      "name": "Daniel",
+      "ts": 1789243267.0
+    },
     {
       "n": 30018,
       "id": "21ab33dbbddf",
@@ -21356,25 +21368,9 @@
       "id": "73a69bdc1f9e",
       "name": "Dominikz",
       "ts": 1789241953.0
-    },
-    {
-      "n": 29997,
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "ts": 1789241929.0
-    },
-    {
-      "n": 29995,
-      "id": "a84987d66bdc",
-      "name": "Fincenths M.",
-      "ts": 1789241627.0
     }
   ],
   "speed_samples": [
-    [
-      1789236080,
-      29955
-    ],
     [
       1789236164,
       29956
@@ -21578,6 +21574,14 @@
     [
       1789243076,
       30018
+    ],
+    [
+      1789243267,
+      30019
+    ],
+    [
+      1789243288,
+      30020
     ]
   ]
 }
