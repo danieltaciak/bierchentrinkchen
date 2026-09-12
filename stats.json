@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T18:52:50.290515+00:00",
+  "generated_at": "2026-09-12T18:56:38.056489+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29980,
-  "progress_pct": 2.998,
+  "current_count": 29981,
+  "progress_pct": 2.9981,
   "num_players": 1275,
-  "total_messages": 42881,
+  "total_messages": 42882,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789239135.0,
+  "last_count_ts": 1789239371.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -3707,6 +3707,22 @@
       "rank": 231
     },
     {
+      "id": "3c8bfc2012f7",
+      "name": "Lars",
+      "anon_phone": "+49 151 •••• 93",
+      "points": 23,
+      "pct": 0.08,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1789239371.0,
+      "first_ts": 1781891218.0,
+      "rank": 232
+    },
+    {
       "id": "685026b373d6",
       "name": "Michael",
       "anon_phone": "+49 170 •••• 63",
@@ -3720,7 +3736,7 @@
       "early_counts": 0,
       "last_ts": 1787755460.0,
       "first_ts": 1781808749.0,
-      "rank": 232
+      "rank": 233
     },
     {
       "id": "b0b07cec9753",
@@ -3736,7 +3752,7 @@
       "early_counts": 1,
       "last_ts": 1788041492.0,
       "first_ts": 1781284280.0,
-      "rank": 233
+      "rank": 234
     },
     {
       "id": "73a69bdc1f9e",
@@ -3752,7 +3768,7 @@
       "early_counts": 0,
       "last_ts": 1789239135.0,
       "first_ts": 1789061375.0,
-      "rank": 234
+      "rank": 235
     },
     {
       "id": "7b73a41f5146",
@@ -3768,22 +3784,6 @@
       "early_counts": 0,
       "last_ts": 1785607716.0,
       "first_ts": 1782669732.0,
-      "rank": 235
-    },
-    {
-      "id": "3c8bfc2012f7",
-      "name": "Lars",
-      "anon_phone": "+49 151 •••• 93",
-      "points": 22,
-      "pct": 0.07,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1788619897.0,
-      "first_ts": 1781891218.0,
       "rank": 236
     },
     {
@@ -20673,8 +20673,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
+      "id": "3c8bfc2012f7",
+      "name": "Lars",
       "value": 1
     },
     "biggest_message": {
@@ -21186,8 +21186,8 @@
     },
     {
       "date": "2026-09-12",
-      "count": 142,
-      "total": 29980
+      "count": 143,
+      "total": 29981
     }
   ],
   "hour_histogram": [
@@ -21211,12 +21211,18 @@
     1406,
     1834,
     2457,
-    2859,
+    2860,
     2787,
     2225,
     1476
   ],
   "recent": [
+    {
+      "n": 29981,
+      "id": "3c8bfc2012f7",
+      "name": "Lars",
+      "ts": 1789239371.0
+    },
     {
       "n": 29980,
       "id": "73a69bdc1f9e",
@@ -21330,23 +21336,9 @@
       "id": "73a69bdc1f9e",
       "name": "Dominikz",
       "ts": 1789235629.0
-    },
-    {
-      "n": 29950,
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "ts": 1789235629.0
     }
   ],
   "speed_samples": [
-    [
-      1789232094,
-      29925
-    ],
-    [
-      1789232109,
-      29926
-    ],
     [
       1789232724,
       29927
@@ -21514,6 +21506,10 @@
     [
       1789239135,
       29980
+    ],
+    [
+      1789239371,
+      29981
     ]
   ]
 }
