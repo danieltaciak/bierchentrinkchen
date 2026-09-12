@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T22:48:13.635918+00:00",
+  "generated_at": "2026-09-12T22:51:27.787359+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30091,
-  "progress_pct": 3.0091,
+  "current_count": 30092,
+  "progress_pct": 3.0092,
   "num_players": 1277,
-  "total_messages": 43010,
+  "total_messages": 43011,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789253274.0,
+  "last_count_ts": 1789253463.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -478,15 +478,15 @@
       "id": "3137559fdc0a",
       "name": "Simon",
       "anon_phone": "+49 163 •••• 57",
-      "points": 115,
-      "pct": 0.38,
-      "last24h": 0,
+      "points": 116,
+      "pct": 0.39,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
-      "night_counts": 6,
+      "night_counts": 7,
       "early_counts": 0,
-      "last_ts": 1788625238.0,
+      "last_ts": 1789253463.0,
       "first_ts": 1781904152.0,
       "rank": 30
     },
@@ -20705,8 +20705,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
+      "id": "3137559fdc0a",
+      "name": "Simon",
       "value": 1
     },
     "biggest_message": {
@@ -21223,12 +21223,12 @@
     },
     {
       "date": "2026-09-13",
-      "count": 12,
-      "total": 30091
+      "count": 13,
+      "total": 30092
     }
   ],
   "hour_histogram": [
-    884,
+    885,
     526,
     266,
     161,
@@ -21254,6 +21254,12 @@
     1499
   ],
   "recent": [
+    {
+      "n": 30092,
+      "id": "3137559fdc0a",
+      "name": "Simon",
+      "ts": 1789253463.0
+    },
     {
       "n": 30091,
       "id": "efeced9c0950",
@@ -21367,12 +21373,6 @@
       "id": "06ef1dbdad22",
       "name": "Selin",
       "ts": 1789249999.0
-    },
-    {
-      "n": 30072,
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "ts": 1789249858.0
     }
   ],
   "speed_samples": [
@@ -21531,6 +21531,10 @@
     [
       1789253274,
       30091
+    ],
+    [
+      1789253463,
+      30092
     ]
   ]
 }
