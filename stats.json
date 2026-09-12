@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T17:24:54.336859+00:00",
+  "generated_at": "2026-09-12T17:32:20.620941+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 29941,
-  "progress_pct": 2.9941,
+  "current_count": 29942,
+  "progress_pct": 2.9942,
   "num_players": 1274,
-  "total_messages": 42836,
+  "total_messages": 42837,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789233873.0,
+  "last_count_ts": 1789234321.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -400,7 +400,7 @@
       "anon_phone": "+49 175 •••• 96",
       "points": 130,
       "pct": 0.43,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -427,6 +427,22 @@
       "rank": 26
     },
     {
+      "id": "4cf6b703c434",
+      "name": "Tom H.",
+      "anon_phone": "+49 151 •••• 05",
+      "points": 119,
+      "pct": 0.4,
+      "last24h": 1,
+      "longest_streak": 5,
+      "assists_given": 6,
+      "assists_received": 6,
+      "night_counts": 3,
+      "early_counts": 5,
+      "last_ts": 1789234321.0,
+      "first_ts": 1781375272.0,
+      "rank": 27
+    },
+    {
       "id": "0c322a010ec4",
       "name": "Andrea",
       "anon_phone": "+49 151 •••• 79",
@@ -440,7 +456,7 @@
       "early_counts": 10,
       "last_ts": 1788992135.0,
       "first_ts": 1782522040.0,
-      "rank": 27
+      "rank": 28
     },
     {
       "id": "2e95be7bb9ea",
@@ -456,22 +472,6 @@
       "early_counts": 2,
       "last_ts": 1789231576.0,
       "first_ts": 1781200389.0,
-      "rank": 28
-    },
-    {
-      "id": "4cf6b703c434",
-      "name": "Tom H.",
-      "anon_phone": "+49 151 •••• 05",
-      "points": 118,
-      "pct": 0.39,
-      "last24h": 0,
-      "longest_streak": 5,
-      "assists_given": 6,
-      "assists_received": 6,
-      "night_counts": 3,
-      "early_counts": 5,
-      "last_ts": 1789070982.0,
-      "first_ts": 1781375272.0,
       "rank": 29
     },
     {
@@ -1568,7 +1568,7 @@
       "anon_phone": "+49 172 •••• 54",
       "points": 51,
       "pct": 0.17,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -2000,7 +2000,7 @@
       "anon_phone": "+43 660 •••• 89",
       "points": 39,
       "pct": 0.13,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -2240,7 +2240,7 @@
       "anon_phone": "+49 151 •••• 09",
       "points": 36,
       "pct": 0.12,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -20431,14 +20431,14 @@
       "b7f001ca29a3",
       "7a2e949e25b3",
       "8c19ca275648",
-      "c4fe31e13b5a",
       "1b66c2456dfd",
       "a5f77afeecc6",
       "b4c5dace35d9",
       "5363c3d3649b",
       "cc58e1c28f5a",
       "efeced9c0950",
-      "5edb723b3e7f"
+      "5edb723b3e7f",
+      "dafe080ee1cf"
     ],
     "longest_streak": [
       {
@@ -20657,8 +20657,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "d63db1480311",
-      "name": "Max",
+      "id": "4cf6b703c434",
+      "name": "Tom H.",
       "value": 1
     },
     "biggest_message": {
@@ -21170,8 +21170,8 @@
     },
     {
       "date": "2026-09-12",
-      "count": 103,
-      "total": 29941
+      "count": 104,
+      "total": 29942
     }
   ],
   "hour_histogram": [
@@ -21194,13 +21194,19 @@
     1102,
     1406,
     1834,
-    2447,
+    2448,
     2841,
     2787,
     2225,
     1476
   ],
   "recent": [
+    {
+      "n": 29942,
+      "id": "4cf6b703c434",
+      "name": "Tom H.",
+      "ts": 1789234321.0
+    },
     {
       "n": 29941,
       "id": "d63db1480311",
@@ -21314,12 +21320,6 @@
       "id": "c93ed700000f",
       "name": "linus",
       "ts": 1789231468.0
-    },
-    {
-      "n": 29921,
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "ts": 1789231307.0
     }
   ],
   "speed_samples": [
@@ -21454,6 +21454,10 @@
     [
       1789233873,
       29941
+    ],
+    [
+      1789234321,
+      29942
     ]
   ]
 }
