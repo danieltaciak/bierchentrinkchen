@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-13T19:07:08.016599+00:00",
+  "generated_at": "2026-09-13T19:07:38.413349+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30169,
-  "progress_pct": 3.0169,
+  "current_count": 30170,
+  "progress_pct": 3.017,
   "num_players": 1279,
-  "total_messages": 43100,
+  "total_messages": 43101,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789326404.0,
+  "last_count_ts": 1789326436.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -16,7 +16,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 412,
       "pct": 1.37,
-      "last24h": 6,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -126,15 +126,15 @@
       "id": "8a6ad087f1ea",
       "name": "ich H.",
       "anon_phone": "+49 176 •••• 10",
-      "points": 209,
-      "pct": 0.69,
-      "last24h": 2,
+      "points": 210,
+      "pct": 0.7,
+      "last24h": 3,
       "longest_streak": 10,
       "assists_given": 1,
       "assists_received": 0,
       "night_counts": 42,
       "early_counts": 2,
-      "last_ts": 1789326404.0,
+      "last_ts": 1789326436.0,
       "first_ts": 1781470164.0,
       "rank": 8
     },
@@ -799,7 +799,7 @@
       "name": "maxi",
       "anon_phone": "+49 151 •••• 16",
       "points": 89,
-      "pct": 0.3,
+      "pct": 0.29,
       "last24h": 0,
       "longest_streak": 5,
       "assists_given": 0,
@@ -20509,9 +20509,9 @@
       "7a2e949e25b3",
       "21ab33dbbddf",
       "ff8a86710b38",
-      "a5f77afeecc6",
       "29a1c5fbe7db",
       "c93ed700000f",
+      "a5f77afeecc6",
       "58bf82e69af8",
       "2f9108443e86",
       "cec25393509e",
@@ -20739,7 +20739,7 @@
     "current_streak": {
       "id": "8a6ad087f1ea",
       "name": "ich H.",
-      "value": 1
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21255,8 +21255,8 @@
     },
     {
       "date": "2026-09-13",
-      "count": 90,
-      "total": 30169
+      "count": 91,
+      "total": 30170
     }
   ],
   "hour_histogram": [
@@ -21281,11 +21281,17 @@
     1837,
     2466,
     2864,
-    2819,
+    2820,
     2258,
     1499
   ],
   "recent": [
+    {
+      "n": 30170,
+      "id": "8a6ad087f1ea",
+      "name": "ich H.",
+      "ts": 1789326436.0
+    },
     {
       "n": 30169,
       "id": "8a6ad087f1ea",
@@ -21399,12 +21405,6 @@
       "id": "8a6ad087f1ea",
       "name": "ich H.",
       "ts": 1789312013.0
-    },
-    {
-      "n": 30147,
-      "id": "2e95be7bb9ea",
-      "name": "Luis",
-      "ts": 1789308970.0
     }
   ],
   "speed_samples": [
@@ -21451,6 +21451,10 @@
     [
       1789326404,
       30169
+    ],
+    [
+      1789326436,
+      30170
     ]
   ]
 }
