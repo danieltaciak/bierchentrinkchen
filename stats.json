@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-13T17:40:18.824762+00:00",
+  "generated_at": "2026-09-13T17:40:53.627202+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30160,
-  "progress_pct": 3.016,
+  "current_count": 30161,
+  "progress_pct": 3.0161,
   "num_players": 1279,
-  "total_messages": 43086,
+  "total_messages": 43089,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789321197.0,
+  "last_count_ts": 1789321233.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -699,6 +699,22 @@
       "rank": 43
     },
     {
+      "id": "6b9e5cf641da",
+      "name": "Alex",
+      "anon_phone": "+49 151 •••• 84",
+      "points": 95,
+      "pct": 0.31,
+      "last24h": 3,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 6,
+      "night_counts": 11,
+      "early_counts": 2,
+      "last_ts": 1789321233.0,
+      "first_ts": 1781285775.0,
+      "rank": 44
+    },
+    {
       "id": "b09e2085998b",
       "name": "Michi",
       "anon_phone": "+49 171 •••• 06",
@@ -712,22 +728,6 @@
       "early_counts": 2,
       "last_ts": 1786813462.0,
       "first_ts": 1780945139.0,
-      "rank": 44
-    },
-    {
-      "id": "6b9e5cf641da",
-      "name": "Alex",
-      "anon_phone": "+49 151 •••• 84",
-      "points": 94,
-      "pct": 0.31,
-      "last24h": 2,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 6,
-      "night_counts": 11,
-      "early_counts": 2,
-      "last_ts": 1789312844.0,
-      "first_ts": 1781285775.0,
       "rank": 45
     },
     {
@@ -20737,8 +20737,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "c03ae4e7c448",
-      "name": "Yannik",
+      "id": "6b9e5cf641da",
+      "name": "Alex",
       "value": 1
     },
     "biggest_message": {
@@ -21255,8 +21255,8 @@
     },
     {
       "date": "2026-09-13",
-      "count": 81,
-      "total": 30160
+      "count": 82,
+      "total": 30161
     }
   ],
   "hour_histogram": [
@@ -21279,13 +21279,19 @@
     1104,
     1410,
     1837,
-    2462,
+    2463,
     2862,
     2818,
     2258,
     1499
   ],
   "recent": [
+    {
+      "n": 30161,
+      "id": "6b9e5cf641da",
+      "name": "Alex",
+      "ts": 1789321233.0
+    },
     {
       "n": 30160,
       "id": "c03ae4e7c448",
@@ -21399,12 +21405,6 @@
       "id": "aa0156afe213",
       "name": "Til",
       "ts": 1789298504.0
-    },
-    {
-      "n": 30140,
-      "id": "aa0156afe213",
-      "name": "Til",
-      "ts": 1789298504.0
     }
   ],
   "speed_samples": [
@@ -21443,6 +21443,10 @@
     [
       1789321197,
       30160
+    ],
+    [
+      1789321233,
+      30161
     ]
   ]
 }
