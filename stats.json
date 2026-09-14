@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-14T06:19:07.196162+00:00",
+  "generated_at": "2026-09-14T09:49:24.359362+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30178,
-  "progress_pct": 3.0178,
+  "current_count": 30181,
+  "progress_pct": 3.0181,
   "num_players": 1279,
-  "total_messages": 43112,
+  "total_messages": 43114,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789366718.0,
+  "last_count_ts": 1789379344.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -347,6 +347,22 @@
       "rank": 21
     },
     {
+      "id": "abdd765c9df5",
+      "name": "Ernesto",
+      "anon_phone": "+49 179 •••• 21",
+      "points": 140,
+      "pct": 0.46,
+      "last24h": 3,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 4,
+      "early_counts": 0,
+      "last_ts": 1789379344.0,
+      "first_ts": 1781520013.0,
+      "rank": 22
+    },
+    {
       "id": "078ce5ea9e04",
       "name": "Raphael",
       "anon_phone": "+49 160 •••• 59",
@@ -360,22 +376,6 @@
       "early_counts": 1,
       "last_ts": 1789234494.0,
       "first_ts": 1780938428.0,
-      "rank": 22
-    },
-    {
-      "id": "abdd765c9df5",
-      "name": "Ernesto",
-      "anon_phone": "+49 179 •••• 21",
-      "points": 137,
-      "pct": 0.45,
-      "last24h": 0,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 4,
-      "early_counts": 0,
-      "last_ts": 1788870859.0,
-      "first_ts": 1781520013.0,
       "rank": 23
     },
     {
@@ -1472,7 +1472,7 @@
       "anon_phone": "+49 175 •••• 10",
       "points": 55,
       "pct": 0.18,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -13600,7 +13600,7 @@
       "anon_phone": "+49 151 •••• 28",
       "points": 3,
       "pct": 0.01,
-      "last24h": 2,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -20464,7 +20464,7 @@
       "anon_phone": "+49 176 •••• 78",
       "points": 1,
       "pct": 0.0,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -20498,27 +20498,27 @@
       "ff8a86710b38",
       "1a6129668ba3",
       "cec25393509e",
-      "078ce5ea9e04",
       "abdd765c9df5",
+      "078ce5ea9e04",
       "764f33f39eb0",
       "c4fe31e13b5a"
     ],
     "last_24h": [
       "8a6ad087f1ea",
       "b7f001ca29a3",
-      "e8700d05fca6",
-      "5f45182377dd",
+      "abdd765c9df5",
       "aa0156afe213",
       "2e95be7bb9ea",
       "6b9e5cf641da",
       "efeced9c0950",
-      "c94409ea6c9c",
       "4adc9f81ac6b",
       "c55df999ff58",
       "03772471f186",
       "38fff1e2639c",
       "32529ce73333",
-      "29a1c5fbe7db"
+      "29a1c5fbe7db",
+      "d63ef0c48d67",
+      "fc8d9a99e2d5"
     ],
     "longest_streak": [
       {
@@ -20736,7 +20736,11 @@
       "value": 18,
       "end_n": 5846
     },
-    "current_streak": null,
+    "current_streak": {
+      "id": "abdd765c9df5",
+      "name": "Ernesto",
+      "value": 3
+    },
     "biggest_message": {
       "id": "60a53d25c862",
       "name": "Lukas",
@@ -21256,8 +21260,8 @@
     },
     {
       "date": "2026-09-14",
-      "count": 2,
-      "total": 30178
+      "count": 5,
+      "total": 30181
     }
   ],
   "hour_histogram": [
@@ -21272,7 +21276,7 @@
     148,
     167,
     245,
-    368,
+    371,
     557,
     587,
     744,
@@ -21287,6 +21291,24 @@
     1500
   ],
   "recent": [
+    {
+      "n": 30181,
+      "id": "abdd765c9df5",
+      "name": "Ernesto",
+      "ts": 1789379344.0
+    },
+    {
+      "n": 30180,
+      "id": "abdd765c9df5",
+      "name": "Ernesto",
+      "ts": 1789379344.0
+    },
+    {
+      "n": 30179,
+      "id": "abdd765c9df5",
+      "name": "Ernesto",
+      "ts": 1789379344.0
+    },
     {
       "n": 30176,
       "id": "ffffb6c4106a",
@@ -21388,30 +21410,20 @@
       "id": "2e95be7bb9ea",
       "name": "Luis",
       "ts": 1789320611.0
-    },
-    {
-      "n": 30157,
-      "id": "c4fe31e13b5a",
-      "name": "Felix T.",
-      "ts": 1789319524.0
-    },
-    {
-      "n": 30156,
-      "id": "45159bbb08d3",
-      "name": "Benny",
-      "ts": 1789318884.0
-    },
-    {
-      "n": 30155,
-      "id": "82afa8eefe9c",
-      "name": "Tom S.",
-      "ts": 1789318427.0
     }
   ],
   "speed_samples": [
     [
-      1789366718,
-      30178
+      1789379344,
+      30179
+    ],
+    [
+      1789379344,
+      30180
+    ],
+    [
+      1789379344,
+      30181
     ]
   ]
 }
