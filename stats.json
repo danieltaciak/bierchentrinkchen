@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-14T19:28:13.027658+00:00",
+  "generated_at": "2026-09-14T19:40:39.485993+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30230,
-  "progress_pct": 3.023,
+  "current_count": 30231,
+  "progress_pct": 3.0231,
   "num_players": 1280,
-  "total_messages": 43181,
+  "total_messages": 43182,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789414080.0,
+  "last_count_ts": 1789414807.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -128,7 +128,7 @@
       "anon_phone": "+49 176 •••• 10",
       "points": 212,
       "pct": 0.7,
-      "last24h": 2,
+      "last24h": 0,
       "longest_streak": 10,
       "assists_given": 1,
       "assists_received": 0,
@@ -1115,6 +1115,22 @@
       "rank": 69
     },
     {
+      "id": "29a1c5fbe7db",
+      "name": "Tanja🌺",
+      "anon_phone": "+49 171 •••• 23",
+      "points": 68,
+      "pct": 0.22,
+      "last24h": 5,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1789414807.0,
+      "first_ts": 1786729391.0,
+      "rank": 70
+    },
+    {
       "id": "cdac8116e93e",
       "name": "Hännsn",
       "anon_phone": "+49 176 •••• 42",
@@ -1128,7 +1144,7 @@
       "early_counts": 0,
       "last_ts": 1789403218.0,
       "first_ts": 1781451292.0,
-      "rank": 70
+      "rank": 71
     },
     {
       "id": "cee931f2a642",
@@ -1144,7 +1160,7 @@
       "early_counts": 1,
       "last_ts": 1788547029.0,
       "first_ts": 1781777121.0,
-      "rank": 71
+      "rank": 72
     },
     {
       "id": "a24cf7e576bb",
@@ -1160,22 +1176,6 @@
       "early_counts": 0,
       "last_ts": 1789248192.0,
       "first_ts": 1781031878.0,
-      "rank": 72
-    },
-    {
-      "id": "29a1c5fbe7db",
-      "name": "Tanja🌺",
-      "anon_phone": "+49 171 •••• 23",
-      "points": 67,
-      "pct": 0.22,
-      "last24h": 4,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1789412373.0,
-      "first_ts": 1786729391.0,
       "rank": 73
     },
     {
@@ -20526,7 +20526,6 @@
       "06ef1dbdad22",
       "416d585e4acc",
       "b7f001ca29a3",
-      "8a6ad087f1ea",
       "4460bcf9c79c",
       "a5f77afeecc6",
       "553637e3d2b4",
@@ -20534,7 +20533,8 @@
       "bc7f87783aaf",
       "ffffb6c4106a",
       "5363c3d3649b",
-      "a84987d66bdc"
+      "a84987d66bdc",
+      "d63db1480311"
     ],
     "longest_streak": [
       {
@@ -20753,8 +20753,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "d041c0c23c23",
-      "name": "Dominik J.",
+      "id": "29a1c5fbe7db",
+      "name": "Tanja🌺",
       "value": 1
     },
     "biggest_message": {
@@ -21276,8 +21276,8 @@
     },
     {
       "date": "2026-09-14",
-      "count": 54,
-      "total": 30230
+      "count": 55,
+      "total": 30231
     }
   ],
   "hour_histogram": [
@@ -21302,11 +21302,17 @@
     1840,
     2475,
     2878,
-    2831,
+    2832,
     2260,
     1500
   ],
   "recent": [
+    {
+      "n": 30231,
+      "id": "29a1c5fbe7db",
+      "name": "Tanja🌺",
+      "ts": 1789414807.0
+    },
     {
       "n": 30230,
       "id": "d041c0c23c23",
@@ -21420,23 +21426,9 @@
       "id": "cec25393509e",
       "name": "Jordan",
       "ts": 1789410817.0
-    },
-    {
-      "n": 30207,
-      "id": "24a17ef0f9d8",
-      "name": "Janka C.",
-      "ts": 1789410706.0
     }
   ],
   "speed_samples": [
-    [
-      1789406881,
-      30198
-    ],
-    [
-      1789407364,
-      30199
-    ],
     [
       1789407799,
       30200
@@ -21540,6 +21532,10 @@
     [
       1789414080,
       30230
+    ],
+    [
+      1789414807,
+      30231
     ]
   ]
 }
