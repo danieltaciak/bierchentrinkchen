@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-14T14:31:36.429178+00:00",
+  "generated_at": "2026-09-14T16:22:24.022085+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30190,
-  "progress_pct": 3.019,
+  "current_count": 30191,
+  "progress_pct": 3.0191,
   "num_players": 1279,
-  "total_messages": 43126,
+  "total_messages": 43127,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789396279.0,
+  "last_count_ts": 1789402931.0,
   "players": [
     {
       "id": "a5f77afeecc6",
       "name": "Nico",
       "anon_phone": "+49 170 •••• 40",
-      "points": 412,
-      "pct": 1.36,
-      "last24h": 0,
+      "points": 413,
+      "pct": 1.37,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 24,
       "early_counts": 0,
-      "last_ts": 1789262529.0,
+      "last_ts": 1789402931.0,
       "first_ts": 1781292817.0,
       "rank": 1
     },
@@ -128,7 +128,7 @@
       "anon_phone": "+49 176 •••• 10",
       "points": 212,
       "pct": 0.7,
-      "last24h": 5,
+      "last24h": 4,
       "longest_streak": 10,
       "assists_given": 1,
       "assists_received": 0,
@@ -144,7 +144,7 @@
       "anon_phone": "+49 160 •••• 72",
       "points": 209,
       "pct": 0.69,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 5,
@@ -704,7 +704,7 @@
       "anon_phone": "+49 151 •••• 84",
       "points": 95,
       "pct": 0.31,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 6,
@@ -5904,7 +5904,7 @@
       "anon_phone": "+49 151 •••• 17",
       "points": 14,
       "pct": 0.05,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
@@ -10608,7 +10608,7 @@
       "anon_phone": "+49 160 •••• 53",
       "points": 5,
       "pct": 0.02,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -12208,7 +12208,7 @@
       "anon_phone": "+49 160 •••• 30",
       "points": 4,
       "pct": 0.01,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -20506,19 +20506,19 @@
     "last_24h": [
       "abdd765c9df5",
       "8a6ad087f1ea",
-      "6b9e5cf641da",
       "efeced9c0950",
       "4460bcf9c79c",
-      "d63ef0c48d67",
-      "b7f001ca29a3",
-      "fc8d9a99e2d5",
-      "55246550d039",
       "82afa8eefe9c",
       "45159bbb08d3",
       "c4fe31e13b5a",
       "2e95be7bb9ea",
       "c03ae4e7c448",
-      "2d61d5612db8"
+      "6b9e5cf641da",
+      "2d61d5612db8",
+      "5f45182377dd",
+      "7a2e949e25b3",
+      "b4c5dace35d9",
+      "db6d81e90b74"
     ],
     "longest_streak": [
       {
@@ -20737,9 +20737,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "4460bcf9c79c",
-      "name": "Lance",
-      "value": 2
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21260,8 +21260,8 @@
     },
     {
       "date": "2026-09-14",
-      "count": 14,
-      "total": 30190
+      "count": 15,
+      "total": 30191
     }
   ],
   "hour_histogram": [
@@ -21283,7 +21283,7 @@
     769,
     1106,
     1410,
-    1837,
+    1838,
     2466,
     2864,
     2823,
@@ -21291,6 +21291,12 @@
     1500
   ],
   "recent": [
+    {
+      "n": 30191,
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "ts": 1789402931.0
+    },
     {
       "n": 30190,
       "id": "4460bcf9c79c",
@@ -21404,30 +21410,16 @@
       "id": "8a6ad087f1ea",
       "name": "ich H.",
       "ts": 1789326404.0
-    },
-    {
-      "n": 30167,
-      "id": "db6d81e90b74",
-      "name": "Dominik H.",
-      "ts": 1789325265.0
     }
   ],
   "speed_samples": [
     [
-      1789390632,
-      30186
-    ],
-    [
-      1789390641,
-      30188
-    ],
-    [
-      1789394697,
-      30189
-    ],
-    [
       1789396279,
       30190
+    ],
+    [
+      1789402931,
+      30191
     ]
   ]
 }
