@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-14T18:37:38.399139+00:00",
+  "generated_at": "2026-09-14T18:39:16.681352+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30210,
-  "progress_pct": 3.021,
+  "current_count": 30212,
+  "progress_pct": 3.0212,
   "num_players": 1280,
-  "total_messages": 43153,
+  "total_messages": 43156,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789411024.0,
+  "last_count_ts": 1789411137.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1883,6 +1883,22 @@
       "rank": 117
     },
     {
+      "id": "416d585e4acc",
+      "name": "Marlin",
+      "anon_phone": "+43 660 •••• 89",
+      "points": 41,
+      "pct": 0.14,
+      "last24h": 2,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1789411137.0,
+      "first_ts": 1781184000.0,
+      "rank": 118
+    },
+    {
       "id": "cea7a80a166b",
       "name": "michl",
       "anon_phone": "+49 151 •••• 20",
@@ -1896,7 +1912,7 @@
       "early_counts": 2,
       "last_ts": 1788598944.0,
       "first_ts": 1781273370.0,
-      "rank": 118
+      "rank": 119
     },
     {
       "id": "032a270163e4",
@@ -1912,7 +1928,7 @@
       "early_counts": 0,
       "last_ts": 1789151948.0,
       "first_ts": 1781628517.0,
-      "rank": 119
+      "rank": 120
     },
     {
       "id": "dd185fef1dba",
@@ -1928,7 +1944,7 @@
       "early_counts": 0,
       "last_ts": 1788977723.0,
       "first_ts": 1782241260.0,
-      "rank": 120
+      "rank": 121
     },
     {
       "id": "ddbb3a52a83e",
@@ -1944,7 +1960,7 @@
       "early_counts": 3,
       "last_ts": 1786824881.0,
       "first_ts": 1785084299.0,
-      "rank": 121
+      "rank": 122
     },
     {
       "id": "90482696a0a6",
@@ -1960,7 +1976,7 @@
       "early_counts": 0,
       "last_ts": 1788536723.0,
       "first_ts": 1781264844.0,
-      "rank": 122
+      "rank": 123
     },
     {
       "id": "e5cb7f8f899f",
@@ -1976,22 +1992,6 @@
       "early_counts": 0,
       "last_ts": 1786636820.0,
       "first_ts": 1782760101.0,
-      "rank": 123
-    },
-    {
-      "id": "416d585e4acc",
-      "name": "Marlin",
-      "anon_phone": "+43 660 •••• 89",
-      "points": 40,
-      "pct": 0.13,
-      "last24h": 1,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1789408868.0,
-      "first_ts": 1781184000.0,
       "rank": 124
     },
     {
@@ -20526,6 +20526,7 @@
       "553637e3d2b4",
       "29a1c5fbe7db",
       "cec25393509e",
+      "416d585e4acc",
       "b4c5dace35d9",
       "db6d81e90b74",
       "efeced9c0950",
@@ -20533,8 +20534,7 @@
       "bc7f87783aaf",
       "ffffb6c4106a",
       "5363c3d3649b",
-      "a84987d66bdc",
-      "d63db1480311"
+      "a84987d66bdc"
     ],
     "longest_streak": [
       {
@@ -20753,8 +20753,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "2d61d5612db8",
-      "name": "Wolfgang E.",
+      "id": "416d585e4acc",
+      "name": "Marlin",
       "value": 1
     },
     "biggest_message": {
@@ -21276,8 +21276,8 @@
     },
     {
       "date": "2026-09-14",
-      "count": 34,
-      "total": 30210
+      "count": 36,
+      "total": 30212
     }
   ],
   "hour_histogram": [
@@ -21301,12 +21301,18 @@
     1410,
     1840,
     2475,
-    2869,
+    2870,
     2823,
     2260,
     1500
   ],
   "recent": [
+    {
+      "n": 30212,
+      "id": "416d585e4acc",
+      "name": "Marlin",
+      "ts": 1789411137.0
+    },
     {
       "n": 30210,
       "id": "2d61d5612db8",
@@ -21420,12 +21426,6 @@
       "id": "4460bcf9c79c",
       "name": "Lance",
       "ts": 1789394697.0
-    },
-    {
-      "n": 30188,
-      "id": "d63db1480311",
-      "name": "Max",
-      "ts": 1789390641.0
     }
   ],
   "speed_samples": [
@@ -21488,6 +21488,10 @@
     [
       1789411024,
       30210
+    ],
+    [
+      1789411137,
+      30212
     ]
   ]
 }
