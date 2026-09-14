@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-14T19:53:12.299494+00:00",
+  "generated_at": "2026-09-14T19:57:23.409884+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30237,
-  "progress_pct": 3.0237,
+  "current_count": 30238,
+  "progress_pct": 3.0238,
   "num_players": 1280,
-  "total_messages": 43186,
+  "total_messages": 43187,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789415569.0,
+  "last_count_ts": 1789415829.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -430,15 +430,15 @@
       "id": "2e95be7bb9ea",
       "name": "Luis",
       "anon_phone": "+49 152 •••• 13",
-      "points": 121,
+      "points": 122,
       "pct": 0.4,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 4,
       "early_counts": 2,
-      "last_ts": 1789320611.0,
+      "last_ts": 1789415829.0,
       "first_ts": 1781200389.0,
       "rank": 27
     },
@@ -20753,9 +20753,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "value": 4
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21276,8 +21276,8 @@
     },
     {
       "date": "2026-09-14",
-      "count": 61,
-      "total": 30237
+      "count": 62,
+      "total": 30238
     }
   ],
   "hour_histogram": [
@@ -21302,11 +21302,17 @@
     1840,
     2475,
     2878,
-    2837,
+    2838,
     2260,
     1500
   ],
   "recent": [
+    {
+      "n": 30238,
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
+      "ts": 1789415829.0
+    },
     {
       "n": 30237,
       "id": "06ef1dbdad22",
@@ -21420,23 +21426,9 @@
       "id": "5e0359616cc8",
       "name": "Franz",
       "ts": 1789411408.0
-    },
-    {
-      "n": 30215,
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "ts": 1789411235.0
     }
   ],
   "speed_samples": [
-    [
-      1789408399,
-      30202
-    ],
-    [
-      1789408424,
-      30203
-    ],
     [
       1789408868,
       30204
@@ -21548,6 +21540,10 @@
     [
       1789415569,
       30237
+    ],
+    [
+      1789415829,
+      30238
     ]
   ]
 }
