@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-14T09:49:24.359362+00:00",
+  "generated_at": "2026-09-14T10:42:38.268824+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30181,
-  "progress_pct": 3.0181,
+  "current_count": 30184,
+  "progress_pct": 3.0184,
   "num_players": 1279,
-  "total_messages": 43114,
+  "total_messages": 43115,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789379344.0,
+  "last_count_ts": 1789382535.0,
   "players": [
     {
       "id": "a5f77afeecc6",
       "name": "Nico",
       "anon_phone": "+49 170 •••• 40",
       "points": 412,
-      "pct": 1.37,
+      "pct": 1.36,
       "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
@@ -350,15 +350,15 @@
       "id": "abdd765c9df5",
       "name": "Ernesto",
       "anon_phone": "+49 179 •••• 21",
-      "points": 140,
-      "pct": 0.46,
-      "last24h": 3,
-      "longest_streak": 4,
+      "points": 143,
+      "pct": 0.47,
+      "last24h": 6,
+      "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 4,
       "early_counts": 0,
-      "last_ts": 1789379344.0,
+      "last_ts": 1789382535.0,
       "first_ts": 1781520013.0,
       "rank": 22
     },
@@ -896,7 +896,7 @@
       "anon_phone": "+49 151 •••• 17",
       "points": 75,
       "pct": 0.25,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
@@ -13488,7 +13488,7 @@
       "anon_phone": "+49 155 •••• 96",
       "points": 3,
       "pct": 0.01,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -18208,7 +18208,7 @@
       "anon_phone": "+49 176 •••• 89",
       "points": 1,
       "pct": 0.0,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -20504,21 +20504,21 @@
       "c4fe31e13b5a"
     ],
     "last_24h": [
+      "abdd765c9df5",
       "8a6ad087f1ea",
       "b7f001ca29a3",
-      "abdd765c9df5",
       "aa0156afe213",
       "2e95be7bb9ea",
       "6b9e5cf641da",
       "efeced9c0950",
-      "4adc9f81ac6b",
-      "c55df999ff58",
-      "03772471f186",
       "38fff1e2639c",
       "32529ce73333",
       "29a1c5fbe7db",
       "d63ef0c48d67",
-      "fc8d9a99e2d5"
+      "fc8d9a99e2d5",
+      "55246550d039",
+      "82afa8eefe9c",
+      "45159bbb08d3"
     ],
     "longest_streak": [
       {
@@ -20739,7 +20739,7 @@
     "current_streak": {
       "id": "abdd765c9df5",
       "name": "Ernesto",
-      "value": 3
+      "value": 6
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21260,8 +21260,8 @@
     },
     {
       "date": "2026-09-14",
-      "count": 5,
-      "total": 30181
+      "count": 8,
+      "total": 30184
     }
   ],
   "hour_histogram": [
@@ -21277,7 +21277,7 @@
     167,
     245,
     371,
-    557,
+    560,
     587,
     744,
     769,
@@ -21291,6 +21291,24 @@
     1500
   ],
   "recent": [
+    {
+      "n": 30184,
+      "id": "abdd765c9df5",
+      "name": "Ernesto",
+      "ts": 1789382535.0
+    },
+    {
+      "n": 30183,
+      "id": "abdd765c9df5",
+      "name": "Ernesto",
+      "ts": 1789382535.0
+    },
+    {
+      "n": 30182,
+      "id": "abdd765c9df5",
+      "name": "Ernesto",
+      "ts": 1789382535.0
+    },
     {
       "n": 30181,
       "id": "abdd765c9df5",
@@ -21392,24 +21410,6 @@
       "id": "6b9e5cf641da",
       "name": "Alex",
       "ts": 1789321233.0
-    },
-    {
-      "n": 30160,
-      "id": "c03ae4e7c448",
-      "name": "Yannik",
-      "ts": 1789321197.0
-    },
-    {
-      "n": 30159,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1789321030.0
-    },
-    {
-      "n": 30158,
-      "id": "2e95be7bb9ea",
-      "name": "Luis",
-      "ts": 1789320611.0
     }
   ],
   "speed_samples": [
@@ -21424,6 +21424,18 @@
     [
       1789379344,
       30181
+    ],
+    [
+      1789382535,
+      30182
+    ],
+    [
+      1789382535,
+      30183
+    ],
+    [
+      1789382535,
+      30184
     ]
   ]
 }
