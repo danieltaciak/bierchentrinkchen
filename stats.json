@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-15T20:24:23.173410+00:00",
+  "generated_at": "2026-09-15T20:24:59.165975+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30359,
-  "progress_pct": 3.0359,
+  "current_count": 30360,
+  "progress_pct": 3.036,
   "num_players": 1281,
-  "total_messages": 43329,
+  "total_messages": 43331,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789503829.0,
+  "last_count_ts": 1789503871.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -382,15 +382,15 @@
       "id": "764f33f39eb0",
       "name": "Maxi",
       "anon_phone": "+49 151 •••• 99",
-      "points": 138,
-      "pct": 0.45,
-      "last24h": 6,
+      "points": 139,
+      "pct": 0.46,
+      "last24h": 7,
       "longest_streak": 2,
       "assists_given": 3,
       "assists_received": 4,
       "night_counts": 17,
       "early_counts": 4,
-      "last_ts": 1789501032.0,
+      "last_ts": 1789503871.0,
       "first_ts": 1781284254.0,
       "rank": 24
     },
@@ -20537,8 +20537,8 @@
     ],
     "last_24h": [
       "b7f001ca29a3",
-      "a5f77afeecc6",
       "764f33f39eb0",
+      "a5f77afeecc6",
       "9bf6383c58eb",
       "5f45182377dd",
       "4460bcf9c79c",
@@ -20769,9 +20769,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "value": 2
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21297,8 +21297,8 @@
     },
     {
       "date": "2026-09-15",
-      "count": 106,
-      "total": 30359
+      "count": 107,
+      "total": 30360
     }
   ],
   "hour_histogram": [
@@ -21324,10 +21324,16 @@
     2491,
     2896,
     2850,
-    2274,
+    2275,
     1504
   ],
   "recent": [
+    {
+      "n": 30360,
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "ts": 1789503871.0
+    },
     {
       "n": 30359,
       "id": "efeced9c0950",
@@ -21441,12 +21447,6 @@
       "id": "a842640e164e",
       "name": "Xoxo",
       "ts": 1789498126.0
-    },
-    {
-      "n": 30340,
-      "id": "a842640e164e",
-      "name": "Xoxo",
-      "ts": 1789498126.0
     }
   ],
   "speed_samples": [
@@ -21541,6 +21541,10 @@
     [
       1789503829,
       30359
+    ],
+    [
+      1789503871,
+      30360
     ]
   ]
 }
