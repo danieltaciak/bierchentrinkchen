@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-15T18:55:34.386970+00:00",
+  "generated_at": "2026-09-15T18:56:05.762262+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30342,
-  "progress_pct": 3.0342,
+  "current_count": 30343,
+  "progress_pct": 3.0343,
   "num_players": 1281,
-  "total_messages": 43309,
+  "total_messages": 43310,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789498505.0,
+  "last_count_ts": 1789498540.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -398,15 +398,15 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "anon_phone": "+49 175 •••• 96",
-      "points": 132,
+      "points": 133,
       "pct": 0.44,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1789406291.0,
+      "last_ts": 1789498540.0,
       "first_ts": 1781465577.0,
       "rank": 25
     },
@@ -20769,8 +20769,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "764f33f39eb0",
-      "name": "Maxi",
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
       "value": 1
     },
     "biggest_message": {
@@ -21297,8 +21297,8 @@
     },
     {
       "date": "2026-09-15",
-      "count": 89,
-      "total": 30342
+      "count": 90,
+      "total": 30343
     }
   ],
   "hour_histogram": [
@@ -21322,12 +21322,18 @@
     1423,
     1856,
     2491,
-    2895,
+    2896,
     2838,
     2270,
     1504
   ],
   "recent": [
+    {
+      "n": 30343,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1789498540.0
+    },
     {
       "n": 30342,
       "id": "764f33f39eb0",
@@ -21441,12 +21447,6 @@
       "id": "29ed47d0d01c",
       "name": "Philipp",
       "ts": 1789494784.0
-    },
-    {
-      "n": 30312,
-      "id": "5f45182377dd",
-      "name": "Helle",
-      "ts": 1789494108.0
     }
   ],
   "speed_samples": [
@@ -21585,6 +21585,10 @@
     [
       1789498505,
       30342
+    ],
+    [
+      1789498540,
+      30343
     ]
   ]
 }
