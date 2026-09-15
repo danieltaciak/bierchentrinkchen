@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-15T15:56:15.187998+00:00",
+  "generated_at": "2026-09-15T16:00:16.122595+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30278,
-  "progress_pct": 3.0278,
+  "current_count": 30279,
+  "progress_pct": 3.0279,
   "num_players": 1281,
-  "total_messages": 43234,
+  "total_messages": 43236,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789487761.0,
+  "last_count_ts": 1789487963.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -382,15 +382,15 @@
       "id": "764f33f39eb0",
       "name": "Maxi",
       "anon_phone": "+49 151 •••• 99",
-      "points": 133,
+      "points": 134,
       "pct": 0.44,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 3,
       "assists_received": 4,
       "night_counts": 17,
       "early_counts": 4,
-      "last_ts": 1789483550.0,
+      "last_ts": 1789487963.0,
       "first_ts": 1781284254.0,
       "rank": 24
     },
@@ -20769,8 +20769,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "764f33f39eb0",
+      "name": "Maxi",
       "value": 1
     },
     "biggest_message": {
@@ -21297,8 +21297,8 @@
     },
     {
       "date": "2026-09-15",
-      "count": 25,
-      "total": 30278
+      "count": 26,
+      "total": 30279
     }
   ],
   "hour_histogram": [
@@ -21319,7 +21319,7 @@
     748,
     769,
     1110,
-    1422,
+    1423,
     1840,
     2475,
     2878,
@@ -21328,6 +21328,12 @@
     1504
   ],
   "recent": [
+    {
+      "n": 30279,
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "ts": 1789487963.0
+    },
     {
       "n": 30278,
       "id": "a5f77afeecc6",
@@ -21441,12 +21447,6 @@
       "id": "aa0156afe213",
       "name": "Til",
       "ts": 1789472690.0
-    },
-    {
-      "n": 30258,
-      "id": "aa0156afe213",
-      "name": "Til",
-      "ts": 1789472690.0
     }
   ],
   "speed_samples": [
@@ -21513,6 +21513,10 @@
     [
       1789487761,
       30278
+    ],
+    [
+      1789487963,
+      30279
     ]
   ]
 }
