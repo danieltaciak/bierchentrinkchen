@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-15T18:20:35.281576+00:00",
+  "generated_at": "2026-09-15T18:22:47.412996+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30331,
-  "progress_pct": 3.0331,
+  "current_count": 30333,
+  "progress_pct": 3.0333,
   "num_players": 1281,
-  "total_messages": 43297,
+  "total_messages": 43299,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789496412.0,
+  "last_count_ts": 1789496554.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -283,6 +283,22 @@
       "rank": 17
     },
     {
+      "id": "1a6129668ba3",
+      "name": "Christian W.",
+      "anon_phone": "+49 170 •••• 39",
+      "points": 148,
+      "pct": 0.49,
+      "last24h": 3,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 21,
+      "early_counts": 0,
+      "last_ts": 1789496554.0,
+      "first_ts": 1781298624.0,
+      "rank": 18
+    },
+    {
       "id": "cec25393509e",
       "name": "Jordan",
       "anon_phone": "+49 162 •••• 18",
@@ -296,22 +312,6 @@
       "early_counts": 1,
       "last_ts": 1789413427.0,
       "first_ts": 1781100515.0,
-      "rank": 18
-    },
-    {
-      "id": "1a6129668ba3",
-      "name": "Christian W.",
-      "anon_phone": "+49 170 •••• 39",
-      "points": 147,
-      "pct": 0.48,
-      "last24h": 2,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 21,
-      "early_counts": 0,
-      "last_ts": 1789492194.0,
-      "first_ts": 1781298624.0,
       "rank": 19
     },
     {
@@ -718,15 +718,15 @@
       "id": "b24539a93d86",
       "name": "Dany",
       "anon_phone": "+49 160 •••• 83",
-      "points": 96,
+      "points": 97,
       "pct": 0.32,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 2,
       "assists_given": 7,
       "assists_received": 7,
       "night_counts": 5,
       "early_counts": 0,
-      "last_ts": 1789493015.0,
+      "last_ts": 1789496531.0,
       "first_ts": 1781804661.0,
       "rank": 45
     },
@@ -20526,8 +20526,8 @@
       "3ce6f8806201",
       "553637e3d2b4",
       "45c4cce2f31c",
-      "cec25393509e",
       "1a6129668ba3",
+      "cec25393509e",
       "776f4d602138",
       "ff8a86710b38",
       "abdd765c9df5",
@@ -20543,14 +20543,14 @@
       "9bf6383c58eb",
       "4460bcf9c79c",
       "764f33f39eb0",
+      "b24539a93d86",
       "c93ed700000f",
       "aa0156afe213",
       "5f45182377dd",
       "6b9e5cf641da",
       "2f9108443e86",
       "a84987d66bdc",
-      "b24539a93d86",
-      "cec25393509e"
+      "1a6129668ba3"
     ],
     "longest_streak": [
       {
@@ -20769,8 +20769,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "764f33f39eb0",
-      "name": "Maxi",
+      "id": "1a6129668ba3",
+      "name": "Christian W.",
       "value": 1
     },
     "biggest_message": {
@@ -21297,8 +21297,8 @@
     },
     {
       "date": "2026-09-15",
-      "count": 78,
-      "total": 30331
+      "count": 80,
+      "total": 30333
     }
   ],
   "hour_histogram": [
@@ -21322,12 +21322,24 @@
     1423,
     1856,
     2491,
-    2886,
+    2888,
     2838,
     2270,
     1504
   ],
   "recent": [
+    {
+      "n": 30333,
+      "id": "1a6129668ba3",
+      "name": "Christian W.",
+      "ts": 1789496554.0
+    },
+    {
+      "n": 30332,
+      "id": "b24539a93d86",
+      "name": "Dany",
+      "ts": 1789496531.0
+    },
     {
       "n": 30331,
       "id": "764f33f39eb0",
@@ -21435,29 +21447,9 @@
       "id": "29ed47d0d01c",
       "name": "Philipp",
       "ts": 1789493251.0
-    },
-    {
-      "n": 30304,
-      "id": "b24539a93d86",
-      "name": "Dany",
-      "ts": 1789493015.0
-    },
-    {
-      "n": 30303,
-      "id": "6b9e5cf641da",
-      "name": "Alex",
-      "ts": 1789492956.0
     }
   ],
   "speed_samples": [
-    [
-      1789489293,
-      30288
-    ],
-    [
-      1789489341,
-      30291
-    ],
     [
       1789489444,
       30292
@@ -21577,6 +21569,14 @@
     [
       1789496412,
       30331
+    ],
+    [
+      1789496531,
+      30332
+    ],
+    [
+      1789496554,
+      30333
     ]
   ]
 }
