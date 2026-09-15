@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-15T16:14:35.694346+00:00",
+  "generated_at": "2026-09-15T16:18:36.892624+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30285,
-  "progress_pct": 3.0285,
+  "current_count": 30287,
+  "progress_pct": 3.0287,
   "num_players": 1281,
-  "total_messages": 43245,
+  "total_messages": 43248,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789488861.0,
+  "last_count_ts": 1789489109.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -126,15 +126,15 @@
       "id": "b7f001ca29a3",
       "name": "leonski🍺",
       "anon_phone": "+49 160 •••• 72",
-      "points": 213,
-      "pct": 0.7,
-      "last24h": 4,
+      "points": 214,
+      "pct": 0.71,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 5,
       "night_counts": 13,
       "early_counts": 1,
-      "last_ts": 1789417660.0,
+      "last_ts": 1789489075.0,
       "first_ts": 1780939774.0,
       "rank": 8
     },
@@ -555,6 +555,22 @@
       "rank": 34
     },
     {
+      "id": "4460bcf9c79c",
+      "name": "Lance",
+      "anon_phone": "+49 152 •••• 66",
+      "points": 111,
+      "pct": 0.37,
+      "last24h": 4,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 14,
+      "early_counts": 1,
+      "last_ts": 1789489109.0,
+      "first_ts": 1781198140.0,
+      "rank": 35
+    },
+    {
       "id": "dc330d40fb11",
       "name": "Aaron D.",
       "anon_phone": "+49 151 •••• 20",
@@ -568,22 +584,6 @@
       "early_counts": 3,
       "last_ts": 1789076061.0,
       "first_ts": 1781287480.0,
-      "rank": 35
-    },
-    {
-      "id": "4460bcf9c79c",
-      "name": "Lance",
-      "anon_phone": "+49 152 •••• 66",
-      "points": 110,
-      "pct": 0.36,
-      "last24h": 3,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 14,
-      "early_counts": 1,
-      "last_ts": 1789488347.0,
-      "first_ts": 1781198140.0,
       "rank": 36
     },
     {
@@ -1519,7 +1519,7 @@
       "name": "David",
       "anon_phone": "+49 160 •••• 44",
       "points": 53,
-      "pct": 0.18,
+      "pct": 0.17,
       "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
@@ -20538,13 +20538,13 @@
     "last_24h": [
       "06ef1dbdad22",
       "29a1c5fbe7db",
-      "a5f77afeecc6",
       "b7f001ca29a3",
+      "a5f77afeecc6",
       "9bf6383c58eb",
+      "4460bcf9c79c",
       "cec25393509e",
       "416d585e4acc",
       "aa0156afe213",
-      "4460bcf9c79c",
       "553637e3d2b4",
       "7a2e949e25b3",
       "5e0359616cc8",
@@ -20769,8 +20769,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "d63db1480311",
-      "name": "Max",
+      "id": "4460bcf9c79c",
+      "name": "Lance",
       "value": 1
     },
     "biggest_message": {
@@ -21297,8 +21297,8 @@
     },
     {
       "date": "2026-09-15",
-      "count": 32,
-      "total": 30285
+      "count": 34,
+      "total": 30287
     }
   ],
   "hour_histogram": [
@@ -21320,7 +21320,7 @@
     769,
     1110,
     1423,
-    1846,
+    1848,
     2475,
     2878,
     2838,
@@ -21328,6 +21328,18 @@
     1504
   ],
   "recent": [
+    {
+      "n": 30287,
+      "id": "4460bcf9c79c",
+      "name": "Lance",
+      "ts": 1789489109.0
+    },
+    {
+      "n": 30286,
+      "id": "b7f001ca29a3",
+      "name": "leonski🍺",
+      "ts": 1789489075.0
+    },
     {
       "n": 30285,
       "id": "d63db1480311",
@@ -21435,18 +21447,6 @@
       "id": "e3bf5719b998",
       "name": "WastlSepp",
       "ts": 1789485317.0
-    },
-    {
-      "n": 30266,
-      "id": "2f9108443e86",
-      "name": "Philipp",
-      "ts": 1789484505.0
-    },
-    {
-      "n": 30265,
-      "id": "764f33f39eb0",
-      "name": "Maxi",
-      "ts": 1789483550.0
     }
   ],
   "speed_samples": [
@@ -21541,6 +21541,14 @@
     [
       1789488861,
       30285
+    ],
+    [
+      1789489075,
+      30286
+    ],
+    [
+      1789489109,
+      30287
     ]
   ]
 }
