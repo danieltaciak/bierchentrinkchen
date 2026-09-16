@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-16T19:26:22.143144+00:00",
+  "generated_at": "2026-09-16T19:30:40.497119+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30449,
-  "progress_pct": 3.0449,
+  "current_count": 30450,
+  "progress_pct": 3.045,
   "num_players": 1281,
-  "total_messages": 43449,
+  "total_messages": 43450,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789586745.0,
+  "last_count_ts": 1789587013.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -814,15 +814,15 @@
       "id": "9c0968e6fd9c",
       "name": "toni",
       "anon_phone": "+49 179 •••• 67",
-      "points": 85,
+      "points": 86,
       "pct": 0.28,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1789155465.0,
+      "last_ts": 1789587013.0,
       "first_ts": 1781375506.0,
       "rank": 51
     },
@@ -20769,8 +20769,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
+      "id": "9c0968e6fd9c",
+      "name": "toni",
       "value": 1
     },
     "biggest_message": {
@@ -21302,8 +21302,8 @@
     },
     {
       "date": "2026-09-16",
-      "count": 77,
-      "total": 30449
+      "count": 78,
+      "total": 30450
     }
   ],
   "hour_histogram": [
@@ -21328,11 +21328,17 @@
     1864,
     2503,
     2910,
-    2857,
+    2858,
     2277,
     1514
   ],
   "recent": [
+    {
+      "n": 30450,
+      "id": "9c0968e6fd9c",
+      "name": "toni",
+      "ts": 1789587013.0
+    },
     {
       "n": 30449,
       "id": "b7f001ca29a3",
@@ -21446,19 +21452,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1789582208.0
-    },
-    {
-      "n": 30428,
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "ts": 1789581901.0
     }
   ],
   "speed_samples": [
-    [
-      1789579562,
-      30419
-    ],
     [
       1789579827,
       30420
@@ -21570,6 +21566,10 @@
     [
       1789586745,
       30449
+    ],
+    [
+      1789587013,
+      30450
     ]
   ]
 }
