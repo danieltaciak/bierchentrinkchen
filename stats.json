@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-17T18:56:02.988473+00:00",
+  "generated_at": "2026-09-17T18:59:23.598764+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30542,
-  "progress_pct": 3.0542,
+  "current_count": 30543,
+  "progress_pct": 3.0543,
   "num_players": 1282,
-  "total_messages": 43568,
+  "total_messages": 43569,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789671333.0,
+  "last_count_ts": 1789671551.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -446,15 +446,15 @@
       "id": "2e95be7bb9ea",
       "name": "Luis",
       "anon_phone": "+49 152 •••• 13",
-      "points": 123,
-      "pct": 0.4,
-      "last24h": 0,
+      "points": 124,
+      "pct": 0.41,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 4,
       "early_counts": 2,
-      "last_ts": 1789501812.0,
+      "last_ts": 1789671551.0,
       "first_ts": 1781200389.0,
       "rank": 28
     },
@@ -20785,8 +20785,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "4198299b819b",
-      "name": "Moser",
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
       "value": 1
     },
     "biggest_message": {
@@ -21323,8 +21323,8 @@
     },
     {
       "date": "2026-09-17",
-      "count": 79,
-      "total": 30542
+      "count": 80,
+      "total": 30543
     }
   ],
   "hour_histogram": [
@@ -21348,12 +21348,18 @@
     1441,
     1868,
     2511,
-    2927,
+    2928,
     2860,
     2283,
     1517
   ],
   "recent": [
+    {
+      "n": 30543,
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
+      "ts": 1789671551.0
+    },
     {
       "n": 30542,
       "id": "4198299b819b",
@@ -21467,12 +21473,6 @@
       "id": "b7f001ca29a3",
       "name": "leonski🍺",
       "ts": 1789667891.0
-    },
-    {
-      "n": 30523,
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
-      "ts": 1789667785.0
     }
   ],
   "speed_samples": [
@@ -21575,6 +21575,10 @@
     [
       1789671333,
       30542
+    ],
+    [
+      1789671551,
+      30543
     ]
   ]
 }
