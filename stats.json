@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-17T19:28:21.267679+00:00",
+  "generated_at": "2026-09-17T19:28:57.405854+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30568,
-  "progress_pct": 3.0568,
+  "current_count": 30570,
+  "progress_pct": 3.057,
   "num_players": 1282,
-  "total_messages": 43583,
+  "total_messages": 43584,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789673268.0,
+  "last_count_ts": 1789673324.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -110,15 +110,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 256,
+      "points": 257,
       "pct": 0.84,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 32,
       "early_counts": 2,
-      "last_ts": 1789670310.0,
+      "last_ts": 1789673324.0,
       "first_ts": 1781212818.0,
       "rank": 7
     },
@@ -20560,11 +20560,11 @@
       "5363c3d3649b",
       "a5f77afeecc6",
       "9bf6383c58eb",
+      "c93ed700000f",
       "ff8a86710b38",
       "3ce6f8806201",
       "6b9e5cf641da",
       "5f45182377dd",
-      "c93ed700000f",
       "df6424fbdeef",
       "81baf6634942"
     ],
@@ -20785,8 +20785,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "df6424fbdeef",
-      "name": "Daniel",
+      "id": "c93ed700000f",
+      "name": "linus",
       "value": 1
     },
     "biggest_message": {
@@ -21323,8 +21323,8 @@
     },
     {
       "date": "2026-09-17",
-      "count": 105,
-      "total": 30568
+      "count": 107,
+      "total": 30570
     }
   ],
   "hour_histogram": [
@@ -21349,11 +21349,17 @@
     1868,
     2511,
     2928,
-    2871,
+    2872,
     2283,
     1517
   ],
   "recent": [
+    {
+      "n": 30570,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1789673324.0
+    },
     {
       "n": 30568,
       "id": "df6424fbdeef",
@@ -21467,12 +21473,6 @@
       "id": "5f45182377dd",
       "name": "Helle",
       "ts": 1789669338.0
-    },
-    {
-      "n": 30535,
-      "id": "462480e81eb7",
-      "name": "feuerer V.",
-      "ts": 1789669138.0
     }
   ],
   "speed_samples": [
@@ -21619,6 +21619,10 @@
     [
       1789673268,
       30568
+    ],
+    [
+      1789673324,
+      30570
     ]
   ]
 }
