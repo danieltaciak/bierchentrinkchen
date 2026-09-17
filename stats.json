@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-17T19:28:57.405854+00:00",
+  "generated_at": "2026-09-17T19:30:32.264179+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30570,
-  "progress_pct": 3.057,
+  "current_count": 30573,
+  "progress_pct": 3.0573,
   "num_players": 1282,
-  "total_messages": 43584,
+  "total_messages": 43585,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789673324.0,
+  "last_count_ts": 1789673419.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -219,6 +219,22 @@
       "rank": 13
     },
     {
+      "id": "81baf6634942",
+      "name": "Samu",
+      "anon_phone": "+49 179 •••• 09",
+      "points": 164,
+      "pct": 0.54,
+      "last24h": 6,
+      "longest_streak": 6,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 16,
+      "early_counts": 0,
+      "last_ts": 1789673419.0,
+      "first_ts": 1781353223.0,
+      "rank": 14
+    },
+    {
       "id": "3ce6f8806201",
       "name": "Simon S.",
       "anon_phone": "+49 152 •••• 84",
@@ -232,22 +248,6 @@
       "early_counts": 5,
       "last_ts": 1789667785.0,
       "first_ts": 1781289501.0,
-      "rank": 14
-    },
-    {
-      "id": "81baf6634942",
-      "name": "Samu",
-      "anon_phone": "+49 179 •••• 09",
-      "points": 161,
-      "pct": 0.53,
-      "last24h": 3,
-      "longest_streak": 6,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 16,
-      "early_counts": 0,
-      "last_ts": 1789671880.0,
-      "first_ts": 1781353223.0,
       "rank": 15
     },
     {
@@ -816,7 +816,7 @@
       "anon_phone": "+49 179 •••• 67",
       "points": 86,
       "pct": 0.28,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -20538,8 +20538,8 @@
       "bbd3041bdb62",
       "74c46f04e647",
       "df6424fbdeef",
-      "3ce6f8806201",
       "81baf6634942",
+      "3ce6f8806201",
       "ff8a86710b38",
       "553637e3d2b4",
       "45c4cce2f31c",
@@ -20554,6 +20554,7 @@
     "last_24h": [
       "2e1dd3f0f8f3",
       "b7f001ca29a3",
+      "81baf6634942",
       "efeced9c0950",
       "e32d26f673cb",
       "29a1c5fbe7db",
@@ -20565,8 +20566,7 @@
       "3ce6f8806201",
       "6b9e5cf641da",
       "5f45182377dd",
-      "df6424fbdeef",
-      "81baf6634942"
+      "df6424fbdeef"
     ],
     "longest_streak": [
       {
@@ -20785,9 +20785,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "c93ed700000f",
-      "name": "linus",
-      "value": 1
+      "id": "81baf6634942",
+      "name": "Samu",
+      "value": 3
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21323,8 +21323,8 @@
     },
     {
       "date": "2026-09-17",
-      "count": 107,
-      "total": 30570
+      "count": 110,
+      "total": 30573
     }
   ],
   "hour_histogram": [
@@ -21349,11 +21349,29 @@
     1868,
     2511,
     2928,
-    2872,
+    2875,
     2283,
     1517
   ],
   "recent": [
+    {
+      "n": 30573,
+      "id": "81baf6634942",
+      "name": "Samu",
+      "ts": 1789673419.0
+    },
+    {
+      "n": 30572,
+      "id": "81baf6634942",
+      "name": "Samu",
+      "ts": 1789673419.0
+    },
+    {
+      "n": 30571,
+      "id": "81baf6634942",
+      "name": "Samu",
+      "ts": 1789673419.0
+    },
     {
       "n": 30570,
       "id": "c93ed700000f",
@@ -21455,24 +21473,6 @@
       "id": "29a1c5fbe7db",
       "name": "Tanja🌺",
       "ts": 1789670119.0
-    },
-    {
-      "n": 30538,
-      "id": "df6424fbdeef",
-      "name": "Daniel",
-      "ts": 1789669433.0
-    },
-    {
-      "n": 30537,
-      "id": "5f45182377dd",
-      "name": "Helle",
-      "ts": 1789669358.0
-    },
-    {
-      "n": 30536,
-      "id": "5f45182377dd",
-      "name": "Helle",
-      "ts": 1789669338.0
     }
   ],
   "speed_samples": [
@@ -21623,6 +21623,18 @@
     [
       1789673324,
       30570
+    ],
+    [
+      1789673419,
+      30571
+    ],
+    [
+      1789673419,
+      30572
+    ],
+    [
+      1789673419,
+      30573
     ]
   ]
 }
