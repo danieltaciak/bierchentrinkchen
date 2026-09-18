@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-18T16:52:19.620979+00:00",
+  "generated_at": "2026-09-18T16:55:24.654008+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30680,
-  "progress_pct": 3.068,
+  "current_count": 30683,
+  "progress_pct": 3.0683,
   "num_players": 1283,
-  "total_messages": 43694,
+  "total_messages": 43696,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789750325.0,
+  "last_count_ts": 1789750503.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1419,6 +1419,22 @@
       "rank": 88
     },
     {
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "anon_phone": "+49 151 •••• 37",
+      "points": 57,
+      "pct": 0.19,
+      "last24h": 13,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 9,
+      "early_counts": 0,
+      "last_ts": 1789750503.0,
+      "first_ts": 1789061375.0,
+      "rank": 89
+    },
+    {
       "id": "e1682a59e246",
       "name": "Fabiii",
       "anon_phone": "+49 157 •••• 76",
@@ -1432,7 +1448,7 @@
       "early_counts": 8,
       "last_ts": 1789527116.0,
       "first_ts": 1781315120.0,
-      "rank": 89
+      "rank": 90
     },
     {
       "id": "1047a3b75430",
@@ -1448,7 +1464,7 @@
       "early_counts": 0,
       "last_ts": 1788810703.0,
       "first_ts": 1781528017.0,
-      "rank": 90
+      "rank": 91
     },
     {
       "id": "dfb57c03463c",
@@ -1464,7 +1480,7 @@
       "early_counts": 0,
       "last_ts": 1789672865.0,
       "first_ts": 1783615054.0,
-      "rank": 91
+      "rank": 92
     },
     {
       "id": "b31366a336ca",
@@ -1480,7 +1496,7 @@
       "early_counts": 1,
       "last_ts": 1786809497.0,
       "first_ts": 1786078071.0,
-      "rank": 92
+      "rank": 93
     },
     {
       "id": "db2701741420",
@@ -1496,22 +1512,6 @@
       "early_counts": 1,
       "last_ts": 1786725413.0,
       "first_ts": 1780944311.0,
-      "rank": 93
-    },
-    {
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "anon_phone": "+49 151 •••• 37",
-      "points": 55,
-      "pct": 0.18,
-      "last24h": 11,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 9,
-      "early_counts": 0,
-      "last_ts": 1789749433.0,
-      "first_ts": 1789061375.0,
       "rank": 94
     },
     {
@@ -20568,8 +20568,8 @@
       "c4fe31e13b5a"
     ],
     "last_24h": [
-      "b7f001ca29a3",
       "73a69bdc1f9e",
+      "b7f001ca29a3",
       "a5f77afeecc6",
       "9bf6383c58eb",
       "5f45182377dd",
@@ -20801,9 +20801,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "value": 1
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21344,8 +21344,8 @@
     },
     {
       "date": "2026-09-18",
-      "count": 76,
-      "total": 30680
+      "count": 79,
+      "total": 30683
     }
   ],
   "hour_histogram": [
@@ -21367,7 +21367,7 @@
     775,
     1133,
     1459,
-    1874,
+    1876,
     2511,
     2928,
     2881,
@@ -21375,6 +21375,18 @@
     1531
   ],
   "recent": [
+    {
+      "n": 30683,
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "ts": 1789750503.0
+    },
+    {
+      "n": 30681,
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "ts": 1789750489.0
+    },
     {
       "n": 30680,
       "id": "b7f001ca29a3",
@@ -21482,18 +21494,6 @@
       "id": "73a69bdc1f9e",
       "name": "Dominikz",
       "ts": 1789744381.0
-    },
-    {
-      "n": 30650,
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "ts": 1789744341.0
-    },
-    {
-      "n": 30645,
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "ts": 1789744331.0
     }
   ],
   "speed_samples": [
@@ -21592,6 +21592,14 @@
     [
       1789750325,
       30680
+    ],
+    [
+      1789750489,
+      30681
+    ],
+    [
+      1789750503,
+      30683
     ]
   ]
 }
