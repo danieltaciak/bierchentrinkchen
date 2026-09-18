@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-18T19:31:30.465513+00:00",
+  "generated_at": "2026-09-18T19:32:06.215210+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30747,
-  "progress_pct": 3.0747,
+  "current_count": 30748,
+  "progress_pct": 3.0748,
   "num_players": 1285,
-  "total_messages": 43767,
+  "total_messages": 43768,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789759861.0,
+  "last_count_ts": 1789759913.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -270,15 +270,15 @@
       "id": "553637e3d2b4",
       "name": "Linus K.",
       "anon_phone": "+49 176 •••• 96",
-      "points": 154,
+      "points": 155,
       "pct": 0.5,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 29,
       "early_counts": 0,
-      "last_ts": 1789493921.0,
+      "last_ts": 1789759913.0,
       "first_ts": 1782747846.0,
       "rank": 17
     },
@@ -20833,8 +20833,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "032a270163e4",
-      "name": "Philomena",
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
       "value": 1
     },
     "biggest_message": {
@@ -21376,8 +21376,8 @@
     },
     {
       "date": "2026-09-18",
-      "count": 143,
-      "total": 30747
+      "count": 144,
+      "total": 30748
     }
   ],
   "hour_histogram": [
@@ -21402,11 +21402,17 @@
     1878,
     2533,
     2943,
-    2895,
+    2896,
     2292,
     1531
   ],
   "recent": [
+    {
+      "n": 30748,
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
+      "ts": 1789759913.0
+    },
     {
       "n": 30747,
       "id": "032a270163e4",
@@ -21520,12 +21526,6 @@
       "id": "0c322a010ec4",
       "name": "Andrea",
       "ts": 1789757177.0
-    },
-    {
-      "n": 30722,
-      "id": "5363c3d3649b",
-      "name": "Quentin M.",
-      "ts": 1789756357.0
     }
   ],
   "speed_samples": [
@@ -21700,6 +21700,10 @@
     [
       1789759861,
       30747
+    ],
+    [
+      1789759913,
+      30748
     ]
   ]
 }
