@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-18T19:04:52.738731+00:00",
+  "generated_at": "2026-09-18T19:05:44.395946+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30733,
-  "progress_pct": 3.0733,
+  "current_count": 30734,
+  "progress_pct": 3.0734,
   "num_players": 1284,
-  "total_messages": 43750,
+  "total_messages": 43751,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789758248.0,
+  "last_count_ts": 1789758314.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -208,7 +208,7 @@
       "anon_phone": "+49 163 •••• 57",
       "points": 171,
       "pct": 0.56,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -798,15 +798,15 @@
       "id": "9c0968e6fd9c",
       "name": "toni",
       "anon_phone": "+49 179 •••• 67",
-      "points": 90,
-      "pct": 0.29,
-      "last24h": 4,
+      "points": 91,
+      "pct": 0.3,
+      "last24h": 5,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1789753730.0,
+      "last_ts": 1789758314.0,
       "first_ts": 1781375506.0,
       "rank": 50
     },
@@ -20592,10 +20592,10 @@
       "06ef1dbdad22",
       "aa0156afe213",
       "a84987d66bdc",
+      "9c0968e6fd9c",
       "dfb57c03463c",
       "7a2e949e25b3",
       "6b9e5cf641da",
-      "9c0968e6fd9c",
       "0c322a010ec4",
       "c93ed700000f",
       "81baf6634942"
@@ -20817,8 +20817,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "169226d00fd6",
-      "name": "Flo",
+      "id": "9c0968e6fd9c",
+      "name": "toni",
       "value": 1
     },
     "biggest_message": {
@@ -21360,8 +21360,8 @@
     },
     {
       "date": "2026-09-18",
-      "count": 129,
-      "total": 30733
+      "count": 130,
+      "total": 30734
     }
   ],
   "hour_histogram": [
@@ -21386,11 +21386,17 @@
     1878,
     2533,
     2943,
-    2884,
+    2885,
     2292,
     1531
   ],
   "recent": [
+    {
+      "n": 30734,
+      "id": "9c0968e6fd9c",
+      "name": "toni",
+      "ts": 1789758314.0
+    },
     {
       "n": 30733,
       "id": "169226d00fd6",
@@ -21504,12 +21510,6 @@
       "id": "6b9e5cf641da",
       "name": "Alex",
       "ts": 1789754399.0
-    },
-    {
-      "n": 30707,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1789754232.0
     }
   ],
   "speed_samples": [
@@ -21672,6 +21672,10 @@
     [
       1789758248,
       30733
+    ],
+    [
+      1789758314,
+      30734
     ]
   ]
 }
