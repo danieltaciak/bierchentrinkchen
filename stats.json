@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-18T17:08:17.002219+00:00",
+  "generated_at": "2026-09-18T17:11:01.376039+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30688,
-  "progress_pct": 3.0688,
+  "current_count": 30689,
+  "progress_pct": 3.0689,
   "num_players": 1283,
-  "total_messages": 43699,
+  "total_messages": 43700,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789751282.0,
+  "last_count_ts": 1789751422.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -398,15 +398,15 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "anon_phone": "+49 175 •••• 96",
-      "points": 135,
+      "points": 136,
       "pct": 0.44,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1789589825.0,
+      "last_ts": 1789751422.0,
       "first_ts": 1781465577.0,
       "rank": 25
     },
@@ -672,7 +672,7 @@
       "anon_phone": "+49 151 •••• 72",
       "points": 102,
       "pct": 0.33,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -20801,9 +20801,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9c0968e6fd9c",
-      "name": "toni",
-      "value": 3
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21344,8 +21344,8 @@
     },
     {
       "date": "2026-09-18",
-      "count": 84,
-      "total": 30688
+      "count": 85,
+      "total": 30689
     }
   ],
   "hour_histogram": [
@@ -21368,13 +21368,19 @@
     1133,
     1459,
     1878,
-    2514,
+    2515,
     2928,
     2881,
     2292,
     1531
   ],
   "recent": [
+    {
+      "n": 30689,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1789751422.0
+    },
     {
       "n": 30688,
       "id": "9c0968e6fd9c",
@@ -21488,12 +21494,6 @@
       "id": "73a69bdc1f9e",
       "name": "Dominikz",
       "ts": 1789745931.0
-    },
-    {
-      "n": 30656,
-      "id": "cfdba79b3c19",
-      "name": "kvn.mr",
-      "ts": 1789745734.0
     }
   ],
   "speed_samples": [
@@ -21604,6 +21604,10 @@
     [
       1789751282,
       30688
+    ],
+    [
+      1789751422,
+      30689
     ]
   ]
 }
