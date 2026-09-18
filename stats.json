@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-18T21:44:22.333968+00:00",
+  "generated_at": "2026-09-18T21:45:38.985474+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30820,
-  "progress_pct": 3.082,
+  "current_count": 30821,
+  "progress_pct": 3.0821,
   "num_players": 1292,
-  "total_messages": 43859,
+  "total_messages": 43860,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789767849.0,
+  "last_count_ts": 1789767918.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -875,6 +875,22 @@
       "rank": 54
     },
     {
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
+      "anon_phone": "+49 171 •••• 23",
+      "points": 80,
+      "pct": 0.26,
+      "last24h": 2,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 1,
+      "last_ts": 1789767918.0,
+      "first_ts": 1784041780.0,
+      "rank": 55
+    },
+    {
       "id": "732c638fc2fc",
       "name": "Leander",
       "anon_phone": "+49 176 •••• 04",
@@ -888,22 +904,6 @@
       "early_counts": 2,
       "last_ts": 1789154629.0,
       "first_ts": 1781204574.0,
-      "rank": 55
-    },
-    {
-      "id": "8561b6020a64",
-      "name": "Daniel W.",
-      "anon_phone": "+49 171 •••• 23",
-      "points": 79,
-      "pct": 0.26,
-      "last24h": 1,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 1,
-      "last_ts": 1789760113.0,
-      "first_ts": 1784041780.0,
       "rank": 56
     },
     {
@@ -20945,8 +20945,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "7b758a066b60",
-      "name": "Sebastian",
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
       "value": 1
     },
     "biggest_message": {
@@ -21488,8 +21488,8 @@
     },
     {
       "date": "2026-09-18",
-      "count": 216,
-      "total": 30820
+      "count": 217,
+      "total": 30821
     }
   ],
   "hour_histogram": [
@@ -21516,9 +21516,15 @@
     2943,
     2906,
     2309,
-    1551
+    1552
   ],
   "recent": [
+    {
+      "n": 30821,
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
+      "ts": 1789767918.0
+    },
     {
       "n": 30820,
       "id": "7b758a066b60",
@@ -21632,12 +21638,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1789765636.0
-    },
-    {
-      "n": 30801,
-      "id": "7b758a066b60",
-      "name": "Sebastian",
-      "ts": 1789765228.0
     }
   ],
   "speed_samples": [
@@ -21788,6 +21788,10 @@
     [
       1789767849,
       30820
+    ],
+    [
+      1789767918,
+      30821
     ]
   ]
 }
