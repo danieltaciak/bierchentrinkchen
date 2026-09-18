@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-18T18:18:43.559171+00:00",
+  "generated_at": "2026-09-18T18:20:46.405710+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30717,
-  "progress_pct": 3.0717,
+  "current_count": 30718,
+  "progress_pct": 3.0718,
   "num_players": 1284,
-  "total_messages": 43725,
+  "total_messages": 43726,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789755511.0,
+  "last_count_ts": 1789755634.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1947,6 +1947,22 @@
       "rank": 121
     },
     {
+      "id": "032a270163e4",
+      "name": "Philomena",
+      "anon_phone": "+49 176 •••• 48",
+      "points": 42,
+      "pct": 0.14,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1789755634.0,
+      "first_ts": 1781628517.0,
+      "rank": 122
+    },
+    {
       "id": "cea7a80a166b",
       "name": "michl",
       "anon_phone": "+49 151 •••• 20",
@@ -1960,22 +1976,6 @@
       "early_counts": 2,
       "last_ts": 1788598944.0,
       "first_ts": 1781273370.0,
-      "rank": 122
-    },
-    {
-      "id": "032a270163e4",
-      "name": "Philomena",
-      "anon_phone": "+49 176 •••• 48",
-      "points": 41,
-      "pct": 0.13,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1789151948.0,
-      "first_ts": 1781628517.0,
       "rank": 123
     },
     {
@@ -2656,7 +2656,7 @@
       "anon_phone": "+49 162 •••• 56",
       "points": 32,
       "pct": 0.1,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -20817,8 +20817,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "cdac8116e93e",
-      "name": "Hännsn",
+      "id": "032a270163e4",
+      "name": "Philomena",
       "value": 1
     },
     "biggest_message": {
@@ -21360,8 +21360,8 @@
     },
     {
       "date": "2026-09-18",
-      "count": 113,
-      "total": 30717
+      "count": 114,
+      "total": 30718
     }
   ],
   "hour_histogram": [
@@ -21385,12 +21385,18 @@
     1459,
     1878,
     2533,
-    2933,
+    2934,
     2881,
     2292,
     1531
   ],
   "recent": [
+    {
+      "n": 30718,
+      "id": "032a270163e4",
+      "name": "Philomena",
+      "ts": 1789755634.0
+    },
     {
       "n": 30717,
       "id": "cdac8116e93e",
@@ -21504,12 +21510,6 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1789752743.0
-    },
-    {
-      "n": 30693,
-      "id": "3882d176c29e",
-      "name": "moritz",
-      "ts": 1789752371.0
     }
   ],
   "speed_samples": [
@@ -21652,6 +21652,10 @@
     [
       1789755511,
       30717
+    ],
+    [
+      1789755634,
+      30718
     ]
   ]
 }
