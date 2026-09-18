@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-18T17:42:12.040166+00:00",
+  "generated_at": "2026-09-18T17:43:54.953080+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30698,
-  "progress_pct": 3.0698,
+  "current_count": 30700,
+  "progress_pct": 3.07,
   "num_players": 1283,
-  "total_messages": 43708,
+  "total_messages": 43711,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789753309.0,
+  "last_count_ts": 1789753408.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -462,15 +462,15 @@
       "id": "0c322a010ec4",
       "name": "Andrea",
       "anon_phone": "+49 151 •••• 79",
-      "points": 121,
-      "pct": 0.39,
-      "last24h": 0,
+      "points": 123,
+      "pct": 0.4,
+      "last24h": 2,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 34,
       "early_counts": 10,
-      "last_ts": 1789593862.0,
+      "last_ts": 1789753408.0,
       "first_ts": 1782522040.0,
       "rank": 29
     },
@@ -20801,9 +20801,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b4c5dace35d9",
-      "name": "Crazy #.",
-      "value": 1
+      "id": "0c322a010ec4",
+      "name": "Andrea",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21344,8 +21344,8 @@
     },
     {
       "date": "2026-09-18",
-      "count": 94,
-      "total": 30698
+      "count": 96,
+      "total": 30700
     }
   ],
   "hour_histogram": [
@@ -21368,13 +21368,25 @@
     1133,
     1459,
     1878,
-    2524,
+    2526,
     2928,
     2881,
     2292,
     1531
   ],
   "recent": [
+    {
+      "n": 30700,
+      "id": "0c322a010ec4",
+      "name": "Andrea",
+      "ts": 1789753408.0
+    },
+    {
+      "n": 30699,
+      "id": "0c322a010ec4",
+      "name": "Andrea",
+      "ts": 1789753408.0
+    },
     {
       "n": 30698,
       "id": "b4c5dace35d9",
@@ -21482,18 +21494,6 @@
       "id": "b7f001ca29a3",
       "name": "leonski🍺",
       "ts": 1789750325.0
-    },
-    {
-      "n": 30679,
-      "id": "29a1c5fbe7db",
-      "name": "Tanja🌺",
-      "ts": 1789750228.0
-    },
-    {
-      "n": 30678,
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "ts": 1789749433.0
     }
   ],
   "speed_samples": [
@@ -21608,6 +21608,14 @@
     [
       1789753309,
       30698
+    ],
+    [
+      1789753408,
+      30699
+    ],
+    [
+      1789753408,
+      30700
     ]
   ]
 }
