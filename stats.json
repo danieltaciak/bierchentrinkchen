@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-18T11:30:02.387527+00:00",
+  "generated_at": "2026-09-18T11:38:45.170920+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30628,
-  "progress_pct": 3.0628,
+  "current_count": 30629,
+  "progress_pct": 3.0629,
   "num_players": 1283,
-  "total_messages": 43641,
+  "total_messages": 43642,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789730988.0,
+  "last_count_ts": 1789731506.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1627,6 +1627,22 @@
       "rank": 101
     },
     {
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "anon_phone": "+49 151 •••• 37",
+      "points": 47,
+      "pct": 0.15,
+      "last24h": 4,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 9,
+      "early_counts": 0,
+      "last_ts": 1789731506.0,
+      "first_ts": 1789061375.0,
+      "rank": 102
+    },
+    {
       "id": "d0612e2d2cb6",
       "name": "Jakob",
       "anon_phone": "+49 157 •••• 45",
@@ -1640,7 +1656,7 @@
       "early_counts": 0,
       "last_ts": 1785693647.0,
       "first_ts": 1781279012.0,
-      "rank": 102
+      "rank": 103
     },
     {
       "id": "c03ae4e7c448",
@@ -1656,22 +1672,6 @@
       "early_counts": 0,
       "last_ts": 1789321197.0,
       "first_ts": 1782230703.0,
-      "rank": 103
-    },
-    {
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "anon_phone": "+49 151 •••• 37",
-      "points": 46,
-      "pct": 0.15,
-      "last24h": 3,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 9,
-      "early_counts": 0,
-      "last_ts": 1789730287.0,
-      "first_ts": 1789061375.0,
       "rank": 104
     },
     {
@@ -20582,7 +20582,7 @@
       "a84987d66bdc",
       "24c2feda6b33",
       "29a1c5fbe7db",
-      "3ce6f8806201"
+      "73a69bdc1f9e"
     ],
     "longest_streak": [
       {
@@ -20801,8 +20801,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "97897748b637",
-      "name": "Raphi",
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
       "value": 1
     },
     "biggest_message": {
@@ -21344,8 +21344,8 @@
     },
     {
       "date": "2026-09-18",
-      "count": 24,
-      "total": 30628
+      "count": 25,
+      "total": 30629
     }
   ],
   "hour_histogram": [
@@ -21362,7 +21362,7 @@
     249,
     380,
     564,
-    597,
+    598,
     754,
     770,
     1132,
@@ -21375,6 +21375,12 @@
     1531
   ],
   "recent": [
+    {
+      "n": 30629,
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "ts": 1789731506.0
+    },
     {
       "n": 30628,
       "id": "97897748b637",
@@ -21488,35 +21494,9 @@
       "id": "b7f001ca29a3",
       "name": "leonski🍺",
       "ts": 1789684628.0
-    },
-    {
-      "n": 30607,
-      "id": "044bc4dd0b8f",
-      "name": "Anonymous ••2967",
-      "ts": 1789683701.0
     }
   ],
   "speed_samples": [
-    [
-      1789723827,
-      30619
-    ],
-    [
-      1789723827,
-      30620
-    ],
-    [
-      1789723827,
-      30621
-    ],
-    [
-      1789723893,
-      30622
-    ],
-    [
-      1789723988,
-      30623
-    ],
     [
       1789727731,
       30624
@@ -21532,6 +21512,10 @@
     [
       1789730988,
       30628
+    ],
+    [
+      1789731506,
+      30629
     ]
   ]
 }
