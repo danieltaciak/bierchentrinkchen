@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-18T08:19:14.736707+00:00",
+  "generated_at": "2026-09-18T08:36:11.505148+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30615,
-  "progress_pct": 3.0615,
+  "current_count": 30616,
+  "progress_pct": 3.0616,
   "num_players": 1283,
-  "total_messages": 43627,
+  "total_messages": 43629,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789719517.0,
+  "last_count_ts": 1789720555.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -3291,6 +3291,22 @@
       "rank": 205
     },
     {
+      "id": "24c2feda6b33",
+      "name": "Hannah",
+      "anon_phone": "+49 152 •••• 73",
+      "points": 26,
+      "pct": 0.08,
+      "last24h": 3,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 5,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1789720555.0,
+      "first_ts": 1781870556.0,
+      "rank": 206
+    },
+    {
       "id": "7648269ee23a",
       "name": "Johannes G.",
       "anon_phone": "+49 151 •••• 33",
@@ -3304,7 +3320,7 @@
       "early_counts": 0,
       "last_ts": 1788472866.0,
       "first_ts": 1782239427.0,
-      "rank": 206
+      "rank": 207
     },
     {
       "id": "278ff84427e2",
@@ -3320,7 +3336,7 @@
       "early_counts": 0,
       "last_ts": 1788018478.0,
       "first_ts": 1783795543.0,
-      "rank": 207
+      "rank": 208
     },
     {
       "id": "32a3ba719705",
@@ -3336,7 +3352,7 @@
       "early_counts": 0,
       "last_ts": 1788467462.0,
       "first_ts": 1786813879.0,
-      "rank": 208
+      "rank": 209
     },
     {
       "id": "4657fdad849e",
@@ -3352,7 +3368,7 @@
       "early_counts": 0,
       "last_ts": 1786451028.0,
       "first_ts": 1783539692.0,
-      "rank": 209
+      "rank": 210
     },
     {
       "id": "326da965bffa",
@@ -3368,7 +3384,7 @@
       "early_counts": 2,
       "last_ts": 1789144180.0,
       "first_ts": 1782280076.0,
-      "rank": 210
+      "rank": 211
     },
     {
       "id": "b48dbc06864e",
@@ -3384,7 +3400,7 @@
       "early_counts": 0,
       "last_ts": 1783628987.0,
       "first_ts": 1781374591.0,
-      "rank": 211
+      "rank": 212
     },
     {
       "id": "1ea92e8050ce",
@@ -3400,22 +3416,6 @@
       "early_counts": 2,
       "last_ts": 1785851574.0,
       "first_ts": 1782297919.0,
-      "rank": 212
-    },
-    {
-      "id": "24c2feda6b33",
-      "name": "Hannah",
-      "anon_phone": "+49 152 •••• 73",
-      "points": 25,
-      "pct": 0.08,
-      "last24h": 2,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 5,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1789679683.0,
-      "first_ts": 1781870556.0,
       "rank": 213
     },
     {
@@ -20580,9 +20580,9 @@
       "e32d26f673cb",
       "efeced9c0950",
       "62f4f2be10a0",
+      "24c2feda6b33",
       "3ce6f8806201",
-      "6b9e5cf641da",
-      "5f45182377dd"
+      "6b9e5cf641da"
     ],
     "longest_streak": [
       {
@@ -20801,9 +20801,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
-      "value": 2
+      "id": "24c2feda6b33",
+      "name": "Hannah",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21344,8 +21344,8 @@
     },
     {
       "date": "2026-09-18",
-      "count": 11,
-      "total": 30615
+      "count": 12,
+      "total": 30616
     }
   ],
   "hour_histogram": [
@@ -21359,7 +21359,7 @@
     63,
     149,
     167,
-    246,
+    247,
     375,
     562,
     595,
@@ -21375,6 +21375,12 @@
     1531
   ],
   "recent": [
+    {
+      "n": 30616,
+      "id": "24c2feda6b33",
+      "name": "Hannah",
+      "ts": 1789720555.0
+    },
     {
       "n": 30615,
       "id": "7a2e949e25b3",
@@ -21488,18 +21494,16 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1789680346.0
-    },
-    {
-      "n": 30595,
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "ts": 1789680209.0
     }
   ],
   "speed_samples": [
     [
       1789719517,
       30615
+    ],
+    [
+      1789720555,
+      30616
     ]
   ]
 }
