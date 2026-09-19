@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-19T18:29:53.296259+00:00",
+  "generated_at": "2026-09-19T18:30:52.864744+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30998,
-  "progress_pct": 3.0998,
+  "current_count": 30999,
+  "progress_pct": 3.0999,
   "num_players": 1295,
-  "total_messages": 44071,
+  "total_messages": 44073,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789842574.0,
+  "last_count_ts": 1789842636.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
-      "points": 295,
+      "points": 296,
       "pct": 0.95,
-      "last24h": 13,
+      "last24h": 14,
       "longest_streak": 6,
       "assists_given": 27,
       "assists_received": 10,
       "night_counts": 36,
       "early_counts": 4,
-      "last_ts": 1789832189.0,
+      "last_ts": 1789842636.0,
       "first_ts": 1781196449.0,
       "rank": 5
     },
@@ -20993,8 +20993,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5cb77d182b86",
-      "name": "Florian G.",
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
       "value": 1
     },
     "biggest_message": {
@@ -21541,8 +21541,8 @@
     },
     {
       "date": "2026-09-19",
-      "count": 174,
-      "total": 30998
+      "count": 175,
+      "total": 30999
     }
   ],
   "hour_histogram": [
@@ -21566,12 +21566,18 @@
     1471,
     1905,
     2551,
-    2953,
+    2954,
     2906,
     2309,
     1555
   ],
   "recent": [
+    {
+      "n": 30999,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1789842636.0
+    },
     {
       "n": 30998,
       "id": "5cb77d182b86",
@@ -21685,19 +21691,9 @@
       "id": "7b758a066b60",
       "name": "Sebastian",
       "ts": 1789839517.0
-    },
-    {
-      "n": 30977,
-      "id": "7b758a066b60",
-      "name": "Sebastian",
-      "ts": 1789839517.0
     }
   ],
   "speed_samples": [
-    [
-      1789835420,
-      30948
-    ],
     [
       1789835456,
       30949
@@ -21845,6 +21841,10 @@
     [
       1789842574,
       30998
+    ],
+    [
+      1789842636,
+      30999
     ]
   ]
 }
