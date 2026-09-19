@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-19T11:19:09.361772+00:00",
+  "generated_at": "2026-09-19T11:39:47.831949+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30885,
-  "progress_pct": 3.0885,
+  "current_count": 30886,
+  "progress_pct": 3.0886,
   "num_players": 1294,
-  "total_messages": 43939,
+  "total_messages": 43943,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789816713.0,
+  "last_count_ts": 1789817967.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -832,7 +832,7 @@
       "anon_phone": "+49 151 •••• 11",
       "points": 86,
       "pct": 0.28,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 1,
       "assists_received": 0,
@@ -1056,7 +1056,7 @@
       "anon_phone": "+49 151 •••• 37",
       "points": 70,
       "pct": 0.23,
-      "last24h": 24,
+      "last24h": 23,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
@@ -3515,6 +3515,22 @@
       "rank": 219
     },
     {
+      "id": "38ce79a459de",
+      "name": "Mich Ö.",
+      "anon_phone": "+49 175 •••• 21",
+      "points": 25,
+      "pct": 0.08,
+      "last24h": 8,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 2,
+      "last_ts": 1789817967.0,
+      "first_ts": 1781373376.0,
+      "rank": 220
+    },
+    {
       "id": "7f5c521dadcb",
       "name": "Michael Ö.",
       "anon_phone": "+49 179 •••• 85",
@@ -3528,7 +3544,7 @@
       "early_counts": 0,
       "last_ts": 1789596667.0,
       "first_ts": 1782427573.0,
-      "rank": 220
+      "rank": 221
     },
     {
       "id": "e31e930abeb1",
@@ -3544,7 +3560,7 @@
       "early_counts": 0,
       "last_ts": 1787181089.0,
       "first_ts": 1781457528.0,
-      "rank": 221
+      "rank": 222
     },
     {
       "id": "78a6d1300450",
@@ -3560,7 +3576,7 @@
       "early_counts": 0,
       "last_ts": 1784069376.0,
       "first_ts": 1782492838.0,
-      "rank": 222
+      "rank": 223
     },
     {
       "id": "9836e62129cc",
@@ -3576,22 +3592,6 @@
       "early_counts": 0,
       "last_ts": 1784305790.0,
       "first_ts": 1781196178.0,
-      "rank": 223
-    },
-    {
-      "id": "38ce79a459de",
-      "name": "Mich Ö.",
-      "anon_phone": "+49 175 •••• 21",
-      "points": 24,
-      "pct": 0.08,
-      "last24h": 7,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 2,
-      "last_ts": 1789814912.0,
-      "first_ts": 1781373376.0,
       "rank": 224
     },
     {
@@ -20977,8 +20977,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "6b9e5cf641da",
-      "name": "Alex",
+      "id": "38ce79a459de",
+      "name": "Mich Ö.",
       "value": 1
     },
     "biggest_message": {
@@ -21525,8 +21525,8 @@
     },
     {
       "date": "2026-09-19",
-      "count": 61,
-      "total": 30885
+      "count": 62,
+      "total": 30886
     }
   ],
   "hour_histogram": [
@@ -21543,7 +21543,7 @@
     253,
     385,
     570,
-    603,
+    604,
     756,
     775,
     1133,
@@ -21556,6 +21556,12 @@
     1555
   ],
   "recent": [
+    {
+      "n": 30886,
+      "id": "38ce79a459de",
+      "name": "Mich Ö.",
+      "ts": 1789817967.0
+    },
     {
       "n": 30885,
       "id": "6b9e5cf641da",
@@ -21669,19 +21675,9 @@
       "id": "38ce79a459de",
       "name": "Mich Ö.",
       "ts": 1789801948.0
-    },
-    {
-      "n": 30863,
-      "id": "47ee9c28ac01",
-      "name": "Rheini",
-      "ts": 1789801639.0
     }
   ],
   "speed_samples": [
-    [
-      1789809643,
-      30873
-    ],
     [
       1789811004,
       30875
@@ -21721,6 +21717,10 @@
     [
       1789816713,
       30885
+    ],
+    [
+      1789817967,
+      30886
     ]
   ]
 }
