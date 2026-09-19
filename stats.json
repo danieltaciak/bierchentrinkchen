@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-19T10:06:44.949685+00:00",
+  "generated_at": "2026-09-19T10:37:42.293912+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30879,
-  "progress_pct": 3.0879,
+  "current_count": 30880,
+  "progress_pct": 3.088,
   "num_players": 1294,
-  "total_messages": 43932,
+  "total_messages": 43933,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789812381.0,
+  "last_count_ts": 1789814236.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -512,7 +512,7 @@
       "anon_phone": "+49 151 •••• 82",
       "points": 115,
       "pct": 0.37,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 5,
       "assists_given": 1,
       "assists_received": 3,
@@ -3115,6 +3115,22 @@
       "rank": 194
     },
     {
+      "id": "24c2feda6b33",
+      "name": "Hannah",
+      "anon_phone": "+49 152 •••• 73",
+      "points": 28,
+      "pct": 0.09,
+      "last24h": 1,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 5,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1789814236.0,
+      "first_ts": 1781870556.0,
+      "rank": 195
+    },
+    {
       "id": "d64db822d6be",
       "name": "Henning J.",
       "anon_phone": "+49 152 •••• 11",
@@ -3128,7 +3144,7 @@
       "early_counts": 0,
       "last_ts": 1783795728.0,
       "first_ts": 1782397193.0,
-      "rank": 195
+      "rank": 196
     },
     {
       "id": "8b2f66e6f7ec",
@@ -3144,7 +3160,7 @@
       "early_counts": 3,
       "last_ts": 1782582740.0,
       "first_ts": 1781775059.0,
-      "rank": 196
+      "rank": 197
     },
     {
       "id": "56f5a86a8ad7",
@@ -3160,7 +3176,7 @@
       "early_counts": 0,
       "last_ts": 1789142392.0,
       "first_ts": 1781127926.0,
-      "rank": 197
+      "rank": 198
     },
     {
       "id": "e3154dc3703a",
@@ -3176,7 +3192,7 @@
       "early_counts": 0,
       "last_ts": 1788615293.0,
       "first_ts": 1787394324.0,
-      "rank": 198
+      "rank": 199
     },
     {
       "id": "65a8763b1655",
@@ -3192,22 +3208,6 @@
       "early_counts": 0,
       "last_ts": 1788709078.0,
       "first_ts": 1782509375.0,
-      "rank": 199
-    },
-    {
-      "id": "24c2feda6b33",
-      "name": "Hannah",
-      "anon_phone": "+49 152 •••• 73",
-      "points": 27,
-      "pct": 0.09,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 5,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1789721876.0,
-      "first_ts": 1781870556.0,
       "rank": 200
     },
     {
@@ -20758,7 +20758,7 @@
       "aa0156afe213",
       "6b9e5cf641da",
       "0c322a010ec4",
-      "a84987d66bdc"
+      "5f45182377dd"
     ],
     "longest_streak": [
       {
@@ -20977,8 +20977,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a61bae4162bc",
-      "name": "Philipp G.",
+      "id": "24c2feda6b33",
+      "name": "Hannah",
       "value": 1
     },
     "biggest_message": {
@@ -21525,8 +21525,8 @@
     },
     {
       "date": "2026-09-19",
-      "count": 55,
-      "total": 30879
+      "count": 56,
+      "total": 30880
     }
   ],
   "hour_histogram": [
@@ -21542,7 +21542,7 @@
     172,
     253,
     385,
-    567,
+    568,
     601,
     756,
     775,
@@ -21556,6 +21556,12 @@
     1555
   ],
   "recent": [
+    {
+      "n": 30880,
+      "id": "24c2feda6b33",
+      "name": "Hannah",
+      "ts": 1789814236.0
+    },
     {
       "n": 30879,
       "id": "a61bae4162bc",
@@ -21669,23 +21675,9 @@
       "id": "38ce79a459de",
       "name": "Mich Ö.",
       "ts": 1789799640.0
-    },
-    {
-      "n": 30858,
-      "id": "072268cf0789",
-      "name": "Juli",
-      "ts": 1789796371.0
     }
   ],
   "speed_samples": [
-    [
-      1789805411,
-      30866
-    ],
-    [
-      1789805424,
-      30867
-    ],
     [
       1789807672,
       30868
@@ -21725,6 +21717,10 @@
     [
       1789812381,
       30879
+    ],
+    [
+      1789814236,
+      30880
     ]
   ]
 }
