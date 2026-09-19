@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-19T18:18:55.185289+00:00",
+  "generated_at": "2026-09-19T18:22:09.521875+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30992,
-  "progress_pct": 3.0992,
+  "current_count": 30993,
+  "progress_pct": 3.0993,
   "num_players": 1295,
-  "total_messages": 44062,
+  "total_messages": 44063,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789841913.0,
+  "last_count_ts": 1789842114.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -910,15 +910,15 @@
       "id": "03772471f186",
       "name": "Miri",
       "anon_phone": "+49 151 •••• 17",
-      "points": 79,
-      "pct": 0.25,
-      "last24h": 0,
+      "points": 80,
+      "pct": 0.26,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 1,
       "early_counts": 1,
-      "last_ts": 1789668527.0,
+      "last_ts": 1789842114.0,
       "first_ts": 1783536939.0,
       "rank": 57
     },
@@ -1904,7 +1904,7 @@
       "anon_phone": "+49 176 •••• 48",
       "points": 43,
       "pct": 0.14,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -20993,8 +20993,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "ca6e9299b8a6",
-      "name": "Vince",
+      "id": "03772471f186",
+      "name": "Miri",
       "value": 1
     },
     "biggest_message": {
@@ -21541,8 +21541,8 @@
     },
     {
       "date": "2026-09-19",
-      "count": 168,
-      "total": 30992
+      "count": 169,
+      "total": 30993
     }
   ],
   "hour_histogram": [
@@ -21566,12 +21566,18 @@
     1471,
     1905,
     2551,
-    2948,
+    2949,
     2906,
     2309,
     1555
   ],
   "recent": [
+    {
+      "n": 30993,
+      "id": "03772471f186",
+      "name": "Miri",
+      "ts": 1789842114.0
+    },
     {
       "n": 30992,
       "id": "ca6e9299b8a6",
@@ -21685,19 +21691,9 @@
       "id": "db6d81e90b74",
       "name": "Dominik H.",
       "ts": 1789839413.0
-    },
-    {
-      "n": 30972,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1789839208.0
     }
   ],
   "speed_samples": [
-    [
-      1789834788,
-      30942
-    ],
     [
       1789835028,
       30943
@@ -21845,6 +21841,10 @@
     [
       1789841913,
       30992
+    ],
+    [
+      1789842114,
+      30993
     ]
   ]
 }
