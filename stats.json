@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-19T16:16:34.629305+00:00",
+  "generated_at": "2026-09-19T16:20:16.392800+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30941,
-  "progress_pct": 3.0941,
+  "current_count": 30942,
+  "progress_pct": 3.0942,
   "num_players": 1294,
-  "total_messages": 44000,
+  "total_messages": 44001,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789834582.0,
+  "last_count_ts": 1789834788.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -318,15 +318,15 @@
       "id": "cec25393509e",
       "name": "Jordan",
       "anon_phone": "+49 162 •••• 18",
-      "points": 148,
+      "points": 149,
       "pct": 0.48,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 4,
       "assists_received": 2,
       "night_counts": 5,
       "early_counts": 1,
-      "last_ts": 1789413427.0,
+      "last_ts": 1789834788.0,
       "first_ts": 1781100515.0,
       "rank": 20
     },
@@ -1712,7 +1712,7 @@
       "anon_phone": "+49 151 •••• 55",
       "points": 46,
       "pct": 0.15,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -20977,8 +20977,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "d214871ad8cf",
-      "name": "Klausi",
+      "id": "cec25393509e",
+      "name": "Jordan",
       "value": 1
     },
     "biggest_message": {
@@ -21525,8 +21525,8 @@
     },
     {
       "date": "2026-09-19",
-      "count": 117,
-      "total": 30941
+      "count": 118,
+      "total": 30942
     }
   ],
   "hour_histogram": [
@@ -21548,7 +21548,7 @@
     779,
     1143,
     1471,
-    1890,
+    1891,
     2533,
     2943,
     2906,
@@ -21556,6 +21556,12 @@
     1555
   ],
   "recent": [
+    {
+      "n": 30942,
+      "id": "cec25393509e",
+      "name": "Jordan",
+      "ts": 1789834788.0
+    },
     {
       "n": 30941,
       "id": "d214871ad8cf",
@@ -21669,19 +21675,9 @@
       "id": "8c19ca275648",
       "name": "Henrik H.",
       "ts": 1789831722.0
-    },
-    {
-      "n": 30915,
-      "id": "1a6129668ba3",
-      "name": "Christian W.",
-      "ts": 1789831697.0
     }
   ],
   "speed_samples": [
-    [
-      1789827574,
-      30904
-    ],
     [
       1789828240,
       30905
@@ -21801,6 +21797,10 @@
     [
       1789834582,
       30941
+    ],
+    [
+      1789834788,
+      30942
     ]
   ]
 }
