@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-19T00:07:17.376441+00:00",
+  "generated_at": "2026-09-19T00:13:15.476419+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30848,
-  "progress_pct": 3.0848,
+  "current_count": 30849,
+  "progress_pct": 3.0849,
   "num_players": 1293,
-  "total_messages": 43892,
+  "total_messages": 43893,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789776419.0,
+  "last_count_ts": 1789776783.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -190,15 +190,15 @@
       "id": "74c46f04e647",
       "name": "DimA",
       "anon_phone": "+49 160 •••• 72",
-      "points": 194,
+      "points": 195,
       "pct": 0.63,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
-      "night_counts": 77,
+      "night_counts": 78,
       "early_counts": 5,
-      "last_ts": 1789772802.0,
+      "last_ts": 1789776783.0,
       "first_ts": 1781838875.0,
       "rank": 12
     },
@@ -20742,7 +20742,7 @@
       "aa0156afe213",
       "6b9e5cf641da",
       "0c322a010ec4",
-      "0052395b0d24"
+      "74c46f04e647"
     ],
     "longest_streak": [
       {
@@ -20852,7 +20852,7 @@
       {
         "id": "74c46f04e647",
         "name": "DimA",
-        "value": 77
+        "value": 78
       },
       {
         "id": "9bf6383c58eb",
@@ -20961,8 +20961,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
+      "id": "74c46f04e647",
+      "name": "DimA",
       "value": 1
     },
     "biggest_message": {
@@ -20978,7 +20978,7 @@
     "night_owl": {
       "id": "74c46f04e647",
       "name": "DimA",
-      "value": 77
+      "value": 78
     },
     "early_bird": {
       "id": "0c322a010ec4",
@@ -21509,14 +21509,14 @@
     },
     {
       "date": "2026-09-19",
-      "count": 24,
-      "total": 30848
+      "count": 25,
+      "total": 30849
     }
   ],
   "hour_histogram": [
     917,
     554,
-    283,
+    284,
     167,
     83,
     66,
@@ -21540,6 +21540,12 @@
     1555
   ],
   "recent": [
+    {
+      "n": 30849,
+      "id": "74c46f04e647",
+      "name": "DimA",
+      "ts": 1789776783.0
+    },
     {
       "n": 30848,
       "id": "7a2e949e25b3",
@@ -21653,19 +21659,9 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "ts": 1789769004.0
-    },
-    {
-      "n": 30824,
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "ts": 1789768632.0
     }
   ],
   "speed_samples": [
-    [
-      1789769502,
-      30826
-    ],
     [
       1789769752,
       30827
@@ -21733,6 +21729,10 @@
     [
       1789776419,
       30848
+    ],
+    [
+      1789776783,
+      30849
     ]
   ]
 }
