@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-19T16:31:32.987039+00:00",
+  "generated_at": "2026-09-19T16:32:33.778345+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 30949,
-  "progress_pct": 3.0949,
+  "current_count": 30950,
+  "progress_pct": 3.095,
   "num_players": 1294,
-  "total_messages": 44010,
+  "total_messages": 44011,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789835456.0,
+  "last_count_ts": 1789835540.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -624,7 +624,7 @@
       "anon_phone": "+49 151 •••• 84",
       "points": 110,
       "pct": 0.36,
-      "last24h": 6,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 7,
@@ -1867,6 +1867,22 @@
       "rank": 116
     },
     {
+      "id": "416d585e4acc",
+      "name": "Marlin",
+      "anon_phone": "+43 660 •••• 89",
+      "points": 43,
+      "pct": 0.14,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1789835540.0,
+      "first_ts": 1781184000.0,
+      "rank": 117
+    },
+    {
       "id": "7713abfa927e",
       "name": "Philipp",
       "anon_phone": "+49 157 •••• 59",
@@ -1880,7 +1896,7 @@
       "early_counts": 2,
       "last_ts": 1786200740.0,
       "first_ts": 1781292925.0,
-      "rank": 117
+      "rank": 118
     },
     {
       "id": "032a270163e4",
@@ -1896,7 +1912,7 @@
       "early_counts": 0,
       "last_ts": 1789759861.0,
       "first_ts": 1781628517.0,
-      "rank": 118
+      "rank": 119
     },
     {
       "id": "547556283acb",
@@ -1912,7 +1928,7 @@
       "early_counts": 0,
       "last_ts": 1788606013.0,
       "first_ts": 1780943086.0,
-      "rank": 119
+      "rank": 120
     },
     {
       "id": "43140b6a3d00",
@@ -1928,7 +1944,7 @@
       "early_counts": 0,
       "last_ts": 1786458982.0,
       "first_ts": 1781371137.0,
-      "rank": 120
+      "rank": 121
     },
     {
       "id": "7402368b5c04",
@@ -1944,22 +1960,6 @@
       "early_counts": 0,
       "last_ts": 1787429771.0,
       "first_ts": 1781301923.0,
-      "rank": 121
-    },
-    {
-      "id": "416d585e4acc",
-      "name": "Marlin",
-      "anon_phone": "+43 660 •••• 89",
-      "points": 42,
-      "pct": 0.14,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1789413767.0,
-      "first_ts": 1781184000.0,
       "rank": 122
     },
     {
@@ -20750,10 +20750,10 @@
       "06ef1dbdad22",
       "38ce79a459de",
       "a5f77afeecc6",
-      "6b9e5cf641da",
       "21ab33dbbddf",
       "ad8c57d955b2",
       "9c0968e6fd9c",
+      "6b9e5cf641da",
       "74c46f04e647",
       "7b758a066b60",
       "2b4a58f94b0e",
@@ -20977,8 +20977,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "d87796b1f27f",
-      "name": "Anonymous ••8414",
+      "id": "416d585e4acc",
+      "name": "Marlin",
       "value": 1
     },
     "biggest_message": {
@@ -21525,8 +21525,8 @@
     },
     {
       "date": "2026-09-19",
-      "count": 125,
-      "total": 30949
+      "count": 126,
+      "total": 30950
     }
   ],
   "hour_histogram": [
@@ -21548,7 +21548,7 @@
     779,
     1143,
     1471,
-    1897,
+    1898,
     2533,
     2943,
     2906,
@@ -21556,6 +21556,12 @@
     1555
   ],
   "recent": [
+    {
+      "n": 30950,
+      "id": "416d585e4acc",
+      "name": "Marlin",
+      "ts": 1789835540.0
+    },
     {
       "n": 30949,
       "id": "d87796b1f27f",
@@ -21669,12 +21675,6 @@
       "id": "5f45182377dd",
       "name": "Helle",
       "ts": 1789833739.0
-    },
-    {
-      "n": 30925,
-      "id": "90482696a0a6",
-      "name": "Eddi",
-      "ts": 1789832944.0
     }
   ],
   "speed_samples": [
@@ -21821,6 +21821,10 @@
     [
       1789835456,
       30949
+    ],
+    [
+      1789835540,
+      30950
     ]
   ]
 }
