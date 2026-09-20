@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-20T23:07:49.798574+00:00",
+  "generated_at": "2026-09-20T23:43:02.730987+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 31179,
-  "progress_pct": 3.1179,
+  "current_count": 31180,
+  "progress_pct": 3.118,
   "num_players": 1297,
-  "total_messages": 44305,
+  "total_messages": 44306,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1789945652.0,
+  "last_count_ts": 1789947754.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -427,12 +427,28 @@
       "rank": 26
     },
     {
+      "id": "0c322a010ec4",
+      "name": "Andrea",
+      "anon_phone": "+49 151 •••• 79",
+      "points": 130,
+      "pct": 0.42,
+      "last24h": 5,
+      "longest_streak": 6,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 35,
+      "early_counts": 10,
+      "last_ts": 1789947754.0,
+      "first_ts": 1782522040.0,
+      "rank": 27
+    },
+    {
       "id": "2e95be7bb9ea",
       "name": "Luis",
       "anon_phone": "+49 152 •••• 13",
       "points": 130,
       "pct": 0.42,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -440,22 +456,6 @@
       "early_counts": 2,
       "last_ts": 1789930974.0,
       "first_ts": 1781200389.0,
-      "rank": 27
-    },
-    {
-      "id": "0c322a010ec4",
-      "name": "Andrea",
-      "anon_phone": "+49 151 •••• 79",
-      "points": 129,
-      "pct": 0.41,
-      "last24h": 4,
-      "longest_streak": 6,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 34,
-      "early_counts": 10,
-      "last_ts": 1789934886.0,
-      "first_ts": 1782522040.0,
       "rank": 28
     },
     {
@@ -688,7 +688,7 @@
       "anon_phone": "+49 151 •••• 31",
       "points": 104,
       "pct": 0.33,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 14,
       "assists_received": 8,
@@ -2224,7 +2224,7 @@
       "anon_phone": "+49 170 •••• 03",
       "points": 37,
       "pct": 0.12,
-      "last24h": 2,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -6336,7 +6336,7 @@
       "anon_phone": "+49 159 •••• 95",
       "points": 13,
       "pct": 0.04,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -20794,19 +20794,19 @@
     "last_24h": [
       "a5f77afeecc6",
       "df6424fbdeef",
+      "0c322a010ec4",
       "764f33f39eb0",
       "776f4d602138",
       "9bf6383c58eb",
       "1b66c2456dfd",
-      "0c322a010ec4",
       "40e609fa336e",
       "b061a71cbbd1",
-      "82afa8eefe9c",
-      "2e95be7bb9ea",
-      "560a153374c5",
-      "08510cd25776",
       "6ae8b7629ff6",
-      "7a2e949e25b3"
+      "7a2e949e25b3",
+      "29a1c5fbe7db",
+      "62f4f2be10a0",
+      "fb0aa61d5199",
+      "2d61d5612db8"
     ],
     "longest_streak": [
       {
@@ -20956,7 +20956,7 @@
       {
         "id": "0c322a010ec4",
         "name": "Andrea",
-        "value": 34
+        "value": 35
       },
       {
         "id": "c93ed700000f",
@@ -21025,8 +21025,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "2d61d5612db8",
-      "name": "Wolfgang E.",
+      "id": "0c322a010ec4",
+      "name": "Andrea",
       "value": 1
     },
     "biggest_message": {
@@ -21583,13 +21583,13 @@
     },
     {
       "date": "2026-09-21",
-      "count": 2,
-      "total": 31179
+      "count": 3,
+      "total": 31180
     }
   ],
   "hour_histogram": [
     923,
-    563,
+    564,
     285,
     171,
     84,
@@ -21614,6 +21614,12 @@
     1561
   ],
   "recent": [
+    {
+      "n": 31180,
+      "id": "0c322a010ec4",
+      "name": "Andrea",
+      "ts": 1789947754.0
+    },
     {
       "n": 31179,
       "id": "2d61d5612db8",
@@ -21727,27 +21733,9 @@
       "id": "2e95be7bb9ea",
       "name": "Luis",
       "ts": 1789930974.0
-    },
-    {
-      "n": 31158,
-      "id": "b061a71cbbd1",
-      "name": "Luka",
-      "ts": 1789930942.0
     }
   ],
   "speed_samples": [
-    [
-      1789938455,
-      31175
-    ],
-    [
-      1789938543,
-      31176
-    ],
-    [
-      1789940430,
-      31177
-    ],
     [
       1789944283,
       31178
@@ -21755,6 +21743,10 @@
     [
       1789945652,
       31179
+    ],
+    [
+      1789947754,
+      31180
     ]
   ]
 }
