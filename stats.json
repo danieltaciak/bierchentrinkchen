@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-21T20:50:52.829797+00:00",
+  "generated_at": "2026-09-21T21:06:35.997760+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 31256,
-  "progress_pct": 3.1256,
+  "current_count": 31257,
+  "progress_pct": 3.1257,
   "num_players": 1299,
-  "total_messages": 44416,
+  "total_messages": 44417,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790023837.0,
+  "last_count_ts": 1790024784.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -16,7 +16,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 453,
       "pct": 1.45,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -80,7 +80,7 @@
       "anon_phone": "+49 152 •••• 46",
       "points": 299,
       "pct": 0.96,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 6,
       "assists_given": 27,
       "assists_received": 10,
@@ -267,6 +267,22 @@
       "rank": 16
     },
     {
+      "id": "776f4d602138",
+      "name": "Korbi",
+      "anon_phone": "+49 176 •••• 48",
+      "points": 155,
+      "pct": 0.5,
+      "last24h": 3,
+      "longest_streak": 4,
+      "assists_given": 3,
+      "assists_received": 4,
+      "night_counts": 8,
+      "early_counts": 0,
+      "last_ts": 1790024784.0,
+      "first_ts": 1781456625.0,
+      "rank": 17
+    },
+    {
       "id": "553637e3d2b4",
       "name": "Linus K.",
       "anon_phone": "+49 176 •••• 96",
@@ -280,7 +296,7 @@
       "early_counts": 0,
       "last_ts": 1789759913.0,
       "first_ts": 1782747846.0,
-      "rank": 17
+      "rank": 18
     },
     {
       "id": "764f33f39eb0",
@@ -296,22 +312,6 @@
       "early_counts": 4,
       "last_ts": 1790021386.0,
       "first_ts": 1781284254.0,
-      "rank": 18
-    },
-    {
-      "id": "776f4d602138",
-      "name": "Korbi",
-      "anon_phone": "+49 176 •••• 48",
-      "points": 154,
-      "pct": 0.49,
-      "last24h": 2,
-      "longest_streak": 4,
-      "assists_given": 3,
-      "assists_received": 4,
-      "night_counts": 8,
-      "early_counts": 0,
-      "last_ts": 1790011970.0,
-      "first_ts": 1781456625.0,
       "rank": 19
     },
     {
@@ -20813,9 +20813,9 @@
       "81baf6634942",
       "3ce6f8806201",
       "ff8a86710b38",
+      "776f4d602138",
       "553637e3d2b4",
       "764f33f39eb0",
-      "776f4d602138",
       "1a6129668ba3",
       "45c4cce2f31c",
       "cec25393509e",
@@ -20826,19 +20826,19 @@
     "last_24h": [
       "73a69bdc1f9e",
       "06ef1dbdad22",
-      "a5f77afeecc6",
       "764f33f39eb0",
       "4cf6b703c434",
       "29a1c5fbe7db",
       "9bf6383c58eb",
+      "776f4d602138",
+      "a5f77afeecc6",
       "b7f001ca29a3",
       "b24539a93d86",
       "e3bf5719b998",
-      "7a2e949e25b3",
       "2d61d5612db8",
       "0c322a010ec4",
       "ba2a31220add",
-      "776f4d602138"
+      "5f45182377dd"
     ],
     "longest_streak": [
       {
@@ -21057,8 +21057,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b24539a93d86",
-      "name": "Dany",
+      "id": "776f4d602138",
+      "name": "Korbi",
       "value": 1
     },
     "biggest_message": {
@@ -21615,8 +21615,8 @@
     },
     {
       "date": "2026-09-21",
-      "count": 79,
-      "total": 31256
+      "count": 80,
+      "total": 31257
     }
   ],
   "hour_histogram": [
@@ -21643,9 +21643,15 @@
     2983,
     2947,
     2336,
-    1561
+    1562
   ],
   "recent": [
+    {
+      "n": 31257,
+      "id": "776f4d602138",
+      "name": "Korbi",
+      "ts": 1790024784.0
+    },
     {
       "n": 31256,
       "id": "b24539a93d86",
@@ -21759,19 +21765,9 @@
       "id": "b7f001ca29a3",
       "name": "leonski🍺",
       "ts": 1790015932.0
-    },
-    {
-      "n": 31236,
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "ts": 1790015631.0
     }
   ],
   "speed_samples": [
-    [
-      1790016755,
-      31239
-    ],
     [
       1790017712,
       31240
@@ -21835,6 +21831,10 @@
     [
       1790023837,
       31256
+    ],
+    [
+      1790024784,
+      31257
     ]
   ]
 }
