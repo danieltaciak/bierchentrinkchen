@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-21T17:39:32.126558+00:00",
+  "generated_at": "2026-09-21T17:40:30.792291+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 31224,
-  "progress_pct": 3.1224,
+  "current_count": 31225,
+  "progress_pct": 3.1225,
   "num_players": 1298,
-  "total_messages": 44363,
+  "total_messages": 44366,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790012359.0,
+  "last_count_ts": 1790012404.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -702,15 +702,15 @@
       "id": "b24539a93d86",
       "name": "Dany",
       "anon_phone": "+49 160 •••• 83",
-      "points": 99,
+      "points": 100,
       "pct": 0.32,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 7,
       "assists_received": 7,
       "night_counts": 5,
       "early_counts": 0,
-      "last_ts": 1789808414.0,
+      "last_ts": 1790012404.0,
       "first_ts": 1781804661.0,
       "rank": 44
     },
@@ -21041,8 +21041,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "dfb57c03463c",
-      "name": "David",
+      "id": "b24539a93d86",
+      "name": "Dany",
       "value": 1
     },
     "biggest_message": {
@@ -21599,8 +21599,8 @@
     },
     {
       "date": "2026-09-21",
-      "count": 47,
-      "total": 31224
+      "count": 48,
+      "total": 31225
     }
   ],
   "hour_histogram": [
@@ -21623,13 +21623,19 @@
     1154,
     1482,
     1927,
-    2563,
+    2564,
     2972,
     2938,
     2329,
     1561
   ],
   "recent": [
+    {
+      "n": 31225,
+      "id": "b24539a93d86",
+      "name": "Dany",
+      "ts": 1790012404.0
+    },
     {
       "n": 31224,
       "id": "dfb57c03463c",
@@ -21743,12 +21749,6 @@
       "id": "cec25393509e",
       "name": "Michl",
       "ts": 1790008360.0
-    },
-    {
-      "n": 31203,
-      "id": "5cb77d182b86",
-      "name": "Florian G.",
-      "ts": 1790007846.0
     }
   ],
   "speed_samples": [
@@ -21867,6 +21867,10 @@
     [
       1790012359,
       31224
+    ],
+    [
+      1790012404,
+      31225
     ]
   ]
 }
