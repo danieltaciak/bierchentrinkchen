@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-23T16:54:49.215363+00:00",
+  "generated_at": "2026-09-23T17:01:25.018228+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 31361,
-  "progress_pct": 3.1361,
+  "current_count": 31362,
+  "progress_pct": 3.1362,
   "num_players": 1299,
-  "total_messages": 44513,
+  "total_messages": 44514,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790182464.0,
+  "last_count_ts": 1790182853.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -414,15 +414,15 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "anon_phone": "+49 175 •••• 96",
-      "points": 137,
+      "points": 138,
       "pct": 0.44,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1789912634.0,
+      "last_ts": 1790182853.0,
       "first_ts": 1781465577.0,
       "rank": 26
     },
@@ -21057,8 +21057,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "2b4a58f94b0e",
-      "name": "Struli",
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
       "value": 1
     },
     "biggest_message": {
@@ -21625,8 +21625,8 @@
     },
     {
       "date": "2026-09-23",
-      "count": 47,
-      "total": 31361
+      "count": 48,
+      "total": 31362
     }
   ],
   "hour_histogram": [
@@ -21649,13 +21649,19 @@
     1159,
     1489,
     1945,
-    2567,
+    2568,
     2989,
     2953,
     2338,
     1571
   ],
   "recent": [
+    {
+      "n": 31362,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1790182853.0
+    },
     {
       "n": 31361,
       "id": "2b4a58f94b0e",
@@ -21769,12 +21775,6 @@
       "id": "8561b6020a64",
       "name": "Daniel W.",
       "ts": 1790177209.0
-    },
-    {
-      "n": 31342,
-      "id": "cec25393509e",
-      "name": "Michl",
-      "ts": 1790177122.0
     }
   ],
   "speed_samples": [
@@ -21877,6 +21877,10 @@
     [
       1790182464,
       31361
+    ],
+    [
+      1790182853,
+      31362
     ]
   ]
 }
