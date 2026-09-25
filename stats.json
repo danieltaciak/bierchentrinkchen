@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-25T19:27:59.084706+00:00",
+  "generated_at": "2026-09-25T19:28:52.057747+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 31648,
-  "progress_pct": 3.1648,
+  "current_count": 31649,
+  "progress_pct": 3.1649,
   "num_players": 1305,
-  "total_messages": 44853,
+  "total_messages": 44854,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790364450.0,
+  "last_count_ts": 1790364508.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -31,7 +31,7 @@
       "name": "Nico",
       "anon_phone": "+49 160 •••• 36",
       "points": 432,
-      "pct": 1.37,
+      "pct": 1.36,
       "last24h": 1,
       "longest_streak": 4,
       "assists_given": 2,
@@ -112,7 +112,7 @@
       "anon_phone": "+49 178 •••• 54",
       "points": 265,
       "pct": 0.84,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -1006,15 +1006,15 @@
       "id": "4198299b819b",
       "name": "Moser",
       "anon_phone": "+49 151 •••• 40",
-      "points": 73,
+      "points": 74,
       "pct": 0.23,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 1,
       "night_counts": 4,
       "early_counts": 0,
-      "last_ts": 1789823713.0,
+      "last_ts": 1790364508.0,
       "first_ts": 1781294020.0,
       "rank": 63
     },
@@ -21153,8 +21153,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "82afa8eefe9c",
-      "name": "Tom S.",
+      "id": "4198299b819b",
+      "name": "Moser",
       "value": 1
     },
     "biggest_message": {
@@ -21731,8 +21731,8 @@
     },
     {
       "date": "2026-09-25",
-      "count": 137,
-      "total": 31648
+      "count": 138,
+      "total": 31649
     }
   ],
   "hour_histogram": [
@@ -21757,11 +21757,17 @@
     1960,
     2606,
     3050,
-    2991,
+    2992,
     2362,
     1580
   ],
   "recent": [
+    {
+      "n": 31649,
+      "id": "4198299b819b",
+      "name": "Moser",
+      "ts": 1790364508.0
+    },
     {
       "n": 31648,
       "id": "82afa8eefe9c",
@@ -21875,19 +21881,9 @@
       "id": "4d25935a9e3a",
       "name": "Joey",
       "ts": 1790361852.0
-    },
-    {
-      "n": 31623,
-      "id": "4d25935a9e3a",
-      "name": "Joey",
-      "ts": 1790361852.0
     }
   ],
   "speed_samples": [
-    [
-      1790357271,
-      31589
-    ],
     [
       1790357874,
       31590
@@ -22075,6 +22071,10 @@
     [
       1790364450,
       31648
+    ],
+    [
+      1790364508,
+      31649
     ]
   ]
 }
