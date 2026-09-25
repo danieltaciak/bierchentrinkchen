@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-25T17:51:00.753117+00:00",
+  "generated_at": "2026-09-25T17:51:23.317137+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 31598,
-  "progress_pct": 3.1598,
+  "current_count": 31599,
+  "progress_pct": 3.1599,
   "num_players": 1305,
-  "total_messages": 44788,
+  "total_messages": 44789,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790358647.0,
+  "last_count_ts": 1790358668.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -446,15 +446,15 @@
       "id": "2e95be7bb9ea",
       "name": "Luis",
       "anon_phone": "+49 152 •••• 13",
-      "points": 130,
+      "points": 131,
       "pct": 0.41,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 5,
       "early_counts": 2,
-      "last_ts": 1789930974.0,
+      "last_ts": 1790358668.0,
       "first_ts": 1781200389.0,
       "rank": 28
     },
@@ -21153,8 +21153,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "2c64c4c2fa99",
-      "name": "Simon",
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
       "value": 1
     },
     "biggest_message": {
@@ -21731,8 +21731,8 @@
     },
     {
       "date": "2026-09-25",
-      "count": 87,
-      "total": 31598
+      "count": 88,
+      "total": 31599
     }
   ],
   "hour_histogram": [
@@ -21755,13 +21755,19 @@
     1165,
     1505,
     1960,
-    2604,
+    2605,
     3019,
     2984,
     2362,
     1580
   ],
   "recent": [
+    {
+      "n": 31599,
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
+      "ts": 1790358668.0
+    },
     {
       "n": 31598,
       "id": "2c64c4c2fa99",
@@ -21875,12 +21881,6 @@
       "id": "74ff2108d346",
       "name": "Martin",
       "ts": 1790355762.0
-    },
-    {
-      "n": 31575,
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "ts": 1790355670.0
     }
   ],
   "speed_samples": [
@@ -22011,6 +22011,10 @@
     [
       1790358647,
       31598
+    ],
+    [
+      1790358668,
+      31599
     ]
   ]
 }
