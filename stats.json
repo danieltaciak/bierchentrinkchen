@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-25T19:28:52.057747+00:00",
+  "generated_at": "2026-09-25T19:30:35.093363+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 31649,
-  "progress_pct": 3.1649,
+  "current_count": 31650,
+  "progress_pct": 3.165,
   "num_players": 1305,
-  "total_messages": 44854,
+  "total_messages": 44855,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790364508.0,
+  "last_count_ts": 1790364591.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -30,15 +30,15 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "anon_phone": "+49 160 •••• 36",
-      "points": 432,
-      "pct": 1.36,
-      "last24h": 1,
+      "points": 433,
+      "pct": 1.37,
+      "last24h": 2,
       "longest_streak": 4,
       "assists_given": 2,
       "assists_received": 2,
       "night_counts": 69,
       "early_counts": 3,
-      "last_ts": 1790360747.0,
+      "last_ts": 1790364591.0,
       "first_ts": 1781357961.0,
       "rank": 2
     },
@@ -21153,8 +21153,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "4198299b819b",
-      "name": "Moser",
+      "id": "9bf6383c58eb",
+      "name": "Nico",
       "value": 1
     },
     "biggest_message": {
@@ -21731,8 +21731,8 @@
     },
     {
       "date": "2026-09-25",
-      "count": 138,
-      "total": 31649
+      "count": 139,
+      "total": 31650
     }
   ],
   "hour_histogram": [
@@ -21757,11 +21757,17 @@
     1960,
     2606,
     3050,
-    2992,
+    2993,
     2362,
     1580
   ],
   "recent": [
+    {
+      "n": 31650,
+      "id": "9bf6383c58eb",
+      "name": "Nico",
+      "ts": 1790364591.0
+    },
     {
       "n": 31649,
       "id": "4198299b819b",
@@ -21875,12 +21881,6 @@
       "id": "6e58e98680b0",
       "name": "Samuel",
       "ts": 1790361889.0
-    },
-    {
-      "n": 31624,
-      "id": "4d25935a9e3a",
-      "name": "Joey",
-      "ts": 1790361852.0
     }
   ],
   "speed_samples": [
@@ -22075,6 +22075,10 @@
     [
       1790364508,
       31649
+    ],
+    [
+      1790364591,
+      31650
     ]
   ]
 }
