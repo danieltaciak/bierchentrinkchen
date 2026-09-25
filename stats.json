@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-25T18:30:04.438696+00:00",
+  "generated_at": "2026-09-25T18:30:40.685913+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 31614,
-  "progress_pct": 3.1614,
+  "current_count": 31615,
+  "progress_pct": 3.1615,
   "num_players": 1305,
-  "total_messages": 44808,
+  "total_messages": 44809,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790360973.0,
+  "last_count_ts": 1790361011.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -446,15 +446,15 @@
       "id": "2e95be7bb9ea",
       "name": "Luis",
       "anon_phone": "+49 152 •••• 13",
-      "points": 131,
-      "pct": 0.41,
-      "last24h": 1,
+      "points": 132,
+      "pct": 0.42,
+      "last24h": 2,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 5,
       "early_counts": 2,
-      "last_ts": 1790358668.0,
+      "last_ts": 1790361011.0,
       "first_ts": 1781200389.0,
       "rank": 28
     },
@@ -21153,8 +21153,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "ba7ff24f4efd",
-      "name": "Felix",
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
       "value": 1
     },
     "biggest_message": {
@@ -21731,8 +21731,8 @@
     },
     {
       "date": "2026-09-25",
-      "count": 103,
-      "total": 31614
+      "count": 104,
+      "total": 31615
     }
   ],
   "hour_histogram": [
@@ -21756,12 +21756,18 @@
     1505,
     1960,
     2606,
-    3033,
+    3034,
     2984,
     2362,
     1580
   ],
   "recent": [
+    {
+      "n": 31615,
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
+      "ts": 1790361011.0
+    },
     {
       "n": 31614,
       "id": "ba7ff24f4efd",
@@ -21875,12 +21881,6 @@
       "id": "1e824b7db488",
       "name": "Diogo",
       "ts": 1790358227.0
-    },
-    {
-      "n": 31595,
-      "id": "4d25935a9e3a",
-      "name": "Joey",
-      "ts": 1790358168.0
     }
   ],
   "speed_samples": [
@@ -22059,6 +22059,10 @@
     [
       1790360973,
       31614
+    ],
+    [
+      1790361011,
+      31615
     ]
   ]
 }
