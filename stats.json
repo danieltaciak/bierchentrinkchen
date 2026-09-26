@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-26T19:19:00.397831+00:00",
+  "generated_at": "2026-09-26T19:19:44.272296+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 31905,
-  "progress_pct": 3.1905,
+  "current_count": 31907,
+  "progress_pct": 3.1907,
   "num_players": 1306,
-  "total_messages": 45108,
+  "total_messages": 45112,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790450324.0,
+  "last_count_ts": 1790450368.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
-      "points": 321,
+      "points": 323,
       "pct": 1.01,
-      "last24h": 13,
+      "last24h": 15,
       "longest_streak": 6,
       "assists_given": 27,
       "assists_received": 10,
       "night_counts": 39,
       "early_counts": 4,
-      "last_ts": 1790450324.0,
+      "last_ts": 1790450368.0,
       "first_ts": 1781196449.0,
       "rank": 5
     },
@@ -400,7 +400,7 @@
       "anon_phone": "+49 171 •••• 23",
       "points": 144,
       "pct": 0.45,
-      "last24h": 35,
+      "last24h": 34,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -21171,7 +21171,7 @@
     "current_streak": {
       "id": "7a2e949e25b3",
       "name": "Johnny",
-      "value": 1
+      "value": 3
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21752,8 +21752,8 @@
     },
     {
       "date": "2026-09-26",
-      "count": 188,
-      "total": 31905
+      "count": 190,
+      "total": 31907
     }
   ],
   "hour_histogram": [
@@ -21778,11 +21778,23 @@
     1971,
     2631,
     3075,
-    3009,
+    3011,
     2391,
     1606
   ],
   "recent": [
+    {
+      "n": 31907,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1790450368.0
+    },
+    {
+      "n": 31906,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1790450359.0
+    },
     {
       "n": 31905,
       "id": "7a2e949e25b3",
@@ -21890,18 +21902,6 @@
       "id": "7545bf72f05b",
       "name": "FrankY🕊️",
       "ts": 1790448844.0
-    },
-    {
-      "n": 31885,
-      "id": "ae11aa7cbe14",
-      "name": "Sami",
-      "ts": 1790448496.0
-    },
-    {
-      "n": 31884,
-      "id": "ae11aa7cbe14",
-      "name": "Sami",
-      "ts": 1790448496.0
     }
   ],
   "speed_samples": [
@@ -22116,6 +22116,14 @@
     [
       1790450324,
       31905
+    ],
+    [
+      1790450359,
+      31906
+    ],
+    [
+      1790450368,
+      31907
     ]
   ]
 }
