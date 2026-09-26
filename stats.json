@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-26T21:23:08.181283+00:00",
+  "generated_at": "2026-09-26T21:23:41.634312+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 31948,
-  "progress_pct": 3.1948,
+  "current_count": 31950,
+  "progress_pct": 3.195,
   "num_players": 1306,
-  "total_messages": 45163,
+  "total_messages": 45165,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790457754.0,
+  "last_count_ts": 1790457805.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -526,15 +526,15 @@
       "id": "8c19ca275648",
       "name": "Henrik H.",
       "anon_phone": "+49 151 •••• 72",
-      "points": 122,
-      "pct": 0.38,
-      "last24h": 11,
+      "points": 124,
+      "pct": 0.39,
+      "last24h": 13,
       "longest_streak": 7,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 5,
       "early_counts": 0,
-      "last_ts": 1790452184.0,
+      "last_ts": 1790457805.0,
       "first_ts": 1782321593.0,
       "rank": 33
     },
@@ -21169,9 +21169,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "value": 1
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21752,8 +21752,8 @@
     },
     {
       "date": "2026-09-26",
-      "count": 231,
-      "total": 31948
+      "count": 233,
+      "total": 31950
     }
   ],
   "hour_histogram": [
@@ -21780,9 +21780,21 @@
     3075,
     3032,
     2404,
-    1610
+    1612
   ],
   "recent": [
+    {
+      "n": 31950,
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
+      "ts": 1790457805.0
+    },
+    {
+      "n": 31949,
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
+      "ts": 1790457797.0
+    },
     {
       "n": 31948,
       "id": "efeced9c0950",
@@ -21890,25 +21902,9 @@
       "id": "06ef1dbdad22",
       "name": "Selin",
       "ts": 1790452510.0
-    },
-    {
-      "n": 31928,
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "ts": 1790452256.0
-    },
-    {
-      "n": 31927,
-      "id": "8c19ca275648",
-      "name": "Henrik H.",
-      "ts": 1790452184.0
     }
   ],
   "speed_samples": [
-    [
-      1790450591,
-      31909
-    ],
     [
       1790451107,
       31910
@@ -22052,6 +22048,14 @@
     [
       1790457754,
       31948
+    ],
+    [
+      1790457797,
+      31949
+    ],
+    [
+      1790457805,
+      31950
     ]
   ]
 }
