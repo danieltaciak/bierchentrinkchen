@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-27T16:52:56.234679+00:00",
+  "generated_at": "2026-09-27T16:54:18.772285+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32081,
-  "progress_pct": 3.2081,
+  "current_count": 32084,
+  "progress_pct": 3.2084,
   "num_players": 1308,
-  "total_messages": 45280,
+  "total_messages": 45284,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790527951.0,
+  "last_count_ts": 1790528041.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -59,6 +59,22 @@
       "rank": 3
     },
     {
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "anon_phone": "+49 152 •••• 43",
+      "points": 326,
+      "pct": 1.02,
+      "last24h": 4,
+      "longest_streak": 6,
+      "assists_given": 2,
+      "assists_received": 0,
+      "night_counts": 50,
+      "early_counts": 0,
+      "last_ts": 1790528041.0,
+      "first_ts": 1781950367.0,
+      "rank": 4
+    },
+    {
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
@@ -72,37 +88,21 @@
       "early_counts": 4,
       "last_ts": 1790525521.0,
       "first_ts": 1781196449.0,
-      "rank": 4
-    },
-    {
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
-      "anon_phone": "+49 152 •••• 43",
-      "points": 325,
-      "pct": 1.01,
-      "last24h": 3,
-      "longest_streak": 6,
-      "assists_given": 2,
-      "assists_received": 0,
-      "night_counts": 50,
-      "early_counts": 0,
-      "last_ts": 1790455010.0,
-      "first_ts": 1781950367.0,
       "rank": 5
     },
     {
       "id": "b7f001ca29a3",
       "name": "leonski🍺",
       "anon_phone": "+49 160 •••• 72",
-      "points": 284,
+      "points": 285,
       "pct": 0.89,
-      "last24h": 11,
+      "last24h": 12,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 5,
       "night_counts": 28,
       "early_counts": 2,
-      "last_ts": 1790476442.0,
+      "last_ts": 1790528022.0,
       "first_ts": 1780939774.0,
       "rank": 6
     },
@@ -20944,8 +20944,8 @@
       "a5f77afeecc6",
       "9bf6383c58eb",
       "efeced9c0950",
-      "7a2e949e25b3",
       "21ab33dbbddf",
+      "7a2e949e25b3",
       "b7f001ca29a3",
       "c93ed700000f",
       "82a6be011a09",
@@ -20969,8 +20969,8 @@
     ],
     "last_24h": [
       "29a1c5fbe7db",
-      "8c19ca275648",
       "b7f001ca29a3",
+      "8c19ca275648",
       "7a2e949e25b3",
       "9bf6383c58eb",
       "2e95be7bb9ea",
@@ -20981,8 +20981,8 @@
       "db6d81e90b74",
       "5f45182377dd",
       "56f5a86a8ad7",
-      "efeced9c0950",
-      "2f9108443e86"
+      "21ab33dbbddf",
+      "efeced9c0950"
     ],
     "longest_streak": [
       {
@@ -21201,9 +21201,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "47ee9c28ac01",
-      "name": "Rheini",
-      "value": 2
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21789,8 +21789,8 @@
     },
     {
       "date": "2026-09-27",
-      "count": 124,
-      "total": 32081
+      "count": 127,
+      "total": 32084
     }
   ],
   "hour_histogram": [
@@ -21812,7 +21812,7 @@
     809,
     1174,
     1530,
-    1982,
+    1984,
     2631,
     3075,
     3032,
@@ -21820,6 +21820,18 @@
     1618
   ],
   "recent": [
+    {
+      "n": 32084,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1790528041.0
+    },
+    {
+      "n": 32083,
+      "id": "b7f001ca29a3",
+      "name": "leonski🍺",
+      "ts": 1790528022.0
+    },
     {
       "n": 32081,
       "id": "47ee9c28ac01",
@@ -21927,18 +21939,6 @@
       "id": "2e95be7bb9ea",
       "name": "Luis",
       "ts": 1790522948.0
-    },
-    {
-      "n": 32061,
-      "id": "f332aa40c134",
-      "name": "Gregor B.",
-      "ts": 1790522841.0
-    },
-    {
-      "n": 32060,
-      "id": "29a1c5fbe7db",
-      "name": "Tanja🌺",
-      "ts": 1790522523.0
     }
   ],
   "speed_samples": [
@@ -22029,6 +22029,14 @@
     [
       1790527951,
       32081
+    ],
+    [
+      1790528022,
+      32083
+    ],
+    [
+      1790528041,
+      32084
     ]
   ]
 }
