@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-28T19:40:19.953551+00:00",
+  "generated_at": "2026-09-28T19:45:12.107437+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32165,
-  "progress_pct": 3.2165,
+  "current_count": 32166,
+  "progress_pct": 3.2166,
   "num_players": 1308,
-  "total_messages": 45372,
+  "total_messages": 45373,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790624384.0,
+  "last_count_ts": 1790624686.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -414,15 +414,15 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "anon_phone": "+49 175 •••• 96",
-      "points": 143,
-      "pct": 0.44,
-      "last24h": 1,
+      "points": 144,
+      "pct": 0.45,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1790616057.0,
+      "last_ts": 1790624686.0,
       "first_ts": 1781465577.0,
       "rank": 26
     },
@@ -20982,7 +20982,7 @@
       "5cb77d182b86",
       "03772471f186",
       "cec25393509e",
-      "abdd765c9df5"
+      "c4fe31e13b5a"
     ],
     "longest_streak": [
       {
@@ -21201,8 +21201,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "de8b9548452d",
-      "name": "moritz",
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
       "value": 1
     },
     "biggest_message": {
@@ -21794,8 +21794,8 @@
     },
     {
       "date": "2026-09-28",
-      "count": 54,
-      "total": 32165
+      "count": 55,
+      "total": 32166
     }
   ],
   "hour_histogram": [
@@ -21820,11 +21820,17 @@
     2000,
     2647,
     3087,
-    3042,
+    3043,
     2409,
     1620
   ],
   "recent": [
+    {
+      "n": 32166,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1790624686.0
+    },
     {
       "n": 32165,
       "id": "de8b9548452d",
@@ -21938,12 +21944,6 @@
       "id": "b4c5dace35d9",
       "name": "Crazy #.",
       "ts": 1790614695.0
-    },
-    {
-      "n": 32145,
-      "id": "cec25393509e",
-      "name": "Michl",
-      "ts": 1790614626.0
     }
   ],
   "speed_samples": [
@@ -22002,6 +22002,10 @@
     [
       1790624384,
       32165
+    ],
+    [
+      1790624686,
+      32166
     ]
   ]
 }
