@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-28T18:01:40.752488+00:00",
+  "generated_at": "2026-09-28T18:28:45.353737+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32152,
-  "progress_pct": 3.2152,
+  "current_count": 32153,
+  "progress_pct": 3.2153,
   "num_players": 1308,
-  "total_messages": 45356,
+  "total_messages": 45357,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790618462.0,
+  "last_count_ts": 1790620094.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -928,7 +928,7 @@
       "anon_phone": "+49 151 •••• 54",
       "points": 84,
       "pct": 0.26,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -1115,6 +1115,22 @@
       "rank": 69
     },
     {
+      "id": "e8a4cd87f0ab",
+      "name": "Jürgen G.",
+      "anon_phone": "+49 170 •••• 41",
+      "points": 71,
+      "pct": 0.22,
+      "last24h": 1,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1790620094.0,
+      "first_ts": 1781268178.0,
+      "rank": 70
+    },
+    {
       "id": "3b1afe5c45e7",
       "name": "Markus",
       "anon_phone": "+49 172 •••• 57",
@@ -1128,7 +1144,7 @@
       "early_counts": 1,
       "last_ts": 1784128216.0,
       "first_ts": 1781105275.0,
-      "rank": 70
+      "rank": 71
     },
     {
       "id": "f9dbd149dd64",
@@ -1144,22 +1160,6 @@
       "early_counts": 2,
       "last_ts": 1790370651.0,
       "first_ts": 1781905311.0,
-      "rank": 71
-    },
-    {
-      "id": "e8a4cd87f0ab",
-      "name": "Jürgen G.",
-      "anon_phone": "+49 170 •••• 41",
-      "points": 70,
-      "pct": 0.22,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1790378032.0,
-      "first_ts": 1781268178.0,
       "rank": 72
     },
     {
@@ -1328,7 +1328,7 @@
       "anon_phone": "+49 159 •••• 11",
       "points": 63,
       "pct": 0.2,
-      "last24h": 2,
+      "last24h": 0,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -20972,7 +20972,6 @@
       "a5f77afeecc6",
       "b24539a93d86",
       "29a1c5fbe7db",
-      "80947a53b5f3",
       "bbff7c5a595f",
       "47ee9c28ac01",
       "b4c5dace35d9",
@@ -20980,9 +20979,10 @@
       "7a2e949e25b3",
       "03772471f186",
       "cec25393509e",
-      "40e609fa336e",
       "4e8e7e0197c5",
-      "926048ba30b0"
+      "926048ba30b0",
+      "2e95be7bb9ea",
+      "abdd765c9df5"
     ],
     "longest_streak": [
       {
@@ -21201,8 +21201,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
+      "id": "e8a4cd87f0ab",
+      "name": "Jürgen G.",
       "value": 1
     },
     "biggest_message": {
@@ -21794,8 +21794,8 @@
     },
     {
       "date": "2026-09-28",
-      "count": 41,
-      "total": 32152
+      "count": 42,
+      "total": 32153
     }
   ],
   "hour_histogram": [
@@ -21819,12 +21819,18 @@
     1538,
     2000,
     2647,
-    3080,
+    3081,
     3037,
     2409,
     1620
   ],
   "recent": [
+    {
+      "n": 32153,
+      "id": "e8a4cd87f0ab",
+      "name": "Jürgen G.",
+      "ts": 1790620094.0
+    },
     {
       "n": 32152,
       "id": "b7f001ca29a3",
@@ -21938,35 +21944,9 @@
       "id": "ff8a86710b38",
       "name": "TK",
       "ts": 1790612358.0
-    },
-    {
-      "n": 32133,
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "ts": 1790612358.0
     }
   ],
   "speed_samples": [
-    [
-      1790612039,
-      32131
-    ],
-    [
-      1790612254,
-      32132
-    ],
-    [
-      1790612358,
-      32133
-    ],
-    [
-      1790612358,
-      32134
-    ],
-    [
-      1790612358,
-      32135
-    ],
     [
       1790612917,
       32136
@@ -22034,6 +22014,10 @@
     [
       1790618462,
       32152
+    ],
+    [
+      1790620094,
+      32153
     ]
   ]
 }
