@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-30T15:39:56.073391+00:00",
+  "generated_at": "2026-09-30T15:43:41.999919+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32299,
-  "progress_pct": 3.2299,
+  "current_count": 32300,
+  "progress_pct": 3.23,
   "num_players": 1310,
-  "total_messages": 45511,
+  "total_messages": 45512,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790782783.0,
+  "last_count_ts": 1790783009.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -254,15 +254,15 @@
       "id": "81baf6634942",
       "name": "Samu",
       "anon_phone": "+49 179 •••• 09",
-      "points": 167,
+      "points": 168,
       "pct": 0.52,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 2,
       "night_counts": 16,
       "early_counts": 0,
-      "last_ts": 1790193586.0,
+      "last_ts": 1790783009.0,
       "first_ts": 1781353223.0,
       "rank": 16
     },
@@ -21233,8 +21233,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5b0ddf8fe545",
-      "name": "Max",
+      "id": "81baf6634942",
+      "name": "Samu",
       "value": 1
     },
     "biggest_message": {
@@ -21836,8 +21836,8 @@
     },
     {
       "date": "2026-09-30",
-      "count": 28,
-      "total": 32299
+      "count": 29,
+      "total": 32300
     }
   ],
   "hour_histogram": [
@@ -21858,7 +21858,7 @@
     791,
     819,
     1184,
-    1548,
+    1549,
     2008,
     2654,
     3097,
@@ -21867,6 +21867,12 @@
     1633
   ],
   "recent": [
+    {
+      "n": 32300,
+      "id": "81baf6634942",
+      "name": "Samu",
+      "ts": 1790783009.0
+    },
     {
       "n": 32299,
       "id": "5b0ddf8fe545",
@@ -21980,12 +21986,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1790767592.0
-    },
-    {
-      "n": 32279,
-      "id": "fb974dc80aff",
-      "name": "Johanna",
-      "ts": 1790765924.0
     }
   ],
   "speed_samples": [
@@ -22040,6 +22040,10 @@
     [
       1790782783,
       32299
+    ],
+    [
+      1790783009,
+      32300
     ]
   ]
 }
