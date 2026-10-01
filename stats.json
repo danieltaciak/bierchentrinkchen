@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01T19:38:48.151687+00:00",
+  "generated_at": "2026-10-01T19:45:18.084404+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32453,
-  "progress_pct": 3.2453,
+  "current_count": 32455,
+  "progress_pct": 3.2455,
   "num_players": 1311,
-  "total_messages": 45667,
+  "total_messages": 45670,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790883511.0,
+  "last_count_ts": 1790883888.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -206,15 +206,15 @@
       "id": "df6424fbdeef",
       "name": "Daniel",
       "anon_phone": "+49 163 •••• 57",
-      "points": 193,
-      "pct": 0.59,
-      "last24h": 2,
+      "points": 194,
+      "pct": 0.6,
+      "last24h": 3,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1790880740.0,
+      "last_ts": 1790883888.0,
       "first_ts": 1781452642.0,
       "rank": 13
     },
@@ -21026,11 +21026,11 @@
       "73a69bdc1f9e",
       "59bdc34c591c",
       "6548cd1b6eae",
+      "df6424fbdeef",
       "2e95be7bb9ea",
       "b4c5dace35d9",
       "29a1c5fbe7db",
-      "7a9ba669cde0",
-      "e8a4cd87f0ab"
+      "7a9ba669cde0"
     ],
     "longest_streak": [
       {
@@ -21249,8 +21249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "c4fe31e13b5a",
-      "name": "Felix T.",
+      "id": "df6424fbdeef",
+      "name": "Daniel",
       "value": 1
     },
     "biggest_message": {
@@ -21857,8 +21857,8 @@
     },
     {
       "date": "2026-10-01",
-      "count": 86,
-      "total": 32453
+      "count": 88,
+      "total": 32455
     }
   ],
   "hour_histogram": [
@@ -21883,11 +21883,17 @@
     2025,
     2681,
     3120,
-    3079,
+    3080,
     2436,
     1641
   ],
   "recent": [
+    {
+      "n": 32455,
+      "id": "df6424fbdeef",
+      "name": "Daniel",
+      "ts": 1790883888.0
+    },
     {
       "n": 32453,
       "id": "c4fe31e13b5a",
@@ -22001,19 +22007,9 @@
       "id": "59bdc34c591c",
       "name": "Callum",
       "ts": 1790877846.0
-    },
-    {
-      "n": 32430,
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "ts": 1790877482.0
     }
   ],
   "speed_samples": [
-    [
-      1790876335,
-      32420
-    ],
     [
       1790877240,
       32429
@@ -22097,6 +22093,10 @@
     [
       1790883511,
       32453
+    ],
+    [
+      1790883888,
+      32455
     ]
   ]
 }
