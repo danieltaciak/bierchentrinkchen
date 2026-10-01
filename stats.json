@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01T14:48:50.948751+00:00",
+  "generated_at": "2026-10-01T14:53:37.642502+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32385,
-  "progress_pct": 3.2385,
+  "current_count": 32386,
+  "progress_pct": 3.2386,
   "num_players": 1311,
-  "total_messages": 45597,
+  "total_messages": 45598,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790866118.0,
+  "last_count_ts": 1790866399.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1230,15 +1230,15 @@
       "id": "d6c5978b929b",
       "name": "Jonas K.",
       "anon_phone": "+49 152 •••• 33",
-      "points": 67,
+      "points": 68,
       "pct": 0.21,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 2,
       "early_counts": 1,
-      "last_ts": 1789820283.0,
+      "last_ts": 1790866399.0,
       "first_ts": 1781347225.0,
       "rank": 77
     },
@@ -21249,9 +21249,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "97ae9d65544b",
-      "name": "Felix W.",
-      "value": 3
+      "id": "d6c5978b929b",
+      "name": "Jonas K.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21857,8 +21857,8 @@
     },
     {
       "date": "2026-10-01",
-      "count": 18,
-      "total": 32385
+      "count": 19,
+      "total": 32386
     }
   ],
   "hour_histogram": [
@@ -21878,7 +21878,7 @@
     640,
     792,
     819,
-    1189,
+    1190,
     1552,
     2015,
     2665,
@@ -21888,6 +21888,12 @@
     1641
   ],
   "recent": [
+    {
+      "n": 32386,
+      "id": "d6c5978b929b",
+      "name": "Jonas K.",
+      "ts": 1790866399.0
+    },
     {
       "n": 32385,
       "id": "97ae9d65544b",
@@ -22001,12 +22007,6 @@
       "id": "2f9108443e86",
       "name": "Philipp",
       "ts": 1790804995.0
-    },
-    {
-      "n": 32364,
-      "id": "e8a4cd87f0ab",
-      "name": "Jürgen G.",
-      "ts": 1790804641.0
     }
   ],
   "speed_samples": [
@@ -22029,6 +22029,10 @@
     [
       1790866118,
       32385
+    ],
+    [
+      1790866399,
+      32386
     ]
   ]
 }
