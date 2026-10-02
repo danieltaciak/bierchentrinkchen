@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02T19:51:05.687591+00:00",
+  "generated_at": "2026-10-02T19:59:34.710947+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32580,
-  "progress_pct": 3.258,
+  "current_count": 32582,
+  "progress_pct": 3.2582,
   "num_players": 1311,
-  "total_messages": 45811,
+  "total_messages": 45816,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790970638.0,
+  "last_count_ts": 1790971164.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -475,6 +475,22 @@
       "rank": 29
     },
     {
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "anon_phone": "+49 151 •••• 37",
+      "points": 129,
+      "pct": 0.4,
+      "last24h": 7,
+      "longest_streak": 6,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 9,
+      "early_counts": 0,
+      "last_ts": 1790971164.0,
+      "first_ts": 1789061375.0,
+      "rank": 30
+    },
+    {
       "id": "d250ce427a30",
       "name": "Jannik H.",
       "anon_phone": "+49 171 •••• 26",
@@ -488,22 +504,6 @@
       "early_counts": 1,
       "last_ts": 1790231652.0,
       "first_ts": 1781456630.0,
-      "rank": 30
-    },
-    {
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "anon_phone": "+49 151 •••• 37",
-      "points": 128,
-      "pct": 0.39,
-      "last24h": 6,
-      "longest_streak": 6,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 9,
-      "early_counts": 0,
-      "last_ts": 1790959484.0,
-      "first_ts": 1789061375.0,
       "rank": 31
     },
     {
@@ -21017,8 +21017,8 @@
     ],
     "last_24h": [
       "b7f001ca29a3",
-      "a5f77afeecc6",
       "73a69bdc1f9e",
+      "a5f77afeecc6",
       "cec25393509e",
       "b24539a93d86",
       "df6424fbdeef",
@@ -21249,8 +21249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "df6424fbdeef",
-      "name": "Daniel",
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
       "value": 1
     },
     "biggest_message": {
@@ -21862,8 +21862,8 @@
     },
     {
       "date": "2026-10-02",
-      "count": 105,
-      "total": 32580
+      "count": 107,
+      "total": 32582
     }
   ],
   "hour_histogram": [
@@ -21888,11 +21888,17 @@
     2034,
     2691,
     3139,
-    3100,
+    3101,
     2443,
     1644
   ],
   "recent": [
+    {
+      "n": 32582,
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "ts": 1790971164.0
+    },
     {
       "n": 32580,
       "id": "df6424fbdeef",
@@ -22006,12 +22012,6 @@
       "id": "cdac8116e93e",
       "name": "Hännsn",
       "ts": 1790967030.0
-    },
-    {
-      "n": 32554,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1790966926.0
     }
   ],
   "speed_samples": [
@@ -22158,6 +22158,10 @@
     [
       1790970638,
       32580
+    ],
+    [
+      1790971164,
+      32582
     ]
   ]
 }
