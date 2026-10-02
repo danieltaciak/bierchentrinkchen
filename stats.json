@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02T10:44:58.060265+00:00",
+  "generated_at": "2026-10-02T10:49:51.442136+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32479,
-  "progress_pct": 3.2479,
+  "current_count": 32480,
+  "progress_pct": 3.248,
   "num_players": 1311,
-  "total_messages": 45697,
+  "total_messages": 45698,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790937863.0,
+  "last_count_ts": 1790938171.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -462,15 +462,15 @@
       "id": "0c322a010ec4",
       "name": "Andrea",
       "anon_phone": "+49 151 •••• 79",
-      "points": 135,
+      "points": 136,
       "pct": 0.42,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 35,
       "early_counts": 11,
-      "last_ts": 1790451107.0,
+      "last_ts": 1790938171.0,
       "first_ts": 1782522040.0,
       "rank": 29
     },
@@ -21249,8 +21249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "fb2fe35b5239",
-      "name": "Lena",
+      "id": "0c322a010ec4",
+      "name": "Andrea",
       "value": 1
     },
     "biggest_message": {
@@ -21862,8 +21862,8 @@
     },
     {
       "date": "2026-10-02",
-      "count": 4,
-      "total": 32479
+      "count": 5,
+      "total": 32480
     }
   ],
   "hour_histogram": [
@@ -21879,7 +21879,7 @@
     176,
     261,
     399,
-    602,
+    603,
     640,
     792,
     819,
@@ -21893,6 +21893,12 @@
     1644
   ],
   "recent": [
+    {
+      "n": 32480,
+      "id": "0c322a010ec4",
+      "name": "Andrea",
+      "ts": 1790938171.0
+    },
     {
       "n": 32479,
       "id": "fb2fe35b5239",
@@ -22006,12 +22012,6 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "ts": 1790883511.0
-    },
-    {
-      "n": 32452,
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
-      "ts": 1790883447.0
     }
   ],
   "speed_samples": [
@@ -22026,6 +22026,10 @@
     [
       1790937863,
       32479
+    ],
+    [
+      1790938171,
+      32480
     ]
   ]
 }
