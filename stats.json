@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02T20:15:05.531720+00:00",
+  "generated_at": "2026-10-02T20:15:29.114040+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32589,
-  "progress_pct": 3.2589,
+  "current_count": 32590,
+  "progress_pct": 3.259,
   "num_players": 1311,
-  "total_messages": 45823,
+  "total_messages": 45825,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790972086.0,
+  "last_count_ts": 1790972112.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -62,15 +62,15 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
-      "points": 335,
+      "points": 336,
       "pct": 1.03,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 6,
       "assists_given": 31,
       "assists_received": 10,
       "night_counts": 41,
       "early_counts": 4,
-      "last_ts": 1790970583.0,
+      "last_ts": 1790972112.0,
       "first_ts": 1781196449.0,
       "rank": 4
     },
@@ -21023,11 +21023,11 @@
       "b24539a93d86",
       "764f33f39eb0",
       "4406b89296d7",
+      "7a2e949e25b3",
       "4d3315cacd26",
       "efeced9c0950",
       "db6d81e90b74",
       "0c322a010ec4",
-      "7a2e949e25b3",
       "6ae8b7629ff6",
       "0ffd6461b847",
       "ed68d0e3bcd5"
@@ -21249,8 +21249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "0c322a010ec4",
-      "name": "Andrea",
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
       "value": 1
     },
     "biggest_message": {
@@ -21862,8 +21862,8 @@
     },
     {
       "date": "2026-10-02",
-      "count": 114,
-      "total": 32589
+      "count": 115,
+      "total": 32590
     }
   ],
   "hour_histogram": [
@@ -21889,10 +21889,16 @@
     2691,
     3139,
     3102,
-    2449,
+    2450,
     1644
   ],
   "recent": [
+    {
+      "n": 32590,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1790972112.0
+    },
     {
       "n": 32589,
       "id": "0c322a010ec4",
@@ -22006,12 +22012,6 @@
       "id": "e8a4cd87f0ab",
       "name": "Jürgen G.",
       "ts": 1790968410.0
-    },
-    {
-      "n": 32563,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1790968047.0
     }
   ],
   "speed_samples": [
@@ -22154,6 +22154,10 @@
     [
       1790972086,
       32589
+    ],
+    [
+      1790972112,
+      32590
     ]
   ]
 }
