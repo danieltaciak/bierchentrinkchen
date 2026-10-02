@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02T17:29:10.620899+00:00",
+  "generated_at": "2026-10-02T17:33:28.028996+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32518,
-  "progress_pct": 3.2518,
+  "current_count": 32519,
+  "progress_pct": 3.2519,
   "num_players": 1311,
-  "total_messages": 45738,
+  "total_messages": 45740,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790962138.0,
+  "last_count_ts": 1790962384.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -238,15 +238,15 @@
       "id": "764f33f39eb0",
       "name": "Maxi",
       "anon_phone": "+49 151 •••• 99",
-      "points": 170,
-      "pct": 0.52,
-      "last24h": 0,
+      "points": 171,
+      "pct": 0.53,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 3,
       "assists_received": 6,
       "night_counts": 18,
       "early_counts": 4,
-      "last_ts": 1790873689.0,
+      "last_ts": 1790962384.0,
       "first_ts": 1781284254.0,
       "rank": 15
     },
@@ -21249,8 +21249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "db6d81e90b74",
-      "name": "Dominik H.",
+      "id": "764f33f39eb0",
+      "name": "Maxi",
       "value": 1
     },
     "biggest_message": {
@@ -21862,8 +21862,8 @@
     },
     {
       "date": "2026-10-02",
-      "count": 43,
-      "total": 32518
+      "count": 44,
+      "total": 32519
     }
   ],
   "hour_histogram": [
@@ -21886,13 +21886,19 @@
     1193,
     1566,
     2034,
-    2686,
+    2687,
     3120,
     3083,
     2443,
     1644
   ],
   "recent": [
+    {
+      "n": 32519,
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "ts": 1790962384.0
+    },
     {
       "n": 32518,
       "id": "db6d81e90b74",
@@ -22006,23 +22012,9 @@
       "id": "6ae8b7629ff6",
       "name": "Juls",
       "ts": 1790955036.0
-    },
-    {
-      "n": 32495,
-      "id": "cec25393509e",
-      "name": "Michl",
-      "ts": 1790954670.0
     }
   ],
   "speed_samples": [
-    [
-      1790955036,
-      32496
-    ],
-    [
-      1790955036,
-      32497
-    ],
     [
       1790955259,
       32498
@@ -22090,6 +22082,10 @@
     [
       1790962138,
       32518
+    ],
+    [
+      1790962384,
+      32519
     ]
   ]
 }
