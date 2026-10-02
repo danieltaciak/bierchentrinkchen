@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02T17:44:49.710483+00:00",
+  "generated_at": "2026-10-02T17:45:30.109641+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32522,
-  "progress_pct": 3.2522,
+  "current_count": 32523,
+  "progress_pct": 3.2523,
   "num_players": 1311,
-  "total_messages": 45743,
+  "total_messages": 45746,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1790963057.0,
+  "last_count_ts": 1790963096.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1694,15 +1694,15 @@
       "id": "db6d81e90b74",
       "name": "Dominik H.",
       "anon_phone": "+49 162 •••• 23",
-      "points": 48,
+      "points": 49,
       "pct": 0.15,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 0,
       "early_counts": 0,
-      "last_ts": 1790962138.0,
+      "last_ts": 1790963096.0,
       "first_ts": 1783622148.0,
       "rank": 106
     },
@@ -21030,7 +21030,7 @@
       "6ae8b7629ff6",
       "0ffd6461b847",
       "ed68d0e3bcd5",
-      "38ce79a459de"
+      "db6d81e90b74"
     ],
     "longest_streak": [
       {
@@ -21249,8 +21249,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "ed68d0e3bcd5",
-      "name": "Christoph",
+      "id": "db6d81e90b74",
+      "name": "Dominik H.",
       "value": 1
     },
     "biggest_message": {
@@ -21862,8 +21862,8 @@
     },
     {
       "date": "2026-10-02",
-      "count": 47,
-      "total": 32522
+      "count": 48,
+      "total": 32523
     }
   ],
   "hour_histogram": [
@@ -21886,13 +21886,19 @@
     1193,
     1566,
     2034,
-    2690,
+    2691,
     3120,
     3083,
     2443,
     1644
   ],
   "recent": [
+    {
+      "n": 32523,
+      "id": "db6d81e90b74",
+      "name": "Dominik H.",
+      "ts": 1790963096.0
+    },
     {
       "n": 32522,
       "id": "ed68d0e3bcd5",
@@ -22006,12 +22012,6 @@
       "id": "0ffd6461b847",
       "name": "Steffen P.",
       "ts": 1790956614.0
-    },
-    {
-      "n": 32499,
-      "id": "0ffd6461b847",
-      "name": "Steffen P.",
-      "ts": 1790956614.0
     }
   ],
   "speed_samples": [
@@ -22094,6 +22094,10 @@
     [
       1790963057,
       32522
+    ],
+    [
+      1790963096,
+      32523
     ]
   ]
 }
