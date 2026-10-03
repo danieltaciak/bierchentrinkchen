@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-03T07:07:02.716686+00:00",
+  "generated_at": "2026-10-03T07:38:14.840417+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32671,
-  "progress_pct": 3.2671,
+  "current_count": 32673,
+  "progress_pct": 3.2673,
   "num_players": 1311,
-  "total_messages": 45903,
+  "total_messages": 45904,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791011211.0,
+  "last_count_ts": 1791013057.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -143,7 +143,7 @@
       "name": "ich H.",
       "anon_phone": "+49 176 •••• 10",
       "points": 214,
-      "pct": 0.66,
+      "pct": 0.65,
       "last24h": 0,
       "longest_streak": 10,
       "assists_given": 1,
@@ -222,15 +222,15 @@
       "id": "06ef1dbdad22",
       "name": "Selin",
       "anon_phone": "+49 151 •••• 00",
-      "points": 180,
-      "pct": 0.55,
-      "last24h": 0,
+      "points": 182,
+      "pct": 0.56,
+      "last24h": 2,
       "longest_streak": 7,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 22,
       "early_counts": 0,
-      "last_ts": 1790816034.0,
+      "last_ts": 1791013057.0,
       "first_ts": 1786728676.0,
       "rank": 14
     },
@@ -21249,9 +21249,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "df6424fbdeef",
-      "name": "Daniel",
-      "value": 1
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -21867,8 +21867,8 @@
     },
     {
       "date": "2026-10-03",
-      "count": 49,
-      "total": 32671
+      "count": 51,
+      "total": 32673
     }
   ],
   "hour_histogram": [
@@ -21881,7 +21881,7 @@
     60,
     67,
     160,
-    178,
+    180,
     261,
     399,
     604,
@@ -21898,6 +21898,18 @@
     1658
   ],
   "recent": [
+    {
+      "n": 32673,
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "ts": 1791013057.0
+    },
+    {
+      "n": 32672,
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "ts": 1791013057.0
+    },
     {
       "n": 32671,
       "id": "df6424fbdeef",
@@ -22005,18 +22017,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1790990082.0
-    },
-    {
-      "n": 32651,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1790989411.0
-    },
-    {
-      "n": 32650,
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "ts": 1790989104.0
     }
   ],
   "speed_samples": [
@@ -22043,6 +22043,14 @@
     [
       1791011211,
       32671
+    ],
+    [
+      1791013057,
+      32672
+    ],
+    [
+      1791013057,
+      32673
     ]
   ]
 }
