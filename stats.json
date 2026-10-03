@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-03T20:17:21.287696+00:00",
+  "generated_at": "2026-10-03T20:18:33.289045+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32874,
-  "progress_pct": 3.2874,
+  "current_count": 32876,
+  "progress_pct": 3.2876,
   "num_players": 1322,
-  "total_messages": 46145,
+  "total_messages": 46146,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791058620.0,
+  "last_count_ts": 1791058700.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -110,15 +110,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 270,
+      "points": 271,
       "pct": 0.82,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 35,
       "early_counts": 2,
-      "last_ts": 1790990216.0,
+      "last_ts": 1791058700.0,
       "first_ts": 1781212818.0,
       "rank": 7
     },
@@ -21425,8 +21425,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
+      "id": "c93ed700000f",
+      "name": "linus",
       "value": 1
     },
     "biggest_message": {
@@ -22043,8 +22043,8 @@
     },
     {
       "date": "2026-10-03",
-      "count": 252,
-      "total": 32874
+      "count": 254,
+      "total": 32876
     }
   ],
   "hour_histogram": [
@@ -22070,10 +22070,16 @@
     2707,
     3165,
     3119,
-    2467,
+    2468,
     1658
   ],
   "recent": [
+    {
+      "n": 32876,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1791058700.0
+    },
     {
       "n": 32874,
       "id": "efeced9c0950",
@@ -22187,12 +22193,6 @@
       "id": "b0ec61c7e28d",
       "name": "Andi",
       "ts": 1791054503.0
-    },
-    {
-      "n": 32853,
-      "id": "fb974dc80aff",
-      "name": "Johanna",
-      "ts": 1791054096.0
     }
   ],
   "speed_samples": [
@@ -22347,6 +22347,10 @@
     [
       1791058620,
       32874
+    ],
+    [
+      1791058700,
+      32876
     ]
   ]
 }
