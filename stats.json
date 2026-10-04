@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-04T16:02:33.400499+00:00",
+  "generated_at": "2026-10-04T16:06:38.052610+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 32959,
-  "progress_pct": 3.2959,
+  "current_count": 32961,
+  "progress_pct": 3.2961,
   "num_players": 1322,
-  "total_messages": 46252,
+  "total_messages": 46254,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791129720.0,
+  "last_count_ts": 1791129985.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -382,15 +382,15 @@
       "id": "553637e3d2b4",
       "name": "Linus K.",
       "anon_phone": "+49 176 •••• 96",
-      "points": 158,
+      "points": 159,
       "pct": 0.48,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 29,
       "early_counts": 0,
-      "last_ts": 1791057597.0,
+      "last_ts": 1791129985.0,
       "first_ts": 1782747846.0,
       "rank": 24
     },
@@ -2059,6 +2059,22 @@
       "rank": 128
     },
     {
+      "id": "af005e9bda68",
+      "name": "Tristan",
+      "anon_phone": "+49 159 •••• 29",
+      "points": 41,
+      "pct": 0.12,
+      "last24h": 1,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 7,
+      "early_counts": 0,
+      "last_ts": 1791129976.0,
+      "first_ts": 1784136851.0,
+      "rank": 129
+    },
+    {
       "id": "dd185fef1dba",
       "name": "Andreas H.",
       "anon_phone": "+49 162 •••• 29",
@@ -2072,7 +2088,7 @@
       "early_counts": 0,
       "last_ts": 1788977723.0,
       "first_ts": 1782241260.0,
-      "rank": 129
+      "rank": 130
     },
     {
       "id": "ddbb3a52a83e",
@@ -2088,7 +2104,7 @@
       "early_counts": 3,
       "last_ts": 1786824881.0,
       "first_ts": 1785084299.0,
-      "rank": 130
+      "rank": 131
     },
     {
       "id": "e5cb7f8f899f",
@@ -2104,22 +2120,6 @@
       "early_counts": 0,
       "last_ts": 1786636820.0,
       "first_ts": 1782760101.0,
-      "rank": 131
-    },
-    {
-      "id": "af005e9bda68",
-      "name": "Tristan",
-      "anon_phone": "+49 159 •••• 29",
-      "points": 40,
-      "pct": 0.12,
-      "last24h": 0,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 7,
-      "early_counts": 0,
-      "last_ts": 1790336993.0,
-      "first_ts": 1784136851.0,
       "rank": 132
     },
     {
@@ -21201,12 +21201,12 @@
       "07a76e4a9785",
       "8561b6020a64",
       "82afa8eefe9c",
+      "553637e3d2b4",
       "efeced9c0950",
       "df6424fbdeef",
       "cec25393509e",
       "fb974dc80aff",
-      "7b758a066b60",
-      "c4fe31e13b5a"
+      "7b758a066b60"
     ],
     "longest_streak": [
       {
@@ -21425,8 +21425,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b24539a93d86",
-      "name": "Dany",
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
       "value": 1
     },
     "biggest_message": {
@@ -22048,8 +22048,8 @@
     },
     {
       "date": "2026-10-04",
-      "count": 55,
-      "total": 32959
+      "count": 57,
+      "total": 32961
     }
   ],
   "hour_histogram": [
@@ -22071,7 +22071,7 @@
     847,
     1214,
     1585,
-    2047,
+    2049,
     2707,
     3165,
     3119,
@@ -22079,6 +22079,18 @@
     1670
   ],
   "recent": [
+    {
+      "n": 32961,
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
+      "ts": 1791129985.0
+    },
+    {
+      "n": 32960,
+      "id": "af005e9bda68",
+      "name": "Tristan",
+      "ts": 1791129976.0
+    },
     {
       "n": 32959,
       "id": "b24539a93d86",
@@ -22186,25 +22198,9 @@
       "id": "62f4f2be10a0",
       "name": "Anonymous ••3514",
       "ts": 1791122034.0
-    },
-    {
-      "n": 32941,
-      "id": "df6424fbdeef",
-      "name": "Daniel",
-      "ts": 1791122001.0
-    },
-    {
-      "n": 32940,
-      "id": "5e0359616cc8",
-      "name": "Franz",
-      "ts": 1791121895.0
     }
   ],
   "speed_samples": [
-    [
-      1791122533,
-      32943
-    ],
     [
       1791122988,
       32944
@@ -22268,6 +22264,14 @@
     [
       1791129720,
       32959
+    ],
+    [
+      1791129976,
+      32960
+    ],
+    [
+      1791129985,
+      32961
     ]
   ]
 }
