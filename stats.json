@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-05T20:07:11.060301+00:00",
+  "generated_at": "2026-10-05T20:31:14.197289+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 33063,
-  "progress_pct": 3.3063,
+  "current_count": 33064,
+  "progress_pct": 3.3064,
   "num_players": 1324,
-  "total_messages": 46371,
+  "total_messages": 46372,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791230813.0,
+  "last_count_ts": 1791232261.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -16,7 +16,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 532,
       "pct": 1.61,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -30,15 +30,15 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "anon_phone": "+49 160 •••• 36",
-      "points": 464,
-      "pct": 1.4,
-      "last24h": 3,
+      "points": 465,
+      "pct": 1.41,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 2,
       "assists_received": 2,
       "night_counts": 81,
       "early_counts": 4,
-      "last_ts": 1791156780.0,
+      "last_ts": 1791232261.0,
       "first_ts": 1781357961.0,
       "rank": 2
     },
@@ -48,7 +48,7 @@
       "anon_phone": "+49 160 •••• 72",
       "points": 356,
       "pct": 1.08,
-      "last24h": 6,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 5,
@@ -112,7 +112,7 @@
       "anon_phone": "+49 178 •••• 54",
       "points": 283,
       "pct": 0.86,
-      "last24h": 8,
+      "last24h": 7,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -160,7 +160,7 @@
       "anon_phone": "+49 163 •••• 57",
       "points": 209,
       "pct": 0.63,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -480,7 +480,7 @@
       "anon_phone": "+49 160 •••• 83",
       "points": 139,
       "pct": 0.42,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 7,
       "assists_received": 7,
@@ -1232,7 +1232,7 @@
       "anon_phone": "+49 151 •••• 62",
       "points": 69,
       "pct": 0.21,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -21227,8 +21227,6 @@
       "c93ed700000f",
       "b7f001ca29a3",
       "b4c5dace35d9",
-      "b24539a93d86",
-      "a5f77afeecc6",
       "9bf6383c58eb",
       "6273e7d4065d",
       "29a1c5fbe7db",
@@ -21238,7 +21236,9 @@
       "7a2e949e25b3",
       "c03ae4e7c448",
       "732c638fc2fc",
-      "926048ba30b0"
+      "926048ba30b0",
+      "b24539a93d86",
+      "a5f77afeecc6"
     ],
     "longest_streak": [
       {
@@ -21457,7 +21457,7 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
+      "id": "9bf6383c58eb",
       "name": "Nico",
       "value": 1
     },
@@ -22085,8 +22085,8 @@
     },
     {
       "date": "2026-10-05",
-      "count": 54,
-      "total": 33063
+      "count": 55,
+      "total": 33064
     }
   ],
   "hour_histogram": [
@@ -22112,10 +22112,16 @@
     2731,
     3179,
     3126,
-    2491,
+    2492,
     1673
   ],
   "recent": [
+    {
+      "n": 33064,
+      "id": "9bf6383c58eb",
+      "name": "Nico",
+      "ts": 1791232261.0
+    },
     {
       "n": 33063,
       "id": "a5f77afeecc6",
@@ -22229,31 +22235,9 @@
       "id": "732c638fc2fc",
       "name": "Leander",
       "ts": 1791221781.0
-    },
-    {
-      "n": 33042,
-      "id": "c93ed700000f",
-      "name": "linus",
-      "ts": 1791221675.0
     }
   ],
   "speed_samples": [
-    [
-      1791223682,
-      33047
-    ],
-    [
-      1791224306,
-      33048
-    ],
-    [
-      1791224849,
-      33049
-    ],
-    [
-      1791224957,
-      33050
-    ],
     [
       1791225068,
       33051
@@ -22297,6 +22281,10 @@
     [
       1791230813,
       33063
+    ],
+    [
+      1791232261,
+      33064
     ]
   ]
 }
