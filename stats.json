@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-05T19:08:44.660337+00:00",
+  "generated_at": "2026-10-05T19:15:09.038144+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 33059,
-  "progress_pct": 3.3059,
+  "current_count": 33061,
+  "progress_pct": 3.3061,
   "num_players": 1324,
-  "total_messages": 46367,
+  "total_messages": 46368,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791227297.0,
+  "last_count_ts": 1791227679.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -923,6 +923,22 @@
       "rank": 57
     },
     {
+      "id": "1b66c2456dfd",
+      "name": "MM",
+      "anon_phone": "+49 176 •••• 07",
+      "points": 88,
+      "pct": 0.27,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 3,
+      "early_counts": 0,
+      "last_ts": 1791227679.0,
+      "first_ts": 1781203234.0,
+      "rank": 58
+    },
+    {
       "id": "97897748b637",
       "name": "Raphi",
       "anon_phone": "+49 151 •••• 11",
@@ -936,22 +952,6 @@
       "early_counts": 0,
       "last_ts": 1790946627.0,
       "first_ts": 1782295163.0,
-      "rank": 58
-    },
-    {
-      "id": "1b66c2456dfd",
-      "name": "MM",
-      "anon_phone": "+49 176 •••• 07",
-      "points": 87,
-      "pct": 0.26,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 3,
-      "early_counts": 0,
-      "last_ts": 1791130154.0,
-      "first_ts": 1781203234.0,
       "rank": 59
     },
     {
@@ -21457,8 +21457,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b24539a93d86",
-      "name": "Dany",
+      "id": "1b66c2456dfd",
+      "name": "MM",
       "value": 1
     },
     "biggest_message": {
@@ -22085,8 +22085,8 @@
     },
     {
       "date": "2026-10-05",
-      "count": 50,
-      "total": 33059
+      "count": 52,
+      "total": 33061
     }
   ],
   "hour_histogram": [
@@ -22111,11 +22111,17 @@
     2066,
     2731,
     3179,
-    3124,
+    3125,
     2490,
     1673
   ],
   "recent": [
+    {
+      "n": 33061,
+      "id": "1b66c2456dfd",
+      "name": "MM",
+      "ts": 1791227679.0
+    },
     {
       "n": 33059,
       "id": "b24539a93d86",
@@ -22229,19 +22235,9 @@
       "id": "29a1c5fbe7db",
       "name": "Tanja🌺",
       "ts": 1791221240.0
-    },
-    {
-      "n": 33039,
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "ts": 1791221228.0
     }
   ],
   "speed_samples": [
-    [
-      1791220159,
-      33036
-    ],
     [
       1791221228,
       33039
@@ -22321,6 +22317,10 @@
     [
       1791227297,
       33059
+    ],
+    [
+      1791227679,
+      33061
     ]
   ]
 }
