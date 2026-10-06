@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06T19:39:57.599186+00:00",
+  "generated_at": "2026-10-06T19:40:45.777573+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 33145,
-  "progress_pct": 3.3145,
+  "current_count": 33147,
+  "progress_pct": 3.3147,
   "num_players": 1325,
-  "total_messages": 46480,
+  "total_messages": 46482,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791315563.0,
+  "last_count_ts": 1791315634.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -79,7 +79,7 @@
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
       "points": 353,
-      "pct": 1.07,
+      "pct": 1.06,
       "last24h": 1,
       "longest_streak": 6,
       "assists_given": 33,
@@ -1611,6 +1611,22 @@
       "rank": 100
     },
     {
+      "id": "5363c3d3649b",
+      "name": "Quentin M.",
+      "anon_phone": "+49 160 •••• 32",
+      "points": 54,
+      "pct": 0.16,
+      "last24h": 10,
+      "longest_streak": 5,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1791315634.0,
+      "first_ts": 1782230341.0,
+      "rank": 101
+    },
+    {
       "id": "68ec6bec9a73",
       "name": "Stefan L.",
       "anon_phone": "+49 162 •••• 01",
@@ -1624,7 +1640,7 @@
       "early_counts": 3,
       "last_ts": 1787346404.0,
       "first_ts": 1782369485.0,
-      "rank": 101
+      "rank": 102
     },
     {
       "id": "e3bf5719b998",
@@ -1640,7 +1656,7 @@
       "early_counts": 0,
       "last_ts": 1791131604.0,
       "first_ts": 1781375447.0,
-      "rank": 102
+      "rank": 103
     },
     {
       "id": "65c3c630027f",
@@ -1656,22 +1672,6 @@
       "early_counts": 0,
       "last_ts": 1789072617.0,
       "first_ts": 1781096291.0,
-      "rank": 103
-    },
-    {
-      "id": "5363c3d3649b",
-      "name": "Quentin M.",
-      "anon_phone": "+49 160 •••• 32",
-      "points": 52,
-      "pct": 0.16,
-      "last24h": 8,
-      "longest_streak": 5,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1791313817.0,
-      "first_ts": 1782230341.0,
       "rank": 104
     },
     {
@@ -21473,9 +21473,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b7f001ca29a3",
-      "name": "leonski🍺",
-      "value": 1
+      "id": "5363c3d3649b",
+      "name": "Quentin M.",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22106,8 +22106,8 @@
     },
     {
       "date": "2026-10-06",
-      "count": 78,
-      "total": 33145
+      "count": 80,
+      "total": 33147
     }
   ],
   "hour_histogram": [
@@ -22132,11 +22132,23 @@
     2087,
     2740,
     3189,
-    3135,
+    3137,
     2492,
     1676
   ],
   "recent": [
+    {
+      "n": 33147,
+      "id": "5363c3d3649b",
+      "name": "Quentin M.",
+      "ts": 1791315634.0
+    },
+    {
+      "n": 33146,
+      "id": "5363c3d3649b",
+      "name": "Quentin M.",
+      "ts": 1791315623.0
+    },
     {
       "n": 33145,
       "id": "b7f001ca29a3",
@@ -22244,18 +22256,6 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "ts": 1791309816.0
-    },
-    {
-      "n": 33121,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1791309623.0
-    },
-    {
-      "n": 33120,
-      "id": "5363c3d3649b",
-      "name": "Quentin M.",
-      "ts": 1791309536.0
     }
   ],
   "speed_samples": [
@@ -22342,6 +22342,14 @@
     [
       1791315563,
       33145
+    ],
+    [
+      1791315623,
+      33146
+    ],
+    [
+      1791315634,
+      33147
     ]
   ]
 }
