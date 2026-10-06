@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06T18:00:34.928633+00:00",
+  "generated_at": "2026-10-06T18:04:12.464659+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 33121,
-  "progress_pct": 3.3121,
+  "current_count": 33122,
+  "progress_pct": 3.3122,
   "num_players": 1325,
-  "total_messages": 46447,
+  "total_messages": 46448,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791309623.0,
+  "last_count_ts": 1791309816.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -62,15 +62,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 355,
+      "points": 356,
       "pct": 1.07,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 4,
       "assists_given": 1,
       "assists_received": 0,
       "night_counts": 54,
       "early_counts": 3,
-      "last_ts": 1791302844.0,
+      "last_ts": 1791309816.0,
       "first_ts": 1781373213.0,
       "rank": 4
     },
@@ -21246,8 +21246,8 @@
       "5363c3d3649b",
       "b24539a93d86",
       "1b66c2456dfd",
-      "b4c5dace35d9",
       "efeced9c0950",
+      "b4c5dace35d9",
       "bbd3041bdb62",
       "29a1c5fbe7db",
       "7b758a066b60",
@@ -21473,8 +21473,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -22106,8 +22106,8 @@
     },
     {
       "date": "2026-10-06",
-      "count": 54,
-      "total": 33121
+      "count": 55,
+      "total": 33122
     }
   ],
   "hour_histogram": [
@@ -22131,12 +22131,18 @@
     1596,
     2087,
     2740,
-    3180,
+    3181,
     3126,
     2492,
     1676
   ],
   "recent": [
+    {
+      "n": 33122,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1791309816.0
+    },
     {
       "n": 33121,
       "id": "a5f77afeecc6",
@@ -22250,23 +22256,9 @@
       "id": "5363c3d3649b",
       "name": "Quentin M.",
       "ts": 1791303893.0
-    },
-    {
-      "n": 33101,
-      "id": "1b66c2456dfd",
-      "name": "MM",
-      "ts": 1791303794.0
     }
   ],
   "speed_samples": [
-    [
-      1791302450,
-      33089
-    ],
-    [
-      1791302460,
-      33090
-    ],
     [
       1791302758,
       33091
@@ -22382,6 +22374,10 @@
     [
       1791309623,
       33121
+    ],
+    [
+      1791309816,
+      33122
     ]
   ]
 }
