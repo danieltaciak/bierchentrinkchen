@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10T20:34:58.589547+00:00",
+  "generated_at": "2026-10-10T20:40:54.004780+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 33629,
-  "progress_pct": 3.3629,
+  "current_count": 33630,
+  "progress_pct": 3.363,
   "num_players": 1333,
-  "total_messages": 47069,
+  "total_messages": 47070,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791664471.0,
+  "last_count_ts": 1791664827.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -224,7 +224,7 @@
       "anon_phone": "+49 151 •••• 00",
       "points": 196,
       "pct": 0.58,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 7,
       "assists_given": 0,
       "assists_received": 0,
@@ -1035,6 +1035,22 @@
       "rank": 64
     },
     {
+      "id": "728a9cae2154",
+      "name": "М. Л.",
+      "anon_phone": "+49 171 •••• 18",
+      "points": 76,
+      "pct": 0.23,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 1,
+      "assists_received": 0,
+      "night_counts": 7,
+      "early_counts": 0,
+      "last_ts": 1791664827.0,
+      "first_ts": 1783618608.0,
+      "rank": 65
+    },
+    {
       "id": "4198299b819b",
       "name": "Moser",
       "anon_phone": "+49 151 •••• 40",
@@ -1048,22 +1064,6 @@
       "early_counts": 0,
       "last_ts": 1790368247.0,
       "first_ts": 1781294020.0,
-      "rank": 65
-    },
-    {
-      "id": "728a9cae2154",
-      "name": "М. Л.",
-      "anon_phone": "+49 171 •••• 18",
-      "points": 75,
-      "pct": 0.22,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 1,
-      "assists_received": 0,
-      "night_counts": 7,
-      "early_counts": 0,
-      "last_ts": 1790882401.0,
-      "first_ts": 1783618608.0,
       "rank": 66
     },
     {
@@ -21601,8 +21601,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "df6424fbdeef",
-      "name": "Daniel",
+      "id": "728a9cae2154",
+      "name": "М. Л.",
       "value": 1
     },
     "biggest_message": {
@@ -22254,8 +22254,8 @@
     },
     {
       "date": "2026-10-10",
-      "count": 133,
-      "total": 33629
+      "count": 134,
+      "total": 33630
     }
   ],
   "hour_histogram": [
@@ -22281,10 +22281,16 @@
     2798,
     3249,
     3208,
-    2536,
+    2537,
     1703
   ],
   "recent": [
+    {
+      "n": 33630,
+      "id": "728a9cae2154",
+      "name": "М. Л.",
+      "ts": 1791664827.0
+    },
     {
       "n": 33629,
       "id": "df6424fbdeef",
@@ -22398,27 +22404,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1791661040.0
-    },
-    {
-      "n": 33608,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1791661040.0
     }
   ],
   "speed_samples": [
-    [
-      1791657299,
-      33592
-    ],
-    [
-      1791657313,
-      33593
-    ],
-    [
-      1791657401,
-      33594
-    ],
     [
       1791657949,
       33595
@@ -22550,6 +22538,10 @@
     [
       1791664471,
       33629
+    ],
+    [
+      1791664827,
+      33630
     ]
   ]
 }
