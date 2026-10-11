@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-11T13:06:28.134572+00:00",
+  "generated_at": "2026-10-11T13:14:15.531109+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 33711,
-  "progress_pct": 3.3711,
+  "current_count": 33712,
+  "progress_pct": 3.3712,
   "num_players": 1335,
-  "total_messages": 47193,
+  "total_messages": 47194,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791723974.0,
+  "last_count_ts": 1791724440.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -512,7 +512,7 @@
       "anon_phone": "+49 151 •••• 05",
       "points": 130,
       "pct": 0.39,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 5,
       "assists_given": 6,
       "assists_received": 8,
@@ -2395,6 +2395,22 @@
       "rank": 149
     },
     {
+      "id": "47ee9c28ac01",
+      "name": "Rheini",
+      "anon_phone": "+49 163 •••• 18",
+      "points": 37,
+      "pct": 0.11,
+      "last24h": 1,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1791724440.0,
+      "first_ts": 1789801639.0,
+      "rank": 150
+    },
+    {
       "id": "ff9aa0ff7e4d",
       "name": "Rick",
       "anon_phone": "+49 176 •••• 91",
@@ -2408,7 +2424,7 @@
       "early_counts": 0,
       "last_ts": 1787260736.0,
       "first_ts": 1781109102.0,
-      "rank": 150
+      "rank": 151
     },
     {
       "id": "f49dec15598c",
@@ -2424,7 +2440,7 @@
       "early_counts": 0,
       "last_ts": 1784747442.0,
       "first_ts": 1781106398.0,
-      "rank": 151
+      "rank": 152
     },
     {
       "id": "901fbff0c4d9",
@@ -2440,7 +2456,7 @@
       "early_counts": 0,
       "last_ts": 1786649446.0,
       "first_ts": 1781371483.0,
-      "rank": 152
+      "rank": 153
     },
     {
       "id": "24c2feda6b33",
@@ -2456,22 +2472,6 @@
       "early_counts": 0,
       "last_ts": 1791574664.0,
       "first_ts": 1781870556.0,
-      "rank": 153
-    },
-    {
-      "id": "47ee9c28ac01",
-      "name": "Rheini",
-      "anon_phone": "+49 163 •••• 18",
-      "points": 36,
-      "pct": 0.11,
-      "last24h": 0,
-      "longest_streak": 4,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1791573280.0,
-      "first_ts": 1789801639.0,
       "rank": 154
     },
     {
@@ -21409,12 +21409,12 @@
       "9bf6383c58eb",
       "fb974dc80aff",
       "b24539a93d86",
-      "4cf6b703c434",
       "764f33f39eb0",
       "efeced9c0950",
       "4a9ecb3a320e",
       "7900bd00432a",
-      "73a69bdc1f9e"
+      "73a69bdc1f9e",
+      "dfc3d4bfe135"
     ],
     "longest_streak": [
       {
@@ -21633,8 +21633,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5e0359616cc8",
-      "name": "Franz",
+      "id": "47ee9c28ac01",
+      "name": "Rheini",
       "value": 1
     },
     "biggest_message": {
@@ -22291,8 +22291,8 @@
     },
     {
       "date": "2026-10-11",
-      "count": 57,
-      "total": 33711
+      "count": 58,
+      "total": 33712
     }
   ],
   "hour_histogram": [
@@ -22311,7 +22311,7 @@
     622,
     682,
     845,
-    861,
+    862,
     1246,
     1614,
     2136,
@@ -22322,6 +22322,12 @@
     1711
   ],
   "recent": [
+    {
+      "n": 33712,
+      "id": "47ee9c28ac01",
+      "name": "Rheini",
+      "ts": 1791724440.0
+    },
     {
       "n": 33711,
       "id": "5e0359616cc8",
@@ -22435,23 +22441,9 @@
       "id": "7b758a066b60",
       "name": "Sebastian",
       "ts": 1791713734.0
-    },
-    {
-      "n": 33690,
-      "id": "4a9ecb3a320e",
-      "name": "Stefan B.",
-      "ts": 1791711409.0
     }
   ],
   "speed_samples": [
-    [
-      1791716967,
-      33696
-    ],
-    [
-      1791717215,
-      33697
-    ],
     [
       1791717977,
       33698
@@ -22499,6 +22491,10 @@
     [
       1791723974,
       33711
+    ],
+    [
+      1791724440,
+      33712
     ]
   ]
 }
