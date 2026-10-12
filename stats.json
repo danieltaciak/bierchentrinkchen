@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-12T16:45:01.865973+00:00",
+  "generated_at": "2026-10-12T16:45:35.617642+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 33767,
-  "progress_pct": 3.3767,
+  "current_count": 33768,
+  "progress_pct": 3.3768,
   "num_players": 1335,
-  "total_messages": 47267,
+  "total_messages": 47268,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791823483.0,
+  "last_count_ts": 1791823522.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -142,15 +142,15 @@
       "id": "8a6ad087f1ea",
       "name": "ich H.",
       "anon_phone": "+49 176 •••• 10",
-      "points": 221,
-      "pct": 0.65,
-      "last24h": 0,
+      "points": 222,
+      "pct": 0.66,
+      "last24h": 1,
       "longest_streak": 10,
       "assists_given": 1,
       "assists_received": 0,
       "night_counts": 42,
       "early_counts": 2,
-      "last_ts": 1791662226.0,
+      "last_ts": 1791823522.0,
       "first_ts": 1781470164.0,
       "rank": 9
     },
@@ -21633,9 +21633,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "value": 2
+      "id": "8a6ad087f1ea",
+      "name": "ich H.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22296,8 +22296,8 @@
     },
     {
       "date": "2026-10-12",
-      "count": 27,
-      "total": 33767
+      "count": 28,
+      "total": 33768
     }
   ],
   "hour_histogram": [
@@ -22319,7 +22319,7 @@
     868,
     1253,
     1623,
-    2150,
+    2151,
     2804,
     3252,
     3209,
@@ -22327,6 +22327,12 @@
     1711
   ],
   "recent": [
+    {
+      "n": 33768,
+      "id": "8a6ad087f1ea",
+      "name": "ich H.",
+      "ts": 1791823522.0
+    },
     {
       "n": 33767,
       "id": "a5f77afeecc6",
@@ -22440,12 +22446,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1791812948.0
-    },
-    {
-      "n": 33748,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1791811306.0
     }
   ],
   "speed_samples": [
@@ -22508,6 +22508,10 @@
     [
       1791823483,
       33767
+    ],
+    [
+      1791823522,
+      33768
     ]
   ]
 }
