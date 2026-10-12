@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-12T16:38:40.406399+00:00",
+  "generated_at": "2026-10-12T16:44:29.304966+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 33764,
-  "progress_pct": 3.3764,
+  "current_count": 33765,
+  "progress_pct": 3.3765,
   "num_players": 1335,
-  "total_messages": 47264,
+  "total_messages": 47265,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791823094.0,
+  "last_count_ts": 1791823439.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1278,15 +1278,15 @@
       "id": "8d791dd5d387",
       "name": "Pascal",
       "anon_phone": "+49 151 •••• 88",
-      "points": 66,
+      "points": 67,
       "pct": 0.2,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 0,
       "early_counts": 2,
-      "last_ts": 1791651423.0,
+      "last_ts": 1791823439.0,
       "first_ts": 1781809476.0,
       "rank": 80
     },
@@ -21633,8 +21633,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "fb2fe35b5239",
-      "name": "Lena",
+      "id": "8d791dd5d387",
+      "name": "Pascal",
       "value": 1
     },
     "biggest_message": {
@@ -22296,8 +22296,8 @@
     },
     {
       "date": "2026-10-12",
-      "count": 24,
-      "total": 33764
+      "count": 25,
+      "total": 33765
     }
   ],
   "hour_histogram": [
@@ -22319,7 +22319,7 @@
     868,
     1253,
     1623,
-    2147,
+    2148,
     2804,
     3252,
     3209,
@@ -22327,6 +22327,12 @@
     1711
   ],
   "recent": [
+    {
+      "n": 33765,
+      "id": "8d791dd5d387",
+      "name": "Pascal",
+      "ts": 1791823439.0
+    },
     {
       "n": 33764,
       "id": "fb2fe35b5239",
@@ -22440,23 +22446,9 @@
       "id": "aa0156afe213",
       "name": "Til",
       "ts": 1791805432.0
-    },
-    {
-      "n": 33744,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1791805002.0
     }
   ],
   "speed_samples": [
-    [
-      1791816097,
-      33751
-    ],
-    [
-      1791816149,
-      33752
-    ],
     [
       1791817737,
       33753
@@ -22504,6 +22496,10 @@
     [
       1791823094,
       33764
+    ],
+    [
+      1791823439,
+      33765
     ]
   ]
 }
