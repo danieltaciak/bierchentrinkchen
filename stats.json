@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-12T19:20:52.614133+00:00",
+  "generated_at": "2026-10-12T19:42:34.335575+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 33785,
-  "progress_pct": 3.3785,
+  "current_count": 33786,
+  "progress_pct": 3.3786,
   "num_players": 1335,
-  "total_messages": 47286,
+  "total_messages": 47288,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791832816.0,
+  "last_count_ts": 1791834127.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -270,15 +270,15 @@
       "id": "764f33f39eb0",
       "name": "Maxi",
       "anon_phone": "+49 151 •••• 99",
-      "points": 184,
-      "pct": 0.54,
-      "last24h": 0,
+      "points": 185,
+      "pct": 0.55,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 5,
       "assists_received": 10,
       "night_counts": 20,
       "early_counts": 4,
-      "last_ts": 1791672657.0,
+      "last_ts": 1791834127.0,
       "first_ts": 1781284254.0,
       "rank": 17
     },
@@ -21633,8 +21633,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "2f9108443e86",
-      "name": "Philipp",
+      "id": "764f33f39eb0",
+      "name": "Maxi",
       "value": 1
     },
     "biggest_message": {
@@ -22296,8 +22296,8 @@
     },
     {
       "date": "2026-10-12",
-      "count": 45,
-      "total": 33785
+      "count": 46,
+      "total": 33786
     }
   ],
   "hour_histogram": [
@@ -22322,11 +22322,17 @@
     2153,
     2810,
     3257,
-    3212,
+    3213,
     2545,
     1711
   ],
   "recent": [
+    {
+      "n": 33786,
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "ts": 1791834127.0
+    },
     {
       "n": 33785,
       "id": "2f9108443e86",
@@ -22440,19 +22446,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1791823467.0
-    },
-    {
-      "n": 33765,
-      "id": "8d791dd5d387",
-      "name": "Pascal",
-      "ts": 1791823439.0
     }
   ],
   "speed_samples": [
-    [
-      1791826784,
-      33774
-    ],
     [
       1791827437,
       33775
@@ -22496,6 +22492,10 @@
     [
       1791832816,
       33785
+    ],
+    [
+      1791834127,
+      33786
     ]
   ]
 }
