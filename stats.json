@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-13T18:16:53.249632+00:00",
+  "generated_at": "2026-10-13T18:35:15.000473+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 33811,
-  "progress_pct": 3.3811,
+  "current_count": 33812,
+  "progress_pct": 3.3812,
   "num_players": 1335,
-  "total_messages": 47312,
+  "total_messages": 47313,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1791915398.0,
+  "last_count_ts": 1791916495.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -48,7 +48,7 @@
       "anon_phone": "+49 160 •••• 72",
       "points": 405,
       "pct": 1.2,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 5,
@@ -256,7 +256,7 @@
       "anon_phone": "+49 171 •••• 23",
       "points": 188,
       "pct": 0.56,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -576,7 +576,7 @@
       "anon_phone": "+49 151 •••• 08",
       "points": 129,
       "pct": 0.38,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -1675,6 +1675,22 @@
       "rank": 104
     },
     {
+      "id": "2d61d5612db8",
+      "name": "Wolfgang E.",
+      "anon_phone": "+49 170 •••• 83",
+      "points": 53,
+      "pct": 0.16,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 13,
+      "early_counts": 0,
+      "last_ts": 1791916495.0,
+      "first_ts": 1783176393.0,
+      "rank": 105
+    },
+    {
       "id": "65c3c630027f",
       "name": "Dom🍦",
       "anon_phone": "+49 151 •••• 02",
@@ -1688,7 +1704,7 @@
       "early_counts": 0,
       "last_ts": 1789072617.0,
       "first_ts": 1781096291.0,
-      "rank": 105
+      "rank": 106
     },
     {
       "id": "9b2127152bcd",
@@ -1704,7 +1720,7 @@
       "early_counts": 0,
       "last_ts": 1791395788.0,
       "first_ts": 1784325764.0,
-      "rank": 106
+      "rank": 107
     },
     {
       "id": "aa0156afe213",
@@ -1720,22 +1736,6 @@
       "early_counts": 2,
       "last_ts": 1791805432.0,
       "first_ts": 1781976868.0,
-      "rank": 107
-    },
-    {
-      "id": "2d61d5612db8",
-      "name": "Wolfgang E.",
-      "anon_phone": "+49 170 •••• 83",
-      "points": 52,
-      "pct": 0.15,
-      "last24h": 1,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 13,
-      "early_counts": 0,
-      "last_ts": 1791829605.0,
-      "first_ts": 1783176393.0,
       "rank": 108
     },
     {
@@ -21400,21 +21400,21 @@
       "2e95be7bb9ea"
     ],
     "last_24h": [
-      "29a1c5fbe7db",
-      "b7f001ca29a3",
       "6548cd1b6eae",
       "553637e3d2b4",
-      "2f9108443e86",
+      "b7f001ca29a3",
       "a5f77afeecc6",
       "ffffb6c4106a",
-      "2d61d5612db8",
+      "29a1c5fbe7db",
       "5e0359616cc8",
       "86bb86eb2fd7",
+      "2f9108443e86",
       "764f33f39eb0",
       "708bf8e2d4a7",
       "4a9ecb3a320e",
       "8561b6020a64",
-      "db6d81e90b74"
+      "db6d81e90b74",
+      "948a66cb7c7a"
     ],
     "longest_streak": [
       {
@@ -21633,8 +21633,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "2e95be7bb9ea",
-      "name": "Luis",
+      "id": "2d61d5612db8",
+      "name": "Wolfgang E.",
       "value": 1
     },
     "biggest_message": {
@@ -22301,8 +22301,8 @@
     },
     {
       "date": "2026-10-13",
-      "count": 22,
-      "total": 33811
+      "count": 23,
+      "total": 33812
     }
   ],
   "hour_histogram": [
@@ -22326,12 +22326,18 @@
     1626,
     2160,
     2814,
-    3263,
+    3264,
     3214,
     2547,
     1711
   ],
   "recent": [
+    {
+      "n": 33812,
+      "id": "2d61d5612db8",
+      "name": "Wolfgang E.",
+      "ts": 1791916495.0
+    },
     {
       "n": 33811,
       "id": "2e95be7bb9ea",
@@ -22445,23 +22451,9 @@
       "id": "ffffb6c4106a",
       "name": "Samu",
       "ts": 1791905481.0
-    },
-    {
-      "n": 33792,
-      "id": "8561b6020a64",
-      "name": "Daniel W.",
-      "ts": 1791904921.0
     }
   ],
   "speed_samples": [
-    [
-      1791909075,
-      33798
-    ],
-    [
-      1791909075,
-      33799
-    ],
     [
       1791910129,
       33800
@@ -22509,6 +22501,10 @@
     [
       1791915398,
       33811
+    ],
+    [
+      1791916495,
+      33812
     ]
   ]
 }
