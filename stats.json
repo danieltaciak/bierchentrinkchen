@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T18:31:39.013637+00:00",
+  "generated_at": "2026-10-16T18:34:21.807549+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34070,
-  "progress_pct": 3.407,
+  "current_count": 34073,
+  "progress_pct": 3.4073,
   "num_players": 1343,
-  "total_messages": 47621,
+  "total_messages": 47622,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792175455.0,
+  "last_count_ts": 1792175636.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -400,7 +400,7 @@
       "anon_phone": "+49 152 •••• 13",
       "points": 162,
       "pct": 0.48,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -923,6 +923,22 @@
       "rank": 57
     },
     {
+      "id": "6548cd1b6eae",
+      "name": "Christoph",
+      "anon_phone": "+49 173 •••• 00",
+      "points": 91,
+      "pct": 0.27,
+      "last24h": 3,
+      "longest_streak": 5,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 7,
+      "early_counts": 4,
+      "last_ts": 1792175636.0,
+      "first_ts": 1781364692.0,
+      "rank": 58
+    },
+    {
       "id": "03772471f186",
       "name": "Miri",
       "anon_phone": "+49 151 •••• 17",
@@ -936,7 +952,7 @@
       "early_counts": 1,
       "last_ts": 1791115880.0,
       "first_ts": 1783536939.0,
-      "rank": 58
+      "rank": 59
     },
     {
       "id": "a417b8c082bc",
@@ -952,7 +968,7 @@
       "early_counts": 0,
       "last_ts": 1789915004.0,
       "first_ts": 1781895466.0,
-      "rank": 59
+      "rank": 60
     },
     {
       "id": "40e609fa336e",
@@ -968,22 +984,6 @@
       "early_counts": 1,
       "last_ts": 1791653799.0,
       "first_ts": 1781290891.0,
-      "rank": 60
-    },
-    {
-      "id": "6548cd1b6eae",
-      "name": "Christoph",
-      "anon_phone": "+49 173 •••• 00",
-      "points": 88,
-      "pct": 0.26,
-      "last24h": 0,
-      "longest_streak": 5,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 7,
-      "early_counts": 4,
-      "last_ts": 1791910129.0,
-      "first_ts": 1781364692.0,
       "rank": 61
     },
     {
@@ -21542,7 +21542,7 @@
       "86b1fcbef013",
       "410fbb050966",
       "06ef1dbdad22",
-      "97897748b637"
+      "6548cd1b6eae"
     ],
     "longest_streak": [
       {
@@ -21761,9 +21761,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "29a1c5fbe7db",
-      "name": "Tanja🌺",
-      "value": 1
+      "id": "6548cd1b6eae",
+      "name": "Christoph",
+      "value": 3
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22444,8 +22444,8 @@
     },
     {
       "date": "2026-10-16",
-      "count": 110,
-      "total": 34070
+      "count": 113,
+      "total": 34073
     }
   ],
   "hour_histogram": [
@@ -22469,12 +22469,30 @@
     1643,
     2174,
     2866,
-    3286,
+    3289,
     3231,
     2559,
     1717
   ],
   "recent": [
+    {
+      "n": 34073,
+      "id": "6548cd1b6eae",
+      "name": "Christoph",
+      "ts": 1792175636.0
+    },
+    {
+      "n": 34072,
+      "id": "6548cd1b6eae",
+      "name": "Christoph",
+      "ts": 1792175636.0
+    },
+    {
+      "n": 34071,
+      "id": "6548cd1b6eae",
+      "name": "Christoph",
+      "ts": 1792175636.0
+    },
     {
       "n": 34070,
       "id": "29a1c5fbe7db",
@@ -22576,24 +22594,6 @@
       "id": "c57bb671c758",
       "name": "Löppy",
       "ts": 1792171779.0
-    },
-    {
-      "n": 34048,
-      "id": "d78d72d94b57",
-      "name": "Niklas🦊",
-      "ts": 1792171654.0
-    },
-    {
-      "n": 34046,
-      "id": "29a1c5fbe7db",
-      "name": "Tanja🌺",
-      "ts": 1792171616.0
-    },
-    {
-      "n": 34045,
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "ts": 1792171553.0
     }
   ],
   "speed_samples": [
@@ -22700,6 +22700,18 @@
     [
       1792175455,
       34070
+    ],
+    [
+      1792175636,
+      34071
+    ],
+    [
+      1792175636,
+      34072
+    ],
+    [
+      1792175636,
+      34073
     ]
   ]
 }
