@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T20:38:39.099873+00:00",
+  "generated_at": "2026-10-16T20:39:44.648114+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34109,
-  "progress_pct": 3.4109,
+  "current_count": 34110,
+  "progress_pct": 3.411,
   "num_players": 1343,
-  "total_messages": 47673,
+  "total_messages": 47675,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792183097.0,
+  "last_count_ts": 1792183163.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -270,15 +270,15 @@
       "id": "764f33f39eb0",
       "name": "Maxi",
       "anon_phone": "+49 151 •••• 99",
-      "points": 185,
-      "pct": 0.54,
-      "last24h": 0,
+      "points": 186,
+      "pct": 0.55,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 5,
       "assists_received": 10,
       "night_counts": 20,
       "early_counts": 4,
-      "last_ts": 1791834127.0,
+      "last_ts": 1792183163.0,
       "first_ts": 1781284254.0,
       "rank": 17
     },
@@ -21761,8 +21761,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "82afa8eefe9c",
-      "name": "Tom S.",
+      "id": "764f33f39eb0",
+      "name": "Maxi",
       "value": 1
     },
     "biggest_message": {
@@ -22444,8 +22444,8 @@
     },
     {
       "date": "2026-10-16",
-      "count": 149,
-      "total": 34109
+      "count": 150,
+      "total": 34110
     }
   ],
   "hour_histogram": [
@@ -22471,10 +22471,16 @@
     2866,
     3286,
     3238,
-    2563,
+    2564,
     1717
   ],
   "recent": [
+    {
+      "n": 34110,
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "ts": 1792183163.0
+    },
     {
       "n": 34109,
       "id": "82afa8eefe9c",
@@ -22588,12 +22594,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1792173422.0
-    },
-    {
-      "n": 34058,
-      "id": "8561b6020a64",
-      "name": "Daniel W.",
-      "ts": 1792173107.0
     }
   ],
   "speed_samples": [
@@ -22640,6 +22640,10 @@
     [
       1792183097,
       34109
+    ],
+    [
+      1792183163,
+      34110
     ]
   ]
 }
