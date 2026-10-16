@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T21:47:49.270166+00:00",
+  "generated_at": "2026-10-16T21:58:05.500521+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34120,
-  "progress_pct": 3.412,
+  "current_count": 34121,
+  "progress_pct": 3.4121,
   "num_players": 1343,
-  "total_messages": 47689,
+  "total_messages": 47690,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792187240.0,
+  "last_count_ts": 1792187871.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -16,7 +16,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 576,
       "pct": 1.69,
-      "last24h": 8,
+      "last24h": 6,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -46,15 +46,15 @@
       "id": "b7f001ca29a3",
       "name": "leonski🍺",
       "anon_phone": "+49 160 •••• 72",
-      "points": 431,
-      "pct": 1.26,
-      "last24h": 6,
+      "points": 432,
+      "pct": 1.27,
+      "last24h": 7,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 5,
       "night_counts": 36,
       "early_counts": 5,
-      "last_ts": 1792183413.0,
+      "last_ts": 1792187871.0,
       "first_ts": 1780939774.0,
       "rank": 3
     },
@@ -21528,10 +21528,10 @@
       "2e95be7bb9ea"
     ],
     "last_24h": [
-      "a5f77afeecc6",
       "c57bb671c758",
       "286da26f56c5",
       "b7f001ca29a3",
+      "a5f77afeecc6",
       "82afa8eefe9c",
       "7dea3fea514f",
       "7a2e949e25b3",
@@ -21761,8 +21761,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "b7f001ca29a3",
+      "name": "leonski🍺",
       "value": 1
     },
     "biggest_message": {
@@ -22444,8 +22444,8 @@
     },
     {
       "date": "2026-10-16",
-      "count": 160,
-      "total": 34120
+      "count": 161,
+      "total": 34121
     }
   ],
   "hour_histogram": [
@@ -22472,9 +22472,15 @@
     3286,
     3238,
     2566,
-    1723
+    1724
   ],
   "recent": [
+    {
+      "n": 34121,
+      "id": "b7f001ca29a3",
+      "name": "leonski🍺",
+      "ts": 1792187871.0
+    },
     {
       "n": 34120,
       "id": "a5f77afeecc6",
@@ -22588,23 +22594,9 @@
       "id": "2d61d5612db8",
       "name": "Wolfgang E.",
       "ts": 1792178991.0
-    },
-    {
-      "n": 34090,
-      "id": "82afa8eefe9c",
-      "name": "Tom S.",
-      "ts": 1792178953.0
     }
   ],
   "speed_samples": [
-    [
-      1792180125,
-      34099
-    ],
-    [
-      1792180257,
-      34100
-    ],
     [
       1792180842,
       34106
@@ -22656,6 +22648,10 @@
     [
       1792187240,
       34120
+    ],
+    [
+      1792187871,
+      34121
     ]
   ]
 }
