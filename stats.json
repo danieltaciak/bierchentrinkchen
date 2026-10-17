@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T13:58:25.577636+00:00",
+  "generated_at": "2026-10-17T14:00:03.091428+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34188,
-  "progress_pct": 3.4188,
+  "current_count": 34189,
+  "progress_pct": 3.4189,
   "num_players": 1343,
-  "total_messages": 47764,
+  "total_messages": 47765,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792245484.0,
+  "last_count_ts": 1792245585.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -110,15 +110,15 @@
       "id": "c93ed700000f",
       "name": "linus",
       "anon_phone": "+49 178 •••• 54",
-      "points": 293,
+      "points": 294,
       "pct": 0.86,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 36,
       "early_counts": 2,
-      "last_ts": 1792100544.0,
+      "last_ts": 1792245585.0,
       "first_ts": 1781212818.0,
       "rank": 7
     },
@@ -21761,8 +21761,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "2f9108443e86",
-      "name": "Philipp",
+      "id": "c93ed700000f",
+      "name": "linus",
       "value": 1
     },
     "biggest_message": {
@@ -22449,8 +22449,8 @@
     },
     {
       "date": "2026-10-17",
-      "count": 66,
-      "total": 34188
+      "count": 67,
+      "total": 34189
     }
   ],
   "hour_histogram": [
@@ -22469,7 +22469,7 @@
     637,
     703,
     872,
-    888,
+    889,
     1268,
     1643,
     2174,
@@ -22480,6 +22480,12 @@
     1725
   ],
   "recent": [
+    {
+      "n": 34189,
+      "id": "c93ed700000f",
+      "name": "linus",
+      "ts": 1792245585.0
+    },
     {
       "n": 34188,
       "id": "2f9108443e86",
@@ -22593,12 +22599,6 @@
       "id": "708bf8e2d4a7",
       "name": "Felix",
       "ts": 1792236075.0
-    },
-    {
-      "n": 34169,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1792235889.0
     }
   ],
   "speed_samples": [
@@ -22653,6 +22653,10 @@
     [
       1792245484,
       34188
+    ],
+    [
+      1792245585,
+      34189
     ]
   ]
 }
