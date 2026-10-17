@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T13:19:17.123371+00:00",
+  "generated_at": "2026-10-17T13:23:31.896227+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34182,
-  "progress_pct": 3.4182,
+  "current_count": 34183,
+  "progress_pct": 3.4183,
   "num_players": 1343,
-  "total_messages": 47756,
+  "total_messages": 47757,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792243135.0,
+  "last_count_ts": 1792243396.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -334,15 +334,15 @@
       "id": "553637e3d2b4",
       "name": "Linus K.",
       "anon_phone": "+49 176 •••• 96",
-      "points": 172,
-      "pct": 0.5,
-      "last24h": 0,
+      "points": 173,
+      "pct": 0.51,
+      "last24h": 1,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 29,
       "early_counts": 0,
-      "last_ts": 1791992368.0,
+      "last_ts": 1792243396.0,
       "first_ts": 1782747846.0,
       "rank": 21
     },
@@ -21761,9 +21761,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "f52c8ea2e6d2",
-      "name": "Kevin R.",
-      "value": 2
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22449,8 +22449,8 @@
     },
     {
       "date": "2026-10-17",
-      "count": 60,
-      "total": 34182
+      "count": 61,
+      "total": 34183
     }
   ],
   "hour_histogram": [
@@ -22469,7 +22469,7 @@
     637,
     703,
     872,
-    882,
+    883,
     1268,
     1643,
     2174,
@@ -22480,6 +22480,12 @@
     1725
   ],
   "recent": [
+    {
+      "n": 34183,
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
+      "ts": 1792243396.0
+    },
     {
       "n": 34182,
       "id": "f52c8ea2e6d2",
@@ -22593,27 +22599,9 @@
       "id": "688b148fdaba",
       "name": "Jana",
       "ts": 1792234418.0
-    },
-    {
-      "n": 34162,
-      "id": "40e609fa336e",
-      "name": "Max S.",
-      "ts": 1792234383.0
     }
   ],
   "speed_samples": [
-    [
-      1792236075,
-      34170
-    ],
-    [
-      1792236112,
-      34171
-    ],
-    [
-      1792236144,
-      34172
-    ],
     [
       1792237376,
       34173
@@ -22653,6 +22641,10 @@
     [
       1792243135,
       34182
+    ],
+    [
+      1792243396,
+      34183
     ]
   ]
 }
