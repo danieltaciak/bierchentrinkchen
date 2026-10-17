@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T06:49:59.664149+00:00",
+  "generated_at": "2026-10-17T06:50:21.752287+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34136,
-  "progress_pct": 3.4136,
+  "current_count": 34138,
+  "progress_pct": 3.4138,
   "num_players": 1343,
-  "total_messages": 47713,
+  "total_messages": 47714,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792219782.0,
+  "last_count_ts": 1792219810.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -366,15 +366,15 @@
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
       "anon_phone": "+49 175 •••• 96",
-      "points": 166,
+      "points": 168,
       "pct": 0.49,
-      "last24h": 2,
-      "longest_streak": 2,
+      "last24h": 4,
+      "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 9,
-      "early_counts": 1,
-      "last_ts": 1792219782.0,
+      "early_counts": 3,
+      "last_ts": 1792219810.0,
       "first_ts": 1781465577.0,
       "rank": 23
     },
@@ -21538,11 +21538,11 @@
       "d78d72d94b57",
       "a5f77afeecc6",
       "9bf6383c58eb",
+      "c4fe31e13b5a",
       "86b1fcbef013",
       "410fbb050966",
       "06ef1dbdad22",
-      "29a1c5fbe7db",
-      "97897748b637"
+      "29a1c5fbe7db"
     ],
     "longest_streak": [
       {
@@ -21763,7 +21763,7 @@
     "current_streak": {
       "id": "c4fe31e13b5a",
       "name": "Felix T.",
-      "value": 1
+      "value": 3
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22449,8 +22449,8 @@
     },
     {
       "date": "2026-10-17",
-      "count": 14,
-      "total": 34136
+      "count": 16,
+      "total": 34138
     }
   ],
   "hour_histogram": [
@@ -22462,7 +22462,7 @@
     71,
     61,
     67,
-    161,
+    163,
     184,
     268,
     421,
@@ -22480,6 +22480,18 @@
     1725
   ],
   "recent": [
+    {
+      "n": 34138,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1792219810.0
+    },
+    {
+      "n": 34137,
+      "id": "c4fe31e13b5a",
+      "name": "Felix T.",
+      "ts": 1792219810.0
+    },
     {
       "n": 34136,
       "id": "c4fe31e13b5a",
@@ -22587,24 +22599,20 @@
       "id": "82afa8eefe9c",
       "name": "Tom S.",
       "ts": 1792187116.0
-    },
-    {
-      "n": 34117,
-      "id": "fc3ec1723b99",
-      "name": "Josefa:)",
-      "ts": 1792185922.0
-    },
-    {
-      "n": 34116,
-      "id": "6b9e5cf641da",
-      "name": "Alex",
-      "ts": 1792185706.0
     }
   ],
   "speed_samples": [
     [
       1792219782,
       34136
+    ],
+    [
+      1792219810,
+      34137
+    ],
+    [
+      1792219810,
+      34138
     ]
   ]
 }
