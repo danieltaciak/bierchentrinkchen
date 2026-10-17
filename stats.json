@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T16:46:24.465398+00:00",
+  "generated_at": "2026-10-17T16:46:53.053455+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34213,
-  "progress_pct": 3.4213,
+  "current_count": 34214,
+  "progress_pct": 3.4214,
   "num_players": 1344,
-  "total_messages": 47794,
+  "total_messages": 47796,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792255550.0,
+  "last_count_ts": 1792255600.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -270,15 +270,15 @@
       "id": "764f33f39eb0",
       "name": "Maxi",
       "anon_phone": "+49 151 •••• 99",
-      "points": 190,
+      "points": 191,
       "pct": 0.56,
-      "last24h": 5,
+      "last24h": 6,
       "longest_streak": 2,
       "assists_given": 5,
       "assists_received": 10,
       "night_counts": 24,
       "early_counts": 4,
-      "last_ts": 1792196808.0,
+      "last_ts": 1792255600.0,
       "first_ts": 1781284254.0,
       "rank": 17
     },
@@ -21548,9 +21548,9 @@
       "82afa8eefe9c",
       "c57bb671c758",
       "9bf6383c58eb",
+      "764f33f39eb0",
       "d78d72d94b57",
       "a5f77afeecc6",
-      "764f33f39eb0",
       "c4fe31e13b5a",
       "06ef1dbdad22",
       "29a1c5fbe7db",
@@ -21777,8 +21777,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "06ef1dbdad22",
-      "name": "Selin",
+      "id": "764f33f39eb0",
+      "name": "Maxi",
       "value": 1
     },
     "biggest_message": {
@@ -22465,8 +22465,8 @@
     },
     {
       "date": "2026-10-17",
-      "count": 91,
-      "total": 34213
+      "count": 92,
+      "total": 34214
     }
   ],
   "hour_histogram": [
@@ -22488,7 +22488,7 @@
     889,
     1274,
     1652,
-    2182,
+    2183,
     2866,
     3286,
     3238,
@@ -22496,6 +22496,12 @@
     1725
   ],
   "recent": [
+    {
+      "n": 34214,
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "ts": 1792255600.0
+    },
     {
       "n": 34213,
       "id": "06ef1dbdad22",
@@ -22609,12 +22615,6 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1792246883.0
-    },
-    {
-      "n": 34193,
-      "id": "4e8e7e0197c5",
-      "name": "Helen",
-      "ts": 1792246613.0
     }
   ],
   "speed_samples": [
@@ -22685,6 +22685,10 @@
     [
       1792255550,
       34213
+    ],
+    [
+      1792255600,
+      34214
     ]
   ]
 }
