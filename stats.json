@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-18T18:50:07.194625+00:00",
+  "generated_at": "2026-10-18T19:01:46.740527+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34375,
-  "progress_pct": 3.4375,
+  "current_count": 34376,
+  "progress_pct": 3.4376,
   "num_players": 1344,
-  "total_messages": 48024,
+  "total_messages": 48025,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792349386.0,
+  "last_count_ts": 1792350081.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1616,7 +1616,7 @@
       "anon_phone": "+420 775 •••• 23",
       "points": 55,
       "pct": 0.16,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -3355,6 +3355,22 @@
       "rank": 209
     },
     {
+      "id": "1e4ae878fbd7",
+      "name": "Gräfinho",
+      "anon_phone": "+49 176 •••• 78",
+      "points": 28,
+      "pct": 0.08,
+      "last24h": 1,
+      "longest_streak": 1,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1792350081.0,
+      "first_ts": 1781284458.0,
+      "rank": 210
+    },
+    {
       "id": "d64db822d6be",
       "name": "Henning J.",
       "anon_phone": "+49 152 •••• 11",
@@ -3368,7 +3384,7 @@
       "early_counts": 0,
       "last_ts": 1783795728.0,
       "first_ts": 1782397193.0,
-      "rank": 210
+      "rank": 211
     },
     {
       "id": "a532151749cc",
@@ -3384,7 +3400,7 @@
       "early_counts": 5,
       "last_ts": 1791052915.0,
       "first_ts": 1782042010.0,
-      "rank": 211
+      "rank": 212
     },
     {
       "id": "d875f81909b2",
@@ -3400,7 +3416,7 @@
       "early_counts": 0,
       "last_ts": 1792090733.0,
       "first_ts": 1781278495.0,
-      "rank": 212
+      "rank": 213
     },
     {
       "id": "731bb81020f0",
@@ -3416,7 +3432,7 @@
       "early_counts": 0,
       "last_ts": 1792340704.0,
       "first_ts": 1785445907.0,
-      "rank": 213
+      "rank": 214
     },
     {
       "id": "8b2f66e6f7ec",
@@ -3432,7 +3448,7 @@
       "early_counts": 3,
       "last_ts": 1782582740.0,
       "first_ts": 1781775059.0,
-      "rank": 214
+      "rank": 215
     },
     {
       "id": "a954e7a6ce61",
@@ -3448,22 +3464,6 @@
       "early_counts": 0,
       "last_ts": 1792148937.0,
       "first_ts": 1781198282.0,
-      "rank": 215
-    },
-    {
-      "id": "1e4ae878fbd7",
-      "name": "Gräfinho",
-      "anon_phone": "+49 176 •••• 78",
-      "points": 27,
-      "pct": 0.08,
-      "last24h": 0,
-      "longest_streak": 1,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1791738026.0,
-      "first_ts": 1781284458.0,
       "rank": 216
     },
     {
@@ -21777,8 +21777,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "1e4ae878fbd7",
+      "name": "Gräfinho",
       "value": 1
     },
     "biggest_message": {
@@ -22470,8 +22470,8 @@
     },
     {
       "date": "2026-10-18",
-      "count": 62,
-      "total": 34375
+      "count": 63,
+      "total": 34376
     }
   ],
   "hour_histogram": [
@@ -22496,11 +22496,17 @@
     2190,
     2886,
     3300,
-    3251,
+    3252,
     2578,
     1746
   ],
   "recent": [
+    {
+      "n": 34376,
+      "id": "1e4ae878fbd7",
+      "name": "Gräfinho",
+      "ts": 1792350081.0
+    },
     {
       "n": 34375,
       "id": "a5f77afeecc6",
@@ -22614,12 +22620,6 @@
       "id": "b0b07cec9753",
       "name": "Pata",
       "ts": 1792337198.0
-    },
-    {
-      "n": 34354,
-      "id": "29a1c5fbe7db",
-      "name": "Tanja🌺",
-      "ts": 1792334669.0
     }
   ],
   "speed_samples": [
@@ -22686,6 +22686,10 @@
     [
       1792349386,
       34375
+    ],
+    [
+      1792350081,
+      34376
     ]
   ]
 }
