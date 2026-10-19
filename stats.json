@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-19T19:09:29.378260+00:00",
+  "generated_at": "2026-10-19T19:19:08.922158+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34436,
-  "progress_pct": 3.4436,
+  "current_count": 34437,
+  "progress_pct": 3.4437,
   "num_players": 1344,
-  "total_messages": 48093,
+  "total_messages": 48095,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792436957.0,
+  "last_count_ts": 1792437534.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -542,15 +542,15 @@
       "id": "a84987d66bdc",
       "name": "Fincenths",
       "anon_phone": "+49 151 •••• 82",
-      "points": 133,
+      "points": 134,
       "pct": 0.39,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 5,
       "assists_given": 4,
       "assists_received": 3,
       "night_counts": 8,
       "early_counts": 1,
-      "last_ts": 1792261030.0,
+      "last_ts": 1792437534.0,
       "first_ts": 1781197357.0,
       "rank": 34
     },
@@ -21777,8 +21777,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "1b66c2456dfd",
-      "name": "MM",
+      "id": "a84987d66bdc",
+      "name": "Fincenths",
       "value": 1
     },
     "biggest_message": {
@@ -22475,8 +22475,8 @@
     },
     {
       "date": "2026-10-19",
-      "count": 44,
-      "total": 34436
+      "count": 45,
+      "total": 34437
     }
   ],
   "hour_histogram": [
@@ -22501,11 +22501,17 @@
     2199,
     2895,
     3308,
-    3261,
+    3262,
     2579,
     1749
   ],
   "recent": [
+    {
+      "n": 34437,
+      "id": "a84987d66bdc",
+      "name": "Fincenths",
+      "ts": 1792437534.0
+    },
     {
       "n": 34436,
       "id": "1b66c2456dfd",
@@ -22619,12 +22625,6 @@
       "id": "2e70915ef43b",
       "name": "Toni",
       "ts": 1792430543.0
-    },
-    {
-      "n": 34415,
-      "id": "708bf8e2d4a7",
-      "name": "Felix",
-      "ts": 1792429707.0
     }
   ],
   "speed_samples": [
@@ -22703,6 +22703,10 @@
     [
       1792436957,
       34436
+    ],
+    [
+      1792437534,
+      34437
     ]
   ]
 }
