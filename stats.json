@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-19T19:54:45.606977+00:00",
+  "generated_at": "2026-10-19T21:00:02.386444+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34443,
-  "progress_pct": 3.4443,
+  "current_count": 34445,
+  "progress_pct": 3.4445,
   "num_players": 1344,
-  "total_messages": 48102,
+  "total_messages": 48103,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792439660.0,
+  "last_count_ts": 1792443573.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -16,7 +16,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 590,
       "pct": 1.71,
-      "last24h": 6,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -155,6 +155,22 @@
       "rank": 9
     },
     {
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "anon_phone": "+49 151 •••• 00",
+      "points": 222,
+      "pct": 0.64,
+      "last24h": 8,
+      "longest_streak": 7,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 23,
+      "early_counts": 0,
+      "last_ts": 1792443573.0,
+      "first_ts": 1786728676.0,
+      "rank": 10
+    },
+    {
       "id": "df6424fbdeef",
       "name": "Daniel",
       "anon_phone": "+49 163 •••• 57",
@@ -168,22 +184,6 @@
       "early_counts": 1,
       "last_ts": 1792274313.0,
       "first_ts": 1781452642.0,
-      "rank": 10
-    },
-    {
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "anon_phone": "+49 151 •••• 00",
-      "points": 220,
-      "pct": 0.64,
-      "last24h": 7,
-      "longest_streak": 7,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 23,
-      "early_counts": 0,
-      "last_ts": 1792438664.0,
-      "first_ts": 1786728676.0,
       "rank": 11
     },
     {
@@ -21526,8 +21526,8 @@
       "c93ed700000f",
       "82a6be011a09",
       "8a6ad087f1ea",
-      "df6424fbdeef",
       "06ef1dbdad22",
+      "df6424fbdeef",
       "bbd3041bdb62",
       "74c46f04e647",
       "29a1c5fbe7db",
@@ -21545,9 +21545,9 @@
     ],
     "last_24h": [
       "06ef1dbdad22",
-      "a5f77afeecc6",
       "9bf6383c58eb",
       "29a1c5fbe7db",
+      "a5f77afeecc6",
       "3c78a4db262f",
       "a954e7a6ce61",
       "5f45182377dd",
@@ -21777,9 +21777,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "value": 1
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22475,8 +22475,8 @@
     },
     {
       "date": "2026-10-19",
-      "count": 51,
-      "total": 34443
+      "count": 53,
+      "total": 34445
     }
   ],
   "hour_histogram": [
@@ -22502,10 +22502,22 @@
     2895,
     3308,
     3267,
-    2579,
+    2581,
     1749
   ],
   "recent": [
+    {
+      "n": 34445,
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "ts": 1792443573.0
+    },
+    {
+      "n": 34444,
+      "id": "06ef1dbdad22",
+      "name": "Selin",
+      "ts": 1792443573.0
+    },
     {
       "n": 34443,
       "id": "9bf6383c58eb",
@@ -22613,57 +22625,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1792432858.0
-    },
-    {
-      "n": 34422,
-      "id": "5f45182377dd",
-      "name": "Helle",
-      "ts": 1792432578.0
-    },
-    {
-      "n": 34421,
-      "id": "b78c86671efc",
-      "name": "Johannes",
-      "ts": 1792432359.0
     }
   ],
   "speed_samples": [
-    [
-      1792432578,
-      34422
-    ],
-    [
-      1792432858,
-      34423
-    ],
-    [
-      1792433099,
-      34424
-    ],
-    [
-      1792433558,
-      34425
-    ],
-    [
-      1792434372,
-      34426
-    ],
-    [
-      1792434386,
-      34427
-    ],
-    [
-      1792434476,
-      34430
-    ],
-    [
-      1792436063,
-      34431
-    ],
-    [
-      1792436192,
-      34432
-    ],
     [
       1792436499,
       34433
@@ -22703,6 +22667,14 @@
     [
       1792439660,
       34443
+    ],
+    [
+      1792443573,
+      34444
+    ],
+    [
+      1792443573,
+      34445
     ]
   ]
 }
