@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-19T17:53:09.854834+00:00",
+  "generated_at": "2026-10-19T17:56:56.235544+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34421,
-  "progress_pct": 3.4421,
+  "current_count": 34422,
+  "progress_pct": 3.4422,
   "num_players": 1344,
-  "total_messages": 48072,
+  "total_messages": 48073,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792432359.0,
+  "last_count_ts": 1792432578.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -750,15 +750,15 @@
       "id": "5f45182377dd",
       "name": "Helle",
       "anon_phone": "+49 175 •••• 10",
-      "points": 110,
+      "points": 111,
       "pct": 0.32,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 1,
       "early_counts": 2,
-      "last_ts": 1792425600.0,
+      "last_ts": 1792432578.0,
       "first_ts": 1784649623.0,
       "rank": 47
     },
@@ -21777,8 +21777,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b78c86671efc",
-      "name": "Johannes",
+      "id": "5f45182377dd",
+      "name": "Helle",
       "value": 1
     },
     "biggest_message": {
@@ -22475,8 +22475,8 @@
     },
     {
       "date": "2026-10-19",
-      "count": 29,
-      "total": 34421
+      "count": 30,
+      "total": 34422
     }
   ],
   "hour_histogram": [
@@ -22499,13 +22499,19 @@
     1277,
     1657,
     2199,
-    2894,
+    2895,
     3300,
     3257,
     2579,
     1749
   ],
   "recent": [
+    {
+      "n": 34422,
+      "id": "5f45182377dd",
+      "name": "Helle",
+      "ts": 1792432578.0
+    },
     {
       "n": 34421,
       "id": "b78c86671efc",
@@ -22619,12 +22625,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1792423666.0
-    },
-    {
-      "n": 34402,
-      "id": "6999c63e5d78",
-      "name": "Bene.G",
-      "ts": 1792423203.0
     }
   ],
   "speed_samples": [
@@ -22695,6 +22695,10 @@
     [
       1792432359,
       34421
+    ],
+    [
+      1792432578,
+      34422
     ]
   ]
 }
