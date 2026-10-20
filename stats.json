@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-20T19:28:38.497192+00:00",
+  "generated_at": "2026-10-20T19:34:34.491599+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34539,
-  "progress_pct": 3.4539,
+  "current_count": 34540,
+  "progress_pct": 3.454,
   "num_players": 1344,
-  "total_messages": 48155,
+  "total_messages": 48156,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792524491.0,
+  "last_count_ts": 1792524849.0,
   "players": [
     {
       "id": "a5f77afeecc6",
       "name": "Nico",
       "anon_phone": "+49 170 •••• 40",
-      "points": 593,
+      "points": 594,
       "pct": 1.72,
       "last24h": 3,
       "longest_streak": 4,
@@ -22,7 +22,7 @@
       "assists_received": 0,
       "night_counts": 43,
       "early_counts": 0,
-      "last_ts": 1792518745.0,
+      "last_ts": 1792524849.0,
       "first_ts": 1781292817.0,
       "rank": 1
     },
@@ -21777,8 +21777,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
+      "id": "a5f77afeecc6",
+      "name": "Nico",
       "value": 1
     },
     "biggest_message": {
@@ -22480,8 +22480,8 @@
     },
     {
       "date": "2026-10-20",
-      "count": 42,
-      "total": 34539
+      "count": 43,
+      "total": 34540
     }
   ],
   "hour_histogram": [
@@ -22506,11 +22506,17 @@
     2206,
     2901,
     3314,
-    3269,
+    3270,
     2581,
     1751
   ],
   "recent": [
+    {
+      "n": 34540,
+      "id": "a5f77afeecc6",
+      "name": "Nico",
+      "ts": 1792524849.0
+    },
     {
       "n": 34539,
       "id": "3ce6f8806201",
@@ -22624,12 +22630,6 @@
       "id": "35d65a497164",
       "name": "Jonas B.",
       "ts": 1792514074.0
-    },
-    {
-      "n": 34520,
-      "id": "db6d81e90b74",
-      "name": "Dominik H.",
-      "ts": 1792512105.0
     }
   ],
   "speed_samples": [
@@ -22672,6 +22672,10 @@
     [
       1792524491,
       34539
+    ],
+    [
+      1792524849,
+      34540
     ]
   ]
 }
