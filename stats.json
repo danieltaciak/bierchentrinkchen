@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-21T15:05:20.301601+00:00",
+  "generated_at": "2026-10-21T15:35:30.539299+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34554,
-  "progress_pct": 3.4554,
+  "current_count": 34555,
+  "progress_pct": 3.4555,
   "num_players": 1344,
-  "total_messages": 48171,
+  "total_messages": 48173,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792595108.0,
+  "last_count_ts": 1792596910.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -95,7 +95,7 @@
       "name": "Jakob",
       "anon_phone": "+49 152 •••• 43",
       "points": 330,
-      "pct": 0.96,
+      "pct": 0.95,
       "last24h": 0,
       "longest_streak": 6,
       "assists_given": 2,
@@ -379,6 +379,22 @@
       "rank": 23
     },
     {
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
+      "anon_phone": "+49 152 •••• 13",
+      "points": 165,
+      "pct": 0.48,
+      "last24h": 3,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 6,
+      "early_counts": 2,
+      "last_ts": 1792596910.0,
+      "first_ts": 1781200389.0,
+      "rank": 24
+    },
+    {
       "id": "73a69bdc1f9e",
       "name": "Dominikz",
       "anon_phone": "+49 151 •••• 37",
@@ -392,22 +408,6 @@
       "early_counts": 3,
       "last_ts": 1792250137.0,
       "first_ts": 1789061375.0,
-      "rank": 24
-    },
-    {
-      "id": "2e95be7bb9ea",
-      "name": "Luis",
-      "anon_phone": "+49 152 •••• 13",
-      "points": 164,
-      "pct": 0.47,
-      "last24h": 2,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 6,
-      "early_counts": 2,
-      "last_ts": 1792595108.0,
-      "first_ts": 1781200389.0,
       "rank": 25
     },
     {
@@ -1312,7 +1312,7 @@
       "anon_phone": "+49 175 •••• 06",
       "points": 67,
       "pct": 0.19,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -6304,7 +6304,7 @@
       "anon_phone": "+49 178 •••• 96",
       "points": 14,
       "pct": 0.04,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -21540,25 +21540,25 @@
       "81baf6634942",
       "c4fe31e13b5a",
       "ff8a86710b38",
-      "73a69bdc1f9e",
-      "2e95be7bb9ea"
+      "2e95be7bb9ea",
+      "73a69bdc1f9e"
     ],
     "last_24h": [
       "06ef1dbdad22",
       "a5f77afeecc6",
       "9bf6383c58eb",
+      "2e95be7bb9ea",
       "8561b6020a64",
       "cec25393509e",
       "5f45182377dd",
       "3ce6f8806201",
       "df6424fbdeef",
       "5e0359616cc8",
-      "2e95be7bb9ea",
-      "b78c86671efc",
-      "708bf8e2d4a7",
       "db6d81e90b74",
       "35d65a497164",
-      "926048ba30b0"
+      "926048ba30b0",
+      "29a1c5fbe7db",
+      "ffffb6c4106a"
     ],
     "longest_streak": [
       {
@@ -21779,7 +21779,7 @@
     "current_streak": {
       "id": "2e95be7bb9ea",
       "name": "Luis",
-      "value": 2
+      "value": 3
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22485,8 +22485,8 @@
     },
     {
       "date": "2026-10-21",
-      "count": 8,
-      "total": 34554
+      "count": 9,
+      "total": 34555
     }
   ],
   "hour_histogram": [
@@ -22507,7 +22507,7 @@
     876,
     899,
     1279,
-    1662,
+    1663,
     2206,
     2901,
     3314,
@@ -22516,6 +22516,12 @@
     1752
   ],
   "recent": [
+    {
+      "n": 34555,
+      "id": "2e95be7bb9ea",
+      "name": "Luis",
+      "ts": 1792596910.0
+    },
     {
       "n": 34554,
       "id": "2e95be7bb9ea",
@@ -22629,19 +22635,9 @@
       "id": "df6424fbdeef",
       "name": "Daniel",
       "ts": 1792521858.0
-    },
-    {
-      "n": 34535,
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
-      "ts": 1792521515.0
     }
   ],
   "speed_samples": [
-    [
-      1792589693,
-      34551
-    ],
     [
       1792592554,
       34552
@@ -22653,6 +22649,10 @@
     [
       1792595108,
       34554
+    ],
+    [
+      1792596910,
+      34555
     ]
   ]
 }
