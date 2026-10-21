@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-21T17:29:31.083017+00:00",
+  "generated_at": "2026-10-21T17:30:22.182279+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34561,
-  "progress_pct": 3.4561,
+  "current_count": 34562,
+  "progress_pct": 3.4562,
   "num_players": 1344,
-  "total_messages": 48178,
+  "total_messages": 48179,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792603758.0,
+  "last_count_ts": 1792603788.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -302,15 +302,15 @@
       "id": "553637e3d2b4",
       "name": "Linus K.",
       "anon_phone": "+49 176 •••• 96",
-      "points": 178,
+      "points": 179,
       "pct": 0.52,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 29,
       "early_counts": 0,
-      "last_ts": 1792426679.0,
+      "last_ts": 1792603788.0,
       "first_ts": 1782747846.0,
       "rank": 19
     },
@@ -21777,8 +21777,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9b2127152bcd",
-      "name": "Moritz E.",
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
       "value": 1
     },
     "biggest_message": {
@@ -22485,8 +22485,8 @@
     },
     {
       "date": "2026-10-21",
-      "count": 15,
-      "total": 34561
+      "count": 16,
+      "total": 34562
     }
   ],
   "hour_histogram": [
@@ -22509,13 +22509,19 @@
     1279,
     1666,
     2207,
-    2903,
+    2904,
     3314,
     3272,
     2584,
     1752
   ],
   "recent": [
+    {
+      "n": 34562,
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
+      "ts": 1792603788.0
+    },
     {
       "n": 34561,
       "id": "9b2127152bcd",
@@ -22629,12 +22635,6 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1792526601.0
-    },
-    {
-      "n": 34542,
-      "id": "06ef1dbdad22",
-      "name": "Selin",
-      "ts": 1792526013.0
     }
   ],
   "speed_samples": [
@@ -22665,6 +22665,10 @@
     [
       1792603758,
       34561
+    ],
+    [
+      1792603788,
+      34562
     ]
   ]
 }
