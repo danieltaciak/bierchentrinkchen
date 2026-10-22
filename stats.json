@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-22T21:17:34.517058+00:00",
+  "generated_at": "2026-10-22T21:42:24.150995+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34610,
-  "progress_pct": 3.461,
+  "current_count": 34611,
+  "progress_pct": 3.4611,
   "num_players": 1344,
-  "total_messages": 48271,
+  "total_messages": 48272,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792703840.0,
+  "last_count_ts": 1792705325.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1360,7 +1360,7 @@
       "anon_phone": "+49 159 •••• 11",
       "points": 64,
       "pct": 0.18,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -2347,6 +2347,22 @@
       "rank": 146
     },
     {
+      "id": "fb2fe35b5239",
+      "name": "Lena",
+      "anon_phone": "+49 171 •••• 67",
+      "points": 38,
+      "pct": 0.11,
+      "last24h": 2,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 1,
+      "last_ts": 1792705325.0,
+      "first_ts": 1789242148.0,
+      "rank": 147
+    },
+    {
       "id": "e72eb1d3da01",
       "name": "Lorenz",
       "anon_phone": "+49 151 •••• 57",
@@ -2360,7 +2376,7 @@
       "early_counts": 0,
       "last_ts": 1783759581.0,
       "first_ts": 1781030950.0,
-      "rank": 147
+      "rank": 148
     },
     {
       "id": "13e70145a905",
@@ -2376,7 +2392,7 @@
       "early_counts": 0,
       "last_ts": 1787342402.0,
       "first_ts": 1782037239.0,
-      "rank": 148
+      "rank": 149
     },
     {
       "id": "3be464c7342c",
@@ -2392,7 +2408,7 @@
       "early_counts": 0,
       "last_ts": 1784797616.0,
       "first_ts": 1781102767.0,
-      "rank": 149
+      "rank": 150
     },
     {
       "id": "db4218c80c09",
@@ -2408,7 +2424,7 @@
       "early_counts": 2,
       "last_ts": 1790856778.0,
       "first_ts": 1781783093.0,
-      "rank": 150
+      "rank": 151
     },
     {
       "id": "1c241224dd31",
@@ -2424,7 +2440,7 @@
       "early_counts": 0,
       "last_ts": 1786126156.0,
       "first_ts": 1781350729.0,
-      "rank": 151
+      "rank": 152
     },
     {
       "id": "384e4344b5d8",
@@ -2440,22 +2456,6 @@
       "early_counts": 0,
       "last_ts": 1790805154.0,
       "first_ts": 1781249068.0,
-      "rank": 152
-    },
-    {
-      "id": "fb2fe35b5239",
-      "name": "Lena",
-      "anon_phone": "+49 171 •••• 67",
-      "points": 37,
-      "pct": 0.11,
-      "last24h": 1,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 1,
-      "last_ts": 1792699883.0,
-      "first_ts": 1789242148.0,
       "rank": 153
     },
     {
@@ -21552,7 +21552,7 @@
       "7a2e949e25b3",
       "c93ed700000f",
       "29a1c5fbe7db",
-      "80947a53b5f3",
+      "fb2fe35b5239",
       "4460bcf9c79c",
       "2f9108443e86",
       "732c638fc2fc",
@@ -21777,8 +21777,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9bf6383c58eb",
-      "name": "Nico",
+      "id": "fb2fe35b5239",
+      "name": "Lena",
       "value": 1
     },
     "biggest_message": {
@@ -22490,8 +22490,8 @@
     },
     {
       "date": "2026-10-22",
-      "count": 43,
-      "total": 34610
+      "count": 44,
+      "total": 34611
     }
   ],
   "hour_histogram": [
@@ -22518,9 +22518,15 @@
     3320,
     3277,
     2592,
-    1755
+    1756
   ],
   "recent": [
+    {
+      "n": 34611,
+      "id": "fb2fe35b5239",
+      "name": "Lena",
+      "ts": 1792705325.0
+    },
     {
       "n": 34610,
       "id": "9bf6383c58eb",
@@ -22634,12 +22640,6 @@
       "id": "7b758a066b60",
       "name": "Sebastian",
       "ts": 1792692027.0
-    },
-    {
-      "n": 34589,
-      "id": "7a2e949e25b3",
-      "name": "Johnny",
-      "ts": 1792691648.0
     }
   ],
   "speed_samples": [
@@ -22698,6 +22698,10 @@
     [
       1792703840,
       34610
+    ],
+    [
+      1792705325,
+      34611
     ]
   ]
 }
