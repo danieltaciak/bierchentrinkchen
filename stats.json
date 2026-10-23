@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-23T17:42:57.871433+00:00",
+  "generated_at": "2026-10-23T17:45:42.374564+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34638,
-  "progress_pct": 3.4638,
+  "current_count": 34639,
+  "progress_pct": 3.4639,
   "num_players": 1344,
-  "total_messages": 48298,
+  "total_messages": 48300,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792777363.0,
+  "last_count_ts": 1792777525.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -62,15 +62,15 @@
       "id": "7a2e949e25b3",
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
-      "points": 400,
-      "pct": 1.15,
-      "last24h": 2,
+      "points": 401,
+      "pct": 1.16,
+      "last24h": 3,
       "longest_streak": 6,
       "assists_given": 35,
       "assists_received": 13,
       "night_counts": 46,
       "early_counts": 4,
-      "last_ts": 1792691648.0,
+      "last_ts": 1792777525.0,
       "first_ts": 1781196449.0,
       "rank": 4
     },
@@ -21547,10 +21547,10 @@
       "6ae8b7629ff6",
       "5f45182377dd",
       "9bf6383c58eb",
+      "7a2e949e25b3",
       "06ef1dbdad22",
       "29a1c5fbe7db",
       "3ce6f8806201",
-      "7a2e949e25b3",
       "c93ed700000f",
       "fb2fe35b5239",
       "aa0156afe213",
@@ -21777,8 +21777,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "97897748b637",
-      "name": "Raphi",
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
       "value": 1
     },
     "biggest_message": {
@@ -22495,8 +22495,8 @@
     },
     {
       "date": "2026-10-23",
-      "count": 27,
-      "total": 34638
+      "count": 28,
+      "total": 34639
     }
   ],
   "hour_histogram": [
@@ -22519,13 +22519,19 @@
     1282,
     1674,
     2219,
-    2918,
+    2919,
     3320,
     3277,
     2592,
     1756
   ],
   "recent": [
+    {
+      "n": 34639,
+      "id": "7a2e949e25b3",
+      "name": "Johnny",
+      "ts": 1792777525.0
+    },
     {
       "n": 34638,
       "id": "97897748b637",
@@ -22639,12 +22645,6 @@
       "id": "ffffb6c4106a",
       "name": "Samu",
       "ts": 1792768740.0
-    },
-    {
-      "n": 34618,
-      "id": "aa0156afe213",
-      "name": "Til",
-      "ts": 1792768086.0
     }
   ],
   "speed_samples": [
@@ -22719,6 +22719,10 @@
     [
       1792777363,
       34638
+    ],
+    [
+      1792777525,
+      34639
     ]
   ]
 }
