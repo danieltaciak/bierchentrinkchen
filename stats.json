@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-23T18:06:21.232272+00:00",
+  "generated_at": "2026-10-23T18:16:41.991275+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34643,
-  "progress_pct": 3.4643,
+  "current_count": 34644,
+  "progress_pct": 3.4644,
   "num_players": 1344,
-  "total_messages": 48304,
+  "total_messages": 48306,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792778755.0,
+  "last_count_ts": 1792779383.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1870,15 +1870,15 @@
       "id": "73b18d345917",
       "name": "Severin",
       "anon_phone": "+49 176 •••• 12",
-      "points": 45,
+      "points": 46,
       "pct": 0.13,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 8,
       "early_counts": 0,
-      "last_ts": 1788898011.0,
+      "last_ts": 1792779383.0,
       "first_ts": 1781356018.0,
       "rank": 117
     },
@@ -21777,8 +21777,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "fb2fe35b5239",
-      "name": "Lena",
+      "id": "73b18d345917",
+      "name": "Severin",
       "value": 1
     },
     "biggest_message": {
@@ -22495,8 +22495,8 @@
     },
     {
       "date": "2026-10-23",
-      "count": 32,
-      "total": 34643
+      "count": 33,
+      "total": 34644
     }
   ],
   "hour_histogram": [
@@ -22520,12 +22520,18 @@
     1674,
     2219,
     2921,
-    3322,
+    3323,
     3277,
     2592,
     1756
   ],
   "recent": [
+    {
+      "n": 34644,
+      "id": "73b18d345917",
+      "name": "Severin",
+      "ts": 1792779383.0
+    },
     {
       "n": 34643,
       "id": "fb2fe35b5239",
@@ -22639,27 +22645,9 @@
       "id": "5f45182377dd",
       "name": "Helle",
       "ts": 1792773514.0
-    },
-    {
-      "n": 34623,
-      "id": "6ae8b7629ff6",
-      "name": "Juls",
-      "ts": 1792772174.0
     }
   ],
   "speed_samples": [
-    [
-      1792772174,
-      34621
-    ],
-    [
-      1792772174,
-      34622
-    ],
-    [
-      1792772174,
-      34623
-    ],
     [
       1792773514,
       34624
@@ -22735,6 +22723,10 @@
     [
       1792778755,
       34643
+    ],
+    [
+      1792779383,
+      34644
     ]
   ]
 }
