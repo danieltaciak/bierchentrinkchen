@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T19:27:10.256896+00:00",
+  "generated_at": "2026-10-24T19:27:34.734682+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34819,
-  "progress_pct": 3.4819,
+  "current_count": 34820,
+  "progress_pct": 3.482,
   "num_players": 1350,
-  "total_messages": 48502,
+  "total_messages": 48503,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792870018.0,
+  "last_count_ts": 1792870039.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -251,6 +251,22 @@
       "rank": 15
     },
     {
+      "id": "cec25393509e",
+      "name": "Michl",
+      "anon_phone": "+49 162 •••• 18",
+      "points": 198,
+      "pct": 0.57,
+      "last24h": 1,
+      "longest_streak": 6,
+      "assists_given": 4,
+      "assists_received": 2,
+      "night_counts": 13,
+      "early_counts": 1,
+      "last_ts": 1792870039.0,
+      "first_ts": 1781100515.0,
+      "rank": 16
+    },
+    {
       "id": "764f33f39eb0",
       "name": "Maxi",
       "anon_phone": "+49 151 •••• 99",
@@ -264,22 +280,6 @@
       "early_counts": 4,
       "last_ts": 1792865918.0,
       "first_ts": 1781284254.0,
-      "rank": 16
-    },
-    {
-      "id": "cec25393509e",
-      "name": "Michl",
-      "anon_phone": "+49 162 •••• 18",
-      "points": 197,
-      "pct": 0.57,
-      "last24h": 0,
-      "longest_streak": 6,
-      "assists_given": 4,
-      "assists_received": 2,
-      "night_counts": 13,
-      "early_counts": 1,
-      "last_ts": 1792782427.0,
-      "first_ts": 1781100515.0,
       "rank": 17
     },
     {
@@ -21628,8 +21628,8 @@
       "bbd3041bdb62",
       "74c46f04e647",
       "115bd3930d45",
-      "764f33f39eb0",
       "cec25393509e",
+      "764f33f39eb0",
       "3ce6f8806201",
       "553637e3d2b4",
       "1a6129668ba3",
@@ -21873,8 +21873,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "553637e3d2b4",
-      "name": "Linus K.",
+      "id": "cec25393509e",
+      "name": "Michl",
       "value": 1
     },
     "biggest_message": {
@@ -22596,8 +22596,8 @@
     },
     {
       "date": "2026-10-24",
-      "count": 104,
-      "total": 34819
+      "count": 105,
+      "total": 34820
     }
   ],
   "hour_histogram": [
@@ -22622,11 +22622,17 @@
     2234,
     2930,
     3348,
-    3312,
+    3313,
     2609,
     1763
   ],
   "recent": [
+    {
+      "n": 34820,
+      "id": "cec25393509e",
+      "name": "Michl",
+      "ts": 1792870039.0
+    },
     {
       "n": 34819,
       "id": "553637e3d2b4",
@@ -22740,12 +22746,6 @@
       "id": "032a270163e4",
       "name": "Philomena",
       "ts": 1792867087.0
-    },
-    {
-      "n": 34796,
-      "id": "a12a9752d04f",
-      "name": "Roman",
-      "ts": 1792866805.0
     }
   ],
   "speed_samples": [
@@ -22872,6 +22872,10 @@
     [
       1792870018,
       34819
+    ],
+    [
+      1792870039,
+      34820
     ]
   ]
 }
