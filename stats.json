@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-25T12:49:33.517167+00:00",
+  "generated_at": "2026-10-25T13:01:22.839652+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 34900,
-  "progress_pct": 3.49,
+  "current_count": 34901,
+  "progress_pct": 3.4901,
   "num_players": 1352,
-  "total_messages": 48580,
+  "total_messages": 48581,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1792932557.0,
+  "last_count_ts": 1792933268.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1616,7 +1616,7 @@
       "anon_phone": "+49 173 •••• 00",
       "points": 56,
       "pct": 0.16,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -3579,6 +3579,22 @@
       "rank": 223
     },
     {
+      "id": "326da965bffa",
+      "name": "X",
+      "anon_phone": "+49 176 •••• 25",
+      "points": 27,
+      "pct": 0.08,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 1,
+      "early_counts": 2,
+      "last_ts": 1792933268.0,
+      "first_ts": 1782280076.0,
+      "rank": 224
+    },
+    {
       "id": "f4ad9479749a",
       "name": "Elias",
       "anon_phone": "+49 176 •••• 24",
@@ -3592,7 +3608,7 @@
       "early_counts": 1,
       "last_ts": 1786141372.0,
       "first_ts": 1781293969.0,
-      "rank": 224
+      "rank": 225
     },
     {
       "id": "38c5011dcc99",
@@ -3608,7 +3624,7 @@
       "early_counts": 0,
       "last_ts": 1790527116.0,
       "first_ts": 1781382235.0,
-      "rank": 225
+      "rank": 226
     },
     {
       "id": "278ff84427e2",
@@ -3624,7 +3640,7 @@
       "early_counts": 0,
       "last_ts": 1788018478.0,
       "first_ts": 1783795543.0,
-      "rank": 226
+      "rank": 227
     },
     {
       "id": "32a3ba719705",
@@ -3640,7 +3656,7 @@
       "early_counts": 0,
       "last_ts": 1788467462.0,
       "first_ts": 1786813879.0,
-      "rank": 227
+      "rank": 228
     },
     {
       "id": "4657fdad849e",
@@ -3656,7 +3672,7 @@
       "early_counts": 0,
       "last_ts": 1786451028.0,
       "first_ts": 1783539692.0,
-      "rank": 228
+      "rank": 229
     },
     {
       "id": "4189343ed497",
@@ -3672,22 +3688,6 @@
       "early_counts": 2,
       "last_ts": 1790526546.0,
       "first_ts": 1783037025.0,
-      "rank": 229
-    },
-    {
-      "id": "326da965bffa",
-      "name": "X",
-      "anon_phone": "+49 176 •••• 25",
-      "points": 26,
-      "pct": 0.07,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 1,
-      "early_counts": 2,
-      "last_ts": 1789144180.0,
-      "first_ts": 1782280076.0,
       "rank": 230
     },
     {
@@ -21680,13 +21680,13 @@
       "df6424fbdeef",
       "a5f77afeecc6",
       "e1682a59e246",
-      "2e70915ef43b",
       "c56db3f32163",
       "5f45182377dd",
       "9cd9d9e1847c",
       "b4c5dace35d9",
       "74ff2108d346",
-      "cec25393509e"
+      "cec25393509e",
+      "067056ac234a"
     ],
     "longest_streak": [
       {
@@ -21905,8 +21905,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "e2c4f4715c1a",
-      "name": "Maurice",
+      "id": "326da965bffa",
+      "name": "X",
       "value": 1
     },
     "biggest_message": {
@@ -22633,8 +22633,8 @@
     },
     {
       "date": "2026-10-25",
-      "count": 29,
-      "total": 34900
+      "count": 30,
+      "total": 34901
     }
   ],
   "hour_histogram": [
@@ -22652,7 +22652,7 @@
     435,
     653,
     732,
-    882,
+    883,
     903,
     1286,
     1685,
@@ -22664,6 +22664,12 @@
     1775
   ],
   "recent": [
+    {
+      "n": 34901,
+      "id": "326da965bffa",
+      "name": "X",
+      "ts": 1792933268.0
+    },
     {
       "n": 34900,
       "id": "e2c4f4715c1a",
@@ -22777,12 +22783,6 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1792886899.0
-    },
-    {
-      "n": 34878,
-      "id": "b24539a93d86",
-      "name": "Dany",
-      "ts": 1792885599.0
     }
   ],
   "speed_samples": [
@@ -22821,6 +22821,10 @@
     [
       1792932557,
       34900
+    ],
+    [
+      1792933268,
+      34901
     ]
   ]
 }
