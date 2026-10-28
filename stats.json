@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-28T18:40:23.546216+00:00",
+  "generated_at": "2026-10-28T18:57:49.126611+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35024,
-  "progress_pct": 3.5024,
+  "current_count": 35027,
+  "progress_pct": 3.5027,
   "num_players": 1354,
-  "total_messages": 48721,
+  "total_messages": 48726,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793212800.0,
+  "last_count_ts": 1793213857.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -622,15 +622,15 @@
       "id": "5f45182377dd",
       "name": "Helle",
       "anon_phone": "+49 175 •••• 10",
-      "points": 127,
-      "pct": 0.36,
-      "last24h": 3,
+      "points": 128,
+      "pct": 0.37,
+      "last24h": 4,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 1,
       "early_counts": 2,
-      "last_ts": 1793206486.0,
+      "last_ts": 1793213857.0,
       "first_ts": 1784649623.0,
       "rank": 39
     },
@@ -21935,8 +21935,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "021897120ae0",
-      "name": "Michael F.",
+      "id": "5f45182377dd",
+      "name": "Helle",
       "value": 1
     },
     "biggest_message": {
@@ -22678,8 +22678,8 @@
     },
     {
       "date": "2026-10-28",
-      "count": 17,
-      "total": 35024
+      "count": 20,
+      "total": 35027
     }
   ],
   "hour_histogram": [
@@ -22702,13 +22702,19 @@
     1289,
     1701,
     2251,
-    2949,
+    2950,
     3354,
     3319,
     2627,
     1776
   ],
   "recent": [
+    {
+      "n": 35027,
+      "id": "5f45182377dd",
+      "name": "Helle",
+      "ts": 1793213857.0
+    },
     {
       "n": 35024,
       "id": "021897120ae0",
@@ -22822,27 +22828,9 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1793126365.0
-    },
-    {
-      "n": 35004,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1793123191.0
     }
   ],
   "speed_samples": [
-    [
-      1793206165,
-      35014
-    ],
-    [
-      1793206452,
-      35015
-    ],
-    [
-      1793206486,
-      35016
-    ],
     [
       1793208395,
       35018
@@ -22870,6 +22858,10 @@
     [
       1793212800,
       35024
+    ],
+    [
+      1793213857,
+      35027
     ]
   ]
 }
