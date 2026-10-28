@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-28T18:57:49.126611+00:00",
+  "generated_at": "2026-10-28T19:03:46.357286+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35027,
-  "progress_pct": 3.5027,
+  "current_count": 35029,
+  "progress_pct": 3.5029,
   "num_players": 1354,
-  "total_messages": 48726,
+  "total_messages": 48727,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793213857.0,
+  "last_count_ts": 1793214213.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -686,15 +686,15 @@
       "id": "6ae8b7629ff6",
       "name": "Juls",
       "anon_phone": "+49 176 •••• 96",
-      "points": 119,
-      "pct": 0.34,
-      "last24h": 0,
+      "points": 121,
+      "pct": 0.35,
+      "last24h": 2,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 1,
       "early_counts": 0,
-      "last_ts": 1793117011.0,
+      "last_ts": 1793214213.0,
       "first_ts": 1781284687.0,
       "rank": 43
     },
@@ -21707,6 +21707,7 @@
       "5f45182377dd",
       "a39caed0b9fc",
       "db6d81e90b74",
+      "6ae8b7629ff6",
       "926048ba30b0",
       "8561b6020a64",
       "ffffb6c4106a",
@@ -21935,9 +21936,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5f45182377dd",
-      "name": "Helle",
-      "value": 1
+      "id": "6ae8b7629ff6",
+      "name": "Juls",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22678,8 +22679,8 @@
     },
     {
       "date": "2026-10-28",
-      "count": 20,
-      "total": 35027
+      "count": 22,
+      "total": 35029
     }
   ],
   "hour_histogram": [
@@ -22703,12 +22704,24 @@
     1701,
     2251,
     2950,
-    3354,
+    3356,
     3319,
     2627,
     1776
   ],
   "recent": [
+    {
+      "n": 35029,
+      "id": "6ae8b7629ff6",
+      "name": "Juls",
+      "ts": 1793214213.0
+    },
+    {
+      "n": 35028,
+      "id": "6ae8b7629ff6",
+      "name": "Juls",
+      "ts": 1793214213.0
+    },
     {
       "n": 35027,
       "id": "5f45182377dd",
@@ -22816,18 +22829,6 @@
       "id": "926048ba30b0",
       "name": "Jessi💕",
       "ts": 1793132280.0
-    },
-    {
-      "n": 35006,
-      "id": "5f45182377dd",
-      "name": "Helle",
-      "ts": 1793126382.0
-    },
-    {
-      "n": 35005,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1793126365.0
     }
   ],
   "speed_samples": [
@@ -22862,6 +22863,14 @@
     [
       1793213857,
       35027
+    ],
+    [
+      1793214213,
+      35028
+    ],
+    [
+      1793214213,
+      35029
     ]
   ]
 }
