@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-28T19:53:20.707748+00:00",
+  "generated_at": "2026-10-28T19:58:13.746947+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35040,
-  "progress_pct": 3.504,
+  "current_count": 35041,
+  "progress_pct": 3.5041,
   "num_players": 1354,
-  "total_messages": 48737,
+  "total_messages": 48738,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793217187.0,
+  "last_count_ts": 1793217472.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -862,15 +862,15 @@
       "id": "40e609fa336e",
       "name": "Max S.",
       "anon_phone": "+49 151 •••• 54",
-      "points": 97,
+      "points": 98,
       "pct": 0.28,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 5,
       "early_counts": 1,
-      "last_ts": 1793214808.0,
+      "last_ts": 1793217472.0,
       "first_ts": 1781290891.0,
       "rank": 54
     },
@@ -21711,14 +21711,14 @@
       "db6d81e90b74",
       "74ff2108d346",
       "6ae8b7629ff6",
+      "40e609fa336e",
       "926048ba30b0",
       "8561b6020a64",
       "ffffb6c4106a",
       "6548cd1b6eae",
       "85738a0fc79e",
       "5e0359616cc8",
-      "4e8e7e0197c5",
-      "c4fe31e13b5a"
+      "4e8e7e0197c5"
     ],
     "longest_streak": [
       {
@@ -21937,9 +21937,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "21ab33dbbddf",
-      "name": "Jakob",
-      "value": 3
+      "id": "40e609fa336e",
+      "name": "Max S.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22680,8 +22680,8 @@
     },
     {
       "date": "2026-10-28",
-      "count": 33,
-      "total": 35040
+      "count": 34,
+      "total": 35041
     }
   ],
   "hour_histogram": [
@@ -22705,12 +22705,18 @@
     1701,
     2251,
     2950,
-    3367,
+    3368,
     3319,
     2627,
     1776
   ],
   "recent": [
+    {
+      "n": 35041,
+      "id": "40e609fa336e",
+      "name": "Max S.",
+      "ts": 1793217472.0
+    },
     {
       "n": 35040,
       "id": "21ab33dbbddf",
@@ -22824,12 +22830,6 @@
       "id": "74ff2108d346",
       "name": "Martin",
       "ts": 1793210515.0
-    },
-    {
-      "n": 35019,
-      "id": "db6d81e90b74",
-      "name": "Dominik H.",
-      "ts": 1793209458.0
     }
   ],
   "speed_samples": [
@@ -22908,6 +22908,10 @@
     [
       1793217187,
       35040
+    ],
+    [
+      1793217472,
+      35041
     ]
   ]
 }
