@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-29T20:15:09.201749+00:00",
+  "generated_at": "2026-10-29T20:29:19.651632+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35105,
-  "progress_pct": 3.5105,
+  "current_count": 35107,
+  "progress_pct": 3.5107,
   "num_players": 1354,
-  "total_messages": 48801,
+  "total_messages": 48803,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793304881.0,
+  "last_count_ts": 1793305746.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -160,7 +160,7 @@
       "anon_phone": "+49 163 •••• 57",
       "points": 235,
       "pct": 0.67,
-      "last24h": 5,
+      "last24h": 4,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
@@ -939,6 +939,22 @@
       "rank": 58
     },
     {
+      "id": "6548cd1b6eae",
+      "name": "Christoph",
+      "anon_phone": "+49 173 •••• 00",
+      "points": 92,
+      "pct": 0.26,
+      "last24h": 2,
+      "longest_streak": 5,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 7,
+      "early_counts": 4,
+      "last_ts": 1793305746.0,
+      "first_ts": 1781364692.0,
+      "rank": 59
+    },
+    {
       "id": "826e0a1f3337",
       "name": "auer",
       "anon_phone": "+49 160 •••• 94",
@@ -952,22 +968,6 @@
       "early_counts": 0,
       "last_ts": 1786116101.0,
       "first_ts": 1781380763.0,
-      "rank": 59
-    },
-    {
-      "id": "6548cd1b6eae",
-      "name": "Christoph",
-      "anon_phone": "+49 173 •••• 00",
-      "points": 90,
-      "pct": 0.26,
-      "last24h": 0,
-      "longest_streak": 5,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 7,
-      "early_counts": 4,
-      "last_ts": 1793206165.0,
-      "first_ts": 1781364692.0,
       "rank": 60
     },
     {
@@ -13472,7 +13472,7 @@
       "anon_phone": "+49 176 •••• 18",
       "points": 4,
       "pct": 0.01,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -21708,17 +21708,17 @@
       "03772471f186",
       "a84987d66bdc",
       "64e77b13f4e1",
-      "021897120ae0",
       "9bf6383c58eb",
+      "021897120ae0",
       "562b909cfadd",
       "763d0eeee1ab",
       "5f45182377dd",
       "ff8a86710b38",
       "4460bcf9c79c",
       "a39caed0b9fc",
+      "6548cd1b6eae",
       "29a1c5fbe7db",
-      "5e4e6db7ee18",
-      "fb2fe35b5239"
+      "5e4e6db7ee18"
     ],
     "longest_streak": [
       {
@@ -21937,9 +21937,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "5f45182377dd",
-      "name": "Helle",
-      "value": 1
+      "id": "6548cd1b6eae",
+      "name": "Christoph",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22685,8 +22685,8 @@
     },
     {
       "date": "2026-10-29",
-      "count": 48,
-      "total": 35105
+      "count": 50,
+      "total": 35107
     }
   ],
   "hour_histogram": [
@@ -22711,11 +22711,23 @@
     2260,
     2958,
     3377,
-    3336,
+    3338,
     2628,
     1779
   ],
   "recent": [
+    {
+      "n": 35107,
+      "id": "6548cd1b6eae",
+      "name": "Christoph",
+      "ts": 1793305746.0
+    },
+    {
+      "n": 35106,
+      "id": "6548cd1b6eae",
+      "name": "Christoph",
+      "ts": 1793305746.0
+    },
     {
       "n": 35105,
       "id": "5f45182377dd",
@@ -22823,29 +22835,9 @@
       "id": "4460bcf9c79c",
       "name": "Lance",
       "ts": 1793300376.0
-    },
-    {
-      "n": 35087,
-      "id": "8561b6020a64",
-      "name": "Daniel W.",
-      "ts": 1793299732.0
-    },
-    {
-      "n": 35086,
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "ts": 1793299548.0
     }
   ],
   "speed_samples": [
-    [
-      1793298149,
-      35083
-    ],
-    [
-      1793298149,
-      35084
-    ],
     [
       1793299548,
       35085
@@ -22929,6 +22921,14 @@
     [
       1793304881,
       35105
+    ],
+    [
+      1793305746,
+      35106
+    ],
+    [
+      1793305746,
+      35107
     ]
   ]
 }
