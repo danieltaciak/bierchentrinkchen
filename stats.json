@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-29T20:11:54.845205+00:00",
+  "generated_at": "2026-10-29T20:13:02.619900+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35103,
-  "progress_pct": 3.5103,
+  "current_count": 35104,
+  "progress_pct": 3.5104,
   "num_players": 1354,
-  "total_messages": 48799,
+  "total_messages": 48800,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793304681.0,
+  "last_count_ts": 1793304754.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 372,
+      "points": 373,
       "pct": 1.06,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 0,
       "night_counts": 57,
       "early_counts": 3,
-      "last_ts": 1792805890.0,
+      "last_ts": 1793304754.0,
       "first_ts": 1781373213.0,
       "rank": 5
     },
@@ -21937,8 +21937,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "8a6ad087f1ea",
-      "name": "ich H.",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -22685,8 +22685,8 @@
     },
     {
       "date": "2026-10-29",
-      "count": 46,
-      "total": 35103
+      "count": 47,
+      "total": 35104
     }
   ],
   "hour_histogram": [
@@ -22711,11 +22711,17 @@
     2260,
     2958,
     3377,
-    3334,
+    3335,
     2628,
     1779
   ],
   "recent": [
+    {
+      "n": 35104,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1793304754.0
+    },
     {
       "n": 35103,
       "id": "8a6ad087f1ea",
@@ -22829,12 +22835,6 @@
       "id": "ff8a86710b38",
       "name": "TK",
       "ts": 1793299548.0
-    },
-    {
-      "n": 35084,
-      "id": "03772471f186",
-      "name": "Miri",
-      "ts": 1793298149.0
     }
   ],
   "speed_samples": [
@@ -22921,6 +22921,10 @@
     [
       1793304681,
       35103
+    ],
+    [
+      1793304754,
+      35104
     ]
   ]
 }
