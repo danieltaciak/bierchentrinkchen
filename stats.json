@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-31T21:31:03.732823+00:00",
+  "generated_at": "2026-10-31T21:35:30.227866+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35386,
-  "progress_pct": 3.5386,
+  "current_count": 35387,
+  "progress_pct": 3.5387,
   "num_players": 1359,
-  "total_messages": 49077,
+  "total_messages": 49081,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793482231.0,
+  "last_count_ts": 1793482489.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -366,15 +366,15 @@
       "id": "1a6129668ba3",
       "name": "Christian W.",
       "anon_phone": "+49 170 •••• 39",
-      "points": 176,
+      "points": 177,
       "pct": 0.5,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 21,
       "early_counts": 0,
-      "last_ts": 1793472328.0,
+      "last_ts": 1793482489.0,
       "first_ts": 1781298624.0,
       "rank": 23
     },
@@ -22017,9 +22017,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "b24539a93d86",
-      "name": "Dany",
-      "value": 2
+      "id": "1a6129668ba3",
+      "name": "Christian W.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22775,8 +22775,8 @@
     },
     {
       "date": "2026-10-31",
-      "count": 154,
-      "total": 35386
+      "count": 155,
+      "total": 35387
     }
   ],
   "hour_histogram": [
@@ -22802,10 +22802,16 @@
     2976,
     3410,
     3375,
-    2646,
+    2647,
     1793
   ],
   "recent": [
+    {
+      "n": 35387,
+      "id": "1a6129668ba3",
+      "name": "Christian W.",
+      "ts": 1793482489.0
+    },
     {
       "n": 35386,
       "id": "b24539a93d86",
@@ -22919,19 +22925,9 @@
       "id": "b4c5dace35d9",
       "name": "Crazy #.",
       "ts": 1793476882.0
-    },
-    {
-      "n": 35367,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1793476657.0
     }
   ],
   "speed_samples": [
-    [
-      1793475149,
-      35357
-    ],
     [
       1793475422,
       35358
@@ -23047,6 +23043,10 @@
     [
       1793482231,
       35386
+    ],
+    [
+      1793482489,
+      35387
     ]
   ]
 }
