@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-31T12:32:08.184847+00:00",
+  "generated_at": "2026-10-31T12:39:37.441803+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35262,
-  "progress_pct": 3.5262,
+  "current_count": 35274,
+  "progress_pct": 3.5274,
   "num_players": 1357,
-  "total_messages": 48969,
+  "total_messages": 48970,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793449892.0,
+  "last_count_ts": 1793450354.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -318,15 +318,15 @@
       "id": "73a69bdc1f9e",
       "name": "Dominikz",
       "anon_phone": "+49 151 •••• 37",
-      "points": 177,
+      "points": 178,
       "pct": 0.5,
-      "last24h": 8,
+      "last24h": 9,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 13,
       "early_counts": 3,
-      "last_ts": 1793446153.0,
+      "last_ts": 1793449382.0,
       "first_ts": 1789061375.0,
       "rank": 20
     },
@@ -415,7 +415,7 @@
       "name": "Dany",
       "anon_phone": "+49 160 •••• 83",
       "points": 164,
-      "pct": 0.47,
+      "pct": 0.46,
       "last24h": 0,
       "longest_streak": 2,
       "assists_given": 13,
@@ -895,7 +895,7 @@
       "name": "Miri",
       "anon_phone": "+49 151 •••• 17",
       "points": 97,
-      "pct": 0.28,
+      "pct": 0.27,
       "last24h": 0,
       "longest_streak": 3,
       "assists_given": 0,
@@ -1899,6 +1899,22 @@
       "rank": 118
     },
     {
+      "id": "fb2fe35b5239",
+      "name": "Lena",
+      "anon_phone": "+49 171 •••• 67",
+      "points": 45,
+      "pct": 0.13,
+      "last24h": 2,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 1,
+      "last_ts": 1793450354.0,
+      "first_ts": 1789242148.0,
+      "rank": 119
+    },
+    {
       "id": "032a270163e4",
       "name": "Philomena",
       "anon_phone": "+49 176 •••• 48",
@@ -1912,22 +1928,6 @@
       "early_counts": 0,
       "last_ts": 1792869298.0,
       "first_ts": 1781628517.0,
-      "rank": 119
-    },
-    {
-      "id": "fb2fe35b5239",
-      "name": "Lena",
-      "anon_phone": "+49 171 •••• 67",
-      "points": 44,
-      "pct": 0.12,
-      "last24h": 1,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 1,
-      "last_ts": 1793367236.0,
-      "first_ts": 1789242148.0,
       "rank": 120
     },
     {
@@ -21764,9 +21764,9 @@
       "d63db1480311",
       "d6c5978b929b",
       "62f4f2be10a0",
+      "fb2fe35b5239",
       "5f45182377dd",
-      "6ae8b7629ff6",
-      "1bc14e12c1b9"
+      "6ae8b7629ff6"
     ],
     "longest_streak": [
       {
@@ -21985,8 +21985,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "cea7a80a166b",
-      "name": "michl",
+      "id": "fb2fe35b5239",
+      "name": "Lena",
       "value": 1
     },
     "biggest_message": {
@@ -22743,8 +22743,8 @@
     },
     {
       "date": "2026-10-31",
-      "count": 30,
-      "total": 35262
+      "count": 42,
+      "total": 35274
     }
   ],
   "hour_histogram": [
@@ -22761,7 +22761,7 @@
     281,
     437,
     658,
-    738,
+    740,
     890,
     916,
     1290,
@@ -22775,10 +22775,22 @@
   ],
   "recent": [
     {
-      "n": 35262,
+      "n": 35274,
+      "id": "fb2fe35b5239",
+      "name": "Lena",
+      "ts": 1793450354.0
+    },
+    {
+      "n": 35273,
       "id": "cea7a80a166b",
       "name": "michl",
       "ts": 1793449892.0
+    },
+    {
+      "n": 35272,
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "ts": 1793449382.0
     },
     {
       "n": 35261,
@@ -22881,18 +22893,6 @@
       "id": "6548cd1b6eae",
       "name": "Christoph",
       "ts": 1793405678.0
-    },
-    {
-      "n": 35243,
-      "id": "6548cd1b6eae",
-      "name": "Christoph",
-      "ts": 1793405678.0
-    },
-    {
-      "n": 35242,
-      "id": "6548cd1b6eae",
-      "name": "Christoph",
-      "ts": 1793405678.0
     }
   ],
   "speed_samples": [
@@ -22917,8 +22917,16 @@
       35261
     ],
     [
+      1793449382,
+      35272
+    ],
+    [
       1793449892,
-      35262
+      35273
+    ],
+    [
+      1793450354,
+      35274
     ]
   ]
 }
