@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-31T19:58:03.659190+00:00",
+  "generated_at": "2026-10-31T20:01:50.359537+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35348,
-  "progress_pct": 3.5348,
+  "current_count": 35349,
+  "progress_pct": 3.5349,
   "num_players": 1359,
-  "total_messages": 49055,
+  "total_messages": 49056,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793476657.0,
+  "last_count_ts": 1793476882.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -175,7 +175,7 @@
       "name": "Tanja🌺",
       "anon_phone": "+49 171 •••• 23",
       "points": 228,
-      "pct": 0.65,
+      "pct": 0.64,
       "last24h": 0,
       "longest_streak": 8,
       "assists_given": 0,
@@ -1291,6 +1291,22 @@
       "rank": 80
     },
     {
+      "id": "b4c5dace35d9",
+      "name": "Crazy #.",
+      "anon_phone": "+420 775 •••• 23",
+      "points": 69,
+      "pct": 0.2,
+      "last24h": 5,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 0,
+      "early_counts": 0,
+      "last_ts": 1793476882.0,
+      "first_ts": 1788891891.0,
+      "rank": 81
+    },
+    {
       "id": "b78c86671efc",
       "name": "Johannes",
       "anon_phone": "+49 175 •••• 06",
@@ -1304,7 +1320,7 @@
       "early_counts": 0,
       "last_ts": 1793119462.0,
       "first_ts": 1781362675.0,
-      "rank": 81
+      "rank": 82
     },
     {
       "id": "177bd8355eeb",
@@ -1320,22 +1336,6 @@
       "early_counts": 0,
       "last_ts": 1786734830.0,
       "first_ts": 1781866017.0,
-      "rank": 82
-    },
-    {
-      "id": "b4c5dace35d9",
-      "name": "Crazy #.",
-      "anon_phone": "+420 775 •••• 23",
-      "points": 68,
-      "pct": 0.19,
-      "last24h": 4,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1793394403.0,
-      "first_ts": 1788891891.0,
       "rank": 83
     },
     {
@@ -21787,10 +21787,10 @@
       "dfb57c03463c",
       "6548cd1b6eae",
       "73a69bdc1f9e",
+      "b4c5dace35d9",
       "8561b6020a64",
       "d6c5978b929b",
       "3fa8bc19359b",
-      "b4c5dace35d9",
       "ff8a86710b38",
       "7a2e949e25b3",
       "6b9e5cf641da",
@@ -22017,8 +22017,8 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "9bf6383c58eb",
-      "name": "Nico",
+      "id": "b4c5dace35d9",
+      "name": "Crazy #.",
       "value": 1
     },
     "biggest_message": {
@@ -22775,8 +22775,8 @@
     },
     {
       "date": "2026-10-31",
-      "count": 116,
-      "total": 35348
+      "count": 117,
+      "total": 35349
     }
   ],
   "hour_histogram": [
@@ -22801,11 +22801,17 @@
     2270,
     2976,
     3409,
-    3362,
+    3363,
     2640,
     1793
   ],
   "recent": [
+    {
+      "n": 35349,
+      "id": "b4c5dace35d9",
+      "name": "Crazy #.",
+      "ts": 1793476882.0
+    },
     {
       "n": 35348,
       "id": "9bf6383c58eb",
@@ -22919,12 +22925,6 @@
       "id": "2a4c48692d9e",
       "name": "Sarah",
       "ts": 1793473409.0
-    },
-    {
-      "n": 35326,
-      "id": "ff8a86710b38",
-      "name": "TK",
-      "ts": 1793472792.0
     }
   ],
   "speed_samples": [
@@ -23055,6 +23055,10 @@
     [
       1793476657,
       35348
+    ],
+    [
+      1793476882,
+      35349
     ]
   ]
 }
