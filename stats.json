@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-31T18:50:23.725702+00:00",
+  "generated_at": "2026-10-31T18:51:45.599534+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35323,
-  "progress_pct": 3.5323,
+  "current_count": 35325,
+  "progress_pct": 3.5325,
   "num_players": 1357,
-  "total_messages": 49024,
+  "total_messages": 49026,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793472603.0,
+  "last_count_ts": 1793472681.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -94,15 +94,15 @@
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "anon_phone": "+49 152 •••• 43",
-      "points": 337,
-      "pct": 0.95,
-      "last24h": 0,
+      "points": 339,
+      "pct": 0.96,
+      "last24h": 2,
       "longest_streak": 6,
       "assists_given": 2,
       "assists_received": 0,
       "night_counts": 50,
       "early_counts": 0,
-      "last_ts": 1793217187.0,
+      "last_ts": 1793472681.0,
       "first_ts": 1781950367.0,
       "rank": 6
     },
@@ -21985,9 +21985,9 @@
       "end_n": 5846
     },
     "current_streak": {
-      "id": "ac2cd1738d8b",
-      "name": "Lukas S.",
-      "value": 1
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22743,8 +22743,8 @@
     },
     {
       "date": "2026-10-31",
-      "count": 91,
-      "total": 35323
+      "count": 93,
+      "total": 35325
     }
   ],
   "hour_histogram": [
@@ -22767,13 +22767,25 @@
     1295,
     1721,
     2270,
-    2973,
+    2975,
     3390,
     3362,
     2640,
     1793
   ],
   "recent": [
+    {
+      "n": 35325,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1793472681.0
+    },
+    {
+      "n": 35324,
+      "id": "21ab33dbbddf",
+      "name": "Jakob",
+      "ts": 1793472674.0
+    },
     {
       "n": 35323,
       "id": "ac2cd1738d8b",
@@ -22881,18 +22893,6 @@
       "id": "3fa8bc19359b",
       "name": "Jonas W.",
       "ts": 1793466895.0
-    },
-    {
-      "n": 35302,
-      "id": "29ed47d0d01c",
-      "name": "Philipp",
-      "ts": 1793466522.0
-    },
-    {
-      "n": 35301,
-      "id": "764f33f39eb0",
-      "name": "Maxi",
-      "ts": 1793466487.0
     }
   ],
   "speed_samples": [
@@ -22979,6 +22979,14 @@
     [
       1793472603,
       35323
+    ],
+    [
+      1793472674,
+      35324
+    ],
+    [
+      1793472681,
+      35325
     ]
   ]
 }
