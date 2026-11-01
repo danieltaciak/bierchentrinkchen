@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-01T17:46:31.870214+00:00",
+  "generated_at": "2026-11-01T18:08:20.739480+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35459,
-  "progress_pct": 3.5459,
+  "current_count": 35461,
+  "progress_pct": 3.5461,
   "num_players": 1360,
-  "total_messages": 49175,
+  "total_messages": 49176,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793555170.0,
+  "last_count_ts": 1793556487.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -16,7 +16,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 623,
       "pct": 1.76,
-      "last24h": 7,
+      "last24h": 6,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -272,7 +272,7 @@
       "anon_phone": "+49 151 •••• 99",
       "points": 200,
       "pct": 0.56,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 5,
       "assists_received": 10,
@@ -827,6 +827,22 @@
       "rank": 51
     },
     {
+      "id": "03772471f186",
+      "name": "Miri",
+      "anon_phone": "+49 151 •••• 17",
+      "points": 102,
+      "pct": 0.29,
+      "last24h": 5,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 1,
+      "early_counts": 1,
+      "last_ts": 1793556487.0,
+      "first_ts": 1783536939.0,
+      "rank": 52
+    },
+    {
       "id": "6548cd1b6eae",
       "name": "Christoph",
       "anon_phone": "+49 173 •••• 00",
@@ -840,7 +856,7 @@
       "early_counts": 4,
       "last_ts": 1793471250.0,
       "first_ts": 1781364692.0,
-      "rank": 52
+      "rank": 53
     },
     {
       "id": "40e609fa336e",
@@ -856,22 +872,6 @@
       "early_counts": 1,
       "last_ts": 1793465950.0,
       "first_ts": 1781290891.0,
-      "rank": 53
-    },
-    {
-      "id": "03772471f186",
-      "name": "Miri",
-      "anon_phone": "+49 151 •••• 17",
-      "points": 100,
-      "pct": 0.28,
-      "last24h": 3,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 1,
-      "early_counts": 1,
-      "last_ts": 1793552257.0,
-      "first_ts": 1783536939.0,
       "rank": 54
     },
     {
@@ -21804,17 +21804,17 @@
       "a5f77afeecc6",
       "ff8a86710b38",
       "cec25393509e",
+      "03772471f186",
       "b4c5dace35d9",
       "7a2e949e25b3",
       "c4fe31e13b5a",
-      "03772471f186",
       "8561b6020a64",
       "51e0aada2acd",
       "9bf6383c58eb",
-      "764f33f39eb0",
       "08510cd25776",
       "1a6129668ba3",
-      "21ab33dbbddf"
+      "21ab33dbbddf",
+      "2a4c48692d9e"
     ],
     "longest_streak": [
       {
@@ -22033,9 +22033,9 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "cec25393509e",
-      "name": "Michl",
-      "value": 1
+      "id": "03772471f186",
+      "name": "Miri",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22796,8 +22796,8 @@
     },
     {
       "date": "2026-11-01",
-      "count": 56,
-      "total": 35459
+      "count": 58,
+      "total": 35461
     }
   ],
   "hour_histogram": [
@@ -22820,13 +22820,25 @@
     1297,
     1726,
     2274,
-    2976,
+    2978,
     3410,
     3375,
     2653,
     1803
   ],
   "recent": [
+    {
+      "n": 35461,
+      "id": "03772471f186",
+      "name": "Miri",
+      "ts": 1793556487.0
+    },
+    {
+      "n": 35460,
+      "id": "03772471f186",
+      "name": "Miri",
+      "ts": 1793556487.0
+    },
     {
       "n": 35459,
       "id": "cec25393509e",
@@ -22934,18 +22946,6 @@
       "id": "c93ed700000f",
       "name": "linus",
       "ts": 1793499745.0
-    },
-    {
-      "n": 35441,
-      "id": "c93ed700000f",
-      "name": "linus",
-      "ts": 1793499744.0
-    },
-    {
-      "n": 35440,
-      "id": "c93ed700000f",
-      "name": "linus",
-      "ts": 1793499743.0
     }
   ],
   "speed_samples": [
@@ -22984,6 +22984,14 @@
     [
       1793555170,
       35459
+    ],
+    [
+      1793556487,
+      35460
+    ],
+    [
+      1793556487,
+      35461
     ]
   ]
 }
