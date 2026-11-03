@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-03T20:54:54.025353+00:00",
+  "generated_at": "2026-11-03T21:37:41.022960+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35508,
-  "progress_pct": 3.5508,
+  "current_count": 35509,
+  "progress_pct": 3.5509,
   "num_players": 1361,
-  "total_messages": 49254,
+  "total_messages": 49256,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793739276.0,
+  "last_count_ts": 1793741841.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -158,15 +158,15 @@
       "id": "df6424fbdeef",
       "name": "Daniel",
       "anon_phone": "+49 163 •••• 57",
-      "points": 239,
-      "pct": 0.67,
-      "last24h": 0,
+      "points": 240,
+      "pct": 0.68,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 10,
       "early_counts": 1,
-      "last_ts": 1793398148.0,
+      "last_ts": 1793741841.0,
       "first_ts": 1781452642.0,
       "rank": 10
     },
@@ -21828,7 +21828,8 @@
       "3ce6f8806201",
       "2e95be7bb9ea",
       "f52c8ea2e6d2",
-      "8561b6020a64"
+      "8561b6020a64",
+      "df6424fbdeef"
     ],
     "longest_streak": [
       {
@@ -22047,8 +22048,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "5e0359616cc8",
-      "name": "Franz",
+      "id": "df6424fbdeef",
+      "name": "Daniel",
       "value": 1
     },
     "biggest_message": {
@@ -22820,8 +22821,8 @@
     },
     {
       "date": "2026-11-03",
-      "count": 25,
-      "total": 35508
+      "count": 26,
+      "total": 35509
     }
   ],
   "hour_histogram": [
@@ -22847,10 +22848,16 @@
     2989,
     3416,
     3385,
-    2653,
+    2654,
     1803
   ],
   "recent": [
+    {
+      "n": 35509,
+      "id": "df6424fbdeef",
+      "name": "Daniel",
+      "ts": 1793741841.0
+    },
     {
       "n": 35508,
       "id": "5e0359616cc8",
@@ -22964,23 +22971,9 @@
       "id": "3882d176c29e",
       "name": "moritz",
       "ts": 1793652660.0
-    },
-    {
-      "n": 35482,
-      "id": "5e0359616cc8",
-      "name": "Franz",
-      "ts": 1793652108.0
     }
   ],
   "speed_samples": [
-    [
-      1793733035,
-      35500
-    ],
-    [
-      1793733154,
-      35501
-    ],
     [
       1793736091,
       35502
@@ -23004,6 +22997,10 @@
     [
       1793739276,
       35508
+    ],
+    [
+      1793741841,
+      35509
     ]
   ]
 }
