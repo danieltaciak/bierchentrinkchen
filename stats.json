@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-04T23:28:06.536687+00:00",
+  "generated_at": "2026-11-04T23:33:33.916456+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35574,
-  "progress_pct": 3.5574,
+  "current_count": 35575,
+  "progress_pct": 3.5575,
   "num_players": 1361,
-  "total_messages": 49311,
+  "total_messages": 49312,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793834851.0,
+  "last_count_ts": 1793835182.0,
   "players": [
     {
       "id": "a5f77afeecc6",
       "name": "Nico",
       "anon_phone": "+49 170 •••• 40",
       "points": 635,
-      "pct": 1.79,
+      "pct": 1.78,
       "last24h": 7,
       "longest_streak": 4,
       "assists_given": 0,
@@ -63,7 +63,7 @@
       "name": "Johnny",
       "anon_phone": "+49 152 •••• 46",
       "points": 418,
-      "pct": 1.18,
+      "pct": 1.17,
       "last24h": 0,
       "longest_streak": 6,
       "assists_given": 35,
@@ -1931,6 +1931,22 @@
       "rank": 120
     },
     {
+      "id": "3882d176c29e",
+      "name": "moritz",
+      "anon_phone": "+49 152 •••• 53",
+      "points": 44,
+      "pct": 0.12,
+      "last24h": 5,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1793835182.0,
+      "first_ts": 1782503394.0,
+      "rank": 121
+    },
+    {
       "id": "16dc4c53c3aa",
       "name": "Rainer T.",
       "anon_phone": "+49 179 •••• 78",
@@ -1944,7 +1960,7 @@
       "early_counts": 1,
       "last_ts": 1787503413.0,
       "first_ts": 1781464492.0,
-      "rank": 121
+      "rank": 122
     },
     {
       "id": "7b758a066b60",
@@ -1960,7 +1976,7 @@
       "early_counts": 1,
       "last_ts": 1792926596.0,
       "first_ts": 1789765228.0,
-      "rank": 122
+      "rank": 123
     },
     {
       "id": "f97de7b31df0",
@@ -1976,7 +1992,7 @@
       "early_counts": 5,
       "last_ts": 1783726859.0,
       "first_ts": 1781033427.0,
-      "rank": 123
+      "rank": 124
     },
     {
       "id": "5edeae5f886f",
@@ -1992,7 +2008,7 @@
       "early_counts": 3,
       "last_ts": 1787682030.0,
       "first_ts": 1785958554.0,
-      "rank": 124
+      "rank": 125
     },
     {
       "id": "236b75edd620",
@@ -2008,7 +2024,7 @@
       "early_counts": 0,
       "last_ts": 1787943395.0,
       "first_ts": 1781222722.0,
-      "rank": 125
+      "rank": 126
     },
     {
       "id": "f52c8ea2e6d2",
@@ -2024,22 +2040,6 @@
       "early_counts": 0,
       "last_ts": 1793736139.0,
       "first_ts": 1789764564.0,
-      "rank": 126
-    },
-    {
-      "id": "3882d176c29e",
-      "name": "moritz",
-      "anon_phone": "+49 152 •••• 53",
-      "points": 43,
-      "pct": 0.12,
-      "last24h": 4,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 0,
-      "early_counts": 0,
-      "last_ts": 1793825091.0,
-      "first_ts": 1782503394.0,
       "rank": 127
     },
     {
@@ -22049,9 +22049,9 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "value": 3
+      "id": "3882d176c29e",
+      "name": "moritz",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22832,12 +22832,12 @@
     },
     {
       "date": "2026-11-05",
-      "count": 2,
-      "total": 35574
+      "count": 3,
+      "total": 35575
     }
   ],
   "hour_histogram": [
-    1053,
+    1054,
     636,
     329,
     238,
@@ -22863,6 +22863,12 @@
     1809
   ],
   "recent": [
+    {
+      "n": 35575,
+      "id": "3882d176c29e",
+      "name": "moritz",
+      "ts": 1793835182.0
+    },
     {
       "n": 35574,
       "id": "efeced9c0950",
@@ -22976,12 +22982,6 @@
       "id": "3882d176c29e",
       "name": "moritz",
       "ts": 1793823619.0
-    },
-    {
-      "n": 35549,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1793823576.0
     }
   ],
   "speed_samples": [
@@ -23008,6 +23008,10 @@
     [
       1793834851,
       35574
+    ],
+    [
+      1793835182,
+      35575
     ]
   ]
 }
