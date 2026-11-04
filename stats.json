@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-04T20:55:15.731307+00:00",
+  "generated_at": "2026-11-04T20:56:56.755578+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35560,
-  "progress_pct": 3.556,
+  "current_count": 35561,
+  "progress_pct": 3.5561,
   "num_players": 1361,
-  "total_messages": 49295,
+  "total_messages": 49296,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793825694.0,
+  "last_count_ts": 1793825804.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 375,
-      "pct": 1.05,
-      "last24h": 0,
+      "points": 376,
+      "pct": 1.06,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 0,
       "night_counts": 57,
       "early_counts": 3,
-      "last_ts": 1793313597.0,
+      "last_ts": 1793825804.0,
       "first_ts": 1781373213.0,
       "rank": 5
     },
@@ -22049,8 +22049,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "5e0359616cc8",
-      "name": "Franz",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -22827,8 +22827,8 @@
     },
     {
       "date": "2026-11-04",
-      "count": 48,
-      "total": 35560
+      "count": 49,
+      "total": 35561
     }
   ],
   "hour_histogram": [
@@ -22853,11 +22853,17 @@
     2280,
     2998,
     3423,
-    3393,
+    3394,
     2654,
     1806
   ],
   "recent": [
+    {
+      "n": 35561,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1793825804.0
+    },
     {
       "n": 35560,
       "id": "5e0359616cc8",
@@ -22971,12 +22977,6 @@
       "id": "e0eeeafbeb46",
       "name": "Markus W.",
       "ts": 1793817465.0
-    },
-    {
-      "n": 35535,
-      "id": "e0eeeafbeb46",
-      "name": "Markus W.",
-      "ts": 1793817465.0
     }
   ],
   "speed_samples": [
@@ -23043,6 +23043,10 @@
     [
       1793825694,
       35560
+    ],
+    [
+      1793825804,
+      35561
     ]
   ]
 }
