@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-04T19:41:41.570847+00:00",
+  "generated_at": "2026-11-04T19:42:48.364626+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35543,
-  "progress_pct": 3.5543,
+  "current_count": 35544,
+  "progress_pct": 3.5544,
   "num_players": 1361,
-  "total_messages": 49281,
+  "total_messages": 49282,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793821282.0,
+  "last_count_ts": 1793821346.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -702,15 +702,15 @@
       "id": "6ae8b7629ff6",
       "name": "Juls",
       "anon_phone": "+49 176 •••• 96",
-      "points": 123,
+      "points": 124,
       "pct": 0.35,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 3,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 1,
       "early_counts": 0,
-      "last_ts": 1793376600.0,
+      "last_ts": 1793821346.0,
       "first_ts": 1781284687.0,
       "rank": 44
     },
@@ -22049,8 +22049,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "6ae8b7629ff6",
+      "name": "Juls",
       "value": 1
     },
     "biggest_message": {
@@ -22827,8 +22827,8 @@
     },
     {
       "date": "2026-11-04",
-      "count": 31,
-      "total": 35543
+      "count": 32,
+      "total": 35544
     }
   ],
   "hour_histogram": [
@@ -22852,12 +22852,18 @@
     1729,
     2280,
     2998,
-    3419,
+    3420,
     3385,
     2654,
     1806
   ],
   "recent": [
+    {
+      "n": 35544,
+      "id": "6ae8b7629ff6",
+      "name": "Juls",
+      "ts": 1793821346.0
+    },
     {
       "n": 35543,
       "id": "a5f77afeecc6",
@@ -22971,12 +22977,6 @@
       "id": "86e2018b8cca",
       "name": "lilith",
       "ts": 1793807262.0
-    },
-    {
-      "n": 35521,
-      "id": "86e2018b8cca",
-      "name": "lilith",
-      "ts": 1793807262.0
     }
   ],
   "speed_samples": [
@@ -23035,6 +23035,10 @@
     [
       1793821282,
       35543
+    ],
+    [
+      1793821346,
+      35544
     ]
   ]
 }
