@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-04T17:55:25.386022+00:00",
+  "generated_at": "2026-11-04T18:13:51.852828+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35528,
-  "progress_pct": 3.5528,
+  "current_count": 35530,
+  "progress_pct": 3.553,
   "num_players": 1361,
-  "total_messages": 49272,
+  "total_messages": 49273,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793814889.0,
+  "last_count_ts": 1793816012.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -528,7 +528,7 @@
       "anon_phone": "+49 175 •••• 10",
       "points": 139,
       "pct": 0.39,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -811,6 +811,22 @@
       "rank": 50
     },
     {
+      "id": "03772471f186",
+      "name": "Miri",
+      "anon_phone": "+49 151 •••• 17",
+      "points": 104,
+      "pct": 0.29,
+      "last24h": 2,
+      "longest_streak": 3,
+      "assists_given": 0,
+      "assists_received": 2,
+      "night_counts": 1,
+      "early_counts": 1,
+      "last_ts": 1793816012.0,
+      "first_ts": 1783536939.0,
+      "rank": 51
+    },
+    {
       "id": "6548cd1b6eae",
       "name": "Christoph",
       "anon_phone": "+49 173 •••• 00",
@@ -824,7 +840,7 @@
       "early_counts": 4,
       "last_ts": 1793743803.0,
       "first_ts": 1781364692.0,
-      "rank": 51
+      "rank": 52
     },
     {
       "id": "1b66c2456dfd",
@@ -840,22 +856,6 @@
       "early_counts": 0,
       "last_ts": 1792949163.0,
       "first_ts": 1781203234.0,
-      "rank": 52
-    },
-    {
-      "id": "03772471f186",
-      "name": "Miri",
-      "anon_phone": "+49 151 •••• 17",
-      "points": 102,
-      "pct": 0.29,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 2,
-      "night_counts": 1,
-      "early_counts": 1,
-      "last_ts": 1793556487.0,
-      "first_ts": 1783536939.0,
       "rank": 53
     },
     {
@@ -4880,7 +4880,7 @@
       "anon_phone": "+49 157 •••• 22",
       "points": 19,
       "pct": 0.05,
-      "last24h": 2,
+      "last24h": 1,
       "longest_streak": 1,
       "assists_given": 0,
       "assists_received": 0,
@@ -21817,8 +21817,6 @@
     ],
     "last_24h": [
       "5e0359616cc8",
-      "5f45182377dd",
-      "9459c8c58812",
       "a5f77afeecc6",
       "ec4ff4bae258",
       "6548cd1b6eae",
@@ -21826,7 +21824,9 @@
       "9bf6383c58eb",
       "86e2018b8cca",
       "69b638d192a2",
+      "03772471f186",
       "f6e23ca0f979",
+      "9459c8c58812",
       "3ce6f8806201",
       "2e95be7bb9ea",
       "f52c8ea2e6d2",
@@ -22049,9 +22049,9 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "ec4ff4bae258",
-      "name": "-Nico",
-      "value": 1
+      "id": "03772471f186",
+      "name": "Miri",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22827,8 +22827,8 @@
     },
     {
       "date": "2026-11-04",
-      "count": 16,
-      "total": 35528
+      "count": 18,
+      "total": 35530
     }
   ],
   "hour_histogram": [
@@ -22851,13 +22851,25 @@
     1303,
     1729,
     2280,
-    2989,
+    2991,
     3416,
     3385,
     2654,
     1806
   ],
   "recent": [
+    {
+      "n": 35530,
+      "id": "03772471f186",
+      "name": "Miri",
+      "ts": 1793816012.0
+    },
+    {
+      "n": 35529,
+      "id": "03772471f186",
+      "name": "Miri",
+      "ts": 1793816012.0
+    },
     {
       "n": 35528,
       "id": "ec4ff4bae258",
@@ -22965,18 +22977,6 @@
       "id": "df6424fbdeef",
       "name": "Daniel",
       "ts": 1793741841.0
-    },
-    {
-      "n": 35508,
-      "id": "5e0359616cc8",
-      "name": "Franz",
-      "ts": 1793739276.0
-    },
-    {
-      "n": 35506,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1793738226.0
     }
   ],
   "speed_samples": [
@@ -22995,6 +22995,14 @@
     [
       1793814889,
       35528
+    ],
+    [
+      1793816012,
+      35529
+    ],
+    [
+      1793816012,
+      35530
     ]
   ]
 }
