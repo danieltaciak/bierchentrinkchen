@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-05T20:03:24.775757+00:00",
+  "generated_at": "2026-11-05T20:08:55.320021+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35610,
-  "progress_pct": 3.561,
+  "current_count": 35611,
+  "progress_pct": 3.5611,
   "num_players": 1361,
-  "total_messages": 49354,
+  "total_messages": 49355,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793908969.0,
+  "last_count_ts": 1793909318.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 379,
-      "pct": 1.06,
-      "last24h": 4,
+      "points": 380,
+      "pct": 1.07,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 0,
       "night_counts": 59,
       "early_counts": 3,
-      "last_ts": 1793834851.0,
+      "last_ts": 1793909318.0,
       "first_ts": 1781373213.0,
       "rank": 5
     },
@@ -21817,9 +21817,9 @@
     ],
     "last_24h": [
       "a5f77afeecc6",
+      "efeced9c0950",
       "9bf6383c58eb",
       "3882d176c29e",
-      "efeced9c0950",
       "73a69bdc1f9e",
       "708bf8e2d4a7",
       "4460bcf9c79c",
@@ -22049,8 +22049,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "4460bcf9c79c",
-      "name": "Lance",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -22832,8 +22832,8 @@
     },
     {
       "date": "2026-11-05",
-      "count": 38,
-      "total": 35610
+      "count": 39,
+      "total": 35611
     }
   ],
   "hour_histogram": [
@@ -22858,11 +22858,17 @@
     2283,
     3002,
     3434,
-    3398,
+    3399,
     2658,
     1809
   ],
   "recent": [
+    {
+      "n": 35611,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1793909318.0
+    },
     {
       "n": 35610,
       "id": "4460bcf9c79c",
@@ -22976,12 +22982,6 @@
       "id": "4460bcf9c79c",
       "name": "Lance",
       "ts": 1793899141.0
-    },
-    {
-      "n": 35586,
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "ts": 1793897457.0
     }
   ],
   "speed_samples": [
@@ -23048,6 +23048,10 @@
     [
       1793908969,
       35610
+    ],
+    [
+      1793909318,
+      35611
     ]
   ]
 }
