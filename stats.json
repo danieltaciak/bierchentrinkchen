@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-05T12:15:13.583439+00:00",
+  "generated_at": "2026-11-05T14:11:09.593973+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35578,
-  "progress_pct": 3.5578,
+  "current_count": 35579,
+  "progress_pct": 3.5579,
   "num_players": 1361,
-  "total_messages": 49316,
+  "total_messages": 49317,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793880894.0,
+  "last_count_ts": 1793887838.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -32,7 +32,7 @@
       "anon_phone": "+49 160 •••• 36",
       "points": 545,
       "pct": 1.53,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 4,
       "assists_given": 2,
       "assists_received": 2,
@@ -1403,6 +1403,22 @@
       "rank": 87
     },
     {
+      "id": "6999c63e5d78",
+      "name": "Bene.G",
+      "anon_phone": "+49 176 •••• 22",
+      "points": 64,
+      "pct": 0.18,
+      "last24h": 1,
+      "longest_streak": 10,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 2,
+      "early_counts": 0,
+      "last_ts": 1793887838.0,
+      "first_ts": 1781517991.0,
+      "rank": 88
+    },
+    {
       "id": "db6d81e90b74",
       "name": "Dominik H.",
       "anon_phone": "+49 162 •••• 23",
@@ -1416,22 +1432,6 @@
       "early_counts": 0,
       "last_ts": 1793480177.0,
       "first_ts": 1783622148.0,
-      "rank": 88
-    },
-    {
-      "id": "6999c63e5d78",
-      "name": "Bene.G",
-      "anon_phone": "+49 176 •••• 22",
-      "points": 63,
-      "pct": 0.18,
-      "last24h": 0,
-      "longest_streak": 10,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 2,
-      "early_counts": 0,
-      "last_ts": 1792423203.0,
-      "first_ts": 1781517991.0,
       "rank": 89
     },
     {
@@ -2496,7 +2496,7 @@
       "anon_phone": "+49 151 •••• 10",
       "points": 37,
       "pct": 0.1,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -21827,10 +21827,10 @@
       "03772471f186",
       "5e0359616cc8",
       "9941ce960633",
-      "9bf6383c58eb",
-      "5b0ddf8fe545",
       "5f45182377dd",
-      "c03ae4e7c448"
+      "c03ae4e7c448",
+      "ec4ff4bae258",
+      "8561b6020a64"
     ],
     "longest_streak": [
       {
@@ -22049,8 +22049,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "3882d176c29e",
-      "name": "moritz",
+      "id": "6999c63e5d78",
+      "name": "Bene.G",
       "value": 1
     },
     "biggest_message": {
@@ -22832,8 +22832,8 @@
     },
     {
       "date": "2026-11-05",
-      "count": 6,
-      "total": 35578
+      "count": 7,
+      "total": 35579
     }
   ],
   "hour_histogram": [
@@ -22852,7 +22852,7 @@
     658,
     747,
     898,
-    924,
+    925,
     1303,
     1729,
     2280,
@@ -22863,6 +22863,12 @@
     1809
   ],
   "recent": [
+    {
+      "n": 35579,
+      "id": "6999c63e5d78",
+      "name": "Bene.G",
+      "ts": 1793887838.0
+    },
     {
       "n": 35578,
       "id": "3882d176c29e",
@@ -22976,18 +22982,16 @@
       "id": "3882d176c29e",
       "name": "moritz",
       "ts": 1793825091.0
-    },
-    {
-      "n": 35558,
-      "id": "708bf8e2d4a7",
-      "name": "Felix",
-      "ts": 1793825012.0
     }
   ],
   "speed_samples": [
     [
       1793880894,
       35578
+    ],
+    [
+      1793887838,
+      35579
     ]
   ]
 }
