@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-06T18:48:24.830936+00:00",
+  "generated_at": "2026-11-06T18:50:33.183939+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35642,
-  "progress_pct": 3.5642,
+  "current_count": 35643,
+  "progress_pct": 3.5643,
   "num_players": 1361,
-  "total_messages": 49389,
+  "total_messages": 49391,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1793990878.0,
+  "last_count_ts": 1793991012.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -270,15 +270,15 @@
       "id": "764f33f39eb0",
       "name": "Maxi",
       "anon_phone": "+49 151 •••• 99",
-      "points": 200,
+      "points": 201,
       "pct": 0.56,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 2,
       "assists_given": 5,
       "assists_received": 10,
       "night_counts": 24,
       "early_counts": 4,
-      "last_ts": 1793477105.0,
+      "last_ts": 1793991012.0,
       "first_ts": 1781284254.0,
       "rank": 17
     },
@@ -22049,8 +22049,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "29ed47d0d01c",
-      "name": "Philipp",
+      "id": "764f33f39eb0",
+      "name": "Maxi",
       "value": 1
     },
     "biggest_message": {
@@ -22837,8 +22837,8 @@
     },
     {
       "date": "2026-11-06",
-      "count": 18,
-      "total": 35642
+      "count": 19,
+      "total": 35643
     }
   ],
   "hour_histogram": [
@@ -22861,13 +22861,19 @@
     1304,
     1735,
     2290,
-    3008,
+    3009,
     3434,
     3403,
     2665,
     1810
   ],
   "recent": [
+    {
+      "n": 35643,
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "ts": 1793991012.0
+    },
     {
       "n": 35642,
       "id": "29ed47d0d01c",
@@ -22981,12 +22987,6 @@
       "id": "9bf6383c58eb",
       "name": "Nico",
       "ts": 1793917438.0
-    },
-    {
-      "n": 35623,
-      "id": "a5f77afeecc6",
-      "name": "Nico",
-      "ts": 1793915889.0
     }
   ],
   "speed_samples": [
@@ -23041,6 +23041,10 @@
     [
       1793990878,
       35642
+    ],
+    [
+      1793991012,
+      35643
     ]
   ]
 }
