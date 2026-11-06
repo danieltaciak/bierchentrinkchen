@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-06T22:40:55.908916+00:00",
+  "generated_at": "2026-11-06T22:43:05.102641+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35680,
-  "progress_pct": 3.568,
+  "current_count": 35681,
+  "progress_pct": 3.5681,
   "num_players": 1361,
-  "total_messages": 49440,
+  "total_messages": 49441,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1794004839.0,
+  "last_count_ts": 1794004960.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 384,
+      "points": 385,
       "pct": 1.08,
-      "last24h": 2,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 0,
       "night_counts": 59,
       "early_counts": 3,
-      "last_ts": 1793998287.0,
+      "last_ts": 1794004960.0,
       "first_ts": 1781373213.0,
       "rank": 5
     },
@@ -21820,12 +21820,12 @@
       "06ef1dbdad22",
       "29a1c5fbe7db",
       "df6424fbdeef",
+      "efeced9c0950",
       "6d452c68ad4c",
       "a5f77afeecc6",
       "29ed47d0d01c",
       "764f33f39eb0",
       "7a2e949e25b3",
-      "efeced9c0950",
       "685026b373d6",
       "e1682a59e246",
       "5b0ddf8fe545",
@@ -22049,8 +22049,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "cec25393509e",
-      "name": "Michl",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -22837,8 +22837,8 @@
     },
     {
       "date": "2026-11-06",
-      "count": 56,
-      "total": 35680
+      "count": 57,
+      "total": 35681
     }
   ],
   "hour_histogram": [
@@ -22865,9 +22865,15 @@
     3442,
     3416,
     2674,
-    1813
+    1814
   ],
   "recent": [
+    {
+      "n": 35681,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1794004960.0
+    },
     {
       "n": 35680,
       "id": "cec25393509e",
@@ -22981,19 +22987,9 @@
       "id": "21ab33dbbddf",
       "name": "Jakob",
       "ts": 1793997653.0
-    },
-    {
-      "n": 35659,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1793996912.0
     }
   ],
   "speed_samples": [
-    [
-      1793997653,
-      35660
-    ],
     [
       1793997900,
       35661
@@ -23065,6 +23061,10 @@
     [
       1794004839,
       35680
+    ],
+    [
+      1794004960,
+      35681
     ]
   ]
 }
