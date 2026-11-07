@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-07T19:24:52.967001+00:00",
+  "generated_at": "2026-11-07T19:28:16.090088+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35740,
-  "progress_pct": 3.574,
+  "current_count": 35741,
+  "progress_pct": 3.5741,
   "num_players": 1363,
-  "total_messages": 49515,
+  "total_messages": 49517,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1794079480.0,
+  "last_count_ts": 1794079672.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -478,15 +478,15 @@
       "id": "a84987d66bdc",
       "name": "Fincenths",
       "anon_phone": "+49 151 •••• 82",
-      "points": 145,
+      "points": 146,
       "pct": 0.41,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 5,
       "assists_given": 4,
       "assists_received": 7,
       "night_counts": 8,
       "early_counts": 1,
-      "last_ts": 1793998465.0,
+      "last_ts": 1794079672.0,
       "first_ts": 1781197357.0,
       "rank": 30
     },
@@ -21859,10 +21859,10 @@
       "df6424fbdeef",
       "a5f77afeecc6",
       "7a2e949e25b3",
+      "a84987d66bdc",
       "8c19ca275648",
       "59bdc34c591c",
-      "685026b373d6",
-      "d6c5978b929b"
+      "685026b373d6"
     ],
     "longest_streak": [
       {
@@ -22081,8 +22081,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "b4c5dace35d9",
-      "name": "Crazy #.",
+      "id": "a84987d66bdc",
+      "name": "Fincenths",
       "value": 1
     },
     "biggest_message": {
@@ -22874,8 +22874,8 @@
     },
     {
       "date": "2026-11-07",
-      "count": 57,
-      "total": 35740
+      "count": 58,
+      "total": 35741
     }
   ],
   "hour_histogram": [
@@ -22899,12 +22899,18 @@
     1740,
     2294,
     3017,
-    3453,
+    3454,
     3416,
     2674,
     1816
   ],
   "recent": [
+    {
+      "n": 35741,
+      "id": "a84987d66bdc",
+      "name": "Fincenths",
+      "ts": 1794079672.0
+    },
     {
       "n": 35740,
       "id": "b4c5dace35d9",
@@ -23018,12 +23024,6 @@
       "id": "b4c5dace35d9",
       "name": "Crazy #.",
       "ts": 1794074356.0
-    },
-    {
-      "n": 35716,
-      "id": "59bdc34c591c",
-      "name": "Callum",
-      "ts": 1794074173.0
     }
   ],
   "speed_samples": [
@@ -23110,6 +23110,10 @@
     [
       1794079480,
       35740
+    ],
+    [
+      1794079672,
+      35741
     ]
   ]
 }
