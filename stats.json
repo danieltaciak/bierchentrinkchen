@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-10T17:56:05.625425+00:00",
+  "generated_at": "2026-11-10T17:56:39.255364+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35927,
-  "progress_pct": 3.5927,
+  "current_count": 35928,
+  "progress_pct": 3.5928,
   "num_players": 1367,
-  "total_messages": 49723,
+  "total_messages": 49724,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1794333331.0,
+  "last_count_ts": 1794333380.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -3211,6 +3211,22 @@
       "rank": 200
     },
     {
+      "id": "a532151749cc",
+      "name": "Isabel",
+      "anon_phone": "+49 152 •••• 18",
+      "points": 30,
+      "pct": 0.08,
+      "last24h": 1,
+      "longest_streak": 10,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 5,
+      "last_ts": 1794333380.0,
+      "first_ts": 1782042010.0,
+      "rank": 201
+    },
+    {
       "id": "c9eb9d0c0725",
       "name": "Jonas",
       "anon_phone": "+49 151 •••• 42",
@@ -3224,7 +3240,7 @@
       "early_counts": 0,
       "last_ts": 1789805424.0,
       "first_ts": 1781115751.0,
-      "rank": 201
+      "rank": 202
     },
     {
       "id": "858a46884967",
@@ -3240,7 +3256,7 @@
       "early_counts": 0,
       "last_ts": 1787514573.0,
       "first_ts": 1781031546.0,
-      "rank": 202
+      "rank": 203
     },
     {
       "id": "38ce79a459de",
@@ -3256,7 +3272,7 @@
       "early_counts": 2,
       "last_ts": 1791648391.0,
       "first_ts": 1781373376.0,
-      "rank": 203
+      "rank": 204
     },
     {
       "id": "7f5c521dadcb",
@@ -3272,7 +3288,7 @@
       "early_counts": 0,
       "last_ts": 1791662671.0,
       "first_ts": 1782427573.0,
-      "rank": 204
+      "rank": 205
     },
     {
       "id": "5eb334258084",
@@ -3288,7 +3304,7 @@
       "early_counts": 1,
       "last_ts": 1786281741.0,
       "first_ts": 1783366927.0,
-      "rank": 205
+      "rank": 206
     },
     {
       "id": "b39408fd7a0c",
@@ -3304,7 +3320,7 @@
       "early_counts": 0,
       "last_ts": 1786206504.0,
       "first_ts": 1781903018.0,
-      "rank": 206
+      "rank": 207
     },
     {
       "id": "169226d00fd6",
@@ -3320,22 +3336,6 @@
       "early_counts": 0,
       "last_ts": 1789773534.0,
       "first_ts": 1783543725.0,
-      "rank": 207
-    },
-    {
-      "id": "a532151749cc",
-      "name": "Isabel",
-      "anon_phone": "+49 152 •••• 18",
-      "points": 29,
-      "pct": 0.08,
-      "last24h": 0,
-      "longest_streak": 10,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 5,
-      "last_ts": 1793372138.0,
-      "first_ts": 1782042010.0,
       "rank": 208
     },
     {
@@ -21925,7 +21925,8 @@
       "8561b6020a64",
       "a069738784d7",
       "764f33f39eb0",
-      "5f45182377dd"
+      "5f45182377dd",
+      "a532151749cc"
     ],
     "longest_streak": [
       {
@@ -22144,8 +22145,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "29a1c5fbe7db",
-      "name": "Tanja🌺",
+      "id": "a532151749cc",
+      "name": "Isabel",
       "value": 1
     },
     "biggest_message": {
@@ -22952,8 +22953,8 @@
     },
     {
       "date": "2026-11-10",
-      "count": 19,
-      "total": 35927
+      "count": 20,
+      "total": 35928
     }
   ],
   "hour_histogram": [
@@ -22975,7 +22976,7 @@
     931,
     1311,
     1752,
-    2312,
+    2313,
     3030,
     3469,
     3435,
@@ -22983,6 +22984,12 @@
     1831
   ],
   "recent": [
+    {
+      "n": 35928,
+      "id": "a532151749cc",
+      "name": "Isabel",
+      "ts": 1794333380.0
+    },
     {
       "n": 35927,
       "id": "29a1c5fbe7db",
@@ -23096,12 +23103,6 @@
       "id": "a5f77afeecc6",
       "name": "Nico",
       "ts": 1794262273.0
-    },
-    {
-      "n": 35905,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1794260450.0
     }
   ],
   "speed_samples": [
@@ -23152,6 +23153,10 @@
     [
       1794333331,
       35927
+    ],
+    [
+      1794333380,
+      35928
     ]
   ]
 }
