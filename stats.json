@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-11T18:47:28.374947+00:00",
+  "generated_at": "2026-11-11T18:58:18.615332+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 35981,
-  "progress_pct": 3.5981,
+  "current_count": 35983,
+  "progress_pct": 3.5983,
   "num_players": 1369,
-  "total_messages": 49793,
+  "total_messages": 49794,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1794422816.0,
+  "last_count_ts": 1794423480.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -80,7 +80,7 @@
       "anon_phone": "+49 176 •••• 42",
       "points": 395,
       "pct": 1.1,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 0,
@@ -299,6 +299,22 @@
       "rank": 18
     },
     {
+      "id": "3ce6f8806201",
+      "name": "Simon S.",
+      "anon_phone": "+49 152 •••• 84",
+      "points": 192,
+      "pct": 0.53,
+      "last24h": 2,
+      "longest_streak": 4,
+      "assists_given": 14,
+      "assists_received": 7,
+      "night_counts": 7,
+      "early_counts": 5,
+      "last_ts": 1794423480.0,
+      "first_ts": 1781289501.0,
+      "rank": 19
+    },
+    {
       "id": "553637e3d2b4",
       "name": "Linus K.",
       "anon_phone": "+49 176 •••• 96",
@@ -312,22 +328,6 @@
       "early_counts": 0,
       "last_ts": 1794409399.0,
       "first_ts": 1782747846.0,
-      "rank": 19
-    },
-    {
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
-      "anon_phone": "+49 152 •••• 84",
-      "points": 190,
-      "pct": 0.53,
-      "last24h": 0,
-      "longest_streak": 4,
-      "assists_given": 14,
-      "assists_received": 7,
-      "night_counts": 7,
-      "early_counts": 5,
-      "last_ts": 1793733154.0,
-      "first_ts": 1781289501.0,
       "rank": 20
     },
     {
@@ -21935,8 +21935,8 @@
       "764f33f39eb0",
       "115bd3930d45",
       "73a69bdc1f9e",
-      "553637e3d2b4",
       "3ce6f8806201",
+      "553637e3d2b4",
       "ff8a86710b38",
       "c4fe31e13b5a",
       "2e95be7bb9ea",
@@ -21945,20 +21945,20 @@
     ],
     "last_24h": [
       "a5f77afeecc6",
-      "efeced9c0950",
       "06ef1dbdad22",
+      "efeced9c0950",
       "5f45182377dd",
       "29a1c5fbe7db",
       "b4c5dace35d9",
       "64e77b13f4e1",
       "6ae8b7629ff6",
       "73a69bdc1f9e",
+      "3ce6f8806201",
       "8148fac91826",
       "758a45fcb645",
       "642fea6fd359",
       "764f33f39eb0",
-      "82afa8eefe9c",
-      "b7787657b9d8"
+      "82afa8eefe9c"
     ],
     "longest_streak": [
       {
@@ -22177,9 +22177,9 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "cdac8116e93e",
-      "name": "Hännsn",
-      "value": 1
+      "id": "3ce6f8806201",
+      "name": "Simon S.",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -22990,8 +22990,8 @@
     },
     {
       "date": "2026-11-11",
-      "count": 24,
-      "total": 35981
+      "count": 26,
+      "total": 35983
     }
   ],
   "hour_histogram": [
@@ -23014,13 +23014,25 @@
     1316,
     1753,
     2319,
-    3042,
+    3044,
     3475,
     3442,
     2690,
     1834
   ],
   "recent": [
+    {
+      "n": 35983,
+      "id": "3ce6f8806201",
+      "name": "Simon S.",
+      "ts": 1794423480.0
+    },
+    {
+      "n": 35982,
+      "id": "3ce6f8806201",
+      "name": "Simon S.",
+      "ts": 1794423480.0
+    },
     {
       "n": 35981,
       "id": "cdac8116e93e",
@@ -23128,25 +23140,9 @@
       "id": "fb974dc80aff",
       "name": "Johanna",
       "ts": 1794391251.0
-    },
-    {
-      "n": 35959,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1794361070.0
-    },
-    {
-      "n": 35958,
-      "id": "efeced9c0950",
-      "name": "Finn",
-      "ts": 1794361038.0
     }
   ],
   "speed_samples": [
-    [
-      1794416158,
-      35969
-    ],
     [
       1794417141,
       35970
@@ -23186,6 +23182,14 @@
     [
       1794422816,
       35981
+    ],
+    [
+      1794423480,
+      35982
+    ],
+    [
+      1794423480,
+      35983
     ]
   ]
 }
