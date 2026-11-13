@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-13T21:55:33.805778+00:00",
+  "generated_at": "2026-11-13T22:08:00.686162+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36133,
-  "progress_pct": 3.6133,
+  "current_count": 36137,
+  "progress_pct": 3.6137,
   "num_players": 1369,
-  "total_messages": 49945,
+  "total_messages": 49946,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1794606912.0,
+  "last_count_ts": 1794607663.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -128,7 +128,7 @@
       "anon_phone": "+49 151 •••• 00",
       "points": 281,
       "pct": 0.78,
-      "last24h": 3,
+      "last24h": 2,
       "longest_streak": 7,
       "assists_given": 0,
       "assists_received": 0,
@@ -795,6 +795,22 @@
       "rank": 49
     },
     {
+      "id": "9c0968e6fd9c",
+      "name": "toni",
+      "anon_phone": "+49 179 •••• 67",
+      "points": 109,
+      "pct": 0.3,
+      "last24h": 4,
+      "longest_streak": 4,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 9,
+      "early_counts": 0,
+      "last_ts": 1794607663.0,
+      "first_ts": 1781375506.0,
+      "rank": 50
+    },
+    {
       "id": "40e609fa336e",
       "name": "Max S.",
       "anon_phone": "+49 151 •••• 54",
@@ -808,22 +824,6 @@
       "early_counts": 1,
       "last_ts": 1794252929.0,
       "first_ts": 1781290891.0,
-      "rank": 50
-    },
-    {
-      "id": "9c0968e6fd9c",
-      "name": "toni",
-      "anon_phone": "+49 179 •••• 67",
-      "points": 105,
-      "pct": 0.29,
-      "last24h": 0,
-      "longest_streak": 3,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 9,
-      "early_counts": 0,
-      "last_ts": 1793490843.0,
-      "first_ts": 1781375506.0,
       "rank": 51
     },
     {
@@ -21946,9 +21946,10 @@
     "last_24h": [
       "6d452c68ad4c",
       "6b9e5cf641da",
-      "06ef1dbdad22",
+      "9c0968e6fd9c",
       "8561b6020a64",
       "a84987d66bdc",
+      "06ef1dbdad22",
       "e1682a59e246",
       "5f45182377dd",
       "db6d81e90b74",
@@ -21957,8 +21958,7 @@
       "3ce6f8806201",
       "6701615ce207",
       "ca414bd6222d",
-      "29a1c5fbe7db",
-      "9bf6383c58eb"
+      "29a1c5fbe7db"
     ],
     "longest_streak": [
       {
@@ -22177,9 +22177,9 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
-      "value": 1
+      "id": "9c0968e6fd9c",
+      "name": "toni",
+      "value": 4
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -23000,8 +23000,8 @@
     },
     {
       "date": "2026-11-13",
-      "count": 78,
-      "total": 36133
+      "count": 82,
+      "total": 36137
     }
   ],
   "hour_histogram": [
@@ -23028,9 +23028,33 @@
     3509,
     3454,
     2709,
-    1842
+    1846
   ],
   "recent": [
+    {
+      "n": 36137,
+      "id": "9c0968e6fd9c",
+      "name": "toni",
+      "ts": 1794607663.0
+    },
+    {
+      "n": 36136,
+      "id": "9c0968e6fd9c",
+      "name": "toni",
+      "ts": 1794607663.0
+    },
+    {
+      "n": 36135,
+      "id": "9c0968e6fd9c",
+      "name": "toni",
+      "ts": 1794607663.0
+    },
+    {
+      "n": 36134,
+      "id": "9c0968e6fd9c",
+      "name": "toni",
+      "ts": 1794607663.0
+    },
     {
       "n": 36133,
       "id": "3ce6f8806201",
@@ -23126,37 +23150,9 @@
       "id": "f52c8ea2e6d2",
       "name": "Kevin R.",
       "ts": 1794600183.0
-    },
-    {
-      "n": 36109,
-      "id": "6d452c68ad4c",
-      "name": "Johanna",
-      "ts": 1794599325.0
-    },
-    {
-      "n": 36108,
-      "id": "6d452c68ad4c",
-      "name": "Johanna",
-      "ts": 1794599325.0
-    },
-    {
-      "n": 36107,
-      "id": "6d452c68ad4c",
-      "name": "Johanna",
-      "ts": 1794599325.0
-    },
-    {
-      "n": 36106,
-      "id": "553637e3d2b4",
-      "name": "Linus K.",
-      "ts": 1794599297.0
     }
   ],
   "speed_samples": [
-    [
-      1794600183,
-      36112
-    ],
     [
       1794601163,
       36113
@@ -23216,6 +23212,22 @@
     [
       1794606912,
       36133
+    ],
+    [
+      1794607663,
+      36134
+    ],
+    [
+      1794607663,
+      36135
+    ],
+    [
+      1794607663,
+      36136
+    ],
+    [
+      1794607663,
+      36137
     ]
   ]
 }
