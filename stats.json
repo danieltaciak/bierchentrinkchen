@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-13T19:32:11.577497+00:00",
+  "generated_at": "2026-11-13T19:34:48.623124+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36102,
-  "progress_pct": 3.6102,
+  "current_count": 36103,
+  "progress_pct": 3.6103,
   "num_players": 1369,
-  "total_messages": 49913,
+  "total_messages": 49914,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1794598294.0,
+  "last_count_ts": 1794598476.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 395,
-      "pct": 1.09,
-      "last24h": 0,
+      "points": 396,
+      "pct": 1.1,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 0,
       "night_counts": 64,
       "early_counts": 3,
-      "last_ts": 1794361070.0,
+      "last_ts": 1794598476.0,
       "first_ts": 1781373213.0,
       "rank": 5
     },
@@ -22177,8 +22177,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "08510cd25776",
-      "name": "Christoph H.",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -23000,8 +23000,8 @@
     },
     {
       "date": "2026-11-13",
-      "count": 47,
-      "total": 36102
+      "count": 48,
+      "total": 36103
     }
   ],
   "hour_histogram": [
@@ -23025,12 +23025,18 @@
     1761,
     2333,
     3056,
-    3502,
+    3503,
     3449,
     2698,
     1842
   ],
   "recent": [
+    {
+      "n": 36103,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1794598476.0
+    },
     {
       "n": 36102,
       "id": "08510cd25776",
@@ -23144,12 +23150,6 @@
       "id": "8561b6020a64",
       "name": "Daniel W.",
       "ts": 1794592625.0
-    },
-    {
-      "n": 36074,
-      "id": "db6d81e90b74",
-      "name": "Dominik H.",
-      "ts": 1794591489.0
     }
   ],
   "speed_samples": [
@@ -23232,6 +23232,10 @@
     [
       1794598294,
       36102
+    ],
+    [
+      1794598476,
+      36103
     ]
   ]
 }
