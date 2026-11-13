@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-13T18:20:22.736905+00:00",
+  "generated_at": "2026-11-13T18:37:40.032839+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36083,
-  "progress_pct": 3.6083,
+  "current_count": 36085,
+  "progress_pct": 3.6085,
   "num_players": 1369,
-  "total_messages": 49894,
+  "total_messages": 49898,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1794594003.0,
+  "last_count_ts": 1794595045.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -111,7 +111,7 @@
       "name": "Jakob",
       "anon_phone": "+49 152 •••• 43",
       "points": 341,
-      "pct": 0.95,
+      "pct": 0.94,
       "last24h": 0,
       "longest_streak": 6,
       "assists_given": 2,
@@ -143,7 +143,7 @@
       "name": "Boohb",
       "anon_phone": "+49 170 •••• 82",
       "points": 258,
-      "pct": 0.72,
+      "pct": 0.71,
       "last24h": 0,
       "longest_streak": 9,
       "assists_given": 0,
@@ -448,7 +448,7 @@
       "anon_phone": "+49 175 •••• 10",
       "points": 159,
       "pct": 0.44,
-      "last24h": 4,
+      "last24h": 3,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
@@ -1323,6 +1323,22 @@
       "rank": 82
     },
     {
+      "id": "b7787657b9d8",
+      "name": "alessio",
+      "anon_phone": "+49 152 •••• 95",
+      "points": 69,
+      "pct": 0.19,
+      "last24h": 1,
+      "longest_streak": 6,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 8,
+      "early_counts": 3,
+      "last_ts": 1794595045.0,
+      "first_ts": 1781791792.0,
+      "rank": 83
+    },
+    {
       "id": "b78c86671efc",
       "name": "Johannes",
       "anon_phone": "+49 175 •••• 06",
@@ -1336,7 +1352,7 @@
       "early_counts": 0,
       "last_ts": 1793119462.0,
       "first_ts": 1781362675.0,
-      "rank": 83
+      "rank": 84
     },
     {
       "id": "177bd8355eeb",
@@ -1352,22 +1368,6 @@
       "early_counts": 0,
       "last_ts": 1786734830.0,
       "first_ts": 1781866017.0,
-      "rank": 84
-    },
-    {
-      "id": "b7787657b9d8",
-      "name": "alessio",
-      "anon_phone": "+49 152 •••• 95",
-      "points": 68,
-      "pct": 0.19,
-      "last24h": 0,
-      "longest_streak": 6,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 8,
-      "early_counts": 3,
-      "last_ts": 1794438215.0,
-      "first_ts": 1781791792.0,
       "rank": 85
     },
     {
@@ -21945,9 +21945,9 @@
     ],
     "last_24h": [
       "9bf6383c58eb",
-      "5f45182377dd",
       "06ef1dbdad22",
       "b4c5dace35d9",
+      "5f45182377dd",
       "c93ed700000f",
       "6d452c68ad4c",
       "a5f77afeecc6",
@@ -22177,8 +22177,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "5f45182377dd",
-      "name": "Helle",
+      "id": "b7787657b9d8",
+      "name": "alessio",
       "value": 1
     },
     "biggest_message": {
@@ -23000,8 +23000,8 @@
     },
     {
       "date": "2026-11-13",
-      "count": 28,
-      "total": 36083
+      "count": 30,
+      "total": 36085
     }
   ],
   "hour_histogram": [
@@ -23024,13 +23024,19 @@
     1320,
     1761,
     2333,
-    3054,
+    3055,
     3491,
     3449,
     2698,
     1842
   ],
   "recent": [
+    {
+      "n": 36085,
+      "id": "b7787657b9d8",
+      "name": "alessio",
+      "ts": 1794595045.0
+    },
     {
       "n": 36083,
       "id": "5f45182377dd",
@@ -23144,27 +23150,9 @@
       "id": "06ef1dbdad22",
       "name": "Selin",
       "ts": 1794525877.0
-    },
-    {
-      "n": 36055,
-      "id": "ca414bd6222d",
-      "name": "Olli",
-      "ts": 1794521845.0
     }
   ],
   "speed_samples": [
-    [
-      1794587004,
-      36069
-    ],
-    [
-      1794587004,
-      36070
-    ],
-    [
-      1794587004,
-      36071
-    ],
     [
       1794587998,
       36072
@@ -23200,6 +23188,10 @@
     [
       1794594003,
       36083
+    ],
+    [
+      1794595045,
+      36085
     ]
   ]
 }
