@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-14T20:56:02.486780+00:00",
+  "generated_at": "2026-11-14T20:58:18.920118+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36224,
-  "progress_pct": 3.6224,
+  "current_count": 36225,
+  "progress_pct": 3.6225,
   "num_players": 1370,
-  "total_messages": 50043,
+  "total_messages": 50045,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1794689746.0,
+  "last_count_ts": 1794689879.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -254,15 +254,15 @@
       "id": "764f33f39eb0",
       "name": "Maxi",
       "anon_phone": "+49 151 •••• 99",
-      "points": 209,
+      "points": 210,
       "pct": 0.58,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 5,
       "assists_received": 10,
       "night_counts": 25,
       "early_counts": 4,
-      "last_ts": 1794678972.0,
+      "last_ts": 1794689879.0,
       "first_ts": 1781284254.0,
       "rank": 16
     },
@@ -22193,8 +22193,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "cec25393509e",
-      "name": "Michl",
+      "id": "764f33f39eb0",
+      "name": "Maxi",
       "value": 1
     },
     "biggest_message": {
@@ -23021,8 +23021,8 @@
     },
     {
       "date": "2026-11-14",
-      "count": 77,
-      "total": 36224
+      "count": 78,
+      "total": 36225
     }
   ],
   "hour_histogram": [
@@ -23047,11 +23047,17 @@
     2343,
     3064,
     3520,
-    3469,
+    3470,
     2709,
     1856
   ],
   "recent": [
+    {
+      "n": 36225,
+      "id": "764f33f39eb0",
+      "name": "Maxi",
+      "ts": 1794689879.0
+    },
     {
       "n": 36224,
       "id": "cec25393509e",
@@ -23165,12 +23171,6 @@
       "id": "b4c5dace35d9",
       "name": "Crazy #.",
       "ts": 1794685201.0
-    },
-    {
-      "n": 36204,
-      "id": "6c18c41e5d47",
-      "name": "Ecke",
-      "ts": 1794684714.0
     }
   ],
   "speed_samples": [
@@ -23281,6 +23281,10 @@
     [
       1794689746,
       36224
+    ],
+    [
+      1794689879,
+      36225
     ]
   ]
 }
