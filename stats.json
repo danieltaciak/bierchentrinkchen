@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-16T20:25:03.410816+00:00",
+  "generated_at": "2026-11-16T20:31:20.936288+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36335,
-  "progress_pct": 3.6335,
+  "current_count": 36336,
+  "progress_pct": 3.6336,
   "num_players": 1371,
-  "total_messages": 50171,
+  "total_messages": 50172,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1794860691.0,
+  "last_count_ts": 1794861044.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -1435,6 +1435,22 @@
       "rank": 89
     },
     {
+      "id": "2d61d5612db8",
+      "name": "Wolfgang E.",
+      "anon_phone": "+49 170 •••• 83",
+      "points": 66,
+      "pct": 0.18,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 14,
+      "early_counts": 0,
+      "last_ts": 1794861044.0,
+      "first_ts": 1783176393.0,
+      "rank": 90
+    },
+    {
       "id": "8b20d475db4b",
       "name": "Felix",
       "anon_phone": "+49 176 •••• 30",
@@ -1448,22 +1464,6 @@
       "early_counts": 0,
       "last_ts": 1786561691.0,
       "first_ts": 1783117504.0,
-      "rank": 90
-    },
-    {
-      "id": "2d61d5612db8",
-      "name": "Wolfgang E.",
-      "anon_phone": "+49 170 •••• 83",
-      "points": 65,
-      "pct": 0.18,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 14,
-      "early_counts": 0,
-      "last_ts": 1794604209.0,
-      "first_ts": 1783176393.0,
       "rank": 91
     },
     {
@@ -22209,8 +22209,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "df6424fbdeef",
-      "name": "Daniel",
+      "id": "2d61d5612db8",
+      "name": "Wolfgang E.",
       "value": 1
     },
     "biggest_message": {
@@ -23047,8 +23047,8 @@
     },
     {
       "date": "2026-11-16",
-      "count": 31,
-      "total": 36335
+      "count": 32,
+      "total": 36336
     }
   ],
   "hour_histogram": [
@@ -23073,11 +23073,17 @@
     2347,
     3071,
     3536,
-    3477,
+    3478,
     2716,
     1864
   ],
   "recent": [
+    {
+      "n": 36336,
+      "id": "2d61d5612db8",
+      "name": "Wolfgang E.",
+      "ts": 1794861044.0
+    },
     {
       "n": 36335,
       "id": "df6424fbdeef",
@@ -23191,19 +23197,9 @@
       "id": "df6424fbdeef",
       "name": "Daniel",
       "ts": 1794855545.0
-    },
-    {
-      "n": 36316,
-      "id": "1b66c2456dfd",
-      "name": "MM",
-      "ts": 1794855314.0
     }
   ],
   "speed_samples": [
-    [
-      1794853510,
-      36313
-    ],
     [
       1794854423,
       36314
@@ -23291,6 +23287,10 @@
     [
       1794860691,
       36335
+    ],
+    [
+      1794861044,
+      36336
     ]
   ]
 }
