@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-18T01:30:15.582586+00:00",
+  "generated_at": "2026-11-18T01:41:39.109194+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36396,
-  "progress_pct": 3.6396,
+  "current_count": 36397,
+  "progress_pct": 3.6397,
   "num_players": 1372,
-  "total_messages": 50240,
+  "total_messages": 50241,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1794965387.0,
+  "last_count_ts": 1794966070.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -287,7 +287,7 @@
       "name": "Dominikz",
       "anon_phone": "+49 151 •••• 37",
       "points": 202,
-      "pct": 0.56,
+      "pct": 0.55,
       "last24h": 2,
       "longest_streak": 6,
       "assists_given": 0,
@@ -3979,6 +3979,22 @@
       "rank": 248
     },
     {
+      "id": "58bf82e69af8",
+      "name": "Torbenius",
+      "anon_phone": "+49 176 •••• 18",
+      "points": 25,
+      "pct": 0.07,
+      "last24h": 2,
+      "longest_streak": 5,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 17,
+      "early_counts": 0,
+      "last_ts": 1794966070.0,
+      "first_ts": 1789074402.0,
+      "rank": 249
+    },
+    {
       "id": "78a6d1300450",
       "name": "Connor",
       "anon_phone": "+49 172 •••• 53",
@@ -3992,7 +4008,7 @@
       "early_counts": 0,
       "last_ts": 1784069376.0,
       "first_ts": 1782492838.0,
-      "rank": 249
+      "rank": 250
     },
     {
       "id": "35d65a497164",
@@ -4008,7 +4024,7 @@
       "early_counts": 0,
       "last_ts": 1792514074.0,
       "first_ts": 1781291254.0,
-      "rank": 250
+      "rank": 251
     },
     {
       "id": "4f4e175bc5ef",
@@ -4024,7 +4040,7 @@
       "early_counts": 0,
       "last_ts": 1792017523.0,
       "first_ts": 1783618821.0,
-      "rank": 251
+      "rank": 252
     },
     {
       "id": "9836e62129cc",
@@ -4040,7 +4056,7 @@
       "early_counts": 0,
       "last_ts": 1784305790.0,
       "first_ts": 1781196178.0,
-      "rank": 252
+      "rank": 253
     },
     {
       "id": "b1c977b72c34",
@@ -4056,7 +4072,7 @@
       "early_counts": 0,
       "last_ts": 1786194046.0,
       "first_ts": 1781352899.0,
-      "rank": 253
+      "rank": 254
     },
     {
       "id": "40f76b4714a8",
@@ -4072,22 +4088,6 @@
       "early_counts": 3,
       "last_ts": 1784868899.0,
       "first_ts": 1781637402.0,
-      "rank": 254
-    },
-    {
-      "id": "58bf82e69af8",
-      "name": "Torbenius",
-      "anon_phone": "+49 176 •••• 18",
-      "points": 24,
-      "pct": 0.07,
-      "last24h": 1,
-      "longest_streak": 5,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 16,
-      "early_counts": 0,
-      "last_ts": 1794964700.0,
-      "first_ts": 1789074402.0,
       "rank": 255
     },
     {
@@ -22005,8 +22005,8 @@
       "06ef1dbdad22",
       "73a69bdc1f9e",
       "5e0359616cc8",
-      "b5d0fffe138c",
-      "5f45182377dd"
+      "58bf82e69af8",
+      "b5d0fffe138c"
     ],
     "longest_streak": [
       {
@@ -22225,8 +22225,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "9bf6383c58eb",
-      "name": "Nico",
+      "id": "58bf82e69af8",
+      "name": "Torbenius",
       "value": 1
     },
     "biggest_message": {
@@ -23073,14 +23073,14 @@
     },
     {
       "date": "2026-11-18",
-      "count": 4,
-      "total": 36396
+      "count": 5,
+      "total": 36397
     }
   ],
   "hour_histogram": [
     1076,
     650,
-    344,
+    345,
     245,
     98,
     75,
@@ -23104,6 +23104,12 @@
     1867
   ],
   "recent": [
+    {
+      "n": 36397,
+      "id": "58bf82e69af8",
+      "name": "Torbenius",
+      "ts": 1794966070.0
+    },
     {
       "n": 36396,
       "id": "9bf6383c58eb",
@@ -23217,12 +23223,6 @@
       "id": "6548cd1b6eae",
       "name": "Christoph",
       "ts": 1794946273.0
-    },
-    {
-      "n": 36374,
-      "id": "6548cd1b6eae",
-      "name": "Christoph",
-      "ts": 1794946273.0
     }
   ],
   "speed_samples": [
@@ -23241,6 +23241,10 @@
     [
       1794965387,
       36396
+    ],
+    [
+      1794966070,
+      36397
     ]
   ]
 }
