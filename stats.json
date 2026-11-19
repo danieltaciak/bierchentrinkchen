@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-19T19:10:53.705956+00:00",
+  "generated_at": "2026-11-19T19:15:23.910196+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36453,
-  "progress_pct": 3.6453,
+  "current_count": 36454,
+  "progress_pct": 3.6454,
   "num_players": 1373,
-  "total_messages": 50283,
+  "total_messages": 50284,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1795115422.0,
+  "last_count_ts": 1795115710.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 405,
+      "points": 406,
       "pct": 1.11,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 0,
       "night_counts": 65,
       "early_counts": 3,
-      "last_ts": 1794956199.0,
+      "last_ts": 1795115710.0,
       "first_ts": 1781373213.0,
       "rank": 5
     },
@@ -22019,7 +22019,8 @@
       "06ef1dbdad22",
       "29a1c5fbe7db",
       "df6424fbdeef",
-      "5f45182377dd"
+      "5f45182377dd",
+      "efeced9c0950"
     ],
     "longest_streak": [
       {
@@ -22238,8 +22239,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "a5f77afeecc6",
-      "name": "Nico",
+      "id": "efeced9c0950",
+      "name": "Finn",
       "value": 1
     },
     "biggest_message": {
@@ -23091,8 +23092,8 @@
     },
     {
       "date": "2026-11-19",
-      "count": 17,
-      "total": 36453
+      "count": 18,
+      "total": 36454
     }
   ],
   "hour_histogram": [
@@ -23116,12 +23117,18 @@
     1776,
     2356,
     3090,
-    3543,
+    3544,
     3499,
     2721,
     1868
   ],
   "recent": [
+    {
+      "n": 36454,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1795115710.0
+    },
     {
       "n": 36453,
       "id": "a5f77afeecc6",
@@ -23235,12 +23242,6 @@
       "id": "cec25393509e",
       "name": "Michl",
       "ts": 1795032638.0
-    },
-    {
-      "n": 36434,
-      "id": "cec25393509e",
-      "name": "Michl",
-      "ts": 1795032638.0
     }
   ],
   "speed_samples": [
@@ -23287,6 +23288,10 @@
     [
       1795115422,
       36453
+    ],
+    [
+      1795115710,
+      36454
     ]
   ]
 }
