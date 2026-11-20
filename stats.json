@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-20T21:33:38.158117+00:00",
+  "generated_at": "2026-11-20T21:38:28.131779+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36530,
-  "progress_pct": 3.653,
+  "current_count": 36531,
+  "progress_pct": 3.6531,
   "num_players": 1375,
-  "total_messages": 50401,
+  "total_messages": 50402,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1795210397.0,
+  "last_count_ts": 1795210676.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -430,15 +430,15 @@
       "id": "8561b6020a64",
       "name": "Daniel W.",
       "anon_phone": "+49 171 •••• 23",
-      "points": 163,
+      "points": 164,
       "pct": 0.45,
-      "last24h": 3,
+      "last24h": 4,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 11,
       "early_counts": 1,
-      "last_ts": 1795203015.0,
+      "last_ts": 1795210676.0,
       "first_ts": 1784041780.0,
       "rank": 27
     },
@@ -22043,10 +22043,10 @@
       "a5f77afeecc6",
       "9bf6383c58eb",
       "40e609fa336e",
+      "8561b6020a64",
       "73a69bdc1f9e",
       "2e95be7bb9ea",
       "df6424fbdeef",
-      "8561b6020a64",
       "642fea6fd359",
       "06ef1dbdad22",
       "29a1c5fbe7db",
@@ -22273,9 +22273,9 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "value": 3
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -23131,8 +23131,8 @@
     },
     {
       "date": "2026-11-20",
-      "count": 51,
-      "total": 36530
+      "count": 52,
+      "total": 36531
     }
   ],
   "hour_histogram": [
@@ -23158,10 +23158,16 @@
     3100,
     3570,
     3508,
-    2734,
+    2735,
     1871
   ],
   "recent": [
+    {
+      "n": 36531,
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
+      "ts": 1795210676.0
+    },
     {
       "n": 36530,
       "id": "73a69bdc1f9e",
@@ -23275,23 +23281,9 @@
       "id": "3ce6f8806201",
       "name": "Simon S.",
       "ts": 1795202690.0
-    },
-    {
-      "n": 36511,
-      "id": "642fea6fd359",
-      "name": "Malte",
-      "ts": 1795202367.0
     }
   ],
   "speed_samples": [
-    [
-      1795203222,
-      36516
-    ],
-    [
-      1795203305,
-      36517
-    ],
     [
       1795203624,
       36518
@@ -23343,6 +23335,10 @@
     [
       1795210397,
       36530
+    ],
+    [
+      1795210676,
+      36531
     ]
   ]
 }
