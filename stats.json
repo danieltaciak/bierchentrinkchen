@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-20T21:23:21.383383+00:00",
+  "generated_at": "2026-11-20T21:30:22.863077+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36526,
-  "progress_pct": 3.6526,
+  "current_count": 36527,
+  "progress_pct": 3.6527,
   "num_players": 1375,
-  "total_messages": 50398,
+  "total_messages": 50399,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1795209765.0,
+  "last_count_ts": 1795210188.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -16,7 +16,7 @@
       "anon_phone": "+49 170 •••• 40",
       "points": 705,
       "pct": 1.93,
-      "last24h": 6,
+      "last24h": 5,
       "longest_streak": 4,
       "assists_given": 0,
       "assists_received": 0,
@@ -350,15 +350,15 @@
       "id": "ff8a86710b38",
       "name": "TK",
       "anon_phone": "+49 157 •••• 67",
-      "points": 184,
-      "pct": 0.5,
-      "last24h": 0,
+      "points": 185,
+      "pct": 0.51,
+      "last24h": 1,
       "longest_streak": 6,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 9,
       "early_counts": 0,
-      "last_ts": 1793482841.0,
+      "last_ts": 1795210188.0,
       "first_ts": 1781390565.0,
       "rank": 22
     },
@@ -22273,8 +22273,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "4460bcf9c79c",
-      "name": "Lance",
+      "id": "ff8a86710b38",
+      "name": "TK",
       "value": 1
     },
     "biggest_message": {
@@ -23131,8 +23131,8 @@
     },
     {
       "date": "2026-11-20",
-      "count": 47,
-      "total": 36526
+      "count": 48,
+      "total": 36527
     }
   ],
   "hour_histogram": [
@@ -23158,10 +23158,16 @@
     3100,
     3570,
     3508,
-    2730,
+    2731,
     1871
   ],
   "recent": [
+    {
+      "n": 36527,
+      "id": "ff8a86710b38",
+      "name": "TK",
+      "ts": 1795210188.0
+    },
     {
       "n": 36526,
       "id": "4460bcf9c79c",
@@ -23275,27 +23281,9 @@
       "id": "16c2eaf23cfd",
       "name": "Börki",
       "ts": 1795202313.0
-    },
-    {
-      "n": 36507,
-      "id": "a84987d66bdc",
-      "name": "Fincenths",
-      "ts": 1795201816.0
     }
   ],
   "speed_samples": [
-    [
-      1795202690,
-      36512
-    ],
-    [
-      1795202820,
-      36513
-    ],
-    [
-      1795202946,
-      36514
-    ],
     [
       1795203015,
       36515
@@ -23343,6 +23331,10 @@
     [
       1795209765,
       36526
+    ],
+    [
+      1795210188,
+      36527
     ]
   ]
 }
