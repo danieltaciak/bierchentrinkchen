@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-24T18:31:11.063570+00:00",
+  "generated_at": "2026-11-24T18:34:56.992042+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36724,
-  "progress_pct": 3.6724,
+  "current_count": 36725,
+  "progress_pct": 3.6725,
   "num_players": 1377,
-  "total_messages": 50635,
+  "total_messages": 50636,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1795545057.0,
+  "last_count_ts": 1795545262.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -574,15 +574,15 @@
       "id": "8c19ca275648",
       "name": "Henrik H.",
       "anon_phone": "+49 151 •••• 72",
-      "points": 142,
+      "points": 143,
       "pct": 0.39,
-      "last24h": 0,
+      "last24h": 1,
       "longest_streak": 7,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 6,
       "early_counts": 0,
-      "last_ts": 1794848081.0,
+      "last_ts": 1795545262.0,
       "first_ts": 1782321593.0,
       "rank": 36
     },
@@ -22077,7 +22077,8 @@
       "4d809a6d040a",
       "2e70915ef43b",
       "1e4ae878fbd7",
-      "db6d81e90b74"
+      "db6d81e90b74",
+      "8c19ca275648"
     ],
     "longest_streak": [
       {
@@ -22296,8 +22297,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "db6d81e90b74",
-      "name": "Dominik H.",
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
       "value": 1
     },
     "biggest_message": {
@@ -23174,8 +23175,8 @@
     },
     {
       "date": "2026-11-24",
-      "count": 7,
-      "total": 36724
+      "count": 8,
+      "total": 36725
     }
   ],
   "hour_histogram": [
@@ -23198,13 +23199,19 @@
     1342,
     1803,
     2376,
-    3114,
+    3115,
     3586,
     3517,
     2740,
     1875
   ],
   "recent": [
+    {
+      "n": 36725,
+      "id": "8c19ca275648",
+      "name": "Henrik H.",
+      "ts": 1795545262.0
+    },
     {
       "n": 36724,
       "id": "db6d81e90b74",
@@ -23318,12 +23325,6 @@
       "id": "ea324bf7d29c",
       "name": "Berno",
       "ts": 1795416405.0
-    },
-    {
-      "n": 36704,
-      "id": "ea324bf7d29c",
-      "name": "Berno",
-      "ts": 1795416404.0
     }
   ],
   "speed_samples": [
@@ -23338,6 +23339,10 @@
     [
       1795545057,
       36724
+    ],
+    [
+      1795545262,
+      36725
     ]
   ]
 }
