@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-25T19:45:31.989408+00:00",
+  "generated_at": "2026-11-25T19:58:58.723489+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36778,
-  "progress_pct": 3.6778,
+  "current_count": 36780,
+  "progress_pct": 3.678,
   "num_players": 1377,
-  "total_messages": 50685,
+  "total_messages": 50686,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1795635895.0,
+  "last_count_ts": 1795636708.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -267,6 +267,22 @@
       "rank": 16
     },
     {
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "anon_phone": "+49 151 •••• 37",
+      "points": 210,
+      "pct": 0.57,
+      "last24h": 3,
+      "longest_streak": 6,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 15,
+      "early_counts": 3,
+      "last_ts": 1795636708.0,
+      "first_ts": 1789061375.0,
+      "rank": 17
+    },
+    {
       "id": "3ce6f8806201",
       "name": "Simon S.",
       "anon_phone": "+49 152 •••• 84",
@@ -280,22 +296,6 @@
       "early_counts": 5,
       "last_ts": 1795283018.0,
       "first_ts": 1781289501.0,
-      "rank": 17
-    },
-    {
-      "id": "73a69bdc1f9e",
-      "name": "Dominikz",
-      "anon_phone": "+49 151 •••• 37",
-      "points": 208,
-      "pct": 0.57,
-      "last24h": 1,
-      "longest_streak": 6,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 15,
-      "early_counts": 3,
-      "last_ts": 1795628394.0,
-      "first_ts": 1789061375.0,
       "rank": 18
     },
     {
@@ -320,7 +320,7 @@
       "anon_phone": "+49 176 •••• 96",
       "points": 203,
       "pct": 0.55,
-      "last24h": 1,
+      "last24h": 0,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
@@ -22061,8 +22061,8 @@
       "764f33f39eb0",
       "bbd3041bdb62",
       "74c46f04e647",
-      "3ce6f8806201",
       "73a69bdc1f9e",
+      "3ce6f8806201",
       "115bd3930d45",
       "553637e3d2b4",
       "2e95be7bb9ea",
@@ -22076,17 +22076,17 @@
       "4d809a6d040a",
       "a5f77afeecc6",
       "e1682a59e246",
+      "73a69bdc1f9e",
       "5f45182377dd",
       "06ef1dbdad22",
       "29a1c5fbe7db",
       "df6424fbdeef",
-      "553637e3d2b4",
       "fb974dc80aff",
       "6ae8b7629ff6",
       "6548cd1b6eae",
       "d6c5978b929b",
       "db6d81e90b74",
-      "73a69bdc1f9e"
+      "dd185fef1dba"
     ],
     "longest_streak": [
       {
@@ -22305,9 +22305,9 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "88dc236346c4",
-      "name": "Isa",
-      "value": 1
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -23188,8 +23188,8 @@
     },
     {
       "date": "2026-11-25",
-      "count": 41,
-      "total": 36778
+      "count": 43,
+      "total": 36780
     }
   ],
   "hour_histogram": [
@@ -23213,12 +23213,24 @@
     1803,
     2382,
     3124,
-    3593,
+    3595,
     3518,
     2740,
     1878
   ],
   "recent": [
+    {
+      "n": 36780,
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "ts": 1795636708.0
+    },
+    {
+      "n": 36779,
+      "id": "73a69bdc1f9e",
+      "name": "Dominikz",
+      "ts": 1795636708.0
+    },
     {
       "n": 36778,
       "id": "88dc236346c4",
@@ -23326,29 +23338,9 @@
       "id": "5f45182377dd",
       "name": "Helle",
       "ts": 1795615751.0
-    },
-    {
-      "n": 36758,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1795596584.0
-    },
-    {
-      "n": 36757,
-      "id": "9bf6383c58eb",
-      "name": "Nico",
-      "ts": 1795590574.0
     }
   ],
   "speed_samples": [
-    [
-      1795629170,
-      36766
-    ],
-    [
-      1795629203,
-      36767
-    ],
     [
       1795629613,
       36768
@@ -23384,6 +23376,14 @@
     [
       1795635895,
       36778
+    ],
+    [
+      1795636708,
+      36779
+    ],
+    [
+      1795636708,
+      36780
     ]
   ]
 }
