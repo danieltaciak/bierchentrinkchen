@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-26T19:18:47.085694+00:00",
+  "generated_at": "2026-11-26T19:19:19.547885+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36840,
-  "progress_pct": 3.684,
+  "current_count": 36841,
+  "progress_pct": 3.6841,
   "num_players": 1377,
-  "total_messages": 50715,
+  "total_messages": 50716,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1795720699.0,
+  "last_count_ts": 1795720747.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -446,15 +446,15 @@
       "id": "8561b6020a64",
       "name": "Daniel W.",
       "anon_phone": "+49 171 •••• 23",
-      "points": 165,
+      "points": 166,
       "pct": 0.45,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 2,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 11,
       "early_counts": 1,
-      "last_ts": 1795636862.0,
+      "last_ts": 1795720747.0,
       "first_ts": 1784041780.0,
       "rank": 28
     },
@@ -22076,10 +22076,10 @@
       "a5f77afeecc6",
       "7a2e949e25b3",
       "88dc236346c4",
+      "8561b6020a64",
       "a0aa51137b2f",
       "4d809a6d040a",
       "ac2cd1738d8b",
-      "8561b6020a64",
       "9bf6383c58eb",
       "764f33f39eb0",
       "ec4ff4bae258",
@@ -22305,9 +22305,9 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "ac2cd1738d8b",
-      "name": "Lukas S.",
-      "value": 2
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
+      "value": 1
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -23193,8 +23193,8 @@
     },
     {
       "date": "2026-11-26",
-      "count": 16,
-      "total": 36840
+      "count": 17,
+      "total": 36841
     }
   ],
   "hour_histogram": [
@@ -23218,12 +23218,18 @@
     1803,
     2383,
     3130,
-    3597,
+    3598,
     3523,
     2745,
     1878
   ],
   "recent": [
+    {
+      "n": 36841,
+      "id": "8561b6020a64",
+      "name": "Daniel W.",
+      "ts": 1795720747.0
+    },
     {
       "n": 36840,
       "id": "ac2cd1738d8b",
@@ -23337,12 +23343,6 @@
       "id": "73a69bdc1f9e",
       "name": "Dominikz",
       "ts": 1795642209.0
-    },
-    {
-      "n": 36821,
-      "id": "764f33f39eb0",
-      "name": "Maxi",
-      "ts": 1795642125.0
     }
   ],
   "speed_samples": [
@@ -23397,6 +23397,10 @@
     [
       1795720699,
       36840
+    ],
+    [
+      1795720747,
+      36841
     ]
   ]
 }
