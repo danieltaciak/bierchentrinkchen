@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-27T20:03:43.811152+00:00",
+  "generated_at": "2026-11-27T20:12:21.715184+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36880,
-  "progress_pct": 3.688,
+  "current_count": 36881,
+  "progress_pct": 3.6881,
   "num_players": 1377,
-  "total_messages": 50769,
+  "total_messages": 50770,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1795809797.0,
+  "last_count_ts": 1795810318.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -302,15 +302,15 @@
       "id": "553637e3d2b4",
       "name": "Linus K.",
       "anon_phone": "+49 176 •••• 96",
-      "points": 205,
+      "points": 206,
       "pct": 0.56,
-      "last24h": 1,
+      "last24h": 2,
       "longest_streak": 5,
       "assists_given": 0,
       "assists_received": 0,
       "night_counts": 31,
       "early_counts": 0,
-      "last_ts": 1795800348.0,
+      "last_ts": 1795810318.0,
       "first_ts": 1782747846.0,
       "rank": 19
     },
@@ -22078,6 +22078,7 @@
       "5f45182377dd",
       "cec25393509e",
       "5e4e6db7ee18",
+      "553637e3d2b4",
       "544f5d661c10",
       "6701615ce207",
       "a5f77afeecc6",
@@ -22085,8 +22086,7 @@
       "2c64c4c2fa99",
       "d250ce427a30",
       "3aaeac06e8b8",
-      "cf6f68a02620",
-      "fdc8244e9d09"
+      "cf6f68a02620"
     ],
     "longest_streak": [
       {
@@ -22305,8 +22305,8 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "5e4e6db7ee18",
-      "name": "Hansi",
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
       "value": 1
     },
     "biggest_message": {
@@ -23198,8 +23198,8 @@
     },
     {
       "date": "2026-11-27",
-      "count": 24,
-      "total": 36880
+      "count": 25,
+      "total": 36881
     }
   ],
   "hour_histogram": [
@@ -23224,11 +23224,17 @@
     2384,
     3133,
     3609,
-    3528,
+    3529,
     2750,
     1880
   ],
   "recent": [
+    {
+      "n": 36881,
+      "id": "553637e3d2b4",
+      "name": "Linus K.",
+      "ts": 1795810318.0
+    },
     {
       "n": 36880,
       "id": "5e4e6db7ee18",
@@ -23342,12 +23348,6 @@
       "id": "fdc8244e9d09",
       "name": "Luis",
       "ts": 1795787772.0
-    },
-    {
-      "n": 36861,
-      "id": "5f45182377dd",
-      "name": "Helle",
-      "ts": 1795785856.0
     }
   ],
   "speed_samples": [
@@ -23390,6 +23390,10 @@
     [
       1795809797,
       36880
+    ],
+    [
+      1795810318,
+      36881
     ]
   ]
 }
