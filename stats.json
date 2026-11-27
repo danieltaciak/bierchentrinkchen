@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-27T22:16:35.734451+00:00",
+  "generated_at": "2026-11-27T22:26:09.041794+00:00",
   "timezone": "Europe/Berlin",
   "group_name": "1 Million leckere Bierle",
   "target": 1000000,
-  "current_count": 36897,
-  "progress_pct": 3.6897,
+  "current_count": 36900,
+  "progress_pct": 3.69,
   "num_players": 1377,
-  "total_messages": 50797,
+  "total_messages": 50799,
   "first_count_ts": 1780938428.0,
-  "last_count_ts": 1795817779.0,
+  "last_count_ts": 1795818356.0,
   "players": [
     {
       "id": "a5f77afeecc6",
@@ -78,15 +78,15 @@
       "id": "efeced9c0950",
       "name": "Finn",
       "anon_phone": "+49 176 •••• 42",
-      "points": 410,
-      "pct": 1.11,
-      "last24h": 1,
+      "points": 412,
+      "pct": 1.12,
+      "last24h": 3,
       "longest_streak": 4,
       "assists_given": 3,
       "assists_received": 0,
       "night_counts": 65,
       "early_counts": 3,
-      "last_ts": 1795809185.0,
+      "last_ts": 1795818356.0,
       "first_ts": 1781373213.0,
       "rank": 5
     },
@@ -1547,6 +1547,22 @@
       "rank": 96
     },
     {
+      "id": "21c53f0a0b18",
+      "name": "Valentin",
+      "anon_phone": "+49 177 •••• 14",
+      "points": 62,
+      "pct": 0.17,
+      "last24h": 1,
+      "longest_streak": 2,
+      "assists_given": 0,
+      "assists_received": 0,
+      "night_counts": 1,
+      "early_counts": 0,
+      "last_ts": 1795818336.0,
+      "first_ts": 1781981284.0,
+      "rank": 97
+    },
+    {
       "id": "bec3c18e962d",
       "name": "G.",
       "anon_phone": "+49 176 •••• 26",
@@ -1560,22 +1576,6 @@
       "early_counts": 0,
       "last_ts": 1788026544.0,
       "first_ts": 1781192060.0,
-      "rank": 97
-    },
-    {
-      "id": "21c53f0a0b18",
-      "name": "Valentin",
-      "anon_phone": "+49 177 •••• 14",
-      "points": 61,
-      "pct": 0.17,
-      "last24h": 0,
-      "longest_streak": 2,
-      "assists_given": 0,
-      "assists_received": 0,
-      "night_counts": 1,
-      "early_counts": 0,
-      "last_ts": 1794946228.0,
-      "first_ts": 1781981284.0,
       "rank": 98
     },
     {
@@ -3686,7 +3686,7 @@
       "assists_received": 0,
       "night_counts": 17,
       "early_counts": 0,
-      "last_ts": 1795817779.0,
+      "last_ts": 1795818206.0,
       "first_ts": 1789074402.0,
       "rank": 230
     },
@@ -22076,6 +22076,7 @@
       "5f45182377dd",
       "5e4e6db7ee18",
       "553637e3d2b4",
+      "efeced9c0950",
       "9bf6383c58eb",
       "2e95be7bb9ea",
       "fdc8244e9d09",
@@ -22085,8 +22086,7 @@
       "ed68d0e3bcd5",
       "032a270163e4",
       "1c675160f067",
-      "74ff2108d346",
-      "3ce6f8806201"
+      "74ff2108d346"
     ],
     "longest_streak": [
       {
@@ -22305,9 +22305,9 @@
       "end_n": 35442
     },
     "current_streak": {
-      "id": "58bf82e69af8",
-      "name": "Torbenius",
-      "value": 1
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "value": 2
     },
     "biggest_message": {
       "id": "60a53d25c862",
@@ -23198,8 +23198,8 @@
     },
     {
       "date": "2026-11-27",
-      "count": 41,
-      "total": 36897
+      "count": 44,
+      "total": 36900
     }
   ],
   "hour_histogram": [
@@ -23226,14 +23226,32 @@
     3609,
     3532,
     2752,
-    1883
+    1886
   ],
   "recent": [
+    {
+      "n": 36900,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1795818356.0
+    },
+    {
+      "n": 36899,
+      "id": "efeced9c0950",
+      "name": "Finn",
+      "ts": 1795818356.0
+    },
+    {
+      "n": 36898,
+      "id": "21c53f0a0b18",
+      "name": "Valentin",
+      "ts": 1795818336.0
+    },
     {
       "n": 36897,
       "id": "58bf82e69af8",
       "name": "Torbenius",
-      "ts": 1795817779.0
+      "ts": 1795818206.0
     },
     {
       "n": 36896,
@@ -23330,24 +23348,6 @@
       "id": "df6424fbdeef",
       "name": "Daniel",
       "ts": 1795807099.0
-    },
-    {
-      "n": 36872,
-      "id": "560a153374c5",
-      "name": "jakob_burger",
-      "ts": 1795805431.0
-    },
-    {
-      "n": 36871,
-      "id": "3ce6f8806201",
-      "name": "Simon S.",
-      "ts": 1795803592.0
-    },
-    {
-      "n": 36870,
-      "id": "74ff2108d346",
-      "name": "Martin",
-      "ts": 1795802501.0
     }
   ],
   "speed_samples": [
@@ -23380,8 +23380,20 @@
       36896
     ],
     [
-      1795817779,
+      1795818206,
       36897
+    ],
+    [
+      1795818336,
+      36898
+    ],
+    [
+      1795818356,
+      36899
+    ],
+    [
+      1795818356,
+      36900
     ]
   ]
 }
